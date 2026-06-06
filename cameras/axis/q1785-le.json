@@ -1,0 +1,60 @@
+{
+  "id": "axis-q1785-le",
+  "brand": "Axis",
+  "model": "Q1785-LE",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.9\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.4-8.9 (varifocal)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-36 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lightfinder 2.0",
+    "OptimizedIR 100m",
+    "Forensic WDR",
+    "remote zoom and focus",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "built-in mic",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q1785-le"
+  ]
+}

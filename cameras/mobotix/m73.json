@@ -1,0 +1,62 @@
+{
+  "id": "mobotix-m73",
+  "brand": "Mobotix",
+  "model": "M73",
+  "aliases": [
+    "Mx-M73",
+    "MOBOTIX 7 M73"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "label": "Up to 12MP (sensor-dependent)"
+  },
+  "sensor": "Interchangeable: 4K UHD / 12MP / 4MP ULL / hemispheric sensor modules",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Interchangeable (multiple focal lengths available)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12-48V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http",
+    "mxpeg"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "MOBOTIX 7 platform",
+    "dual interchangeable sensor modules",
+    "modular IoT architecture",
+    "open app platform (certified apps)",
+    "object counting / heatmap / behavior detection",
+    "360deg hemispheric option",
+    "EN 54-10 thermal variant available",
+    "H.265 / MxPEG",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.mobotix.com/en/m73-high-performance-iot-camera"
+  ]
+}

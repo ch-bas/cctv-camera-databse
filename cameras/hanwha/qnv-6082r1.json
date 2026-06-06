@@ -1,0 +1,61 @@
+{
+  "id": "hanwha-qnv-6082r1",
+  "brand": "Hanwha",
+  "model": "QNV-6082R1",
+  "aliases": [
+    "Wisenet Q 2MP Varifocal Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (motorized varifocal)",
+    "aperture": "F1.4",
+    "varifocal": true
+  },
+  "field_of_view_deg": "105-32 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WiseStream II",
+    "IVA analytics",
+    "120 dB WDR",
+    "H.265/H.264",
+    "motorized varifocal",
+    "IK10"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

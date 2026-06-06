@@ -1,0 +1,60 @@
+{
+  "id": "mobotix-p71",
+  "brand": "Mobotix",
+  "model": "P71",
+  "aliases": [
+    "Mx-P71",
+    "MOBOTIX 7 P71 PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.5\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-130 (30x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "60-2.3 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "mxpeg"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "MOBOTIX 7 platform",
+    "30x optical zoom",
+    "4K PTZ",
+    "open app platform",
+    "certified AI apps support",
+    "H.265 / MxPEG",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.mobotix.com/en/products/cameras/ptz"
+  ]
+}

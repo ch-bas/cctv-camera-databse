@@ -1,0 +1,55 @@
+{
+  "id": "hikvision-ds-2se4c430mwg-e",
+  "brand": "Hikvision",
+  "model": "DS-2SE4C430MWG-E",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4MP+4MP TandemVu 30x"
+  },
+  "field_of_view_deg": "60-2h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 60
+  },
+  "power": {
+    "method": "PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "TandemVu: overview + 30x PTZ",
+    "4MP wide + 4MP 30x IR PTZ",
+    "AcuSense AI",
+    "H.265+",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ],
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8mm wide + 5.9-177mm 30x PTZ",
+    "varifocal": true
+  },
+  "sensor": "Dual CMOS"
+}

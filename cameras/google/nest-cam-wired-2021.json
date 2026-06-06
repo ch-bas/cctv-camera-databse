@@ -1,0 +1,61 @@
+{
+  "id": "google-nest-cam-wired-2021",
+  "brand": "Google",
+  "model": "Nest Cam (Wired, 2nd Gen)",
+  "aliases": [
+    "GA01998-US"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 6
+  },
+  "power": {
+    "method": "Wired USB-A or USB-C / outdoor weatherproof cable available"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "continuous 24/7 recording (Nest Aware Plus)",
+    "HDR video",
+    "6x digital zoom",
+    "on-device machine learning",
+    "person/animal/vehicle detection",
+    "noise-cancelling two-way audio",
+    "Google Home app",
+    "Alexa"
+  ],
+  "release_year": 2021,
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://store.google.com/product/nest_cam_specs"
+  ]
+}

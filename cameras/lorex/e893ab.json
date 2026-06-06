@@ -1,0 +1,64 @@
+{
+  "id": "lorex-e893ab",
+  "brand": "Lorex",
+  "model": "E893AB (4K PoE Smart Deterrence Bullet)",
+  "aliases": [
+    "4K IP Wired Bullet Camera Smart Deterrence"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "113 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K PoE bullet",
+    "smart deterrence (spotlight + siren)",
+    "dual-light color night vision",
+    "smart motion detection (person/vehicle/animal)",
+    "IP67",
+    "IK10",
+    "NVR compatible",
+    "no monthly fees"
+  ],
+  "msrp_usd": 89.99,
+  "sources": [
+    "https://www.lorex.com/products/e893ab-4k-ip-wired-bullet-smart-deterrence"
+  ]
+}

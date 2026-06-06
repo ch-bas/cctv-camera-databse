@@ -1,0 +1,63 @@
+{
+  "id": "yale-wipc-303w",
+  "brand": "Yale",
+  "model": "WIPC-303W",
+  "aliases": [
+    "Yale Home View Pan/Tilt/Zoom Indoor Camera"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2019,
+  "markets": [
+    "UK"
+  ],
+  "resolution": {
+    "megapixels": 1,
+    "max_width": 1280,
+    "max_height": 720,
+    "label": "720p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "93 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "indoor pan/tilt/zoom camera",
+    "360deg pan",
+    "720p HD",
+    "8m night vision",
+    "two-way audio",
+    "Yale Home View App",
+    "entry-level budget Yale indoor cam"
+  ],
+  "msrp_gbp": 49.99,
+  "sources": [
+    "https://www.yale.co.uk/"
+  ]
+}

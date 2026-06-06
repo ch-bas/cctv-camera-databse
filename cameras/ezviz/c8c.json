@@ -1,0 +1,69 @@
+{
+  "id": "ezviz-c8c",
+  "brand": "EZVIZ",
+  "model": "C8C",
+  "aliases": [
+    "EZVIZ C8C Outdoor Pan/Tilt 1080p"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "UK",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "352 pan / 95 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V (outdoor adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "outdoor pan/tilt camera",
+    "352deg pan / 95deg tilt",
+    "AI person detection",
+    "spotlight color night vision",
+    "strobe light deterrence",
+    "IP67",
+    "auto-tracking",
+    "RTSP/ONVIF",
+    "Alexa / Google"
+  ],
+  "msrp_gbp": 49.99,
+  "sources": [
+    "https://www.ezviz.com/product/c8c/"
+  ]
+}

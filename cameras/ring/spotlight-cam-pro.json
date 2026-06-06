@@ -1,0 +1,61 @@
+{
+  "id": "ring-spotlight-cam-pro",
+  "brand": "Ring",
+  "model": "Spotlight Cam Pro",
+  "aliases": [
+    "Battery / Plug-in / Solar / Wired variants"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 horizontal / 80 vertical",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / Solar / Plug-in / Wired (variants)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD color night vision",
+    "3D motion detection",
+    "bird's-eye view (aerial map)",
+    "dual spotlight LEDs",
+    "two-way audio",
+    "Ring Protect plan for cloud video",
+    "person/vehicle/package/motion alerts",
+    "Alexa integration"
+  ],
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://ring.com/products/spotlight-cam-pro"
+  ]
+}

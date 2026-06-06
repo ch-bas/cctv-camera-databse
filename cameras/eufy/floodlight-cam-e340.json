@@ -1,0 +1,59 @@
+{
+  "id": "eufy-floodlight-cam-e340",
+  "brand": "Eufy",
+  "model": "Floodlight Cam E340",
+  "aliases": [
+    "Eufy E340 Dual 3K Floodlight"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 6,
+    "label": "Dual 3MP 2K+2K floodlight"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Wide + standard fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "290 combined",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual 3MP cameras + 2000-lumen floodlight",
+    "motorised pan/tilt",
+    "color night vision",
+    "AI person/vehicle detection",
+    "24/7 recording on HomeBase",
+    "no subscription fee",
+    "HomeKit / Alexa / Google",
+    "IP67"
+  ],
+  "msrp_usd": 249,
+  "sources": [
+    "https://www.eufy.com/products/floodlight-cam-e340"
+  ]
+}

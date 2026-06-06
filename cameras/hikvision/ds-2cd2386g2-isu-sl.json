@@ -1,0 +1,62 @@
+{
+  "id": "hikvision-ds-2cd2386g2-isu-sl2",
+  "brand": "Hikvision",
+  "model": "DS-2CD2386G2-ISU/SL",
+  "aliases": [
+    "AcuSense 8MP Strobe Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "AcuSense human/vehicle",
+    "strobe light deterrence",
+    "audible warning",
+    "built-in mic & speaker",
+    "120 dB WDR",
+    "H.265+",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

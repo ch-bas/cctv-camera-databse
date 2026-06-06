@@ -1,0 +1,65 @@
+{
+  "id": "qubo-bullet-cam-pro",
+  "brand": "Qubo",
+  "model": "Bullet Cam Pro",
+  "aliases": [
+    "Qubo Outdoor Bullet Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "107 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "DC 12V (outdoor adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "STQC & BIS certified outdoor bullet",
+    "3MP 2K color night vision",
+    "AI person detection",
+    "IP66 weatherproof",
+    "Qubo India cloud",
+    "Alexa",
+    "Made in India Hero Group"
+  ],
+  "msrp_inr": 4999,
+  "sources": [
+    "https://www.quboworld.com/"
+  ]
+}

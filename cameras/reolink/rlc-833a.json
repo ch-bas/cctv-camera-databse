@@ -1,0 +1,58 @@
+{
+  "id": "reolink-rlc-833a",
+  "brand": "Reolink",
+  "model": "RLC-833A",
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-8 (3x motorized)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "110-41 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3x optical zoom",
+    "spotlight color night vision",
+    "700-lumen spotlight",
+    "person/vehicle/animal detection",
+    "two-way audio",
+    "no subscription"
+  ],
+  "release_year": 2022,
+  "sources": [
+    "https://reolink.com/us/product/rlc-833a/"
+  ]
+}

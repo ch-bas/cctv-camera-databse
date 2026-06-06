@@ -1,0 +1,50 @@
+{
+  "id": "intelbras-vip-s4020-g2",
+  "brand": "Intelbras",
+  "model": "VIP-S4020-G2",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE/DC12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Intelbras 4MP PoE dome AI SMD Brazil/LATAM",
+    "30m IR",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "ANATEL certified"
+  ],
+  "sources": [
+    "https://www.intelbras.com/en/"
+  ]
+}

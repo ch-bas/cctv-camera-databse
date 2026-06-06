@@ -1,0 +1,60 @@
+{
+  "id": "eufy-indoor-cam-s350",
+  "brand": "Eufy",
+  "model": "Indoor Cam S350",
+  "aliases": [
+    "Eufy S350 4K Dual-Lens Pan/Tilt Indoor"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K wide + 8x zoom dual-lens"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Wide 4K + 8x zoom tele",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 45 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB-C)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http",
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K dual-lens indoor pan/tilt",
+    "8x optical zoom",
+    "auto-tracking",
+    "BionicMind AI face recognition",
+    "color night vision",
+    "no subscription",
+    "local HomeBase storage",
+    "HomeKit / Alexa / Google",
+    "RTSP support"
+  ],
+  "msrp_usd": 99,
+  "sources": [
+    "https://www.eufy.com/products/indoor-cam-s350"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "reolink-argus-4-pro-at",
+  "brand": "Reolink",
+  "model": "Argus 4 Pro (Austria)",
+  "aliases": [
+    "Reolink Argus 4 Pro 4K Dual-Lens WiFi 6 AT/CH"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "AT",
+    "CH",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K dual-lens 180deg"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "4mm x2 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar panel optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K 180deg dual-lens ColorX color night vision (no IR needed)",
+    "WiFi 6 dual-band",
+    "person/vehicle/animal/package AI detection",
+    "no subscription",
+    "up to 512GB microSD",
+    "solar optional",
+    "IP66",
+    "Alexa / Google",
+    "available Amazon.at / Conrad AT"
+  ],
+  "msrp_eur": 149.99,
+  "sources": [
+    "https://reolink.com/at/",
+    "https://www.amazon.at/"
+  ]
+}

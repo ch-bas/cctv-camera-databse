@@ -1,0 +1,65 @@
+{
+  "id": "hilook-ptz-n4mp",
+  "brand": "HiLook",
+  "model": "PTZ-N4MP20-IE",
+  "aliases": [
+    "HiLook 4MP 20x PTZ PoE Network Camera"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-86 (20x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "58-3 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 80
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "HiLook 4MP 20x PTZ entry-level",
+    "80m IR",
+    "auto-tracking",
+    "H.265+",
+    "ONVIF/RTSP",
+    "IP66",
+    "Hikvision NVR compatible",
+    "most affordable HiLook PTZ"
+  ],
+  "msrp_usd": 149,
+  "sources": [
+    "https://www.hikvision.com/en/products/HiLook-IP-Products/"
+  ]
+}

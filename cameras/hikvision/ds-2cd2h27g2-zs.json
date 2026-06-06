@@ -1,0 +1,61 @@
+{
+  "id": "hikvision-ds-2cd2h27g2-zs",
+  "brand": "Hikvision",
+  "model": "DS-2CD2H27G2-ZS",
+  "aliases": [
+    "ColorVu 2MP 50fps Motorized Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (motorized varifocal)",
+    "aperture": "F1.0",
+    "varifocal": true
+  },
+  "field_of_view_deg": "106-32 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorVu 24/7 full-color",
+    "50fps high frame rate",
+    "motorized varifocal",
+    "AcuSense",
+    "130 dB WDR",
+    "H.265+"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

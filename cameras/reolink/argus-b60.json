@@ -1,0 +1,60 @@
+{
+  "id": "reolink-argus-b60",
+  "brand": "Reolink",
+  "model": "Argus B60",
+  "aliases": [
+    "4K Battery Solar Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "105 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Built-in rechargeable battery / USB-C / Reolink Solar Panel optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K battery camera",
+    "spotlight color night vision",
+    "person/vehicle/animal detection",
+    "no subscription",
+    "solar panel compatible"
+  ],
+  "release_year": 2023,
+  "sources": [
+    "https://reolink.com/product/argus-b60/"
+  ]
+}

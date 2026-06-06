@@ -1,0 +1,63 @@
+{
+  "id": "axis-m4318-plve",
+  "brand": "Axis",
+  "model": "M4318-PLVE",
+  "aliases": [
+    "Axis M4318-PLVE 4K Outdoor Panoramic Dome"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD per channel"
+  },
+  "sensor": "1/2\" Progressive Scan CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Wide + tele (fixed per sensor)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "270 combined",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "dual-sensor outdoor panoramic",
+    "ARTPEC-8 DLPU",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "OptimizedIR",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "built-in mic",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-m4318-plve"
+  ]
+}

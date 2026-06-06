@@ -1,0 +1,60 @@
+{
+  "id": "ubiquiti-ai-dome",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect AI Dome",
+  "aliases": [
+    "UVC-AI-Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "96 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K AI camera",
+    "enhanced AI face/LPR detection",
+    "UniFi Protect ecosystem",
+    "IK09",
+    "long-range IR",
+    "built-in mic"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-ai-dome"
+  ]
+}

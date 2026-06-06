@@ -1,0 +1,66 @@
+{
+  "id": "annke-c800-turret",
+  "brand": "Annke",
+  "model": "C800 (Turret)",
+  "aliases": [
+    "4K 8MP PoE Turret I91BM"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "96 horizontal (4mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K 8MP PoE turret eyeball",
+    "EXIR 2.0 night vision",
+    "120 dB WDR",
+    "3D DNR",
+    "H.265+",
+    "AI human/vehicle detection",
+    "IP67",
+    "IK10",
+    "RTSP/ONVIF"
+  ],
+  "msrp_usd": 49.99,
+  "sources": [
+    "https://www.annke.com/products/c800"
+  ]
+}

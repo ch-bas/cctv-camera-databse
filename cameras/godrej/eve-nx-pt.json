@@ -1,0 +1,68 @@
+{
+  "id": "godrej-eve-nx-pt",
+  "brand": "Godrej",
+  "model": "Eve Nx PT",
+  "aliases": [
+    "Godrej Eve NXT PT",
+    "Godrej Smart Home Camera Pan/Tilt"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "105 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Godrej brand trust (150+ years)",
+    "1080p pan/tilt indoor",
+    "smart motion tracking",
+    "two-way audio",
+    "EVE app",
+    "night vision",
+    "up to 128GB microSD",
+    "no subscription required",
+    "\u20b93,000\u20135,000"
+  ],
+  "msrp_inr": 3999,
+  "sources": [
+    "https://www.amazon.in/Godrej-Eve-Nx-PT-Security/dp/B0886XDDDF"
+  ]
+}

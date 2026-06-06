@@ -1,0 +1,66 @@
+{
+  "id": "lorex-b862aj-canada",
+  "brand": "Lorex",
+  "model": "B862AJ",
+  "aliases": [
+    "Lorex 4K Wired Video Doorbell Canada"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "CA",
+    "US"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal (head-to-toe)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (existing 16-24V AC doorbell wiring)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K head-to-toe video doorbell",
+    "color night vision",
+    "person/package detection",
+    "two-way audio",
+    "32GB local storage",
+    "no monthly fees",
+    "Lorex Home app",
+    "Alexa",
+    "rated -40\u00b0C Canadian winters"
+  ],
+  "msrp_cad": 149.99,
+  "sources": [
+    "https://www.lorex.ca/"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "uniview-ipc2228se-df40k-wl-i0",
+  "brand": "Uniview",
+  "model": "IPC2228SE-DF40K-WL-I0",
+  "aliases": [
+    "UNV 8MP 4K ColorHunter Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "89 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K ColorHunter 24/7 full-color",
+    "F1.0 super aperture",
+    "1/1.8\" large sensor",
+    "Ultra 265 / H.265",
+    "perimeter protection AI"
+  ],
+  "sources": [
+    "https://www.uniview.com/"
+  ]
+}

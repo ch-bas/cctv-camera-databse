@@ -1,0 +1,59 @@
+{
+  "id": "mobotix-d71",
+  "brand": "Mobotix",
+  "model": "D71",
+  "aliases": [
+    "Mx-D71",
+    "MOBOTIX 7 D71 Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD or 4MP ULL"
+  },
+  "sensor": "1/2\" 4K UHD or 4MP ULL CMOS (selectable)",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Multiple options (3.6mm\u201325mm)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "mxpeg"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "MOBOTIX 7 platform",
+    "4K UHD or 4MP ultra-low-light sensor option",
+    "built-in mic & speaker",
+    "3-axis pan-tilt head",
+    "open app platform",
+    "H.265 / MxPEG",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.mobotix.com/en/products/cameras/single-lens/mobotix-d71"
+  ]
+}

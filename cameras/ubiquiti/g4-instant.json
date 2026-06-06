@@ -1,0 +1,58 @@
+{
+  "id": "ubiquiti-g4-instant",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G4 Instant",
+  "aliases": [
+    "UVC-G4-INS"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1512,
+    "label": "2K"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.3 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB-C / DC 5V (not PoE)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "WiFi indoor camera",
+    "compact discreet design",
+    "AI event detection",
+    "UniFi Protect ecosystem",
+    "two-way audio"
+  ],
+  "release_year": 2021,
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-ins"
+  ]
+}

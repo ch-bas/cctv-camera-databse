@@ -1,0 +1,55 @@
+{
+  "id": "cp-plus-cp-e45q-india",
+  "brand": "CP Plus",
+  "model": "CP-E45Q",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "60-2.5h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "CP Plus 4MP 25x AI PTZ India",
+    "100m IR",
+    "SMD Plus AI",
+    "H.265",
+    "IP66",
+    "popular India PTZ entry"
+  ],
+  "sources": [
+    "https://www.cpplus.in/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.8-120 (25x optical)",
+    "varifocal": true
+  }
+}

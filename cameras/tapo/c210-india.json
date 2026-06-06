@@ -1,0 +1,68 @@
+{
+  "id": "tapo-c210-india",
+  "brand": "Tapo",
+  "model": "C210 (India)",
+  "aliases": [
+    "TP-Link Tapo C210 3MP Pan/Tilt India"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "IN",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2304,
+    "max_height": 1296,
+    "label": "3MP 2K"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 114 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 9
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3MP 2K indoor pan/tilt",
+    "360deg coverage",
+    "AI person/pet detection",
+    "privacy mode shutter",
+    "H.265",
+    "Tapo app / Alexa / Google HomeKit",
+    "RTSP/ONVIF",
+    "\u20b92,500\u20133,500 best value India indoor cam"
+  ],
+  "msrp_inr": 2699,
+  "sources": [
+    "https://www.tapo.com/in/"
+  ]
+}

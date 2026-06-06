@@ -1,0 +1,61 @@
+{
+  "id": "tapo-d235",
+  "brand": "Tapo",
+  "model": "D235",
+  "aliases": [
+    "TP-Link Tapo D235 3K Wired Doorbell"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "3K 5MP"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (existing 16-24V AC doorbell wiring)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3K 5MP wired doorbell",
+    "F1.6 large aperture",
+    "colour night vision",
+    "AI person/package detection",
+    "two-way audio",
+    "HomeKit / Alexa / Google",
+    "free cloud storage"
+  ],
+  "msrp_usd": 89,
+  "sources": [
+    "https://www.tapo.com/en/product/smart-doorbell/tapo-d235/"
+  ]
+}

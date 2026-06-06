@@ -1,0 +1,62 @@
+{
+  "id": "amcrest-ad410-doorbell",
+  "brand": "Amcrest",
+  "model": "AD410 2K Video Doorbell",
+  "aliases": [
+    "Amcrest Smart Home 2K WiFi Video Doorbell AD410"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "163 diagonal (head-to-toe)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (16-24V AC) / battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD video doorbell",
+    "color night vision",
+    "head-to-toe view",
+    "person/package detection",
+    "two-way audio",
+    "Alexa compatible",
+    "Blue Iris compatible",
+    "IP65",
+    "no subscription required"
+  ],
+  "msrp_usd": 79,
+  "sources": [
+    "https://amcrest.com/products/video-doorbells/ad410"
+  ]
+}

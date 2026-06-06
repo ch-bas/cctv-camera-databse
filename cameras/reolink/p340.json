@@ -1,0 +1,52 @@
+{
+  "id": "reolink-p340",
+  "brand": "Reolink",
+  "model": "P340",
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 6,
+    "label": "6MP 360\u00b0"
+  },
+  "field_of_view_deg": "360 fisheye",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "PoE 802.3af / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360\u00b0 fisheye PoE ceiling camera 6MP",
+    "dewarped multi-view",
+    "person/vehicle/animal/package AI",
+    "ONVIF/RTSP",
+    "IP67",
+    "IK10",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/p340/"
+  ],
+  "msrp_usd": 59
+}

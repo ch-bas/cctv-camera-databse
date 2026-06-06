@@ -1,0 +1,64 @@
+{
+  "id": "dahua-ipc-hdw3449h-as-pv-pro",
+  "brand": "Dahua",
+  "model": "IPC-HDW3449H-AS-PV-PRO",
+  "aliases": [
+    "WizColor TiOC PRO 4MP Eyeball"
+  ],
+  "release_year": 2024,
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "113 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "TiOC PRO WizColor 24/7 full-color",
+    "F1.0 large aperture",
+    "1/1.8\" sensor",
+    "WizSense AI SMD 4.0",
+    "AcuPick AI video search",
+    "active deterrence red/blue lights",
+    "dual mic + speaker",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/TiOC/IPC-HDW3449H-AS-PV-PRO"
+  ]
+}

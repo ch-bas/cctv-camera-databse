@@ -1,0 +1,62 @@
+{
+  "id": "bosch-nbe-5702-al",
+  "brand": "Bosch",
+  "model": "DINION 5100i 2MP Bullet (NBE-5702-AL)",
+  "aliases": [
+    "NBE-5702-AL",
+    "DINION outdoor 5100i 2MP"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.2-10.5 (motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "105-31 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 60
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 2048,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": true
+  },
+  "features": [
+    "IVA Pro deep learning analytics",
+    "Starlight low-light",
+    "HDR",
+    "audio I/O",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.bhphotovideo.com/c/product/1832250-REG/bosch_nbe_5702_al_dinion_5100i_ir.html"
+  ]
+}

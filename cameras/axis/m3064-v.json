@@ -1,0 +1,51 @@
+{
+  "id": "axis-m3064-v",
+  "brand": "Axis",
+  "model": "M3064-V",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2015,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis M3064-V 4MP indoor mini dome",
+    "Lightfinder",
+    "WDR",
+    "AXIS Video Analytics",
+    "IP42",
+    "IK08",
+    "compact retail"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ]
+}

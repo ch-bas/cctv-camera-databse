@@ -1,0 +1,58 @@
+{
+  "id": "hikvision-ds-2de5a425iwg-eb",
+  "brand": "Hikvision",
+  "model": "DS-2DE5A425IWG-E(B)",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "60-2.5h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP 25x PTZ DeepinView",
+    "100m IR",
+    "AcuSense AI",
+    "auto-tracking",
+    "H.265+",
+    "IP66",
+    "smart tracking"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.8-120 (25x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "sensor": "1/2.8\" CMOS"
+}

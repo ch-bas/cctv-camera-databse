@@ -1,0 +1,51 @@
+{
+  "id": "reolink-e1-zoom",
+  "brand": "Reolink",
+  "model": "E1 Zoom",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "95-34 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 9
+  },
+  "power": {
+    "method": "DC 5V USB"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 64,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "5MP indoor WiFi with 3\u00d7 optical zoom",
+    "motorized varifocal",
+    "9m IR",
+    "person detection",
+    "RTSP",
+    "two-way audio",
+    "Alexa/Google",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/e1-zoom/"
+  ],
+  "msrp_usd": 45
+}

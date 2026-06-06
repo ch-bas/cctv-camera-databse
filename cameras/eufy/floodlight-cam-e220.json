@@ -1,0 +1,63 @@
+{
+  "id": "eufy-floodlight-cam-e220",
+  "brand": "Eufy",
+  "model": "Floodlight Cam E220",
+  "aliases": [
+    "Eufy E220 2K Wired Floodlight Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "125 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K wired floodlight camera",
+    "2000-lumen LED floodlight",
+    "color night vision",
+    "AI person detection",
+    "built-in siren",
+    "two-way audio",
+    "no subscription fee",
+    "HomeBase optional",
+    "HomeKit / Alexa / Google",
+    "IP67"
+  ],
+  "msrp_usd": 199,
+  "sources": [
+    "https://www.eufy.com/products/floodlight-cam-e220"
+  ]
+}

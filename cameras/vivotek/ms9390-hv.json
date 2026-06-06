@@ -1,0 +1,61 @@
+{
+  "id": "vivotek-ms9390-hv",
+  "brand": "Vivotek",
+  "model": "MS9390-HV",
+  "aliases": [
+    "MS9390-HV 8MP 180deg Panoramic"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 4512,
+    "max_height": 1728,
+    "label": "8MP 180deg"
+  },
+  "sensor": "Dual 1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 (fixed per sensor)",
+    "aperture": "F1.2",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal / 68 vertical",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE+ (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "dual-sensor 180deg electronic stitching",
+    "WDR Pro",
+    "Smart Stream III",
+    "H.265",
+    "48x ePTZ digital zoom",
+    "IR illumination",
+    "higher vertical FOV than 4-sensor designs"
+  ],
+  "sources": [
+    "https://networkcamerastore.com/products/vivotek-ms9390-hv-8mp-4mp-x-2-multi-sensor-180-panoramic-ir-network-camera"
+  ]
+}

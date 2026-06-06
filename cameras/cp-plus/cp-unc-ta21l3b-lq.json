@@ -1,0 +1,68 @@
+{
+  "id": "cp-plus-cp-unc-ta21l3b-lq",
+  "brand": "CP Plus",
+  "model": "CP-UNC-TA21L3B-LQ",
+  "aliases": [
+    "2MP Dual Light PoE Bullet with Mic Speaker"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "98 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2MP dual-light bullet",
+    "warm light + IR hybrid",
+    "built-in mic + speaker (two-way audio)",
+    "PoE",
+    "IP67",
+    "H.265+",
+    "NVR compatible",
+    "\u20b94,000\u20135,000"
+  ],
+  "msrp_inr": 4999,
+  "sources": [
+    "https://www.cpplusworld.com/"
+  ]
+}

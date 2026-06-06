@@ -1,0 +1,47 @@
+{
+  "id": "imou-cruiser-4g",
+  "brand": "IMOU",
+  "model": "Cruiser 4G",
+  "type": "ptz",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "355 pan/90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Solar / battery"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "IMOU Cruiser 4G solar battery PTZ no WiFi",
+    "355\u00b0 pan/tilt",
+    "color spotlight",
+    "AI detection",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

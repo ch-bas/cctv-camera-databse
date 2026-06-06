@@ -1,0 +1,71 @@
+{
+  "id": "ubiquiti-unifi-ai-pro",
+  "brand": "Ubiquiti",
+  "model": "UniFi AI Pro",
+  "aliases": [
+    "UVC-AI-Pro",
+    "Ubiquiti 8MP AI Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "US",
+    "CA"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.6-9.8 (motorized varifocal)",
+    "aperture": "F1.5",
+    "varifocal": true
+  },
+  "field_of_view_deg": "108-37 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K 8MP motorized varifocal",
+    "UniFi Protect integration (NVR/cloud)",
+    "on-device AI analytics (person/vehicle/animal/license plate)",
+    "F1.5 large aperture",
+    "smart video encoding",
+    "Ubiquiti ecosystem integration (UniFi network/access)",
+    "NDAA compliant",
+    "IP66",
+    "IK10",
+    "popular prosumer/SMB/home lab USA"
+  ],
+  "msrp_usd": 499,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-ai-pro"
+  ]
+}

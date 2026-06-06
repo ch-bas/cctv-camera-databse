@@ -1,0 +1,63 @@
+{
+  "id": "axis-q6315-le",
+  "brand": "Axis",
+  "model": "Q6315-LE",
+  "aliases": [
+    "Axis Q6315-LE PTZ 32x 4K"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-137.6 (32x optical zoom)",
+    "aperture": "F1.4",
+    "varifocal": true
+  },
+  "field_of_view_deg": "57.9-2.4 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "32x optical zoom",
+    "4MP 30fps",
+    "Lightfinder",
+    "OptimizedIR 200m",
+    "Autotracking 2",
+    "AXIS Object Analytics",
+    "Forensic WDR",
+    "Zipstream H.265/H.264",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q6315-le"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "bosch-mic-550ir55-p",
+  "brand": "Bosch",
+  "model": "MIC inteox 7100i PTZ (MIC-550IR55-P)",
+  "aliases": [
+    "MIC-550IR55-P",
+    "MIC inteox 7100i"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.7-94 (20x optical zoom)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 120
+  },
+  "power": {
+    "method": "High PoE (802.3at) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP68",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "20x optical zoom",
+    "IP68 + NEMA6P (submersible)",
+    "extreme temperature -50 to +60C",
+    "IVA Pro",
+    "Inteox open platform",
+    "corrosion resistant",
+    "explosion-proof variant available"
+  ],
+  "sources": [
+    "https://www.boschsecurity.com/"
+  ]
+}

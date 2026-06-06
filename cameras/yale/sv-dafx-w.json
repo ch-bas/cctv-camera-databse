@@ -1,0 +1,67 @@
+{
+  "id": "yale-sv-dafx-w",
+  "brand": "Yale",
+  "model": "SV-DAFX-W",
+  "aliases": [
+    "Yale All-In-One HD1080 WiFi Outdoor Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "markets": [
+    "UK",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Mains powered (USB/AC)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD outdoor camera",
+    "built-in 160-lumen spotlight",
+    "110dB siren alarm",
+    "motion detection zones",
+    "two-way audio",
+    "Yale View App",
+    "Yale Smart CCTV DVR compatible",
+    "Amazon Alexa certified",
+    "IP65"
+  ],
+  "msrp_gbp": 99.99,
+  "sources": [
+    "https://www.yale.co.uk/"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "abus-tvip48500",
+  "brand": "ABUS",
+  "model": "TVIP48500",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "106-32h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ABUS 4K PoE varifocal outdoor dome",
+    "2.8-12mm motorized",
+    "30m IR",
+    "H.265",
+    "ONVIF/RTSP",
+    "IP67",
+    "IK10",
+    "German brand"
+  ],
+  "sources": [
+    "https://www.abus.com/de/"
+  ]
+}

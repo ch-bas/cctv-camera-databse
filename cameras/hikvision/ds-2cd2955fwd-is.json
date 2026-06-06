@@ -1,0 +1,65 @@
+{
+  "id": "hikvision-ds-2cd2955fwd-is",
+  "brand": "Hikvision",
+  "model": "DS-2CD2955FWD-IS",
+  "aliases": [
+    "5MP Outdoor WDR 360 Fisheye Camera"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP 360\u00b0"
+  },
+  "sensor": "1/2.5\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.68 (fisheye)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 fisheye",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "360\u00b0 fisheye outdoor panoramic",
+    "4-way split dewarped view",
+    "5MP sensor",
+    "IR 10m",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "built-in mic & speaker",
+    "popular ceiling installation"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

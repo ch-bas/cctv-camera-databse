@@ -1,0 +1,59 @@
+{
+  "id": "dahua-ipc-hdbw3849h-zas",
+  "brand": "Dahua",
+  "model": "IPC-HDBW3849H-ZAS",
+  "aliases": [
+    "WizSense 8MP Motorized Mini Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (motorized varifocal)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizSense AI",
+    "SMD Plus",
+    "motorized varifocal",
+    "H.265+",
+    "built-in mic",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

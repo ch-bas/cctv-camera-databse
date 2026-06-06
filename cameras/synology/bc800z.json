@@ -1,0 +1,69 @@
+{
+  "id": "synology-bc800z",
+  "brand": "Synology",
+  "model": "BC800Z",
+  "aliases": [
+    "Synology 4K AI Varifocal Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Starlight CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.38-9.33 (motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "112-47 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K edge AI analytics",
+    "license plate recognition (LPR 3-10m)",
+    "smoke detection",
+    "people & vehicle counting",
+    "smart instant search",
+    "hybrid white+IR illumination",
+    "Smart Bitrate Control",
+    "microSD failover (network failure backup)",
+    "end-to-end encryption",
+    "IP66/IP67/IK10",
+    "NDAA/TAA compliant",
+    "modular licensing"
+  ],
+  "msrp_usd": 299.99,
+  "sources": [
+    "https://www.synology.com/en-us/products/BC800Z"
+  ]
+}

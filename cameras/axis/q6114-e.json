@@ -1,0 +1,54 @@
+{
+  "id": "axis-q6114-e",
+  "brand": "Axis",
+  "model": "Q6114-E",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2013,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "56-2h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis Q6114-E 18x outdoor PTZ",
+    "360\u00b0 pan",
+    "AXIS Object Analytics",
+    "IP66",
+    "legacy enterprise PTZ widely deployed"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4-72 (18x optical)",
+    "varifocal": true
+  }
+}

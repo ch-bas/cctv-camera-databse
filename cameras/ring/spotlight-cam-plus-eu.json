@@ -1,0 +1,65 @@
+{
+  "id": "ring-spotlight-cam-plus-eu",
+  "brand": "Ring",
+  "model": "Spotlight Cam Plus (EU)",
+  "aliases": [
+    "Ring Spotlight Cam Plus Battery/Solar EU"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "DE",
+    "FR",
+    "ES",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / Solar (variants)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p color night vision",
+    "dual LED spotlights",
+    "person/motion detection",
+    "two-way audio",
+    "Ring Protect for cloud",
+    "Alexa / Amazon",
+    "IP55 EU version"
+  ],
+  "msrp_eur": 179.99,
+  "sources": [
+    "https://ring.com/de-de/"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ezviz-c3w-pro",
+  "brand": "EZVIZ",
+  "model": "C3W Pro",
+  "aliases": [
+    "EZVIZ C3W Pro 4MP Color Night Outdoor Wifi Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "118 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4MP color night vision outdoor bullet",
+    "F1.6 aperture",
+    "30m color range",
+    "AI person/vehicle detection",
+    "sound + light deterrence",
+    "two-way audio",
+    "RTSP/ONVIF",
+    "IP67",
+    "Alexa / Google",
+    "EZVIZ app"
+  ],
+  "msrp_eur": 59,
+  "sources": [
+    "https://www.ezviz.com/product/c3w-pro/"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "google-nest-cam-outdoor-wire",
+  "brand": "Google",
+  "model": "Nest Cam Outdoor (Wired)",
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "130h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 6
+  },
+  "power": {
+    "method": "DC 5V USB-C (weatherproof)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Google Nest Cam Outdoor wired",
+    "continuous 24/7 recording on Nest Aware Plus",
+    "person/animal/vehicle/motion detection",
+    "Google Home / Alexa",
+    "IP54"
+  ],
+  "sources": [
+    "https://store.google.com/"
+  ]
+}

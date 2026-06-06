@@ -1,0 +1,58 @@
+{
+  "id": "axis-q6100-e",
+  "brand": "Axis",
+  "model": "Q6100-E",
+  "aliases": [
+    "Axis Q6100-E Multisensor 360deg PTZ"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "label": "4x3MP multisensor + PTZ stream"
+  },
+  "sensor": "4x 1/2.8\" CMOS + 1/2.8\" PTZ sensor",
+  "lens": {
+    "count": 5,
+    "focal_length_mm": "Fixed wide (panoramic) + PTZ zoom",
+    "varifocal": true
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360deg panoramic + PTZ dome in one unit",
+    "AXIS Object Analytics",
+    "auto-tracking",
+    "Forensic WDR",
+    "Lightfinder 2.0",
+    "Zipstream",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q6100-e"
+  ]
+}

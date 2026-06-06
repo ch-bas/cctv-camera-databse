@@ -1,0 +1,51 @@
+{
+  "id": "reolink-rlc-410",
+  "brand": "Reolink",
+  "model": "RLC-410",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2018,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "80 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE 802.3af / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 64,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "original bestselling 5MP PoE bullet",
+    "30m IR",
+    "built-in mic",
+    "ONVIF/RTSP",
+    "Blue Iris/Frigate compatible",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/rlc-410/"
+  ],
+  "msrp_usd": 35
+}

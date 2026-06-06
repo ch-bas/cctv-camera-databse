@@ -1,0 +1,62 @@
+{
+  "id": "wyze-cam-v3",
+  "brand": "Wyze",
+  "model": "Cam v3",
+  "aliases": [
+    "WYZEC3"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.9\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "USB-A power adapter (hardwired)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p color night vision",
+    "IP65 outdoor rated",
+    "person/package/pet/vehicle detection",
+    "24/7 continuous recording (microSD)",
+    "no subscription required for local recording",
+    "Alexa / Google Home",
+    "RTSP support"
+  ],
+  "msrp_usd": 35.98,
+  "sources": [
+    "https://www.wyze.com/products/wyze-cam"
+  ]
+}

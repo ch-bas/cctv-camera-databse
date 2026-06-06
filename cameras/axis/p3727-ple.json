@@ -1,0 +1,62 @@
+{
+  "id": "axis-p3727-ple",
+  "brand": "Axis",
+  "model": "P3727-PLE",
+  "aliases": [
+    "02218-001",
+    "Axis 4x2MP Multidirectional"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 8000,
+    "max_height": 3000,
+    "label": "4x2MP multisensor"
+  },
+  "sensor": "4x 1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "3-9 (varifocal per head)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "360 (wall/ceiling mount)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4 independently adjustable camera heads",
+    "360deg coverage from one unit",
+    "Forensic WDR",
+    "OptimizedIR",
+    "AXIS Object Analytics (1 channel)",
+    "Zipstream H.265/H.264",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.a1securitycameras.com/axis-p3727-ple-4x-2mp-night-vision-outdoor-multi-sensor-ip-security-camera-with-360-degree-coverage-02218-001.html"
+  ]
+}

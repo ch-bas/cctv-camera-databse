@@ -1,0 +1,62 @@
+{
+  "id": "ubiquiti-unifi-ai-theta-pro",
+  "brand": "Ubiquiti",
+  "model": "UniFi AI Theta Pro",
+  "aliases": [
+    "UVC-AI-THETA-PRO",
+    "UniFi 4K 360\u00b0 Multi-Lens Panoramic"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K 360\u00b0 multi-lens panoramic"
+  },
+  "sensor": "Multi CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "2.4mm fisheye",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360\u00b0 AI panoramic ceiling camera",
+    "4K multi-lens stitched view",
+    "on-device AI analytics",
+    "NDAA compliant",
+    "UniFi Protect",
+    "H.265 smart encoding",
+    "zero blind spots",
+    "popular large open spaces/warehouses/retail"
+  ],
+  "msrp_usd": 499,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-ai-theta-pro"
+  ]
+}

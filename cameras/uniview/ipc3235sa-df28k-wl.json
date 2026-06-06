@@ -1,0 +1,51 @@
+{
+  "id": "uniview-ipc3235sa-df28k-wl",
+  "brand": "Uniview",
+  "model": "IPC3235SA-DF28K-WL",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "106h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Uniview 5MP LightHunter active deterrence dome",
+    "strobe + voice",
+    "AI human/vehicle",
+    "NDAA",
+    "H.265+",
+    "IP67",
+    "IK08"
+  ],
+  "sources": [
+    "https://www.uniview.com/"
+  ]
+}

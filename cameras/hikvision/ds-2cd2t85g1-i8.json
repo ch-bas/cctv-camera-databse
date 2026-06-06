@@ -1,0 +1,25 @@
+{
+  "id": "hikvision-ds-2cd2t85g1-i8",
+  "brand": "Hikvision",
+  "model": "DS-2CD2T85G1-I8",
+  "aliases": ["DS-2CD2T85G1-I5/I8", "4K DarkFighter Fixed Bullet"],
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/2\" Progressive Scan CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8 / 4 / 6 (fixed options)", "aperture": "F1.6", "varifocal": false },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": { "type": "ir", "range_m": 80 },
+  "power": { "method": "PoE (802.3af) / DC 12V" },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp", "http"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": false, "speaker": false, "two_way": false },
+  "features": [
+    "4K DarkFighter ultra-low-light",
+    "120 dB WDR",
+    "H.265+ compression",
+    "deep learning analytics"
+  ],
+  "sources": ["https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/DS-2CD2T85G1-I5-I8/"]
+}

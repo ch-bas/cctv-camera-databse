@@ -1,0 +1,51 @@
+{
+  "id": "hikvision-ds-2cd6365g0e-ivs",
+  "brand": "Hikvision",
+  "model": "DS-2CD6365G0E-IVS",
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 6,
+    "label": "6MP 360\u00b0"
+  },
+  "field_of_view_deg": "360 fisheye",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "6MP 360\u00b0 fisheye dome indoor",
+    "IVS smart analytics",
+    "people counting",
+    "heat map",
+    "4-channel dewarped",
+    "H.265+",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

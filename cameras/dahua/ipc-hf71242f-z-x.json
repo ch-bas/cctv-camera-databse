@@ -1,0 +1,62 @@
+{
+  "id": "dahua-ipc-hf71242f-z-x",
+  "brand": "Dahua",
+  "model": "IPC-HF71242F-Z-X",
+  "aliases": [
+    "WizMind 12MP Box Camera"
+  ],
+  "release_year": 2024,
+  "type": "box",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 4000,
+    "max_height": 3000,
+    "label": "12MP"
+  },
+  "sensor": "1/1.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 0,
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "ePoE / DC 12V / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "12MP WizMind box camera",
+    "1/1.7\" large sensor",
+    "dual AI task simultaneous (face recognition + people counting)",
+    "face recognition",
+    "people counting",
+    "PPE detection",
+    "H.265+",
+    "ePoE",
+    "CS/C-mount interchangeable lens"
+  ],
+  "sources": [
+    "https://m.indiamart.com/proddetail/dahua-ipc-hf71242f-z-x-12mp-box-wizmind-network-camera-2855727704788.html"
+  ]
+}

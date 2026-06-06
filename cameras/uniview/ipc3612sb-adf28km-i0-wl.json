@@ -1,0 +1,60 @@
+{
+  "id": "uniview-ipc2122le-adf40kmc-wl",
+  "brand": "Uniview",
+  "model": "IPC2122LE-ADF40KMC-WL",
+  "aliases": [
+    "UNV 2MP ColorHunter Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "97 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorHunter 24/7 full-color",
+    "F1.0 aperture",
+    "Ultra 265",
+    "perimeter protection AI",
+    "entry-level full-color"
+  ],
+  "sources": [
+    "https://www.uniview.com/"
+  ]
+}

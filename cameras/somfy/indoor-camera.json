@@ -1,0 +1,69 @@
+{
+  "id": "somfy-indoor-camera",
+  "brand": "Somfy",
+  "model": "Indoor Camera",
+  "aliases": [
+    "Somfy Cam\u00e9ra Int\u00e9rieure"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "markets": [
+    "FR",
+    "DE",
+    "ES",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 6
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "motorised mechanical privacy shutter (first in market)",
+    "1080p 30fps",
+    "130deg wide angle",
+    "pet-compatible motion detection",
+    "Somfy Protect app",
+    "8x digital zoom",
+    "Somfy TaHoma / home automation integration",
+    "GDPR-compliant French-hosted cloud",
+    "Alexa / Google"
+  ],
+  "msrp_eur": 129.99,
+  "sources": [
+    "https://www.somfy.fr/"
+  ]
+}

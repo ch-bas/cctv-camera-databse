@@ -1,0 +1,58 @@
+{
+  "id": "arlo-indoor-plug-in",
+  "brand": "Arlo",
+  "model": "Indoor Plug-In (Gen 1)",
+  "aliases": [
+    "Arlo Essential Indoor Plug-in 2K Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB-C (plug-in)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD indoor plug-in",
+    "physical privacy shield (automated)",
+    "person/pet/vehicle/package detection",
+    "two-way audio",
+    "no hub required",
+    "Apple HomeKit / Google / Alexa",
+    "Arlo Secure plan"
+  ],
+  "msrp_usd": 89,
+  "sources": [
+    "https://us.arlo.com/products/arlo-essential-indoor-plug-in"
+  ]
+}

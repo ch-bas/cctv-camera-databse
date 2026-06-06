@@ -1,0 +1,61 @@
+{
+  "id": "vivotek-fe9391-ev",
+  "brand": "Vivotek",
+  "model": "FE9391-EV",
+  "aliases": [
+    "Vivotek 5MP 360deg Fisheye Outdoor"
+  ],
+  "type": "fisheye",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.27 (fixed fisheye)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360deg fisheye dewarping",
+    "multiple view modes (single/quad/panoramic)",
+    "SNV",
+    "WDR Pro 120 dB",
+    "Smart Stream III",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.vivotek.com/"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "intelbras-vip-1430-b-g2",
+  "brand": "Intelbras",
+  "model": "VIP 1430 B G2",
+  "aliases": [
+    "Intelbras 4MP QHD IP Bullet LATAM"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "AR",
+    "BR",
+    "CL",
+    "LATAM"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP QHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "106 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP QHD outdoor bullet",
+    "H.265+",
+    "30m IR",
+    "ONVIF/RTSP",
+    "Mibo Cloud option",
+    "IP67",
+    "value 4MP upgrade for Argentina/Brazil market",
+    "ANATEL certified"
+  ],
+  "sources": [
+    "https://www.intelbras.com/en/"
+  ]
+}

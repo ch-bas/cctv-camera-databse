@@ -1,0 +1,50 @@
+{
+  "id": "reolink-duo-2-lte",
+  "brand": "Reolink",
+  "model": "Duo 2 LTE",
+  "type": "bullet",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 16,
+    "label": "16MP 180\u00b0 dual-lens"
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4G LTE 16MP 180\u00b0 dual-lens battery camera",
+    "color spotlight night vision",
+    "person/vehicle/animal/package AI",
+    "no WiFi required",
+    "solar optional",
+    "no subscription",
+    "IP65"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-duo-2-lte/"
+  ],
+  "msrp_usd": 149
+}

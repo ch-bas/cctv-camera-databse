@@ -1,0 +1,74 @@
+{
+  "id": "lupus-le207-outdoor",
+  "brand": "Lupus Electronics",
+  "model": "LE207",
+  "aliases": [
+    "LUPUS LE207 2MP PoE Mini Dome Outdoor"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "markets": [
+    "DE",
+    "AT",
+    "CH",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "107 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p PoE mini dome",
+    "30m IR",
+    "ONVIF/RTSP",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "LUPUS SmartVision VMS",
+    "LUPUSEC integration",
+    "DSGVO local",
+    "entry PoE dome",
+    "\u20ac80\u2013100"
+  ],
+  "msrp_eur": 89,
+  "sources": [
+    "https://www.lupus-electronics.de/"
+  ]
+}

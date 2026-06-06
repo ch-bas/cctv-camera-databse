@@ -1,0 +1,64 @@
+{
+  "id": "swann-swpro-1080msfb",
+  "brand": "Swann",
+  "model": "SWPRO-1080MSFB",
+  "aliases": [
+    "Swann 1080p Sensor Warning Light Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "UK",
+    "US",
+    "AU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "90 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "BNC coaxial + DC 12V (DVR)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p DVR add-on camera",
+    "True Detect PIR heat & motion sensor",
+    "sensor warning light (activates color mode)",
+    "30m IR + 10m color night vision",
+    "IP66",
+    "requires Swann DVR"
+  ],
+  "msrp_gbp": 39.99,
+  "sources": [
+    "https://www.swann.com/"
+  ]
+}

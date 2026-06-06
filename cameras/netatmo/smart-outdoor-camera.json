@@ -1,0 +1,72 @@
+{
+  "id": "netatmo-smart-outdoor-camera",
+  "brand": "Netatmo",
+  "model": "Smart Outdoor Camera",
+  "aliases": [
+    "NOC01-UK",
+    "Netatmo Presence",
+    "Netatmo Floodlight Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2016,
+  "markets": [
+    "UK",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (replaces outdoor light fitting)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "NO SUBSCRIPTION FEES \u2014 all features permanently free",
+    "local microSD + Dropbox/FTP storage",
+    "integrated 12W floodlight",
+    "AI person/animal/vehicle detection",
+    "activity zones",
+    "8x digital zoom",
+    "Apple HomeKit Secure Video",
+    "Alexa / Google",
+    "end-to-end encrypted",
+    "100% local data processing",
+    "French brand privacy focus"
+  ],
+  "msrp_gbp": 199.99,
+  "sources": [
+    "https://www.netatmo.com/"
+  ]
+}

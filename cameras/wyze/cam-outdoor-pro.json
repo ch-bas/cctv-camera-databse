@@ -1,0 +1,61 @@
+{
+  "id": "wyze-cam-outdoor-pro",
+  "brand": "Wyze",
+  "model": "Cam Outdoor Pro",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "US"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2.5K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "122 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 12
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2.5K battery outdoor Pro",
+    "color night vision spotlight",
+    "AI person/vehicle/animal/package",
+    "no subscription",
+    "solar optional",
+    "Alexa / Google",
+    "RTSP"
+  ],
+  "msrp_usd": 59,
+  "sources": [
+    "https://www.wyze.com/"
+  ]
+}

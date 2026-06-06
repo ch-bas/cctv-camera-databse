@@ -1,0 +1,73 @@
+{
+  "id": "reolink-rlc-823a-eu",
+  "brand": "Reolink",
+  "model": "RLC-823A (EU)",
+  "aliases": [
+    "Reolink 4K Smart Detection PoE + WiFi Spotlight"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "DE",
+    "FR",
+    "ES",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V / WiFi optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K PoE + WiFi hybrid",
+    "spotlight color night vision",
+    "person/vehicle/animal/package detection",
+    "active deterrence",
+    "two-way audio",
+    "no subscription",
+    "RTSP/ONVIF Frigate/Home Assistant compatible",
+    "IP67"
+  ],
+  "msrp_eur": 79.99,
+  "sources": [
+    "https://reolink.com/eu/product/rlc-823a/"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "dahua-ipc-hdw5442t-ze",
+  "brand": "Dahua",
+  "model": "IPC-HDW5442T-ZE",
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "110-30h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizMind 5 Series 4MP varifocal eyeball",
+    "Deeplight",
+    "2.7-12mm motorized",
+    "40m IR",
+    "IVS analytics",
+    "H.265+",
+    "IP67",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

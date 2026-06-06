@@ -1,0 +1,50 @@
+{
+  "id": "axis-p1368-e",
+  "brand": "Axis",
+  "model": "P1368-E",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2017,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "108h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis P1368-E 4K fixed outdoor box",
+    "WDR",
+    "Lightfinder",
+    "IP66",
+    "AXIS Object Analytics",
+    "enterprise outdoor"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ]
+}

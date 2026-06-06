@@ -1,0 +1,62 @@
+{
+  "id": "hanwha-xno-9300r",
+  "brand": "Hanwha",
+  "model": "XNO-9300R",
+  "aliases": [
+    "Wisenet X 5MP Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.9-9.4 (2.4x motorized varifocal)",
+    "aperture": "F1.3",
+    "varifocal": true
+  },
+  "field_of_view_deg": "97-39 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE / DC 12V / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WiseStream II",
+    "loitering detection",
+    "directional detection",
+    "digital auto-tracking",
+    "120 dB WDR",
+    "IK10",
+    "TAA compliant"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

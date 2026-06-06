@@ -1,0 +1,59 @@
+{
+  "id": "axis-m3116-lve",
+  "brand": "Axis",
+  "model": "M3116-LVE",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 3584,
+    "max_height": 2688,
+    "label": "12MP"
+  },
+  "sensor": "1/1.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.3 (fixed wide)",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
+  "field_of_view_deg": "183 horizontal (fisheye-corrected)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "12MP ultra-wide near-fisheye",
+    "Lightfinder",
+    "AXIS Object Analytics",
+    "Zipstream",
+    "corridor format",
+    "ARTPEC-6 SoC",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-m3116-lve"
+  ]
+}

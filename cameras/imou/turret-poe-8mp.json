@@ -1,0 +1,51 @@
+{
+  "id": "imou-turret-poe-8mp",
+  "brand": "IMOU",
+  "model": "Turret PoE 8MP",
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "IMOU 4K PoE turret AI",
+    "human/vehicle detection",
+    "30m IR",
+    "H.265",
+    "ONVIF/RTSP",
+    "IP67",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "hikvision-ds-2cd2187g2h-liu",
+  "brand": "Hikvision",
+  "model": "DS-2CD2187G2H-LI(SU)",
+  "aliases": [
+    "Smart Hybrid ColorVu 8MP Fixed Dome F1.0 super-confocal"
+  ],
+  "release_year": 2024,
+  "generation": "EasyIP 4.0",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.2\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed super-confocal)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Smart Hybrid Light",
+    "F1.0 super-confocal lens",
+    "1/1.2\" large sensor",
+    "8MP",
+    "0.0005 lux",
+    "AcuSense",
+    "130 dB WDR",
+    "H.265+",
+    "IK10",
+    "Audio 2.0 dual-array mic"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "yale-sv-dpfx-w",
+  "brand": "Yale",
+  "model": "SV-DPFX-W",
+  "aliases": [
+    "Yale Smart Indoor Pan/Tilt Camera 1080p"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "UK",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 95 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p indoor pan/tilt",
+    "360deg rotation",
+    "color night vision",
+    "motion tracking",
+    "two-way audio",
+    "Yale View App",
+    "Alexa compatible",
+    "activity zones"
+  ],
+  "msrp_gbp": 59.99,
+  "sources": [
+    "https://www.yale.co.uk/"
+  ]
+}

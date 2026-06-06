@@ -1,0 +1,29 @@
+{
+  "id": "eufy-solocam-s40",
+  "brand": "Eufy",
+  "model": "SoloCam S40",
+  "aliases": ["T81241W1"],
+  "type": "bullet",
+  "connectivity": ["wifi", "battery"],
+  "resolution": { "megapixels": 4, "max_width": 2048, "max_height": 1080, "label": "2K" },
+  "lens": { "count": 1, "varifocal": false },
+  "field_of_view_deg": "90 diagonal",
+  "night_vision": { "type": "color", "range_m": 8 },
+  "power": { "method": "Built-in rechargeable battery + integrated solar panel" },
+  "storage": { "onboard": true, "nvr_compatible": false, "cloud": false },
+  "protocols": ["http"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": [
+    "integrated solar panel charging",
+    "built-in spotlight for color night vision",
+    "AI person detection",
+    "8 GB built-in eMMC storage",
+    "no subscription fee",
+    "90 dB siren",
+    "Alexa and Google Assistant integration"
+  ],
+  "release_year": 2022,
+  "msrp_usd": 129.99,
+  "sources": ["https://www.eufy.com/products/t8124"]
+}

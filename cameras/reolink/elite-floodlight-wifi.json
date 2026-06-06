@@ -1,0 +1,52 @@
+{
+  "id": "reolink-elite-floodlight-wifi",
+  "brand": "Reolink",
+  "model": "Elite Floodlight WiFi",
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K+4MP dual-lens"
+  },
+  "field_of_view_deg": "180 dual-lens combined",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "Hardwired AC mains"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens 4K AI floodlight camera",
+    "ReoNeura AI detection",
+    "dual-color floodlight",
+    "auto-tracking",
+    "color night vision",
+    "ONVIF/RTSP",
+    "no subscription",
+    "IP66"
+  ],
+  "sources": [
+    "https://reolink.com/product/elite-floodlight-wifi/"
+  ],
+  "msrp_usd": 109
+}

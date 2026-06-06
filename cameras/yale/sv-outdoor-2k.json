@@ -1,0 +1,46 @@
+{
+  "id": "yale-sv-outdoor-2k",
+  "brand": "Yale",
+  "model": "Outdoor Camera 2K",
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "130h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 12V hardwired"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Yale 2K WiFi outdoor colour night vision",
+    "person/vehicle/animal detection",
+    "Yale Secure / Alexa",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.yalehome.co.uk/"
+  ]
+}

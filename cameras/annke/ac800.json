@@ -1,0 +1,68 @@
+{
+  "id": "annke-ac800",
+  "brand": "Annke",
+  "model": "AC800",
+  "aliases": [
+    "4K AI Active Deterrence PoE"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1/1.8\" large sensor (1.4x bigger than C800)",
+    "F1.6 aperture",
+    "0.003 lux color night vision",
+    "AI active deterrence (strobe + siren)",
+    "perimeter detection (line crossing/intrusion)",
+    "facial capture",
+    "two-way audio",
+    "120 dB WDR",
+    "H.265+",
+    "IP67",
+    "IK08"
+  ],
+  "msrp_usd": 79.99,
+  "sources": [
+    "https://www.annke.com/blogs/press/annke-reveals-next-gen-4k-surveillance-camera-lead-by-the-ac800-featuring-ai-active-deterrence-two-way-talk-and-color-night-vision"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "tapo-c402",
+  "brand": "Tapo",
+  "model": "Tapo C402",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.18mm",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Built-in rechargeable battery / solar panel optional (kit)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p wire-free battery camera",
+    "180-day battery",
+    "spotlight color night vision",
+    "AI person detection",
+    "built-in siren",
+    "solar panel compatible",
+    "Alexa / Google",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "release_year": 2023,
+  "msrp_usd": 39.99
+}

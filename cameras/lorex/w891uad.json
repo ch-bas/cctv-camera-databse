@@ -1,0 +1,60 @@
+{
+  "id": "lorex-w891uad",
+  "brand": "Lorex",
+  "model": "W891UAD (4K Dual-Lens WiFi)",
+  "aliases": [
+    "4K Dual-Lens Outdoor Wi-Fi Camera"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K dual-lens 180deg"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Fixed (wide + standard)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K dual-lens 180deg panoramic",
+    "smart security lighting",
+    "color night vision",
+    "person/vehicle/animal/package detection",
+    "auto-framing",
+    "32GB local storage included",
+    "no monthly fees",
+    "Alexa / Google"
+  ],
+  "msrp_usd": 149.99,
+  "sources": [
+    "https://www.lorex.com/products/w891uad-e-4k-dual-lens-wi-fi-camera"
+  ]
+}

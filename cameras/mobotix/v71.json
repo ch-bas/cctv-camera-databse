@@ -1,0 +1,49 @@
+{
+  "id": "mobotix-v71",
+  "brand": "Mobotix",
+  "model": "V71",
+  "type": "box",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "100h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE 802.3af"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP30",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "MOBOTIX V71 4K indoor box camera",
+    "MOBOTIX 7 AI platform",
+    "Certified Apps",
+    "2TB microSD",
+    "IP30"
+  ],
+  "sources": [
+    "https://www.mobotix.com/"
+  ]
+}
