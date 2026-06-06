@@ -19,9 +19,9 @@ jobs:
         run: node scripts/gen-docs.js
       - name: Fail if generated files are stale
         run: |
-          if [ -n "$(git status --porcelain data/ docs/glossary.md)" ]; then
+          if [ -n "$(git status --porcelain data/ docs/cameras.json docs/glossary.md)" ]; then
             echo "::error::Generated files are out of date. Run 'npm run build' and commit the result."
-            git status --porcelain data/ docs/glossary.md
+            git status --porcelain data/ docs/cameras.json docs/glossary.md
             exit 1
           fi
 
