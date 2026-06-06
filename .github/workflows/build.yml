@@ -19,9 +19,9 @@ jobs:
         run: node scripts/gen-docs.js
       - name: Fail if generated files are stale
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git status --porcelain data/ docs/glossary.md)" ]; then
             echo "::error::Generated files are out of date. Run 'npm run build' and commit the result."
-            git status --porcelain
+            git status --porcelain data/ docs/glossary.md
             exit 1
           fi
 
@@ -35,3 +35,20 @@ jobs:
       id-token: write
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build dataset
+        run: node scripts/build.js
+      - name: Copy data into docs for Pages
+        run: cp data/cameras.json docs/cameras.json
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
