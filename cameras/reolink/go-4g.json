@@ -1,0 +1,49 @@
+{
+  "id": "reolink-go-4g",
+  "brand": "Reolink",
+  "model": "Go",
+  "type": "bullet",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 64,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4G LTE cellular no WiFi / no mains",
+    "1080p",
+    "solar optional",
+    "farms/forests/remote sites",
+    "no subscription",
+    "IP65"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-go/"
+  ],
+  "msrp_usd": 79
+}

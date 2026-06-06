@@ -1,0 +1,68 @@
+{
+  "id": "honeywell-hcc-ip-3mp-dome",
+  "brand": "Honeywell",
+  "model": "CALIPD-1AI 3MP IP Dome",
+  "aliases": [
+    "Honeywell India 3MP Dome",
+    "Honeywell 50 Series India"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2025,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Honeywell 50 Series India-designed (VVDN collab July 2025)",
+    "embedded cybersecurity module",
+    "facial recognition",
+    "IVA intelligent video analytics",
+    "H.265+",
+    "preferred enterprise/government India",
+    "\u20b98,000\u201315,000"
+  ],
+  "msrp_inr": 10999,
+  "sources": [
+    "https://www.honeywell.com/en-us/company/india"
+  ]
+}

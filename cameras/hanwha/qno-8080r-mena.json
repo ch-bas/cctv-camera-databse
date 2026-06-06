@@ -1,0 +1,71 @@
+{
+  "id": "hanwha-qno-8080r-mena",
+  "brand": "Hanwha",
+  "model": "QNO-8080R (MENA)",
+  "aliases": [
+    "Wisenet Q 5MP IR Bullet Varifocal MENA"
+  ],
+  "generation": "Wisenet Q",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2019,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.9-9.4 (2.4x motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "102-42 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP outdoor bullet",
+    "2.4x motorized varifocal",
+    "50m IR range",
+    "BLC/HLC/WDR",
+    "H.265",
+    "IP66",
+    "IK10",
+    "popular UAE/KSA commercial buildings & warehouses"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/product/qno-8080r/",
+    "https://www.hanwhavision.com/en-me/"
+  ]
+}

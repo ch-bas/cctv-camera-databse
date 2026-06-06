@@ -1,0 +1,58 @@
+{
+  "id": "axis-p3818-pve",
+  "brand": "Axis",
+  "model": "P3818-PVE",
+  "aliases": [
+    "Axis P3818-PVE Panoramic Dome"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 20,
+    "label": "4x5MP multisensor"
+  },
+  "sensor": "4x 1/2.8\" CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "2.6 (fixed per sensor)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360deg panoramic 4-sensor",
+    "20MP total",
+    "Lightfinder",
+    "Forensic WDR",
+    "AXIS Object Analytics",
+    "Zipstream",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p3818-pve"
+  ]
+}

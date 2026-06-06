@@ -1,0 +1,59 @@
+{
+  "id": "tapo-c675d-kit",
+  "brand": "Tapo",
+  "model": "C675D Kit",
+  "aliases": [
+    "Solar Dual-Lens Pan/Tilt 4K"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2026,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K 8MP dual-lens"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Wide 169deg + 6mm tele",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "169 wide + tele",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Integrated solar panel"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "solar-powered dual-lens 4K camera",
+    "169deg wide-angle view + 6mm tele lens",
+    "pan/tilt",
+    "AI tracking",
+    "person/pet/vehicle detection",
+    "color night vision",
+    "no subscription"
+  ],
+  "release_notes": "Announced CES 2025 and IFA 2025; launching 2026.",
+  "sources": [
+    "https://www.notebookcheck.net/New-Tapo-4K-8MP-security-cameras-on-the-way.1108686.0.html"
+  ]
+}

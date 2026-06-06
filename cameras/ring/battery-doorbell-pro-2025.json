@@ -1,0 +1,61 @@
+{
+  "id": "ring-battery-doorbell-pro-2025",
+  "brand": "Ring",
+  "model": "Battery Doorbell Pro",
+  "aliases": [
+    "B0CWNZ9H8L"
+  ],
+  "release_year": 2024,
+  "type": "covert",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "Head-to-Toe 1536p"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "150 horizontal / 84 vertical",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / existing doorbell wiring optional"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IPX5",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "head-to-toe view (3D motion detection)",
+    "1536p resolution",
+    "radar motion detection",
+    "color pre-roll night vision",
+    "two-way audio with noise cancellation",
+    "package detection",
+    "dual-band WiFi",
+    "Alexa integration",
+    "Ring Protect plan for cloud video"
+  ],
+  "msrp_usd": 149.99,
+  "sources": [
+    "https://ring.com/products/battery-video-doorbell-pro"
+  ]
+}

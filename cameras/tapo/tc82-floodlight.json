@@ -1,0 +1,65 @@
+{
+  "id": "tapo-tc82-global",
+  "brand": "Tapo",
+  "model": "TC82",
+  "aliases": [
+    "TP-Link Tapo TC82 2K Floodlight Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "118 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K floodlight camera",
+    "2000-lumen dual floodlight",
+    "F1.6 color night vision",
+    "AI person/vehicle detection",
+    "two-way audio",
+    "active deterrence (light + siren)",
+    "RTSP/ONVIF",
+    "Tapo app / Alexa / Google / HomeKit",
+    "IP44"
+  ],
+  "msrp_usd": 49,
+  "sources": [
+    "https://www.tapo.com/en/product/outdoor-camera/tapo-tc82/"
+  ]
+}

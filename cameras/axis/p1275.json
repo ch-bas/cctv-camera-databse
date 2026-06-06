@@ -1,0 +1,58 @@
+{
+  "id": "axis-p1275",
+  "brand": "Axis",
+  "model": "P1275",
+  "aliases": [
+    "Axis P1275 2MP Covert Box"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed (several board lens options)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ultra-compact covert form factor",
+    "Forensic WDR",
+    "Lightfinder",
+    "H.265 Zipstream",
+    "ARTPEC-7 SoC",
+    "suited for retail/banking/covert installations"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p1275"
+  ]
+}

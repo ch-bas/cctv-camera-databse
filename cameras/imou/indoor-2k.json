@@ -1,0 +1,48 @@
+{
+  "id": "imou-indoor-2k",
+  "brand": "IMOU",
+  "model": "Indoor 2K",
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V USB"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "IMOU Indoor 2K 4MP WiFi pan/tilt indoor",
+    "AI human detection",
+    "auto-tracking",
+    "2-way audio",
+    "H.265",
+    "Alexa"
+  ],
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

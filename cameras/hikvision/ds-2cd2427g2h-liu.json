@@ -1,0 +1,64 @@
+{
+  "id": "hikvision-ds-2cd2427g2h-liu",
+  "brand": "Hikvision",
+  "model": "DS-2CD2427G2H-LI(U)",
+  "aliases": [
+    "Smart Hybrid ColorVu 4MP Mini Dome F1.0 super-confocal"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed super-confocal)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "111 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Smart Hybrid Light mini dome",
+    "F1.0 super-confocal",
+    "0.0005 lux",
+    "AcuSense",
+    "130 dB WDR",
+    "H.265+",
+    "IK10",
+    "built-in mic"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

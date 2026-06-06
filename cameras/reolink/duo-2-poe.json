@@ -1,0 +1,56 @@
+{
+  "id": "reolink-duo-2-poe",
+  "brand": "Reolink",
+  "model": "Duo 2 PoE",
+  "aliases": ["DLP4K", "Duo 2 PoE 4K"],
+  "type": "dual-lens",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 4608,
+    "max_height": 1728,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS (dual)",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "3.2",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal / 60 vertical",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE IEEE 802.3af, 48V Active / DC 12V",
+    "consumption_w": 15,
+    "voltage": "48V (PoE) / 12V (DC)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "panoramic image stitching",
+    "person detection",
+    "vehicle detection",
+    "animal detection",
+    "spotlight deterrence",
+    "color night vision"
+  ],
+  "release_year": 2022,
+  "sources": [
+    "https://reolink.com/product/reolink-duo-poe/"
+  ]
+}

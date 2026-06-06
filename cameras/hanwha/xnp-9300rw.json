@@ -1,0 +1,65 @@
+{
+  "id": "hanwha-xnp-9300rw",
+  "brand": "Hanwha",
+  "model": "XNP-9300RW",
+  "aliases": [
+    "Wisenet X 4K 30x PTZ Wiper"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.5\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "5-150 (30x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "60.6-2.1 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": true
+  },
+  "features": [
+    "30x optical zoom",
+    "32x digital zoom (960x total)",
+    "Wise IR 200m",
+    "built-in wiper",
+    "auto-tracking (person/vehicle)",
+    "sound classification",
+    "DIS (gyro sensor)",
+    "WiseStream II",
+    "extreme WDR",
+    "IP66/IK10/NEMA4X/NEMA-TS2",
+    "dual SD card slots"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/product/xnp-9300rw/"
+  ]
+}

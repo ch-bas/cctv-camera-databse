@@ -1,0 +1,59 @@
+{
+  "id": "reolink-rlc-81ma",
+  "brand": "Reolink",
+  "model": "RLC-81MA",
+  "aliases": [
+    "Dual-Lens 4K Fixed Bullet"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "Dual CMOS (2.8mm wide + 8mm tele)",
+  "lens": {
+    "count": 2,
+    "varifocal": false
+  },
+  "field_of_view_deg": "Wide 87deg / Tele 30deg",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual fixed lens (wide + tele)",
+    "simultaneous dual view",
+    "spotlight color night vision",
+    "person/vehicle detection",
+    "no subscription"
+  ],
+  "release_year": 2023,
+  "sources": [
+    "https://reolink.com/product/rlc-81ma/"
+  ]
+}

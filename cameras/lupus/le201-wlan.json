@@ -1,0 +1,72 @@
+{
+  "id": "lupus-le201-wlan",
+  "brand": "Lupus Electronics",
+  "model": "LE201",
+  "aliases": [
+    "LUPUS LE201 WLAN WiFi Bullet Camera DE"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2019,
+  "markets": [
+    "DE",
+    "AT",
+    "CH",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "92 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V (passive PoE adapter optional)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "NO mandatory cloud (DSGVO-compliant local-first)",
+    "LUPUSEC alarm system integration",
+    "WiFi outdoor bullet",
+    "30m IR",
+    "ONVIF/RTSP",
+    "H.265+",
+    "LUPUS SmartVision VMS",
+    "IP66",
+    "German support Conrad/Lupus-Electronics.de",
+    "\u20ac80\u2013120"
+  ],
+  "msrp_eur": 99,
+  "sources": [
+    "https://www.lupus-electronics.de/"
+  ]
+}

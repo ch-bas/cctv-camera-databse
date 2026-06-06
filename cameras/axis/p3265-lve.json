@@ -1,0 +1,57 @@
+{
+  "id": "axis-p3265-lve",
+  "brand": "Axis",
+  "model": "P3265-LVE",
+  "aliases": ["02328-001"],
+  "type": "dome",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" progressive scan RGB CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.4-8.9",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-36 horizontal / 53-20 vertical",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af / 802.3at Type 1 Class 3)",
+    "voltage": "PoE"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": ["onvif", "rtsp", "http"],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": true
+  },
+  "features": [
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "OptimizedIR",
+    "ARTPEC-8 SoC with deep learning unit",
+    "AXIS Object Analytics",
+    "Axis Edge Vault cybersecurity",
+    "remote zoom and focus",
+    "Zipstream H.264/H.265",
+    "IK10 vandal resistant",
+    "NEMA 4X"
+  ],
+  "sources": [
+    "https://help.axis.com/en-us/axis-p3265-lve"
+  ]
+}

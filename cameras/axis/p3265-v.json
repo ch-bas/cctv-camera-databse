@@ -1,0 +1,64 @@
+{
+  "id": "axis-p3265-v",
+  "brand": "Axis",
+  "model": "P3265-V",
+  "aliases": [
+    "02326-001"
+  ],
+  "release_year": 2024,
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "9-22 (varifocal)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "36-15 horizontal (tele)",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ARTPEC-8 SoC with DLPU",
+    "9-22mm tele varifocal",
+    "Forensic WDR",
+    "60fps",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "two-way audio",
+    "Axis Edge Vault",
+    "indoor tele dome"
+  ],
+  "sources": [
+    "https://www.cdw.com/product/axis-p3265-v-camera/6842518"
+  ]
+}

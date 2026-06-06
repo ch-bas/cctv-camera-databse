@@ -1,0 +1,70 @@
+{
+  "id": "hikvision-ds-2cd2387g2-lu-au",
+  "brand": "Hikvision",
+  "model": "DS-2CD2387G2-L(U) (Australia)",
+  "aliases": [
+    "Hikvision 4K ColorVu Turret AU installer",
+    "Hikvision AU CCTV"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "AU"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.2\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorVu 4K full-color night vision",
+    "1/1.2\" large sensor F1.0",
+    "AcuSense human/vehicle",
+    "130 dB WDR",
+    "H.265+",
+    "built-in mic",
+    "IP67",
+    "most popular AU installer IP camera (Precision Security / Hypower Security)",
+    "available AU security wholesalers"
+  ],
+  "msrp_aud": 219.99,
+  "sources": [
+    "https://www.hikvision.com/au-en/"
+  ]
+}

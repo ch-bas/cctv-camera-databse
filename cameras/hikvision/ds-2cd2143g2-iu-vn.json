@@ -1,0 +1,69 @@
+{
+  "id": "hikvision-ds-2cd2143g2-iu-vn",
+  "brand": "Hikvision",
+  "model": "DS-2CD2143G2-IU (Vietnam)",
+  "aliases": [
+    "Hikvision 4MP AcuSense Dome Vietnam",
+    "Camera dome Hikvision VN 4MP"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "VN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "106 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "AcuSense 4MP dome",
+    "F1.6 aperture",
+    "built-in mic",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "popular Vietnam residential + commercial dome camera",
+    "Hikvision local Vietnam distributor network"
+  ],
+  "msrp_vnd": 1200000,
+  "sources": [
+    "https://www.hikvision.com/vn-vi/"
+  ]
+}

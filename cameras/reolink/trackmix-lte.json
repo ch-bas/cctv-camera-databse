@@ -1,0 +1,50 @@
+{
+  "id": "reolink-trackmix-lte",
+  "brand": "Reolink",
+  "model": "TrackMix LTE",
+  "type": "dual-lens",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K+4MP dual-lens"
+  },
+  "field_of_view_deg": "140 wide+35 tele",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4G LTE dual-lens auto-tracking battery camera",
+    "wide+tele simultaneous view",
+    "color spotlight",
+    "no WiFi required",
+    "solar optional",
+    "no subscription",
+    "IP65"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-trackmix-lte/"
+  ],
+  "msrp_usd": 149
+}

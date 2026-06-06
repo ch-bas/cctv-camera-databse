@@ -1,0 +1,68 @@
+{
+  "id": "netatmo-smart-indoor-camera-at",
+  "brand": "Netatmo",
+  "model": "Smart Indoor Camera (AT/CH)",
+  "aliases": [
+    "Netatmo Innen Kamera \u00d6sterreich",
+    "Netatmo Cam\u00e9ra Int\u00e9rieure AT"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2015,
+  "markets": [
+    "AT",
+    "CH",
+    "DE",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "NO SUBSCRIPTION FEES EVER",
+    "on-device facial recognition (offline AI)",
+    "local microSD + Dropbox/FTP storage",
+    "Apple HomeKit Secure Video",
+    "Alexa / Google",
+    "GDPR-compliant (French company EU data)",
+    "two-way audio",
+    "very popular privacy-conscious AT/CH buyers"
+  ],
+  "msrp_eur": 179.99,
+  "sources": [
+    "https://www.netatmo.com/at-de/"
+  ]
+}

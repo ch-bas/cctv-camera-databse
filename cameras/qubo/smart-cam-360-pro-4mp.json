@@ -1,0 +1,68 @@
+{
+  "id": "qubo-smart-cam-360-pro-4mp",
+  "brand": "Qubo",
+  "model": "Smart Camera 360\u00b0 Pro 4MP",
+  "aliases": [
+    "Qubo Smart 360 Pro"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "4MP QHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 1024,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "STQC & BIS certified",
+    "4MP QHD upgraded resolution",
+    "NightPulse color night vision",
+    "AI person detection",
+    "loud 110dB alarm",
+    "up to 1TB SD storage",
+    "Qubo India cloud",
+    "two-way audio",
+    "Alexa",
+    "Made in India"
+  ],
+  "msrp_inr": 5499,
+  "sources": [
+    "https://www.quboworld.com/"
+  ]
+}

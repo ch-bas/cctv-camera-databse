@@ -1,0 +1,61 @@
+{
+  "id": "simplisafe-outdoor-cam",
+  "brand": "SimpliSafe",
+  "model": "Outdoor Camera",
+  "aliases": [
+    "SimpliSafe Wireless Outdoor Security Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 12
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD color night vision",
+    "Intruder Intervention (professional monitoring triggers loud alarm)",
+    "AI person/vehicle detection",
+    "custom activity zones",
+    "two-way audio",
+    "weather-resistant",
+    "SimpliSafe Smart Alarm System integration",
+    "no long-term contract"
+  ],
+  "msrp_usd": 99.0,
+  "sources": [
+    "https://simplisafe.com/cameras"
+  ]
+}

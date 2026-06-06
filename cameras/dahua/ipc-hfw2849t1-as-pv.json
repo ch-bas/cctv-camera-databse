@@ -1,0 +1,49 @@
+{
+  "id": "dahua-ipc-hfw2849t1-as-pv",
+  "brand": "Dahua",
+  "model": "IPC-HFW2849T1-AS-PV",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE/DC12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "WizSense 2 TiOC 4K entry bullet",
+    "AI SMD 3.0",
+    "two-way audio",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

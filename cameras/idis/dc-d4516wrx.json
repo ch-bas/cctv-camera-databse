@@ -1,0 +1,68 @@
+{
+  "id": "idis-dc-d4516wrx",
+  "brand": "IDIS",
+  "model": "DC-D4516WRX",
+  "aliases": [
+    "IDIS DirectIP 5MP Vandal Dome Korea"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "KR",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "101 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IK10",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "IDIS DirectIP (true plug-and-play with IDIS NVR \u2014 no IP config needed)",
+    "5MP vandal dome IK10",
+    "H.265",
+    "WDR",
+    "ONVIF Profile S/T",
+    "easy kitting \u2014 auto-discovers on IDIS NVR instantly",
+    "Korean-made quality",
+    "popular Korea retail/bank/education/healthcare"
+  ],
+  "sources": [
+    "https://idisamericas.com/en/product/3588"
+  ]
+}

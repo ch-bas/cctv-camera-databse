@@ -1,0 +1,51 @@
+{
+  "id": "abus-tvip44021",
+  "brand": "ABUS",
+  "model": "TVIP44021",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ABUS 4MP PoE outdoor bullet entry-level",
+    "30m IR",
+    "H.265",
+    "ONVIF/RTSP",
+    "IP66",
+    "GDPR-compliant",
+    "no mandatory cloud"
+  ],
+  "sources": [
+    "https://www.abus.com/de/"
+  ]
+}

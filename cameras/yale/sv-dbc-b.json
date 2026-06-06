@@ -1,0 +1,47 @@
+{
+  "id": "yale-sv-dbc-b",
+  "brand": "Yale",
+  "model": "Smart Video Doorbell Colour",
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "150h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Battery or wired"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Yale 1080p colour night vision doorbell",
+    "150\u00b0 wide",
+    "person detection",
+    "two-way audio",
+    "Yale Secure / Alexa",
+    "IP55"
+  ],
+  "sources": [
+    "https://www.yalehome.co.uk/"
+  ]
+}

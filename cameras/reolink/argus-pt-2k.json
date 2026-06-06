@@ -1,0 +1,50 @@
+{
+  "id": "reolink-argus-pt-2k",
+  "brand": "Reolink",
+  "model": "Argus PT 2K",
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "355 pan/90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K battery pan/tilt upgraded",
+    "color spotlight",
+    "dual-band WiFi",
+    "person/vehicle/animal detection",
+    "solar optional",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/argus-pt-2k/"
+  ],
+  "msrp_usd": 69
+}

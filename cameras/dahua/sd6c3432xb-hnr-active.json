@@ -1,0 +1,58 @@
+{
+  "id": "dahua-sd6c3432xb-hnr-active",
+  "brand": "Dahua",
+  "model": "SD6C3432XB-HNR-A-PV1-new",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "60-2h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizMind 4MP 32x PTZ full-color active deterrence",
+    "ColorVu full-color night vision",
+    "red/blue strobe + siren",
+    "face recognition",
+    "auto-tracking",
+    "H.265",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "6.0-192 (32x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "sensor": "1/2.8\" CMOS"
+}

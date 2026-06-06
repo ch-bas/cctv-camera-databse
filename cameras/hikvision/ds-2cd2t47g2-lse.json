@@ -1,0 +1,65 @@
+{
+  "id": "hikvision-ds-2cd2t47g2-lse",
+  "brand": "Hikvision",
+  "model": "DS-2CD2T47G2-LSE",
+  "aliases": [
+    "4MP ColorVu Strobe Bullet with Active Deterrence",
+    "EasyIP 4.0 ColorVu"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 / 6 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 60
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ColorVu active deterrence (strobe + audible alarm)",
+    "F1.0 super aperture",
+    "0.0005 lux",
+    "AcuSense perimeter",
+    "two-way audio",
+    "60m color range",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

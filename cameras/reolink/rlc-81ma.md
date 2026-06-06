@@ -1,0 +1,36 @@
+# Reolink RLC-81MA
+
+*Also known as: Dual-Lens 4K Fixed Bullet*
+
+| Field | Spec |
+|-------|------|
+| Brand | Reolink |
+| Model | RLC-81MA |
+| Type | dual-lens |
+| Connectivity | poe, ethernet |
+| Resolution | 4K UHD (8MP, 3840×2160) |
+| Sensor | Dual CMOS (2.8mm wide + 8mm tele) |
+| Lens | 2× |
+| Field of view | Wide 87deg / Tele 30deg° |
+| Night vision | hybrid (30m) |
+| Power | PoE (802.3af) / DC 12V |
+| Storage | microSD ≤ 256GB, NVR |
+| Protocols | onvif, rtsp |
+| IP rating | IP66 |
+| Two-way audio | Yes |
+| Released | 2023 |
+
+## Features
+
+- dual fixed lens (wide + tele)
+- simultaneous dual view
+- spotlight color night vision
+- person/vehicle detection
+- no subscription
+
+## Sources
+
+- https://reolink.com/product/rlc-81ma/
+
+---
+*Auto-generated from reolink-rlc-81ma.json — do not edit by hand.*

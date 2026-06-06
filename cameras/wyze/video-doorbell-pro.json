@@ -1,0 +1,60 @@
+{
+  "id": "wyze-video-doorbell-pro",
+  "brand": "Wyze",
+  "model": "Video Doorbell Pro",
+  "aliases": [
+    "WVDBP1"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 6
+  },
+  "power": {
+    "method": "Hardwired (existing doorbell wiring 16-24V AC) or battery"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K video doorbell",
+    "head-to-toe view",
+    "person/package/pet detection",
+    "no subscription required",
+    "built-in chime",
+    "Alexa / Google Home"
+  ],
+  "msrp_usd": 49.98,
+  "sources": [
+    "https://www.wyze.com/products/wyze-doorbell-pro"
+  ]
+}

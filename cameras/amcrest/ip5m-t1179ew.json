@@ -1,0 +1,63 @@
+{
+  "id": "amcrest-ip5m-t1179ew",
+  "brand": "Amcrest",
+  "model": "5MP AI Turret PoE V3 (IP5M-T1179E)",
+  "aliases": [
+    "IP5M-T1179EW",
+    "IP5M-T1179EB"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "99 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 98
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP AI human/vehicle detection",
+    "98ft long-range IR",
+    "H.265",
+    "Blue Iris compatible",
+    "Amcrest View app",
+    "IP67"
+  ],
+  "msrp_usd": 34.99,
+  "sources": [
+    "https://amcrest.com/"
+  ]
+}

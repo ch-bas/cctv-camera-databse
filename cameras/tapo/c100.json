@@ -1,0 +1,56 @@
+{
+  "id": "tapo-c100",
+  "brand": "Tapo",
+  "model": "Tapo C100",
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9mm",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "105 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p entry indoor",
+    "motion detection",
+    "night vision (IR)",
+    "Alexa / Google",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "release_year": 2020,
+  "msrp_usd": 17.99
+}

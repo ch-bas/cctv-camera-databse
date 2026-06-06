@@ -1,0 +1,63 @@
+{
+  "id": "tapo-d230s1-doorbell-global",
+  "brand": "Tapo",
+  "model": "D230S1",
+  "aliases": [
+    "TP-Link Tapo D230S1 2K Battery Video Doorbell"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal (head-to-toe)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / existing doorbell wiring"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD head-to-toe video doorbell",
+    "colour night vision",
+    "person/motion detection",
+    "two-way audio",
+    "battery or wired",
+    "HomeKit / Alexa / Google",
+    "free cloud storage (3-day rolling)",
+    "no hub required"
+  ],
+  "msrp_usd": 79,
+  "sources": [
+    "https://www.tapo.com/en/product/smart-doorbell/tapo-d230s1/"
+  ]
+}

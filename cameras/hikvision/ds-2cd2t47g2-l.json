@@ -1,0 +1,27 @@
+{
+  "id": "hikvision-ds-2cd2t47g2-l",
+  "brand": "Hikvision",
+  "model": "DS-2CD2T47G2-L",
+  "aliases": ["ColorVu 4MP Fixed Bullet"],
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 4, "max_width": 2688, "max_height": 1520, "label": "4MP" },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8 / 4 / 6 (fixed options)", "aperture": "F1.0", "varifocal": false },
+  "field_of_view_deg": "94 horizontal (4mm lens)",
+  "night_vision": { "type": "color", "range_m": 60 },
+  "power": { "method": "PoE (802.3af) / DC 12V", "consumption_w": 6.5 },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp", "http"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": false, "speaker": false, "two_way": false },
+  "features": [
+    "ColorVu 24/7 full-color imaging",
+    "AcuSense human/vehicle classification",
+    "F1.0 super-aperture",
+    "130 dB WDR",
+    "H.265+ compression",
+    "built-in warm white LED supplement"
+  ],
+  "sources": ["https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2t47g2-l/"]
+}

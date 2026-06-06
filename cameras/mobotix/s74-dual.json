@@ -1,0 +1,56 @@
+{
+  "id": "mobotix-s74-dual",
+  "brand": "Mobotix",
+  "model": "S74 Dual Sensor",
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 12,
+    "label": "2x6MP dual sensor"
+  },
+  "sensor": "2x 1/1.8\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Interchangeable dual heads",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 2048,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "MOBOTIX 7 dual-sensor",
+    "2x interchangeable heads",
+    "180\u00b0 panoramic",
+    "on-camera AI Certified Apps",
+    "microSD up to 2TB",
+    "IP66",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.mobotix.com/"
+  ]
+}

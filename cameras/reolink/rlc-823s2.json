@@ -1,0 +1,61 @@
+{
+  "id": "reolink-rlc-823s2",
+  "brand": "Reolink",
+  "model": "RLC-823S2",
+  "aliases": [
+    "4K PTZ 16x Dome"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-45 (16x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "110-7 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "16x optical zoom",
+    "3D zoom",
+    "360deg pan / 90deg tilt",
+    "spotlight color night vision",
+    "person/vehicle/animal detection",
+    "no subscription"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://reolink.com/product/rlc-823s2/"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "hikvision-ds-2cd2t47g3-lis2uy-sl",
+  "brand": "Hikvision",
+  "model": "DS-2CD2T47G3-LIS2UY/SL",
+  "aliases": [
+    "EasyIP 4.0 Plus ColorVu 3.0 4MP Strobe Deterrence Bullet"
+  ],
+  "release_year": 2025,
+  "generation": "EasyIP 4.0 Plus",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ColorVu 3.0 (0.0001 lux)",
+    "AcuSense 3.0 + AcuSearch",
+    "HikAI-ISP",
+    "Audio 2.0 dual-array mic",
+    "strobe light active deterrence",
+    "audible warning siren",
+    "Motorization 2.0 PTRZ",
+    "130 dB WDR",
+    "H.265+"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2t47g3-lis2uy-s-l--rb-/"
+  ]
+}

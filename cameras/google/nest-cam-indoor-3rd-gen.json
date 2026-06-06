@@ -1,0 +1,62 @@
+{
+  "id": "google-nest-cam-indoor-3rd-gen",
+  "brand": "Google",
+  "model": "Nest Cam Indoor (Wired, 3rd Gen)",
+  "aliases": [
+    "2025 Nest Cam Indoor with Gemini"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "sensor": "CMOS (upgraded, wider aperture)",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "152 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 6
+  },
+  "power": {
+    "method": "USB-C (hardwired)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD (first 2K Nest Cam Indoor)",
+    "Gemini AI (detailed event descriptions / natural language search)",
+    "person/package/animal/vehicle detection",
+    "6x digital zoom",
+    "local event storage (1hr, offline backup)",
+    "Google Home Premium for full Gemini features",
+    "encrypted video",
+    "Alexa / Google Home"
+  ],
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://9to5google.com/2025/10/01/google-nest-camera-refresh-2025-2k-resolution/"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "axis-m3086-v",
+  "brand": "Axis",
+  "model": "M3086-V",
+  "aliases": [
+    "Axis M3086-V 4MP Indoor Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1512,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.4 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "105 horizontal",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lightfinder",
+    "WDR",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "Axis Edge Vault",
+    "built-in mic",
+    "affordable 4MP indoor dome"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-m3086-v"
+  ]
+}

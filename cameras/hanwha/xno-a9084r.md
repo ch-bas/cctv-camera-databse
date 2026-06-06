@@ -1,0 +1,38 @@
+# Hanwha XNO-A9084R
+
+*Also known as: Wisenet AI 8MP Bullet*
+
+| Field | Spec |
+|-------|------|
+| Brand | Hanwha |
+| Model | XNO-A9084R |
+| Type | bullet |
+| Connectivity | poe, ethernet |
+| Resolution | 4K UHD (8MP, 3840×2160) |
+| Sensor | 1/2.8" Progressive Scan CMOS |
+| Lens | 1× 4.4-9.3 (2.1x motorized varifocal)mm F1.3 |
+| Field of view | 113-47 horizontal° |
+| Night vision | ir (30m) |
+| Power | PoE (802.3af) / DC 12V / AC 24V |
+| Storage | microSD ≤ 256GB, NVR |
+| Protocols | onvif, rtsp |
+| IP rating | IP66 |
+| Two-way audio | No |
+
+## Features
+
+- dual NPU AI (person/face/vehicle/LPR)
+- IVA analytics
+- WiseStream III
+- 120 dB WDR
+- H.265
+- IK10
+- NEMA 4X
+- TAA compliant
+
+## Sources
+
+- https://hanwhavision.eu/product/xno-a9084r/
+
+---
+*Auto-generated from hanwha-xno-a9084r.json — do not edit by hand.*

@@ -1,0 +1,73 @@
+{
+  "id": "reolink-rlc-823a-mena",
+  "brand": "Reolink",
+  "model": "RLC-823A (MENA)",
+  "aliases": [
+    "Reolink 4K PoE Smart Spotlight UAE/KSA"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V / WiFi"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K PoE + WiFi outdoor bullet",
+    "spotlight color night vision",
+    "active deterrence",
+    "person/vehicle/animal/package AI detection",
+    "no subscription",
+    "RTSP/ONVIF",
+    "IP67",
+    "\u2248349 AED Amazon.ae",
+    "popular no-fee 4K UAE"
+  ],
+  "msrp_aed": 349,
+  "sources": [
+    "https://reolink.com/me-en/",
+    "https://www.amazon.ae/"
+  ]
+}

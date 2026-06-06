@@ -1,0 +1,53 @@
+{
+  "id": "reolink-home-hub",
+  "brand": "Reolink",
+  "model": "Home Hub",
+  "aliases": [
+    "Reolink Home Hub NVR/HomeBase for WiFi cameras"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 0,
+    "label": "N/A (hub device)"
+  },
+  "field_of_view_deg": "N/A",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Reolink Home Hub NVR hub for WiFi/battery cameras",
+    "built-in 64GB + 2\u00d7 slots up to 2\u00d7512GB",
+    "manages up to 8 Reolink cameras",
+    "AI video search",
+    "no subscription fee",
+    "no cloud required"
+  ],
+  "msrp_usd": 69,
+  "sources": [
+    "https://reolink.com/product/home-hub/"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "reolink-argus-2e",
+  "brand": "Reolink",
+  "model": "Argus 2E",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 3,
+    "label": "3MP 2K"
+  },
+  "field_of_view_deg": "120 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3MP 2K upgrade over Argus 2",
+    "wire-free solar optional",
+    "PIR person/vehicle detection",
+    "starlight IR",
+    "time-lapse",
+    "no subscription",
+    "Alexa/Google"
+  ],
+  "sources": [
+    "https://reolink.com/product/argus-2e/"
+  ],
+  "msrp_usd": 49
+}

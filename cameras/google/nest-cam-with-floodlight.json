@@ -1,0 +1,59 @@
+{
+  "id": "google-nest-cam-with-floodlight",
+  "brand": "Google",
+  "model": "Nest Cam with Floodlight",
+  "aliases": [
+    "GA02411-US"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "145 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "integrated 2400-lumen floodlight",
+    "1080p HDR",
+    "on-device AI detection",
+    "Nest Aware for history + familiar faces",
+    "Alexa / Google Home",
+    "color night vision"
+  ],
+  "msrp_usd": 279.99,
+  "sources": [
+    "https://store.google.com/product/nest_cam_floodlight_specs"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "dahua-ipc-hfw2431t-as-s2",
+  "brand": "Dahua",
+  "model": "IPC-HFW2431T-AS-S2",
+  "aliases": [
+    "Lite 4MP IR Fixed Bullet with Audio"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/3\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lite series budget 4MP bullet",
+    "H.265+",
+    "built-in mic",
+    "WDR",
+    "IVS",
+    "IP67",
+    "IK10",
+    "high value"
+  ],
+  "msrp_usd": 39.99,
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

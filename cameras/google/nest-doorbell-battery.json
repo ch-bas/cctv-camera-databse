@@ -1,0 +1,48 @@
+{
+  "id": "google-nest-doorbell-battery",
+  "brand": "Google",
+  "model": "Nest Doorbell (Battery)",
+  "type": "covert",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 2,
+    "label": "960\u00d71280 HD"
+  },
+  "field_of_view_deg": "135h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 6
+  },
+  "power": {
+    "method": "Rechargeable battery (6 months)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Google Nest Doorbell Battery 3:4 tall aspect ratio",
+    "head-to-toe view",
+    "person/package/animal/vehicle detection",
+    "Google Home / Alexa",
+    "IP54",
+    "no wiring required"
+  ],
+  "sources": [
+    "https://store.google.com/"
+  ]
+}

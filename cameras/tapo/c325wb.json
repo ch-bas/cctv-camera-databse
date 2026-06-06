@@ -1,0 +1,66 @@
+{
+  "id": "tapo-c325wb",
+  "brand": "Tapo",
+  "model": "Tapo C325WB",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2560,
+    "max_height": 1520,
+    "label": "1520p 5MP"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8mm",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "127 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V (outdoor wired)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ColorPro Night Vision (F1.0 super aperture)",
+    "1/1.79\" large sensor",
+    "5MP 1520p resolution",
+    "advanced AI person/pet/vehicle detection",
+    "line-crossing detection",
+    "activity zones",
+    "built-in siren",
+    "RTSP/ONVIF",
+    "IP66",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "aliases": [
+    "ColorPro Outdoor Camera"
+  ],
+  "release_year": 2024,
+  "msrp_usd": 59.99
+}

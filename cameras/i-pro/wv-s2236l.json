@@ -1,0 +1,71 @@
+{
+  "id": "i-pro-wv-s2236l",
+  "brand": "i-PRO",
+  "model": "WV-S2236L",
+  "aliases": [
+    "Panasonic i-PRO WV-S2236L",
+    "i-PRO S-Series 2MP AI Dome Japan"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "JP",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/3\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9-9 (3.1x motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-31 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IK10",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "i-PRO AI Engine on-device (person/vehicle/two-wheel detection)",
+    "Intelligent Auto (AI image optimisation)",
+    "Color Night Vision 0.007\u20130.009 lux",
+    "Super Dynamic 144dB WDR",
+    "Smart Coding (H.265+ AI compression 50% bandwidth saving)",
+    "Easy Kitting Packaging (configure in-box)",
+    "ONVIF Profile G/S/T",
+    "pre-installed AI analytics (ready to install 3rd-party apps)",
+    "IK10 vandal-resistant",
+    "#1 brand Japan enterprise surveillance market"
+  ],
+  "sources": [
+    "https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2236l"
+  ]
+}

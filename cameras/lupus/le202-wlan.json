@@ -1,0 +1,72 @@
+{
+  "id": "lupus-le202-wlan",
+  "brand": "Lupus Electronics",
+  "model": "LE202",
+  "aliases": [
+    "LUPUS LE202 V3 WLAN WiFi Dome Camera DE"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "DE",
+    "AT",
+    "CH",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "107 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V / passive PoE adapter"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "NO mandatory cloud DSGVO-compliant",
+    "LUPUSEC integration",
+    "WiFi dome V3 latest gen",
+    "ONVIF/RTSP",
+    "H.265+",
+    "LUPUS SmartVision VMS",
+    "IP66",
+    "IP67 housing",
+    "German brand",
+    "\u20ac80\u2013120"
+  ],
+  "msrp_eur": 109,
+  "sources": [
+    "https://www.lupus-electronics.de/"
+  ]
+}

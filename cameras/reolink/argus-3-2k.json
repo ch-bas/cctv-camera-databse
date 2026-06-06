@@ -1,0 +1,51 @@
+{
+  "id": "reolink-argus-3-2k",
+  "brand": "Reolink",
+  "model": "Argus 3 2K",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "122 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K 4MP color spotlight battery",
+    "motion spotlight",
+    "person/vehicle/animal detection",
+    "siren",
+    "two-way audio",
+    "solar optional",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/argus-3/"
+  ],
+  "msrp_usd": 49
+}

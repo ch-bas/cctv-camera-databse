@@ -1,0 +1,50 @@
+{
+  "id": "axis-q3538-ve",
+  "brand": "Axis",
+  "model": "Q3538-VE",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "102-33h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis Q3538-VE 4K outdoor dome ARTPEC-8",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "IP66",
+    "IK10",
+    "AXIS Object Analytics"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ]
+}

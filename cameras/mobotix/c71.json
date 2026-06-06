@@ -1,0 +1,51 @@
+{
+  "id": "mobotix-c71",
+  "brand": "Mobotix",
+  "model": "C71",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "100h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE 802.3af"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "MOBOTIX C71 4K fixed dome indoor/outdoor",
+    "interchangeable sensor heads",
+    "MOBOTIX 7",
+    "Certified Apps",
+    "IP66",
+    "IK10",
+    "2TB microSD"
+  ],
+  "sources": [
+    "https://www.mobotix.com/"
+  ]
+}

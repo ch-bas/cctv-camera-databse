@@ -1,0 +1,50 @@
+{
+  "id": "uniview-ipc2228se-df40k-wl",
+  "brand": "Uniview",
+  "model": "IPC2228SE-DF40K-WL-I0",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Uniview 4K LightHunter full-color dome",
+    "warm LED color night vision",
+    "AI human/vehicle",
+    "NDAA",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.uniview.com/"
+  ]
+}

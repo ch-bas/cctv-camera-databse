@@ -1,0 +1,67 @@
+{
+  "id": "cp-plus-cp-e35q",
+  "brand": "CP Plus",
+  "model": "CP-E35Q",
+  "aliases": [
+    "3MP WiFi Smart CCTV Camera CTC",
+    "CP Plus Cyber Secure"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "355 pan / 90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3MP 2K WiFi indoor pan/tilt",
+    "CTC Cyber Secure Tech (Indian data protection)",
+    "360deg coverage",
+    "color night vision",
+    "two-way audio",
+    "Alexa / Google Home",
+    "CP Plus app",
+    "\u20b93,500\u20134,500 price range"
+  ],
+  "msrp_inr": 3999,
+  "sources": [
+    "https://www.cpplusworld.com/"
+  ]
+}

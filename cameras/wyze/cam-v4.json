@@ -1,0 +1,65 @@
+{
+  "id": "wyze-cam-v4",
+  "brand": "Wyze",
+  "model": "Cam v4",
+  "aliases": [
+    "WYZEC4"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2.5K QHD"
+  },
+  "sensor": "1/2.7\" CMOS (upgraded vs v3)",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "118 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "USB-A power adapter (hardwired)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2.5K QHD resolution",
+    "upgraded sensor + F1.8 aperture",
+    "enhanced color night vision",
+    "motion-activated spotlight",
+    "person/package/pet/vehicle detection",
+    "AI subject tracking",
+    "24/7 recording (microSD)",
+    "no subscription required",
+    "Alexa / Google Home",
+    "RTSP support"
+  ],
+  "msrp_usd": 35.98,
+  "sources": [
+    "https://www.wyze.com/products/wyze-cam"
+  ]
+}

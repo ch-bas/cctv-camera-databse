@@ -1,0 +1,61 @@
+{
+  "id": "axis-m5526-e",
+  "brand": "Axis",
+  "model": "M5526-E",
+  "aliases": [
+    "Axis M5526-E PTZ 32x outdoor"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-137.6 (32x optical zoom)",
+    "aperture": "F1.4",
+    "varifocal": true
+  },
+  "field_of_view_deg": "58-2.4 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "32x optical zoom",
+    "Lightfinder",
+    "OptimizedIR",
+    "AXIS Object Analytics",
+    "Autotracking 2",
+    "Zipstream",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-m5526-e"
+  ]
+}

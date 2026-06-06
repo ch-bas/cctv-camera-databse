@@ -1,0 +1,50 @@
+{
+  "id": "adt-doorbell-cam-v2",
+  "brand": "ADT",
+  "model": "ADT+ Video Doorbell",
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "150h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired/battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ADT+ 1080p video doorbell",
+    "person/package detection",
+    "two-way audio",
+    "ADT monitoring integration",
+    "Google Home",
+    "IP44"
+  ],
+  "sources": [
+    "https://www.adt.com/"
+  ],
+  "markets": [
+    "US"
+  ]
+}

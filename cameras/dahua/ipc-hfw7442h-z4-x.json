@@ -1,0 +1,52 @@
+{
+  "id": "dahua-ipc-hfw7442h-z4-x",
+  "brand": "Dahua",
+  "model": "IPC-HFW7442H-Z4-X",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "83-15h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 80
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizMind 7 Series 4MP 4x long focal bullet",
+    "5.3-64mm motorized",
+    "80m IR",
+    "HEOP open AI platform",
+    "face recognition",
+    "IVS",
+    "H.265",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

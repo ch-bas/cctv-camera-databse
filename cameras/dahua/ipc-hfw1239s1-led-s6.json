@@ -1,0 +1,48 @@
+{
+  "id": "dahua-ipc-hfw1239s1-led-s6",
+  "brand": "Dahua",
+  "model": "IPC-HFW1239S1-LED-S6",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE/DC12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lite 2MP full-color bullet S6 gen",
+    "warm LED 30m",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

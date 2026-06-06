@@ -1,0 +1,28 @@
+{
+  "id": "ring-spotlight-cam-plus-battery",
+  "brand": "Ring",
+  "model": "Spotlight Cam Plus (Battery)",
+  "type": "bullet",
+  "connectivity": ["wifi", "battery"],
+  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p" },
+  "lens": { "count": 1, "varifocal": false },
+  "field_of_view_deg": "140 horizontal",
+  "night_vision": { "type": "color", "range_m": 9 },
+  "power": { "method": "Removable rechargeable battery / Solar Panel optional" },
+  "storage": { "onboard": false, "nvr_compatible": false, "cloud": true },
+  "protocols": ["http"],
+  "ip_rating": "IP55",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": [
+    "built-in LED spotlight",
+    "110 dB siren",
+    "person and motion detection",
+    "color night vision",
+    "dual-band WiFi",
+    "Alexa integration",
+    "Ring subscription for cloud video history"
+  ],
+  "release_year": 2022,
+  "msrp_usd": 149.99,
+  "sources": ["https://ring.com/products/spotlight-cam-battery"]
+}

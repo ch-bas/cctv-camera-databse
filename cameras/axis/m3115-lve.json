@@ -1,0 +1,58 @@
+{
+  "id": "axis-m3115-lve",
+  "brand": "Axis",
+  "model": "M3115-LVE",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.9\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.1 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "90 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Forensic WDR",
+    "OptimizedIR",
+    "flat face (reduces light reflection)",
+    "H.265/H.264 Zipstream",
+    "affordable 1080p dome",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-m3115-lve"
+  ]
+}

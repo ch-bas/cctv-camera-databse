@@ -1,0 +1,28 @@
+{
+  "id": "reolink-video-doorbell-poe",
+  "brand": "Reolink",
+  "model": "Video Doorbell PoE",
+  "type": "covert",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 5, "max_width": 2560, "max_height": 1920, "label": "5MP" },
+  "sensor": "1/2.7\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8 (fixed)", "varifocal": false },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": { "type": "color", "range_m": 5 },
+  "power": { "method": "PoE (IEEE 802.3af)" },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP65",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": [
+    "person/vehicle/animal detection",
+    "package detection",
+    "color night vision",
+    "wired PoE (no battery)",
+    "no subscription required",
+    "ONVIF compatible",
+    "works with Reolink NVR"
+  ],
+  "release_year": 2022,
+  "sources": ["https://reolink.com/product/reolink-video-doorbell-poe/"]
+}

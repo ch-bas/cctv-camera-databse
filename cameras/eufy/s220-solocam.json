@@ -1,0 +1,59 @@
+{
+  "id": "eufy-s220-solocam",
+  "brand": "Eufy",
+  "model": "SoloCam S220",
+  "aliases": [
+    "T81401",
+    "SoloCam Solar 2K"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2048,
+    "max_height": 1080,
+    "label": "2K"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "90 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Built-in battery + integrated solar panel"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "solar-powered (continuous power)",
+    "color night vision",
+    "AI person detection",
+    "no subscription fee",
+    "8 GB built-in eMMC",
+    "Alexa / Google"
+  ],
+  "release_year": 2023,
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://www.eufy.com/products/solocam-s220"
+  ]
+}

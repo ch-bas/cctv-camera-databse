@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCTV Camera Database</title>
+  <meta name="description" content="Open database of 1,000+ CCTV camera specifications across 49 brands. Search, filter, and compare cameras by brand, type, resolution, night vision, and more." />
+  <style>
+    /* ── Reset & base ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #0d1117;
+      --bg-card:     #161b22;
+      --bg-input:    #1c2128;
+      --border:      #30363d;
+      --border-soft: #21262d;
+      --text:        #e6edf3;
+      --text-muted:  #8b949e;
+      --text-dim:    #484f58;
+      --accent:      #2f81f7;
+      --accent-soft: rgba(47,129,247,0.12);
+      --green:       #3fb950;
+      --green-soft:  rgba(63,185,80,0.12);
+      --orange:      #d29922;
+      --orange-soft: rgba(210,153,34,0.12);
+      --red:         #f85149;
+      --red-soft:    rgba(248,81,73,0.12);
+      --purple:      #bc8cff;
+      --purple-soft: rgba(188,140,255,0.12);
+      --radius:      8px;
+      --font-mono:   'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+      --font-sans:   'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Layout ───────────────────────────────────────────────── */
+    .page { max-width: 1400px; margin: 0 auto; padding: 0 20px 60px; }
+
+    /* ── Header ───────────────────────────────────────────────── */
+    header {
+      padding: 40px 0 32px;
+      border-bottom: 1px solid var(--border-soft);
+      margin-bottom: 28px;
+    }
+    .header-inner {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .brand-icon {
+      width: 36px; height: 36px;
+      background: var(--accent-soft);
+      border: 1px solid var(--accent);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 13px;
+      max-width: 520px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.15s;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-muted);
+    }
+    .btn:hover { border-color: var(--text-muted); color: var(--text); }
+    .btn-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .btn-primary:hover { background: #388bfd; border-color: #388bfd; color: #fff; }
+
+    /* ── Stat pills ───────────────────────────────────────────── */
+    .stats {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .stat {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .stat strong { color: var(--text); font-variant-numeric: tabular-nums; }
+
+    /* ── Controls ─────────────────────────────────────────────── */
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr repeat(5, auto);
+      gap: 8px;
+      margin-bottom: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 900px) {
+      .controls { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 540px) {
+      .controls { grid-template-columns: 1fr; }
+    }
+
+    .search-wrap {
+      position: relative;
+    }
+    .search-icon {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      pointer-events: none;
+      font-size: 14px;
+    }
+    input[type="search"], select {
+      width: 100%;
+      padding: 8px 12px 8px 34px;
+      background: var(--bg-input);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-size: 13px;
+      font-family: var(--font-sans);
+      outline: none;
+      transition: border-color 0.15s;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    input[type="search"] { padding-left: 34px; }
+    input[type="search"]:focus, select:focus { border-color: var(--accent); }
+    select { padding-left: 12px; cursor: pointer; min-width: 130px; }
+    select option { background: var(--bg-card); }
+    ::placeholder { color: var(--text-dim); }
+
+    .results-count {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      padding: 0 4px;
+    }
+
+    /* ── Table ────────────────────────────────────────────────── */
+    .table-wrap {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.2);
+    }
+    .table-scroll { overflow-x: auto; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    /* Header row */
+    thead tr {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-dim);
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.15s;
+    }
+    th:hover { color: var(--text-muted); }
+    th.sorted { color: var(--accent); }
+    th .sort-arrow { margin-left: 4px; font-style: normal; }
+
+    /* Body rows */
+    tbody tr {
+      border-bottom: 1px solid var(--border-soft);
+      transition: background 0.1s;
+      cursor: pointer;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,0.02); }
+
+    td {
+      padding: 10px 14px;
+      color: var(--text);
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+    td.model-cell {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 500;
+    }
+    td.brand-cell { font-weight: 500; }
+    td.muted { color: var(--text-muted); }
+    td.dim { color: var(--text-dim); font-size: 12px; }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-type   { background: var(--purple-soft); color: var(--purple); }
+    .badge-ir     { background: rgba(139,148,158,0.12); color: var(--text-muted); }
+    .badge-color  { background: var(--orange-soft); color: var(--orange); }
+    .badge-hybrid { background: var(--green-soft); color: var(--green); }
+    .badge-none   { background: var(--red-soft); color: var(--red); }
+    .badge-4k     { background: var(--accent-soft); color: var(--accent); }
+    .badge-ip67   { background: var(--green-soft); color: var(--green); }
+    .badge-ip66   { background: rgba(63,185,80,0.06); color: #57ab5a; }
+    .badge-ip-other { background: rgba(139,148,158,0.1); color: var(--text-muted); }
+    .badge-poe    { background: var(--accent-soft); color: var(--accent); }
+    .badge-wifi   { background: var(--purple-soft); color: var(--purple); }
+    .badge-battery { background: var(--orange-soft); color: var(--orange); }
+    .badge-analog { background: rgba(139,148,158,0.1); color: var(--text-muted); }
+
+    .conn-badges { display: flex; gap: 3px; flex-wrap: wrap; }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      border-top: 1px solid var(--border-soft);
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .page-info { font-size: 12px; color: var(--text-muted); }
+    .page-btns { display: flex; gap: 4px; align-items: center; }
+    .page-btn {
+      padding: 5px 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      transition: all 0.1s;
+      min-width: 32px;
+      text-align: center;
+    }
+    .page-btn:hover:not(:disabled) { border-color: var(--text-muted); color: var(--text); }
+    .page-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .page-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    /* Empty + loading */
+    .empty {
+      padding: 60px 20px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+    .empty h3 { font-size: 16px; margin-bottom: 6px; color: var(--text); }
+    .empty p { font-size: 13px; }
+
+    .loading {
+      padding: 48px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    /* Skeleton shimmer */
+    .skeleton { background: var(--border-soft); border-radius: 4px; }
+    @keyframes shimmer {
+      0% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+      100% { opacity: 0.4; }
+    }
+    .skeleton { animation: shimmer 1.5s ease-in-out infinite; }
+
+    /* Detail drawer */
+    .drawer-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 100;
+      display: none;
+      backdrop-filter: blur(2px);
+    }
+    .drawer-overlay.open { display: block; }
+    .drawer {
+      position: fixed;
+      top: 0; right: 0; bottom: 0;
+      width: min(480px, 100vw);
+      background: var(--bg-card);
+      border-left: 1px solid var(--border);
+      z-index: 101;
+      overflow-y: auto;
+      transform: translateX(100%);
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      padding: 24px;
+    }
+    .drawer.open { transform: translateX(0); }
+    .drawer-close {
+      position: absolute;
+      top: 16px; right: 16px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      width: 30px; height: 30px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s;
+    }
+    .drawer-close:hover { border-color: var(--text-muted); color: var(--text); }
+    .drawer h2 {
+      font-family: var(--font-mono);
+      font-size: 15px;
+      color: var(--accent);
+      margin-bottom: 4px;
+      padding-right: 40px;
+    }
+    .drawer .drawer-brand {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .drawer-section { margin-bottom: 20px; }
+    .drawer-section-title {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border-soft);
+    }
+    .drawer-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 5px 0;
+      font-size: 13px;
+    }
+    .drawer-row .key { color: var(--text-muted); flex-shrink: 0; }
+    .drawer-row .val { color: var(--text); text-align: right; word-break: break-word; max-width: 280px; }
+    .drawer-row .val.mono { font-family: var(--font-mono); font-size: 12px; color: var(--accent); }
+    .features-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 4px;
+    }
+    .feature-tag {
+      padding: 3px 8px;
+      background: var(--bg-input);
+      border: 1px solid var(--border-soft);
+      border-radius: 4px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .source-link {
+      display: block;
+      color: var(--accent);
+      font-size: 12px;
+      text-decoration: none;
+      margin-top: 3px;
+      word-break: break-all;
+    }
+    .source-link:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-soft);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+    footer a { color: var(--text-muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+    .built-with {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .ff-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      background: var(--purple-soft);
+      border: 1px solid rgba(188,140,255,0.2);
+      border-radius: 4px;
+      color: var(--purple);
+      font-size: 11px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .ff-badge:hover { background: rgba(188,140,255,0.18); color: var(--purple); }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div>
+        <div class="brand">
+          <div class="brand-icon">📷</div>
+          <h1>CCTV Camera Database</h1>
+        </div>
+        <p class="subtitle">Open dataset of IP camera specifications. Search, filter, and compare — no account needed.</p>
+      </div>
+      <div class="header-actions">
+        <a class="btn" href="https://github.com/ch-bas/cctv-camera-database/issues/new?template=add-camera.yml" target="_blank" rel="noopener">
+          ＋ Add camera
+        </a>
+        <a class="btn btn-primary" href="https://github.com/ch-bas/cctv-camera-database" target="_blank" rel="noopener">
+          ★ GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Stats -->
+  <div class="stats" id="stats">
+    <div class="stat">Loading…</div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" id="search" placeholder="Search brand, model, feature…" autocomplete="off" />
+    </div>
+    <select id="filter-brand"><option value="">All brands</option></select>
+    <select id="filter-type"><option value="">All types</option></select>
+    <select id="filter-nv"><option value="">Night vision</option></select>
+    <select id="filter-res">
+      <option value="">Any resolution</option>
+      <option value="12+">12MP+</option>
+      <option value="8">4K (8MP)</option>
+      <option value="4">4–5MP</option>
+      <option value="2">1080p (2MP)</option>
+    </select>
+    <select id="filter-market"><option value="">All markets</option></select>
+  </div>
+
+  <div class="results-count" id="results-count"></div>
+
+  <!-- Table -->
+  <div class="table-wrap" style="margin-top:10px">
+    <div class="table-scroll">
+      <table id="camera-table" role="table" aria-label="CCTV camera database">
+        <thead>
+          <tr id="thead-row"></tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <span>Data released under <a href="https://github.com/ch-bas/cctv-camera-database/blob/main/LICENSE" target="_blank">CC0 1.0</a> · <a href="https://github.com/ch-bas/cctv-camera-database/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> · <a href="https://github.com/ch-bas/cctv-camera-database/blob/main/SECURITY.md" target="_blank">Security</a></span>
+    <span class="built-with">
+      Table scaffold via
+      <a class="ff-badge" href="https://frontfamily.com" target="_blank" rel="noopener">⚡ FrontFamily</a>
+    </span>
+  </footer>
+</div>
+
+<!-- Detail drawer -->
+<div class="drawer-overlay" id="overlay"></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Camera details">
+  <button class="drawer-close" id="drawer-close" aria-label="Close">✕</button>
+  <div id="drawer-content"></div>
+</div>
+
+<script>
+// ── Config ──────────────────────────────────────────────────────
+const DATA_URL    = '../data/cameras.json';
+const PAGE_SIZE   = 25;
+
+// ── State ───────────────────────────────────────────────────────
+let allCameras  = [];
+let filtered    = [];
+let sortKey     = 'brand';
+let sortDir     = 'asc';
+let page        = 0;
+
+// ── Column definitions (adapted from FrontFamily data-grid) ─────
+const COLS = [
+  { key: 'brand',       label: 'Brand',       width: '140px' },
+  { key: 'model',       label: 'Model',       width: '180px', mono: true },
+  { key: 'type',        label: 'Type',        width: '110px', badge: 'type' },
+  { key: 'megapixels',  label: 'MP',          width: '70px',  numeric: true },
+  { key: 'connectivity',label: 'Connect',     width: '130px', badges: 'conn' },
+  { key: 'night_vision',label: 'Night',       width: '90px',  badge: 'nv' },
+  { key: 'ip_rating',   label: 'IP',          width: '80px',  badge: 'ip' },
+  { key: 'two_way',     label: '2-Way Audio', width: '90px',  bool: true },
+  { key: 'msrp',        label: 'Price',       width: '90px',  numeric: true },
+];
+
+// ── Helpers ──────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+
+function flat(cam) {
+  return {
+    ...cam,
+    megapixels:   cam.resolution?.megapixels ?? 0,
+    nv_type:      cam.night_vision?.type ?? 'unknown',
+    nv_range:     cam.night_vision?.range_m ?? 0,
+    two_way:      cam.audio?.two_way ?? false,
+    msrp:         cam.msrp_usd ?? cam.msrp_eur ?? cam.msrp_gbp ?? cam.msrp_aud ?? cam.msrp_inr ?? null,
+  };
+}
+
+function fmt(cam, key) {
+  switch (key) {
+    case 'brand':       return cam.brand ?? '—';
+    case 'model':       return cam.model ?? '—';
+    case 'type':        return cam.type ?? '—';
+    case 'megapixels':  return cam.megapixels ? cam.megapixels + ' MP' : '—';
+    case 'connectivity':return cam.connectivity ?? [];
+    case 'night_vision':return cam.nv_type;
+    case 'ip_rating':   return cam.ip_rating ?? '—';
+    case 'two_way':     return cam.two_way;
+    case 'msrp':
+      if (!cam.msrp) return '—';
+      if (cam.msrp_usd)  return '$' + cam.msrp_usd;
+      if (cam.msrp_eur)  return '€' + cam.msrp_eur;
+      if (cam.msrp_gbp)  return '£' + cam.msrp_gbp;
+      if (cam.msrp_aud)  return 'A$' + cam.msrp_aud;
+      if (cam.msrp_inr)  return '₹' + cam.msrp_inr;
+      return '—';
+    default: return '—';
+  }
+}
+
+function nvBadgeClass(nv) {
+  return { ir:'badge-ir', color:'badge-color', hybrid:'badge-hybrid', none:'badge-none' }[nv] ?? 'badge-ir';
+}
+function ipBadgeClass(ip) {
+  if (!ip) return 'badge-ip-other';
+  if (ip.includes('67')) return 'badge-ip67';
+  if (ip.includes('66')) return 'badge-ip66';
+  return 'badge-ip-other';
+}
+function connBadgeClass(c) {
+  return { poe:'badge-poe', wifi:'badge-wifi', battery:'badge-battery', '4g':'badge-battery', analog:'badge-analog', ethernet:'badge-poe' }[c] ?? 'badge-ip-other';
+}
+function connLabel(c) {
+  return { poe:'PoE', wifi:'WiFi', battery:'Battery', '4g':'4G', analog:'Analog', ethernet:'ETH' }[c] ?? c;
+}
+
+function renderCell(cam, col) {
+  const val = fmt(cam, col.key);
+  if (col.mono)  return `<td class="model-cell">${val}</td>`;
+  if (col.badges === 'conn') {
+    const list = Array.isArray(val) ? val : [];
+    const badges = list.map(c => `<span class="badge ${connBadgeClass(c)}">${connLabel(c)}</span>`).join('');
+    return `<td><div class="conn-badges">${badges || '<span class="dim">—</span>'}</div></td>`;
+  }
+  if (col.badge === 'nv') {
+    const cls = nvBadgeClass(val);
+    return `<td><span class="badge ${cls}">${val}</span></td>`;
+  }
+  if (col.badge === 'ip') {
+    const cls = ipBadgeClass(val);
+    return `<td><span class="badge ${cls}">${val}</span></td>`;
+  }
+  if (col.badge === 'type') {
+    return `<td><span class="badge badge-type">${val}</span></td>`;
+  }
+  if (col.bool) {
+    return `<td class="${val ? '' : 'dim'}">${val ? '✓' : '—'}</td>`;
+  }
+  if (col.numeric) {
+    return `<td class="muted" style="text-align:right;padding-right:20px">${val}</td>`;
+  }
+  if (col.key === 'brand') return `<td class="brand-cell">${val}</td>`;
+  return `<td>${val}</td>`;
+}
+
+// ── Sorting ──────────────────────────────────────────────────────
+function sortVal(cam, key) {
+  switch (key) {
+    case 'megapixels': return cam.megapixels ?? 0;
+    case 'msrp':       return cam.msrp ?? 999999;
+    case 'two_way':    return cam.two_way ? 1 : 0;
+    case 'night_vision': return cam.nv_type ?? '';
+    default:           return (cam[key] ?? '').toString().toLowerCase();
+  }
+}
+
+function applySort() {
+  filtered.sort((a, b) => {
+    const av = sortVal(a, sortKey), bv = sortVal(b, sortKey);
+    if (typeof av === 'number') return sortDir === 'asc' ? av - bv : bv - av;
+    return sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+  });
+}
+
+// ── Filtering ─────────────────────────────────────────────────────
+function applyFilters() {
+  const q       = $('search').value.trim().toLowerCase();
+  const brand   = $('filter-brand').value;
+  const type    = $('filter-type').value;
+  const nv      = $('filter-nv').value;
+  const res     = $('filter-res').value;
+  const market  = $('filter-market').value;
+
+  filtered = allCameras.filter(cam => {
+    if (brand  && cam.brand !== brand)       return false;
+    if (type   && cam.type  !== type)        return false;
+    if (nv     && cam.nv_type !== nv)        return false;
+    if (market && !(cam.markets ?? []).includes(market)) return false;
+    if (res) {
+      const mp = cam.megapixels;
+      if (res === '12+' && mp < 12)          return false;
+      if (res === '8'   && !(mp >= 8 && mp < 12)) return false;
+      if (res === '4'   && !(mp >= 3 && mp < 8))  return false;
+      if (res === '2'   && !(mp >= 1 && mp < 3))  return false;
+    }
+    if (q) {
+      const haystack = [cam.brand, cam.model, cam.type, ...(cam.aliases ?? []), ...(cam.features ?? [])].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+
+  applySort();
+  page = 0;
+  render();
+}
+
+// ── Render table ─────────────────────────────────────────────────
+function renderthead() {
+  const tr = $('thead-row');
+  tr.innerHTML = COLS.map(col => {
+    const isSorted = sortKey === col.key;
+    const arrow    = isSorted ? (sortDir === 'asc' ? ' ↑' : ' ↓') : '';
+    return `<th data-key="${col.key}" class="${isSorted ? 'sorted' : ''}" style="width:${col.width ?? 'auto'}">
+      ${col.label}<em class="sort-arrow">${arrow}</em>
+    </th>`;
+  }).join('');
+
+  tr.querySelectorAll('th').forEach(th => {
+    th.addEventListener('click', () => {
+      if (sortKey === th.dataset.key) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+      else { sortKey = th.dataset.key; sortDir = 'asc'; }
+      applySort();
+      renderthead();
+      renderRows();
+      renderPagination();
+    });
+  });
+}
+
+function renderRows() {
+  const tbody  = $('tbody');
+  const start  = page * PAGE_SIZE;
+  const slice  = filtered.slice(start, start + PAGE_SIZE);
+
+  if (slice.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="${COLS.length}" class="empty">
+      <h3>No cameras found</h3>
+      <p>Try adjusting your search or filters.</p>
+    </td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = slice.map(cam => `
+    <tr data-id="${cam.id}">
+      ${COLS.map(col => renderCell(cam, col)).join('')}
+    </tr>
+  `).join('');
+
+  tbody.querySelectorAll('tr[data-id]').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const cam = allCameras.find(c => c.id === tr.dataset.id);
+      if (cam) openDrawer(cam);
+    });
+  });
+}
+
+function renderPagination() {
+  const total      = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  const start      = total === 0 ? 0 : page * PAGE_SIZE + 1;
+  const end        = Math.min((page + 1) * PAGE_SIZE, total);
+
+  $('results-count').textContent = total === allCameras.length
+    ? `${total.toLocaleString()} cameras`
+    : `${total.toLocaleString()} of ${allCameras.length.toLocaleString()} cameras`;
+
+  const MAX_VISIBLE = 7;
+  let pages = [];
+  if (totalPages <= MAX_VISIBLE) {
+    pages = Array.from({ length: totalPages }, (_, i) => i);
+  } else {
+    pages = [0];
+    let lo = Math.max(1, page - 2), hi = Math.min(totalPages - 2, page + 2);
+    if (lo > 1) pages.push('…');
+    for (let i = lo; i <= hi; i++) pages.push(i);
+    if (hi < totalPages - 2) pages.push('…');
+    pages.push(totalPages - 1);
+  }
+
+  $('pagination').innerHTML = `
+    <span class="page-info">${start}–${end} of ${total.toLocaleString()}</span>
+    <div class="page-btns">
+      <button class="page-btn" id="prev-btn" ${page === 0 ? 'disabled' : ''}>‹ Prev</button>
+      ${pages.map(p =>
+        p === '…' ? `<span style="color:var(--text-dim);padding:0 4px">…</span>`
+                  : `<button class="page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p + 1}</button>`
+      ).join('')}
+      <button class="page-btn" id="next-btn" ${page >= totalPages - 1 ? 'disabled' : ''}>Next ›</button>
+    </div>
+  `;
+
+  $('pagination').querySelectorAll('[data-page]').forEach(btn => {
+    btn.addEventListener('click', () => { page = +btn.dataset.page; renderRows(); renderPagination(); });
+  });
+  const prev = $('prev-btn'), next = $('next-btn');
+  if (prev) prev.addEventListener('click', () => { page--; renderRows(); renderPagination(); });
+  if (next) next.addEventListener('click', () => { page++; renderRows(); renderPagination(); });
+}
+
+function render() { renderRows(); renderPagination(); }
+
+// ── Stats bar ─────────────────────────────────────────────────────
+function renderStats(cameras) {
+  const brands  = new Set(cameras.map(c => c.brand)).size;
+  const r4k     = cameras.filter(c => c.megapixels >= 8).length;
+  const wiFi    = cameras.filter(c => (c.connectivity ?? []).includes('wifi')).length;
+  const noSub   = cameras.filter(c => (c.features ?? []).some(f => f.toLowerCase().includes('no subscription'))).length;
+
+  $('stats').innerHTML = [
+    `<div class="stat"><strong>${cameras.length.toLocaleString()}</strong> cameras</div>`,
+    `<div class="stat"><strong>${brands}</strong> brands</div>`,
+    `<div class="stat"><strong>${r4k.toLocaleString()}</strong> 4K+</div>`,
+    `<div class="stat"><strong>${wiFi.toLocaleString()}</strong> WiFi</div>`,
+    `<div class="stat"><strong>${noSub.toLocaleString()}</strong> no subscription</div>`,
+  ].join('');
+}
+
+// ── Filter dropdowns ──────────────────────────────────────────────
+function populateFilters(cameras) {
+  const uniq = (arr) => [...new Set(arr.filter(Boolean))].sort();
+
+  const brands  = uniq(cameras.map(c => c.brand));
+  const types   = uniq(cameras.map(c => c.type));
+  const nvTypes = uniq(cameras.map(c => c.nv_type));
+  const markets = uniq(cameras.flatMap(c => c.markets ?? []));
+
+  const populate = (id, vals) => {
+    const sel = $(id);
+    vals.forEach(v => {
+      const opt = document.createElement('option');
+      opt.value = v; opt.textContent = v;
+      sel.appendChild(opt);
+    });
+  };
+
+  populate('filter-brand',  brands);
+  populate('filter-type',   types);
+  populate('filter-nv',     nvTypes);
+  populate('filter-market', markets);
+}
+
+// ── Detail drawer ─────────────────────────────────────────────────
+function openDrawer(cam) {
+  const msrpStr = (() => {
+    const p = [];
+    if (cam.msrp_usd) p.push('$' + cam.msrp_usd);
+    if (cam.msrp_eur) p.push('€' + cam.msrp_eur);
+    if (cam.msrp_gbp) p.push('£' + cam.msrp_gbp);
+    if (cam.msrp_aud) p.push('A$' + cam.msrp_aud);
+    if (cam.msrp_inr) p.push('₹' + cam.msrp_inr);
+    return p.join(' / ') || '—';
+  })();
+
+  const row = (k, v) => v && v !== '—' ? `<div class="drawer-row"><span class="key">${k}</span><span class="val">${v}</span></div>` : '';
+  const rowMono = (k, v) => v ? `<div class="drawer-row"><span class="key">${k}</span><span class="val mono">${v}</span></div>` : '';
+
+  $('drawer-content').innerHTML = `
+    <h2>${cam.model}</h2>
+    <div class="drawer-brand">${cam.brand}${cam.release_year ? ' · ' + cam.release_year : ''}</div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Specs</div>
+      ${rowMono('ID', cam.id)}
+      ${row('Type', cam.type)}
+      ${row('Resolution', cam.resolution?.label + (cam.resolution?.megapixels ? ' (' + cam.resolution.megapixels + ' MP)' : ''))}
+      ${row('Sensor', cam.sensor)}
+      ${row('Lens', cam.lens?.focal_length_mm ? cam.lens.focal_length_mm + (cam.lens.aperture ? ' ' + cam.lens.aperture : '') + (cam.lens.varifocal ? ' varifocal' : '') : null)}
+      ${row('Field of view', cam.field_of_view_deg)}
+      ${row('Night vision', cam.night_vision?.type ? cam.night_vision.type + (cam.night_vision.range_m ? ' · ' + cam.night_vision.range_m + 'm' : '') : null)}
+      ${row('IP rating', cam.ip_rating)}
+      ${row('Power', cam.power?.method)}
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Connectivity & Storage</div>
+      ${row('Connectivity', (cam.connectivity ?? []).join(', '))}
+      ${row('Protocols', (cam.protocols ?? []).join(', '))}
+      ${row('microSD', cam.storage?.onboard ? (cam.storage.max_microsd_gb ? 'Yes (up to ' + cam.storage.max_microsd_gb + 'GB)' : 'Yes') : 'No')}
+      ${row('NVR compatible', cam.storage?.nvr_compatible != null ? (cam.storage.nvr_compatible ? 'Yes' : 'No') : null)}
+      ${row('Cloud', cam.storage?.cloud != null ? (cam.storage.cloud ? 'Yes' : 'No') : null)}
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Audio & Price</div>
+      ${row('Microphone', cam.audio?.microphone != null ? (cam.audio.microphone ? 'Yes' : 'No') : null)}
+      ${row('Two-way audio', cam.audio?.two_way != null ? (cam.audio.two_way ? 'Yes' : 'No') : null)}
+      ${row('Price', msrpStr)}
+      ${row('Markets', (cam.markets ?? []).join(', '))}
+    </div>
+
+    ${cam.features?.length ? `
+    <div class="drawer-section">
+      <div class="drawer-section-title">Features</div>
+      <div class="features-list">
+        ${cam.features.map(f => `<span class="feature-tag">${f}</span>`).join('')}
+      </div>
+    </div>` : ''}
+
+    ${cam.sources?.length ? `
+    <div class="drawer-section">
+      <div class="drawer-section-title">Sources</div>
+      ${cam.sources.map(s => `<a class="source-link" href="${s}" target="_blank" rel="noopener">${s}</a>`).join('')}
+    </div>` : ''}
+  `;
+
+  $('overlay').classList.add('open');
+  $('drawer').classList.add('open');
+  $('drawer').focus();
+}
+
+function closeDrawer() {
+  $('overlay').classList.remove('open');
+  $('drawer').classList.remove('open');
+}
+
+$('overlay').addEventListener('click', closeDrawer);
+$('drawer-close').addEventListener('click', closeDrawer);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+// ── Filter event listeners ────────────────────────────────────────
+['search','filter-brand','filter-type','filter-nv','filter-res','filter-market'].forEach(id => {
+  $(id).addEventListener('input', applyFilters);
+  $(id).addEventListener('change', applyFilters);
+});
+
+// ── Init ──────────────────────────────────────────────────────────
+async function init() {
+  $('tbody').innerHTML = `<tr><td colspan="${COLS.length}"><div class="loading">Loading cameras…</div></td></tr>`;
+
+  try {
+    const res  = await fetch(DATA_URL);
+    const data = await res.json();
+
+    allCameras = data.map(flat);
+    filtered   = [...allCameras];
+
+    renderStats(allCameras);
+    populateFilters(allCameras);
+    applySort();
+    renderthead();
+    render();
+  } catch (err) {
+    $('tbody').innerHTML = `<tr><td colspan="${COLS.length}"><div class="empty">
+      <h3>Failed to load data</h3>
+      <p>${err.message}</p>
+    </div></td></tr>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

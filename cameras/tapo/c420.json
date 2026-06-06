@@ -1,0 +1,62 @@
+{
+  "id": "tapo-c420",
+  "brand": "Tapo",
+  "model": "C420",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.18mm",
+    "aperture": "F1.61",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Removable rechargeable battery (A100) / solar panel optional / hub H200 required"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true,
+    "notes": "microSD stored on H200 hub (up to 256GB)"
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD wire-free battery camera",
+    "180-day battery life",
+    "starlight sensor F1.61",
+    "full-color night vision",
+    "AI person/pet/vehicle detection",
+    "built-in siren",
+    "removable battery",
+    "requires H200 hub",
+    "solar panel compatible",
+    "no subscription"
+  ],
+  "msrp_usd": 49.99,
+  "sources": [
+    "https://www.tapo.com/en/product/smart-camera/tapo-c420/"
+  ]
+}

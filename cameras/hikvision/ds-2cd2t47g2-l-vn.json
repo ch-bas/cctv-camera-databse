@@ -1,0 +1,69 @@
+{
+  "id": "hikvision-ds-2cd2t47g2-l-vn",
+  "brand": "Hikvision",
+  "model": "DS-2CD2T47G2-L (Vietnam)",
+  "aliases": [
+    "Hikvision 4MP ColorVu Bullet Vietnam",
+    "Hikvision Camera Vi\u1ec7t Nam"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "VN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 / 6 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 60
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorVu full-color night vision 60m",
+    "F1.0 large aperture",
+    "AcuSense human/vehicle AI",
+    "130 dB WDR",
+    "H.265+",
+    "IP67",
+    "most popular outdoor PoE camera Vietnam installers",
+    "available at \u0110i\u1ec7n m\u00e1y Xanh / Th\u1ebf Gi\u1edbi Di \u0110\u1ed9ng / Bach Khoa"
+  ],
+  "msrp_vnd": 1800000,
+  "sources": [
+    "https://www.hikvision.com/vn-vi/"
+  ]
+}

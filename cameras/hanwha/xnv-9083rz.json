@@ -1,0 +1,60 @@
+{
+  "id": "hanwha-xnv-9083rz",
+  "brand": "Hanwha",
+  "model": "XNV-9083RZ",
+  "aliases": [
+    "Wisenet X 8MP AI IR Vandal Dome 2.1x"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.4-9.3 (2.1x motorized varifocal)",
+    "aperture": "F1.3",
+    "varifocal": true
+  },
+  "field_of_view_deg": "113-47 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "AI deep learning IVA",
+    "WiseStream III",
+    "120 dB WDR",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://hanwhavision.eu/product/xnv-9083rz/"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "axis-q2101-e",
+  "brand": "Axis",
+  "model": "Q2101-E Thermal",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 0,
+    "max_width": 384,
+    "max_height": 288,
+    "label": "384\u00d7288 thermal"
+  },
+  "sensor": "Uncooled microbolometer LWIR",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "10 / 19 / 35 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "45 horizontal (10mm)",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "thermal LWIR outdoor bullet",
+    "detects humans in smoke/fog/total darkness",
+    "AXIS Object Analytics",
+    "Zipstream H.265",
+    "IP66",
+    "IK10",
+    "-20\u00b0C to +60\u00b0C",
+    "perimeter protection / critical infrastructure"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ]
+}

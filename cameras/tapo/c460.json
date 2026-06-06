@@ -1,0 +1,65 @@
+{
+  "id": "tapo-c460",
+  "brand": "Tapo",
+  "model": "Tapo C460",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3mm",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Built-in battery / integrated solar panel (kit version C460 KIT)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K wire-free battery/solar camera",
+    "200-day battery",
+    "edge improvement algorithm for sharper 4K",
+    "starlight color night vision",
+    "AI person/pet/vehicle detection",
+    "magnetic mount",
+    "dual-band WiFi (2.4/5GHz)",
+    "solar panel option (C460 KIT)",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "aliases": [
+    "MagCam 4K Solar"
+  ],
+  "release_year": 2025,
+  "msrp_usd": 89.99
+}

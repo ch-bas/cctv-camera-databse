@@ -1,0 +1,63 @@
+{
+  "id": "tapo-c500-outdoor",
+  "brand": "Tapo",
+  "model": "C500",
+  "aliases": [
+    "TP-Link Tapo C500 1080p Outdoor Pan/Tilt WiFi"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.89 (fixed)",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 139 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p outdoor pan/tilt WiFi",
+    "360\u00b0 pan / 139\u00b0 tilt",
+    "AI person/vehicle detection",
+    "RTSP/ONVIF",
+    "Tapo app / Alexa / Google / HomeKit",
+    "IP65",
+    "budget outdoor PTZ"
+  ],
+  "msrp_usd": 29,
+  "sources": [
+    "https://www.tapo.com/en/product/outdoor-camera/tapo-c500/"
+  ]
+}

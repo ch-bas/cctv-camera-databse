@@ -1,0 +1,62 @@
+{
+  "id": "axis-q3819-pve",
+  "brand": "Axis",
+  "model": "Q3819-PVE",
+  "aliases": [
+    "Axis Q3819-PVE 4K 180deg Panoramic"
+  ],
+  "release_year": 2024,
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "label": "3x4MP = 12MP 180deg panoramic"
+  },
+  "sensor": "3x 1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 3,
+    "focal_length_mm": "2.8 (fixed per sensor)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "3-sensor 180deg panoramic",
+    "12MP total 4K per sensor",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "OptimizedIR",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "built-in mic",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q3819-pve"
+  ]
+}

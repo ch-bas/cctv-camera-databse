@@ -1,0 +1,71 @@
+{
+  "id": "axis-q6135-le-mena",
+  "brand": "Axis",
+  "model": "Q6135-LE (MENA)",
+  "aliases": [
+    "Axis Q6135-LE 32x PTZ City Surveillance MENA",
+    "NEOM CCTV PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-137.6 (32x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "61.5-2.1 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 250
+  },
+  "power": {
+    "method": "High PoE (802.3bt) / 3-axis multi-connector cable"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "32x optical zoom",
+    "OptimizedIR 250m range",
+    "Lightfinder 2.0",
+    "AXIS Object Analytics (human/vehicle)",
+    "Zipstream H.265",
+    "Axis Edge Vault TPM cybersecurity (FIPS 140-2 Level 2)",
+    "sharpdome design (20deg above horizon)",
+    "auto-tracking",
+    "used in NEOM/smart city Saudi Arabia & UAE critical infra"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q6135-le",
+    "https://www.axis.com/en-me/"
+  ]
+}

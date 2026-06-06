@@ -1,0 +1,52 @@
+{
+  "id": "hikvision-ds-2de3a400bwg-et5",
+  "brand": "Hikvision",
+  "model": "DS-2DE3A400BWG-E(T5)",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "56-3h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE 802.3at"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP 4x AcuSense Mini PTZ outdoor IP66 50m IR",
+    "auto-tracking",
+    "H.265+"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (4x optical)",
+    "varifocal": true
+  }
+}

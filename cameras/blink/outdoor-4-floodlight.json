@@ -1,0 +1,61 @@
+{
+  "id": "blink-outdoor-4-floodlight",
+  "brand": "Blink",
+  "model": "Outdoor 4 Floodlight",
+  "aliases": [
+    "Blink Floodlight Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "150 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "4x D-cell batteries + optional hardwired / Blink Solar Panel"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "battery-powered floodlight camera",
+    "700-lumen floodlight",
+    "color night vision",
+    "person detection",
+    "Alexa",
+    "wire-free installation",
+    "Blink Sync Module XR for extended range"
+  ],
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://blinkforhome.com/products"
+  ]
+}

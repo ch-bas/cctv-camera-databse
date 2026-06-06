@@ -1,0 +1,60 @@
+{
+  "id": "hikvision-ds-2de2a204iw-de3-w",
+  "brand": "Hikvision",
+  "model": "DS-2DE2A204IW-DE3/W",
+  "aliases": [
+    "4MP WiFi Mini PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-8 (4x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "103-29 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V / PoE"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4x optical zoom",
+    "WiFi (2.4/5GHz)",
+    "340deg pan / 90deg tilt",
+    "preset positions",
+    "H.265+",
+    "built-in mic & speaker"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

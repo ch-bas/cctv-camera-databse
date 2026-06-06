@@ -1,0 +1,71 @@
+{
+  "id": "i-pro-wv-s8530n",
+  "brand": "i-PRO",
+  "model": "WV-S8530N",
+  "aliases": [
+    "Panasonic i-PRO WV-S8530N",
+    "i-PRO 4K AI Dome 8MP Japan"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "JP",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.4-10.2 (3x motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "92-31 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3bt) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K 8MP i-PRO AI Engine",
+    "1/1.7\" large sensor",
+    "F1.6 aperture",
+    "Super Dynamic 144dB WDR",
+    "multi-object AI analytics (person/vehicle/face/LPR)",
+    "Smart Coding H.265+",
+    "ONVIF Profile G/S/T",
+    "i-PRO plug-in app ecosystem",
+    "Japan JIS protection class",
+    "flagship 4K i-PRO dome"
+  ],
+  "sources": [
+    "https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s8530n"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "axis-q3538-lve",
+  "brand": "Axis",
+  "model": "Q3538-LVE",
+  "aliases": [
+    "02225-001",
+    "Axis 4K Deep Learning Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.2\" Progressive Scan RGB CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "6-13 (varifocal P-Iris)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "60-31 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ARTPEC-8 SoC with DLPU",
+    "1/1.2\" large sensor",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "OptimizedIR",
+    "IR-shielded dome (no reflections)",
+    "Electronic Image Stabilization",
+    "Axis Edge Vault TPM (FIPS 140-2 L2)",
+    "IK10+",
+    "60fps at 4K"
+  ],
+  "sources": [
+    "https://www.surveillance-video.com/camera-02225-001.html"
+  ]
+}

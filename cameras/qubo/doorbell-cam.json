@@ -1,0 +1,59 @@
+{
+  "id": "qubo-doorbell-cam",
+  "brand": "Qubo",
+  "model": "Smart Video Doorbell",
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "156 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 4
+  },
+  "power": {
+    "method": "Hardwired / battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "STQC & BIS certified India",
+    "1080p doorbell",
+    "colour night vision",
+    "two-way audio",
+    "Qubo India cloud",
+    "Alexa",
+    "Made in India Hero Group",
+    "\u20b94,999"
+  ],
+  "msrp_inr": 4999,
+  "sources": [
+    "https://www.quboworld.com/"
+  ]
+}

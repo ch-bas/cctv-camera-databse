@@ -1,0 +1,59 @@
+{
+  "id": "blink-mini-2",
+  "brand": "Blink",
+  "model": "Mini 2",
+  "aliases": [
+    "Blink Mini 2nd Gen"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB-C (hardwired, weather-resistant)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "indoor/outdoor plug-in mini camera",
+    "color night vision (first Mini with color)",
+    "IP54 weather-resistant",
+    "person detection",
+    "Alexa / Fire TV",
+    "Blink Subscription for cloud storage"
+  ],
+  "msrp_usd": 39.99,
+  "sources": [
+    "https://blinkforhome.com/products"
+  ]
+}

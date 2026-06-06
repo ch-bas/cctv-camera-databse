@@ -1,0 +1,49 @@
+{
+  "id": "reolink-d1200",
+  "brand": "Reolink",
+  "model": "D1200",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 12,
+    "label": "12MP"
+  },
+  "field_of_view_deg": "80 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE 802.3af"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Reolink add-on PoE dome 12MP NVR expansion",
+    "40m IR",
+    "IP67",
+    "ONVIF/RTSP",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/d1200/"
+  ],
+  "msrp_usd": 35
+}

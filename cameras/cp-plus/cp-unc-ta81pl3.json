@@ -1,0 +1,51 @@
+{
+  "id": "cp-plus-cp-unc-ta81pl3",
+  "brand": "CP Plus",
+  "model": "CP-UNC-TA81PL3",
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "CP Plus 4K ColorPro turret full-color",
+    "F1.6 aperture",
+    "human/vehicle detection",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "India"
+  ],
+  "sources": [
+    "https://www.cpplus.in/"
+  ]
+}

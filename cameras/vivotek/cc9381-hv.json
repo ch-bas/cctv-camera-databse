@@ -1,0 +1,60 @@
+{
+  "id": "vivotek-cc9381-hv",
+  "brand": "Vivotek",
+  "model": "CC9381-HV",
+  "aliases": [
+    "Vivotek 5MP Corner Mount"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.1 (fixed ultra-wide)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ultra-wide corner-mount design",
+    "SNV",
+    "WDR Pro",
+    "H.265",
+    "Smart Stream III",
+    "covers large area from corner position"
+  ],
+  "sources": [
+    "https://www.vivotek.com/"
+  ]
+}

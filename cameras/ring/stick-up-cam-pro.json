@@ -1,0 +1,61 @@
+{
+  "id": "ring-stick-up-cam-pro",
+  "brand": "Ring",
+  "model": "Stick Up Cam Pro",
+  "aliases": [
+    "Battery / Plug-in / Solar variants"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 horizontal / 70 vertical",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "Rechargeable battery / Solar / Plug-in (variants)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD",
+    "3D motion detection",
+    "bird's-eye view",
+    "color night vision",
+    "two-way audio",
+    "indoor/outdoor flexible placement",
+    "Ring Protect for cloud video",
+    "Alexa"
+  ],
+  "msrp_usd": 179.99,
+  "sources": [
+    "https://ring.com/products/stick-up-security-camera"
+  ]
+}

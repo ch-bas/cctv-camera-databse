@@ -1,0 +1,62 @@
+{
+  "id": "axis-m3088-v",
+  "brand": "Axis",
+  "model": "M3088-V",
+  "aliases": [
+    "Axis M3088-V 8MP Indoor Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "101 horizontal",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K indoor dome",
+    "Lightfinder",
+    "WDR",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "Axis Edge Vault",
+    "built-in mic"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-m3088-v"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "tapo-c210",
+  "brand": "Tapo",
+  "model": "Tapo C210",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2304,
+    "max_height": 1296,
+    "label": "3MP 1296p"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9mm",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 114 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 9
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3MP 1296p pan/tilt",
+    "360deg pan / 114deg tilt",
+    "motion tracking",
+    "AI person/pet detection",
+    "night vision IR",
+    "Alexa / Google",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "release_year": 2021,
+  "msrp_usd": 23.99
+}

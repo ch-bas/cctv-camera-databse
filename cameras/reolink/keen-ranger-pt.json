@@ -1,0 +1,49 @@
+{
+  "id": "reolink-keen-ranger-pt",
+  "brand": "Reolink",
+  "model": "Keen Ranger PT",
+  "type": "ptz",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "355 pan/90 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Solar panel built-in always-on"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4G LTE solar always-on outdoor PTZ",
+    "wildlife/construction/farm monitoring",
+    "no WiFi required",
+    "no battery swaps",
+    "no subscription",
+    "IP65"
+  ],
+  "sources": [
+    "https://reolink.com/product/keen-ranger-pt/"
+  ],
+  "msrp_usd": 159
+}

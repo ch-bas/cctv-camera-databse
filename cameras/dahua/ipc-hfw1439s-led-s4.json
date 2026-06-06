@@ -1,0 +1,49 @@
+{
+  "id": "dahua-ipc-hfw1439s-led-s4",
+  "brand": "Dahua",
+  "model": "IPC-HFW1439S-LED-S4",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Dahua Eco Series 4MP full-color budget bullet",
+    "warm LED 30m",
+    "H.265+",
+    "IP67",
+    "most affordable Dahua IP camera"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

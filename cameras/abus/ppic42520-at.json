@@ -1,0 +1,69 @@
+{
+  "id": "abus-ppic42520-at",
+  "brand": "ABUS",
+  "model": "PPIC42520 (Austria)",
+  "aliases": [
+    "ABUS Smart Security WLAN Pan/Tilt Outdoor AT/CH"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "AT",
+    "CH",
+    "DE",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.0 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "355 pan / 90 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 12
+  },
+  "power": {
+    "method": "DC 12V (outdoor adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "outdoor pan/tilt 3MP 2K WiFi",
+    "355deg pan / 90deg tilt",
+    "person/animal/vehicle detection",
+    "two-way audio",
+    "local microSD (GDPR-compliant no cloud required)",
+    "App2Cam Plus",
+    "IP66",
+    "Austrian consumer favourite Conrad/MediaMarkt"
+  ],
+  "msrp_eur": 219.99,
+  "sources": [
+    "https://www.abus.com/at/"
+  ]
+}

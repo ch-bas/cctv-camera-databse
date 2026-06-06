@@ -1,0 +1,64 @@
+{
+  "id": "hikvision-ds-2cd63c5g1-ivs",
+  "brand": "Hikvision",
+  "model": "DS-2CD63C5G1-IVS",
+  "aliases": [
+    "DeepinView 12MP Fisheye",
+    "DS-2CD63C5G1"
+  ],
+  "type": "fisheye",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 4000,
+    "max_height": 3000,
+    "label": "12MP"
+  },
+  "sensor": "1/1.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.29 (fixed fisheye)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "12MP 360deg fisheye",
+    "Immervision optimized lens",
+    "DeepinView deep learning analytics",
+    "people counting",
+    "heatmap",
+    "multiple dewarping modes",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Panoramic-Series/ds-2cd63c5g1-ivs/"
+  ]
+}

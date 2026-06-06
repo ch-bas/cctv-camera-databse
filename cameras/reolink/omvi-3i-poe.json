@@ -1,0 +1,61 @@
+{
+  "id": "reolink-omvi-3i-poe",
+  "brand": "Reolink",
+  "model": "OMVI 3i PoE",
+  "aliases": [
+    "Triple-Lens 18MP PoE"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 18,
+    "label": "18MP (10MP panoramic + 8MP PT)"
+  },
+  "sensor": "Triple CMOS (2x5MP panoramic + 4K PT)",
+  "lens": {
+    "count": 3,
+    "focal_length_mm": "2.8 fixed (panoramic) + PT lens",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 panoramic + PT tracking",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "triple-lens 18MP",
+    "180deg panoramic + 4K auto-tracking PT",
+    "synchronized smart tracking",
+    "AI video search",
+    "perimeter protection",
+    "color & IR night vision",
+    "no subscription"
+  ],
+  "release_year": 2025,
+  "msrp_usd": 299.99,
+  "sources": [
+    "https://reolink.com/product/omvi-3i-poe/"
+  ]
+}

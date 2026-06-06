@@ -1,0 +1,59 @@
+{
+  "id": "avigilon-h5a-bo1-ir-2mp",
+  "brand": "Avigilon",
+  "model": "H5A 2MP Bullet (2.0C-H5A-BO1-IR)",
+  "aliases": [
+    "2.0C-H5A-BO1-IR"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3-9 (motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "97-33 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af/at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Next-Gen Video Analytics",
+    "Unusual Activity Detection",
+    "Appearance Search",
+    "LightCatcher",
+    "HDSM SmartCodec",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.avigilon.com/security-cameras"
+  ]
+}

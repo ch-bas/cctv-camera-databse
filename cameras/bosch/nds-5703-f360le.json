@@ -1,0 +1,57 @@
+{
+  "id": "bosch-nds-5703-f360le",
+  "brand": "Bosch",
+  "model": "FLEXIDOME panoramic 5100i 6MP (NDS-5703-F360LE)",
+  "aliases": [
+    "NDS-5703-F360LE",
+    "FLEXIDOME panoramic 360deg"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 6,
+    "label": "6MP 360deg"
+  },
+  "sensor": "1/2.5\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.24 (fixed fisheye)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360deg panoramic",
+    "Essential Video Analytics",
+    "dewarping modes",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://media.boschsecurity.com/fs/media/en/pb/media/support_1/tools/ip_video_product_overview.pdf"
+  ]
+}

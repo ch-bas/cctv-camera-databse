@@ -1,0 +1,62 @@
+{
+  "id": "arlo-go-2",
+  "brand": "Arlo",
+  "model": "Go 2",
+  "aliases": [
+    "VML2030",
+    "Arlo 4G LTE Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Rechargeable battery / solar panel optional"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4G LTE cellular connectivity (no WiFi required)",
+    "GPS tracking",
+    "1080p HDR",
+    "color night vision",
+    "person/vehicle detection",
+    "integrated siren",
+    "Arlo Secure for cloud",
+    "works anywhere with cellular signal"
+  ],
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://www.arlo.com/cameras/go/arlo-go-2.html"
+  ]
+}

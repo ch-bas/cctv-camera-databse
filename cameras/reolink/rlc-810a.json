@@ -1,0 +1,54 @@
+{
+  "id": "reolink-rlc-810a",
+  "brand": "Reolink",
+  "model": "RLC-810A",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.0 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "87 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V",
+    "voltage": "12V (DC) / PoE"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": ["onvif", "rtsp", "rtmp"],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "person detection",
+    "vehicle detection",
+    "animal detection",
+    "time-lapse",
+    "24/7 / motion / scheduled recording",
+    "no subscription required"
+  ],
+  "release_year": 2020,
+  "sources": [
+    "https://reolink.com/product/rlc-810a/"
+  ]
+}

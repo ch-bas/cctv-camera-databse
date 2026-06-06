@@ -1,0 +1,61 @@
+{
+  "id": "vivotek-sd9384-ehl",
+  "brand": "Vivotek",
+  "model": "SD9384-EHL",
+  "aliases": [
+    "Vivotek 4K 32x PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.5\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.7-150 (32x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "59-1.9 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "High PoE (802.3bt) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "32x optical zoom",
+    "4K 30fps",
+    "WDR Pro",
+    "SNV low-light",
+    "Smart VCA analytics",
+    "AI event detection",
+    "built-in mic & speaker",
+    "built-in heater"
+  ],
+  "sources": [
+    "https://www.vivotek.com/"
+  ]
+}
