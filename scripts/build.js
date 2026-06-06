@@ -85,12 +85,17 @@ function main() {
   const cameras = loadCameras();
   validate(cameras);
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(
-    path.join(DATA_DIR, "cameras.json"),
-    JSON.stringify(cameras, null, 2) + "\n"
-  );
+  const jsonData = JSON.stringify(cameras, null, 2) + "\n";
+  fs.writeFileSync(path.join(DATA_DIR, "cameras.json"), jsonData);
   fs.writeFileSync(path.join(DATA_DIR, "cameras.csv"), toCsv(cameras));
-  console.log(`✓ Built ${cameras.length} camera(s) → data/cameras.json + data/cameras.csv`);
+
+  // Also copy into docs/ so GitHub Pages can serve it
+  const DOCS_DIR = path.join(ROOT, "docs");
+  if (fs.existsSync(DOCS_DIR)) {
+    fs.writeFileSync(path.join(DOCS_DIR, "cameras.json"), jsonData);
+  }
+
+  console.log(`✓ Built ${cameras.length} camera(s) → data/cameras.json + data/cameras.csv + docs/cameras.json`);
 }
 
 main();
