@@ -1,0 +1,50 @@
+{
+  "id": "dahua-ipc-hdw2439t-as-led-s2",
+  "brand": "Dahua",
+  "model": "IPC-HDW2439T-AS-LED-S2",
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE/DC12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizSense 2 4MP full-color eyeball S2",
+    "mic",
+    "AI SMD 3.0",
+    "H.265+",
+    "IP67",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

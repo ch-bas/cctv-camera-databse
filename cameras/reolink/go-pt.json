@@ -1,0 +1,49 @@
+{
+  "id": "reolink-go-pt",
+  "brand": "Reolink",
+  "model": "Go PT",
+  "type": "ptz",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "355 pan/90 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 64,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP64",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4G LTE cellular pan/tilt",
+    "2K QHD",
+    "solar optional",
+    "two-way audio",
+    "no subscription",
+    "IP64"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-go-pt/"
+  ],
+  "msrp_usd": 99
+}

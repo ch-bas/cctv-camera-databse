@@ -1,0 +1,65 @@
+{
+  "id": "godrej-eve-cube",
+  "brand": "Godrej",
+  "model": "Eve Cube",
+  "aliases": [
+    "Godrej Eve Cube 2MP Indoor"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "compact cube design",
+    "1080p fixed indoor",
+    "motion detection alerts",
+    "two-way audio",
+    "EVE app",
+    "no subscription",
+    "\u20b94,500"
+  ],
+  "msrp_inr": 4500,
+  "sources": [
+    "https://pricee.com/godrej-eve-cube-cctv-security-camera-price-in-india-90722"
+  ]
+}

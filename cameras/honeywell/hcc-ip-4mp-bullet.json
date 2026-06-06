@@ -1,0 +1,68 @@
+{
+  "id": "honeywell-hcc-ip-4mp-bullet",
+  "brand": "Honeywell",
+  "model": "CALIPB-1AI 4MP IP Bullet",
+  "aliases": [
+    "Honeywell 50 Series Outdoor Bullet India"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2025,
+  "markets": [
+    "IN",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Honeywell India-designed 50 Series bullet",
+    "embedded cybersecurity",
+    "IVA analytics",
+    "H.265+",
+    "IP67",
+    "preferred enterprise/government India",
+    "\u20b910,000\u201316,000"
+  ],
+  "msrp_inr": 13999,
+  "sources": [
+    "https://www.honeywell.com/en-us/company/india"
+  ]
+}

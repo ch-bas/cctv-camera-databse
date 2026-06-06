@@ -1,0 +1,59 @@
+{
+  "id": "avigilon-h5a-dh2-ir-10mp",
+  "brand": "Avigilon",
+  "model": "H5A 10MP Dual Head (10C-H5A-DH2-IR)",
+  "aliases": [
+    "H5A Dual Head 10MP",
+    "10C-H5A-DH2-IR"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 10,
+    "label": "2x5MP dual sensor"
+  },
+  "sensor": "2x 1/2.8\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "3.3-5.7 (motorized per sensor)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "Up to 180 combined",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "dual-sensor covers hallways and corners",
+    "10MP total coverage",
+    "Avigilon Next-Gen Analytics",
+    "Appearance Search",
+    "LightCatcher",
+    "HDSM SmartCodec",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.avigilon.com/security-cameras/h5a-dual-head"
+  ]
+}

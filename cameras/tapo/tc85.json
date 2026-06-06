@@ -1,0 +1,61 @@
+{
+  "id": "tapo-tc85",
+  "brand": "Tapo",
+  "model": "TC85",
+  "aliases": [
+    "Smart Outdoor PTZ Camera with Floodlight"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8mm",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 140 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (AC)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K pan/tilt floodlight camera",
+    "360deg AI tracking",
+    "AI person/pet/vehicle detection",
+    "built-in floodlight",
+    "color night vision",
+    "IP65",
+    "built-in siren",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "lorex-w452asd",
+  "brand": "Lorex",
+  "model": "W452ASD (2K Wired Floodlight)",
+  "aliases": [
+    "2K Wired Floodlight Security Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "120 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (AC mains, standard junction box)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K color night vision floodlight",
+    "smart motion detection (person/vehicle/animal)",
+    "adjustable LED color temperature",
+    "built-in siren",
+    "auto-tracking",
+    "32GB microSD included",
+    "no monthly fees",
+    "Alexa / Google"
+  ],
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://www.lorex.com/products/2k-floodlight-camera"
+  ]
+}

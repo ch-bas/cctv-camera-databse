@@ -1,0 +1,34 @@
+# Reolink E1
+
+| Field | Spec |
+|-------|------|
+| Brand | Reolink |
+| Model | E1 |
+| Type | ptz |
+| Connectivity | wifi |
+| Resolution | 1080p HD (2MP) |
+| Field of view | 355 pan/50 tilt° |
+| Night vision | ir (9m) |
+| Power | DC 5V USB |
+| Storage | microSD ≤ 64GB, NVR |
+| Protocols | rtsp |
+| IP rating | IP20 |
+| Two-way audio | Yes |
+| Released | 2019 |
+
+## Features
+
+- 1080p indoor WiFi pan/tilt entry
+- 9m IR
+- two-way audio
+- RTSP
+- Alexa/Google
+- no subscription
+- most affordable Reolink indoor
+
+## Sources
+
+- https://reolink.com/product/e1/
+
+---
+*Auto-generated from reolink-e1-indoor.json — do not edit by hand.*

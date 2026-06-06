@@ -1,0 +1,58 @@
+{
+  "id": "arlo-essential-indoor-2nd-gen",
+  "brand": "Arlo",
+  "model": "Essential Indoor Camera (2nd Gen)",
+  "aliases": [
+    "VMC2060"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB-C power adapter (plug-in)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "privacy shield cover",
+    "color night vision",
+    "person/package/animal detection",
+    "two-way audio",
+    "direct WiFi no hub needed",
+    "Apple HomeKit / Google / Alexa",
+    "Arlo Secure plan for cloud"
+  ],
+  "release_year": 2022,
+  "msrp_usd": 89.99,
+  "sources": [
+    "https://www.arlo.com/cameras/essential/arlo-essential-indoor.html"
+  ]
+}

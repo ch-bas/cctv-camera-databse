@@ -1,0 +1,71 @@
+{
+  "id": "reolink-rlc-823a-canada",
+  "brand": "Reolink",
+  "model": "RLC-823A (Canada)",
+  "aliases": [
+    "Reolink 4K PoE Smart Spotlight Camera Canada"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "CA",
+    "US"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V / WiFi"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K PoE + WiFi outdoor bullet",
+    "color night vision spotlight",
+    "active deterrence (light + siren)",
+    "person/vehicle/animal/package AI detection",
+    "NO subscription fee",
+    "RTSP/ONVIF Frigate/Blue Iris compatible",
+    "IP67 rated -10\u00b0C to +55\u00b0C",
+    "available Home Depot Canada / Amazon.ca"
+  ],
+  "msrp_cad": 79.99,
+  "sources": [
+    "https://reolink.com/ca/",
+    "https://www.amazon.ca/"
+  ]
+}

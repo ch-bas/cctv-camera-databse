@@ -1,0 +1,71 @@
+{
+  "id": "lorex-lnb9292b-canada",
+  "brand": "Lorex",
+  "model": "LNB9292B Nocturnal N3",
+  "aliases": [
+    "Lorex 4K Nocturnal 3.0 Motorized Varifocal Bullet",
+    "Lorex Canada Nocturnal"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "CA",
+    "US"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (4x motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "110-32 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K 30fps real-time recording",
+    "4x motorized optical zoom",
+    "Color Night Vision (CNV) with ambient light",
+    "smart motion detection (person/vehicle/animal)",
+    "aluminum exterior rated -40\u00b0C to +60\u00b0C",
+    "Canadian winters tested",
+    "NVR required (sold separately)",
+    "no subscription",
+    "ONVIF/RTSP",
+    "Costco Canada bestseller"
+  ],
+  "msrp_cad": 199.99,
+  "sources": [
+    "https://www.lorex.ca/products/4k-8mp-nocturnal-motorized-varifocal-smart-ip-bullet-security-camera"
+  ]
+}

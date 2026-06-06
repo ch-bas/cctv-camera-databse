@@ -1,0 +1,59 @@
+{
+  "id": "dahua-ipc-hfw3849e-as-led-s2-new",
+  "brand": "Dahua",
+  "model": "IPC-HFW3849E-ZAS-LED-S2",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (5x motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "110-30 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K full-color warm LED varifocal bullet",
+    "5x motorized zoom",
+    "WizSense AI",
+    "SMD 4.0",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

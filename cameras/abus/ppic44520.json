@@ -1,0 +1,70 @@
+{
+  "id": "abus-ppic44520",
+  "brand": "ABUS",
+  "model": "PPIC44520",
+  "aliases": [
+    "ABUS Smart Security WLAN Outdoor Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "DE",
+    "AT",
+    "CH",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.0 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "DC 12V (outdoor adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ABUS App2Cam Plus",
+    "3MP WiFi outdoor",
+    "IR night vision",
+    "person/animal/vehicle detection",
+    "two-way audio",
+    "GDPR-compliant (no mandatory cloud)",
+    "local microSD storage",
+    "IP66",
+    "German brand"
+  ],
+  "msrp_eur": 189.99,
+  "sources": [
+    "https://www.abus.com/"
+  ]
+}

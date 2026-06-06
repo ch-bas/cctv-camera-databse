@@ -1,0 +1,60 @@
+{
+  "id": "arlo-ultra-2-spotlight",
+  "brand": "Arlo",
+  "model": "Ultra 2 Spotlight",
+  "aliases": [
+    "Arlo Ultra 2 4K Spotlight Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Rechargeable battery / Solar optional"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K UHD 180\u00b0 ultrawide FOV",
+    "integrated spotlight",
+    "colour night vision",
+    "person/vehicle/animal/package detection",
+    "siren",
+    "Apple HomeKit / Google / Alexa",
+    "Arlo Secure plan",
+    "IP65"
+  ],
+  "msrp_usd": 299,
+  "sources": [
+    "https://www.arlo.com/cameras/ultra/arlo-ultra-2-spotlight-camera.html"
+  ]
+}

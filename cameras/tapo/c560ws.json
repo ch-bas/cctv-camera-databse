@@ -1,0 +1,65 @@
+{
+  "id": "tapo-c560ws",
+  "brand": "Tapo",
+  "model": "Tapo C560WS",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3mm",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 140 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 12V outdoor adapter"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "VistaCam 360 outdoor 4K pan/tilt",
+    "360deg pan / 140deg tilt",
+    "WiFi 6 dual-band (2.4/5GHz)",
+    "4K starlight color night vision",
+    "on-device AI facial recognition",
+    "free person/pet/vehicle detection",
+    "360deg AI tracking",
+    "H500 compatible",
+    "24/7 continuous recording",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "aliases": [
+    "VistaCam 360"
+  ],
+  "release_year": 2025,
+  "msrp_usd": 99.99
+}

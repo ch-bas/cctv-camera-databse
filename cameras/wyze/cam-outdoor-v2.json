@@ -1,0 +1,62 @@
+{
+  "id": "wyze-cam-outdoor-v2",
+  "brand": "Wyze",
+  "model": "Cam Outdoor v2",
+  "aliases": [
+    "WYZEOCO2"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Rechargeable battery / optional solar panel / USB-C"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "wire-free battery outdoor camera",
+    "travel mode",
+    "local base station storage (32GB included)",
+    "person/motion detection",
+    "no subscription required",
+    "Alexa / Google Home"
+  ],
+  "msrp_usd": 49.98,
+  "sources": [
+    "https://www.wyze.com/products/wyze-cam-outdoor"
+  ]
+}

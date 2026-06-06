@@ -1,0 +1,58 @@
+{
+  "id": "ubiquiti-g4-bullet",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G4 Bullet",
+  "aliases": [
+    "UVC-G4-Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1512,
+    "label": "2K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "83 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IPX4",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "AI event detection person/vehicle",
+    "UniFi Protect ecosystem",
+    "IK04",
+    "built-in mic"
+  ],
+  "release_year": 2021,
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-bullet"
+  ]
+}

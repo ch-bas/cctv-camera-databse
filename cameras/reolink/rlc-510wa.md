@@ -1,0 +1,32 @@
+# Reolink RLC-510WA
+
+| Field | Spec |
+|-------|------|
+| Brand | Reolink |
+| Model | RLC-510WA |
+| Type | dome |
+| Connectivity | wifi |
+| Resolution | 5MP (5MP) |
+| Field of view | 80 horizontal° |
+| Night vision | ir (30m) |
+| Power | DC 12V |
+| Storage | microSD ≤ 128GB, NVR |
+| Protocols | rtsp, onvif |
+| IP rating | IP67 |
+| Two-way audio | No |
+| Released | 2021 |
+
+## Features
+
+- 5MP WiFi dome with AI person/vehicle detection
+- 30m IR
+- ONVIF/RTSP
+- IP67
+- no subscription
+
+## Sources
+
+- https://reolink.com/product/rlc-510wa/
+
+---
+*Auto-generated from reolink-rlc-510wa.json — do not edit by hand.*

@@ -1,0 +1,61 @@
+{
+  "id": "avigilon-h6m-d1-ir-2mp",
+  "brand": "Avigilon",
+  "model": "H6M 2MP Mini Dome (2.0C-H6M-D1-IR)",
+  "aliases": [
+    "2.0C-H6M-D1-IR",
+    "H6M Mini Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-8 (motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-36 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP22",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Avigilon Next-Gen Analytics",
+    "Appearance Search",
+    "LightCatcher",
+    "HDSM SmartCodec",
+    "H.265",
+    "compact mini dome form factor",
+    "indoor use"
+  ],
+  "sources": [
+    "https://www.avigilon.com/"
+  ]
+}

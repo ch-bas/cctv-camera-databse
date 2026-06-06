@@ -1,0 +1,66 @@
+{
+  "id": "bosch-ndc-8502-r-ooh",
+  "brand": "Bosch",
+  "model": "FLEXIDOME 8000i 4K Outdoor Dome",
+  "aliases": [
+    "NDC-8502-R-OOH",
+    "Bosch 8000i 4K starlight outdoor vandal dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS (starlight)",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (motorized varifocal)",
+    "aperture": "F1.2",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-33 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1/1.8\" starlight sensor F1.2",
+    "4K outdoor vandal dome",
+    "IVA Pro deep learning AI",
+    "HDR",
+    "H.265",
+    "IP66",
+    "IK10",
+    "built-in mic + speaker",
+    "Bosch VMS integration",
+    "flagship Bosch 8000i outdoor"
+  ],
+  "sources": [
+    "https://www.boschsecurity.com/"
+  ]
+}

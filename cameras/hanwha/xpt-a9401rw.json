@@ -1,0 +1,67 @@
+{
+  "id": "hanwha-xpt-a9401rw",
+  "brand": "Hanwha",
+  "model": "XPT-A9401RW",
+  "aliases": [
+    "Wisenet 9 P Series 4MP 40x Wiper PTZ"
+  ],
+  "generation": "Wisenet 9",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "5.4-216 (40x optical zoom)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "60-1.6 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "High PoE (802.3bt) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Wisenet 9 SoC (dual NPU)",
+    "40x optical zoom",
+    "AI-based noise reduction",
+    "WiseAI edge analytics",
+    "built-in wiper",
+    "auto-tracking",
+    "WiseStream IV",
+    "IK10",
+    "NEMA 4X",
+    "NDAA/TAA"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

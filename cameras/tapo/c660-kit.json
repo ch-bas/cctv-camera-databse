@@ -1,0 +1,62 @@
+{
+  "id": "tapo-c660-kit",
+  "brand": "Tapo",
+  "model": "C660 KIT",
+  "aliases": [
+    "VistaCam 360 Solar"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3mm",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 140 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Solar panel + hardwired / rechargeable battery backup"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "VistaCam 360 Solar 4K pan/tilt",
+    "solar powered + continuous 24/7 via wired",
+    "360deg AI tracking",
+    "AI person/pet/vehicle detection",
+    "starlight color night vision",
+    "4K ultra clarity",
+    "time-lapse",
+    "no subscription"
+  ],
+  "msrp_usd": 149.99,
+  "sources": [
+    "https://www.tapo.com/us/product/smart-camera/tapo-c660-kit/"
+  ]
+}

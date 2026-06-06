@@ -1,0 +1,64 @@
+{
+  "id": "hikvision-ds-2cd2787g3-izs",
+  "brand": "Hikvision",
+  "model": "DS-2CD2787G3-IZS",
+  "aliases": [
+    "EasyIP 4.0 Plus Motorization 2.0 PTRZ 8MP Dome"
+  ],
+  "release_year": 2025,
+  "generation": "EasyIP 4.0 Plus",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (motorized PTRZ varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "108-33 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Motorization 2.0 PTRZ",
+    "AcuSense 3.0 + AcuSearch",
+    "HikAI-ISP",
+    "4K",
+    "120 dB WDR",
+    "H.265+",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/"
+  ]
+}

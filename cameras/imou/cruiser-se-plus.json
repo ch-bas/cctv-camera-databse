@@ -1,0 +1,49 @@
+{
+  "id": "imou-cruiser-se-plus",
+  "brand": "IMOU",
+  "model": "Cruiser SE+",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "IMOU Cruiser SE+ 4MP PoE outdoor color bullet",
+    "color spotlight night vision",
+    "AI human/vehicle",
+    "IP67",
+    "ONVIF/RTSP"
+  ],
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

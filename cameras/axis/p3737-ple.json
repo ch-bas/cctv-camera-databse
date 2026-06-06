@@ -1,0 +1,60 @@
+{
+  "id": "axis-p3737-ple",
+  "brand": "Axis",
+  "model": "P3737-PLE",
+  "aliases": [
+    "Axis 4x5MP 20MP Multisensor"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 20,
+    "label": "4x5MP multisensor"
+  },
+  "sensor": "4x 1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "3-9 (varifocal per head)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "360 (wall/ceiling)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4 independently adjustable camera heads",
+    "20MP total",
+    "360deg coverage",
+    "Forensic WDR",
+    "OptimizedIR",
+    "AXIS Object Analytics",
+    "Zipstream H.265/H.264",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.amazon.com/Axis-Communications-AB-P3727-PLE-Panoramic/dp/B09KTLZGN4"
+  ]
+}

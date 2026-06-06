@@ -1,0 +1,50 @@
+{
+  "id": "hanwha-qnd-8020r",
+  "brand": "Hanwha",
+  "model": "QND-8020R",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "110h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Wisenet Q 5MP compact fixed dome",
+    "30m IR",
+    "120dB WDR",
+    "IP42",
+    "IK10",
+    "indoor surveillance"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

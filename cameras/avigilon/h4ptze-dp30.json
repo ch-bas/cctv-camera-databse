@@ -1,0 +1,62 @@
+{
+  "id": "avigilon-h4ptze-dp30",
+  "brand": "Avigilon",
+  "model": "H4 PTZ 30x (2.0C-H4IRPTZ-DP30)",
+  "aliases": [
+    "2.0C-H4IRPTZ-DP30",
+    "H4 IR PTZ 30x"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-129 (30x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "60-2.5 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 250
+  },
+  "power": {
+    "method": "High PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "30x optical zoom",
+    "250m IR",
+    "Adaptive IR",
+    "self-learning analytics",
+    "Appearance Search",
+    "HDSM SmartCodec",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.avigilon.com/"
+  ]
+}

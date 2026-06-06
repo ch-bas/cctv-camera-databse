@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔍 Search existing cameras first
+    url: https://github.com/ch-bas/cctv-camera-database/blob/main/data/cameras.csv
+    about: Open cameras.csv and use Ctrl+F before submitting — the camera may already be in the database.
+  - name: 📖 Read CONTRIBUTING.md
+    url: https://github.com/ch-bas/cctv-camera-database/blob/main/CONTRIBUTING.md
+    about: Field reference, naming conventions, and what makes a good entry.

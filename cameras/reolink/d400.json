@@ -1,0 +1,49 @@
+{
+  "id": "reolink-d400",
+  "brand": "Reolink",
+  "model": "D400",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "80 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE 802.3af"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Reolink add-on PoE dome 4MP for NVR expansion",
+    "30m IR",
+    "IP67",
+    "ONVIF/RTSP",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/d400/"
+  ],
+  "msrp_usd": 19
+}

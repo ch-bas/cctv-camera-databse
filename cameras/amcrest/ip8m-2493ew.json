@@ -1,0 +1,61 @@
+{
+  "id": "amcrest-ip8m-2493ew",
+  "brand": "Amcrest",
+  "model": "4K AI Bullet PoE (IP8M-2493E)",
+  "aliases": [
+    "IP8M-2493EW",
+    "IP8M-2493EB"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "125 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "AI human/vehicle detection",
+    "active deterrence (light + audio)",
+    "color night vision",
+    "H.265",
+    "Blue Iris compatible",
+    "built-in mic & speaker"
+  ],
+  "sources": [
+    "https://amcrest.com/"
+  ]
+}

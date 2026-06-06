@@ -1,0 +1,69 @@
+{
+  "id": "netatmo-smart-outdoor-camera-with-siren",
+  "brand": "Netatmo",
+  "model": "Smart Outdoor Camera (Presence, with Siren)",
+  "aliases": [
+    "Netatmo NOC-S Siren EU"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "FR",
+    "DE",
+    "UK",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (replaces outdoor light fitting)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": false
+  },
+  "features": [
+    "NO SUBSCRIPTION FEES EVER",
+    "integrated floodlight + 105dB outdoor siren alarm",
+    "local microSD + Dropbox/FTP",
+    "AI person/animal/vehicle detection (on-device)",
+    "Apple HomeKit Secure Video",
+    "Alexa / Google",
+    "GDPR EU data",
+    "IP66"
+  ],
+  "msrp_eur": 229,
+  "sources": [
+    "https://www.netatmo.com/"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "reolink-argus-pt",
+  "brand": "Reolink",
+  "model": "Argus PT",
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "355 pan/140 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K battery pan/tilt",
+    "355\u00b0 pan / 140\u00b0 tilt",
+    "dual-band WiFi",
+    "person/vehicle detection",
+    "solar optional",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/argus-pt/"
+  ],
+  "msrp_usd": 59
+}

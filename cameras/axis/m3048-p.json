@@ -1,0 +1,49 @@
+{
+  "id": "axis-m3048-p",
+  "brand": "Axis",
+  "model": "M3048-P",
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2017,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4\u00d71MP multisensor"
+  },
+  "field_of_view_deg": "180h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis M3048-P 4\u00d71MP multisensor panoramic",
+    "180\u00b0 corridor cover",
+    "IP42",
+    "no IR",
+    "AXIS Video Analytics"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ]
+}

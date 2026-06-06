@@ -1,0 +1,64 @@
+{
+  "id": "reolink-omvi-x16-poe",
+  "brand": "Reolink",
+  "model": "OMVI X16 PoE",
+  "aliases": [
+    "CES 2026 Innovation Award Honoree"
+  ],
+  "release_year": 2026,
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 24,
+    "label": "24MP (16MP panoramic + 8MP PTZ)"
+  },
+  "sensor": "Triple CMOS: dual 8MP panoramic + 4K PTZ",
+  "lens": {
+    "count": 3,
+    "focal_length_mm": "Fixed panoramic + 16x optical zoom PTZ",
+    "varifocal": true
+  },
+  "field_of_view_deg": "180 panoramic + 360deg PT + 140deg tilt",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "24MP triple-lens flagship",
+    "16MP 180deg panoramic dual-lens + 4K PTZ with 16x optical zoom",
+    "triple-motor structure",
+    "0-22deg motorized tilt (upper lenses)",
+    "360deg endless panning + 95deg PTZ tilt",
+    "Synchronized Smart Tracking",
+    "local AI video search",
+    "no subscription",
+    "iF DESIGN AWARD 2026",
+    "CES 2026 Innovation Award Honoree"
+  ],
+  "msrp_usd": 499.99,
+  "sources": [
+    "https://www.prnewswire.com/news-releases/reolink-redefines-full-coverage-smart-security-with-the-triple-lens-omvi-series-and-reolink-x-qualcomm-power-efficient-series-cameras-302786356.html"
+  ]
+}

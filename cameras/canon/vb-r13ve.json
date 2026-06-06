@@ -1,0 +1,70 @@
+{
+  "id": "canon-vb-r13ve",
+  "brand": "Canon",
+  "model": "VB-R13VE",
+  "aliases": [
+    "Canon 2MP Outdoor Remote PTZ Dome Japan"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "JP",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.3\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-129 (30x optical zoom)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "64.5-2.2 horizontal",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3at) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Canon 30x optical zoom outdoor PTZ",
+    "360deg continuous pan",
+    "DIGIC image processing",
+    "1080p 60fps",
+    "optical zoom preset positions",
+    "PTZ trace replay",
+    "IP66",
+    "IK10",
+    "Canon Camera Management Tool",
+    "popular Japan transport/education/enterprise outdoor PTZ"
+  ],
+  "sources": [
+    "https://www.usa.canon.com/cameras/network-cameras"
+  ]
+}

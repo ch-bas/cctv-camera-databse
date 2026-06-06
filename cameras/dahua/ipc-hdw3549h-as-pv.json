@@ -1,0 +1,58 @@
+{
+  "id": "dahua-ipc-hdw3549h-as-pv",
+  "brand": "Dahua",
+  "model": "IPC-HDW3549H-AS-PV",
+  "aliases": [
+    "WizSense TiOC 5MP Fixed Eyeball"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "TiOC full-color active deterrence",
+    "WizSense AI",
+    "SMD Plus",
+    "H.265+",
+    "built-in mic & speaker"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

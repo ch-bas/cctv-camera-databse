@@ -1,0 +1,36 @@
+# Bosch FLEXIDOME indoor 5100i 5MP (NDV-5703-AL)
+
+*Also known as: NDV-5703-AL*
+
+| Field | Spec |
+|-------|------|
+| Brand | Bosch |
+| Model | FLEXIDOME indoor 5100i 5MP (NDV-5703-AL) |
+| Type | dome |
+| Connectivity | poe, ethernet |
+| Resolution | 5MP (5MP, 2592×1944) |
+| Sensor | 1/2.7" CMOS |
+| Lens | 1× 3.2-10.5 (motorized varifocal)mm F1.6 |
+| Field of view | 96-29 horizontal° |
+| Night vision | ir (30m) |
+| Power | PoE (802.3af) / DC 12V |
+| Storage | microSD ≤ 2048GB, NVR |
+| Protocols | onvif, rtsp, http |
+| IP rating | IP54 |
+| Two-way audio | Yes |
+
+## Features
+
+- IVA Pro deep learning analytics
+- Starlight low-light
+- HDR
+- auto-orientation correction
+- IK10
+- indoor use
+
+## Sources
+
+- https://www.amazon.com/Bosch-NDV-5702-AL-Flexidome-3-2-10-5mm-Varifocal/dp/B0C628FL3D
+
+---
+*Auto-generated from bosch-ndv-5703-al.json — do not edit by hand.*

@@ -1,0 +1,61 @@
+{
+  "id": "vivotek-ib9389-eht-v2",
+  "brand": "Vivotek",
+  "model": "IB9389-EHT-v2",
+  "aliases": [
+    "IB9389-EHT-V2",
+    "Vivotek 5MP Arctic Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 / 6 (fixed options)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "105 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "SNV (Supreme Night Visibility)",
+    "WDR Pro 120 dB",
+    "Smart Stream III",
+    "H.265",
+    "AI motion detection",
+    "built-in heater (-40C operation)",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.vivotek.com/en-US/products/network-cameras/bullet/ib9389-eht-v2"
+  ]
+}

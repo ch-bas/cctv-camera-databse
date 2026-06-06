@@ -1,0 +1,63 @@
+{
+  "id": "dahua-ipc-hdw2831t-as-s2",
+  "brand": "Dahua",
+  "model": "IPC-HDW2831T-AS-S2",
+  "aliases": [
+    "Lite 8MP IR Fixed Eyeball with Audio"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lite 4K eyeball turret",
+    "H.265+",
+    "built-in mic",
+    "WDR",
+    "IVS",
+    "IP67",
+    "IK10",
+    "budget 4K"
+  ],
+  "msrp_usd": 44.99,
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

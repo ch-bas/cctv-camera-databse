@@ -1,0 +1,59 @@
+{
+  "id": "dahua-ipc-hdw3849h-zas-pv",
+  "brand": "Dahua",
+  "model": "IPC-HDW3849H-ZAS-PV",
+  "aliases": [
+    "WizSense TiOC 8MP Varifocal Turret"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (motorized varifocal)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "TiOC full-color active deterrence",
+    "WizSense AI",
+    "varifocal zoom",
+    "SMD 4.0",
+    "AcuPick",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.securitywholesalers.com.au/product/dahua-tioc-dh-ipc-hdw3849h-zas-pv-anz-8mp-ai-active-deterrence-motorised-turret-camera/"
+  ]
+}

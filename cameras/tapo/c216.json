@@ -1,0 +1,63 @@
+{
+  "id": "tapo-c216",
+  "brand": "Tapo",
+  "model": "Tapo C216",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9mm",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 150 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "DC 5V (USB adapter) or included power supply"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "HybridCam 360 indoor/outdoor flexible",
+    "2K QHD pan/tilt",
+    "AI person/pet/vehicle detection",
+    "motion tracking",
+    "IP44 all-weather",
+    "starlight color night vision",
+    "H500 compatible",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "aliases": [
+    "HybridCam 360"
+  ],
+  "release_year": 2025,
+  "msrp_usd": 49.99
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ring-video-doorbell-4-au",
+  "brand": "Ring",
+  "model": "Video Doorbell 4 (Australia)",
+  "aliases": [
+    "Ring Doorbell 4 AU JB Hi-Fi"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "AU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "155 diagonal (head-to-toe)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / hardwired existing wiring (optional)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IPX5",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p head-to-toe view",
+    "colour pre-roll",
+    "motion detection zones",
+    "two-way audio",
+    "Ring Protect plan for cloud video",
+    "Alexa / Amazon",
+    "#1 video doorbell JB Hi-Fi / Amazon AU",
+    "IP65 withstands AU heat + humidity"
+  ],
+  "msrp_aud": 149.99,
+  "sources": [
+    "https://ring.com/en-au/"
+  ]
+}

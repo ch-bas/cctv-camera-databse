@@ -1,0 +1,50 @@
+{
+  "id": "hikvision-ds-2cd7a87g0-xzs",
+  "brand": "Hikvision",
+  "model": "DS-2CD7A87G0-XZS",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "106-32h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "DeepinView 4K varifocal ColorVu bullet",
+    "2.8-12mm motorized",
+    "AcuSense + HEOP AI open platform",
+    "face capture",
+    "H.265",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

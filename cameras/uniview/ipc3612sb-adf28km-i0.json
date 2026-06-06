@@ -1,0 +1,62 @@
+{
+  "id": "uniview-ipc3612sb-adf28km-i0",
+  "brand": "Uniview",
+  "model": "IPC3612SB-ADF28KM-I0",
+  "aliases": [
+    "UNV 2MP LightHunter Turret 2.8mm"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "104 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "LightHunter ultra-low-light",
+    "120 dB WDR",
+    "Ultra 265 / H.265",
+    "perimeter protection AI",
+    "built-in mic",
+    "NDAA compliant",
+    "entry-level Prime-I"
+  ],
+  "sources": [
+    "https://www.uniview.com/"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cp-plus-cp-unc-da21pl3",
+  "brand": "CP Plus",
+  "model": "CP-UNC-DA21PL3",
+  "aliases": [
+    "2MP Full HD IR Network Dome Camera 30m"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.8\" 2MP Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "103 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "2MP 1080p PoE dome",
+    "30m IR night vision",
+    "H.265+",
+    "DWDR",
+    "3D-DNR",
+    "NVR compatible",
+    "IP67",
+    "most popular India installer dome",
+    "\u20b93,000\u20135,000 price range",
+    "STQC model available"
+  ],
+  "msrp_inr": 3999,
+  "sources": [
+    "https://www.cpplusworld.com/cp-unc-da21pl3"
+  ]
+}

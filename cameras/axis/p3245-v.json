@@ -1,0 +1,61 @@
+{
+  "id": "axis-p3245-v",
+  "brand": "Axis",
+  "model": "P3245-V",
+  "aliases": [
+    "01592-001"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (motorized varifocal)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-35 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": true
+  },
+  "features": [
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "OptimizedIR",
+    "two-way audio",
+    "signed firmware / secure boot",
+    "indoor vandal dome"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p3245-v"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "uniview-ipc3618sb-adf28km-i0",
+  "brand": "Uniview",
+  "model": "IPC3618SB-ADF28KM-I0",
+  "aliases": [
+    "UNV 8MP 4K LightHunter Turret",
+    "Prime-I 8MP Eyeball"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "112.4 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K LightHunter",
+    "120 dB WDR",
+    "Ultra 265 / H.265 / H.264",
+    "perimeter protection AI",
+    "deep learning human/vehicle",
+    "built-in mic",
+    "NDAA compliant"
+  ],
+  "sources": [
+    "https://www.bhphotovideo.com/c/product/1646283-REG/uniview_ipc3618sb_adf28km_i0_8mp_hd_ir_fixed.html"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "reolink-rlc-1224a",
+  "brand": "Reolink",
+  "model": "RLC-1224A",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 4000,
+    "max_height": 3000,
+    "label": "12MP"
+  },
+  "sensor": "1/2.3\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "97 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "12MP ultra-high resolution",
+    "spotlight color night vision",
+    "person/vehicle/animal detection",
+    "time-lapse",
+    "two-way audio",
+    "no subscription"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://reolink.com/product/rlc-1224a/"
+  ]
+}

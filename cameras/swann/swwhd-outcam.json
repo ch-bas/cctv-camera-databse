@@ -1,0 +1,68 @@
+{
+  "id": "swann-swwhd-outcam",
+  "brand": "Swann",
+  "model": "SWWHD-OUTCAM",
+  "aliases": [
+    "Swann 1080p WiFi Outdoor Security Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "UK",
+    "US",
+    "AU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "120 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V (outdoor power cable)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p WiFi outdoor bullet",
+    "True Detect PIR heat & motion sensor",
+    "30m night vision",
+    "IP66 weatherproof",
+    "push notifications",
+    "Swann Security App",
+    "Alexa / Google",
+    "no DVR required",
+    "RTSP stream"
+  ],
+  "msrp_gbp": 69.99,
+  "sources": [
+    "https://www.swann.com/"
+  ]
+}

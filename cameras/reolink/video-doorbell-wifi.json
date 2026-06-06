@@ -1,0 +1,51 @@
+{
+  "id": "reolink-video-doorbell-wifi",
+  "brand": "Reolink",
+  "model": "Video Doorbell WiFi",
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 5,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / hardwired optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD WiFi battery doorbell",
+    "head-to-toe view",
+    "color night vision",
+    "person detection",
+    "two-way audio",
+    "no subscription",
+    "Alexa/Google",
+    "IP65"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-video-doorbell-wifi/"
+  ],
+  "msrp_usd": 79
+}

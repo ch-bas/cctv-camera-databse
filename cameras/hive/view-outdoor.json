@@ -1,0 +1,64 @@
+{
+  "id": "hive-view-outdoor",
+  "brand": "Hive",
+  "model": "View Outdoor",
+  "aliases": [
+    "Hive UK7003793",
+    "Hive View Outdoor Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2019,
+  "markets": [
+    "UK"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "USB (outdoor weatherproof cable)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Hive smart home ecosystem integration",
+    "1080p HD",
+    "motion zones",
+    "Hive app / Alexa compatible",
+    "24/7 live view",
+    "UK British Gas brand recognition",
+    "30-day cloud storage subscription"
+  ],
+  "msrp_gbp": 119.99,
+  "sources": [
+    "https://www.hivehome.com/"
+  ]
+}

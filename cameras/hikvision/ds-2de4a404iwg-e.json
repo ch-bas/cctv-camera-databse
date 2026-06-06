@@ -1,0 +1,64 @@
+{
+  "id": "hikvision-ds-2de4a404iwg-e",
+  "brand": "Hikvision",
+  "model": "DS-2DE4A404IWG-E",
+  "aliases": [
+    "4MP 4x AcuSense PTZ Network Camera"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/3\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (4x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "94-28 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4x optical zoom mini PTZ",
+    "AcuSense AI perimeter",
+    "50m IR",
+    "H.265+",
+    "IP66",
+    "auto-tracking",
+    "most affordable Hikvision PoE mini PTZ"
+  ],
+  "msrp_usd": 299,
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

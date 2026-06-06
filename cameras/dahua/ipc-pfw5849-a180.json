@@ -1,0 +1,63 @@
+{
+  "id": "dahua-ipc-pfw5849-a180",
+  "brand": "Dahua",
+  "model": "IPC-PFW5849-A180",
+  "aliases": [
+    "WizMind 8MP Multi-sensor Panoramic Bullet 180\u00b0"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4x2MP 180\u00b0"
+  },
+  "sensor": "4x 1/2.8\" CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "2.2mm fisheye per sensor",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4-sensor 180\u00b0 panoramic bullet",
+    "WizMind multi-object AI",
+    "SMD 4.0",
+    "people counting",
+    "heat map analytics",
+    "H.265+",
+    "IP66",
+    "ideal for retail footfall analysis"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

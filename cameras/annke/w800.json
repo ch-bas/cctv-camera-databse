@@ -1,0 +1,49 @@
+{
+  "id": "annke-w800",
+  "brand": "Annke",
+  "model": "W800",
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Annke W800 4K WiFi outdoor color bullet",
+    "AI human/vehicle detection",
+    "color spotlight",
+    "siren",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.annke.com/"
+  ]
+}

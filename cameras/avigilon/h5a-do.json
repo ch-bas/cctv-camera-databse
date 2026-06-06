@@ -1,0 +1,58 @@
+{
+  "id": "avigilon-h5a-do",
+  "brand": "Avigilon",
+  "model": "H5A Dome",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (motorized)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "108-37 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Avigilon Appearance Search AI",
+    "SLVA self-learning analytics",
+    "5MP motorized dome",
+    "NDAA/TAA compliant",
+    "IK10",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.avigilon.com/"
+  ]
+}

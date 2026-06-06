@@ -1,0 +1,73 @@
+{
+  "id": "intelbras-im3-wifi-indoor",
+  "brand": "Intelbras",
+  "model": "iM3",
+  "aliases": [
+    "Intelbras iM3 WiFi Indoor Camera Brazil Argentina",
+    "C\u00e2mera Wi-Fi Inteligente iM3"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "AR",
+    "BR",
+    "CL",
+    "LATAM"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.7\" Progressive CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "131 diagonal (SuperWide)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Intelbras Brazilian brand #1 LATAM",
+    "1080p SuperWide 131deg",
+    "AI person detection",
+    "face recognition alerts",
+    "built-in siren",
+    "ambient noise detection (baby cry/glass break)",
+    "two-way audio",
+    "Mibo Cloud / microSD / DVR-NVR ONVIF",
+    "RTSP support",
+    "Alexa / Google",
+    "ANATEL certified Brazil"
+  ],
+  "sources": [
+    "https://www.intelbras.com/en/full-hd-wi-fi-smart-internal-camera-im3"
+  ]
+}

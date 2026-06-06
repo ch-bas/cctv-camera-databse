@@ -1,0 +1,152 @@
+name: "➕ Add a camera"
+description: "Submit a camera that's missing from the database. No coding required."
+title: "Add: [Brand] [Model]"
+labels: ["camera-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Fill in as much as you know — even a partial entry helps.
+        Fields marked **required** are the minimum needed to add the camera.
+
+  - type: input
+    id: brand
+    attributes:
+      label: "Brand *"
+      placeholder: "e.g. Reolink, Hikvision, Dahua, Tapo"
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: "Model name *"
+      placeholder: "e.g. RLC-823A, DS-2CD2387G2-LU, C210"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Form factor *"
+      options:
+        - bullet
+        - dome
+        - turret / eyeball
+        - PTZ (pan-tilt-zoom)
+        - dual-lens
+        - panoramic / fisheye
+        - doorbell / covert
+        - box
+    validations:
+      required: true
+
+  - type: input
+    id: resolution
+    attributes:
+      label: "Resolution *"
+      placeholder: "e.g. 4K (8MP), 4MP, 1080p (2MP)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: connectivity
+    attributes:
+      label: "How does it connect?"
+      options:
+        - label: PoE (wired Ethernet + power over cable)
+        - label: WiFi
+        - label: Battery / wire-free
+        - label: 4G / LTE cellular
+        - label: Analog coax (HDCVI / TVI / AHD)
+
+  - type: dropdown
+    id: night_vision
+    attributes:
+      label: "Night vision"
+      options:
+        - IR (traditional infrared — black & white at night)
+        - Color (full color in darkness with LED)
+        - Hybrid (IR + warm LED)
+        - None
+        - Unknown
+
+  - type: input
+    id: night_vision_range
+    attributes:
+      label: "Night vision range"
+      placeholder: "e.g. 30m, 60m"
+
+  - type: input
+    id: ip_rating
+    attributes:
+      label: "Weather/vandal rating"
+      placeholder: "e.g. IP67, IP66, IP66+IK10"
+
+  - type: checkboxes
+    id: audio
+    attributes:
+      label: "Audio"
+      options:
+        - label: Built-in microphone
+        - label: Built-in speaker
+        - label: Two-way audio
+
+  - type: checkboxes
+    id: storage
+    attributes:
+      label: "Storage options"
+      options:
+        - label: microSD card slot
+        - label: NVR / DVR compatible
+        - label: Cloud storage
+
+  - type: checkboxes
+    id: protocols
+    attributes:
+      label: "Protocols (for NVR / Home Assistant / Blue Iris etc.)"
+      options:
+        - label: ONVIF
+        - label: RTSP
+        - label: Proprietary app only (no ONVIF/RTSP)
+
+  - type: input
+    id: price
+    attributes:
+      label: "Approximate price"
+      placeholder: "e.g. $79 USD, €89, £65"
+
+  - type: input
+    id: release_year
+    attributes:
+      label: "Release year"
+      placeholder: "e.g. 2023"
+
+  - type: textarea
+    id: features
+    attributes:
+      label: "Key features"
+      placeholder: |
+        e.g.
+        - no subscription fee
+        - person / vehicle AI detection
+        - active deterrence (spotlight + siren)
+        - solar panel compatible
+
+  - type: input
+    id: source
+    attributes:
+      label: "Product page or datasheet URL"
+      placeholder: "https://reolink.com/product/rlc-823a/"
+
+  - type: input
+    id: markets
+    attributes:
+      label: "Markets / regions"
+      placeholder: "e.g. US, UK, EU, DE, AU, IN — leave blank if global"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Anything else?"
+      placeholder: "Corrections, context, related models, NVR compatibility notes…"

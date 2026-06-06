@@ -1,0 +1,50 @@
+{
+  "id": "hikvision-ds-2cd2023g2-iu",
+  "brand": "Hikvision",
+  "model": "DS-2CD2023G2-I(U)",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "2MP AcuSense Gen2 bullet",
+    "human/vehicle detection",
+    "40m IR",
+    "130dB WDR",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

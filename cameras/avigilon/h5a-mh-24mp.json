@@ -1,0 +1,59 @@
+{
+  "id": "avigilon-h5a-mh-24mp",
+  "brand": "Avigilon",
+  "model": "H5A Multisensor 24MP (4x6MP)",
+  "aliases": [
+    "H5A Multisensor 4x6MP",
+    "4x6MP 360deg"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 24,
+    "label": "4x6MP"
+  },
+  "sensor": "4x 1/2.8\" CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "3.3-5.7 (motorized per sensor)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4-sensor 360deg coverage 24MP total",
+    "Avigilon Next-Gen Analytics",
+    "Appearance Search",
+    "LightCatcher",
+    "HDSM SmartCodec",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.avigilon.com/security-cameras/h5a-multisensor"
+  ]
+}

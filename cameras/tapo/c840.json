@@ -1,0 +1,60 @@
+{
+  "id": "tapo-c840",
+  "brand": "Tapo",
+  "model": "C840",
+  "aliases": [
+    "Smart AI Baby Monitor Pan/Tilt"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP wide + 2MP tele dual lens"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Wide 2.9mm + 2x Tele",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 130 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens 4MP wide + 2MP tele",
+    "BabySnap feature",
+    "soothing lullabies (built-in speaker)",
+    "baby cry detection",
+    "lullaby scheduler",
+    "temperature sensor",
+    "AI person/pet detection",
+    "privacy shutter",
+    "no subscription"
+  ],
+  "msrp_usd": 59.99,
+  "sources": [
+    "https://www.tapo.com/us/product/smart-camera/tapo-c840/"
+  ]
+}

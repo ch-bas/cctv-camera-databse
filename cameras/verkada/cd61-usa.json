@@ -1,0 +1,69 @@
+{
+  "id": "verkada-cd61-usa",
+  "brand": "Verkada",
+  "model": "CD61",
+  "aliases": [
+    "Verkada CD61 4K Indoor Dome",
+    "Verkada Cloud Managed Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "US",
+    "CA"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.68 (fixed fisheye)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 fisheye",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "all-cloud no NVR required (Verkada Command cloud VMS)",
+    "30-day edge storage on-camera (encrypted)",
+    "AI person/vehicle/object detection",
+    "license plate recognition (optional)",
+    "unlimited users",
+    "SOC 2 Type II HIPAA NDAA compliant",
+    "zero-touch provisioning",
+    "annual per-camera license pricing model",
+    "popular US healthcare/education/enterprise"
+  ],
+  "msrp_usd": 849,
+  "sources": [
+    "https://www.verkada.com/security-cameras/indoor-dome-cameras/"
+  ]
+}

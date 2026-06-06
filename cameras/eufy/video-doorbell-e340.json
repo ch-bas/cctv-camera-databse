@@ -1,0 +1,59 @@
+{
+  "id": "eufy-video-doorbell-e340",
+  "brand": "Eufy",
+  "model": "Video Doorbell E340",
+  "aliases": [
+    "Eufy E340 Dual Camera Video Doorbell"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "Dual 2K: wide + telephoto"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "Wide 2K + standard 2K (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 wide + 50 tele",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (existing doorbell wiring) / battery"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-camera doorbell (wide + telephoto simultaneous)",
+    "panoramic 180\u00b0 + close-up view",
+    "BionicMind AI face recognition",
+    "color night vision",
+    "no subscription fee",
+    "local HomeBase storage",
+    "HomeKit / Alexa / Google",
+    "two-way audio",
+    "IP65"
+  ],
+  "msrp_usd": 159,
+  "sources": [
+    "https://www.eufy.com/products/video-doorbell-e340"
+  ]
+}

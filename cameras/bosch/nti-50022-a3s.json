@@ -1,0 +1,60 @@
+{
+  "id": "bosch-nti-50022-a3s",
+  "brand": "Bosch",
+  "model": "AUTODOME 5100i 20x (NTI-50022-A3S)",
+  "aliases": [
+    "NTI-50022-A3S",
+    "AUTODOME IP 5100i"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.4-88 (20x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "57.3-3.1 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "High PoE (802.3at) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "20x optical zoom",
+    "12x digital zoom",
+    "Starlight low-light",
+    "IVA Pro",
+    "OptimizedIR",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.boschsecurity.com/"
+  ]
+}

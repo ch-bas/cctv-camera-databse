@@ -1,0 +1,49 @@
+{
+  "id": "axis-fa54-mini",
+  "brand": "Axis",
+  "model": "FA54",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "110h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis FA54 mini fixed dome sensor unit",
+    "compact form factor",
+    "Lightfinder 2.0",
+    "wide 110\u00b0 FOV",
+    "indoor discreet"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ]
+}

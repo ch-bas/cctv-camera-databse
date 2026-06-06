@@ -1,0 +1,63 @@
+{
+  "id": "blink-outdoor-4",
+  "brand": "Blink",
+  "model": "Outdoor 4",
+  "aliases": [
+    "Blink Outdoor 4th Gen",
+    "B0B1N5HW22"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 7
+  },
+  "power": {
+    "method": "2x AA lithium batteries (up to 2 years) / Blink Solar Panel (sold separately)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2-year battery life on 2x AA lithium cells",
+    "wire-free outdoor",
+    "1080p HD",
+    "color day vision / IR night",
+    "person detection",
+    "Alexa / Amazon Fire TV integration",
+    "Blink Sync Module required for local storage",
+    "Blink Subscription Plan for cloud"
+  ],
+  "msrp_usd": 49.99,
+  "sources": [
+    "https://blinkforhome.com/products"
+  ]
+}

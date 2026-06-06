@@ -1,0 +1,59 @@
+{
+  "id": "ubiquiti-g5-turret-ultra",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G5 Turret Ultra",
+  "aliases": [
+    "UVC-G5-Turret-Ultra"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2688,
+    "max_height": 1512,
+    "label": "2K"
+  },
+  "sensor": "1/2.7\" CMOS (5MP)",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.4 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "88 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "AI event detection person/vehicle",
+    "UniFi Protect ecosystem",
+    "IK08",
+    "built-in mic",
+    "compact turret"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-g5-turret-ultra"
+  ]
+}

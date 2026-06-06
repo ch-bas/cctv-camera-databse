@@ -1,0 +1,57 @@
+{
+  "id": "dahua-ipc-hdw2849h-s-il",
+  "brand": "Dahua",
+  "model": "IPC-HDW2849H-S-IL",
+  "aliases": [
+    "WizSense 8MP Smart Dual Light Eyeball"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed options)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "smart dual illumination IR + warm light",
+    "WizSense AI human/vehicle",
+    "H.265+",
+    "built-in mic"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

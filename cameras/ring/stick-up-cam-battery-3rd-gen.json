@@ -1,0 +1,63 @@
+{
+  "id": "ring-stick-up-cam-battery-3rd-gen",
+  "brand": "Ring",
+  "model": "Stick Up Cam Battery (3rd Gen)",
+  "aliases": [
+    "Ring Stick Up Cam 3rd Gen"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "UK",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "Rechargeable battery / Solar / Plug-in (variants)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "indoor/outdoor flexible placement",
+    "color night vision",
+    "two-way audio",
+    "Ring Protect for cloud video",
+    "Alexa",
+    "person/motion detection",
+    "IP55 weatherproof"
+  ],
+  "msrp_gbp": 69.99,
+  "sources": [
+    "https://ring.com/en-gb/"
+  ]
+}

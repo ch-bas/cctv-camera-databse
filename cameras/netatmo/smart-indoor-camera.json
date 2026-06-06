@@ -1,0 +1,69 @@
+{
+  "id": "netatmo-smart-indoor-camera",
+  "brand": "Netatmo",
+  "model": "Smart Indoor Camera",
+  "aliases": [
+    "NHC01-UK",
+    "Netatmo Welcome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2015,
+  "markets": [
+    "UK",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "DC 5V (USB) / optional Ethernet PoE"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "NO SUBSCRIPTION FEES \u2014 all features free",
+    "facial recognition (offline on-device)",
+    "local microSD + Dropbox storage",
+    "person/animal detection",
+    "Apple HomeKit Secure Video",
+    "Alexa / Google",
+    "two-way audio",
+    "100% local data",
+    "French brand privacy focus"
+  ],
+  "msrp_gbp": 179.99,
+  "sources": [
+    "https://www.netatmo.com/"
+  ]
+}

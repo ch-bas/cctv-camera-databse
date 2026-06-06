@@ -1,0 +1,59 @@
+{
+  "id": "ubiquiti-g4-pro",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G4 Pro",
+  "aliases": [
+    "UVC-G4-Pro"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.1-12.3 (3x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "109-35 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 25
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "3x optical zoom",
+    "4K",
+    "AI event detection person/vehicle",
+    "UniFi Protect ecosystem",
+    "IK04",
+    "built-in mic"
+  ],
+  "release_year": 2022,
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-pro"
+  ]
+}

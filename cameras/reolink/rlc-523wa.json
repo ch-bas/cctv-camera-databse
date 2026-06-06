@@ -1,0 +1,52 @@
+{
+  "id": "reolink-rlc-523wa",
+  "brand": "Reolink",
+  "model": "RLC-523WA",
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "110-30 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K 5\u00d7 varifocal WiFi outdoor dome",
+    "color spotlight",
+    "active deterrence",
+    "person/vehicle/animal/package AI",
+    "two-way audio",
+    "ONVIF/RTSP",
+    "IP67",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/rlc-523wa/"
+  ],
+  "msrp_usd": 69
+}

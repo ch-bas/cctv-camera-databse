@@ -1,0 +1,58 @@
+{
+  "id": "dahua-ipc-pf83230-a180",
+  "brand": "Dahua",
+  "model": "IPC-PF83230-A180",
+  "aliases": [
+    "WizMind 4x8MP 32MP 180deg Panoramic Bullet"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 32,
+    "label": "4x8MP 180deg"
+  },
+  "sensor": "4x 1/2.7\" CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "2.8 (fixed per sensor)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE+ (802.3bt) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4-sensor 180deg panoramic",
+    "32MP total resolution",
+    "Starlight technology",
+    "WizMind AI",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.icctvzone.com/"
+  ]
+}

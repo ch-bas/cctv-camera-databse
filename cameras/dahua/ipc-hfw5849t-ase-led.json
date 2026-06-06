@@ -1,0 +1,62 @@
+{
+  "id": "dahua-ipc-hfw5849t-ase-led",
+  "brand": "Dahua",
+  "model": "IPC-HFW5849T-ASE-LED",
+  "aliases": [
+    "WizMind 8MP Full-Color Active Deterrence Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.2\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "113 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "WizMind 4K full-color F1.0 active deterrence bullet",
+    "1/1.2\" large sensor",
+    "dual mic + speaker",
+    "AcuPick face/body features search",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

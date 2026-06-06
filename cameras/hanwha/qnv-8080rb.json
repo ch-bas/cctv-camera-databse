@@ -1,0 +1,49 @@
+{
+  "id": "hanwha-qnv-8080rb",
+  "brand": "Hanwha",
+  "model": "QNV-8080R (Bullet)",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "102-42h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 35
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Wisenet Q 5MP outdoor IR bullet varifocal",
+    "3.1x motorized varifocal",
+    "IP66",
+    "IK10",
+    "H.265"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

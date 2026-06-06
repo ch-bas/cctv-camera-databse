@@ -1,0 +1,60 @@
+{
+  "id": "dahua-ipc-hfw5842h-z4e",
+  "brand": "Dahua",
+  "model": "IPC-HFW5842H-Z4E",
+  "aliases": [
+    "WizMind 8MP Long-Range IR Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (motorized varifocal)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 80
+  },
+  "power": {
+    "method": "PoE / ePoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizMind AI",
+    "SMD 4.0",
+    "80m IR range",
+    "motorized varifocal",
+    "H.265+",
+    "ePoE",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

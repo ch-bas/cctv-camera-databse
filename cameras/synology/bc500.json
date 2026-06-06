@@ -1,0 +1,67 @@
+{
+  "id": "synology-bc500",
+  "brand": "Synology",
+  "model": "BC500",
+  "aliases": [
+    "Synology 5MP Bullet PoE"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "deep integration with Synology Surveillance Station",
+    "AI human/vehicle detection",
+    "5MP 30fps",
+    "H.265/H.264",
+    "built-in mic",
+    "activity zones",
+    "IP67",
+    "IK10",
+    "NDAA compliant",
+    "~$200 MSRP"
+  ],
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://www.synology.com/en-us/store/BC500"
+  ]
+}

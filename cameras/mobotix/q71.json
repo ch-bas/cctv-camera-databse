@@ -1,0 +1,64 @@
+{
+  "id": "mobotix-q71",
+  "brand": "Mobotix",
+  "model": "Q71",
+  "aliases": [
+    "Mx-Q71",
+    "MOBOTIX 7 Q71 Hemispheric"
+  ],
+  "type": "fisheye",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 4000,
+    "max_height": 3000,
+    "label": "12MP"
+  },
+  "sensor": "1/1.7\" 12MP CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.8 (fixed hemispheric)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 (ceiling) / 180 (wall)",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 8
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "mxpeg"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "MOBOTIX 7 platform",
+    "12MP hemispheric 360deg fisheye",
+    "IR + white light dual illumination",
+    "open app platform",
+    "object counting / heatmap",
+    "quad/panoramic/dome dewarping",
+    "H.265 / MxPEG",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.mobotix.com/en/mobotix-7/hemispherical-module"
+  ]
+}

@@ -1,0 +1,33 @@
+# Reolink Argus PT
+
+| Field | Spec |
+|-------|------|
+| Brand | Reolink |
+| Model | Argus PT |
+| Type | ptz |
+| Connectivity | wifi, battery |
+| Resolution | 2K QHD (4MP) |
+| Field of view | 355 pan/140 tilt° |
+| Night vision | ir (10m) |
+| Power | Rechargeable battery / solar optional |
+| Storage | microSD ≤ 128GB |
+| Protocols | http |
+| IP rating | IP65 |
+| Two-way audio | Yes |
+| Released | 2021 |
+
+## Features
+
+- 2K battery pan/tilt
+- 355° pan / 140° tilt
+- dual-band WiFi
+- person/vehicle detection
+- solar optional
+- no subscription
+
+## Sources
+
+- https://reolink.com/product/argus-pt/
+
+---
+*Auto-generated from reolink-argus-pt.json — do not edit by hand.*

@@ -1,0 +1,63 @@
+{
+  "id": "ring-video-doorbell-4-uk",
+  "brand": "Ring",
+  "model": "Video Doorbell 4 (UK)",
+  "aliases": [
+    "Ring Doorbell 4"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "UK",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "155 diagonal (head-to-toe)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / hardwired doorbell wiring (optional)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IPX5",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p video doorbell",
+    "head-to-toe view",
+    "color pre-roll",
+    "motion detection zones",
+    "two-way audio",
+    "Ring Protect for cloud video",
+    "Alexa",
+    "UK bestseller"
+  ],
+  "msrp_gbp": 74.99,
+  "sources": [
+    "https://ring.com/en-gb/"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "reolink-argus-3-pro-au",
+  "brand": "Reolink",
+  "model": "Argus 3 Pro (Australia)",
+  "aliases": [
+    "Reolink Argus 3 Pro 5MP Battery WiFi AU"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "AU"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "5MP 3K"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "122 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar panel optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "5MP 3K wire-free battery outdoor",
+    "color night vision spotlight",
+    "5GHz + 2.4GHz dual-band WiFi",
+    "person/vehicle/animal AI detection",
+    "no subscription \u2014 local microSD free",
+    "solar charging option",
+    "#1 wireless camera recommendation Safewise AU",
+    "outlasted Arlo Pro 5 in AU long-term battery tests",
+    "AU$99\u2013129"
+  ],
+  "msrp_aud": 129.99,
+  "sources": [
+    "https://reolink.com/au/",
+    "https://www.safewise.com/au/best-wireless-security-cameras/"
+  ]
+}

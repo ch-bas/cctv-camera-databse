@@ -1,0 +1,62 @@
+{
+  "id": "tapo-c530ws",
+  "brand": "Tapo",
+  "model": "Tapo C530WS",
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9mm",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 130 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 9V outdoor adapter"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "outdoor 2K QHD pan/tilt upgraded starlight sensor",
+    "360deg pan / 130deg tilt",
+    "full-color night vision",
+    "AI person/pet/vehicle detection",
+    "motion tracking",
+    "IP66",
+    "30fps",
+    "RTSP/ONVIF",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "release_year": 2024,
+  "msrp_usd": 69.99
+}

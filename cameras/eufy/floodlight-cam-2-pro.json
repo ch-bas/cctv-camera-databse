@@ -1,0 +1,59 @@
+{
+  "id": "eufy-floodlight-cam-2-pro",
+  "brand": "Eufy",
+  "model": "Floodlight Cam 2 Pro",
+  "aliases": [
+    "T8423"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "2K Pro"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 (pan/tilt)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Hardwired (AC) / no battery"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "built-in 3000-lumen floodlights",
+    "360deg pan / 180deg tilt",
+    "2K color night vision",
+    "AI person detection",
+    "no subscription",
+    "HomeBase compatible",
+    "Alexa / Google"
+  ],
+  "release_year": 2022,
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://www.eufy.com/products/floodlight-cam-2-pro"
+  ]
+}

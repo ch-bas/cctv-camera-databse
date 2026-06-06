@@ -1,0 +1,69 @@
+{
+  "id": "hikvision-ds-2de4425iw-de-t5-india",
+  "brand": "Hikvision",
+  "model": "DS-2DE4425IWG-E (India)",
+  "aliases": [
+    "4MP 25x PTZ Network Camera India",
+    "Prama Hikvision 4MP PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.8-120 (25x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "58-2.8 horizontal (25x zoom)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (802.3at) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP 25x optical zoom PTZ",
+    "100m IR night vision",
+    "AcuSense",
+    "IP66",
+    "H.265+",
+    "auto-tracking",
+    "very popular commercial India PTZ",
+    "\u20b925,000\u201335,000"
+  ],
+  "msrp_inr": 28999,
+  "sources": [
+    "https://www.hikvision.com/in-en/"
+  ]
+}

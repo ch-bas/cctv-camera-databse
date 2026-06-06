@@ -1,0 +1,67 @@
+{
+  "id": "yale-sv-abfx-w",
+  "brand": "Yale",
+  "model": "SV-ABFX-W",
+  "aliases": [
+    "Yale Smart Outdoor Battery Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "UK",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / optional solar panel"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "wireless battery outdoor camera",
+    "motion detection",
+    "1080p HD",
+    "two-way audio",
+    "Yale View App",
+    "Alexa compatible",
+    "no monthly fees",
+    "solar panel optional"
+  ],
+  "msrp_gbp": 79.99,
+  "sources": [
+    "https://www.yale.co.uk/"
+  ]
+}

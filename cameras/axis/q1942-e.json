@@ -1,0 +1,58 @@
+{
+  "id": "axis-q1942-e",
+  "brand": "Axis",
+  "model": "Q1942-E",
+  "aliases": [
+    "Axis Q1942-E Thermal Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 0,
+    "max_width": 640,
+    "max_height": 480,
+    "label": "640x480 thermal"
+  },
+  "sensor": "Thermal VOx LWIR uncooled microbolometer",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "7 / 10 / 13 / 19 / 35 (fixed options)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "LWIR thermal imaging",
+    "radiometry option for temperature measurement",
+    "AXIS Object Analytics",
+    "intrusion/perimeter detection in complete darkness",
+    "works in smoke/dust",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q1942-e"
+  ]
+}

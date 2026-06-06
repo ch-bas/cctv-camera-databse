@@ -1,0 +1,64 @@
+{
+  "id": "bosch-nde-8512-r",
+  "brand": "Bosch",
+  "model": "FLEXIDOME IP starlight 8000i (NDE-8512-R)",
+  "aliases": [
+    "NDE-8512-R",
+    "FLEXIDOME 8000i indoor starlight 2MP"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/1.8\" CMOS (starlight)",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (motorized varifocal)",
+    "aperture": "F1.2",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-35 horizontal",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP54",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1/1.8\" starlight sensor",
+    "F1.2 ultra-low-light aperture",
+    "IVA Pro deep learning",
+    "HDR",
+    "built-in mic & speaker",
+    "auto-orientation correction",
+    "indoor variant (no IR)",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.boschsecurity.com/"
+  ]
+}
