@@ -1,0 +1,58 @@
+{
+  "id": "bosch-ndm-7703-al",
+  "brand": "Bosch",
+  "model": "FLEXIDOME multi 7000i 4x5MP (NDM-7703-AL)",
+  "aliases": [
+    "NDM-7703-AL",
+    "FLEXIDOME multi 7000i"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 20,
+    "label": "4x5MP multisensor"
+  },
+  "sensor": "4x 1/2.7\" CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "3.2-10.5 (per sensor varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4-sensor 360deg multisensor",
+    "20MP total",
+    "IVA Pro deep learning",
+    "Starlight X",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://media.boschsecurity.com/fs/media/en/pb/media/support_1/tools/ip_video_product_overview.pdf"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "dahua-ipc-pt8849-a180",
+  "brand": "Dahua",
+  "model": "IPC-PT8849-A180",
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K 180\u00b0 multisensor"
+  },
+  "field_of_view_deg": "180h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K 180\u00b0 multisensor panoramic bullet",
+    "WizSense AI",
+    "people counting",
+    "IP66",
+    "4\u00d7 sensor stitched view"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

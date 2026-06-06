@@ -1,0 +1,63 @@
+{
+  "id": "ezviz-c3x",
+  "brand": "EZVIZ",
+  "model": "C3X",
+  "aliases": [
+    "EZVIZ C3X 2MP Dual-Lens Color Night Outdoor"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "Dual CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 wide + 12mm tele (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 dual-lens",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens color night vision outdoor",
+    "wide + tele simultaneous view",
+    "AI person/vehicle detection",
+    "sound + light deterrence",
+    "two-way audio",
+    "RTSP/ONVIF",
+    "IP67"
+  ],
+  "msrp_eur": 79,
+  "sources": [
+    "https://www.ezviz.com/product/c3x/"
+  ]
+}

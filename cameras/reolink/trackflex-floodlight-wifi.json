@@ -1,0 +1,62 @@
+{
+  "id": "reolink-trackflex-floodlight-wifi",
+  "brand": "Reolink",
+  "model": "TrackFlex Floodlight WiFi",
+  "aliases": [
+    "IFA 2025 debut"
+  ],
+  "release_year": 2025,
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "sensor": "Dual CMOS (2.8mm wide + 8mm tele)",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 wide + 8mm tele",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "Wide 113deg + Tele 35deg",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "Hardwired (AC)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens 4K auto-tracking floodlight",
+    "6x hybrid zoom",
+    "dual-color floodlight",
+    "360deg coverage view",
+    "local AI video search",
+    "WiFi dual-band",
+    "person/vehicle/animal detection",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/blog/reolink-new-products-at-ces/"
+  ]
+}

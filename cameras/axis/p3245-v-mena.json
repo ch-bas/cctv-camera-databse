@@ -1,0 +1,70 @@
+{
+  "id": "axis-p3245-v-mena",
+  "brand": "Axis",
+  "model": "P3245-V (MENA)",
+  "aliases": [
+    "Axis P3245-V 2MP Fixed Dome MENA",
+    "Axis UAE government"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-10.5 (motorized varifocal 3x)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-31 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP42",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis ARTPEC-7 chip",
+    "Lightfinder 2.0",
+    "WDR \u2013 Forensic Capture",
+    "AXIS Object Analytics",
+    "Zipstream H.265",
+    "Axis Edge Vault cybersecurity",
+    "used in UAE government/banking/critical infrastructure",
+    "SIRA-approved by many Dubai authorities"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p3245-v",
+    "https://www.axis.com/en-me/"
+  ]
+}

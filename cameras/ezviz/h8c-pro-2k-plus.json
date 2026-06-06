@@ -1,0 +1,69 @@
+{
+  "id": "ezviz-h8c-pro-2k-plus",
+  "brand": "EZVIZ",
+  "model": "H8c Pro 2K+",
+  "aliases": [
+    "EZVIZ H8c Pro 2K Plus Outdoor Pan/Tilt"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "UK",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K+ outdoor pan/tilt",
+    "F1.6 large aperture",
+    "dual spotlights full-color night vision",
+    "AI person/vehicle detection",
+    "auto-zoom tracking",
+    "sound and light deterrence",
+    "IP67",
+    "RTSP/ONVIF",
+    "H.265"
+  ],
+  "msrp_gbp": 64.99,
+  "sources": [
+    "https://www.ezviz.com/product/h8c+pro+2k/"
+  ]
+}

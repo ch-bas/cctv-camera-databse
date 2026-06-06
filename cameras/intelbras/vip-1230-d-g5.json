@@ -1,0 +1,70 @@
+{
+  "id": "intelbras-vip-1230-d-g5",
+  "brand": "Intelbras",
+  "model": "VIP 1230 D G5",
+  "aliases": [
+    "Intelbras 2MP Full HD IP Dome G5 LATAM"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "AR",
+    "BR",
+    "CL",
+    "LATAM"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "103 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p IP dome G5 generation",
+    "H.265 Smart codec",
+    "30m IR",
+    "ONVIF/RTSP",
+    "Mibo Cloud storage option",
+    "Intelbras NVR compatible",
+    "most popular indoor IP dome Brazil/Argentina",
+    "ANATEL certified"
+  ],
+  "sources": [
+    "https://www.intelbras.com/en/1000-series-full-hd-ip-camera-vip-1230-d-g5"
+  ]
+}

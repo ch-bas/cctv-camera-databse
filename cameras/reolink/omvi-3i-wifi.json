@@ -1,0 +1,61 @@
+{
+  "id": "reolink-omvi-3i-wifi",
+  "brand": "Reolink",
+  "model": "OMVI 3i WiFi",
+  "aliases": [
+    "Triple-Lens 18MP WiFi"
+  ],
+  "release_year": 2025,
+  "type": "panoramic",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 18,
+    "label": "18MP (10MP panoramic + 8MP PT)"
+  },
+  "sensor": "Triple CMOS (2x5MP panoramic + 4K PT)",
+  "lens": {
+    "count": 3,
+    "focal_length_mm": "2.8 fixed panoramic + PT lens",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 panoramic + PT auto-tracking",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V / AC adapter"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "triple-lens 18MP WiFi version",
+    "180deg panoramic + 4K auto-tracking PT",
+    "synchronized smart tracking",
+    "local AI video search",
+    "dual-band WiFi",
+    "perimeter protection",
+    "no subscription"
+  ],
+  "msrp_usd": 319.99,
+  "sources": [
+    "https://reolink.com/blog/reolink-new-products-at-ces/"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ezviz-c6n-mena",
+  "brand": "EZVIZ",
+  "model": "C6N (MENA)",
+  "aliases": [
+    "EZVIZ C6N 1080p Indoor Pan/Tilt UAE/KSA"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 105 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p indoor pan/tilt",
+    "AI person detection",
+    "auto-tracking",
+    "RTSP/ONVIF Hikvision NVR compatible",
+    "Alexa/Google",
+    "\u224899 AED ultra-budget",
+    "#1 budget indoor cam Amazon.ae Noon"
+  ],
+  "msrp_aed": 99,
+  "sources": [
+    "https://www.ezviz.com/me-en/",
+    "https://www.amazon.ae/"
+  ]
+}

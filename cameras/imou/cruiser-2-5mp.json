@@ -1,0 +1,69 @@
+{
+  "id": "imou-cruiser-2-5mp",
+  "brand": "IMOU",
+  "model": "Cruiser 2 5MP",
+  "aliases": [
+    "IPC-S7XEP-5M0WED",
+    "IMOU Cruiser 5MP Pan/Tilt Outdoor"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "IN",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "5MP 3K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V (outdoor adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "5MP outdoor pan/tilt color night vision",
+    "AI human/vehicle detection",
+    "auto-tracking",
+    "smart siren + spotlight deterrence",
+    "IP66",
+    "H.265",
+    "Alexa",
+    "\u20b97,000\u20139,000 best outdoor India PTZ"
+  ],
+  "msrp_inr": 7499,
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "hikvision-ds-2ce76k0t-itmfs",
+  "brand": "Hikvision",
+  "model": "DS-2CE76K0T-ITMFS",
+  "type": "turret",
+  "connectivity": [
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP HD"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "DC 12V (coaxial HDCVI)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "hdcvi"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP TurboHD analog turret with mic",
+    "40m IR",
+    "4-in-1",
+    "IP67",
+    "built-in mic over coax"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "tapo-c260",
+  "brand": "Tapo",
+  "model": "Tapo C260",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3mm",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 150 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V / USB"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "RoomCam 360 4K indoor pan/tilt",
+    "AI person/pet/vehicle detection",
+    "facial recognition",
+    "360deg AI tracking",
+    "dual-band WiFi 5 (2.4/5GHz)",
+    "starlight color night vision",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "aliases": [
+    "RoomCam 360"
+  ],
+  "release_year": 2025,
+  "msrp_usd": 79.99
+}

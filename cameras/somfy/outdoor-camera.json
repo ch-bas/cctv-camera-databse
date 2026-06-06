@@ -1,0 +1,70 @@
+{
+  "id": "somfy-outdoor-camera",
+  "brand": "Somfy",
+  "model": "Outdoor Camera",
+  "aliases": [
+    "Somfy Cam\u00e9ra Ext\u00e9rieure"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "FR",
+    "DE",
+    "ES",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "120 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Hardwired (DC 12V mains)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p color night vision outdoor",
+    "tamper-proof enclosure",
+    "integrated siren",
+    "Somfy Protect ecosystem",
+    "two-way audio",
+    "GDPR-compliant EU cloud",
+    "TaHoma smart home integration",
+    "Alexa / Google",
+    "IP55"
+  ],
+  "msrp_eur": 229.99,
+  "sources": [
+    "https://www.somfy.fr/"
+  ]
+}

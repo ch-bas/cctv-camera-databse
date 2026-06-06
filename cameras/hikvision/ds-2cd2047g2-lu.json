@@ -1,0 +1,62 @@
+{
+  "id": "hikvision-ds-2cd2047g2-lu",
+  "brand": "Hikvision",
+  "model": "DS-2CD2047G2-LU",
+  "aliases": [
+    "ColorVu 4MP Mini Bullet with Mic"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 / 6 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V",
+    "consumption_w": 6.5
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorVu 24/7 full-color",
+    "AcuSense",
+    "F1.0 aperture",
+    "130 dB WDR",
+    "H.265+",
+    "built-in mic"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "hikvision-ds-2cd2347g2-lu",
+  "brand": "Hikvision",
+  "model": "DS-2CD2347G2-LU",
+  "aliases": ["ColorVu 4MP Fixed Turret"],
+  "type": "turret",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 4, "max_width": 2688, "max_height": 1520, "label": "4MP" },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8 / 4 (fixed options)", "aperture": "F1.0", "varifocal": false },
+  "field_of_view_deg": "103 horizontal (2.8mm) / 84 horizontal (4mm)",
+  "night_vision": { "type": "color", "range_m": 30 },
+  "power": { "method": "PoE (802.3af) / DC 12V", "consumption_w": 6.5 },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp", "http"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "ColorVu 24/7 full-color imaging",
+    "AcuSense human/vehicle classification",
+    "F1.0 super-aperture",
+    "130 dB WDR",
+    "built-in microphone",
+    "H.265+ compression"
+  ],
+  "sources": ["https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2347g2-l-u-/"]
+}

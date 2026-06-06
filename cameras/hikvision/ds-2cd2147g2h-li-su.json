@@ -1,0 +1,66 @@
+{
+  "id": "hikvision-ds-2cd2147g2h-li-su",
+  "brand": "Hikvision",
+  "model": "DS-2CD2147G2H-LI(SU)",
+  "aliases": [
+    "Smart Hybrid ColorVu 4MP Fixed Dome F1.0"
+  ],
+  "release_year": 2024,
+  "generation": "EasyIP 4.0",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "111 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Smart Hybrid Light (IR + warm LED)",
+    "F1.0 super aperture",
+    "0.0005 lux",
+    "AcuSense 3.0",
+    "130 dB WDR",
+    "H.265+",
+    "IK10",
+    "Audio 2.0 dual-array mic",
+    "-SU: strobe + siren"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2147g2h-li-su-/"
+  ]
+}

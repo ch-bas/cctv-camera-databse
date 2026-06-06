@@ -1,0 +1,59 @@
+{
+  "id": "hikvision-ds-2pt3q27iwx-de",
+  "brand": "Hikvision",
+  "model": "DS-2PT3Q27IWX-DE",
+  "aliases": [
+    "PTRZ 4MP Panoramic + PTZ Dual-Lens Camera"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4MP panoramic + 2MP PTZ"
+  },
+  "sensor": "1/2.7\" CMOS + 1/2.8\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "4mm panoramic + 2.8-12mm PTZ varifocal",
+    "varifocal": true
+  },
+  "field_of_view_deg": "180 panoramic + 94-28 PTZ",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "dual-lens panoramic + PTZ in one unit",
+    "180\u00b0 wide overview + 4x optical zoom PTZ",
+    "AcuSense AI",
+    "simultaneous panoramic+PTZ recording",
+    "H.265+",
+    "IP66"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

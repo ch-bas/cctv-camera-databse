@@ -1,0 +1,70 @@
+{
+  "id": "intelbras-im5-wifi-outdoor",
+  "brand": "Intelbras",
+  "model": "iM5",
+  "aliases": [
+    "Intelbras iM5 3MP WiFi Outdoor Argentina Brazil"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "AR",
+    "BR",
+    "CL",
+    "LATAM"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "107 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 20
+  },
+  "power": {
+    "method": "DC 12V (outdoor adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Intelbras 3MP 2K WiFi outdoor bullet",
+    "color night vision",
+    "AI person/vehicle detection",
+    "Mibo Cloud / microSD / DVR NVR ONVIF",
+    "RTSP",
+    "IP67",
+    "H.265+",
+    "best-selling Mercado Libre Argentina outdoor cam",
+    "ANATEL certified Brazil"
+  ],
+  "sources": [
+    "https://www.intelbras.com/en/"
+  ]
+}

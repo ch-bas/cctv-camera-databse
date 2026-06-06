@@ -1,0 +1,51 @@
+{
+  "id": "reolink-trackmix-wifi",
+  "brand": "Reolink",
+  "model": "TrackMix WiFi",
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K+4MP dual-lens"
+  },
+  "field_of_view_deg": "140 wide+35 tele",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens wide+tele WiFi outdoor auto-tracking",
+    "smart pan/tilt motorized",
+    "color spotlight",
+    "person/vehicle/animal/package AI",
+    "ONVIF/RTSP",
+    "IP66",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-trackmix-wifi/"
+  ],
+  "msrp_usd": 99
+}

@@ -1,0 +1,56 @@
+{
+  "id": "amcrest-ip8m-2837ew",
+  "brand": "Amcrest",
+  "model": "IP8M-2837E 4K 25x PTZ",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "60-2.5h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Amcrest 4K 25x PTZ PoE outdoor",
+    "100m IR",
+    "AI auto-tracking",
+    "H.265",
+    "ONVIF/RTSP",
+    "IP66",
+    "Blue Iris/Frigate"
+  ],
+  "sources": [
+    "https://amcrest.com/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.8-120 (25x optical)",
+    "varifocal": true
+  }
+}

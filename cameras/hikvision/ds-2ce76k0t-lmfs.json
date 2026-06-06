@@ -1,0 +1,46 @@
+{
+  "id": "hikvision-ds-2ce76k0t-lmfs",
+  "brand": "Hikvision",
+  "model": "DS-2CE76K0T-LMFS",
+  "type": "turret",
+  "connectivity": [
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP HD"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 40
+  },
+  "power": {
+    "method": "DC 12V (coaxial HDCVI)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "hdcvi"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP Smart Hybrid Light TurboHD turret",
+    "dual light (IR + warm LED)",
+    "4-in-1",
+    "IP67",
+    "built-in mic"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

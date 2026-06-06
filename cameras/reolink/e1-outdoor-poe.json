@@ -1,0 +1,57 @@
+{
+  "id": "reolink-e1-outdoor-poe",
+  "brand": "Reolink",
+  "model": "E1 Outdoor PoE",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "85 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "355deg pan / 50deg tilt",
+    "auto-tracking",
+    "compact low-profile body",
+    "person/vehicle detection",
+    "no subscription"
+  ],
+  "release_year": 2022,
+  "sources": [
+    "https://reolink.com/product/e1-outdoor-poe/"
+  ]
+}

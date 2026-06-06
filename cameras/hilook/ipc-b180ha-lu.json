@@ -1,0 +1,67 @@
+{
+  "id": "hilook-ipc-b180ha-lu",
+  "brand": "HiLook",
+  "model": "IPC-B180HA-LU",
+  "aliases": [
+    "HiLook 4K Smart Hybrid Light Bullet Motion Detection 2.0"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "107 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "HiLook Smart Hybrid Light 4K bullet",
+    "Motion Detection 2.0 (human/vehicle)",
+    "dual light (IR + warm LED)",
+    "built-in mic",
+    "120dB WDR",
+    "H.265+",
+    "ONVIF/RTSP",
+    "IP67",
+    "Hikvision NVR compatible",
+    "mid-range HiLook upgrade"
+  ],
+  "msrp_usd": 79,
+  "sources": [
+    "https://www.hikvision.com/en/products/HiLook-IP-Products/"
+  ]
+}

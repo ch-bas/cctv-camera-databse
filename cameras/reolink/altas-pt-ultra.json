@@ -1,0 +1,54 @@
+{
+  "id": "reolink-altas-pt-ultra",
+  "brand": "Reolink",
+  "model": "Altas PT Ultra",
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "360 pan/90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Dual solar panels (always-on continuous recording)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "world-first 4K solar battery PTZ continuous recording",
+    "dual solar panels",
+    "360\u00b0 pan/tilt auto-tracking",
+    "WiFi 6",
+    "color night vision",
+    "no subscription",
+    "IP67"
+  ],
+  "sources": [
+    "https://reolink.com/product/altas-pt-ultra/"
+  ],
+  "msrp_usd": 159,
+  "aliases": [
+    "B660"
+  ]
+}

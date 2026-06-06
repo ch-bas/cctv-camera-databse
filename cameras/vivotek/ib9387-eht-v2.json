@@ -1,0 +1,61 @@
+{
+  "id": "vivotek-ib9387-eht-v2",
+  "brand": "Vivotek",
+  "model": "IB9387-EHT-v2",
+  "aliases": [
+    "Vivotek 5MP Motorized Varifocal Bullet Arctic"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "105-31 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "motorized varifocal",
+    "SNV",
+    "WDR Pro 120 dB",
+    "Smart Stream III",
+    "H.265",
+    "built-in heater (-40C)",
+    "IK10",
+    "AI motion detection"
+  ],
+  "sources": [
+    "https://www.vivotek.com/"
+  ]
+}

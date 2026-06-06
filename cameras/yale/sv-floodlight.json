@@ -1,0 +1,47 @@
+{
+  "id": "yale-sv-floodlight",
+  "brand": "Yale",
+  "model": "Smart Floodlight Camera 2K",
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "2K QHD"
+  },
+  "field_of_view_deg": "130h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired AC"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Yale 2K Smart Floodlight Camera WiFi 2000-lumen",
+    "colour night vision",
+    "person detection",
+    "two-way audio",
+    "Yale Secure / Alexa",
+    "IP44"
+  ],
+  "sources": [
+    "https://www.yalehome.co.uk/"
+  ]
+}

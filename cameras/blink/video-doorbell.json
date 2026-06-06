@@ -1,0 +1,60 @@
+{
+  "id": "blink-video-doorbell",
+  "brand": "Blink",
+  "model": "Video Doorbell",
+  "aliases": [
+    "Blink Doorbell 2nd Gen"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "135 diagonal (head-to-toe)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "2x AA lithium batteries (up to 2 years) / existing doorbell wiring (for charging only)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IPX5",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "head-to-toe 1080p view",
+    "2-year battery life",
+    "person/motion detection",
+    "Alexa / Fire TV",
+    "Blink Subscription for cloud video history",
+    "local storage via Sync Module"
+  ],
+  "msrp_usd": 49.99,
+  "sources": [
+    "https://blinkforhome.com/products"
+  ]
+}

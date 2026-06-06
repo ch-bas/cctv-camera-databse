@@ -1,0 +1,62 @@
+{
+  "id": "hikvision-ds-2cd2647g2-lzs",
+  "brand": "Hikvision",
+  "model": "DS-2CD2647G2-LZS",
+  "aliases": [
+    "ColorVu 4MP Motorized Varifocal Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6-9 (motorized varifocal)",
+    "aperture": "F1.0",
+    "varifocal": true
+  },
+  "field_of_view_deg": "95-44 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 60
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorVu 24/7 full-color",
+    "motorized varifocal",
+    "AcuSense",
+    "F1.0 aperture",
+    "130 dB WDR",
+    "H.265+",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.sourcesecurity.com/hikvision-ds-2cd2047g2-l-4mm-c-ip-camera-technical-details.html"
+  ]
+}

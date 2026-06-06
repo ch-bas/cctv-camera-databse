@@ -1,0 +1,66 @@
+{
+  "id": "hilook-ipc-t280h",
+  "brand": "HiLook",
+  "model": "IPC-T280H",
+  "aliases": [
+    "HiLook 4K Fixed Turret by Hikvision"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "107 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "HiLook 4K turret entry-level",
+    "30m IR",
+    "120dB WDR",
+    "H.265+",
+    "ONVIF/RTSP",
+    "IP67",
+    "IK10",
+    "Hikvision NVR compatible",
+    "4K upgrade HiLook turret"
+  ],
+  "msrp_usd": 55,
+  "sources": [
+    "https://www.hikvision.com/en/products/HiLook-IP-Products/"
+  ]
+}

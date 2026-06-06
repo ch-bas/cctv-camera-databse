@@ -1,0 +1,66 @@
+{
+  "id": "reolink-rlc-810a-india",
+  "brand": "Reolink",
+  "model": "RLC-810A (India)",
+  "aliases": [
+    "Reolink 4K PoE Bullet India"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K 8MP PoE outdoor bullet",
+    "person/vehicle/animal AI detection",
+    "no subscription",
+    "RTSP/ONVIF Blue Iris/Frigate compatible",
+    "\u20b96,000\u20139,000 value 4K India",
+    "Amazon India popular"
+  ],
+  "msrp_inr": 7499,
+  "sources": [
+    "https://reolink.com/in/"
+  ]
+}

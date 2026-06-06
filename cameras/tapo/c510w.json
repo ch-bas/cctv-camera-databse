@@ -1,0 +1,60 @@
+{
+  "id": "tapo-c510w",
+  "brand": "Tapo",
+  "model": "Tapo C510W",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2304,
+    "max_height": 1296,
+    "label": "3MP 1296p"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9mm",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 130 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V outdoor adapter"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "outdoor 2K pan/tilt",
+    "360deg pan / 130deg tilt",
+    "spotlights color night vision",
+    "AI person detection",
+    "motion tracking",
+    "IP65",
+    "15fps max",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "release_year": 2023,
+  "msrp_usd": 44.99
+}

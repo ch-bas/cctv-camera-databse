@@ -1,0 +1,71 @@
+{
+  "id": "steinel-l-625-cam",
+  "brand": "Steinel",
+  "model": "L 625 CAM SC",
+  "aliases": [
+    "Steinel L625 CAM WiFi 6 2K"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "DE",
+    "AT",
+    "CH",
+    "FR",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal (pivoting)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD upgrade of L620",
+    "WiFi 6 (dual-band)",
+    "color night vision",
+    "180deg pivoting camera",
+    "AI person/vehicle/animal detection",
+    "intercom",
+    "16-32GB SD local storage",
+    "GDPR-friendly no cloud mandatory",
+    "high aesthetic WAF design"
+  ],
+  "msrp_eur": 399.99,
+  "sources": [
+    "https://www.steinel.de/"
+  ]
+}

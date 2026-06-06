@@ -1,0 +1,63 @@
+{
+  "id": "tapo-c425",
+  "brand": "Tapo",
+  "model": "Tapo C425",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.18mm",
+    "aperture": "F1.61",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Built-in 10,000 mAh battery (non-removable) / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD wire-free battery camera",
+    "300-day battery life (10,000 mAh built-in)",
+    "direct WiFi (no hub required)",
+    "starlight color night vision",
+    "AI person/pet/vehicle detection",
+    "magnetic mount",
+    "activity zones",
+    "built-in siren",
+    "solar optional",
+    "no subscription"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ],
+  "release_year": 2024,
+  "msrp_usd": 59.99
+}

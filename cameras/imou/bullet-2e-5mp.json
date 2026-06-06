@@ -1,0 +1,71 @@
+{
+  "id": "imou-bullet-2e-5mp",
+  "brand": "IMOU",
+  "model": "Bullet 2E 5MP",
+  "aliases": [
+    "IPC-F57FEP-D",
+    "IMOU 5MP Outdoor Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "IN",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2880,
+    "max_height": 1620,
+    "label": "5MP 3K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V / WiFi"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP 3K outdoor bullet",
+    "F1.6 aperture color night vision 30m",
+    "AI human detection",
+    "spotlight",
+    "IP67",
+    "WiFi + PoE + Ethernet",
+    "H.265",
+    "Alexa",
+    "\u20b95,000\u20137,000 popular India outdoor"
+  ],
+  "msrp_inr": 5999,
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "reolink-d500",
+  "brand": "Reolink",
+  "model": "D500",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "80 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE 802.3af"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Reolink add-on PoE dome 5MP NVR expansion",
+    "30m IR",
+    "IP67",
+    "ONVIF/RTSP",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/d500/"
+  ],
+  "msrp_usd": 25
+}

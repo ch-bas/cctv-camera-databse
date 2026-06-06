@@ -1,0 +1,59 @@
+{
+  "id": "axis-q1656-be",
+  "brand": "Axis",
+  "model": "Q1656-BE",
+  "aliases": [
+    "Axis Q1656-BE 4K Box Explosion-Protected"
+  ],
+  "type": "box",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.7\" Progressive Scan CMOS",
+  "lens": {
+    "count": 0,
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ATEX / IECEx explosion-protected zone 1/21",
+    "4K ARTPEC-8 DLPU",
+    "AXIS Object Analytics",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "Zipstream H.265/H.264",
+    "CS-mount interchangeable lens",
+    "for oil/gas/chemical plants"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q1656-be"
+  ]
+}

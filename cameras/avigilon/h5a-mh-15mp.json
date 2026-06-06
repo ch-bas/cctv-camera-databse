@@ -1,0 +1,59 @@
+{
+  "id": "avigilon-h5a-mh-15mp",
+  "brand": "Avigilon",
+  "model": "H5A Multisensor 15MP (15C-H5A-3MH-270)",
+  "aliases": [
+    "H5A Multisensor 3x5MP",
+    "15C-H5A-3MH-270"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 15,
+    "label": "3x5MP"
+  },
+  "sensor": "3x 1/2.8\" CMOS",
+  "lens": {
+    "count": 3,
+    "focal_length_mm": "3.3-5.7 (motorized)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "270 maximum",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "3 sensors in 1 unit up to 270deg",
+    "Next-Gen Video Analytics",
+    "Appearance Search",
+    "LightCatcher",
+    "HDSM SmartCodec",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.avigilon.com/security-cameras/h5a-multisensor"
+  ]
+}

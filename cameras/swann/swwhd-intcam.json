@@ -1,0 +1,66 @@
+{
+  "id": "swann-swwhd-intcam",
+  "brand": "Swann",
+  "model": "SWWHD-INTCAM",
+  "aliases": [
+    "Swann 1080p WiFi Battery Indoor/Outdoor Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "UK",
+    "US",
+    "AU"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "120 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable built-in battery (2.4GHz + 5GHz WiFi)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "wire-free 1080p indoor/outdoor battery camera",
+    "True Detect PIR heat sensing",
+    "wireless range up to 65ft",
+    "IP65 weatherproof",
+    "SAFE by Swann App",
+    "Alexa / Google",
+    "no hub required"
+  ],
+  "msrp_gbp": 69.99,
+  "sources": [
+    "https://www.swann.com/"
+  ]
+}

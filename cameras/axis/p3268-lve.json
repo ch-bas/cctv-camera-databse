@@ -1,0 +1,51 @@
+{
+  "id": "axis-p3268-lve",
+  "brand": "Axis",
+  "model": "P3268-LVE",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "95-28h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis P3268-LVE 4K ARTPEC-8 outdoor dome varifocal",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "OptimizedIR 40m",
+    "IP66",
+    "IK10",
+    "AXIS Object Analytics"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p3268-lve"
+  ]
+}

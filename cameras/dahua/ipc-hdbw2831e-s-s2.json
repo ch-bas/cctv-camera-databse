@@ -1,0 +1,58 @@
+{
+  "id": "dahua-ipc-hdbw2831e-s-s2",
+  "brand": "Dahua",
+  "model": "IPC-HDBW2831E-S-S2",
+  "aliases": [
+    "Lite 8MP IR Mini Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed options)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "H.265+ codec",
+    "SMD Plus",
+    "3D NR",
+    "compact mini dome",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

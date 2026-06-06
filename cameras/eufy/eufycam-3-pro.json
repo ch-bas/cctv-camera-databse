@@ -1,0 +1,61 @@
+{
+  "id": "eufy-eufycam-3-pro",
+  "brand": "Eufy",
+  "model": "EufyCam 3 Pro",
+  "aliases": [
+    "T88601D4",
+    "EufyCam 4K Solar"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "135 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 12
+  },
+  "power": {
+    "method": "Solar-powered + built-in battery (HomeBase S380 required)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K solar-powered always-on",
+    "BionicMind AI face recognition",
+    "color night vision",
+    "no subscription fee",
+    "HomeBase local 16GB storage",
+    "Apple HomeKit / Alexa / Google"
+  ],
+  "msrp_usd": 249.99,
+  "sources": [
+    "https://www.eufy.com/products/eufycam-3-pro"
+  ]
+}

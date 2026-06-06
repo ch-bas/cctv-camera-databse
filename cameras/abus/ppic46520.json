@@ -1,0 +1,70 @@
+{
+  "id": "abus-ppic46520",
+  "brand": "ABUS",
+  "model": "PPIC46520",
+  "aliases": [
+    "ABUS WLAN Lichtkamera Outdoor (Light Camera)"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "DE",
+    "AT",
+    "CH",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Hardwired (replaces outdoor light fitting)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "replaces outdoor light fitting (like Netatmo Presence)",
+    "1000-lumen LED outdoor light",
+    "person/animal/vehicle/car AI detection",
+    "PIR sensor",
+    "two-way audio",
+    "App2Cam Plus",
+    "GDPR-compliant local microSD",
+    "no mandatory subscription",
+    "German brand"
+  ],
+  "msrp_eur": 219.99,
+  "sources": [
+    "https://www.abus.com/"
+  ]
+}

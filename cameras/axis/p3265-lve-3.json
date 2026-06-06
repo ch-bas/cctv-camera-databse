@@ -1,0 +1,64 @@
+{
+  "id": "axis-p3265-lve-3",
+  "brand": "Axis",
+  "model": "P3265-LVE-3",
+  "aliases": [
+    "Axis P3265-LVE-3 LPR Kit Gen2"
+  ],
+  "release_year": 2025,
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.4-8.9 (varifocal)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-36 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ARTPEC-8 SoC",
+    "preinstalled AXIS License Plate Verifier",
+    "LPR access control kit",
+    "vehicle allow/block lists stored on-camera",
+    "AXIS A1001/A1601 door controller integration",
+    "Lightfinder 2.0",
+    "OptimizedIR",
+    "shock detection",
+    "IK10"
+  ],
+  "sources": [
+    "https://help.axis.com/en-us/axis-os-release-notes"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "reolink-duo-2v-poe",
+  "brand": "Reolink",
+  "model": "Duo 2V PoE",
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 5120,
+    "max_height": 1552,
+    "label": "4K UHD"
+  },
+  "sensor": "Dual 1/2.65\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal / 57 vertical",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "180deg dual-lens panoramic",
+    "IK10 vandal resistant (IK10)",
+    "spotlight color night vision",
+    "no subscription"
+  ],
+  "release_year": 2023,
+  "sources": [
+    "https://reolink.com/product/reolink-duo-2v-poe/"
+  ]
+}

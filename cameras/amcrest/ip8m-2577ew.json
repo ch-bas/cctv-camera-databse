@@ -1,0 +1,51 @@
+{
+  "id": "amcrest-ip8m-2577ew",
+  "brand": "Amcrest",
+  "model": "IP8M-2577E 4K Dome PoE",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Amcrest 4K outdoor dome PoE",
+    "30m IR",
+    "AI human/vehicle",
+    "H.265",
+    "ONVIF/RTSP",
+    "IP67",
+    "Blue Iris compatible"
+  ],
+  "sources": [
+    "https://amcrest.com/"
+  ]
+}

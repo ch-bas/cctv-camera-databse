@@ -1,0 +1,59 @@
+{
+  "id": "reolink-duo-floodlight-poe",
+  "brand": "Reolink",
+  "model": "Duo Floodlight PoE",
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 4608,
+    "max_height": 1728,
+    "label": "4K UHD"
+  },
+  "sensor": "Dual 1/2.7\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "3.2 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V",
+    "consumption_w": 24
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "180deg panoramic stitching",
+    "1800-lumen floodlights",
+    "person/vehicle/animal detection",
+    "spotlight color night vision",
+    "no subscription"
+  ],
+  "release_year": 2023,
+  "sources": [
+    "https://reolink.com/product/reolink-duo-floodlight-poe/"
+  ]
+}

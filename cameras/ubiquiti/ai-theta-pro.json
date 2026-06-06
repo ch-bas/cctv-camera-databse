@@ -1,0 +1,56 @@
+{
+  "id": "ubiquiti-ai-theta-pro",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect AI Theta Pro",
+  "aliases": [
+    "UVC-AI-Theta-Pro",
+    "Theta Pro Panoramic"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 24,
+    "label": "4x6MP multisensor"
+  },
+  "sensor": "4x 1/2.8\" CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "Fixed per sensor",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "360deg panoramic 24MP",
+    "AI deep learning analytics",
+    "UniFi Protect ecosystem",
+    "face/license plate detection"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-ai-theta-pro"
+  ]
+}

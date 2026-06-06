@@ -1,0 +1,63 @@
+{
+  "id": "dahua-ipc-hdw5849t1-ze-led",
+  "brand": "Dahua",
+  "model": "IPC-HDW5849T1-ZE-LED",
+  "aliases": [
+    "WizMind 8MP Varifocal Full-Color Eyeball"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.2\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (5x motorized varifocal)",
+    "aperture": "F1.0",
+    "varifocal": true
+  },
+  "field_of_view_deg": "110-30 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizMind 4K full-color 5x varifocal eyeball",
+    "1/1.2\" F1.0 super aperture",
+    "AcuPick",
+    "AcuSearch",
+    "H.265+",
+    "IP67",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

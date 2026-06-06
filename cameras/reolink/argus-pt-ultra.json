@@ -1,0 +1,64 @@
+{
+  "id": "reolink-argus-pt-ultra",
+  "brand": "Reolink",
+  "model": "Argus PT Ultra",
+  "aliases": [
+    "Reolink Argus PT Ultra 4K WiFi PTZ Battery"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 90 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K wire-free battery pan/tilt",
+    "dual-band WiFi",
+    "spotlight color night vision",
+    "360\u00b0 auto-tracking",
+    "smart detection person/vehicle/animal",
+    "no subscription",
+    "solar optional",
+    "IP66"
+  ],
+  "msrp_usd": 139,
+  "sources": [
+    "https://reolink.com/product/argus-pt-ultra/"
+  ]
+}

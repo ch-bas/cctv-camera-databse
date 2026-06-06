@@ -1,0 +1,69 @@
+{
+  "id": "canon-vb-s805d-mk2",
+  "brand": "Canon",
+  "model": "VB-S805D Mk II",
+  "aliases": [
+    "Canon VB-S805D Mark II 2MP Mini Fixed Dome Japan"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "JP",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.9\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.1 (fixed)",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "123 horizontal",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP40",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Canon DIGIC image processing (renowned optical quality)",
+    "1080p 60fps",
+    "Canon Camera Management Tool",
+    "ONVIF Profile S",
+    "H.264/H.265",
+    "smart shading correction",
+    "built-in mic",
+    "popular Japan retail/hospitality/healthcare",
+    "Canon VMS ecosystem"
+  ],
+  "sources": [
+    "https://www.usa.canon.com/cameras/network-cameras"
+  ]
+}

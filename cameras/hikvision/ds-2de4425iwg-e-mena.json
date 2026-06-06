@@ -1,0 +1,72 @@
+{
+  "id": "hikvision-ds-2de4425iwg-e-mena",
+  "brand": "Hikvision",
+  "model": "DS-2DE4425IWG-E (MENA)",
+  "aliases": [
+    "4MP 25x PoE PTZ MENA",
+    "Hikvision PTZ Dubai 25x"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.8-120 (25x optical)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "58-2.8 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (802.3at) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP 25x optical zoom",
+    "100m IR",
+    "AcuSense AI",
+    "auto-tracking",
+    "H.265+",
+    "IP66",
+    "SIRA-approved",
+    "standard PTZ for malls/hotels/airports UAE & Saudi",
+    "\u22482,200 AED"
+  ],
+  "msrp_aed": 2200,
+  "sources": [
+    "https://www.hikvision.com/mena-en/"
+  ]
+}

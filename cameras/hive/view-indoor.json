@@ -1,0 +1,63 @@
+{
+  "id": "hive-view-indoor",
+  "brand": "Hive",
+  "model": "View Indoor",
+  "aliases": [
+    "Hive Indoor Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2018,
+  "markets": [
+    "UK"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB (hardwired)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Hive smart home integration",
+    "1080p HD",
+    "motion detection",
+    "two-way audio",
+    "Hive app / Alexa",
+    "designed by Yves B\u00e9har",
+    "UK market leader in smart home"
+  ],
+  "msrp_gbp": 99.99,
+  "sources": [
+    "https://www.hivehome.com/"
+  ]
+}

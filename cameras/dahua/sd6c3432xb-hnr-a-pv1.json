@@ -1,0 +1,61 @@
+{
+  "id": "dahua-sd6c3432xb-hnr-a-pv1",
+  "brand": "Dahua",
+  "model": "SD6C3432XB-HNR-A-PV1",
+  "aliases": [
+    "WizSense 4MP 32x TiOC PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "5-160 (32x optical zoom)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE+ (802.3at) / DC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "32x optical zoom",
+    "TiOC full-color active deterrence",
+    "WizSense AI",
+    "auto-tracking",
+    "SMD Plus",
+    "patrol and preset",
+    "H.265",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.sourcesecurity.com/dahua-technology-ipc-hfw5849t1-ase-led-ip-camera-technical-details.html"
+  ]
+}

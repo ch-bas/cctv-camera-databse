@@ -1,0 +1,61 @@
+{
+  "id": "bosch-nbe-7702-alxt",
+  "brand": "Bosch",
+  "model": "FLEXIDOME 7000i Bullet (NBE-7702-ALXT)",
+  "aliases": [
+    "NBE-7702-ALXT",
+    "FLEXIDOME 7000i tele bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "10.5-47 (motorized varifocal)",
+    "aperture": "F1.6",
+    "varifocal": true
+  },
+  "field_of_view_deg": "31-8 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Starlight X ultra-low-light",
+    "HDR X",
+    "IVA Pro Buildings + Perimeter",
+    "long-range tele lens 10.5-47mm",
+    "IP67/IK10",
+    "NDAA compliant"
+  ],
+  "sources": [
+    "https://www.anixter.com/en_us/products/NBE-7702-ALX/BOSCH-SECURITY-SYSTEMS/Surveillance-Cameras/p/10362187"
+  ]
+}

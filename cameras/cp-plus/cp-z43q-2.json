@@ -1,0 +1,55 @@
+{
+  "id": "cp-plus-cp-z43q-2",
+  "brand": "CP Plus",
+  "model": "CP-Z43Q",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "60-2.5h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 60
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "CP Plus 4MP 36x PTZ India",
+    "60m IR",
+    "auto-tracking",
+    "H.265",
+    "IP66",
+    "popular India large premises"
+  ],
+  "sources": [
+    "https://www.cpplus.in/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.7-170 (36x optical)",
+    "varifocal": true
+  }
+}

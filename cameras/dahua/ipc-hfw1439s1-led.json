@@ -1,0 +1,49 @@
+{
+  "id": "dahua-ipc-hfw1439s1-led",
+  "brand": "Dahua",
+  "model": "IPC-HFW1439S1-LED",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "107h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lite Series 4MP full-color entry bullet",
+    "30m warm light",
+    "H.265+",
+    "IP67",
+    "budget entry-level"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

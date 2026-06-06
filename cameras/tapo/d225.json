@@ -1,0 +1,61 @@
+{
+  "id": "tapo-d225",
+  "brand": "Tapo",
+  "model": "D225",
+  "aliases": [
+    "2K QHD Smart Video Doorbell"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.4mm",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "150 diagonal / 180 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (existing doorbell wiring 8-24V AC) or battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K QHD video doorbell with chime included",
+    "wide 180deg head-to-toe view",
+    "AI person/pet/vehicle detection",
+    "color night vision",
+    "two-way audio",
+    "instant notifications",
+    "Alexa / Google",
+    "no subscription"
+  ],
+  "msrp_usd": 79.99,
+  "sources": [
+    "https://www.tapo.com/us/product/smart-camera/tapo-d225/"
+  ]
+}

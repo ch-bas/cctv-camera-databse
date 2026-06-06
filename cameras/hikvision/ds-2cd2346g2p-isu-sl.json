@@ -1,0 +1,60 @@
+{
+  "id": "hikvision-ds-2cd2346g2p-isu-sl",
+  "brand": "Hikvision",
+  "model": "DS-2CD2346G2P-ISU/SL",
+  "aliases": [
+    "AcuSense 4MP 180deg Panoramic Turret"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 3040,
+    "max_height": 1368,
+    "label": "4MP Panoramic"
+  },
+  "sensor": "Dual 1/2.5\" Progressive Scan CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "180deg dual-lens panoramic",
+    "AcuSense human/vehicle classification",
+    "strobe light active deterrence",
+    "audible warning",
+    "H.265+",
+    "built-in mic & speaker"
+  ],
+  "sources": [
+    "https://www.bhphotovideo.com/c/product/1838800-REG/hikvision_ds_2cd2346g2p_isu_sl_2_8mm_acusense_ds_2cd2346g2p_isu_sl_4mp_outdoor.html"
+  ]
+}

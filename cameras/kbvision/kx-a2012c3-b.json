@@ -1,0 +1,68 @@
+{
+  "id": "kbvision-kx-a2012c3-b",
+  "brand": "KBvision",
+  "model": "KX-A2012C3-B",
+  "aliases": [
+    "KBvision 2MP IP Dome Vietnam gi\u00e1 r\u1ebb"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "VN"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "103 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "budget 2MP IP dome Vietnam",
+    "H.265",
+    "WDR",
+    "ONVIF/RTSP",
+    "IP67",
+    "most affordable IP dome KBvision",
+    "popular Vietnam small business / apartment buildings",
+    "\u2248450,000\u2013700,000 VND"
+  ],
+  "msrp_vnd": 550000,
+  "sources": [
+    "https://kbvisionvietnam.com/"
+  ]
+}

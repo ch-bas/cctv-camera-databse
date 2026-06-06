@@ -1,0 +1,55 @@
+{
+  "id": "reolink-duo-3-wifi",
+  "brand": "Reolink",
+  "model": "Duo 3 WiFi",
+  "type": "dual-lens",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 16,
+    "label": "16MP"
+  },
+  "sensor": "Dual 1/2.7\" CMOS (4K each)",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "16MP dual-lens panoramic",
+    "dual-band WiFi 5 (2.4/5GHz)",
+    "motion track",
+    "spotlight color night vision",
+    "no subscription"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://reolink.com/product/reolink-duo-3-wifi/"
+  ]
+}

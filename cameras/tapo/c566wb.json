@@ -1,0 +1,61 @@
+{
+  "id": "tapo-c566wb",
+  "brand": "Tapo",
+  "model": "C566WB",
+  "aliases": [
+    "ColorPro 4K Pan/Tilt Outdoor",
+    "VistaCam ColorPro"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3mm",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 140 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 15
+  },
+  "power": {
+    "method": "Hardwired (AC)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K ColorPro Night Vision (F1.0 aperture)",
+    "360deg AI tracking",
+    "facial recognition",
+    "red-blue alarm deterrence",
+    "person/pet/vehicle detection",
+    "no subscription"
+  ],
+  "release_notes": "Announced IFA 2025; availability TBC.",
+  "sources": [
+    "https://www.notebookcheck.net/New-Tapo-4K-8MP-security-cameras-on-the-way.1108686.0.html"
+  ]
+}

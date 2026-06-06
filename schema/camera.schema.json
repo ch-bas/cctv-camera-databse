@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/USERNAME/cctv-camera-database/schema/camera.schema.json",
+  "title": "CCTV Camera",
+  "description": "Schema for a single CCTV / IP camera entry.",
+  "type": "object",
+  "required": ["id", "brand", "model", "type", "resolution"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique slug, e.g. 'reolink-duo-2'.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "brand": { "type": "string" },
+    "model": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternate names / SKUs."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["bullet", "dome", "turret", "ptz", "dual-lens", "fisheye", "covert", "box", "panoramic"]
+    },
+    "connectivity": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["poe", "wifi", "ethernet", "4g", "battery", "analog"] }
+    },
+    "resolution": {
+      "type": "object",
+      "required": ["megapixels"],
+      "additionalProperties": false,
+      "properties": {
+        "megapixels": { "type": "number" },
+        "max_width": { "type": "integer" },
+        "max_height": { "type": "integer" },
+        "label": { "type": "string", "description": "e.g. '4K', '1080p'." }
+      }
+    },
+    "sensor": { "type": "string", "description": "e.g. '1/2.7\" CMOS'." },
+    "lens": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "count": { "type": "integer" },
+        "focal_length_mm": { "type": "string" },
+        "aperture": { "type": "string" },
+        "varifocal": { "type": "boolean" }
+      }
+    },
+    "field_of_view_deg": { "type": "string" },
+    "night_vision": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string", "enum": ["ir", "color", "hybrid", "none"] },
+        "range_m": { "type": "integer" }
+      }
+    },
+    "power": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "method": { "type": "string" },
+        "consumption_w": { "type": "number" },
+        "voltage": { "type": "string" }
+      }
+    },
+    "storage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "onboard": { "type": "boolean" },
+        "max_microsd_gb": { "type": "integer" },
+        "nvr_compatible": { "type": "boolean" },
+        "cloud": { "type": "boolean" }
+      }
+    },
+    "protocols": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["onvif", "rtsp", "rtmp", "http", "p2p"] }
+    },
+    "ip_rating": { "type": "string", "description": "e.g. 'IP66', 'IP67'." },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "microphone": { "type": "boolean" },
+        "speaker": { "type": "boolean" },
+        "two_way": { "type": "boolean" }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "e.g. 'person detection', 'vehicle detection', 'auto-tracking'."
+    },
+    "operating_temp_c": { "type": "string" },
+    "dimensions_mm": { "type": "string" },
+    "weight_g": { "type": "number" },
+    "release_year": { "type": "integer" },
+    "msrp_usd": { "type": "number" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "description": "Official spec page / datasheet URLs."
+    }
+  }
+}

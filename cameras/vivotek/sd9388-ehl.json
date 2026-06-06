@@ -1,0 +1,56 @@
+{
+  "id": "vivotek-sd9388-ehl",
+  "brand": "Vivotek",
+  "model": "SD9388-EHL",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "56-2h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Vivotek 4MP 32x outdoor PTZ",
+    "100m IR",
+    "Smart VCA AI",
+    "WDR Pro",
+    "H.265",
+    "IP66",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.vivotek.com/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.3-137.6 (32x optical)",
+    "varifocal": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "avigilon-h5sl-do1-ir-3mp",
+  "brand": "Avigilon",
+  "model": "H5SL 3MP Outdoor Dome (3.0C-H5SL-DO1-IR)",
+  "aliases": [
+    "3.0C-H5SL-DO1-IR",
+    "H5SL Slim Line Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "97-33 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Next-Gen Video Analytics",
+    "Appearance Search",
+    "LightCatcher",
+    "HDSM SmartCodec",
+    "H.265",
+    "IK10",
+    "cost-effective Slim Line series"
+  ],
+  "sources": [
+    "https://www.securityinformed.com/avigilon-2-0c-h5a-do1-ir-ip-dome-camera-technical-details.html"
+  ]
+}

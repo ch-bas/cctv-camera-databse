@@ -1,0 +1,51 @@
+{
+  "id": "reolink-e1-outdoor-wifi",
+  "brand": "Reolink",
+  "model": "E1 Outdoor",
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "80 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP outdoor WiFi bullet",
+    "30m IR",
+    "person detection",
+    "ONVIF/RTSP",
+    "IP67",
+    "no subscription",
+    "Alexa/Google"
+  ],
+  "sources": [
+    "https://reolink.com/product/e1-outdoor/"
+  ],
+  "msrp_usd": 39
+}

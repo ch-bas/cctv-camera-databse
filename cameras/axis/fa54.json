@@ -1,0 +1,59 @@
+{
+  "id": "axis-fa54",
+  "brand": "Axis",
+  "model": "FA54 Main Unit",
+  "aliases": [
+    "Axis FA54 modular system"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 6 (fixed options)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "113 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 15
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "modular sensor unit (FA series)",
+    "Forensic WDR",
+    "OptimizedIR",
+    "Zipstream",
+    "corridor format",
+    "discreet covert housing option"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-fa54"
+  ]
+}

@@ -1,0 +1,26 @@
+name: "✏️ Correct an existing entry"
+description: "Something is wrong or outdated in the database."
+title: "Fix: [Brand] [Model] — [what's wrong]"
+labels: ["correction"]
+body:
+  - type: input
+    id: camera
+    attributes:
+      label: "Which camera?"
+      placeholder: "e.g. Reolink RLC-823A"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "What's wrong?"
+      placeholder: "e.g. The night vision range is listed as 20m but it's actually 30m"
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: "Source for the correct value"
+      placeholder: "https://… (official datasheet or retailer listing)"

@@ -1,0 +1,65 @@
+{
+  "id": "aqara-camera-hub-g3",
+  "brand": "Aqara",
+  "model": "Camera Hub G3",
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "release_year": 2021,
+  "markets": [
+    "DE",
+    "FR",
+    "EU",
+    "global"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2304,
+    "max_height": 1296,
+    "label": "4MP QHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3 fixed",
+    "aperture": "F1.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 90 tilt",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "DC 5V (USB-C)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "HomeKit Secure Video (E2E encrypted)",
+    "Zigbee 3.0 hub built-in",
+    "on-device AI face/person",
+    "IR remote emitter",
+    "RTSP Home Assistant",
+    "Alexa / Google",
+    "Matter compatible"
+  ],
+  "msrp_eur": 89,
+  "sources": [
+    "https://eu.aqara.com/en-eu/products/camera-hub-g3"
+  ]
+}

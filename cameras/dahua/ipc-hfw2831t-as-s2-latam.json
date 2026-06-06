@@ -1,0 +1,69 @@
+{
+  "id": "dahua-ipc-hfw2831t-as-s2-latam",
+  "brand": "Dahua",
+  "model": "IPC-HFW2831T-AS-S2 (LATAM)",
+  "aliases": [
+    "Dahua 4K WizSense Eyeball LATAM Argentina"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "AR",
+    "BR",
+    "CL",
+    "LATAM"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "113 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K WizSense eyeball turret",
+    "AI human/vehicle detection",
+    "H.265+",
+    "built-in mic",
+    "IP67",
+    "IK10",
+    "popular Argentina/Chile/Brazil Mercado Libre & installers"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/latam/"
+  ]
+}

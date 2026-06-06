@@ -1,0 +1,56 @@
+{
+  "id": "axis-p5655-e",
+  "brand": "Axis",
+  "model": "P5655-E",
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 2,
+    "label": "1080p HD"
+  },
+  "field_of_view_deg": "55-1.7h",
+  "night_vision": {
+    "type": "none",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Axis P5655-E 32x outdoor PTZ",
+    "OptimizedIR",
+    "Lightfinder 2.0",
+    "IP66",
+    "IK10",
+    "AXIS Object Analytics",
+    "ARTPEC-6"
+  ],
+  "sources": [
+    "https://www.axis.com/"
+  ],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.25-136 (32x optical)",
+    "varifocal": true
+  }
+}

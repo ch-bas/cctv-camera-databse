@@ -1,0 +1,51 @@
+{
+  "id": "hikvision-ds-2cd2443g2-iw",
+  "brand": "Hikvision",
+  "model": "DS-2CD2443G2-I(W)",
+  "type": "covert",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "110h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP mini box camera",
+    "AcuSense AI",
+    "10m IR",
+    "H.265+",
+    "IP67",
+    "ONVIF/RTSP",
+    "covert style"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}

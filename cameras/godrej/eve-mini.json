@@ -1,0 +1,65 @@
+{
+  "id": "godrej-eve-mini",
+  "brand": "Godrej",
+  "model": "Eve Mini",
+  "aliases": [
+    "Godrej Eve Mini WiFi Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "3MP 2K"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "DC 5V (USB)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3MP 2K compact indoor",
+    "color night vision upgrade",
+    "motion alerts",
+    "two-way audio",
+    "EVE app",
+    "no subscription",
+    "\u20b95,500"
+  ],
+  "msrp_inr": 5524,
+  "sources": [
+    "https://pricee.com/godrej-eve-mini-cctv-security-camera-price-in-india-90724"
+  ]
+}

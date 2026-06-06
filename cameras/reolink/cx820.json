@@ -1,0 +1,62 @@
+{
+  "id": "reolink-cx820",
+  "brand": "Reolink",
+  "model": "CX820",
+  "aliases": [
+    "ColorX 4K dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "87 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 25
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "F1.0 super aperture",
+    "ColorX true-color night vision",
+    "1/1.8\" large sensor",
+    "HDR",
+    "person/vehicle/animal detection",
+    "built-in siren"
+  ],
+  "release_year": 2024,
+  "sources": [
+    "https://reolink.com/product/cx820/"
+  ]
+}

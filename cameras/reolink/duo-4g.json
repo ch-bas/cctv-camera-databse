@@ -1,0 +1,49 @@
+{
+  "id": "reolink-duo-4g",
+  "brand": "Reolink",
+  "model": "Duo 4G",
+  "type": "bullet",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "label": "2\u00d74MP 180\u00b0 dual-lens"
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "Rechargeable battery / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4G LTE dual-lens 180\u00b0 battery camera",
+    "no WiFi required",
+    "2\u00d74MP lenses",
+    "solar optional",
+    "no subscription",
+    "IP65"
+  ],
+  "sources": [
+    "https://reolink.com/product/reolink-duo-4g/"
+  ],
+  "msrp_usd": 119
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dahua-itc237-pw1b-irz-lr",
+  "brand": "Dahua",
+  "model": "ITC237-PW1B-IRZ-LR",
+  "aliases": [
+    "WizMind LPR ANPR Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "2MP LPR"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "8-32 (motorized varifocal)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "dedicated ANPR/LPR camera",
+    "vehicle plate capture 3-25m",
+    "WizMind AI LPR engine",
+    "motorized varifocal",
+    "IR illumination optimized for plate reading",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "hanwha-pno-a9300rp",
+  "brand": "Hanwha",
+  "model": "PNO-A9300RP",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "100-37h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Wisenet P 4MP outdoor bullet AI",
+    "on-device AI deep learning analytics",
+    "face recognition",
+    "IP66",
+    "IK10",
+    "NDAA",
+    "WiseAI"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

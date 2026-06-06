@@ -1,0 +1,51 @@
+{
+  "id": "reolink-rlc-423",
+  "brand": "Reolink",
+  "model": "RLC-423",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "field_of_view_deg": "95-31 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE 802.3af / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 64,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "5MP motorized varifocal outdoor bullet",
+    "4\u00d7 zoom",
+    "30m IR",
+    "ONVIF/RTSP",
+    "IP66",
+    "no subscription"
+  ],
+  "sources": [
+    "https://reolink.com/product/rlc-423/"
+  ],
+  "msrp_usd": 49
+}

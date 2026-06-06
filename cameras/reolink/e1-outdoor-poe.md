@@ -1,0 +1,34 @@
+# Reolink E1 Outdoor PoE
+
+| Field | Spec |
+|-------|------|
+| Brand | Reolink |
+| Model | E1 Outdoor PoE |
+| Type | ptz |
+| Connectivity | poe, ethernet |
+| Resolution | 4K UHD (8MP, 3840×2160) |
+| Sensor | 1/2.7" CMOS |
+| Lens | 1× 2.8 (fixed)mm |
+| Field of view | 85 horizontal° |
+| Night vision | ir (30m) |
+| Power | PoE (802.3af) / DC 12V |
+| Storage | microSD ≤ 256GB, NVR |
+| Protocols | onvif, rtsp |
+| IP rating | IP65 |
+| Two-way audio | Yes |
+| Released | 2022 |
+
+## Features
+
+- 355deg pan / 50deg tilt
+- auto-tracking
+- compact low-profile body
+- person/vehicle detection
+- no subscription
+
+## Sources
+
+- https://reolink.com/product/e1-outdoor-poe/
+
+---
+*Auto-generated from reolink-e1-outdoor-poe.json — do not edit by hand.*

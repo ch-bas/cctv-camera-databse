@@ -1,0 +1,70 @@
+{
+  "id": "bosch-flexidome-5100i-mena",
+  "brand": "Bosch",
+  "model": "FLEXIDOME 5100i (MENA)",
+  "aliases": [
+    "NDE-5503-AL MENA",
+    "Bosch 5100i UAE premium"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "markets": [
+    "AE",
+    "SA",
+    "MENA"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.3-10 (motorized varifocal)",
+    "aperture": "F1.8",
+    "varifocal": true
+  },
+  "field_of_view_deg": "110-32 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "IVA Pro deep learning analytics",
+    "motorized varifocal",
+    "HDR",
+    "auto-orientation",
+    "built-in mic + speaker",
+    "IP66",
+    "IK10",
+    "Bosch VideoManagement integration",
+    "preferred brand MENA banks/airports/luxury hotels"
+  ],
+  "sources": [
+    "https://www.boschsecurity.com/me-en/"
+  ]
+}

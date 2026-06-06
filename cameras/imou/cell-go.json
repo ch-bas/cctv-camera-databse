@@ -1,0 +1,49 @@
+{
+  "id": "imou-cell-go",
+  "brand": "IMOU",
+  "model": "Cell Go",
+  "type": "bullet",
+  "connectivity": [
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "108h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / solar"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "IMOU Cell Go 4G LTE cellular battery camera",
+    "no WiFi required",
+    "solar optional",
+    "color night vision",
+    "AI human detection",
+    "IP66",
+    "Alexa"
+  ],
+  "sources": [
+    "https://www.imoulife.com/"
+  ]
+}

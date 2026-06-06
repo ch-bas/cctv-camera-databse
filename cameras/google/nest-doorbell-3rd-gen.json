@@ -1,0 +1,63 @@
+{
+  "id": "google-nest-doorbell-3rd-gen",
+  "brand": "Google",
+  "model": "Nest Doorbell (Wired, 3rd Gen)",
+  "aliases": [
+    "2025 Nest Doorbell with Gemini"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2025,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2048,
+    "max_height": 2048,
+    "label": "2K HDR (2048x2048)"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "varifocal": false
+  },
+  "field_of_view_deg": "166 diagonal (wider + taller vs Gen 2)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 6
+  },
+  "power": {
+    "method": "Hardwired (existing doorbell wiring 16-24V AC, 10-40VA)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP44",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K HDR 1:1 square aspect ratio",
+    "highest resolution Nest Doorbell ever",
+    "expanded FOV (wider + taller vs Gen 2)",
+    "Gemini AI natural language video search",
+    "person/package/animal/vehicle detection",
+    "24/7 continuous viewing",
+    "local event storage (1hr offline backup)",
+    "DXOMARK #1 ranked doorbell image quality",
+    "compatible with Gen 2 backplate",
+    "Google Home Premium for Gemini"
+  ],
+  "msrp_usd": 179.99,
+  "sources": [
+    "https://9to5google.com/2025/10/01/google-nest-camera-refresh-2025-2k-resolution/"
+  ]
+}

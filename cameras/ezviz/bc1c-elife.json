@@ -1,0 +1,63 @@
+{
+  "id": "ezviz-bc1c-elife",
+  "brand": "EZVIZ",
+  "model": "BC1C eLife",
+  "aliases": [
+    "EZVIZ BC1C eLife 2K Battery Wire-Free Outdoor"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "sensor": "CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "118 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery (10,000mAh) / solar optional"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K wire-free 10,000mAh battery outdoor",
+    "color night vision",
+    "AI human detection",
+    "active defense (spotlight + sound)",
+    "solar optional",
+    "EZVIZ app / Alexa / Google",
+    "IP66"
+  ],
+  "msrp_eur": 89,
+  "sources": [
+    "https://www.ezviz.com/product/ezviz-elife/"
+  ]
+}

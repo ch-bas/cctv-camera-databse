@@ -1,0 +1,69 @@
+{
+  "id": "cp-plus-cp-unc-da41l3c-d-lq",
+  "brand": "CP Plus",
+  "model": "CP-UNC-DA41L3C-D-LQ",
+  "aliases": [
+    "4MP Color Night Vision IP Dome STQC",
+    "CP Plus 4MP Dual Light"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "markets": [
+    "IN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "98 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP dual-light color+IR night vision",
+    "STQC certified (BIS/MeitY India)",
+    "H.265+",
+    "built-in mic",
+    "PoE",
+    "NVR compatible",
+    "IP67",
+    "Made in India"
+  ],
+  "msrp_inr": 6999,
+  "sources": [
+    "https://www.cpplusworld.com/"
+  ]
+}

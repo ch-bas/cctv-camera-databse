@@ -1,0 +1,50 @@
+{
+  "id": "hanwha-xno-c9083r",
+  "brand": "Hanwha",
+  "model": "XNO-C9083R",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "field_of_view_deg": "109-42h",
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Wisenet X ColorVu 4MP outdoor bullet",
+    "full-color F1.6",
+    "AI analytics",
+    "IP66",
+    "IK10",
+    "NDAA"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

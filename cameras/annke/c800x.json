@@ -1,0 +1,65 @@
+{
+  "id": "annke-c800x",
+  "brand": "Annke",
+  "model": "C800X",
+  "aliases": [
+    "4K Active Deterrence PoE Bullet upgraded"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K 1/1.8\" sensor upgraded C800",
+    "active deterrence (strobe + siren)",
+    "dual smart light",
+    "AI human/vehicle detection",
+    "two-way audio",
+    "120 dB WDR",
+    "H.265+",
+    "IP67"
+  ],
+  "msrp_usd": 69.99,
+  "sources": [
+    "https://www.annke.com/products/c800x"
+  ]
+}

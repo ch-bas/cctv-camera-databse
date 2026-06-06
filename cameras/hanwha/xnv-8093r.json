@@ -1,0 +1,62 @@
+{
+  "id": "hanwha-xnv-8093r",
+  "brand": "Hanwha",
+  "model": "XNV-8093R",
+  "aliases": [
+    "Wisenet X 6MP AI IR Vandal Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 6,
+    "max_width": 3072,
+    "max_height": 1728,
+    "label": "6MP"
+  },
+  "sensor": "1/2\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 3.9 / 6 (fixed options)",
+    "aperture": "F1.5",
+    "varifocal": false
+  },
+  "field_of_view_deg": "102 horizontal (2.8mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "AI deep learning IVA",
+    "face/vehicle detection",
+    "WiseStream III",
+    "extreme WDR",
+    "H.265",
+    "IK10",
+    "NEMA 4X"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/product/xnv-8093r/"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "reolink-elite-pro-floodlight-poe",
+  "brand": "Reolink",
+  "model": "Elite Pro Floodlight PoE",
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 16,
+    "label": "16MP dual-lens"
+  },
+  "sensor": "Dual 1/2.7\" CMOS (8MP each)",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 fixed",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "16MP dual-lens 180deg panoramic",
+    "2800-lumen floodlight",
+    "local AI video search",
+    "motion track",
+    "color + IR night vision",
+    "person/vehicle/animal detection",
+    "no subscription"
+  ],
+  "release_year": 2025,
+  "msrp_usd": 188.99,
+  "sources": [
+    "https://slickdeals.net/f/18802744"
+  ]
+}

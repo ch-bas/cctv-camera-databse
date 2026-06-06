@@ -1,0 +1,76 @@
+{
+  "id": "hikvision-ds-2cd2147g2h-liu-eu",
+  "brand": "Hikvision",
+  "model": "DS-2CD2147G2H-LI(U) (EU)",
+  "aliases": [
+    "Smart Hybrid 4MP Mini Dome ColorVu EU",
+    "EasyIP 4.0 Plus EU"
+  ],
+  "generation": "EasyIP 4.0 Plus",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "markets": [
+    "DE",
+    "FR",
+    "ES",
+    "EU"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed super-confocal)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "106 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "F1.0 super-confocal lens",
+    "Smart Hybrid Light",
+    "0.0005 lux",
+    "AcuSense 3.0 human/vehicle",
+    "HikAI-ISP",
+    "130 dB WDR",
+    "Audio 2.0",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "most popular EU professional installer 4MP dome"
+  ],
+  "msrp_eur": 109.99,
+  "sources": [
+    "https://www.hikvision.com/de-de/"
+  ]
+}

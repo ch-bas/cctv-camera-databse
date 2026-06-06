@@ -1,0 +1,49 @@
+{
+  "id": "abus-ipcb68516",
+  "brand": "ABUS",
+  "model": "IPCB68516",
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ABUS 4K PoE outdoor IR bullet 40m",
+    "H.265",
+    "ONVIF/RTSP",
+    "IP67",
+    "German DSGVO-compliant CCTV"
+  ],
+  "sources": [
+    "https://www.abus.com/de/"
+  ]
+}

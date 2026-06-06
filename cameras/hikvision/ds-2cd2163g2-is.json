@@ -1,0 +1,51 @@
+{
+  "id": "hikvision-ds-2cd2163g2-is",
+  "brand": "Hikvision",
+  "model": "DS-2CD2163G2-I(S)",
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 6,
+    "label": "6MP"
+  },
+  "field_of_view_deg": "103h",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "6MP AcuSense vandal dome",
+    "human/vehicle",
+    "40m IR",
+    "130dB WDR",
+    "H.265+",
+    "IP67",
+    "IK10"
+  ],
+  "sources": [
+    "https://www.hikvision.com/en/products/"
+  ]
+}
