@@ -68,7 +68,7 @@ body:
         - IR (traditional infrared — black & white at night)
         - Color (full color in darkness with LED)
         - Hybrid (IR + warm LED)
-        - None
+        - No night vision
         - Unknown
 
   - type: input
