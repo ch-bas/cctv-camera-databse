@@ -1,0 +1,63 @@
+{
+  "id": "dahua-ipc-hdbw2441r-zas",
+  "brand": "Dahua",
+  "model": "IPC-HDBW2441R-ZAS",
+  "aliases": [
+    "WizSense 4MP Varifocal Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/3\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (motorized)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "WizSense 4MP varifocal dome",
+    "motorized 2.7-13.5mm lens",
+    "SMD Plus human/vehicle detection",
+    "40m IR range",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "two-way audio",
+    "alarm I/O"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

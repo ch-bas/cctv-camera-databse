@@ -1,0 +1,61 @@
+{
+  "id": "dahua-ipc-hdw2841t-zs",
+  "brand": "Dahua",
+  "model": "IPC-HDW2841T-ZS",
+  "aliases": [
+    "WizSense 8MP Varifocal Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K / 8MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (motorized)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WizSense 8MP varifocal dome",
+    "motorized 2.7-13.5mm lens",
+    "SMD Plus human/vehicle detection",
+    "40m IR range",
+    "H.265+",
+    "IP67",
+    "built-in mic"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

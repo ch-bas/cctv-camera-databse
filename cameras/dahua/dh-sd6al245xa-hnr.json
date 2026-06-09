@@ -1,0 +1,64 @@
+{
+  "id": "dahua-dh-sd6al245xa-hnr",
+  "brand": "Dahua",
+  "model": "DH-SD6AL245XA-HNR",
+  "aliases": [
+    "4MP 45x Starlight PTZ AI"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" Starlight CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.95-177.7 (45x optical zoom)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 300
+  },
+  "power": {
+    "method": "PoE++ (802.3bt) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "45x optical zoom PTZ",
+    "Starlight low-light sensor",
+    "AI auto-tracking",
+    "face detection",
+    "perimeter protection",
+    "300m IR range",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "alarm I/O"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

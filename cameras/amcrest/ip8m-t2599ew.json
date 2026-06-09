@@ -1,0 +1,52 @@
+{
+  "id": "amcrest-ip8m-t2599ew",
+  "brand": "Amcrest",
+  "model": "IP8M-T2599EW",
+  "type": "turret",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K WiFi turret with spotlight",
+    "active deterrence siren + light",
+    "color night vision",
+    "IP67 weatherproof",
+    "two-way audio",
+    "H.265",
+    "person detection",
+    "RTSP / ONVIF"
+  ],
+  "sources": [
+    "https://amcrest.com/"
+  ]
+}

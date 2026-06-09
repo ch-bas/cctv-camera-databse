@@ -1,0 +1,60 @@
+{
+  "id": "wyze-cam-og-telephoto",
+  "brand": "Wyze",
+  "model": "Cam OG Telephoto",
+  "type": "box",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.9\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "6.0 (fixed, 3x telephoto)",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
+  "field_of_view_deg": "44 diagonal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 8
+  },
+  "power": {
+    "method": "USB-C 5V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "p2p"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3x telephoto lens",
+    "person detection",
+    "pet detection",
+    "spotlight",
+    "color night vision",
+    "no subscription for basic features",
+    "Alexa / Google Home"
+  ],
+  "msrp_usd": 32,
+  "sources": [
+    "https://www.wyze.com/products/wyze-cam-og"
+  ]
+}

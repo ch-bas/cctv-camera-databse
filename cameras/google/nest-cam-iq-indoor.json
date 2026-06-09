@@ -1,0 +1,59 @@
+{
+  "id": "google-nest-cam-iq-indoor",
+  "brand": "Google",
+  "model": "Nest Cam IQ Indoor",
+  "aliases": [
+    "NC3100US"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2017,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K sensor (1080p streaming)"
+  },
+  "sensor": "1/2.5\" 4K CMOS",
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB-C (hardwired)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K sensor with HDR (streams 1080p)",
+    "12x digital zoom with Supersight auto-zoom and tracking",
+    "face recognition (with Nest Aware)",
+    "person detection",
+    "Google Assistant built-in",
+    "three-microphone array",
+    "activity zones",
+    "Nest app / Google Home"
+  ],
+  "msrp_usd": 299,
+  "sources": [
+    "https://store.google.com/product/nest_cam_iq"
+  ]
+}

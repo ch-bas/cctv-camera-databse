@@ -1,0 +1,59 @@
+{
+  "id": "eufy-eufycam-2c",
+  "brand": "Eufy",
+  "model": "EufyCam 2C",
+  "aliases": [
+    "T81131D2",
+    "EufyCam 2C 1080p"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "135 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Rechargeable battery (HomeBase 2 required)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p compact design",
+    "180-day battery life",
+    "human detection AI",
+    "no subscription required",
+    "HomeBase local storage",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 139.99,
+  "sources": [
+    "https://www.eufy.com/products/eufycam-2c"
+  ]
+}

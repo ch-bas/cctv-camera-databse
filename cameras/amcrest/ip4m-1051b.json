@@ -1,0 +1,48 @@
+{
+  "id": "amcrest-ip4m-1051b",
+  "brand": "Amcrest",
+  "model": "IP4M-1051B",
+  "type": "dome",
+  "connectivity": [
+    "poe"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 4,
+    "label": "4MP"
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP20",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4MP PoE indoor dome",
+    "30m IR night vision",
+    "H.265",
+    "RTSP / ONVIF",
+    "Blue Iris compatible",
+    "person detection"
+  ],
+  "sources": [
+    "https://amcrest.com/"
+  ]
+}

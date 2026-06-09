@@ -1,0 +1,64 @@
+{
+  "id": "dahua-ipc-hdw5449h-ase-d2",
+  "brand": "Dahua",
+  "model": "IPC-HDW5449H-ASE-D2",
+  "aliases": [
+    "WizMind 4MP Deep Learning Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "WizMind 4MP deep learning dome D2 gen",
+    "AI face detection and recognition",
+    "people counting",
+    "perimeter protection",
+    "smart dual illumination",
+    "1/1.8\" large sensor",
+    "H.265+",
+    "IP67",
+    "IK10",
+    "alarm I/O"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

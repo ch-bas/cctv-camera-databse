@@ -1,0 +1,59 @@
+{
+  "id": "swann-wifi-spotlight",
+  "brand": "Swann",
+  "model": "WiFi Spotlight Camera",
+  "aliases": [
+    "Swann 2K WiFi Spotlight Outdoor Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "120 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 12
+  },
+  "power": {
+    "method": "Hardwired (USB power adapter)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K WiFi spotlight outdoor camera",
+    "color night vision with spotlight",
+    "True Detect PIR heat sensing",
+    "built-in siren",
+    "SAFE by Swann App",
+    "Alexa / Google"
+  ],
+  "sources": [
+    "https://www.swann.com/"
+  ]
+}

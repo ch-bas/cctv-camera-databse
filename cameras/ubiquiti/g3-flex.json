@@ -1,0 +1,59 @@
+{
+  "id": "ubiquiti-g3-flex",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G3 Flex",
+  "aliases": [
+    "UVC-G3-FLEX"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "87 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 25
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IPX4",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p flexible indoor/outdoor camera",
+    "multiple mounting options",
+    "PoE powered",
+    "UniFi Protect ecosystem",
+    "EFL 4 mm lens",
+    "infrared night vision"
+  ],
+  "msrp_usd": 79,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-g3-flex"
+  ]
+}

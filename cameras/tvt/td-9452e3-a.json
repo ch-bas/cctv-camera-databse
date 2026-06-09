@@ -1,0 +1,25 @@
+{
+  "id": "tvt-td-9452e3-a",
+  "brand": "TVT Digital",
+  "model": "TD-9452E3-A",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP" },
+  "sensor": "1/2.7\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "3.6", "varifocal": false },
+  "field_of_view_deg": "82 horizontal",
+  "night_vision": { "type": "ir", "range_m": 50 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
+  "storage": { "onboard": true, "max_microsd_gb": 128, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "WDR 120dB",
+    "H.265 compression",
+    "smart IR",
+    "person/vehicle detection"
+  ],
+  "release_year": 2021,
+  "sources": ["https://www.tvt.net.cn/"]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ubiquiti-g3-instant",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G3 Instant",
+  "aliases": [
+    "UVC-G3-INS"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8",
+    "varifocal": false
+  },
+  "field_of_view_deg": "108 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Wired (USB-C 5V)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "budget indoor 1080p camera",
+    "WiFi connected (no PoE)",
+    "built-in mic and speaker",
+    "UniFi Protect ecosystem",
+    "compact form factor",
+    "infrared night vision"
+  ],
+  "msrp_usd": 29,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-g3-ins"
+  ]
+}

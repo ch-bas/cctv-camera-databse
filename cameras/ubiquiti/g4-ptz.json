@@ -1,0 +1,61 @@
+{
+  "id": "ubiquiti-g4-ptz",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G4 PTZ",
+  "aliases": [
+    "UVC-G4-PTZ"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "5.7-126.4 (22x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "64-3 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE++ (802.3bt)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K UHD pan-tilt-zoom camera",
+    "22x optical zoom",
+    "360-degree continuous pan",
+    "IR night vision up to 100 m",
+    "PoE++ powered",
+    "UniFi Protect ecosystem",
+    "auto-tracking"
+  ],
+  "msrp_usd": 1499,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-g4-ptz"
+  ]
+}
