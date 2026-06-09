@@ -1,0 +1,58 @@
+{
+  "id": "ring-video-doorbell-3-plus",
+  "brand": "Ring",
+  "model": "Video Doorbell 3 Plus",
+  "aliases": [
+    "Ring Video Doorbell 3 Plus Pre-Roll"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / optional hardwired"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD video doorbell",
+    "Pre-Roll video preview (4 seconds before motion)",
+    "dual-band WiFi (2.4 GHz / 5 GHz)",
+    "advanced motion detection",
+    "two-way audio",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 229.99,
+  "sources": [
+    "https://ring.com/products/video-doorbell-3-plus"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "hikvision-ds-2cd2543g2-iws",
+  "brand": "Hikvision",
+  "model": "DS-2CD2543G2-IWS",
+  "aliases": [
+    "4MP AcuSense WiFi Mini Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/3\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "106 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "AcuSense human/vehicle classification",
+    "Wi-Fi (802.11b/g/n)",
+    "built-in mic and speaker",
+    "two-way audio",
+    "H.265+",
+    "IP67/IK08",
+    "mini dome form factor"
+  ],
+  "sources": [
+    "https://www.hikvision.com/"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "swann-4k-dome",
+  "brand": "Swann",
+  "model": "4K Dome",
+  "aliases": [
+    "Swann 4K PoE Dome Security Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "100 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K PoE dome camera",
+    "ONVIF compatible",
+    "True Detect PIR heat sensing",
+    "smart motion detection",
+    "H.265",
+    "IP66 weatherproof"
+  ],
+  "sources": [
+    "https://www.swann.com/"
+  ]
+}

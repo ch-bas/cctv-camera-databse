@@ -1,0 +1,57 @@
+{
+  "id": "tapo-tc55",
+  "brand": "Tapo",
+  "model": "Tapo TC55",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.2mm",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 9V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K outdoor pan/tilt WiFi camera",
+    "360° pan / 130° tilt",
+    "spotlight for color night vision",
+    "AI person/vehicle detection",
+    "IP65 weatherproof",
+    "built-in siren",
+    "two-way audio",
+    "Alexa / Google"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ]
+}

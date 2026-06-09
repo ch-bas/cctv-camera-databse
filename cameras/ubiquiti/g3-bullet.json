@@ -1,0 +1,58 @@
+{
+  "id": "ubiquiti-g3-bullet",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G3 Bullet",
+  "aliases": [
+    "UVC-G3-BULLET"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2018,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.6",
+    "varifocal": false
+  },
+  "field_of_view_deg": "85 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 25
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p outdoor bullet camera",
+    "IP67 weatherproof",
+    "PoE powered",
+    "UniFi Protect ecosystem",
+    "infrared LEDs for night vision"
+  ],
+  "msrp_usd": 149,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-g3-bullet"
+  ]
+}

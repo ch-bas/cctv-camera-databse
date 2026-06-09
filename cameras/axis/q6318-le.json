@@ -1,0 +1,64 @@
+{
+  "id": "axis-q6318-le",
+  "brand": "Axis",
+  "model": "Q6318-LE",
+  "aliases": [
+    "Axis Q6318-LE 4K PTZ 31x"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "6.9-214.6 (31x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "58.3-2.4 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 300
+  },
+  "power": {
+    "method": "High PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "31x optical zoom",
+    "OptimizedIR 300m",
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "Zipstream H.265",
+    "AXIS Object Analytics",
+    "Axis Edge Vault",
+    "IP66/IK10",
+    "autotracking 2",
+    "electronic image stabilization"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-q6318-le"
+  ]
+}

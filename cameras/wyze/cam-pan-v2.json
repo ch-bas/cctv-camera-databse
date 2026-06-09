@@ -1,0 +1,62 @@
+{
+  "id": "wyze-cam-pan-v2",
+  "brand": "Wyze",
+  "model": "Cam Pan v2",
+  "aliases": [
+    "WYZECP2"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.9\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.9 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 93 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "USB-A (hardwired)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "360deg pan/tilt indoor/outdoor",
+    "color night vision",
+    "motion tracking",
+    "person/pet detection",
+    "24/7 recording (microSD)",
+    "no subscription required",
+    "Alexa / Google Home"
+  ],
+  "msrp_usd": 34,
+  "sources": [
+    "https://www.wyze.com/products/wyze-cam-pan"
+  ]
+}

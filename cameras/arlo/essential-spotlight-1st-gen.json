@@ -1,0 +1,60 @@
+{
+  "id": "arlo-essential-spotlight-1st-gen",
+  "brand": "Arlo",
+  "model": "Essential Spotlight (1st Gen)",
+  "aliases": [
+    "VMC2030",
+    "Arlo Essential Spotlight Camera"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Rechargeable battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p with integrated spotlight",
+    "color night vision",
+    "direct WiFi (no hub required)",
+    "motion detection",
+    "two-way audio with siren",
+    "Arlo Secure plan",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 129.99,
+  "sources": [
+    "https://us.arlo.com/products/arlo-essential-spotlight"
+  ]
+}

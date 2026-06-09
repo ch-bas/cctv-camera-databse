@@ -1,0 +1,25 @@
+{
+  "id": "hi-focus-hc-ipc-b8413n",
+  "brand": "Hi-Focus",
+  "model": "HC-IPC-B8413N",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/2.8\" CMOS",
+  "night_vision": { "type": "ir", "range_m": 50 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": [
+    "BIS/STQC certified",
+    "motion detection",
+    "wide dynamic range",
+    "3D DNR",
+    "smart IR",
+    "person/vehicle detection"
+  ],
+  "markets": ["IN"],
+  "sources": ["https://hifocuscctv.com/"]
+}

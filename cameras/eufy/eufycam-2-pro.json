@@ -1,0 +1,61 @@
+{
+  "id": "eufy-eufycam-2-pro",
+  "brand": "Eufy",
+  "model": "EufyCam 2 Pro",
+  "aliases": [
+    "T88511D1",
+    "EufyCam 2 Pro 2K"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery (HomeBase 2 required)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K resolution",
+    "365-day battery life",
+    "human detection AI",
+    "Apple HomeKit compatible",
+    "no subscription required",
+    "HomeBase local storage",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 219.99,
+  "sources": [
+    "https://www.eufy.com/products/eufycam-2-pro"
+  ]
+}

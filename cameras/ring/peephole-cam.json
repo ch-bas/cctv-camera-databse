@@ -1,0 +1,60 @@
+{
+  "id": "ring-peephole-cam",
+  "brand": "Ring",
+  "model": "Peephole Cam",
+  "aliases": [
+    "Ring Door View Cam",
+    "Ring Peephole Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "155 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD peephole-mount camera",
+    "replaces standard door peephole",
+    "knock detection",
+    "motion detection",
+    "two-way audio",
+    "battery powered (no wiring needed)",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 129.99,
+  "sources": [
+    "https://ring.com/products/peephole-cam"
+  ]
+}

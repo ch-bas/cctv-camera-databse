@@ -1,0 +1,58 @@
+{
+  "id": "eufy-video-doorbell-s220",
+  "brand": "Eufy",
+  "model": "Video Doorbell S220",
+  "aliases": [
+    "T8210",
+    "eufy Video Doorbell S220 2K Battery"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "165 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Rechargeable battery / optional wired"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K video doorbell",
+    "battery or wired installation",
+    "AI human detection",
+    "built-in 4 GB storage",
+    "no subscription required",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://www.eufy.com/products/video-doorbell-s220"
+  ]
+}

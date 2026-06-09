@@ -1,0 +1,57 @@
+{
+  "id": "eufy-indoor-cam-mini",
+  "brand": "Eufy",
+  "model": "Indoor Cam Mini",
+  "aliases": [
+    "T8414",
+    "eufy Indoor Cam Mini 1080p"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "125 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Wired (USB-C)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "ultra-compact indoor design",
+    "1080p HD resolution",
+    "AI human/pet detection",
+    "no subscription required",
+    "microSD card slot",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 29.99,
+  "sources": [
+    "https://www.eufy.com/products/indoor-cam-mini"
+  ]
+}

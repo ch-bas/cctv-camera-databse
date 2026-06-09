@@ -1,0 +1,61 @@
+{
+  "id": "annke-i61dq",
+  "brand": "Annke",
+  "model": "I61DQ",
+  "aliases": [
+    "6MP 180° Dual-Lens AI Turret"
+  ],
+  "type": "dual-lens",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 6,
+    "max_width": 3072,
+    "max_height": 2048,
+    "label": "6MP (dual-lens 180°)"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8mm per lens",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "6MP dual-lens 180° panoramic turret",
+    "AI person/vehicle detection",
+    "stitched panoramic view",
+    "two-way audio",
+    "30m IR night vision",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.annke.com/"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "amcrest-ip8m-vt2579ew",
+  "brand": "Amcrest",
+  "model": "IP8M-VT2579EW",
+  "type": "turret",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12mm (motorized)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K WiFi varifocal turret",
+    "motorized 2.8-12mm zoom lens",
+    "40m IR night vision",
+    "IP67 weatherproof",
+    "person detection",
+    "two-way audio",
+    "H.265",
+    "RTSP / ONVIF"
+  ],
+  "sources": [
+    "https://amcrest.com/"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "camius-boltx-4k",
+  "brand": "Camius",
+  "model": "Boltx 4K",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/2.8\" CMOS",
+  "night_vision": { "type": "ir", "range_m": 40 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "4K ultra HD",
+    "no subscription required",
+    "WDR",
+    "motion detection"
+  ],
+  "release_year": 2023,
+  "sources": ["https://camius.com/"]
+}

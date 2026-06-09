@@ -1,0 +1,59 @@
+{
+  "id": "blink-mini-pan-tilt-mount",
+  "brand": "Blink",
+  "model": "Mini Pan-Tilt Mount",
+  "aliases": [
+    "Blink Mini 2 with Pan-Tilt Mount"
+  ],
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 pan / 70 tilt",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "USB-C (hardwired)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Mini 2 on motorized pan-tilt mount",
+    "360-degree pan coverage",
+    "color night vision",
+    "person detection",
+    "indoor use",
+    "Alexa / Fire TV",
+    "Blink Subscription for cloud"
+  ],
+  "msrp_usd": 59.99,
+  "sources": [
+    "https://blinkforhome.com/products"
+  ]
+}

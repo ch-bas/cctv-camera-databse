@@ -1,0 +1,27 @@
+{
+  "id": "geovision-gv-sd4825-ir",
+  "brand": "GeoVision",
+  "model": "GV-SD4825-IR",
+  "type": "ptz",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 4, "max_width": 2560, "max_height": 1440, "label": "4MP" },
+  "sensor": "1/2.5\" Progressive Scan CMOS",
+  "lens": { "count": 1, "focal_length_mm": "4.8-120", "varifocal": true },
+  "field_of_view_deg": "58-2.6 horizontal",
+  "night_vision": { "type": "ir", "range_m": 150 },
+  "power": { "method": "PoE++ (IEEE 802.3bt) / AC 24V" },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP66",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "25x optical zoom",
+    "360° continuous pan",
+    "autotracking",
+    "H.265 compression",
+    "preset tours",
+    "WDR"
+  ],
+  "release_year": 2022,
+  "sources": ["https://www.geovision.com.tw/product/GV-SD4825-IR"]
+}

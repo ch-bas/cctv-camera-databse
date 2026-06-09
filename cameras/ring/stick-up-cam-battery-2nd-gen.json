@@ -1,0 +1,59 @@
+{
+  "id": "ring-stick-up-cam-battery-2nd-gen",
+  "brand": "Ring",
+  "model": "Stick Up Cam Battery (2nd Gen)",
+  "aliases": [
+    "Ring Stick Up Cam Battery Gen 2"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Rechargeable battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IPX5",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD indoor/outdoor versatile camera",
+    "battery powered",
+    "infrared night vision",
+    "motion detection",
+    "two-way audio",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://ring.com/products/stick-up-cam-battery"
+  ]
+}
