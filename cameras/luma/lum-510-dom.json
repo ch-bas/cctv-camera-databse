@@ -1,0 +1,23 @@
+{
+  "id": "luma-lum-510-dom",
+  "brand": "Luma",
+  "model": "LUM-510-DOM",
+  "type": "dome",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP Super HD" },
+  "sensor": "1/2.7\" CMOS",
+  "night_vision": { "type": "ir", "range_m": 30 },
+  "power": { "method": "PoE (IEEE 802.3af)" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "person/vehicle detection",
+    "Control4 integration",
+    "vandal-resistant IK10 housing",
+    "WDR"
+  ],
+  "release_year": 2022,
+  "sources": ["https://www.snapone.com/brands/luma"]
+}

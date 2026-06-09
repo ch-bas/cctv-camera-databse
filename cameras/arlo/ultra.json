@@ -1,0 +1,61 @@
+{
+  "id": "arlo-ultra",
+  "brand": "Arlo",
+  "model": "Ultra",
+  "aliases": [
+    "VMC5040",
+    "Arlo Ultra 4K"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Rechargeable battery (SmartHub required)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K UHD with HDR",
+    "180-degree field of view",
+    "integrated spotlight",
+    "color night vision",
+    "auto image correction / drift correction",
+    "Arlo SmartHub required",
+    "Arlo Secure plan",
+    "Apple HomeKit / Alexa / Google"
+  ],
+  "msrp_usd": 299.99,
+  "sources": [
+    "https://us.arlo.com/products/arlo-ultra"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "wyze-battery-cam-pro",
+  "brand": "Wyze",
+  "model": "Battery Cam Pro",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "sensor": "1/2.9\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Rechargeable battery / optional solar panel"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K wire-free battery camera",
+    "spotlight for color night vision",
+    "person/pet/vehicle/package detection",
+    "solar panel compatible",
+    "no subscription required for basic",
+    "Alexa / Google Home"
+  ],
+  "msrp_usd": 100,
+  "sources": [
+    "https://www.wyze.com/products/wyze-battery-cam-pro"
+  ]
+}

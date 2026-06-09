@@ -1,0 +1,26 @@
+{
+  "id": "pelco-sarix-enhanced-4-ime832-1irs",
+  "brand": "Pelco",
+  "model": "Sarix Enhanced 4 IME832-1IRS",
+  "type": "dome",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/1.8\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "3.6-11", "varifocal": true },
+  "field_of_view_deg": "100-33 horizontal",
+  "night_vision": { "type": "ir", "range_m": 35 },
+  "power": { "method": "PoE (IEEE 802.3af)" },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP66",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "SureVision 4.0 WDR",
+    "vandal-resistant IK10",
+    "analytics-ready",
+    "H.265 compression",
+    "corridor mode"
+  ],
+  "release_year": 2023,
+  "sources": ["https://www.pelco.com/products/sarix-enhanced/"]
+}

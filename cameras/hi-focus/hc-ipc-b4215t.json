@@ -1,0 +1,23 @@
+{
+  "id": "hi-focus-hc-ipc-b4215t",
+  "brand": "Hi-Focus",
+  "model": "HC-IPC-B4215T",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p FHD" },
+  "sensor": "1/2.8\" CMOS",
+  "night_vision": { "type": "ir", "range_m": 30 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "BIS/STQC certified",
+    "motion detection",
+    "wide dynamic range",
+    "3D DNR"
+  ],
+  "markets": ["IN"],
+  "sources": ["https://hifocuscctv.com/"]
+}

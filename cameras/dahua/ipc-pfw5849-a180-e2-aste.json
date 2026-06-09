@@ -1,0 +1,64 @@
+{
+  "id": "dahua-ipc-pfw5849-a180-e2-aste",
+  "brand": "Dahua",
+  "model": "IPC-PFW5849-A180-E2-ASTE",
+  "aliases": [
+    "WizMind 2x4MP Dual-Lens 180° Panoramic"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "2x4MP 180°"
+  },
+  "sensor": "2x 1/2.8\" CMOS",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8mm per sensor",
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens 180° panoramic camera E2 gen",
+    "WizMind AI analytics",
+    "SMD 4.0 human/vehicle detection",
+    "smart dual illumination",
+    "stitched panoramic view",
+    "people counting",
+    "H.265+",
+    "IP67",
+    "alarm I/O"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/"
+  ]
+}

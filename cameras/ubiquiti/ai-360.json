@@ -1,0 +1,61 @@
+{
+  "id": "ubiquiti-ai-360",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect AI 360",
+  "aliases": [
+    "UVC-AI-360"
+  ],
+  "type": "fisheye",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD (8 MP fisheye)"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.1",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "360-degree fisheye panoramic view",
+    "8 MP resolution",
+    "AI-powered detection (face, LPR)",
+    "dewarping in UniFi Protect",
+    "PoE powered",
+    "UniFi Protect ecosystem",
+    "built-in mic and speaker"
+  ],
+  "msrp_usd": 499,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-ai-360"
+  ]
+}

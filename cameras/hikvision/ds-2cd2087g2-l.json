@@ -1,0 +1,63 @@
+{
+  "id": "hikvision-ds-2cd2087g2-l",
+  "brand": "Hikvision",
+  "model": "DS-2CD2087G2-L",
+  "aliases": [
+    "8MP ColorVu Fixed Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "109 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "ColorVu (24/7 vivid color)",
+    "AcuSense human/vehicle classification",
+    "F1.0 large aperture",
+    "H.265+",
+    "IP67",
+    "warm supplement light 40m",
+    "4K resolution"
+  ],
+  "sources": [
+    "https://www.hikvision.com/"
+  ]
+}

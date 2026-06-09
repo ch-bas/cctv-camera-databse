@@ -1,0 +1,57 @@
+{
+  "id": "ring-video-doorbell-wired",
+  "brand": "Ring",
+  "model": "Video Doorbell Wired",
+  "aliases": [
+    "Ring Video Doorbell Wired Budget"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2021,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "155 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (existing doorbell wiring)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD budget video doorbell",
+    "slim wired design",
+    "advanced motion detection",
+    "two-way audio",
+    "customizable motion zones",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 64.99,
+  "sources": [
+    "https://ring.com/products/video-doorbell-wired"
+  ]
+}

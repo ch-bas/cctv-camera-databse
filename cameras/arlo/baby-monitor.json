@@ -1,0 +1,58 @@
+{
+  "id": "arlo-baby-monitor",
+  "brand": "Arlo",
+  "model": "Baby Monitor",
+  "aliases": [
+    "ABC1000",
+    "Arlo Baby Monitor Camera"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Wired (USB-C)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p baby monitoring",
+    "lullaby speaker with white noise",
+    "temperature and humidity sensor",
+    "two-way audio",
+    "night light",
+    "cry detection alerts",
+    "Arlo app"
+  ],
+  "msrp_usd": 129.99,
+  "sources": [
+    "https://us.arlo.com/products/arlo-baby-monitor"
+  ]
+}

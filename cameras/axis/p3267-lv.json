@@ -1,0 +1,61 @@
+{
+  "id": "axis-p3267-lv",
+  "brand": "Axis",
+  "model": "P3267-LV",
+  "aliases": [
+    "Axis P3267-LV 7MP Indoor Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 7,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.4-8.9 (varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-36 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP52",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lightfinder 2.0",
+    "Forensic WDR",
+    "Zipstream H.265",
+    "AXIS Object Analytics",
+    "Axis Edge Vault",
+    "built-in mic",
+    "indoor dome"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p3267-lv"
+  ]
+}

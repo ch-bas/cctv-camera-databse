@@ -1,0 +1,24 @@
+{
+  "id": "luma-lum-810-bul",
+  "brand": "Luma",
+  "model": "LUM-810-BUL",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/2.8\" CMOS",
+  "night_vision": { "type": "ir", "range_m": 50 },
+  "power": { "method": "PoE (IEEE 802.3af)" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "person/vehicle detection",
+    "Control4 integration",
+    "4K ultra HD",
+    "WDR",
+    "3D DNR"
+  ],
+  "release_year": 2023,
+  "sources": ["https://www.snapone.com/brands/luma"]
+}

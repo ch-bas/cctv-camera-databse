@@ -1,0 +1,60 @@
+{
+  "id": "lorex-lnb9393",
+  "brand": "Lorex",
+  "model": "LNB9393",
+  "aliases": [
+    "Nocturnal 4 4K Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5 (motorized zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "102-33 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 45
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "Nocturnal 4 series 4K bullet",
+    "motorized varifocal lens",
+    "color night vision",
+    "person and vehicle detection",
+    "smart motion detection",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.lorex.com/products/nocturnal-4-4k-ip-bullet-camera"
+  ]
+}

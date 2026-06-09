@@ -1,0 +1,58 @@
+{
+  "id": "tapo-d130",
+  "brand": "Tapo",
+  "model": "Tapo D130",
+  "type": "box",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2024,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.0mm",
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "rechargeable battery"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "p2p"
+  ],
+  "ip_rating": "IP64",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K WiFi video doorbell",
+    "battery-powered wireless install",
+    "160° wide-angle view",
+    "AI person detection",
+    "real-time push notifications",
+    "two-way audio",
+    "anti-theft alarm",
+    "chime included",
+    "Alexa / Google"
+  ],
+  "sources": [
+    "https://www.tapo.com/"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "annke-nightchroma-ncm800",
+  "brand": "Annke",
+  "model": "NightChroma NCM800",
+  "aliases": [
+    "4K f/1.0 Full-Color Night PoE Turret"
+  ],
+  "type": "turret",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.2\" BSI CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F1.0",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "NightChroma 4K full-color night turret",
+    "f/1.0 super aperture for low-light",
+    "1/1.2\" BSI sensor",
+    "true color night without spotlight",
+    "AI person/vehicle detection",
+    "120 dB WDR",
+    "H.265+",
+    "IP67"
+  ],
+  "sources": [
+    "https://www.annke.com/"
+  ]
+}

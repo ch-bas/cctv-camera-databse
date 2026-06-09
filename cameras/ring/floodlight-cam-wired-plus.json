@@ -1,0 +1,58 @@
+{
+  "id": "ring-floodlight-cam-wired-plus",
+  "brand": "Ring",
+  "model": "Floodlight Cam Wired Plus",
+  "aliases": [
+    "Ring Floodlight Cam Plus Wired"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Hardwired (AC mains)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD with dual LED floodlights",
+    "color night vision",
+    "motion-activated lights and siren",
+    "two-way audio",
+    "customizable motion zones",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://ring.com/products/floodlight-cam-wired-plus"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pelco-optera-4k-imo-panoramic",
+  "brand": "Pelco",
+  "model": "Optera 4K IMM12036-1EIPQ",
+  "type": "panoramic",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 12, "max_width": 8192, "max_height": 1536, "label": "12MP Panoramic" },
+  "sensor": "1/2.7\" CMOS (x4)",
+  "lens": { "count": 4, "focal_length_mm": "2.0", "varifocal": false },
+  "field_of_view_deg": "360 horizontal",
+  "night_vision": { "type": "ir", "range_m": 30 },
+  "power": { "method": "PoE+ (IEEE 802.3at)" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP66",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": [
+    "360° panoramic coverage",
+    "4-sensor stitching",
+    "SureVision WDR",
+    "analytics-ready",
+    "vandal-resistant IK10",
+    "H.265 compression"
+  ],
+  "release_year": 2021,
+  "sources": ["https://www.pelco.com/products/optera/"]
+}

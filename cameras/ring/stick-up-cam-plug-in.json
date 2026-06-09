@@ -1,0 +1,58 @@
+{
+  "id": "ring-stick-up-cam-plug-in",
+  "brand": "Ring",
+  "model": "Stick Up Cam Plug-In",
+  "aliases": [
+    "Ring Stick Up Cam Plug-In 3rd Gen"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2020,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Wired (plug-in AC power)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IPX5",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD indoor/outdoor versatile camera",
+    "wired plug-in power",
+    "infrared night vision",
+    "motion detection",
+    "two-way audio",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 99.99,
+  "sources": [
+    "https://ring.com/products/stick-up-cam-plug-in"
+  ]
+}

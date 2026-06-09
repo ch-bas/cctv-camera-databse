@@ -1,0 +1,61 @@
+{
+  "id": "eufy-solocam-s230",
+  "brand": "Eufy",
+  "model": "SoloCam S230",
+  "aliases": [
+    "T8134",
+    "SoloCam S230 Solar"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "135 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Solar panel + rechargeable battery"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K resolution with solar charging",
+    "built-in 8 GB storage",
+    "color night vision with spotlight",
+    "AI human detection",
+    "no subscription required",
+    "no hub needed",
+    "IP67 weatherproof",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 119.99,
+  "sources": [
+    "https://www.eufy.com/products/solocam-s230"
+  ]
+}
