@@ -1,0 +1,60 @@
+{
+  "id": "google-nest-cam-iq-outdoor",
+  "brand": "Google",
+  "model": "Nest Cam IQ Outdoor",
+  "aliases": [
+    "NC4100US"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2017,
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K sensor (1080p streaming)"
+  },
+  "sensor": "1/2.5\" 4K CMOS",
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Hardwired (AC adapter with weatherproof cable)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K sensor with HDR (streams 1080p)",
+    "12x digital zoom with Supersight auto-zoom and tracking",
+    "face recognition (with Nest Aware)",
+    "person detection",
+    "three-microphone array",
+    "activity zones",
+    "IP66 weatherproof",
+    "Nest app / Google Home"
+  ],
+  "msrp_usd": 349,
+  "sources": [
+    "https://store.google.com/product/nest_cam_iq_outdoor"
+  ]
+}

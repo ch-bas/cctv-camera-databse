@@ -1,0 +1,60 @@
+{
+  "id": "arlo-pro-3",
+  "brand": "Arlo",
+  "model": "Pro 3",
+  "aliases": [
+    "VMC4040P",
+    "Arlo Pro 3 2K Spotlight"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi",
+    "battery"
+  ],
+  "release_year": 2019,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Rechargeable battery (SmartHub required)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K HDR with integrated spotlight",
+    "color night vision",
+    "160-degree field of view",
+    "two-way audio",
+    "Arlo SmartHub required",
+    "Arlo Secure plan",
+    "Apple HomeKit / Alexa / Google"
+  ],
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://us.arlo.com/products/arlo-pro-3"
+  ]
+}

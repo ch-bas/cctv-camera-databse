@@ -1,0 +1,59 @@
+{
+  "id": "google-nest-cam-indoor-1st-gen",
+  "brand": "Google",
+  "model": "Nest Cam Indoor (1st Gen)",
+  "aliases": [
+    "NC1102ES",
+    "Dropcam Pro successor"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2015,
+  "resolution": {
+    "megapixels": 3,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/3\" CMOS",
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Micro-USB (hardwired)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "original Nest Cam indoor",
+    "1080p with 8x digital zoom",
+    "person alerts (with Nest Aware)",
+    "activity zones",
+    "24/7 continuous recording (with subscription)",
+    "magnetic base",
+    "Nest app / Google Home"
+  ],
+  "msrp_usd": 199,
+  "sources": [
+    "https://store.google.com/product/nest_cam_indoor"
+  ]
+}

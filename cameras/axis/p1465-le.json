@@ -1,0 +1,61 @@
+{
+  "id": "axis-p1465-le",
+  "brand": "Axis",
+  "model": "P1465-LE",
+  "aliases": [
+    "Axis P1465-LE 2MP Outdoor Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100-35 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Lightfinder",
+    "OptimizedIR 40m",
+    "Forensic WDR",
+    "Zipstream H.265",
+    "AXIS Object Analytics",
+    "Axis Edge Vault",
+    "IP67/IK10"
+  ],
+  "sources": [
+    "https://www.axis.com/products/axis-p1465-le"
+  ]
+}

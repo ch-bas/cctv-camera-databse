@@ -1,0 +1,24 @@
+{
+  "id": "luma-lum-310-drb",
+  "brand": "Luma",
+  "model": "LUM-310-DRB",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 3, "max_width": 2048, "max_height": 1536, "label": "3MP" },
+  "sensor": "1/2.8\" CMOS",
+  "night_vision": { "type": "ir", "range_m": 5 },
+  "power": { "method": "PoE (IEEE 802.3af)" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP65",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": [
+    "video doorbell",
+    "person detection",
+    "Control4 integration",
+    "two-way audio",
+    "button press notification"
+  ],
+  "release_year": 2023,
+  "sources": ["https://www.snapone.com/brands/luma"]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "eufy-solocam-l20",
+  "brand": "Eufy",
+  "model": "SoloCam L20",
+  "aliases": [
+    "T8122",
+    "SoloCam L20 Spotlight"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Wired (AC power)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p resolution with spotlight",
+    "built-in 8 GB storage",
+    "color night vision",
+    "AI human detection",
+    "no subscription required",
+    "IP67 weatherproof",
+    "Alexa / Google Assistant"
+  ],
+  "msrp_usd": 39.99,
+  "sources": [
+    "https://www.eufy.com/products/solocam-l20"
+  ]
+}

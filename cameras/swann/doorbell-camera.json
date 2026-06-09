@@ -1,0 +1,58 @@
+{
+  "id": "swann-doorbell-camera",
+  "brand": "Swann",
+  "model": "Doorbell Camera",
+  "aliases": [
+    "Swann 2K WiFi Video Doorbell"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "2K QHD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "Fixed",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "160 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Hardwired (existing doorbell wiring 16-24V AC)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2K wired video doorbell",
+    "head-to-toe view",
+    "True Detect PIR heat sensing",
+    "built-in chime",
+    "SAFE by Swann App",
+    "Alexa / Google"
+  ],
+  "sources": [
+    "https://www.swann.com/"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "hanwha-pnm-9000vq",
+  "brand": "Hanwha",
+  "model": "PNM-9000VQ",
+  "aliases": [
+    "Wisenet P 4x5MP Multi-Sensor Quad Camera"
+  ],
+  "type": "panoramic",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2023,
+  "resolution": {
+    "megapixels": 20,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "4x5MP (20MP total)"
+  },
+  "sensor": "4x 1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 4,
+    "focal_length_mm": "3.69 (fixed per channel)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "360 (4x 90°)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": true
+  },
+  "features": [
+    "4-channel multi-sensor",
+    "360° quad view",
+    "AI deep-learning analytics",
+    "WiseStream II",
+    "H.265",
+    "Wise IR 30m per channel",
+    "IP66/IK10",
+    "single IP address for 4 channels"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/"
+  ]
+}

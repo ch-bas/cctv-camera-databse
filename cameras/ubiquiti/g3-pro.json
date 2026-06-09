@@ -1,0 +1,59 @@
+{
+  "id": "ubiquiti-g3-pro",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G3 PRO",
+  "aliases": [
+    "UVC-G3-PRO"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "poe",
+    "ethernet"
+  ],
+  "release_year": 2018,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9 (3x optical zoom)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "104-35 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "1080p outdoor camera with optical zoom",
+    "3x optical zoom (motorized)",
+    "IP67 weatherproof",
+    "PoE powered",
+    "UniFi Protect ecosystem",
+    "infrared night vision"
+  ],
+  "msrp_usd": 299,
+  "sources": [
+    "https://store.ui.com/us/en/products/uvc-g3-pro"
+  ]
+}

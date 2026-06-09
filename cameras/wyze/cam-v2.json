@@ -1,0 +1,60 @@
+{
+  "id": "wyze-cam-v2",
+  "brand": "Wyze",
+  "model": "Cam v2",
+  "aliases": [
+    "WYZEC2"
+  ],
+  "type": "box",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2018,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "sensor": "1/2.9\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "aperture": "F2.0",
+    "varifocal": false
+  },
+  "field_of_view_deg": "110 diagonal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 9
+  },
+  "power": {
+    "method": "Micro-USB 5V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 32,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "budget 1080p indoor camera",
+    "14-day free cloud storage",
+    "person detection",
+    "continuous recording (microSD)",
+    "Alexa / Google Home",
+    "RTSP firmware available"
+  ],
+  "msrp_usd": 26,
+  "sources": [
+    "https://www.wyze.com/products/wyze-cam"
+  ]
+}

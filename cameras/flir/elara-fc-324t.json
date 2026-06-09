@@ -1,0 +1,25 @@
+{
+  "id": "flir-elara-fc-324t",
+  "brand": "FLIR",
+  "model": "Elara FC-324T",
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 0.1, "max_width": 320, "max_height": 240, "label": "Thermal 320x240" },
+  "sensor": "Uncooled VOx Microbolometer",
+  "lens": { "count": 1, "focal_length_mm": "13", "varifocal": false },
+  "field_of_view_deg": "24 horizontal",
+  "night_vision": { "type": "ir", "range_m": 250 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 24V" },
+  "storage": { "onboard": true, "max_microsd_gb": 128, "nvr_compatible": true, "cloud": false },
+  "protocols": ["onvif", "rtsp"],
+  "ip_rating": "IP66",
+  "audio": { "microphone": false, "speaker": false, "two_way": false },
+  "features": [
+    "thermal imaging",
+    "perimeter analytics",
+    "intrusion detection",
+    "tripwire analytics"
+  ],
+  "release_year": 2019,
+  "sources": ["https://www.flir.com/security/"]
+}

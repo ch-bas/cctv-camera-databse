@@ -1,9 +1,9 @@
 # CCTV Camera Database
 
-An open, structured database of 1,000 CCTV / IP camera models and their technical specifications, covering 49 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
+An open, structured database of 1,296 CCTV / IP camera models and their technical specifications, covering 64 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
 
-[![cameras](https://img.shields.io/badge/cameras-1%2C000-blue)](data/cameras.json)
-[![brands](https://img.shields.io/badge/brands-49-green)](cameras/)
+[![cameras](https://img.shields.io/badge/cameras-1%2C296-blue)](data/cameras.json)
+[![brands](https://img.shields.io/badge/brands-64-green)](cameras/)
 [![license](https://img.shields.io/badge/license-CC0-lightgrey)](LICENSE)
 
 ---
@@ -19,7 +19,7 @@ Camera spec sheets are scattered across vendor PDFs, retailer pages, and paywall
 **[Live Demo ](https://ch-bas.github.io/cctv-camera-databse)**  
 
 <p align="center">
-  <img src="docs/demo.gif" alt="CCTV Camera Database — browse, search, filter, and inspect 1,000 cameras" width="800" />
+  <img src="docs/demo.gif" alt="CCTV Camera Database — browse, search, filter, and inspect 1,296 cameras across 64 brands" width="800" />
 </p>
 
 **What you see above:**
@@ -27,7 +27,7 @@ Camera spec sheets are scattered across vendor PDFs, retailer pages, and paywall
 - **Filter** — narrow by brand, camera type, night vision, resolution, or market
 - **Sort** — click any column header to sort ascending/descending
 - **Detail drawer** — click a row to slide open the full spec sheet (resolution, connectivity, protocols, storage, audio, pricing, source links)
-- **Pagination** — page through all 1,000 cameras, 25 per page
+- **Pagination** — page through all 1,296 cameras, 25 per page
 - **Stats bar** — live counts for total cameras, brands, 4K+, WiFi, and no-subscription models
 
 ---
@@ -57,9 +57,9 @@ cctv-camera-database/
 │   ├── hanwha/           #  62 cameras
 │   ├── axis/             #  58 cameras
 │   ├── tapo/             #  56 cameras
-│   └── …46 more brands
+│   └── …59 more brands
 ├── data/                 # GENERATED — do not edit by hand
-│   ├── cameras.json      # all 1,000 cameras as one array
+│   ├── cameras.json      # all 1,296 cameras as one array
 │   └── cameras.csv       # flattened, spreadsheet-friendly
 ├── schema/
 │   └── camera.schema.json
@@ -117,52 +117,67 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 
 | Metric | Count |
 |--------|-------|
-| Total cameras | **1,000** |
-| Brands | **49** |
+| Total cameras | **1,306** |
+| Brands | **65** |
 | Form factors | 9 (bullet, dome, turret, PTZ, dual-lens, panoramic, covert, box, fisheye) |
-| PoE wired | 636 |
-| WiFi | 349 |
-| Battery / wire-free | 101 |
-| 4K / 8MP+ | 337 |
-| 4–5MP | 456 |
-| 1080p–2MP | 203 |
+| PoE wired | 863 |
+| WiFi | 427 |
+| Battery / wire-free | 130 |
+| 4K / 8MP+ | 411 |
+| 4–5MP | 588 |
+| 1080p–2MP | 296 |
 
-### All 49 brands
+### All 65 brands
 
 | Brand | Cameras | Segment |
 |-------|---------|---------|
-| Hikvision | 139 | Enterprise + consumer, global |
+| Hikvision | 151 | Enterprise + consumer, global |
 | Reolink | 121 | Prosumer, no-subscription, global |
-| Dahua | 101 | Enterprise + consumer, global |
-| Hanwha | 62 | Enterprise AI, Korea/global |
-| Axis | 58 | Enterprise premium, global |
-| Tapo (TP-Link) | 56 | Consumer budget, global |
-| Eufy (Anker) | 26 | Consumer no-subscription, global |
+| Dahua | 111 | Enterprise + consumer, global |
+| Hanwha | 71 | Enterprise AI, Korea/global |
+| Axis | 68 | Enterprise premium, global |
+| Tapo (TP-Link) | 64 | Consumer budget, global |
+| Eufy (Anker) | 36 | Consumer no-subscription, global |
+| Arlo | 31 | Consumer premium wire-free, global |
+| Ring (Amazon) | 30 | Consumer ecosystem, US/EU/AU |
 | Avigilon | 24 | Enterprise NDAA, US/CA |
-| Arlo | 23 | Consumer premium wire-free, global |
+| Amcrest | 24 | Prosumer, US |
+| Ubiquiti UniFi | 24 | Prosumer/SMB, US/global |
+| Annke | 23 | Prosumer, global |
+| Google Nest | 23 | Consumer smart home, global |
 | Bosch | 22 | Enterprise, EU/global |
 | EZVIZ (Hikvision) | 21 | Consumer, global |
-| Ring (Amazon) | 21 | Consumer ecosystem, US/EU/AU |
+| Lorex | 21 | Consumer NVR systems, CA/US |
 | HiLook (Hikvision) | 20 | Budget installer, EU/UK/AU |
 | Lupus Electronics | 20 | Privacy-first, DE/AT/CH |
-| Google Nest | 18 | Consumer smart home, global |
-| Ubiquiti UniFi | 17 | Prosumer/SMB, US/global |
+| Tiandy | 20 | Enterprise + prosumer, CN/ME/Africa |
 | Uniview | 17 | Enterprise NDAA, global |
-| Amcrest | 16 | Prosumer, US |
+| Blink (Amazon) | 16 | Budget battery, US/UK/EU |
+| Swann | 16 | Consumer, AU/US/UK |
 | ABUS | 15 | Consumer/SMB GDPR-first, DE/AT/CH |
-| Annke | 15 | Prosumer, global |
 | CP Plus | 15 | India #2 brand, IN |
+| GeoVision | 15 | Enterprise, TW/Asia/global |
 | IMOU (Dahua) | 15 | Consumer, global |
+| Milesight | 15 | Prosumer/Enterprise IoT, global |
+| Pelco | 15 | Enterprise legacy, NA/global |
 | Vivotek | 15 | Enterprise AI, global |
-| Lorex | 13 | Consumer NVR systems, CA/US |
+| Wyze | 15 | Budget consumer, US |
+| FLIR (Teledyne) | 12 | Thermal imaging, NA/EU |
+| Kedacom | 12 | Enterprise, CN/global |
+| Sunell | 12 | Prosumer/Enterprise, CN/global |
 | Synology | 12 | NAS-native cameras, global |
-| Blink (Amazon) | 9 | Budget battery, US/UK/EU |
+| TVT Digital | 12 | Prosumer budget, CN/IN/SE Asia |
+| Hi-Focus | 10 | Made-in-India, BIS certified, IN |
 | Mobotix | 9 | Enterprise GDPR-first, EU |
-| Swann | 9 | Consumer, AU/US/UK |
+| Costar | 8 | Enterprise (Arecont successor), US |
 | Intelbras | 8 | #1 Latin America, BR/AR/LATAM |
-| Wyze | 8 | Budget consumer, US |
+| Luma (Snap One) | 8 | Custom integrator, NA |
 | Yale | 8 | Consumer smart home, UK/EU |
+| Camius | 6 | Consumer direct, US |
+| Cathexis | 6 | Enterprise VMS, ZA/ME |
+| March Networks | 6 | Enterprise retail/banking, NA |
 | Netatmo | 6 | Privacy-first no-subscription, EU |
+| Secureye | 6 | Budget consumer, IN |
 | ADT | 5 | Monitored security, US |
 | Hive (British Gas) | 5 | Consumer smart home, UK |
 | KBvision | 5 | Budget installer, VN |

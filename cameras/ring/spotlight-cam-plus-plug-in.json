@@ -1,0 +1,59 @@
+{
+  "id": "ring-spotlight-cam-plus-plug-in",
+  "brand": "Ring",
+  "model": "Spotlight Cam Plus (Plug-In)",
+  "aliases": [
+    "Ring Spotlight Cam Plus Plug-In"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "release_year": 2022,
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p HD"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Wired (plug-in AC power)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "1080p HD with LED spotlights",
+    "wired plug-in power",
+    "color night vision",
+    "motion-activated lights and siren",
+    "two-way audio",
+    "customizable motion zones",
+    "Ring Protect plan",
+    "Alexa integration"
+  ],
+  "msrp_usd": 179.99,
+  "sources": [
+    "https://ring.com/products/spotlight-cam-plus-plug-in"
+  ]
+}
