@@ -1,0 +1,20 @@
+{
+  "id": "reolink-p830",
+  "brand": "Reolink",
+  "model": "P830",
+  "type": "ptz",
+  "connectivity": ["poe", "ethernet"],
+  "release_year": 2023,
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/2.7\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "4.0", "aperture": "F1.6" },
+  "field_of_view_deg": "88 horizontal",
+  "night_vision": { "type": "color", "range_m": 30 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
+  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
+  "protocols": ["rtsp", "onvif"],
+  "ip_rating": "IP65",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["355° pan / 90° tilt", "auto-tracking", "32 presets", "person/vehicle/animal detection", "spotlight + siren", "color night vision", "time-lapse", "no subscription"],
+  "sources": ["https://reolink.com/product/p830/"]
+}

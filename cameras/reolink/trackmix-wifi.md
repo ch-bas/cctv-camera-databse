@@ -4,26 +4,30 @@
 |-------|------|
 | Brand | Reolink |
 | Model | TrackMix WiFi |
-| Type | dual-lens |
-| Connectivity | wifi |
-| Resolution | 4K+4MP dual-lens (8MP) |
-| Field of view | 140 wide+35 tele° |
-| Night vision | color (15m) |
-| Power | DC 12V |
+| Type | ptz |
+| Connectivity | wifi, ethernet |
+| Resolution | 4K UHD (8MP, 3840×2160) |
+| Sensor | 1/3" CMOS (wide) + 1/2.8" CMOS (telephoto) |
+| Lens | 2× 2.8 (wide) + 8 (telephoto)mm F1.6 |
+| Field of view | 104 horizontal (wide) / 38 horizontal (telephoto)° |
+| Night vision | ir (30m) |
+| Power | DC 12V/2A |
 | Storage | microSD ≤ 512GB, NVR |
 | Protocols | rtsp, onvif |
-| IP rating | IP66 |
+| IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2023 |
 
 ## Features
 
-- dual-lens wide+tele WiFi outdoor auto-tracking
-- smart pan/tilt motorized
-- color spotlight
-- person/vehicle/animal/package AI
-- ONVIF/RTSP
-- IP66
+- dual-lens dual-view
+- auto-tracking
+- 6x hybrid zoom
+- 355° pan / 90° tilt
+- Wi-Fi 6 dual-band
+- person/vehicle/animal detection
+- spotlight color night vision
+- time-lapse
 - no subscription
 
 ## Sources

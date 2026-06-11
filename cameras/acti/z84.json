@@ -1,0 +1,18 @@
+{
+  "id": "acti-z84",
+  "brand": "ACTi",
+  "model": "Z84",
+  "type": "dome",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p FHD" },
+  "sensor": "1/2.8\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8", "varifocal": false },
+  "field_of_view_deg": "110 horizontal",
+  "night_vision": { "type": "ir", "range_m": 15 },
+  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
+  "storage": { "onboard": true, "nvr_compatible": true, "cloud": false },
+  "protocols": ["rtsp", "onvif"],
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["2MP indoor mini dome", "adaptive IR 15m", "WDR", "H.265/H.264", "ONVIF Profile S/T/G", "two-way audio", "compact design"],
+  "sources": ["https://www.acti.com/product/Z84"]
+}

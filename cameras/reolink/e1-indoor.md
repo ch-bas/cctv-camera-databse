@@ -11,7 +11,6 @@
 | Night vision | ir (9m) |
 | Power | DC 5V USB |
 | Storage | microSD ≤ 64GB, NVR |
-| Protocols | rtsp |
 | IP rating | IP20 |
 | Two-way audio | Yes |
 | Released | 2019 |
@@ -21,7 +20,6 @@
 - 1080p indoor WiFi pan/tilt entry
 - 9m IR
 - two-way audio
-- RTSP
 - Alexa/Google
 - no subscription
 - most affordable Reolink indoor

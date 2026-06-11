@@ -1,9 +1,9 @@
 # CCTV Camera Database
 
-An open, structured database of 1,296 CCTV / IP camera models and their technical specifications, covering 64 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
+An open, structured database of 1,330 CCTV / IP camera models and their technical specifications, covering 66 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
 
-[![cameras](https://img.shields.io/badge/cameras-1%2C296-blue)](data/cameras.json)
-[![brands](https://img.shields.io/badge/brands-64-green)](cameras/)
+[![cameras](https://img.shields.io/badge/cameras-1%2C330-blue)](data/cameras.json)
+[![brands](https://img.shields.io/badge/brands-66-green)](cameras/)
 [![license](https://img.shields.io/badge/license-CC0-lightgrey)](LICENSE)
 
 ---
@@ -27,7 +27,7 @@ Camera spec sheets are scattered across vendor PDFs, retailer pages, and paywall
 - **Filter** — narrow by brand, camera type, night vision, resolution, or market
 - **Sort** — click any column header to sort ascending/descending
 - **Detail drawer** — click a row to slide open the full spec sheet (resolution, connectivity, protocols, storage, audio, pricing, source links)
-- **Pagination** — page through all 1,296 cameras, 25 per page
+- **Pagination** — page through all 1,330 cameras, 25 per page
 - **Stats bar** — live counts for total cameras, brands, 4K+, WiFi, and no-subscription models
 
 ---
@@ -52,14 +52,14 @@ a Claude Code skill for AI-powered video production built on [Remotion](https://
 cctv-camera-database/
 ├── cameras/              # source of truth — one JSON file per camera, grouped by brand
 │   ├── hikvision/        # 139 cameras
-│   ├── reolink/          # 121 cameras
+│   ├── reolink/          # 133 cameras
 │   ├── dahua/            # 101 cameras
 │   ├── hanwha/           #  62 cameras
 │   ├── axis/             #  58 cameras
 │   ├── tapo/             #  56 cameras
-│   └── …59 more brands
+│   └── …60 more brands
 ├── data/                 # GENERATED — do not edit by hand
-│   ├── cameras.json      # all 1,296 cameras as one array
+│   ├── cameras.json      # all 1,330 cameras as one array
 │   └── cameras.csv       # flattened, spreadsheet-friendly
 ├── schema/
 │   └── camera.schema.json
@@ -117,8 +117,8 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 
 | Metric | Count |
 |--------|-------|
-| Total cameras | **1,306** |
-| Brands | **65** |
+| Total cameras | **1,330** |
+| Brands | **66** |
 | Form factors | 9 (bullet, dome, turret, PTZ, dual-lens, panoramic, covert, box, fisheye) |
 | PoE wired | 863 |
 | WiFi | 427 |
@@ -127,12 +127,12 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 | 4–5MP | 588 |
 | 1080p–2MP | 296 |
 
-### All 65 brands
+### All 66 brands
 
 | Brand | Cameras | Segment |
 |-------|---------|---------|
 | Hikvision | 151 | Enterprise + consumer, global |
-| Reolink | 121 | Prosumer, no-subscription, global |
+| Reolink | 133 | Prosumer, no-subscription, global |
 | Dahua | 111 | Enterprise + consumer, global |
 | Hanwha | 71 | Enterprise AI, Korea/global |
 | Axis | 68 | Enterprise premium, global |
@@ -142,7 +142,7 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 | Ring (Amazon) | 30 | Consumer ecosystem, US/EU/AU |
 | Avigilon | 24 | Enterprise NDAA, US/CA |
 | Amcrest | 24 | Prosumer, US |
-| Ubiquiti UniFi | 24 | Prosumer/SMB, US/global |
+| Ubiquiti UniFi | 26 | Prosumer/SMB, US/global |
 | Annke | 23 | Prosumer, global |
 | Google Nest | 23 | Consumer smart home, global |
 | Bosch | 22 | Enterprise, EU/global |
@@ -162,6 +162,7 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 | Pelco | 15 | Enterprise legacy, NA/global |
 | Vivotek | 15 | Enterprise AI, global |
 | Wyze | 15 | Budget consumer, US |
+| ACTi | 14 | Enterprise IP + analog, NDAA, TW/global |
 | FLIR (Teledyne) | 12 | Thermal imaging, NA/EU |
 | Kedacom | 12 | Enterprise, CN/global |
 | Sunell | 12 | Prosumer/Enterprise, CN/global |
@@ -175,6 +176,7 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 | Yale | 8 | Consumer smart home, UK/EU |
 | Camius | 6 | Consumer direct, US |
 | Cathexis | 6 | Enterprise VMS, ZA/ME |
+| LaView | 6 | Consumer WiFi/solar/4G, US |
 | March Networks | 6 | Enterprise retail/banking, NA |
 | Netatmo | 6 | Privacy-first no-subscription, EU |
 | Secureye | 6 | Budget consumer, IN |

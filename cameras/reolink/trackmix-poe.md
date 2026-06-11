@@ -4,28 +4,29 @@
 |-------|------|
 | Brand | Reolink |
 | Model | TrackMix PoE |
-| Type | dual-lens |
+| Type | ptz |
 | Connectivity | poe, ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
-| Sensor | Dual CMOS (2.8mm wide + 8mm tele) |
-| Lens | 2× |
-| Field of view | Wide: 113° / Tele: 41°° |
+| Sensor | 1/3" CMOS (wide) + 1/2.8" CMOS (telephoto) |
+| Lens | 2× 2.8 (wide) + 8 (telephoto)mm F1.6 |
+| Field of view | 104 horizontal (wide) / 38 horizontal (telephoto)° |
 | Night vision | ir (30m) |
 | Power | PoE (IEEE 802.3af) / DC 12V |
-| Storage | microSD ≤ 256GB, NVR |
-| Protocols | onvif, rtsp |
-| IP rating | IP66 |
+| Storage | microSD ≤ 512GB, NVR |
+| Protocols | rtsp, onvif |
+| IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2023 |
 
 ## Features
 
-- 6x hybrid zoom (digital cross-lens)
-- auto-tracking person/vehicle
+- dual-lens dual-view
+- auto-tracking
+- 6x hybrid zoom
 - 355° pan / 90° tilt
-- dual-lens simultaneous view
-- person/vehicle/animal detection
-- no subscription required
+- person/vehicle/pet detection
+- spotlight color night vision
+- no subscription
 
 ## Sources
 
