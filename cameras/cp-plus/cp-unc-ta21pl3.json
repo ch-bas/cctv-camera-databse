@@ -81,6 +81,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Uses Dahua protocol. ONVIF integration works."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. CP Plus uses Dahua protocol."
     }
   }
 }

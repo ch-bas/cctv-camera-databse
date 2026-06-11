@@ -86,6 +86,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Hikvision",
+      "notes": "Select 'Hikvision' profile. Most ABUS IP cameras use Hikvision protocol."
     }
   }
 }

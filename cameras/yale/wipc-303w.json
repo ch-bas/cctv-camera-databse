@@ -75,6 +75,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Limited RTSP support. Some models require Yale app."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF profile. Limited RTSP support on some models."
     }
   }
 }

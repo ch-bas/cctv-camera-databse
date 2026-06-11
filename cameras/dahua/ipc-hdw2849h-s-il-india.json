@@ -81,6 +81,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration. Default ONVIF port 80."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. Supports both main and sub streams."
     }
   }
 }

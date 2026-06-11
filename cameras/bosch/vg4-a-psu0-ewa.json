@@ -75,6 +75,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Bosch",
+      "notes": "Select 'Bosch' profile. ONVIF discovery supported."
     }
   }
 }

@@ -60,6 +60,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration. Default ONVIF port 80. Enable in Configuration > Network > Integration Protocol."
+    },
+    "blue_iris": {
+      "profile": "Hikvision",
+      "notes": "Select 'Hikvision' profile. Use main stream for recording, sub stream for live view."
     }
   }
 }

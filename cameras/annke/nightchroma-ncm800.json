@@ -76,6 +76,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Uses Hikvision protocol. ONVIF integration works."
+    },
+    "blue_iris": {
+      "profile": "Hikvision",
+      "notes": "Select 'Hikvision' profile. Most Annke cameras use Hikvision protocol."
     }
   }
 }

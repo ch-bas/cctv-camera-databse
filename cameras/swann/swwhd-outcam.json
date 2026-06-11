@@ -80,6 +80,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Some models use Dahua protocol. Try ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Use 'Dahua' profile. Some Swann models use Dahua protocol."
     }
   }
 }

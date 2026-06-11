@@ -73,6 +73,10 @@
     "home_assistant": {
       "integration": "amcrest",
       "notes": "Native Amcrest integration or ONVIF. Default ONVIF port 80."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. Amcrest uses Dahua protocol. Also works with 'Amcrest' profile if available."
     }
   }
 }

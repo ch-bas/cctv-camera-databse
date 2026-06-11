@@ -66,6 +66,10 @@
     "home_assistant": {
       "integration": "axis",
       "notes": "Native Axis integration with auto-discovery via Zeroconf."
+    },
+    "blue_iris": {
+      "profile": "Axis",
+      "notes": "Select 'Axis' profile. Auto-discovery via ONVIF usually works."
     }
   }
 }

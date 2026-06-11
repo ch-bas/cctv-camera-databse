@@ -74,6 +74,10 @@
     "home_assistant": {
       "integration": "tapo",
       "notes": "Native TP-Link Tapo integration. Requires Tapo cloud account credentials."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Must enable ONVIF in Tapo app."
     }
   }
 }

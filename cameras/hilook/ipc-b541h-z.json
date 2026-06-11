@@ -80,6 +80,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Uses Hikvision protocol. ONVIF integration works. Default port 80."
+    },
+    "blue_iris": {
+      "profile": "Hikvision",
+      "notes": "Select 'Hikvision' profile. HiLook uses Hikvision protocol."
     }
   }
 }

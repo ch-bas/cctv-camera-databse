@@ -71,6 +71,10 @@
     "home_assistant": {
       "integration": "reolink",
       "notes": "Native Reolink integration auto-discovers via ONVIF on port 8000."
+    },
+    "blue_iris": {
+      "profile": "Reolink",
+      "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
     }
   }
 }

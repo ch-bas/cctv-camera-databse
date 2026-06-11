@@ -83,6 +83,10 @@
     "home_assistant": {
       "integration": "ezviz",
       "notes": "Native EZVIZ integration. RTSP must be enabled in EZVIZ app."
+    },
+    "blue_iris": {
+      "profile": "Hikvision",
+      "notes": "Select 'Hikvision' profile. EZVIZ uses Hikvision protocol. Must enable RTSP in EZVIZ app first."
     }
   }
 }

@@ -69,6 +69,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF profile. RTSP paths: /ch01/0 (main), /ch01/1 (sub)."
     }
   }
 }

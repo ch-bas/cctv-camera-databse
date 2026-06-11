@@ -71,6 +71,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration. Default ONVIF port 80."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF profile. RTSP paths: /main (main), /sub (sub)."
     }
   }
 }

@@ -67,6 +67,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Pelco",
+      "notes": "Select 'Pelco' profile. ONVIF supported."
     }
   }
 }

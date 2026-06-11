@@ -69,6 +69,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration. RTSP port is 7070 by default."
+    },
+    "blue_iris": {
+      "profile": "ACTi",
+      "notes": "Select 'ACTi' profile. Default RTSP port is 7070."
     }
   }
 }

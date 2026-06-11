@@ -77,6 +77,10 @@
     "home_assistant": {
       "integration": "homekit",
       "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
+    },
+    "blue_iris": {
+      "profile": "Generic/RTSP",
+      "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
     }
   }
 }

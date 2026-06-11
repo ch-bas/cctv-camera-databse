@@ -67,6 +67,10 @@
     "home_assistant": {
       "integration": "unifiprotect",
       "notes": "Native UniFi Protect integration. Requires UniFi Protect console."
+    },
+    "blue_iris": {
+      "profile": "Generic/RTSP",
+      "notes": "Use Generic/RTSP profile with RTSPS URL from UniFi Protect. Requires Protect RTSP stream enabled per camera."
     }
   }
 }

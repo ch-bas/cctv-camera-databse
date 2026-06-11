@@ -69,6 +69,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration. RTSP port may vary (8554 or 554)."
+    },
+    "blue_iris": {
+      "profile": "GeoVision",
+      "notes": "Select 'GeoVision' profile. Default RTSP port may be 8554."
     }
   }
 }

@@ -63,6 +63,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Use ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Vivotek",
+      "notes": "Select 'Vivotek' profile. ONVIF supported."
     }
   }
 }

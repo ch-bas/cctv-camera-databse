@@ -84,6 +84,10 @@
     "home_assistant": {
       "integration": "onvif",
       "notes": "Uses Dahua protocol. ONVIF integration works."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. Most Lorex IP cameras use Dahua protocol."
     }
   }
 }

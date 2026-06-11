@@ -80,6 +80,10 @@
     "home_assistant": {
       "integration": "synology_dsm",
       "notes": "Native Synology DSM integration for Surveillance Station cameras."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF profile via Surveillance Station RTSP output."
     }
   }
 }
