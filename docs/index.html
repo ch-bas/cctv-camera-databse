@@ -267,6 +267,7 @@
     .badge-hybrid { background: var(--green-soft); color: var(--green); }
     .badge-none   { background: var(--red-soft); color: var(--red); }
     .badge-4k     { background: var(--accent-soft); color: var(--accent); }
+    .badge-cfg    { background: var(--green-soft); color: var(--green); font-size: 9px; margin-left: 6px; vertical-align: middle; }
     .badge-ip67   { background: var(--green-soft); color: var(--green); }
     .badge-ip66   { background: rgba(63,185,80,0.06); color: #57ab5a; }
     .badge-ip-other { background: rgba(139,148,158,0.1); color: var(--text-muted); }
@@ -672,7 +673,10 @@ function powerLabel(p) {
 
 function renderCell(cam, col) {
   const val = fmt(cam, col.key);
-  if (col.mono)  return `<td class="model-cell">${val}</td>`;
+  if (col.mono) {
+    const cfgBadge = cam.configs ? '<span class="badge badge-cfg">CFG</span>' : '';
+    return `<td class="model-cell">${val}${cfgBadge}</td>`;
+  }
   if (col.badges === 'conn') {
     const list = Array.isArray(val) ? val : [];
     const badges = list.map(c => `<span class="badge ${connBadgeClass(c)}">${connLabel(c)}</span>`).join('');
