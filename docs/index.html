@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CCTV Camera Database</title>
-  <meta name="description" content="Open database of 1,306 CCTV camera specifications across 65 brands. Search, filter, and compare cameras by brand, type, resolution, night vision, and more." />
+  <meta name="description" content="Open database of 1,330 CCTV camera specifications across 66 brands. Search, filter, and compare cameras by brand, type, resolution, night vision, power source, and more." />
   <style>
     /* ── Reset & base ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -136,7 +136,7 @@
     /* ── Controls ─────────────────────────────────────────────── */
     .controls {
       display: grid;
-      grid-template-columns: 1fr repeat(5, auto);
+      grid-template-columns: 1fr repeat(6, auto);
       gap: 8px;
       margin-bottom: 16px;
       align-items: center;
@@ -270,10 +270,16 @@
     .badge-ip67   { background: var(--green-soft); color: var(--green); }
     .badge-ip66   { background: rgba(63,185,80,0.06); color: #57ab5a; }
     .badge-ip-other { background: rgba(139,148,158,0.1); color: var(--text-muted); }
-    .badge-poe    { background: var(--accent-soft); color: var(--accent); }
     .badge-wifi   { background: var(--purple-soft); color: var(--purple); }
+    .badge-ethernet { background: var(--accent-soft); color: var(--accent); }
+    .badge-4g-conn { background: var(--orange-soft); color: var(--orange); }
+    .badge-coax   { background: rgba(139,148,158,0.1); color: var(--text-muted); }
+    .badge-poe    { background: var(--accent-soft); color: var(--accent); }
+    .badge-dc     { background: rgba(139,148,158,0.1); color: var(--text-muted); }
+    .badge-usb    { background: rgba(139,148,158,0.1); color: var(--text-muted); }
     .badge-battery { background: var(--orange-soft); color: var(--orange); }
-    .badge-analog { background: rgba(139,148,158,0.1); color: var(--text-muted); }
+    .badge-solar  { background: var(--green-soft); color: var(--green); }
+    .badge-mains  { background: rgba(139,148,158,0.1); color: var(--text-muted); }
 
     .conn-badges { display: flex; gap: 3px; flex-wrap: wrap; }
 
@@ -507,6 +513,7 @@
       <option value="4">4–5MP</option>
       <option value="2">1080p (2MP)</option>
     </select>
+    <select id="filter-power"><option value="">All power</option></select>
     <select id="filter-market"><option value="">All markets</option></select>
   </div>
 
@@ -556,15 +563,16 @@ let page        = 0;
 
 // ── Column definitions (adapted from FrontFamily data-grid) ─────
 const COLS = [
-  { key: 'brand',       label: 'Brand',       width: '140px' },
-  { key: 'model',       label: 'Model',       width: '180px', mono: true },
-  { key: 'type',        label: 'Type',        width: '110px', badge: 'type' },
-  { key: 'megapixels',  label: 'MP',          width: '70px',  numeric: true },
-  { key: 'connectivity',label: 'Connect',     width: '130px', badges: 'conn' },
-  { key: 'night_vision',label: 'Night',       width: '90px',  badge: 'nv' },
-  { key: 'ip_rating',   label: 'IP',          width: '80px',  badge: 'ip' },
-  { key: 'two_way',     label: '2-Way Audio', width: '90px',  bool: true },
-  { key: 'msrp',        label: 'Price',       width: '90px',  numeric: true },
+  { key: 'brand',        label: 'Brand',       width: '140px' },
+  { key: 'model',        label: 'Model',       width: '180px', mono: true },
+  { key: 'type',         label: 'Type',        width: '110px', badge: 'type' },
+  { key: 'megapixels',   label: 'MP',          width: '70px',  numeric: true },
+  { key: 'connectivity', label: 'Connect',     width: '120px', badges: 'conn' },
+  { key: 'power_source', label: 'Power',       width: '120px', badges: 'power' },
+  { key: 'night_vision', label: 'Night',       width: '90px',  badge: 'nv' },
+  { key: 'ip_rating',    label: 'IP',          width: '80px',  badge: 'ip' },
+  { key: 'two_way',      label: '2-Way Audio', width: '90px',  bool: true },
+  { key: 'msrp',         label: 'Price',       width: '90px',  numeric: true },
 ];
 
 // ── Helpers ──────────────────────────────────────────────────────
@@ -588,6 +596,7 @@ function fmt(cam, key) {
     case 'type':        return cam.type ?? '—';
     case 'megapixels':  return cam.megapixels ? cam.megapixels + ' MP' : '—';
     case 'connectivity':return cam.connectivity ?? [];
+    case 'power_source':return cam.power_source ?? [];
     case 'night_vision':return cam.nv_type;
     case 'ip_rating':   return cam.ip_rating ?? '—';
     case 'two_way':     return cam.two_way;
@@ -613,10 +622,16 @@ function ipBadgeClass(ip) {
   return 'badge-ip-other';
 }
 function connBadgeClass(c) {
-  return { poe:'badge-poe', wifi:'badge-wifi', battery:'badge-battery', '4g':'badge-battery', analog:'badge-analog', ethernet:'badge-poe' }[c] ?? 'badge-ip-other';
+  return { wifi:'badge-wifi', ethernet:'badge-ethernet', '4g':'badge-4g-conn', coax:'badge-coax' }[c] ?? 'badge-ip-other';
 }
 function connLabel(c) {
-  return { poe:'PoE', wifi:'WiFi', battery:'Battery', '4g':'4G', analog:'Analog', ethernet:'ETH' }[c] ?? c;
+  return { wifi:'WiFi', ethernet:'Ethernet', '4g':'4G', coax:'Coax' }[c] ?? c;
+}
+function powerBadgeClass(p) {
+  return { poe:'badge-poe', dc:'badge-dc', usb:'badge-usb', battery:'badge-battery', solar:'badge-solar', 'ac-mains':'badge-mains' }[p] ?? 'badge-ip-other';
+}
+function powerLabel(p) {
+  return { poe:'PoE', dc:'DC', usb:'USB', battery:'Battery', solar:'Solar', 'ac-mains':'AC' }[p] ?? p;
 }
 
 function renderCell(cam, col) {
@@ -625,6 +640,11 @@ function renderCell(cam, col) {
   if (col.badges === 'conn') {
     const list = Array.isArray(val) ? val : [];
     const badges = list.map(c => `<span class="badge ${connBadgeClass(c)}">${connLabel(c)}</span>`).join('');
+    return `<td><div class="conn-badges">${badges || '<span class="dim">—</span>'}</div></td>`;
+  }
+  if (col.badges === 'power') {
+    const list = Array.isArray(val) ? val : [];
+    const badges = list.map(p => `<span class="badge ${powerBadgeClass(p)}">${powerLabel(p)}</span>`).join('');
     return `<td><div class="conn-badges">${badges || '<span class="dim">—</span>'}</div></td>`;
   }
   if (col.badge === 'nv') {
@@ -674,12 +694,14 @@ function applyFilters() {
   const type    = $('filter-type').value;
   const nv      = $('filter-nv').value;
   const res     = $('filter-res').value;
+  const power   = $('filter-power').value;
   const market  = $('filter-market').value;
 
   filtered = allCameras.filter(cam => {
     if (brand  && cam.brand !== brand)       return false;
     if (type   && cam.type  !== type)        return false;
     if (nv     && cam.nv_type !== nv)        return false;
+    if (power  && !(cam.power_source ?? []).includes(power)) return false;
     if (market && !(cam.markets ?? []).includes(market)) return false;
     if (res) {
       const mp = cam.megapixels;
@@ -818,13 +840,14 @@ function populateFilters(cameras) {
   const brands  = uniq(cameras.map(c => c.brand));
   const types   = uniq(cameras.map(c => c.type));
   const nvTypes = uniq(cameras.map(c => c.nv_type));
+  const powers  = uniq(cameras.flatMap(c => c.power_source ?? []));
   const markets = uniq(cameras.flatMap(c => c.markets ?? []));
 
-  const populate = (id, vals) => {
+  const populate = (id, vals, labelFn) => {
     const sel = $(id);
     vals.forEach(v => {
       const opt = document.createElement('option');
-      opt.value = v; opt.textContent = v;
+      opt.value = v; opt.textContent = labelFn ? labelFn(v) : v;
       sel.appendChild(opt);
     });
   };
@@ -832,6 +855,7 @@ function populateFilters(cameras) {
   populate('filter-brand',  brands);
   populate('filter-type',   types);
   populate('filter-nv',     nvTypes);
+  populate('filter-power',  powers, powerLabel);
   populate('filter-market', markets);
 }
 
@@ -870,6 +894,7 @@ function openDrawer(cam) {
     <div class="drawer-section">
       <div class="drawer-section-title">Connectivity & Storage</div>
       ${row('Connectivity', (cam.connectivity ?? []).join(', '))}
+      ${row('Power source', (cam.power_source ?? []).join(', '))}
       ${row('Protocols', (cam.protocols ?? []).join(', '))}
       ${row('microSD', cam.storage?.onboard ? (cam.storage.max_microsd_gb ? 'Yes (up to ' + cam.storage.max_microsd_gb + 'GB)' : 'Yes') : 'No')}
       ${row('NVR compatible', cam.storage?.nvr_compatible != null ? (cam.storage.nvr_compatible ? 'Yes' : 'No') : null)}
@@ -914,7 +939,7 @@ $('drawer-close').addEventListener('click', closeDrawer);
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
 
 // ── Filter event listeners ────────────────────────────────────────
-['search','filter-brand','filter-type','filter-nv','filter-res','filter-market'].forEach(id => {
+['search','filter-brand','filter-type','filter-nv','filter-res','filter-power','filter-market'].forEach(id => {
   $(id).addEventListener('input', applyFilters);
   $(id).addEventListener('change', applyFilters);
 });
