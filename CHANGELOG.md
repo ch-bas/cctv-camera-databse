@@ -6,6 +6,31 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.3.0] — 2026-06-11
+
+### Added
+
+- **Major frontend overhaul** with 15 UI improvements:
+  - Side-by-side camera compare (select 2-4 cameras with checkboxes)
+  - Export filtered view as CSV or JSON
+  - Active filter chips with click-to-remove
+  - Keyboard shortcuts: `/` search, `Esc` close, `←`/`→` pages
+  - Light/dark mode toggle (persists in localStorage)
+  - Sticky table header
+  - Resolution color coding (blue 4K+, green 4-5MP, muted 1080p)
+  - URL state persistence (shareable filter links via hash)
+  - Config coverage stat in stats bar (clickable)
+  - Frigate compatibility checkbox filter
+  - CFG badge next to model name for cameras with configs
+  - Integration configs shown in detail drawer (Frigate/HA/Blue Iris)
+- **Advanced filtering**:
+  - Multi-select dropdowns for Brand, Type, and Power (pick multiple values)
+  - Filter counts in all dropdowns (e.g. "Reolink (133)")
+  - Price range slider with max price filter
+  - Reset all filters button
+
+---
+
 ## [1.2.1] — 2026-06-11
 
 ### Added
