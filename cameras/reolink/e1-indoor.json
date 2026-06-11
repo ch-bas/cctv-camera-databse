@@ -25,9 +25,7 @@
     "nvr_compatible": true,
     "cloud": true
   },
-  "protocols": [
-    "rtsp"
-  ],
+  "protocols": [],
   "ip_rating": "IP20",
   "audio": {
     "microphone": true,
@@ -38,7 +36,6 @@
     "1080p indoor WiFi pan/tilt entry",
     "9m IR",
     "two-way audio",
-    "RTSP",
     "Alexa/Google",
     "no subscription",
     "most affordable Reolink indoor"

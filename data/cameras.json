@@ -926,6 +926,705 @@
     }
   },
   {
+    "id": "acti-a416",
+    "brand": "ACTi",
+    "model": "A416",
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-12 (motorized zoom)",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 50
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP68",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "2MP zoom bullet",
+      "adaptive IR 50m",
+      "extreme WDR 120dB",
+      "superior low light sensitivity",
+      "H.265/H.264",
+      "IP68/IK10",
+      "ONVIF Profile S/T/G"
+    ],
+    "sources": [
+      "https://www.acti.com/product/A416"
+    ]
+  },
+  {
+    "id": "acti-a88",
+    "brand": "ACTi",
+    "model": "A88",
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2592,
+      "max_height": 1944,
+      "label": "5MP"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "varifocal": false
+    },
+    "field_of_view_deg": "95 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "5MP mini bullet",
+      "adaptive IR 30m",
+      "WDR",
+      "H.265/H.264",
+      "IP67/IK10",
+      "ONVIF Profile S/T/G",
+      "corridor mode"
+    ],
+    "sources": [
+      "https://www.acti.com/product/A88"
+    ]
+  },
+  {
+    "id": "acti-b416",
+    "brand": "ACTi",
+    "model": "B416",
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-12 (motorized zoom)",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 50
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3at) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP68",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "4K zoom bullet",
+      "adaptive IR 50m",
+      "extreme WDR 120dB",
+      "H.265/H.264",
+      "IP68/IK10",
+      "ONVIF Profile S/T/G",
+      "corridor mode"
+    ],
+    "sources": [
+      "https://www.acti.com/product/B416"
+    ]
+  },
+  {
+    "id": "acti-i68",
+    "brand": "ACTi",
+    "model": "I68",
+    "type": "ptz",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "4.3-129 (30x optical zoom)",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 150
+    },
+    "power": {
+      "method": "High PoE (802.3at) / AC 24V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "2MP 30x speed dome",
+      "360° endless pan",
+      "adaptive IR 150m",
+      "auto-tracking",
+      "WDR",
+      "H.265/H.264",
+      "IP66/IK10",
+      "ONVIF Profile S/T/G"
+    ],
+    "sources": [
+      "https://www.acti.com/product/I68"
+    ]
+  },
+  {
+    "id": "acti-kcm-5611",
+    "brand": "ACTi",
+    "model": "KCM-5611",
+    "type": "box",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-12 (varifocal)",
+      "aperture": "F1.4",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 20
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "2MP outdoor box camera",
+      "varifocal lens",
+      "H.264 compression",
+      "IP66 weatherproof",
+      "two-way audio",
+      "ONVIF compliant",
+      "discontinued"
+    ],
+    "sources": [
+      "https://www.acti.com/product/KCM-5611"
+    ]
+  },
+  {
+    "id": "acti-q416",
+    "brand": "ACTi",
+    "model": "Q416",
+    "type": "fisheye",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 12,
+      "max_width": 4000,
+      "max_height": 3000,
+      "label": "12MP"
+    },
+    "sensor": "1/1.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "1.65 (fisheye)"
+    },
+    "field_of_view_deg": "180 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 10
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "12MP hemispheric fisheye",
+      "360° panoramic view",
+      "dewarping",
+      "H.265/H.264",
+      "IP66/IK10",
+      "ONVIF Profile S/T/G",
+      "two-way audio"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Q416"
+    ]
+  },
+  {
+    "id": "acti-y31",
+    "brand": "ACTi",
+    "model": "Y31",
+    "type": "bullet",
+    "connectivity": [
+      "coax"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "2MP"
+    },
+    "sensor": "1/3\" CMOS",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "ip_rating": "IP67",
+    "features": [
+      "analog bullet",
+      "IR LED 30m",
+      "extreme WDR 130dB",
+      "30fps@2MP",
+      "NDAA compliant",
+      "IP67",
+      "outdoor"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Y31"
+    ]
+  },
+  {
+    "id": "acti-y32",
+    "brand": "ACTi",
+    "model": "Y32",
+    "type": "bullet",
+    "connectivity": [
+      "coax"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2592,
+      "max_height": 1944,
+      "label": "5MP"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "ip_rating": "IP67",
+    "features": [
+      "analog bullet",
+      "IR LED 30m",
+      "extreme WDR 130dB",
+      "25fps@5MP",
+      "NDAA compliant",
+      "IP67",
+      "outdoor"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Y32"
+    ]
+  },
+  {
+    "id": "acti-y35",
+    "brand": "ACTi",
+    "model": "Y35",
+    "type": "bullet",
+    "connectivity": [
+      "coax"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "2MP"
+    },
+    "sensor": "1/3\" CMOS",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "ip_rating": "IP67",
+    "features": [
+      "analog bullet",
+      "IR LED 30m",
+      "extreme WDR 130dB",
+      "30fps@2MP",
+      "NDAA compliant",
+      "IP67",
+      "outdoor"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Y35"
+    ]
+  },
+  {
+    "id": "acti-y55",
+    "brand": "ACTi",
+    "model": "Y55",
+    "type": "turret",
+    "connectivity": [
+      "coax"
+    ],
+    "release_year": 2025,
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "2MP"
+    },
+    "sensor": "1/3\" CMOS",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "ip_rating": "IP67",
+    "features": [
+      "analog turret",
+      "IR LED 30m",
+      "extreme WDR 130dB",
+      "30fps@2MP",
+      "NDAA compliant",
+      "IP67",
+      "outdoor"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Y55"
+    ]
+  },
+  {
+    "id": "acti-y71",
+    "brand": "ACTi",
+    "model": "Y71",
+    "type": "turret",
+    "connectivity": [
+      "coax"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "2MP"
+    },
+    "sensor": "1/3\" CMOS",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "ip_rating": "IP67",
+    "features": [
+      "analog turret",
+      "IR LED 30m",
+      "extreme WDR 130dB",
+      "30fps@2MP",
+      "NDAA compliant",
+      "IP67",
+      "outdoor"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Y71"
+    ]
+  },
+  {
+    "id": "acti-y72",
+    "brand": "ACTi",
+    "model": "Y72",
+    "type": "turret",
+    "connectivity": [
+      "coax"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2592,
+      "max_height": 1944,
+      "label": "5MP"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "ip_rating": "IP67",
+    "features": [
+      "analog turret",
+      "IR LED 30m",
+      "extreme WDR 130dB",
+      "25fps@5MP",
+      "NDAA compliant",
+      "IP67",
+      "outdoor"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Y72"
+    ]
+  },
+  {
+    "id": "acti-z416",
+    "brand": "ACTi",
+    "model": "Z416",
+    "type": "dome",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.7-13.5 (5x motorized zoom)",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "2MP outdoor zoom dome",
+      "5x motorized zoom",
+      "adaptive IR 30m",
+      "WDR",
+      "H.265/H.264",
+      "IP67/IK10",
+      "ONVIF Profile S/T/G",
+      "two-way audio"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Z416"
+    ]
+  },
+  {
+    "id": "acti-z84",
+    "brand": "ACTi",
+    "model": "Z84",
+    "type": "dome",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "varifocal": false
+    },
+    "field_of_view_deg": "110 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 15
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "2MP indoor mini dome",
+      "adaptive IR 15m",
+      "WDR",
+      "H.265/H.264",
+      "ONVIF Profile S/T/G",
+      "two-way audio",
+      "compact design"
+    ],
+    "sources": [
+      "https://www.acti.com/product/Z84"
+    ]
+  },
+  {
     "id": "adt-command-indoor-cam",
     "brand": "ADT",
     "model": "ADT+ Indoor Camera",
@@ -47594,6 +48293,284 @@
     ]
   },
   {
+    "id": "laview-f1",
+    "brand": "LaView",
+    "model": "F1",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 10
+    },
+    "power": {
+      "method": "DC 5V USB"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "355° pan / 90° tilt",
+      "IR night vision 33ft",
+      "motion detection",
+      "two-way audio",
+      "cloud storage"
+    ],
+    "msrp_usd": 45,
+    "sources": [
+      "https://www.laviewusa.com/products/laview-security-cameras-4pc"
+    ]
+  },
+  {
+    "id": "laview-l2",
+    "brand": "LaView",
+    "model": "L2",
+    "type": "covert",
+    "connectivity": [
+      "4g"
+    ],
+    "release_year": 2024,
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 2560,
+      "max_height": 1440,
+      "label": "4MP QHD"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "E27 light bulb socket"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "light bulb form factor (E27)",
+      "4G LTE (no WiFi needed)",
+      "12x zoom",
+      "355° motion tracking",
+      "color + IR night vision",
+      "two-way audio"
+    ],
+    "msrp_usd": 18,
+    "sources": [
+      "https://www.laviewusa.com/products/l2-light-bulb-camera-4g"
+    ]
+  },
+  {
+    "id": "laview-n3",
+    "brand": "LaView",
+    "model": "N3",
+    "type": "bullet",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2024,
+    "resolution": {
+      "megapixels": 3,
+      "max_width": 2304,
+      "max_height": 1296,
+      "label": "2K QHD"
+    },
+    "lens": {
+      "count": 1,
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "110 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 10
+    },
+    "power": {
+      "method": "Rechargeable battery / solar panel"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 256,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "2K QHD",
+      "color + IR night vision",
+      "PIR motion detection",
+      "AI person detection 95% accuracy",
+      "siren + white light alarm",
+      "50-day battery / 365-day with solar",
+      "no subscription required for local storage"
+    ],
+    "msrp_usd": 50,
+    "sources": [
+      "https://www.laviewusa.com/products/n3-outdoor-camera"
+    ]
+  },
+  {
+    "id": "laview-r12",
+    "brand": "LaView",
+    "model": "R12",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 9
+    },
+    "power": {
+      "method": "Rechargeable battery / solar panel"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "360° pan / 110° tilt",
+      "IR night vision 30ft",
+      "solar compatible",
+      "motion detection"
+    ],
+    "msrp_usd": 70,
+    "sources": [
+      "https://www.laviewusa.com/products/copy-of-r12b-outdoor-camera-1"
+    ]
+  },
+  {
+    "id": "laview-r18",
+    "brand": "LaView",
+    "model": "R18",
+    "type": "ptz",
+    "connectivity": [
+      "4g"
+    ],
+    "release_year": 2024,
+    "resolution": {
+      "megapixels": 3,
+      "label": "3MP"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "Built-in solar panel"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 128,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "360° pan / 90° tilt",
+      "4G LTE (no WiFi needed)",
+      "solar powered",
+      "smart PIR detection",
+      "color night vision",
+      "real-time alerts"
+    ],
+    "msrp_usd": 130,
+    "sources": [
+      "https://www.laviewusa.com/products/r18-outdoor-360-camera-copy"
+    ]
+  },
+  {
+    "id": "laview-r28",
+    "brand": "LaView",
+    "model": "R28",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2024,
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 2560,
+      "max_height": 1440,
+      "label": "2K QHD"
+    },
+    "lens": {
+      "count": 1,
+      "aperture": "F1.6"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "Rechargeable battery / solar panel"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "360° pan / 120° tilt",
+      "solar powered",
+      "smart PIR detection",
+      "person/vehicle/pet detection",
+      "color night vision",
+      "Alexa/Google compatible",
+      "no subscription required for local storage"
+    ],
+    "msrp_usd": 80,
+    "sources": [
+      "https://www.laviewusa.com/products/r28-wireless-outdoor-camera"
+    ]
+  },
+  {
     "id": "lorex-2kptz",
     "brand": "Lorex",
     "model": "2KPTZ",
@@ -54607,6 +55584,56 @@
     "msrp_usd": 39
   },
   {
+    "id": "reolink-argus-eco-ultra",
+    "brand": "Reolink",
+    "model": "Argus Eco Ultra",
+    "type": "bullet",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "field_of_view_deg": "105 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 10
+    },
+    "power": {
+      "method": "Rechargeable battery / solar panel"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "4K battery camera",
+      "person/vehicle/pet detection",
+      "spotlight + siren",
+      "PIR motion sensor",
+      "time-lapse",
+      "solar compatible",
+      "no subscription"
+    ],
+    "msrp_usd": 97,
+    "sources": [
+      "https://reolink.com/product/argus-eco-ultra/"
+    ]
+  },
+  {
     "id": "reolink-argus-magicam",
     "brand": "Reolink",
     "model": "Argus MagiCam",
@@ -55142,34 +56169,31 @@
     "id": "reolink-cx410",
     "brand": "Reolink",
     "model": "CX410",
-    "aliases": [
-      "ColorX 2K"
-    ],
     "type": "bullet",
     "connectivity": [
       "poe",
       "ethernet"
     ],
+    "release_year": 2023,
     "resolution": {
       "megapixels": 4,
       "max_width": 2560,
       "max_height": 1440,
-      "label": "2K"
+      "label": "2K QHD"
     },
     "sensor": "1/1.8\" CMOS",
     "lens": {
       "count": 1,
-      "focal_length_mm": "2.8 (fixed)",
-      "aperture": "F1.0",
-      "varifocal": false
+      "focal_length_mm": "4",
+      "aperture": "F1.0"
     },
-    "field_of_view_deg": "93 horizontal",
+    "field_of_view_deg": "89 horizontal",
     "night_vision": {
       "type": "color",
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -55178,8 +56202,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif",
-      "rtsp"
+      "rtsp",
+      "onvif"
     ],
     "ip_rating": "IP67",
     "audio": {
@@ -55188,14 +56212,15 @@
       "two_way": true
     },
     "features": [
+      "ColorX true color night vision",
       "F1.0 super aperture",
-      "ColorX true-color night vision",
       "1/1.8\" large sensor",
-      "adjustable warm light",
       "person/vehicle/animal detection",
-      "built-in siren"
+      "HDR",
+      "dual warning (light + siren)",
+      "no subscription"
     ],
-    "release_year": 2023,
+    "msrp_usd": 72,
     "sources": [
       "https://reolink.com/product/cx410/"
     ]
@@ -55582,6 +56607,63 @@
       "https://reolink.com/product/d800/"
     ],
     "msrp_usd": 29
+  },
+  {
+    "id": "reolink-duo-2-battery",
+    "brand": "Reolink",
+    "model": "Duo 2 Battery",
+    "type": "dual-lens",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2024,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 4608,
+      "max_height": 1728,
+      "label": "4K Panoramic"
+    },
+    "sensor": "1/2.7\" CMOS (x2)",
+    "lens": {
+      "count": 2,
+      "focal_length_mm": "3.2",
+      "aperture": "F2.0"
+    },
+    "field_of_view_deg": "170 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "Rechargeable battery 37.44Wh / solar panel"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 128,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "170° panoramic dual-lens",
+      "4K battery",
+      "person/vehicle/animal detection",
+      "color night vision",
+      "8 spotlights",
+      "PIR 10m range",
+      "10x digital zoom",
+      "solar compatible",
+      "no subscription"
+    ],
+    "msrp_usd": 170,
+    "sources": [
+      "https://reolink.com/product/reolink-duo/"
+    ]
   },
   {
     "id": "reolink-duo-2-lte",
@@ -56113,9 +57195,7 @@
       "nvr_compatible": true,
       "cloud": true
     },
-    "protocols": [
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP20",
     "audio": {
       "microphone": true,
@@ -56126,7 +57206,6 @@
       "1080p indoor WiFi pan/tilt entry",
       "9m IR",
       "two-way audio",
-      "RTSP",
       "Alexa/Google",
       "no subscription",
       "most affordable Reolink indoor"
@@ -56135,6 +57214,66 @@
       "https://reolink.com/product/e1/"
     ],
     "msrp_usd": 25
+  },
+  {
+    "id": "reolink-e1-outdoor",
+    "brand": "Reolink",
+    "model": "E1 Outdoor",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2021,
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2560,
+      "max_height": 1920,
+      "label": "5MP Super HD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-8",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "90-50 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 12
+    },
+    "power": {
+      "method": "DC 12V/1A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "3x optical zoom",
+      "355° pan / 50° tilt",
+      "auto-tracking",
+      "64 presets",
+      "person/vehicle/animal detection",
+      "spotlight color night vision",
+      "dual-band WiFi",
+      "no subscription"
+    ],
+    "msrp_usd": 110,
+    "sources": [
+      "https://reolink.com/product/e1-outdoor/"
+    ]
   },
   {
     "id": "reolink-e1-outdoor-cx",
@@ -56244,6 +57383,66 @@
     ]
   },
   {
+    "id": "reolink-e1-outdoor-pro",
+    "brand": "Reolink",
+    "model": "E1 Outdoor Pro",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-8",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "94-50 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 12
+    },
+    "power": {
+      "method": "DC 12V/1A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "3x optical zoom",
+      "4K UHD",
+      "person/vehicle/animal detection",
+      "auto-tracking",
+      "360° pan/tilt",
+      "color night vision",
+      "WiFi 6",
+      "no subscription"
+    ],
+    "msrp_usd": 110,
+    "sources": [
+      "https://reolink.com/product/e1-outdoor-pro/"
+    ]
+  },
+  {
     "id": "reolink-e1-outdoor-wifi",
     "brand": "Reolink",
     "model": "E1 Outdoor",
@@ -56293,6 +57492,64 @@
       "https://reolink.com/product/e1-outdoor/"
     ],
     "msrp_usd": 39
+  },
+  {
+    "id": "reolink-e1-pro",
+    "brand": "Reolink",
+    "model": "E1 Pro",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2020,
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2880,
+      "max_height": 1616,
+      "label": "5MP Super HD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "4.0",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "104 diagonal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 12
+    },
+    "power": {
+      "method": "DC 5V/1A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "355° pan / 50° tilt",
+      "64 presets",
+      "human/pet detection",
+      "crying detection",
+      "auto-tracking",
+      "dual-band WiFi",
+      "no subscription"
+    ],
+    "msrp_usd": 55,
+    "sources": [
+      "https://reolink.com/product/e1-pro/"
+    ]
   },
   {
     "id": "reolink-e1-pro-v2",
@@ -56517,6 +57774,66 @@
     "msrp_usd": 188.99,
     "sources": [
       "https://slickdeals.net/f/18802744"
+    ]
+  },
+  {
+    "id": "reolink-elite-wifi",
+    "brand": "Reolink",
+    "model": "Elite WiFi",
+    "type": "dual-lens",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2025,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 5120,
+      "max_height": 1552,
+      "label": "4K Panoramic"
+    },
+    "sensor": "1/2.7\" CMOS (x2)",
+    "lens": {
+      "count": 2,
+      "focal_length_mm": "2.8",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "180 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V/2A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "180° panoramic dual-lens",
+      "WiFi 6",
+      "person/vehicle/animal detection",
+      "virtual fence",
+      "zone intrusion detection",
+      "spotlight + siren",
+      "Bluetooth",
+      "no subscription"
+    ],
+    "msrp_usd": 160,
+    "sources": [
+      "https://reolink.com/product/elite-wifi/"
     ]
   },
   {
@@ -57169,6 +58486,125 @@
     "msrp_usd": 59
   },
   {
+    "id": "reolink-p430",
+    "brand": "Reolink",
+    "model": "P430",
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.7-13.5",
+      "aperture": "F1.6-3.3"
+    },
+    "field_of_view_deg": "105-31 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 256,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "5x optical zoom",
+      "person/vehicle/animal detection",
+      "color night vision",
+      "spotlight + siren",
+      "time-lapse",
+      "no subscription"
+    ],
+    "msrp_usd": 150,
+    "sources": [
+      "https://reolink.com/product/p430/"
+    ]
+  },
+  {
+    "id": "reolink-p830",
+    "brand": "Reolink",
+    "model": "P830",
+    "type": "ptz",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "4.0",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "88 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 256,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "355° pan / 90° tilt",
+      "auto-tracking",
+      "32 presets",
+      "person/vehicle/animal detection",
+      "spotlight + siren",
+      "color night vision",
+      "time-lapse",
+      "no subscription"
+    ],
+    "sources": [
+      "https://reolink.com/product/p830/"
+    ]
+  },
+  {
     "id": "reolink-reolink-go-plus",
     "brand": "Reolink",
     "model": "Go Plus",
@@ -57562,6 +58998,63 @@
       "https://reolink.com/product/rlc-410/"
     ],
     "msrp_usd": 35
+  },
+  {
+    "id": "reolink-rlc-410s",
+    "brand": "Reolink",
+    "model": "RLC-410S",
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "release_year": 2018,
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 2560,
+      "max_height": 1440,
+      "label": "1440p Super HD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "4.0",
+      "aperture": "F2.0"
+    },
+    "field_of_view_deg": "80 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "PoE (IEEE 802.3af) / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 256,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "built-in microSD slot",
+      "4MP Super HD",
+      "IP66 weatherproof",
+      "motion detection",
+      "no subscription"
+    ],
+    "sources": [
+      "https://reolink.com/product/rlc-410s/"
+    ]
   },
   {
     "id": "reolink-rlc-410w",
@@ -58554,6 +60047,61 @@
     ]
   },
   {
+    "id": "reolink-rlc-810wa",
+    "brand": "Reolink",
+    "model": "RLC-810WA",
+    "type": "bullet",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "field_of_view_deg": "88.8 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V/1A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "4K WiFi 6",
+      "person/vehicle/animal detection",
+      "spotlight + siren",
+      "color night vision",
+      "WPA3",
+      "aluminum housing",
+      "time-lapse",
+      "no subscription"
+    ],
+    "msrp_usd": 120,
+    "sources": [
+      "https://reolink.com/product/rlc-810wa/"
+    ]
+  },
+  {
     "id": "reolink-rlc-811a",
     "brand": "Reolink",
     "model": "RLC-811A",
@@ -58611,6 +60159,64 @@
     "release_year": 2021,
     "sources": [
       "https://reolink.com/product/rlc-811a/"
+    ]
+  },
+  {
+    "id": "reolink-rlc-811wa",
+    "brand": "Reolink",
+    "model": "RLC-811WA",
+    "type": "bullet",
+    "connectivity": [
+      "wifi"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.7-13.5"
+    },
+    "field_of_view_deg": "105-31 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V/1A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "5x optical zoom",
+      "WiFi 6",
+      "person/vehicle/animal detection",
+      "spotlight + siren",
+      "color night vision",
+      "time-lapse",
+      "no subscription"
+    ],
+    "msrp_usd": 160,
+    "sources": [
+      "https://reolink.com/product/rlc-811wa/"
     ]
   },
   {
@@ -60437,82 +62043,89 @@
     "msrp_usd": 149
   },
   {
-    "id": "reolink-trackmix-poe",
+    "id": "reolink-trackmix-lte-plus",
     "brand": "Reolink",
-    "model": "TrackMix PoE",
+    "model": "TrackMix LTE Plus",
     "type": "dual-lens",
     "connectivity": [
-      "poe",
-      "ethernet"
+      "4g"
     ],
+    "release_year": 2023,
     "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
+      "megapixels": 4,
+      "max_width": 2560,
+      "max_height": 1440,
+      "label": "2K QHD"
     },
-    "sensor": "Dual CMOS (2.8mm wide + 8mm tele)",
+    "sensor": "1/3\" CMOS",
     "lens": {
       "count": 2,
-      "varifocal": false
+      "focal_length_mm": "2.8 (wide) + 8 (telephoto)",
+      "aperture": "F1.6"
     },
-    "field_of_view_deg": "Wide: 113° / Tele: 41°",
+    "field_of_view_deg": "96-38 horizontal",
     "night_vision": {
-      "type": "ir",
+      "type": "color",
       "range_m": 30
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "Rechargeable battery 155.52Wh / solar panel"
     },
     "storage": {
       "onboard": true,
       "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
+      "nvr_compatible": false,
+      "cloud": true
     },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
+    "ip_rating": "IP65",
     "audio": {
       "microphone": true,
       "speaker": true,
       "two_way": true
     },
     "features": [
-      "6x hybrid zoom (digital cross-lens)",
-      "auto-tracking person/vehicle",
+      "dual-lens",
+      "6x hybrid zoom",
+      "auto-tracking",
       "355° pan / 90° tilt",
-      "dual-lens simultaneous view",
       "person/vehicle/animal detection",
-      "no subscription required"
+      "4G LTE",
+      "solar panel included",
+      "no subscription"
     ],
-    "release_year": 2023,
     "sources": [
-      "https://reolink.com/product/reolink-trackmix-poe/"
+      "https://reolink.com/product/trackmix-lte-plus/"
     ]
   },
   {
-    "id": "reolink-trackmix-wifi",
+    "id": "reolink-trackmix-poe",
     "brand": "Reolink",
-    "model": "TrackMix WiFi",
-    "type": "dual-lens",
+    "model": "TrackMix PoE",
+    "type": "ptz",
     "connectivity": [
-      "wifi"
+      "poe",
+      "ethernet"
     ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 8,
-      "label": "4K+4MP dual-lens"
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
     },
-    "field_of_view_deg": "140 wide+35 tele",
+    "sensor": "1/3\" CMOS (wide) + 1/2.8\" CMOS (telephoto)",
+    "lens": {
+      "count": 2,
+      "focal_length_mm": "2.8 (wide) + 8 (telephoto)",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "104 horizontal (wide) / 38 horizontal (telephoto)",
     "night_vision": {
-      "type": "color",
-      "range_m": 15
+      "type": "ir",
+      "range_m": 30
     },
     "power": {
-      "method": "DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -60524,25 +62137,87 @@
       "rtsp",
       "onvif"
     ],
-    "ip_rating": "IP66",
+    "ip_rating": "IP65",
     "audio": {
       "microphone": true,
       "speaker": true,
       "two_way": true
     },
     "features": [
-      "dual-lens wide+tele WiFi outdoor auto-tracking",
-      "smart pan/tilt motorized",
-      "color spotlight",
-      "person/vehicle/animal/package AI",
-      "ONVIF/RTSP",
-      "IP66",
+      "dual-lens dual-view",
+      "auto-tracking",
+      "6x hybrid zoom",
+      "355° pan / 90° tilt",
+      "person/vehicle/pet detection",
+      "spotlight color night vision",
       "no subscription"
     ],
+    "msrp_usd": 161,
+    "sources": [
+      "https://reolink.com/product/reolink-trackmix-poe/"
+    ]
+  },
+  {
+    "id": "reolink-trackmix-wifi",
+    "brand": "Reolink",
+    "model": "TrackMix WiFi",
+    "type": "ptz",
+    "connectivity": [
+      "wifi",
+      "ethernet"
+    ],
+    "release_year": 2023,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/3\" CMOS (wide) + 1/2.8\" CMOS (telephoto)",
+    "lens": {
+      "count": 2,
+      "focal_length_mm": "2.8 (wide) + 8 (telephoto)",
+      "aperture": "F1.6"
+    },
+    "field_of_view_deg": "104 horizontal (wide) / 38 horizontal (telephoto)",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 30
+    },
+    "power": {
+      "method": "DC 12V/2A"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "dual-lens dual-view",
+      "auto-tracking",
+      "6x hybrid zoom",
+      "355° pan / 90° tilt",
+      "Wi-Fi 6 dual-band",
+      "person/vehicle/animal detection",
+      "spotlight color night vision",
+      "time-lapse",
+      "no subscription"
+    ],
+    "msrp_usd": 190,
     "sources": [
       "https://reolink.com/product/reolink-trackmix-wifi/"
-    ],
-    "msrp_usd": 99
+    ]
   },
   {
     "id": "reolink-video-doorbell-2nd-gen",
@@ -71961,6 +73636,193 @@
     ]
   },
   {
+    "id": "ubiquiti-ai-dslr",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect AI DSLR",
+    "aliases": [
+      "UVC-AI-DSLR"
+    ],
+    "type": "box",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "interchangeable (C/CS mount)"
+    },
+    "night_vision": {
+      "type": "ir",
+      "range_m": 0
+    },
+    "power": {
+      "method": "PoE (802.3bt)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "4K UHD",
+      "1\" large sensor",
+      "interchangeable lens (C/CS mount)",
+      "on-device AI analytics",
+      "license plate recognition",
+      "face detection",
+      "UniFi Protect ecosystem"
+    ],
+    "release_year": 2024,
+    "msrp_usd": 999,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-ai-dslr"
+    ]
+  },
+  {
+    "id": "ubiquiti-ai-pro",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect AI Pro",
+    "aliases": [
+      "UVC-AI-Pro"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/1.2\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-12",
+      "aperture": "F1.4",
+      "varifocal": true
+    },
+    "field_of_view_deg": "118-40 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 50
+    },
+    "power": {
+      "method": "PoE (802.3bt)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "4K UHD",
+      "1/1.2\" large sensor",
+      "4x optical zoom",
+      "on-device AI analytics",
+      "license plate recognition",
+      "face detection",
+      "auto-tracking",
+      "UniFi Protect ecosystem",
+      "two-way audio"
+    ],
+    "release_year": 2024,
+    "msrp_usd": 499,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-ai-pro"
+    ]
+  },
+  {
+    "id": "ubiquiti-ai-pro-white",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect AI Pro White",
+    "aliases": [
+      "UVC-AI-Pro-White"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/1.2\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8-12",
+      "aperture": "F1.4",
+      "varifocal": true
+    },
+    "field_of_view_deg": "118-40 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 50
+    },
+    "power": {
+      "method": "PoE (802.3bt)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "4K UHD",
+      "1/1.2\" large sensor",
+      "4x optical zoom",
+      "white housing",
+      "on-device AI analytics",
+      "license plate recognition",
+      "face detection",
+      "auto-tracking",
+      "UniFi Protect ecosystem",
+      "two-way audio"
+    ],
+    "release_year": 2024,
+    "msrp_usd": 499,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-ai-pro-white"
+    ]
+  },
+  {
     "id": "ubiquiti-ai-theta-pro",
     "brand": "Ubiquiti",
     "model": "UniFi Protect AI Theta Pro",
@@ -72308,6 +74170,125 @@
     ]
   },
   {
+    "id": "ubiquiti-g4-dome-mini",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect G4 Dome Mini",
+    "aliases": [
+      "UVC-G4-DOME-MINI"
+    ],
+    "type": "dome",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 2688,
+      "max_height": 1512,
+      "label": "4MP QHD"
+    },
+    "sensor": "1/3\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "aperture": "F2.0",
+      "varifocal": false
+    },
+    "field_of_view_deg": "98 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 15
+    },
+    "power": {
+      "method": "PoE (802.3af)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP44",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "compact indoor dome",
+      "AI event detection person/vehicle",
+      "UniFi Protect ecosystem",
+      "built-in mic"
+    ],
+    "release_year": 2023,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-dome-mini"
+    ]
+  },
+  {
+    "id": "ubiquiti-g4-doorbell",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect G4 Doorbell",
+    "aliases": [
+      "UVC-G4-Doorbell"
+    ],
+    "type": "covert",
+    "connectivity": [
+      "wifi",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2560,
+      "max_height": 1920,
+      "label": "5MP"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "1.65",
+      "aperture": "F2.4",
+      "varifocal": false
+    },
+    "field_of_view_deg": "155 diagonal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 8
+    },
+    "power": {
+      "method": "Existing doorbell wiring (16-24VAC)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "video doorbell",
+      "built-in display",
+      "WiFi 6",
+      "person detection",
+      "package detection",
+      "two-way audio",
+      "UniFi Protect ecosystem"
+    ],
+    "release_year": 2022,
+    "msrp_usd": 199,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-doorbell"
+    ]
+  },
+  {
     "id": "ubiquiti-g4-doorbell-pro",
     "brand": "Ubiquiti",
     "model": "UniFi Protect G4 Doorbell Pro",
@@ -72545,6 +74526,182 @@
     ]
   },
   {
+    "id": "ubiquiti-g5-bullet",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect G5 Bullet",
+    "aliases": [
+      "UVC-G5-Bullet"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2688,
+      "max_height": 1512,
+      "label": "2K"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "aperture": "F1.6",
+      "varifocal": false
+    },
+    "field_of_view_deg": "104 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 25
+    },
+    "power": {
+      "method": "PoE (802.3af)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "AI event detection person/vehicle",
+      "UniFi Protect ecosystem",
+      "weatherproof IP66",
+      "built-in mic"
+    ],
+    "release_year": 2024,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-bullet"
+    ]
+  },
+  {
+    "id": "ubiquiti-g5-dome",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect G5 Dome",
+    "aliases": [
+      "UVC-G5-Dome"
+    ],
+    "type": "dome",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "max_width": 2688,
+      "max_height": 1512,
+      "label": "2K"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "aperture": "F1.6",
+      "varifocal": false
+    },
+    "field_of_view_deg": "104 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 15
+    },
+    "power": {
+      "method": "PoE (802.3af)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "AI event detection person/vehicle",
+      "UniFi Protect ecosystem",
+      "IK08 vandal-resistant",
+      "built-in mic"
+    ],
+    "release_year": 2024,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome"
+    ]
+  },
+  {
+    "id": "ubiquiti-g5-dome-ultra",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect G5 Dome Ultra",
+    "aliases": [
+      "UVC-G5-Dome-Ultra"
+    ],
+    "type": "dome",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/1.8\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "aperture": "F1.6",
+      "varifocal": false
+    },
+    "field_of_view_deg": "106 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 25
+    },
+    "power": {
+      "method": "PoE (802.3at)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "4K UHD",
+      "1/1.8\" large sensor",
+      "AI event detection person/vehicle",
+      "UniFi Protect ecosystem",
+      "IK10 vandal-resistant",
+      "built-in mic"
+    ],
+    "release_year": 2024,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra"
+    ]
+  },
+  {
     "id": "ubiquiti-g5-flex",
     "brand": "Ubiquiti",
     "model": "UniFi Protect G5 Flex",
@@ -72605,13 +74762,13 @@
     ]
   },
   {
-    "id": "ubiquiti-g5-ptz",
+    "id": "ubiquiti-g5-pro",
     "brand": "Ubiquiti",
-    "model": "UniFi Protect G5 PTZ",
+    "model": "UniFi Protect G5 Pro",
     "aliases": [
-      "UVC-G5-PTZ"
+      "UVC-G5-Pro"
     ],
-    "type": "ptz",
+    "type": "bullet",
     "connectivity": [
       "poe",
       "ethernet"
@@ -72622,19 +74779,20 @@
       "max_height": 2160,
       "label": "4K UHD"
     },
-    "sensor": "1/2\" CMOS",
+    "sensor": "1/1.8\" CMOS",
     "lens": {
       "count": 1,
-      "focal_length_mm": "5-185 (22x optical zoom)",
+      "focal_length_mm": "2.8-12",
+      "aperture": "F1.6",
       "varifocal": true
     },
-    "field_of_view_deg": "51-2.4 horizontal",
+    "field_of_view_deg": "108-38 horizontal",
     "night_vision": {
       "type": "ir",
-      "range_m": 150
+      "range_m": 30
     },
     "power": {
-      "method": "High PoE (802.3bt)"
+      "method": "PoE (802.3at)"
     },
     "storage": {
       "onboard": false,
@@ -72651,15 +74809,75 @@
       "two_way": false
     },
     "features": [
-      "22x optical zoom",
-      "360deg endless pan",
-      "auto-tracking",
+      "4K UHD",
+      "4x optical zoom",
+      "1/1.8\" large sensor",
+      "AI event detection person/vehicle",
       "UniFi Protect ecosystem",
       "built-in mic"
     ],
     "release_year": 2024,
     "sources": [
-      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-ptz"
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-pro"
+    ]
+  },
+  {
+    "id": "ubiquiti-g5-turret",
+    "brand": "Ubiquiti",
+    "model": "UniFi Protect G5 Turret",
+    "aliases": [
+      "UVC-G5-Turret"
+    ],
+    "type": "turret",
+    "connectivity": [
+      "poe",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 2688,
+      "max_height": 1512,
+      "label": "4MP QHD"
+    },
+    "sensor": "1/3\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.8",
+      "aperture": "F1.6",
+      "varifocal": false
+    },
+    "field_of_view_deg": "106 horizontal",
+    "night_vision": {
+      "type": "ir",
+      "range_m": 15
+    },
+    "power": {
+      "method": "PoE (802.3af)"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP65",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "AI event detection person/vehicle",
+      "UniFi Protect ecosystem",
+      "compact turret",
+      "built-in mic"
+    ],
+    "release_year": 2024,
+    "msrp_usd": 99,
+    "sources": [
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-turret"
     ]
   },
   {
@@ -72722,385 +74940,13 @@
     ]
   },
   {
-    "id": "ubiquiti-unifi-ai-bullet",
+    "id": "ubiquiti-g6-ptz",
     "brand": "Ubiquiti",
-    "model": "UniFi AI Bullet",
+    "model": "UniFi Protect G6 PTZ",
     "aliases": [
-      "UVC-AI-BULLET",
-      "UniFi 4K AI Outdoor Bullet"
+      "UVC-G6-PTZ"
     ],
-    "type": "bullet",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
-    },
-    "sensor": "1/1.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "4 (fixed)",
-      "aperture": "F1.8",
-      "varifocal": false
-    },
-    "field_of_view_deg": "90 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 40
-    },
-    "power": {
-      "method": "PoE (802.3bt)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": true,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "4K AI outdoor bullet",
-      "on-device AI analytics (person/vehicle/animal/LPR)",
-      "NDAA compliant",
-      "UniFi Protect integration",
-      "IP66",
-      "H.265 smart encoding"
-    ],
-    "msrp_usd": 399,
-    "sources": [
-      "https://store.ui.com/us/en/products/uvc-ai-bullet"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-ai-pro",
-    "brand": "Ubiquiti",
-    "model": "UniFi AI Pro",
-    "aliases": [
-      "UVC-AI-Pro",
-      "Ubiquiti 8MP AI Camera"
-    ],
-    "type": "dome",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "markets": [
-      "US",
-      "CA"
-    ],
-    "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
-    },
-    "sensor": "1/1.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.6-9.8 (motorized varifocal)",
-      "aperture": "F1.5",
-      "varifocal": true
-    },
-    "field_of_view_deg": "108-37 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 40
-    },
-    "power": {
-      "method": "PoE (802.3bt)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp",
-      "onvif"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": true,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "4K 8MP motorized varifocal",
-      "UniFi Protect integration (NVR/cloud)",
-      "on-device AI analytics (person/vehicle/animal/license plate)",
-      "F1.5 large aperture",
-      "smart video encoding",
-      "Ubiquiti ecosystem integration (UniFi network/access)",
-      "NDAA compliant",
-      "IP66",
-      "IK10",
-      "popular prosumer/SMB/home lab USA"
-    ],
-    "msrp_usd": 499,
-    "sources": [
-      "https://store.ui.com/us/en/products/uvc-ai-pro"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-ai-theta-pro",
-    "brand": "Ubiquiti",
-    "model": "UniFi AI Theta Pro",
-    "aliases": [
-      "UVC-AI-THETA-PRO",
-      "UniFi 4K 360° Multi-Lens Panoramic"
-    ],
-    "type": "panoramic",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 8,
-      "label": "4K 360° multi-lens panoramic"
-    },
-    "sensor": "Multi CMOS",
-    "lens": {
-      "count": 4,
-      "focal_length_mm": "2.4mm fisheye",
-      "aperture": "F1.6",
-      "varifocal": false
-    },
-    "field_of_view_deg": "360 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 15
-    },
-    "power": {
-      "method": "PoE (802.3bt)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IP54",
-    "audio": {
-      "microphone": true,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "360° AI panoramic ceiling camera",
-      "4K multi-lens stitched view",
-      "on-device AI analytics",
-      "NDAA compliant",
-      "UniFi Protect",
-      "H.265 smart encoding",
-      "zero blind spots",
-      "popular large open spaces/warehouses/retail"
-    ],
-    "msrp_usd": 499,
-    "sources": [
-      "https://store.ui.com/us/en/products/uvc-ai-theta-pro"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-g4-dome",
-    "brand": "Ubiquiti",
-    "model": "UniFi Protect G4 Dome",
-    "aliases": [
-      "UVC-G4-Dome"
-    ],
-    "type": "dome",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2688,
-      "max_height": 1512,
-      "label": "2K"
-    },
-    "sensor": "1/2.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.8 (fixed)",
-      "aperture": "F1.6",
-      "varifocal": false
-    },
-    "field_of_view_deg": "88.5 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 15
-    },
-    "power": {
-      "method": "PoE (802.3af)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IPX4",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "AI event detection person/vehicle",
-      "UniFi Protect ecosystem",
-      "IK08",
-      "compact ceiling mount"
-    ],
-    "release_year": 2021,
-    "sources": [
-      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-dome"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-g5-bullet",
-    "brand": "Ubiquiti",
-    "model": "UniFi Protect G5 Bullet",
-    "aliases": [
-      "UVC-G5-Bullet"
-    ],
-    "type": "bullet",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2688,
-      "max_height": 1512,
-      "label": "2K"
-    },
-    "sensor": "1/2.7\" CMOS (5MP)",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "3.4 (fixed)",
-      "aperture": "F1.6",
-      "varifocal": false
-    },
-    "field_of_view_deg": "84.4 horizontal / 45.4 vertical",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 10
-    },
-    "power": {
-      "method": "PoE (802.3af)",
-      "voltage": "PoE"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IPX4",
-    "audio": {
-      "microphone": true,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "AI event detection (person/vehicle/motion zones)",
-      "3-axis adjustable mount",
-      "UniFi Protect ecosystem",
-      "IK04 impact rating"
-    ],
-    "dimensions_mm": "Φ75.5 × 74.4",
-    "weight_g": 225,
-    "sources": [
-      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-bullet"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-g5-dome",
-    "brand": "Ubiquiti",
-    "model": "UniFi Protect G5 Dome",
-    "aliases": [
-      "UVC-G5-Dome"
-    ],
-    "type": "dome",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 5,
-      "max_width": 2688,
-      "max_height": 1512,
-      "label": "2K"
-    },
-    "sensor": "1/2.7\" CMOS (5MP)",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "3.2 (fixed)",
-      "aperture": "F1.6",
-      "varifocal": false
-    },
-    "field_of_view_deg": "95 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 15
-    },
-    "power": {
-      "method": "PoE (802.3af)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IPX4",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "AI event detection person/vehicle",
-      "smoke/CO alarm detection",
-      "UniFi Protect ecosystem",
-      "IK08",
-      "compact ceiling mount"
-    ],
-    "release_year": 2023,
-    "sources": [
-      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-g5-pro",
-    "brand": "Ubiquiti",
-    "model": "UniFi Protect G5 Professional",
-    "aliases": [
-      "UVC-G5-Pro"
-    ],
-    "type": "bullet",
+    "type": "ptz",
     "connectivity": [
       "poe",
       "ethernet"
@@ -73114,76 +74960,16 @@
     "sensor": "1/2\" CMOS",
     "lens": {
       "count": 1,
-      "focal_length_mm": "4.1-12.3",
+      "focal_length_mm": "5-185 (22x optical zoom)",
       "varifocal": true
     },
-    "field_of_view_deg": "109.9-35 horizontal",
+    "field_of_view_deg": "51-2.4 horizontal",
     "night_vision": {
       "type": "ir",
-      "range_m": 25
+      "range_m": 150
     },
     "power": {
-      "method": "PoE",
-      "voltage": "PoE"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IP65",
-    "audio": {
-      "microphone": true,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "3x optical zoom",
-      "AI event detection (person/vehicle)",
-      "UniFi Protect ecosystem",
-      "IK04 impact rating"
-    ],
-    "sources": [
-      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-pro"
-    ]
-  },
-  {
-    "id": "ubiquiti-unifi-g5-ptz",
-    "brand": "Ubiquiti",
-    "model": "UniFi G5 PTZ",
-    "aliases": [
-      "UVC-G5-PTZ",
-      "UniFi 4K 22x Pan/Tilt/Zoom"
-    ],
-    "type": "ptz",
-    "connectivity": [
-      "poe",
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2688,
-      "max_height": 1512,
-      "label": "4MP QHD"
-    },
-    "sensor": "1/2.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "4.3-94.6 (22x optical)",
-      "aperture": "F1.6",
-      "varifocal": true
-    },
-    "field_of_view_deg": "55-2.7 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 50
-    },
-    "power": {
-      "method": "PoE (802.3bt)"
+      "method": "High PoE (802.3bt)"
     },
     "storage": {
       "onboard": false,
@@ -73200,18 +74986,16 @@
       "two_way": false
     },
     "features": [
-      "4MP 22x optical zoom PTZ",
-      "360° continuous pan",
-      "UniFi Protect integration",
+      "22x optical zoom",
+      "360° endless pan",
       "auto-tracking",
-      "NDAA compliant",
-      "IP66",
-      "H.265 smart encoding",
-      "popular prosumer/SMB PTZ"
+      "UniFi Protect ecosystem",
+      "built-in mic",
+      "4K UHD"
     ],
-    "msrp_usd": 499,
+    "release_year": 2024,
     "sources": [
-      "https://store.ui.com/us/en/products/uvc-g5-ptz"
+      "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g6-ptz"
     ]
   },
   {

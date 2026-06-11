@@ -1,0 +1,21 @@
+{
+  "id": "reolink-elite-wifi",
+  "brand": "Reolink",
+  "model": "Elite WiFi",
+  "type": "dual-lens",
+  "connectivity": ["wifi"],
+  "release_year": 2025,
+  "resolution": { "megapixels": 8, "max_width": 5120, "max_height": 1552, "label": "4K Panoramic" },
+  "sensor": "1/2.7\" CMOS (x2)",
+  "lens": { "count": 2, "focal_length_mm": "2.8", "aperture": "F1.6" },
+  "field_of_view_deg": "180 horizontal",
+  "night_vision": { "type": "color", "range_m": 30 },
+  "power": { "method": "DC 12V/2A" },
+  "storage": { "onboard": true, "max_microsd_gb": 512, "nvr_compatible": true, "cloud": false },
+  "protocols": ["rtsp", "onvif"],
+  "ip_rating": "IP67",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["180° panoramic dual-lens", "WiFi 6", "person/vehicle/animal detection", "virtual fence", "zone intrusion detection", "spotlight + siren", "Bluetooth", "no subscription"],
+  "msrp_usd": 160,
+  "sources": ["https://reolink.com/product/elite-wifi/"]
+}

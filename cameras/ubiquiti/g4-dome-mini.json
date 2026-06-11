@@ -1,0 +1,21 @@
+{
+  "id": "ubiquiti-g4-dome-mini",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G4 Dome Mini",
+  "aliases": ["UVC-G4-DOME-MINI"],
+  "type": "dome",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 4, "max_width": 2688, "max_height": 1512, "label": "4MP QHD" },
+  "sensor": "1/3\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8", "aperture": "F2.0", "varifocal": false },
+  "field_of_view_deg": "98 horizontal",
+  "night_vision": { "type": "ir", "range_m": 15 },
+  "power": { "method": "PoE (802.3af)" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["rtsp"],
+  "ip_rating": "IP44",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": ["compact indoor dome", "AI event detection person/vehicle", "UniFi Protect ecosystem", "built-in mic"],
+  "release_year": 2023,
+  "sources": ["https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-dome-mini"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "laview-r18",
+  "brand": "LaView",
+  "model": "R18",
+  "type": "ptz",
+  "connectivity": ["4g"],
+  "release_year": 2024,
+  "resolution": { "megapixels": 3, "label": "3MP" },
+  "night_vision": { "type": "color" },
+  "power": { "method": "Built-in solar panel" },
+  "storage": { "onboard": true, "max_microsd_gb": 128, "nvr_compatible": false, "cloud": true },
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["360° pan / 90° tilt", "4G LTE (no WiFi needed)", "solar powered", "smart PIR detection", "color night vision", "real-time alerts"],
+  "msrp_usd": 130,
+  "sources": ["https://www.laviewusa.com/products/r18-outdoor-360-camera-copy"]
+}
