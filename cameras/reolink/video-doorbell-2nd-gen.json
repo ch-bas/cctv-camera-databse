@@ -2,7 +2,7 @@
   "id": "reolink-video-doorbell-2nd-gen",
   "brand": "Reolink",
   "model": "Video Doorbell 2nd Gen",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -49,5 +49,6 @@
   "msrp_usd": 129,
   "power_source": [
     "battery"
-  ]
+  ],
+  "status": "announced"
 }

@@ -5,7 +5,7 @@
   "aliases": [
     "TP-Link Tapo D235 3K Wired Doorbell"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -37,6 +37,8 @@
     "cloud": true
   },
   "protocols": [
+    "rtsp",
+    "onvif",
     "http"
   ],
   "ip_rating": "IP44",
@@ -60,5 +62,25 @@
   ],
   "power_source": [
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 720,
+        "height": 960,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2",
+      "notes": "RTSP only works when hardwired with Always-On mode enabled in Tapo app (Advanced Settings > Always-On). Portrait 3:4 aspect ratio — set detect to 720x960. Must enable ONVIF/RTSP in Tapo app under Camera Settings > Advanced."
+    },
+    "home_assistant": {
+      "integration": "tapo",
+      "notes": "Native TP-Link Tapo integration. Doorbell press exposed as event. RTSP requires Always-On mode (hardwired only). For local-only setup use ONVIF integration as alternative."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Requires Always-On mode enabled in Tapo app."
+    }
+  }
 }

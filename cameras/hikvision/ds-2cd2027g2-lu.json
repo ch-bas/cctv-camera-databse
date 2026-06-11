@@ -28,8 +28,7 @@
     "range_m": 40
   },
   "power": {
-    "method": "PoE (802.3af) / DC 12V",
-    "consumption_w": 4.4
+    "method": "PoE (802.3af) / DC 12V"
   },
   "storage": {
     "onboard": true,

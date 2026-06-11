@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Ubiquiti |
 | Model | UniFi Protect G4 Doorbell |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi, ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" CMOS |

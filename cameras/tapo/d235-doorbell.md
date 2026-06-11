@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Tapo |
 | Model | D235 |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 3K 5MP (5MP, 2880×1620) |
 | Lens | 1× Fixedmm F1.6 |
@@ -14,7 +14,7 @@
 | Night vision | color (5m) |
 | Power | Hardwired (existing 16-24V AC doorbell wiring) |
 | Storage | microSD ≤ 256GB |
-| Protocols | http |
+| Protocols | rtsp, onvif, http |
 | IP rating | IP44 |
 | Two-way audio | Yes |
 | Released | 2024 |

@@ -30,7 +30,6 @@
   },
   "power": {
     "method": "PoE IEEE 802.3af, 48V Active / DC 12V",
-    "consumption_w": 15,
     "voltage": "48V (PoE) / 12V (DC)"
   },
   "storage": {

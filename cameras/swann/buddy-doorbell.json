@@ -2,7 +2,7 @@
   "id": "swann-buddy-doorbell",
   "brand": "Swann",
   "model": "Buddy Video Doorbell",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

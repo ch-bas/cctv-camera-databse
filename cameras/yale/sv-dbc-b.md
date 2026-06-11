@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Yale |
 | Model | Smart Video Doorbell Colour |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 150h° |

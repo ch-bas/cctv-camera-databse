@@ -2,7 +2,7 @@
   "id": "abus-ppic94021",
   "brand": "ABUS",
   "model": "PPIC94021",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -48,5 +48,11 @@
   "power_source": [
     "battery",
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "ABUS doorbell. Check if RTSP/ONVIF is supported on this specific model — many ABUS doorbells are app-only. If RTSP is available, use ONVIF integration."
+    }
+  }
 }

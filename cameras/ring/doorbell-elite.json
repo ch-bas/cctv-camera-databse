@@ -5,7 +5,7 @@
   "aliases": [
     "Ring Video Doorbell Elite PoE"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "ethernet"
   ],

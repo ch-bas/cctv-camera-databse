@@ -6,7 +6,7 @@
     "Eufy S330 4K Wired Doorbell",
     "T8214"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -37,6 +37,7 @@
     "cloud": false
   },
   "protocols": [
+    "rtsp",
     "http"
   ],
   "ip_rating": "IP65",
@@ -62,5 +63,20 @@
   "power_source": [
     "battery",
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 720,
+        "height": 960,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{ip}:8554/live0",
+      "notes": "RTSP must be enabled per-camera in the Eufy app (Settings > Storage > NAS > RTSP). Portrait aspect — set detect to 720x960. No ONVIF support. RTSP stream may drop when on battery; hardwired recommended."
+    },
+    "home_assistant": {
+      "integration": "eufy_security",
+      "notes": "Use eufy_security HACS integration. RTSP must be enabled in Eufy app. Doorbell press exposed as event."
+    }
+  }
 }

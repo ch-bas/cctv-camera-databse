@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Google |
 | Model | Nest Doorbell (Wired, 2nd Gen) UK |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 960x1280 HD (2MP, 960×1280) |
 | Lens | 1× |

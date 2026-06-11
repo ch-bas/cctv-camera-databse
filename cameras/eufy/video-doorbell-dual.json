@@ -2,7 +2,7 @@
   "id": "eufy-video-doorbell-dual",
   "brand": "Eufy",
   "model": "Video Doorbell Dual (E8213)",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -30,6 +30,7 @@
     "cloud": false
   },
   "protocols": [
+    "rtsp",
     "http"
   ],
   "ip_rating": "IP65",
@@ -55,5 +56,20 @@
   "power_source": [
     "battery",
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 720,
+        "height": 960,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{ip}:8554/live0",
+      "notes": "RTSP must be enabled in Eufy app. Dual-lens doorbell — only the main lens streams via RTSP. Portrait aspect — set detect to 720x960. Hardwired recommended for continuous RTSP."
+    },
+    "home_assistant": {
+      "integration": "eufy_security",
+      "notes": "Use eufy_security HACS integration. Doorbell press exposed as event. Dual-lens: only main camera accessible via RTSP."
+    }
+  }
 }

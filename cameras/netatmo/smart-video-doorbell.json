@@ -6,7 +6,7 @@
     "Netatmo NDB01-EU Video Doorbell",
     "Netatmo Sonnette vidéo connectée"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

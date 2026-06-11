@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Wyze |
 | Model | Video Doorbell v2 |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1920) |
 | Lens | 1× Fixedmm F2.0 |
@@ -12,7 +12,7 @@
 | Night vision | color (6m) |
 | Power | Hardwired (existing doorbell wiring 16-24V AC) |
 | Storage | microSD ≤ 32GB |
-| Protocols | rtsp |
+| Protocols | http, p2p |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2024 |

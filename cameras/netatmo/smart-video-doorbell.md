@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Netatmo |
 | Model | Smart Video Doorbell |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 1080p+ 4:3 (4MP, 1920×1440) |
 | Lens | 1× Fixedmm F2.0 |

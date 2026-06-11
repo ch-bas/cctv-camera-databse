@@ -4,28 +4,29 @@
 |-------|------|
 | Brand | Reolink |
 | Model | Video Doorbell WiFi |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
-| Resolution | 2K QHD (5MP) |
+| Resolution | 5MP (5MP, 2560×1920) |
 | Field of view | 160 diagonal° |
 | Night vision | color (5m) |
-| Power | Rechargeable battery / hardwired optional |
-| Storage | microSD ≤ 256GB |
-| Protocols | http |
+| Power | Existing doorbell wiring (12-24VAC 50/60Hz or 24VDC) |
+| Storage | microSD ≤ 256GB, NVR |
+| Protocols | onvif, rtsp |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2022 |
 
 ## Features
 
-- 2K QHD WiFi battery doorbell
-- head-to-toe view
+- 5MP wired WiFi doorbell
+- head-to-toe 3:4 portrait view (white) / 4:3 landscape (black)
 - color night vision
 - person detection
 - two-way audio
+- chime built-in
 - no subscription
 - Alexa/Google
-- IP65
+- works with Reolink NVR and Home Hub
 
 ## Sources
 

@@ -4,7 +4,13 @@
   "title": "CCTV Camera",
   "description": "Schema for a single CCTV / IP camera entry.",
   "type": "object",
-  "required": ["id", "brand", "model", "type", "resolution"],
+  "required": [
+    "id",
+    "brand",
+    "model",
+    "type",
+    "resolution"
+  ],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -12,104 +18,261 @@
       "description": "Unique slug, e.g. 'reolink-duo-2'.",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     },
-    "brand": { "type": "string" },
-    "model": { "type": "string" },
+    "brand": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
     "aliases": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Alternate names / SKUs."
     },
     "type": {
       "type": "string",
-      "enum": ["bullet", "dome", "turret", "ptz", "dual-lens", "fisheye", "covert", "box", "panoramic"]
+      "enum": [
+        "bullet",
+        "dome",
+        "turret",
+        "ptz",
+        "dual-lens",
+        "fisheye",
+        "covert",
+        "box",
+        "panoramic",
+        "doorbell"
+      ]
     },
     "connectivity": {
       "type": "array",
-      "items": { "type": "string", "enum": ["wifi", "ethernet", "4g", "coax"] },
-      "description": "Network connectivity only — how the camera sends data."
+      "items": {
+        "type": "string",
+        "enum": [
+          "wifi",
+          "ethernet",
+          "4g",
+          "coax"
+        ]
+      },
+      "description": "Network connectivity only \u2014 how the camera sends data."
     },
     "power_source": {
       "type": "array",
-      "items": { "type": "string", "enum": ["poe", "dc", "usb", "battery", "solar", "ac-mains"] },
+      "items": {
+        "type": "string",
+        "enum": [
+          "poe",
+          "dc",
+          "usb",
+          "battery",
+          "solar",
+          "ac-mains"
+        ]
+      },
       "description": "How the camera is powered."
     },
     "resolution": {
       "type": "object",
-      "required": ["megapixels"],
+      "required": [
+        "megapixels"
+      ],
       "additionalProperties": false,
       "properties": {
-        "megapixels": { "type": "number" },
-        "max_width": { "type": "integer" },
-        "max_height": { "type": "integer" },
-        "label": { "type": "string", "description": "e.g. '4K', '1080p'." }
+        "megapixels": {
+          "type": "number"
+        },
+        "max_width": {
+          "type": "integer"
+        },
+        "max_height": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "string",
+          "description": "e.g. '4K', '1080p'."
+        }
       }
     },
-    "sensor": { "type": "string", "description": "e.g. '1/2.7\" CMOS'." },
+    "video": {
+      "type": "object",
+      "description": "Codec, FPS, and streaming capabilities.",
+      "additionalProperties": false,
+      "properties": {
+        "codecs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Supported video codecs, e.g. ['H.265', 'H.264', 'MJPEG']."
+        },
+        "max_fps": {
+          "type": "integer",
+          "description": "Max FPS at highest resolution."
+        },
+        "streams": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "e.g. 'main', 'sub', 'third'."
+              },
+              "resolution": {
+                "type": "string",
+                "description": "e.g. '3840x2160'."
+              },
+              "fps": {
+                "type": "integer"
+              },
+              "codec": {
+                "type": "string"
+              }
+            }
+          },
+          "description": "Per-stream resolution/fps/codec breakdown."
+        }
+      }
+    },
+    "sensor": {
+      "type": "string",
+      "description": "e.g. '1/2.7\" CMOS'."
+    },
     "lens": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "count": { "type": "integer" },
-        "focal_length_mm": { "type": "string" },
-        "aperture": { "type": "string" },
-        "varifocal": { "type": "boolean" }
+        "count": {
+          "type": "integer"
+        },
+        "focal_length_mm": {
+          "type": "string"
+        },
+        "aperture": {
+          "type": "string"
+        },
+        "varifocal": {
+          "type": "boolean"
+        }
       }
     },
-    "field_of_view_deg": { "type": "string" },
+    "field_of_view_deg": {
+      "type": "string"
+    },
     "night_vision": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "type": { "type": "string", "enum": ["ir", "color", "hybrid", "none"] },
-        "range_m": { "type": "integer" }
+        "type": {
+          "type": "string",
+          "enum": [
+            "ir",
+            "color",
+            "hybrid",
+            "none"
+          ]
+        },
+        "range_m": {
+          "type": "integer"
+        }
       }
     },
     "power": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "method": { "type": "string" },
-        "consumption_w": { "type": "number" },
-        "voltage": { "type": "string" }
+        "method": {
+          "type": "string"
+        },
+        "consumption_w": {
+          "type": "number"
+        },
+        "voltage": {
+          "type": "string"
+        }
       }
     },
     "storage": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "onboard": { "type": "boolean" },
-        "max_microsd_gb": { "type": "integer" },
-        "nvr_compatible": { "type": "boolean" },
-        "cloud": { "type": "boolean" }
+        "onboard": {
+          "type": "boolean"
+        },
+        "max_microsd_gb": {
+          "type": "integer"
+        },
+        "nvr_compatible": {
+          "type": "boolean"
+        },
+        "cloud": {
+          "type": "boolean"
+        }
       }
     },
     "protocols": {
       "type": "array",
-      "items": { "type": "string", "enum": ["onvif", "rtsp", "rtmp", "http", "p2p"] }
+      "items": {
+        "type": "string",
+        "enum": [
+          "onvif",
+          "rtsp",
+          "rtmp",
+          "http",
+          "p2p"
+        ]
+      }
     },
-    "ip_rating": { "type": "string", "description": "e.g. 'IP66', 'IP67'." },
+    "ip_rating": {
+      "type": "string",
+      "description": "e.g. 'IP66', 'IP67'."
+    },
     "audio": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "microphone": { "type": "boolean" },
-        "speaker": { "type": "boolean" },
-        "two_way": { "type": "boolean" }
+        "microphone": {
+          "type": "boolean"
+        },
+        "speaker": {
+          "type": "boolean"
+        },
+        "two_way": {
+          "type": "boolean"
+        }
       }
     },
     "features": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "e.g. 'person detection', 'vehicle detection', 'auto-tracking'."
     },
-    "operating_temp_c": { "type": "string" },
-    "dimensions_mm": { "type": "string" },
-    "weight_g": { "type": "number" },
-    "release_year": { "type": "integer" },
-    "msrp_usd": { "type": "number" },
+    "operating_temp_c": {
+      "type": "string"
+    },
+    "dimensions_mm": {
+      "type": "string"
+    },
+    "weight_g": {
+      "type": "number"
+    },
+    "release_year": {
+      "type": "integer"
+    },
+    "msrp_usd": {
+      "type": "number"
+    },
     "sources": {
       "type": "array",
-      "items": { "type": "string", "format": "uri" },
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
       "description": "Official spec page / datasheet URLs."
     },
     "configs": {
@@ -125,33 +288,66 @@
             "detect": {
               "type": "object",
               "properties": {
-                "width": { "type": "integer" },
-                "height": { "type": "integer" },
-                "fps": { "type": "integer" }
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "fps": {
+                  "type": "integer"
+                }
               }
             },
-            "rtsp_url_template": { "type": "string", "description": "RTSP URL pattern, e.g. rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main" },
-            "best_substream": { "type": "string", "description": "Recommended sub-stream path." },
-            "notes": { "type": "string" }
+            "rtsp_url_template": {
+              "type": "string",
+              "description": "RTSP URL pattern, e.g. rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main"
+            },
+            "best_substream": {
+              "type": "string",
+              "description": "Recommended sub-stream path."
+            },
+            "notes": {
+              "type": "string"
+            }
           }
         },
         "home_assistant": {
           "type": "object",
           "description": "Home Assistant integration notes.",
           "properties": {
-            "integration": { "type": "string", "description": "e.g. 'onvif', 'reolink', 'frigate'" },
-            "notes": { "type": "string" }
+            "integration": {
+              "type": "string",
+              "description": "e.g. 'onvif', 'reolink', 'frigate'"
+            },
+            "notes": {
+              "type": "string"
+            }
           }
         },
         "blue_iris": {
           "type": "object",
           "description": "Blue Iris configuration notes.",
           "properties": {
-            "profile": { "type": "string", "description": "Camera type profile in Blue Iris." },
-            "notes": { "type": "string" }
+            "profile": {
+              "type": "string",
+              "description": "Camera type profile in Blue Iris."
+            },
+            "notes": {
+              "type": "string"
+            }
           }
         }
       }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "available",
+        "announced",
+        "discontinued"
+      ],
+      "description": "Product availability status."
     }
   }
 }

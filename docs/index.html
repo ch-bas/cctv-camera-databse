@@ -1253,6 +1253,16 @@ function openDrawer(cam) {
       ${row('Night vision', cam.night_vision?.type ? cam.night_vision.type + (cam.night_vision.range_m ? ' · ' + cam.night_vision.range_m + 'm' : '') : null)}
       ${row('IP rating', cam.ip_rating)}
       ${row('Power', cam.power?.method)}
+      ${row('Power draw', cam.power?.consumption_w ? cam.power.consumption_w + 'W' : null)}
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-title">Video</div>
+      ${row('Codecs', (cam.video?.codecs ?? []).join(', '))}
+      ${row('Max FPS', cam.video?.max_fps ? cam.video.max_fps + ' fps' : null)}
+      ${cam.video?.streams?.length ? cam.video.streams.map(s =>
+        row(s.name + ' stream', s.resolution + ' @ ' + s.fps + 'fps (' + s.codec + ')')
+      ).join('') : ''}
     </div>
     <div class="drawer-section">
       <div class="drawer-section-title">Connectivity & Storage</div>

@@ -2,7 +2,7 @@
   "id": "reolink-video-doorbell-se",
   "brand": "Reolink",
   "model": "Video Doorbell SE",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -48,5 +48,6 @@
   "msrp_usd": 79,
   "power_source": [
     "battery"
-  ]
+  ],
+  "status": "announced"
 }

@@ -4,14 +4,14 @@
 |-------|------|
 | Brand | Eufy |
 | Model | Video Doorbell Dual (E8213) |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Lens | 2× |
 | Field of view | 180 diagonal (dual)° |
 | Night vision | color (5m) |
 | Power | Built-in rechargeable battery (6 months) / hardwired 16-24 VAC |
-| Protocols | http |
+| Protocols | rtsp, http |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2022 |

@@ -5,7 +5,7 @@
   "aliases": [
     "2025 Nest Doorbell with Gemini"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

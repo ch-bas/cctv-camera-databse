@@ -603,7 +603,7 @@
     "id": "abus-ppic94021",
     "brand": "ABUS",
     "model": "PPIC94021",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -649,7 +649,13 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "ABUS doorbell. Check if RTSP/ONVIF is supported on this specific model — many ABUS doorbells are app-only. If RTSP is available, use ONVIF integration."
+      }
+    }
   },
   {
     "id": "abus-tvip42520",
@@ -2242,7 +2248,7 @@
     "id": "adt-doorbell-cam-v2",
     "brand": "ADT",
     "model": "ADT+ Video Doorbell",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -2545,7 +2551,7 @@
     "aliases": [
       "Amcrest Smart Home 2K WiFi Video Doorbell AD410"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -2576,6 +2582,8 @@
       "cloud": true
     },
     "protocols": [
+      "onvif",
+      "rtsp",
       "http"
     ],
     "ip_rating": "IP65",
@@ -2602,7 +2610,27 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Uses Dahua protocol (Amcrest standard). Portrait 3:4 aspect ratio — set detect to 720x960. Community favorite for local-only doorbell with Frigate. Button press exposed as Dahua event (AccessControl/CallNoAnswered). For two-way audio use go2rtc with Dahua back-channel."
+      },
+      "home_assistant": {
+        "integration": "amcrest",
+        "notes": "Native Amcrest integration. Doorbell button press exposed as 'doorbell' event entity. Two-way audio supported. Also works with ONVIF integration."
+      },
+      "blue_iris": {
+        "profile": "Dahua",
+        "notes": "Select 'Dahua' profile. Portrait 3:4 aspect ratio. Doorbell press triggers alert."
+      }
+    }
   },
   {
     "id": "amcrest-ad410p",
@@ -2634,6 +2662,8 @@
       "cloud": true
     },
     "protocols": [
+      "onvif",
+      "rtsp",
       "p2p"
     ],
     "ip_rating": "IP65",
@@ -2656,8 +2686,29 @@
       "https://amcrest.com/"
     ],
     "power_source": [
-      "battery"
-    ]
+      "battery",
+      "dc"
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Uses Dahua protocol. Portrait 3:4 aspect ratio — set detect to 720x960. Popular local-only doorbell for Frigate users. Doorbell button press is exposed as a Dahua event (AccessControl/CallNoAnswered) — use Frigate MQTT or HA ONVIF integration to capture it."
+      },
+      "home_assistant": {
+        "integration": "amcrest",
+        "notes": "Native Amcrest integration or ONVIF. Doorbell button press exposed via Amcrest integration as 'doorbell' event. Two-way audio supported via the Amcrest integration WebRTC card."
+      },
+      "blue_iris": {
+        "profile": "Dahua",
+        "notes": "Select 'Dahua' profile (Amcrest uses Dahua protocol). Doorbell press triggers an alert. Portrait 3:4 ratio — adjust display accordingly."
+      }
+    }
   },
   {
     "id": "amcrest-ash42-w",
@@ -6010,7 +6061,7 @@
     "id": "annke-video-doorbell",
     "brand": "Annke",
     "model": "Video Doorbell HD",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -8269,7 +8320,7 @@
     "aliases": [
       "Arlo Essential Video Doorbell Wire-Free 2K"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -8332,7 +8383,7 @@
     "aliases": [
       "Arlo Wired Doorbell 2K 2024"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -16684,7 +16735,7 @@
     "aliases": [
       "Blink Doorbell 2nd Gen"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -17565,8 +17616,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V / AC 24V",
-      "consumption_w": 9.2
+      "method": "PoE (802.3af) / DC 12V / AC 24V"
     },
     "storage": {
       "onboard": true,
@@ -24277,7 +24327,6 @@
     },
     "power": {
       "method": "PoE / DC 12V",
-      "consumption_w": 10,
       "voltage": "12V (DC) / PoE"
     },
     "storage": {
@@ -24550,8 +24599,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE / DC 12V",
-      "consumption_w": 10
+      "method": "PoE / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -28012,8 +28060,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE / DC 12V",
-      "consumption_w": 10
+      "method": "PoE / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -32364,7 +32411,7 @@
     "id": "eufy-video-doorbell-dual",
     "brand": "Eufy",
     "model": "Video Doorbell Dual (E8213)",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -32392,6 +32439,7 @@
       "cloud": false
     },
     "protocols": [
+      "rtsp",
       "http"
     ],
     "ip_rating": "IP65",
@@ -32417,7 +32465,22 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{ip}:8554/live0",
+        "notes": "RTSP must be enabled in Eufy app. Dual-lens doorbell — only the main lens streams via RTSP. Portrait aspect — set detect to 720x960. Hardwired recommended for continuous RTSP."
+      },
+      "home_assistant": {
+        "integration": "eufy_security",
+        "notes": "Use eufy_security HACS integration. Doorbell press exposed as event. Dual-lens: only main camera accessible via RTSP."
+      }
+    }
   },
   {
     "id": "eufy-video-doorbell-e340",
@@ -32426,7 +32489,7 @@
     "aliases": [
       "Eufy E340 Dual Camera Video Doorbell"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -32454,6 +32517,7 @@
       "cloud": false
     },
     "protocols": [
+      "rtsp",
       "http"
     ],
     "ip_rating": "IP65",
@@ -32480,7 +32544,22 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{ip}:8554/live0",
+        "notes": "RTSP must be enabled per-camera in the Eufy app (Settings > Storage > NAS > RTSP). Portrait aspect — set detect to 720x960. No ONVIF support. RTSP stream may drop when on battery; hardwired recommended for Frigate."
+      },
+      "home_assistant": {
+        "integration": "eufy_security",
+        "notes": "Use eufy_security HACS integration. RTSP must be enabled in Eufy app. Doorbell press exposed as event. Local RTSP available when enabled."
+      }
+    }
   },
   {
     "id": "eufy-video-doorbell-s220",
@@ -32550,7 +32629,7 @@
       "Eufy S330 4K Wired Doorbell",
       "T8214"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -32581,6 +32660,7 @@
       "cloud": false
     },
     "protocols": [
+      "rtsp",
       "http"
     ],
     "ip_rating": "IP65",
@@ -32606,7 +32686,22 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{ip}:8554/live0",
+        "notes": "RTSP must be enabled per-camera in the Eufy app (Settings > Storage > NAS > RTSP). Portrait aspect — set detect to 720x960. No ONVIF support. RTSP stream may drop when on battery; hardwired recommended."
+      },
+      "home_assistant": {
+        "integration": "eufy_security",
+        "notes": "Use eufy_security HACS integration. RTSP must be enabled in Eufy app. Doorbell press exposed as event."
+      }
+    }
   },
   {
     "id": "ezviz-bc1c-elife",
@@ -33573,7 +33668,7 @@
     "aliases": [
       "EZVIZ DB2 2K Battery Video Doorbell Kit"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -33632,7 +33727,13 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "home_assistant": {
+        "integration": "ezviz",
+        "notes": "No RTSP or ONVIF. Cloud-dependent, app-only. EZVIZ integration in HA provides basic status but no local stream. Not compatible with Frigate or Blue Iris."
+      }
+    }
   },
   {
     "id": "ezviz-db2c-doorbell",
@@ -33641,7 +33742,7 @@
     "aliases": [
       "EZVIZ DB2C 1080p Wire-Free Doorbell with Chime Kit"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -33698,7 +33799,13 @@
     ],
     "power_source": [
       "battery"
-    ]
+    ],
+    "configs": {
+      "home_assistant": {
+        "integration": "ezviz",
+        "notes": "No RTSP or ONVIF. Cloud-dependent, app-only. Not compatible with Frigate or Blue Iris."
+      }
+    }
   },
   {
     "id": "ezviz-h3c-2k",
@@ -37853,7 +37960,7 @@
     "aliases": [
       "2025 Nest Doorbell with Gemini"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -37916,7 +38023,7 @@
     "id": "google-nest-doorbell-battery",
     "brand": "Google",
     "model": "Nest Doorbell (Battery)",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -37969,7 +38076,7 @@
     "aliases": [
       "GA01318-US"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi",
       "ethernet"
@@ -38035,7 +38142,7 @@
       "GA03697-US",
       "Nest Hello replacement"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -38099,7 +38206,7 @@
     "aliases": [
       "GA03697-EU"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -40860,8 +40967,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V",
-      "consumption_w": 6.6
+      "method": "PoE (802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -45603,8 +45709,7 @@
       "range_m": 40
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V",
-      "consumption_w": 4.4
+      "method": "PoE (802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -46023,8 +46128,7 @@
       "range_m": 40
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V",
-      "consumption_w": 6.5
+      "method": "PoE (802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -48942,8 +49046,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V",
-      "consumption_w": 6.5
+      "method": "PoE (802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -49872,8 +49975,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V",
-      "consumption_w": 6.5
+      "method": "PoE (802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -52758,8 +52860,7 @@
       "range_m": 60
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V",
-      "consumption_w": 6.5
+      "method": "PoE (802.3af) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -60380,7 +60481,7 @@
     "id": "imou-doorbell-b46lp",
     "brand": "IMOU",
     "model": "Doorbell 2MP",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -60424,7 +60525,13 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "IMOU uses Dahua protocol but doorbell models may be cloud-dependent. Check RTSP availability in IMOU app settings. If RTSP available, use ONVIF integration with Dahua-style URLs."
+      }
+    }
   },
   {
     "id": "imou-go-basic",
@@ -63403,7 +63510,7 @@
     "aliases": [
       "Lorex 4K Wired Video Doorbell Canada"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -63438,6 +63545,8 @@
       "cloud": true
     },
     "protocols": [
+      "onvif",
+      "rtsp",
       "http"
     ],
     "ip_rating": "IP44",
@@ -63463,7 +63572,27 @@
     ],
     "power_source": [
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Uses Dahua protocol. Portrait aspect ratio — set detect to 720x960. Wired doorbell, continuous RTSP available."
+      },
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "Use ONVIF integration. Dahua protocol. Doorbell press may be exposed via ONVIF events."
+      },
+      "blue_iris": {
+        "profile": "Dahua",
+        "notes": "Select 'Dahua' profile. Lorex uses Dahua protocol. Portrait aspect ratio."
+      }
+    }
   },
   {
     "id": "lorex-e841cd",
@@ -69919,7 +70048,7 @@
       "Netatmo NDB01-EU Video Doorbell",
       "Netatmo Sonnette vidéo connectée"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -71206,7 +71335,7 @@
     "id": "qubo-doorbell-cam",
     "brand": "Qubo",
     "model": "Smart Video Doorbell",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -71711,6 +71840,27 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265",
+        "H.264"
+      ],
+      "max_fps": 15,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "2880x1620",
+          "fps": 15,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 15,
+          "codec": "H.264"
+        }
+      ]
     }
   },
   {
@@ -73017,7 +73167,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -73070,6 +73221,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.264"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "2560x1440",
+          "fps": 25,
+          "codec": "H.264"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
     }
   },
   {
@@ -73750,7 +73921,6 @@
     },
     "power": {
       "method": "PoE IEEE 802.3af, 48V Active / DC 12V",
-      "consumption_w": 15,
       "voltage": "48V (PoE) / 12V (DC)"
     },
     "storage": {
@@ -74273,8 +74443,7 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3at) / DC 12V",
-      "consumption_w": 24
+      "method": "PoE (802.3at) / DC 12V"
     },
     "storage": {
       "onboard": true,
@@ -76061,7 +76230,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -76113,6 +76283,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.265"
+        }
+      ]
     }
   },
   {
@@ -76281,7 +76471,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE 802.3af / DC 12V"
+      "method": "PoE 802.3af / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -76334,6 +76525,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 20,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "4096x3072",
+          "fps": 20,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.265"
+        }
+      ]
     }
   },
   {
@@ -77058,7 +77269,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -77110,6 +77322,27 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265",
+        "H.264"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "2560x1920",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
     }
   },
   {
@@ -77501,7 +77734,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -77554,6 +77788,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.264"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "2560x1920",
+          "fps": 25,
+          "codec": "H.264"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
     }
   },
   {
@@ -78048,7 +78302,8 @@
     },
     "power": {
       "method": "PoE (IEEE 802.3af) / DC 12V",
-      "voltage": "12V (DC) / PoE"
+      "voltage": "12V (DC) / PoE",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -78101,6 +78356,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.265"
+        }
+      ]
     }
   },
   {
@@ -78294,7 +78569,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -78348,6 +78624,27 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265",
+        "H.264"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
     }
   },
   {
@@ -78456,7 +78753,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V"
+      "method": "PoE (802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -78507,6 +78805,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.265"
+        }
+      ]
     }
   },
   {
@@ -78856,7 +79174,8 @@
       "range_m": 60
     },
     "power": {
-      "method": "PoE (IEEE 802.3af) / DC 12V"
+      "method": "PoE (IEEE 802.3af) / DC 12V",
+      "consumption_w": 24
     },
     "storage": {
       "onboard": true,
@@ -78910,7 +79229,21 @@
     "power_source": [
       "poe",
       "dc"
-    ]
+    ],
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        }
+      ]
+    }
   },
   {
     "id": "reolink-rlc-823a-16x",
@@ -79981,7 +80314,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V"
+      "method": "PoE (802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -80032,6 +80366,26 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.265"
+        }
+      ]
     }
   },
   {
@@ -80060,7 +80414,8 @@
       "range_m": 30
     },
     "power": {
-      "method": "PoE (802.3af) / DC 12V"
+      "method": "PoE (802.3af) / DC 12V",
+      "consumption_w": 12
     },
     "storage": {
       "onboard": true,
@@ -80112,6 +80467,27 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
+    },
+    "video": {
+      "codecs": [
+        "H.265",
+        "H.264"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
     }
   },
   {
@@ -81123,7 +81499,7 @@
     "id": "reolink-video-doorbell-2nd-gen",
     "brand": "Reolink",
     "model": "Video Doorbell 2nd Gen",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -81170,13 +81546,14 @@
     "msrp_usd": 129,
     "power_source": [
       "battery"
-    ]
+    ],
+    "status": "announced"
   },
   {
     "id": "reolink-video-doorbell-poe",
     "brand": "Reolink",
     "model": "Video Doorbell PoE",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "ethernet"
     ],
@@ -81198,7 +81575,7 @@
       "range_m": 5
     },
     "power": {
-      "method": "PoE (IEEE 802.3af)"
+      "method": "PoE (IEEE 802.3af) / 12-24VAC doorbell wiring / 24VDC"
     },
     "storage": {
       "onboard": true,
@@ -81230,25 +81607,47 @@
       "https://reolink.com/product/reolink-video-doorbell-poe/"
     ],
     "power_source": [
-      "poe"
+      "poe",
+      "ac-mains"
     ],
+    "video": {
+      "codecs": [
+        "H.264"
+      ],
+      "max_fps": 20,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "1920x2560",
+          "fps": 20,
+          "codec": "H.264"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
+    },
     "configs": {
       "frigate": {
         "detect": {
-          "width": 1280,
-          "height": 720,
+          "width": 720,
+          "height": 960,
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub",
+        "notes": "Portrait 3:4 aspect ratio (white model 1920x2560, black model is 4:3 at 2560x1920). Set detect to 720x960 for white or 960x720 for black to maintain correct ratio. For two-way audio: use go2rtc as the RTSP proxy — Frigate does not natively handle talk-back. In go2rtc config add the camera as an RTSP source, then enable WebRTC with opus re-encoding for the back-channel: 'streams: doorbell: - rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main - ffmpeg:doorbell#audio=opus'. Button press events are not exposed via RTSP; use HA Reolink integration's Visitor binary_sensor or subscribe to ONVIF events via MQTT."
       },
       "home_assistant": {
         "integration": "reolink",
-        "notes": "Native Reolink integration auto-discovers via ONVIF on port 8000."
+        "notes": "Native Reolink integration auto-discovers via ONVIF (port 8000). Doorbell button press is exposed as a 'Visitor' binary_sensor entity. Two-way audio works in the Reolink app; for HA dashboard intercom, use go2rtc WebRTC card with opus back-channel."
       },
       "blue_iris": {
         "profile": "Reolink",
-        "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
+        "notes": "Select 'Reolink' profile. White model is portrait 3:4 — enable 'Rotate 90' or adjust display settings. Doorbell press triggers a motion event."
       }
     }
   },
@@ -81256,7 +81655,7 @@
     "id": "reolink-video-doorbell-se",
     "brand": "Reolink",
     "model": "Video Doorbell SE",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -81302,20 +81701,23 @@
     "msrp_usd": 79,
     "power_source": [
       "battery"
-    ]
+    ],
+    "status": "announced"
   },
   {
     "id": "reolink-video-doorbell-wifi",
     "brand": "Reolink",
     "model": "Video Doorbell WiFi",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
     "release_year": 2022,
     "resolution": {
       "megapixels": 5,
-      "label": "2K QHD"
+      "max_width": 2560,
+      "max_height": 1920,
+      "label": "5MP"
     },
     "field_of_view_deg": "160 diagonal",
     "night_vision": {
@@ -81323,16 +81725,17 @@
       "range_m": 5
     },
     "power": {
-      "method": "Rechargeable battery / hardwired optional"
+      "method": "Existing doorbell wiring (12-24VAC 50/60Hz or 24VDC)"
     },
     "storage": {
       "onboard": true,
       "max_microsd_gb": 256,
-      "nvr_compatible": false,
+      "nvr_compatible": true,
       "cloud": true
     },
     "protocols": [
-      "http"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -81341,23 +81744,63 @@
       "two_way": true
     },
     "features": [
-      "2K QHD WiFi battery doorbell",
-      "head-to-toe view",
+      "5MP wired WiFi doorbell",
+      "head-to-toe 3:4 portrait view (white) / 4:3 landscape (black)",
       "color night vision",
       "person detection",
       "two-way audio",
+      "chime built-in",
       "no subscription",
       "Alexa/Google",
-      "IP65"
+      "works with Reolink NVR and Home Hub"
     ],
     "sources": [
       "https://reolink.com/product/reolink-video-doorbell-wifi/"
     ],
     "msrp_usd": 79,
     "power_source": [
-      "battery",
       "ac-mains"
-    ]
+    ],
+    "video": {
+      "codecs": [
+        "H.264"
+      ],
+      "max_fps": 20,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "1920x2560",
+          "fps": 20,
+          "codec": "H.264"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 10,
+          "codec": "H.264"
+        }
+      ]
+    },
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub",
+        "notes": "Portrait 3:4 aspect ratio (white model 1920x2560). Set detect to 720x960 to maintain ratio. For two-way audio: use go2rtc as the RTSP proxy — Frigate does not natively handle talk-back. In go2rtc config add the camera as an RTSP source, then enable WebRTC with opus re-encoding for the back-channel: 'streams: doorbell: - rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main - ffmpeg:doorbell#audio=opus'. Button press events are not exposed via RTSP; use HA Reolink integration's Visitor binary_sensor or subscribe to ONVIF events via MQTT."
+      },
+      "home_assistant": {
+        "integration": "reolink",
+        "notes": "Native Reolink integration auto-discovers via ONVIF (port 8000). Doorbell button press is exposed as a 'Visitor' binary_sensor entity. Two-way audio works in the Reolink app; for HA dashboard intercom, use go2rtc WebRTC card with opus back-channel."
+      },
+      "blue_iris": {
+        "profile": "Reolink",
+        "notes": "Select 'Reolink' profile. White model is portrait 3:4 — enable 'Rotate 90' or adjust display settings. Doorbell press triggers a motion event."
+      }
+    }
   },
   {
     "id": "ring-alarm-security-cam-pro",
@@ -81430,7 +81873,7 @@
       "B0CWNZ9H8L"
     ],
     "release_year": 2024,
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -81493,7 +81936,7 @@
     "aliases": [
       "Ring Video Doorbell Elite PoE"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "ethernet"
     ],
@@ -82780,7 +83223,7 @@
     "aliases": [
       "B08JNR77QY"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -82834,340 +83277,18 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
-  },
-  {
-    "id": "ring-video-doorbell-4-at-ch",
-    "brand": "Ring",
-    "model": "Video Doorbell 4 (AT/CH)",
-    "aliases": [
-      "Ring Doorbell 4 Österreich / Schweiz"
     ],
-    "type": "covert",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
     "markets": [
       "AT",
+      "AU",
+      "CA",
       "CH",
-      "EU"
-    ],
-    "resolution": {
-      "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1080,
-      "label": "1080p HD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "155 diagonal (head-to-toe)",
-    "night_vision": {
-      "type": "color",
-      "range_m": 5
-    },
-    "power": {
-      "method": "Rechargeable battery / hardwired wiring (optional)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IPX5",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "1080p head-to-toe",
-      "colour pre-roll",
-      "two-way audio",
-      "Ring Protect plan for cloud video",
-      "Alexa",
-      "#1 video doorbell Amazon.at and Amazon.ch",
-      "EU GDPR-compliant cloud"
-    ],
-    "msrp_eur": 99.99,
-    "sources": [
-      "https://ring.com/de-at/",
-      "https://ring.com/de-ch/"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
-    ]
-  },
-  {
-    "id": "ring-video-doorbell-4-au",
-    "brand": "Ring",
-    "model": "Video Doorbell 4 (Australia)",
-    "aliases": [
-      "Ring Doorbell 4 AU JB Hi-Fi"
-    ],
-    "type": "covert",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "markets": [
-      "AU"
-    ],
-    "resolution": {
-      "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1080,
-      "label": "1080p HD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "155 diagonal (head-to-toe)",
-    "night_vision": {
-      "type": "color",
-      "range_m": 5
-    },
-    "power": {
-      "method": "Rechargeable battery / hardwired existing wiring (optional)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IPX5",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "1080p head-to-toe view",
-      "colour pre-roll",
-      "motion detection zones",
-      "two-way audio",
-      "Ring Protect plan for cloud video",
-      "Alexa / Amazon",
-      "#1 video doorbell JB Hi-Fi / Amazon AU",
-      "IP65 withstands AU heat + humidity"
-    ],
-    "msrp_aud": 149.99,
-    "sources": [
-      "https://ring.com/en-au/"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
-    ]
-  },
-  {
-    "id": "ring-video-doorbell-4-ca",
-    "brand": "Ring",
-    "model": "Video Doorbell 4 (Canada)",
-    "aliases": [
-      "Ring Doorbell 4 Canada"
-    ],
-    "type": "covert",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "markets": [
-      "CA"
-    ],
-    "resolution": {
-      "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1080,
-      "label": "1080p HD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "155 diagonal (head-to-toe)",
-    "night_vision": {
-      "type": "color",
-      "range_m": 5
-    },
-    "power": {
-      "method": "Rechargeable battery / hardwired wiring (optional)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IPX5",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "1080p head-to-toe view",
-      "color pre-roll",
-      "motion zones",
-      "two-way audio",
-      "Ring Protect plan for cloud video",
-      "Alexa",
-      "rated -20°C to +48°C Canadian certified",
-      "#1 video doorbell Canada Amazon.ca"
-    ],
-    "msrp_cad": 129.99,
-    "sources": [
-      "https://ring.com/ca-en/"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
-    ]
-  },
-  {
-    "id": "ring-video-doorbell-4-eu",
-    "brand": "Ring",
-    "model": "Video Doorbell 4 (EU)",
-    "aliases": [
-      "Ring Doorbell 4 Deutschland/France/España"
-    ],
-    "type": "covert",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "markets": [
       "DE",
-      "FR",
       "ES",
-      "EU"
-    ],
-    "resolution": {
-      "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1080,
-      "label": "1080p HD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "155 diagonal (head-to-toe)",
-    "night_vision": {
-      "type": "color",
-      "range_m": 5
-    },
-    "power": {
-      "method": "Rechargeable battery / hardwired wiring (optional, EU voltage)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IPX5",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "1080p head-to-toe view",
-      "color pre-roll",
-      "two-way audio",
-      "Ring Protect plan for cloud",
-      "Alexa",
-      "#1 video doorbell Germany/France/Spain"
-    ],
-    "msrp_eur": 99.99,
-    "sources": [
-      "https://ring.com/de-de/"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
-    ]
-  },
-  {
-    "id": "ring-video-doorbell-4-uk",
-    "brand": "Ring",
-    "model": "Video Doorbell 4 (UK)",
-    "aliases": [
-      "Ring Doorbell 4"
-    ],
-    "type": "covert",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "markets": [
+      "EU",
+      "FR",
       "UK",
-      "EU"
-    ],
-    "resolution": {
-      "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1080,
-      "label": "1080p HD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "155 diagonal (head-to-toe)",
-    "night_vision": {
-      "type": "color",
-      "range_m": 5
-    },
-    "power": {
-      "method": "Rechargeable battery / hardwired doorbell wiring (optional)"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IPX5",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "1080p video doorbell",
-      "head-to-toe view",
-      "color pre-roll",
-      "motion detection zones",
-      "two-way audio",
-      "Ring Protect for cloud video",
-      "Alexa",
-      "UK bestseller"
-    ],
-    "msrp_gbp": 74.99,
-    "sources": [
-      "https://ring.com/en-gb/"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
+      "US"
     ]
   },
   {
@@ -85548,7 +85669,7 @@
     "id": "swann-buddy-doorbell",
     "brand": "Swann",
     "model": "Buddy Video Doorbell",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -85670,7 +85791,7 @@
     "aliases": [
       "Swann 2K WiFi Video Doorbell"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -92086,7 +92207,7 @@
     "aliases": [
       "2K QHD Smart Video Doorbell"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -92146,20 +92267,21 @@
     "configs": {
       "frigate": {
         "detect": {
-          "width": 1280,
-          "height": 720,
+          "width": 720,
+          "height": 960,
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2",
+        "notes": "RTSP only available when hardwired with Always-On mode enabled in Tapo app (Advanced Settings > Always-On). On battery power RTSP is disabled. Portrait aspect ratio — set detect to 720x960."
       },
       "home_assistant": {
         "integration": "tapo",
-        "notes": "Native TP-Link Tapo integration. Requires Tapo cloud account credentials."
+        "notes": "Native TP-Link Tapo integration. Doorbell press exposed as event. RTSP requires Always-On mode (hardwired only) — on battery, only cloud/app access works."
       },
       "blue_iris": {
         "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Must enable ONVIF in Tapo app."
+        "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Requires Always-On mode (hardwired only)."
       }
     }
   },
@@ -92170,7 +92292,7 @@
     "aliases": [
       "2K Battery Video Doorbell Kit"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -92201,7 +92323,7 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http"
     ],
     "ip_rating": "IP64",
     "audio": {
@@ -92216,7 +92338,8 @@
       "AI person/vehicle/pet detection",
       "color night vision",
       "chime included",
-      "no subscription"
+      "no subscription",
+      "requires Tapo H200 hub"
     ],
     "msrp_usd": 89.99,
     "sources": [
@@ -92227,90 +92350,11 @@
       "ac-mains"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2"
-      },
       "home_assistant": {
         "integration": "tapo",
-        "notes": "Native TP-Link Tapo integration. Requires Tapo cloud account credentials."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Must enable ONVIF in Tapo app."
+        "notes": "Requires Tapo H200 hub. No RTSP or ONVIF — hub-based only. TP-Link Tapo integration exposes the doorbell via the hub. Not compatible with Frigate or Blue Iris."
       }
     }
-  },
-  {
-    "id": "tapo-d230s1-doorbell-global",
-    "brand": "Tapo",
-    "model": "D230S1",
-    "aliases": [
-      "TP-Link Tapo D230S1 2K Battery Video Doorbell"
-    ],
-    "type": "covert",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2560,
-      "max_height": 1440,
-      "label": "2K QHD"
-    },
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "Fixed",
-      "aperture": "F1.8",
-      "varifocal": false
-    },
-    "field_of_view_deg": "160 diagonal (head-to-toe)",
-    "night_vision": {
-      "type": "color",
-      "range_m": 5
-    },
-    "power": {
-      "method": "Rechargeable battery / existing doorbell wiring"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP44",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "2K QHD head-to-toe video doorbell",
-      "colour night vision",
-      "person/motion detection",
-      "two-way audio",
-      "battery or wired",
-      "HomeKit / Alexa / Google",
-      "free cloud storage (3-day rolling)",
-      "no hub required"
-    ],
-    "msrp_usd": 79,
-    "sources": [
-      "https://www.tapo.com/en/product/smart-doorbell/tapo-d230s1/"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
-    ]
   },
   {
     "id": "tapo-d235",
@@ -92319,7 +92363,7 @@
     "aliases": [
       "TP-Link Tapo D235 3K Wired Doorbell"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -92351,6 +92395,8 @@
       "cloud": true
     },
     "protocols": [
+      "rtsp",
+      "onvif",
       "http"
     ],
     "ip_rating": "IP44",
@@ -92374,7 +92420,27 @@
     ],
     "power_source": [
       "ac-mains"
-    ]
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 720,
+          "height": 960,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2",
+        "notes": "RTSP only works when hardwired with Always-On mode enabled in Tapo app (Advanced Settings > Always-On). Portrait 3:4 aspect ratio — set detect to 720x960. Must enable ONVIF/RTSP in Tapo app under Camera Settings > Advanced."
+      },
+      "home_assistant": {
+        "integration": "tapo",
+        "notes": "Native TP-Link Tapo integration. Doorbell press exposed as event. RTSP requires Always-On mode (hardwired only). For local-only setup use ONVIF integration as alternative."
+      },
+      "blue_iris": {
+        "profile": "Generic/ONVIF",
+        "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Requires Always-On mode enabled in Tapo app."
+      }
+    }
   },
   {
     "id": "tapo-tc40",
@@ -96353,7 +96419,7 @@
     "aliases": [
       "UVC-G4-Doorbell"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi",
       "ethernet"
@@ -96435,7 +96501,7 @@
     "aliases": [
       "UVC-G4-DOORBELL-PRO"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi",
       "ethernet"
@@ -101221,7 +101287,7 @@
     "aliases": [
       "WVDBP1"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -101253,7 +101319,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP44",
     "audio": {
@@ -101265,7 +101332,7 @@
       "2K video doorbell",
       "head-to-toe view",
       "person/package/pet detection",
-      "no subscription required",
+      "no subscription required for basic",
       "built-in chime",
       "Alexa / Google Home"
     ],
@@ -101278,21 +101345,9 @@
       "ac-mains"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No official RTSP or ONVIF support. Wyze doorbells are cloud/app-only by default. For local RTSP, use docker-wyze-bridge (https://github.com/mrlt8/docker-wyze-bridge) which proxies the P2P stream to a local RTSP endpoint. Not compatible with Frigate or Blue Iris without the bridge."
       }
     }
   },
@@ -101300,7 +101355,7 @@
     "id": "wyze-video-doorbell-v2",
     "brand": "Wyze",
     "model": "Video Doorbell v2",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -101332,7 +101387,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -101356,21 +101412,9 @@
       "ac-mains"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No official RTSP or ONVIF support. Wyze doorbells are cloud/app-only by default. For local RTSP, use docker-wyze-bridge (https://github.com/mrlt8/docker-wyze-bridge) which proxies the P2P stream to a local RTSP endpoint. Not compatible with Frigate or Blue Iris without the bridge."
       }
     }
   },
@@ -101536,7 +101580,7 @@
     "id": "yale-sv-dbc-b",
     "brand": "Yale",
     "model": "Smart Video Doorbell Colour",
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],
@@ -101589,7 +101633,7 @@
     "aliases": [
       "Yale Smart Video Doorbell"
     ],
-    "type": "covert",
+    "type": "doorbell",
     "connectivity": [
       "wifi"
     ],

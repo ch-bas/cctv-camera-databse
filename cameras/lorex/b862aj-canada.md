@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Lorex |
 | Model | B862AJ |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Lens | 1× Fixedmm |
@@ -14,7 +14,7 @@
 | Night vision | color (5m) |
 | Power | Hardwired (existing 16-24V AC doorbell wiring) |
 | Storage | microSD ≤ 32GB |
-| Protocols | http |
+| Protocols | onvif, rtsp, http |
 | IP rating | IP44 |
 | Two-way audio | Yes |
 | Released | 2024 |

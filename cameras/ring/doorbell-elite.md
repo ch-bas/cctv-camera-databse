@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Ring |
 | Model | Doorbell Elite |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |
