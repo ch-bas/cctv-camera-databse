@@ -5,7 +5,7 @@
   "aliases": [
     "Blink Doorbell 2nd Gen"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

@@ -5,7 +5,7 @@
   "aliases": [
     "Lorex 4K Wired Video Doorbell Canada"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -40,6 +40,8 @@
     "cloud": true
   },
   "protocols": [
+    "onvif",
+    "rtsp",
     "http"
   ],
   "ip_rating": "IP44",
@@ -65,5 +67,25 @@
   ],
   "power_source": [
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 720,
+        "height": 960,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+      "notes": "Uses Dahua protocol. Portrait aspect ratio — set detect to 720x960. Wired doorbell, continuous RTSP available."
+    },
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "Use ONVIF integration. Dahua protocol. Doorbell press may be exposed via ONVIF events."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. Lorex uses Dahua protocol. Portrait aspect ratio."
+    }
+  }
 }

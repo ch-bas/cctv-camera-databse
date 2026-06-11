@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Qubo |
 | Model | Smart Video Doorbell |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |

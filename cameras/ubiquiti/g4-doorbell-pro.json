@@ -5,7 +5,7 @@
   "aliases": [
     "UVC-G4-DOORBELL-PRO"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi",
     "ethernet"

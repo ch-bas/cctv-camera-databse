@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | EZVIZ |
 | Model | DB2 |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× Fixedmm F2.0 |

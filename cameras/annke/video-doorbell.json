@@ -2,7 +2,7 @@
   "id": "annke-video-doorbell",
   "brand": "Annke",
   "model": "Video Doorbell HD",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

@@ -17,7 +17,8 @@
     "range_m": 30
   },
   "power": {
-    "method": "PoE 802.3af / DC 12V"
+    "method": "PoE 802.3af / DC 12V",
+    "consumption_w": 12
   },
   "storage": {
     "onboard": true,
@@ -70,5 +71,25 @@
       "profile": "Reolink",
       "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
     }
+  },
+  "video": {
+    "codecs": [
+      "H.265"
+    ],
+    "max_fps": 20,
+    "streams": [
+      {
+        "name": "main",
+        "resolution": "4096x3072",
+        "fps": 20,
+        "codec": "H.265"
+      },
+      {
+        "name": "sub",
+        "resolution": "unknown",
+        "fps": 10,
+        "codec": "H.265"
+      }
+    ]
   }
 }

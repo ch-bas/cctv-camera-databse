@@ -6,7 +6,7 @@
     "GA03697-US",
     "Nest Hello replacement"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

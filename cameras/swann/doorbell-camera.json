@@ -5,7 +5,7 @@
   "aliases": [
     "Swann 2K WiFi Video Doorbell"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

@@ -6,6 +6,37 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.4.0] — 2026-06-11
+
+### Added
+
+- **`doorbell` type** in schema — 44 doorbells migrated from `covert` to proper `doorbell` type, enabling correct filtering
+- **`status` field** in schema — supports `available`, `announced`, `discontinued`; 2026 Reolink CES doorbells marked `announced`
+- **`video` field** in schema — structured codecs, max FPS, and per-stream breakdown (populated with real datasheet data for 12 Reolink cameras)
+- **Real video/power specs** for Reolink RLC-823A, RLC-810A, RLC-811A, RLC-812A, RLC-830A, RLC-833A, RLC-510A, RLC-520A, RLC-1210A, CX410, P430, Argus 3 Pro
+
+### Fixed
+
+- **Ring Doorbell 4**: consolidated 6 regional duplicate entries into 1 with `markets[]` field — same hardware was padding camera count
+- **Reolink Doorbell WiFi**: protocols corrected to RTSP/ONVIF (was HTTP-only), power corrected to hardwired 12-24VAC (was wrongly listed as battery), NVR-compatible set true, full doorbell-specific configs added (go2rtc two-way audio, Visitor button-press event)
+- **Reolink Doorbell PoE**: config upgraded with go2rtc opus talk-back setup and button-press event documentation
+- **Amcrest AD410/AD410P**: added RTSP/ONVIF protocols (Dahua protocol), full Frigate/HA/Blue Iris configs with doorbell button-press events
+- **Eufy E340/S330/Dual doorbells**: added RTSP protocol, Frigate configs with Eufy-specific RTSP enable instructions
+- **Lorex B862AJ**: added RTSP/ONVIF (Dahua protocol), full configs
+- **Tapo D230S1**: deleted duplicate file, removed fabricated RTSP config (hub-based, no RTSP/ONVIF), added hub requirement note
+- **Tapo D235**: added RTSP/ONVIF protocols with Always-On mode caveat
+- **Tapo D225**: config updated with Always-On mode requirement for RTSP
+- **Wyze Doorbell Pro & v2**: removed fabricated RTSP protocol and configs (no official RTSP), replaced with honest docker-wyze-bridge note
+- **EZVIZ DB2/DB2C**: honest config — cloud-only, no RTSP, not Frigate-compatible
+- Removed fabricated configs from all battery/hub doorbells that inherited brand RTSP rules
+
+### Changed
+
+- Database now covers **1,324 cameras** across **66 brands** (down from 1,330 after deduplication)
+- Form factors now 10: bullet, dome, turret, PTZ, dual-lens, panoramic, covert, box, fisheye, **doorbell**
+
+---
+
 ## [1.3.0] — 2026-06-11
 
 ### Added

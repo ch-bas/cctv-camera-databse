@@ -5,7 +5,7 @@
   "aliases": [
     "Arlo Essential Video Doorbell Wire-Free 2K"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

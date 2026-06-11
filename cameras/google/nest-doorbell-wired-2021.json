@@ -5,7 +5,7 @@
   "aliases": [
     "GA01318-US"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi",
     "ethernet"

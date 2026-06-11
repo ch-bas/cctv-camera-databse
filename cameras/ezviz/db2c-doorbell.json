@@ -5,7 +5,7 @@
   "aliases": [
     "EZVIZ DB2C 1080p Wire-Free Doorbell with Chime Kit"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -62,5 +62,11 @@
   ],
   "power_source": [
     "battery"
-  ]
+  ],
+  "configs": {
+    "home_assistant": {
+      "integration": "ezviz",
+      "notes": "No RTSP or ONVIF. Cloud-dependent, app-only. Not compatible with Frigate or Blue Iris."
+    }
+  }
 }

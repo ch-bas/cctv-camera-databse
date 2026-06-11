@@ -6,14 +6,14 @@
 |-------|------|
 | Brand | Eufy |
 | Model | Video Doorbell S330 |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Lens | 1× Fixedmm F1.8 |
 | Field of view | 155 diagonal (head-to-toe)° |
 | Night vision | color (5m) |
 | Power | Hardwired (existing 16-24V AC wiring) / battery |
-| Protocols | http |
+| Protocols | rtsp, http |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2023 |

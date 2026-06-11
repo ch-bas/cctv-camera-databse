@@ -5,7 +5,7 @@
   "aliases": [
     "2K QHD Smart Video Doorbell"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -65,20 +65,21 @@
   "configs": {
     "frigate": {
       "detect": {
-        "width": 1280,
-        "height": 720,
+        "width": 720,
+        "height": 960,
         "fps": 5
       },
       "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
-      "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2"
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2",
+      "notes": "RTSP only available when hardwired with Always-On mode enabled in Tapo app (Advanced Settings > Always-On). On battery power RTSP is disabled. Portrait aspect ratio — set detect to 720x960."
     },
     "home_assistant": {
       "integration": "tapo",
-      "notes": "Native TP-Link Tapo integration. Requires Tapo cloud account credentials."
+      "notes": "Native TP-Link Tapo integration. Doorbell press exposed as event. RTSP requires Always-On mode (hardwired only) — on battery, only cloud/app access works."
     },
     "blue_iris": {
       "profile": "Generic/ONVIF",
-      "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Must enable ONVIF in Tapo app."
+      "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Requires Always-On mode (hardwired only)."
     }
   }
 }

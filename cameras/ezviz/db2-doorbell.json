@@ -5,7 +5,7 @@
   "aliases": [
     "EZVIZ DB2 2K Battery Video Doorbell Kit"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -64,5 +64,11 @@
   "power_source": [
     "battery",
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "home_assistant": {
+      "integration": "ezviz",
+      "notes": "No RTSP or ONVIF. Cloud-dependent, app-only. EZVIZ integration in HA provides basic status but no local stream. Not compatible with Frigate or Blue Iris."
+    }
+  }
 }

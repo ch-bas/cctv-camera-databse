@@ -1,8 +1,8 @@
 # CCTV Camera Database
 
-An open, structured database of 1,330 CCTV / IP camera models and their technical specifications, covering 66 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
+An open, structured database of 1,324 CCTV / IP camera models and their technical specifications, covering 66 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
 
-[![cameras](https://img.shields.io/badge/cameras-1%2C330-blue)](data/cameras.json)
+[![cameras](https://img.shields.io/badge/cameras-1%2C324-blue)](data/cameras.json)
 [![brands](https://img.shields.io/badge/brands-66-green)](cameras/)
 [![license](https://img.shields.io/badge/license-CC0-lightgrey)](LICENSE)
 
@@ -27,7 +27,7 @@ Camera spec sheets are scattered across vendor PDFs, retailer pages, and paywall
 - **Filter** — narrow by brand, camera type, night vision, resolution, or market
 - **Sort** — click any column header to sort ascending/descending
 - **Detail drawer** — click a row to slide open the full spec sheet (resolution, connectivity, protocols, storage, audio, pricing, source links)
-- **Pagination** — page through all 1,330 cameras, 25 per page
+- **Pagination** — page through all 1,324 cameras, 25 per page
 - **Stats bar** — live counts for total cameras, brands, 4K+, WiFi, and no-subscription models
 
 ---
@@ -59,7 +59,7 @@ cctv-camera-database/
 │   ├── tapo/             #  56 cameras
 │   └── …60 more brands
 ├── data/                 # GENERATED — do not edit by hand
-│   ├── cameras.json      # all 1,330 cameras as one array
+│   ├── cameras.json      # all 1,324 cameras as one array
 │   └── cameras.csv       # flattened, spreadsheet-friendly
 ├── schema/
 │   └── camera.schema.json
@@ -117,9 +117,9 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 
 | Metric | Count |
 |--------|-------|
-| Total cameras | **1,330** |
+| Total cameras | **1,324** |
 | Brands | **66** |
-| Form factors | 9 (bullet, dome, turret, PTZ, dual-lens, panoramic, covert, box, fisheye) |
+| Form factors | 10 (bullet, dome, turret, PTZ, dual-lens, panoramic, covert, box, fisheye, doorbell) |
 | PoE wired | 863 |
 | WiFi | 427 |
 | Battery / wire-free | 130 |

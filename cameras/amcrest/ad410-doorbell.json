@@ -5,7 +5,7 @@
   "aliases": [
     "Amcrest Smart Home 2K WiFi Video Doorbell AD410"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -36,6 +36,8 @@
     "cloud": true
   },
   "protocols": [
+    "onvif",
+    "rtsp",
     "http"
   ],
   "ip_rating": "IP65",
@@ -62,5 +64,25 @@
   "power_source": [
     "battery",
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 720,
+        "height": 960,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+      "notes": "Uses Dahua protocol (Amcrest standard). Portrait 3:4 aspect ratio — set detect to 720x960. Community favorite for local-only doorbell with Frigate. Button press exposed as Dahua event (AccessControl/CallNoAnswered). For two-way audio use go2rtc with Dahua back-channel."
+    },
+    "home_assistant": {
+      "integration": "amcrest",
+      "notes": "Native Amcrest integration. Doorbell button press exposed as 'doorbell' event entity. Two-way audio supported. Also works with ONVIF integration."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. Portrait 3:4 aspect ratio. Doorbell press triggers alert."
+    }
+  }
 }

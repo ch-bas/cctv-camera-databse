@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Swann |
 | Model | Buddy Video Doorbell |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 140h° |

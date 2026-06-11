@@ -5,7 +5,7 @@
   "aliases": [
     "GA03697-EU"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

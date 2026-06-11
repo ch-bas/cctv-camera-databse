@@ -4,14 +4,14 @@
 |-------|------|
 | Brand | Reolink |
 | Model | Video Doorbell PoE |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 (fixed)mm |
 | Field of view | 160 diagonal° |
 | Night vision | color (5m) |
-| Power | PoE (IEEE 802.3af) |
+| Power | PoE (IEEE 802.3af) / 12-24VAC doorbell wiring / 24VDC |
 | Storage | microSD ≤ 256GB, NVR |
 | Protocols | onvif, rtsp |
 | IP rating | IP65 |

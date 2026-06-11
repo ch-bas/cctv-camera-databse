@@ -5,7 +5,7 @@
   "aliases": [
     "Arlo Wired Doorbell 2K 2024"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

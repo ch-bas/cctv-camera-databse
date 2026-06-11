@@ -2,14 +2,16 @@
   "id": "reolink-video-doorbell-wifi",
   "brand": "Reolink",
   "model": "Video Doorbell WiFi",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
   "release_year": 2022,
   "resolution": {
     "megapixels": 5,
-    "label": "2K QHD"
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "5MP"
   },
   "field_of_view_deg": "160 diagonal",
   "night_vision": {
@@ -17,16 +19,17 @@
     "range_m": 5
   },
   "power": {
-    "method": "Rechargeable battery / hardwired optional"
+    "method": "Existing doorbell wiring (12-24VAC 50/60Hz or 24VDC)"
   },
   "storage": {
     "onboard": true,
     "max_microsd_gb": 256,
-    "nvr_compatible": false,
+    "nvr_compatible": true,
     "cloud": true
   },
   "protocols": [
-    "http"
+    "onvif",
+    "rtsp"
   ],
   "ip_rating": "IP65",
   "audio": {
@@ -35,21 +38,61 @@
     "two_way": true
   },
   "features": [
-    "2K QHD WiFi battery doorbell",
-    "head-to-toe view",
+    "5MP wired WiFi doorbell",
+    "head-to-toe 3:4 portrait view (white) / 4:3 landscape (black)",
     "color night vision",
     "person detection",
     "two-way audio",
+    "chime built-in",
     "no subscription",
     "Alexa/Google",
-    "IP65"
+    "works with Reolink NVR and Home Hub"
   ],
   "sources": [
     "https://reolink.com/product/reolink-video-doorbell-wifi/"
   ],
   "msrp_usd": 79,
   "power_source": [
-    "battery",
     "ac-mains"
-  ]
+  ],
+  "video": {
+    "codecs": [
+      "H.264"
+    ],
+    "max_fps": 20,
+    "streams": [
+      {
+        "name": "main",
+        "resolution": "1920x2560",
+        "fps": 20,
+        "codec": "H.264"
+      },
+      {
+        "name": "sub",
+        "resolution": "unknown",
+        "fps": 10,
+        "codec": "H.264"
+      }
+    ]
+  },
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 720,
+        "height": 960,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub",
+      "notes": "Portrait 3:4 aspect ratio (white model 1920x2560). Set detect to 720x960 to maintain ratio. For two-way audio: use go2rtc as the RTSP proxy — Frigate does not natively handle talk-back. In go2rtc config add the camera as an RTSP source, then enable WebRTC with opus re-encoding for the back-channel: 'streams: doorbell: - rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main - ffmpeg:doorbell#audio=opus'. Button press events are not exposed via RTSP; use HA Reolink integration's Visitor binary_sensor or subscribe to ONVIF events via MQTT."
+    },
+    "home_assistant": {
+      "integration": "reolink",
+      "notes": "Native Reolink integration auto-discovers via ONVIF (port 8000). Doorbell button press is exposed as a 'Visitor' binary_sensor entity. Two-way audio works in the Reolink app; for HA dashboard intercom, use go2rtc WebRTC card with opus back-channel."
+    },
+    "blue_iris": {
+      "profile": "Reolink",
+      "notes": "Select 'Reolink' profile. White model is portrait 3:4 — enable 'Rotate 90' or adjust display settings. Doorbell press triggers a motion event."
+    }
+  }
 }

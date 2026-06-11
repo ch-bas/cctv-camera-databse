@@ -2,7 +2,7 @@
   "id": "imou-doorbell-b46lp",
   "brand": "IMOU",
   "model": "Doorbell 2MP",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -46,5 +46,11 @@
   "power_source": [
     "battery",
     "ac-mains"
-  ]
+  ],
+  "configs": {
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "IMOU uses Dahua protocol but doorbell models may be cloud-dependent. Check RTSP availability in IMOU app settings. If RTSP available, use ONVIF integration with Dahua-style URLs."
+    }
+  }
 }

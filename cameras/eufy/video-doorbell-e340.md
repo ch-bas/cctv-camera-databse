@@ -6,14 +6,14 @@
 |-------|------|
 | Brand | Eufy |
 | Model | Video Doorbell E340 |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | Dual 2K: wide + telephoto (4MP) |
 | Lens | 2× Wide 2K + standard 2K (fixed)mm |
 | Field of view | 180 wide + 50 tele° |
 | Night vision | color (5m) |
 | Power | Hardwired (existing doorbell wiring) / battery |
-| Protocols | http |
+| Protocols | rtsp, http |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2023 |

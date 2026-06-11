@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Swann |
 | Model | Doorbell Camera |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1920) |
 | Lens | 1× Fixedmm F2.0 |

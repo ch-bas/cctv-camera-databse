@@ -5,7 +5,7 @@
   "aliases": [
     "2K Battery Video Doorbell Kit"
   ],
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
@@ -36,7 +36,7 @@
     "cloud": true
   },
   "protocols": [
-    "rtsp"
+    "http"
   ],
   "ip_rating": "IP64",
   "audio": {
@@ -51,7 +51,8 @@
     "AI person/vehicle/pet detection",
     "color night vision",
     "chime included",
-    "no subscription"
+    "no subscription",
+    "requires Tapo H200 hub"
   ],
   "msrp_usd": 89.99,
   "sources": [
@@ -62,22 +63,9 @@
     "ac-mains"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 1280,
-        "height": 720,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
-      "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2"
-    },
     "home_assistant": {
       "integration": "tapo",
-      "notes": "Native TP-Link Tapo integration. Requires Tapo cloud account credentials."
-    },
-    "blue_iris": {
-      "profile": "Generic/ONVIF",
-      "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Must enable ONVIF in Tapo app."
+      "notes": "Requires Tapo H200 hub. No RTSP or ONVIF — hub-based only. TP-Link Tapo integration exposes the doorbell via the hub. Not compatible with Frigate or Blue Iris."
     }
   }
 }

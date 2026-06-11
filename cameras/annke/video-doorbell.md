@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Annke |
 | Model | Video Doorbell HD |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 130h° |

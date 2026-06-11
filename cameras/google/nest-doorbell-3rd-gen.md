@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Google |
 | Model | Nest Doorbell (Wired, 3rd Gen) |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 2K HDR (2048x2048) (4MP, 2048×2048) |
 | Sensor | CMOS |

@@ -2,7 +2,7 @@
   "id": "adt-doorbell-cam-v2",
   "brand": "ADT",
   "model": "ADT+ Video Doorbell",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

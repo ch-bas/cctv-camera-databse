@@ -2,7 +2,7 @@
   "id": "google-nest-doorbell-battery",
   "brand": "Google",
   "model": "Nest Doorbell (Battery)",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

@@ -2,7 +2,7 @@
   "id": "qubo-doorbell-cam",
   "brand": "Qubo",
   "model": "Smart Video Doorbell",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],

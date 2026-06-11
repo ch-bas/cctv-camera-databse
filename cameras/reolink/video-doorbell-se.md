@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Reolink |
 | Model | Video Doorbell SE |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi |
 | Resolution | 2K QHD (4MP) |
 | Field of view | 160 diagonal° |

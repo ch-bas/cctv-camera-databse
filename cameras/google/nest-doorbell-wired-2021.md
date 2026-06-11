@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Google |
 | Model | Nest Doorbell (Wired, 2nd Gen) |
-| Type | covert |
+| Type | doorbell |
 | Connectivity | wifi, ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |

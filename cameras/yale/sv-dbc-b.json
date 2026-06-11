@@ -2,7 +2,7 @@
   "id": "yale-sv-dbc-b",
   "brand": "Yale",
   "model": "Smart Video Doorbell Colour",
-  "type": "covert",
+  "type": "doorbell",
   "connectivity": [
     "wifi"
   ],
