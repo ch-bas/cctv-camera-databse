@@ -2,22 +2,31 @@
   "id": "reolink-trackmix-wifi",
   "brand": "Reolink",
   "model": "TrackMix WiFi",
-  "type": "dual-lens",
+  "type": "ptz",
   "connectivity": [
-    "wifi"
+    "wifi",
+    "ethernet"
   ],
   "release_year": 2023,
   "resolution": {
     "megapixels": 8,
-    "label": "4K+4MP dual-lens"
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
   },
-  "field_of_view_deg": "140 wide+35 tele",
+  "sensor": "1/3\" CMOS (wide) + 1/2.8\" CMOS (telephoto)",
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 (wide) + 8 (telephoto)",
+    "aperture": "F1.6"
+  },
+  "field_of_view_deg": "104 horizontal (wide) / 38 horizontal (telephoto)",
   "night_vision": {
-    "type": "color",
-    "range_m": 15
+    "type": "ir",
+    "range_m": 30
   },
   "power": {
-    "method": "DC 12V"
+    "method": "DC 12V/2A"
   },
   "storage": {
     "onboard": true,
@@ -29,23 +38,25 @@
     "rtsp",
     "onvif"
   ],
-  "ip_rating": "IP66",
+  "ip_rating": "IP65",
   "audio": {
     "microphone": true,
     "speaker": true,
     "two_way": true
   },
   "features": [
-    "dual-lens wide+tele WiFi outdoor auto-tracking",
-    "smart pan/tilt motorized",
-    "color spotlight",
-    "person/vehicle/animal/package AI",
-    "ONVIF/RTSP",
-    "IP66",
+    "dual-lens dual-view",
+    "auto-tracking",
+    "6x hybrid zoom",
+    "355° pan / 90° tilt",
+    "Wi-Fi 6 dual-band",
+    "person/vehicle/animal detection",
+    "spotlight color night vision",
+    "time-lapse",
     "no subscription"
   ],
+  "msrp_usd": 190,
   "sources": [
     "https://reolink.com/product/reolink-trackmix-wifi/"
-  ],
-  "msrp_usd": 99
+  ]
 }

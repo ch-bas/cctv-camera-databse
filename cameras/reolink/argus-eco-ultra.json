@@ -1,0 +1,19 @@
+{
+  "id": "reolink-argus-eco-ultra",
+  "brand": "Reolink",
+  "model": "Argus Eco Ultra",
+  "type": "bullet",
+  "connectivity": ["wifi"],
+  "release_year": 2023,
+  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "sensor": "1/2.7\" CMOS",
+  "field_of_view_deg": "105 horizontal",
+  "night_vision": { "type": "color", "range_m": 10 },
+  "power": { "method": "Rechargeable battery / solar panel" },
+  "storage": { "onboard": true, "max_microsd_gb": 512, "nvr_compatible": false, "cloud": true },
+  "ip_rating": "IP66",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["4K battery camera", "person/vehicle/pet detection", "spotlight + siren", "PIR motion sensor", "time-lapse", "solar compatible", "no subscription"],
+  "msrp_usd": 97,
+  "sources": ["https://reolink.com/product/argus-eco-ultra/"]
+}

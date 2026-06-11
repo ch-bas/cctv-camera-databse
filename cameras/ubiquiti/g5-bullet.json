@@ -1,0 +1,21 @@
+{
+  "id": "ubiquiti-g5-bullet",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G5 Bullet",
+  "aliases": ["UVC-G5-Bullet"],
+  "type": "bullet",
+  "connectivity": ["poe", "ethernet"],
+  "resolution": { "megapixels": 5, "max_width": 2688, "max_height": 1512, "label": "2K" },
+  "sensor": "1/2.7\" CMOS",
+  "lens": { "count": 1, "focal_length_mm": "2.8", "aperture": "F1.6", "varifocal": false },
+  "field_of_view_deg": "104 horizontal",
+  "night_vision": { "type": "ir", "range_m": 25 },
+  "power": { "method": "PoE (802.3af)" },
+  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "protocols": ["rtsp"],
+  "ip_rating": "IP66",
+  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "features": ["AI event detection person/vehicle", "UniFi Protect ecosystem", "weatherproof IP66", "built-in mic"],
+  "release_year": 2024,
+  "sources": ["https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-bullet"]
+}

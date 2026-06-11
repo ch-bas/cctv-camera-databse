@@ -1,0 +1,18 @@
+{
+  "id": "laview-r28",
+  "brand": "LaView",
+  "model": "R28",
+  "type": "ptz",
+  "connectivity": ["wifi"],
+  "release_year": 2024,
+  "resolution": { "megapixels": 4, "max_width": 2560, "max_height": 1440, "label": "2K QHD" },
+  "lens": { "count": 1, "aperture": "F1.6" },
+  "night_vision": { "type": "color" },
+  "power": { "method": "Rechargeable battery / solar panel" },
+  "storage": { "onboard": true, "nvr_compatible": false, "cloud": true },
+  "ip_rating": "IP65",
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["360° pan / 120° tilt", "solar powered", "smart PIR detection", "person/vehicle/pet detection", "color night vision", "Alexa/Google compatible", "no subscription required for local storage"],
+  "msrp_usd": 80,
+  "sources": ["https://www.laviewusa.com/products/r28-wireless-outdoor-camera"]
+}
