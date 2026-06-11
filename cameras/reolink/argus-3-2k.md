@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Argus 3 2K |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP) |
 | Field of view | 122 diagonal° |
 | Night vision | color (10m) |

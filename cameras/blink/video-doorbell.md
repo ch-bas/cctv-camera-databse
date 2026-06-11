@@ -7,7 +7,7 @@
 | Brand | Blink |
 | Model | Video Doorbell |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× Fixedmm F2.0 |
 | Field of view | 135 diagonal (head-to-toe)° |

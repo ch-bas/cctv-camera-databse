@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H5A 5MP Bullet (5.0C-H5A-BO2-IR) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.3-9 (motorized varifocal)mm |

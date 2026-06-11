@@ -59,5 +59,8 @@
   "msrp_usd": 39,
   "sources": [
     "https://reolink.com/product/reolink-e1-pro/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

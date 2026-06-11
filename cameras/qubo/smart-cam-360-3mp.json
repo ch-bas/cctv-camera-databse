@@ -1,7 +1,7 @@
 {
   "id": "qubo-smart-cam-360-3mp",
   "brand": "Qubo",
-  "model": "Smart Cam 360\u00b0 3MP",
+  "model": "Smart Cam 360° 3MP",
   "aliases": [
     "Qubo Q100",
     "Qubo Smart 360 2K"
@@ -60,10 +60,13 @@
     "Qubo India cloud (local servers)",
     "two-way talk",
     "Alexa compatible",
-    "\u20b93,990\u20135,200"
+    "₹3,990–5,200"
   ],
   "msrp_inr": 3990,
   "sources": [
     "https://www.quboworld.com/products/smart-cam-360-3mp"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

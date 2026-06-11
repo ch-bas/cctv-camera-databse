@@ -7,7 +7,7 @@
 | Brand | Ring |
 | Model | Video Doorbell 3 Plus |
 | Type | dome |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 160 horizontal° |

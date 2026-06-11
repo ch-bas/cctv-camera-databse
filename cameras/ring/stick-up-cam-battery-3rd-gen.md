@@ -7,7 +7,7 @@
 | Brand | Ring |
 | Model | Stick Up Cam Battery (3rd Gen) |
 | Type | dome |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 110 diagonal° |

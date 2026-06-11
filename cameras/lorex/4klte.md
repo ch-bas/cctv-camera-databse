@@ -7,7 +7,7 @@
 | Brand | Lorex |
 | Model | 4KLTE |
 | Type | bullet |
-| Connectivity | 4g, battery |
+| Connectivity | 4g |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Lens | 1× Fixedmm F1.6 |
 | Field of view | 120 horizontal° |

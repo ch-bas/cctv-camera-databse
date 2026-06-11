@@ -5,7 +5,7 @@
 | Brand | Costar |
 | Model | CDI-2312IRV |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p FHD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8-12 (motorized varifocal)mm |

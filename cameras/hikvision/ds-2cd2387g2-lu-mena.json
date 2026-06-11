@@ -8,7 +8,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -63,12 +62,16 @@
     "H.265+",
     "built-in mic",
     "SIRA-approved model (Dubai)",
-    "\u2248815 AED price point",
+    "≈815 AED price point",
     "popular Dubai villas & retail"
   ],
   "msrp_aed": 815,
   "sources": [
     "https://hikvision-uae.ae/product/hikvision-ds-2cd2387g2-lu/",
     "https://www.hikvision.com/mena-en/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

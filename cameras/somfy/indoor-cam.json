@@ -49,5 +49,8 @@
     "DE",
     "EU"
   ],
-  "msrp_eur": 149
+  "msrp_eur": 149,
+  "power_source": [
+    "usb"
+  ]
 }

@@ -5,7 +5,7 @@
 | Brand | Pelco |
 | Model | Sarix Professional 4 IMP531-1ERS |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 3.4-10.5mm |

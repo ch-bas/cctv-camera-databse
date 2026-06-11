@@ -4,13 +4,12 @@
   "model": "IPC-PT8849-A180",
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
   "resolution": {
     "megapixels": 8,
-    "label": "4K 180\u00b0 multisensor"
+    "label": "4K 180° multisensor"
   },
   "field_of_view_deg": "180h",
   "night_vision": {
@@ -37,13 +36,17 @@
     "two_way": false
   },
   "features": [
-    "4K 180\u00b0 multisensor panoramic bullet",
+    "4K 180° multisensor panoramic bullet",
     "WizSense AI",
     "people counting",
     "IP66",
-    "4\u00d7 sensor stitched view"
+    "4× sensor stitched view"
   ],
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

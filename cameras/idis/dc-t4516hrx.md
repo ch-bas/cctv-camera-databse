@@ -7,7 +7,7 @@
 | Brand | IDIS |
 | Model | DC-T4516HRX |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.9-9.4 (motorized varifocal)mm F1.8 |

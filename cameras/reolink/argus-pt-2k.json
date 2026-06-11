@@ -4,8 +4,7 @@
   "model": "Argus PT 2K",
   "type": "ptz",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -46,5 +45,9 @@
   "sources": [
     "https://reolink.com/product/argus-pt-2k/"
   ],
-  "msrp_usd": 69
+  "msrp_usd": 69,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

@@ -4,7 +4,7 @@
   "model": "Smart Video Doorbell",
   "aliases": [
     "Netatmo NDB01-EU Video Doorbell",
-    "Netatmo Sonnette vid\u00e9o connect\u00e9e"
+    "Netatmo Sonnette vidéo connectée"
   ],
   "type": "covert",
   "connectivity": [
@@ -61,11 +61,14 @@
     "Alexa / Google",
     "two-way audio",
     "IP44",
-    "165\u00b0 wide FOV",
+    "165° wide FOV",
     "GDPR-compliant EU data"
   ],
   "msrp_eur": 149,
   "sources": [
     "https://www.netatmo.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

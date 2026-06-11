@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -60,10 +59,14 @@
     "IP67",
     "IK10",
     "sold via Prama Hikvision India",
-    "\u20b95,000\u20138,000"
+    "₹5,000–8,000"
   ],
   "msrp_inr": 6999,
   "sources": [
     "https://www.hikvision.com/in-en/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

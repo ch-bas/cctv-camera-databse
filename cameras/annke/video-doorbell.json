@@ -36,12 +36,16 @@
   },
   "features": [
     "Annke 1080p WiFi video doorbell",
-    "180\u00b0 fisheye head-to-toe view",
+    "180° fisheye head-to-toe view",
     "two-way audio",
     "person detection",
     "IP44"
   ],
   "sources": [
     "https://www.annke.com/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

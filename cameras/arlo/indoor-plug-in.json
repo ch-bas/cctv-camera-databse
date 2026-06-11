@@ -54,5 +54,8 @@
   "msrp_usd": 89,
   "sources": [
     "https://us.arlo.com/products/arlo-essential-indoor-plug-in"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

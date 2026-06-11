@@ -8,7 +8,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -64,5 +63,9 @@
   "msrp_inr": 7499,
   "sources": [
     "https://www.cpplusworld.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

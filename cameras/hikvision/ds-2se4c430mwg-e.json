@@ -4,7 +4,6 @@
   "model": "DS-2SE4C430MWG-E",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -51,5 +50,8 @@
     "focal_length_mm": "2.8mm wide + 5.9-177mm 30x PTZ",
     "varifocal": true
   },
-  "sensor": "Dual CMOS"
+  "sensor": "Dual CMOS",
+  "power_source": [
+    "poe"
+  ]
 }

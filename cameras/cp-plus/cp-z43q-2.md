@@ -5,7 +5,7 @@
 | Brand | CP Plus |
 | Model | CP-Z43Q |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Lens | 1× 4.7-170 (36x optical)mm |
 | Field of view | 60-2.5h° |

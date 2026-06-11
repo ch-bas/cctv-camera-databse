@@ -7,9 +7,8 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2025,
   "markets": [
@@ -63,7 +62,7 @@
     "on-device AI (face/vehicle/pet/audio)",
     "eMMC + iCloud + NAS/SMB backup",
     "PoE or WiFi versions",
-    "IP65 / -30\u00b0C",
+    "IP65 / -30°C",
     "available Digitec / Galaxus CH",
     "popular Swiss HomeKit users"
   ],
@@ -71,5 +70,9 @@
   "sources": [
     "https://eu.aqara.com/en-eu/products/aqara-camera-hub-g5-pro",
     "https://www.digitec.ch/"
+  ],
+  "power_source": [
+    "poe",
+    "usb"
   ]
 }

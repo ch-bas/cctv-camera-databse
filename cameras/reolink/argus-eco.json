@@ -4,8 +4,7 @@
   "model": "Argus Eco",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2020,
   "resolution": {
@@ -45,5 +44,9 @@
   "sources": [
     "https://reolink.com/product/argus-eco/"
   ],
-  "msrp_usd": 39
+  "msrp_usd": 39,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

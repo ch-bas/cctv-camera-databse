@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Argus 5 Pro |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 130 diagonal° |
 | Night vision | color (15m) |

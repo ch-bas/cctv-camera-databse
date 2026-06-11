@@ -5,7 +5,7 @@
 | Brand | Pelco |
 | Model | Sarix Enhanced 4 IME432-1ERS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 3MP (3MP, 2048×1536) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3-9mm |

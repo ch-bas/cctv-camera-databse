@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | ANO-L7082R |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/3" Progressive Scan CMOS |
 | Lens | 1× 3.6 (fixed)mm |

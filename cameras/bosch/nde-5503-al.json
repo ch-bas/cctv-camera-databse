@@ -1,1 +1,65 @@
-{"id":"bosch-nde-5503-al","brand":"Bosch","model":"FLEXIDOME IP outdoor 5000i (NDE-5503-AL)","aliases":["NDE-5503-AL"],"type":"dome","connectivity":["poe","ethernet"],"resolution":{"megapixels":5,"max_width":3072,"max_height":1728,"label":"5MP"},"sensor":"1/2.9\" Progressive Scan CMOS","lens":{"count":1,"focal_length_mm":"3-10 (AVF motorized varifocal)","varifocal":true},"field_of_view_deg":"98-29 horizontal","night_vision":{"type":"ir","range_m":30},"power":{"method":"PoE (802.3af) / DC 12V / AC 24V","consumption_w":9.2},"storage":{"onboard":true,"nvr_compatible":true,"cloud":false},"protocols":["onvif","rtsp","http"],"ip_rating":"IP66","audio":{"microphone":false,"speaker":false,"two_way":false},"features":["Essential Video Analytics","auto-orientation correction","lens wizard (push-button focus)","H.265 multi-streaming","HDR","IK10 vandal resistant","850 nm IR LEDs"],"sources":["https://networkcamerastore.com/products/bosch-nde-5503-al-flexidome-ip-5000i-5mp-hdr-3-10mm-avf-h-265-v"]}
+{
+  "id": "bosch-nde-5503-al",
+  "brand": "Bosch",
+  "model": "FLEXIDOME IP outdoor 5000i (NDE-5503-AL)",
+  "aliases": [
+    "NDE-5503-AL"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 3072,
+    "max_height": 1728,
+    "label": "5MP"
+  },
+  "sensor": "1/2.9\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-10 (AVF motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "98-29 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V / AC 24V",
+    "consumption_w": 9.2
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Essential Video Analytics",
+    "auto-orientation correction",
+    "lens wizard (push-button focus)",
+    "H.265 multi-streaming",
+    "HDR",
+    "IK10 vandal resistant",
+    "850 nm IR LEDs"
+  ],
+  "sources": [
+    "https://networkcamerastore.com/products/bosch-nde-5503-al-flexidome-ip-5000i-5mp-hdr-3-10mm-avf-h-265-v"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
+}

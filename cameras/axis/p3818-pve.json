@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-p3818-pve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | PNV-A9300R |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 108-37h° |
 | Night vision | ir (40m) |

@@ -7,7 +7,7 @@
 | Brand | Lorex |
 | Model | LNE9292B Nocturnal N3 Dome |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8-12 (4x motorized varifocal)mm F1.6 |

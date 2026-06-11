@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2025,
   "markets": [
@@ -68,5 +67,9 @@
   "msrp_aud": 1099.99,
   "sources": [
     "https://au.swann.com/swnvk-mr4kprosd4/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

@@ -4,11 +4,10 @@
   "model": "DS-2CD2T47G2-L (Vietnam)",
   "aliases": [
     "Hikvision 4MP ColorVu Bullet Vietnam",
-    "Hikvision Camera Vi\u1ec7t Nam"
+    "Hikvision Camera Việt Nam"
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -60,10 +59,14 @@
     "H.265+",
     "IP67",
     "most popular outdoor PoE camera Vietnam installers",
-    "available at \u0110i\u1ec7n m\u00e1y Xanh / Th\u1ebf Gi\u1edbi Di \u0110\u1ed9ng / Bach Khoa"
+    "available at Điện máy Xanh / Thế Giới Di Động / Bach Khoa"
   ],
   "msrp_vnd": 1800000,
   "sources": [
     "https://www.hikvision.com/vn-vi/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

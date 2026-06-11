@@ -4,7 +4,6 @@
   "model": "SD49825GB-HNR",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -53,5 +52,8 @@
     "aperture": "F1.6",
     "varifocal": true
   },
-  "sensor": "1/2.8\" CMOS"
+  "sensor": "1/2.8\" CMOS",
+  "power_source": [
+    "poe"
+  ]
 }

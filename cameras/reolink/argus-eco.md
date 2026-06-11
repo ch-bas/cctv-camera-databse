@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Argus Eco |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 120 diagonal° |
 | Night vision | ir (10m) |

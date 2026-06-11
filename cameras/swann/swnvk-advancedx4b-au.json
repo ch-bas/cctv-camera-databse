@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -67,5 +66,8 @@
   "msrp_aud": 699.99,
   "sources": [
     "https://au.swann.com/swnvk-8advanx4b/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Sunell |
 | Model | SN-IPD5720DCAN-Z |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p Full HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.7-13.5 (motorized varifocal)mm |

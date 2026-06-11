@@ -67,5 +67,8 @@
   "msrp_eur": 44.99,
   "sources": [
     "https://www.tapo.com/de/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

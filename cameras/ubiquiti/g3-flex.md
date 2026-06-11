@@ -7,7 +7,7 @@
 | Brand | Ubiquiti |
 | Model | UniFi Protect G3 Flex |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× 4.0mm |
 | Field of view | 87 horizontal° |

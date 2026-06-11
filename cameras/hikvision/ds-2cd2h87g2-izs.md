@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2H87G2-IZS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8-12 (motorized varifocal)mm |

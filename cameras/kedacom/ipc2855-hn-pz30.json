@@ -3,17 +3,45 @@
   "brand": "Kedacom",
   "model": "IPC2855-HN-PZ30",
   "type": "ptz",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
   "sensor": "1/2.7\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "4.5-135 (30x optical zoom)", "varifocal": true },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.5-135 (30x optical zoom)",
+    "varifocal": true
+  },
   "field_of_view_deg": "64-2.3 horizontal",
-  "night_vision": { "type": "ir", "range_m": 200 },
-  "power": { "method": "PoE+ (IEEE 802.3at) / DC 24V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "PoE+ (IEEE 802.3at) / DC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "360° pan / 90° tilt",
     "30x optical zoom",
@@ -23,5 +51,10 @@
     "H.265 compression"
   ],
   "release_year": 2021,
-  "sources": ["https://www.kedacom.com/"]
+  "sources": [
+    "https://www.kedacom.com/"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

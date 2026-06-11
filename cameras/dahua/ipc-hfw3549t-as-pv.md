@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW3549T-AS-PV |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2880×1620) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 / 3.6 (fixed)mm |

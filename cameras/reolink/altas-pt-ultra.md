@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | Altas PT Ultra |
 | Type | ptz |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 360 pan/90 tilt° |
 | Night vision | color (15m) |

@@ -4,8 +4,7 @@
   "model": "Argus 2",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2019,
   "resolution": {
@@ -46,5 +45,9 @@
   "sources": [
     "https://reolink.com/product/argus-2/"
   ],
-  "msrp_usd": 69
+  "msrp_usd": 69,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

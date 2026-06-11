@@ -5,7 +5,7 @@
 | Brand | Mobotix |
 | Model | S74 Dual Sensor |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2x6MP dual sensor (12MP) |
 | Sensor | 2x 1/1.8" CMOS |
 | Lens | 2× Interchangeable dual headsmm |

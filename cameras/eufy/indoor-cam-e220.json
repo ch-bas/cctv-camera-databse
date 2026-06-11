@@ -56,5 +56,8 @@
   "msrp_usd": 39,
   "sources": [
     "https://www.eufy.com/products/indoor-cam-e220"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-PDBW5831-B360 |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4x2MP 360deg (8MP) |
 | Sensor | 4x 1/2.8" CMOS |
 | Lens | 4× 1.68 (fixed per sensor)mm |

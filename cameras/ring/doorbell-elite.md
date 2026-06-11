@@ -7,7 +7,7 @@
 | Brand | Ring |
 | Model | Doorbell Elite |
 | Type | covert |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 160 diagonal° |

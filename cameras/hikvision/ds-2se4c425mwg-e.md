@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2SE4C425MWG-E |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP+4MP TandemVu (8MP) |
 | Sensor | Dual CMOS |
 | Lens | 2× 2.8mm wide + 4.8-120mm 25x PTZmm |

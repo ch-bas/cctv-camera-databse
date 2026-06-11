@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -56,5 +55,8 @@
   "msrp_usd": 279.99,
   "sources": [
     "https://www.eufy.com/products/eufycam-e330-pro"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

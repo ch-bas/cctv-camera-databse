@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -59,5 +58,8 @@
   ],
   "sources": [
     "https://www.a1securitycameras.com/axis-p3245-lve-3-2mp-license-plate-recognition-outdoor-dome-ip-security-camera-license-plate-verifier-kit-with-night-vision-h-265-02234-001.html"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

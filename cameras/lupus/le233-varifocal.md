@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE233 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | CMOS |
 | Lens | 1× 2.7-13.5 (5x motorized varifocal)mm F1.6 |

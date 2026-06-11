@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | QNV-A9402R-WI |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP) |
 | Field of view | 110h° |
 | Night vision | ir (30m) |

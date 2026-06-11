@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -58,5 +57,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-m3077-plve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

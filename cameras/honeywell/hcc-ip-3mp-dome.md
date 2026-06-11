@@ -7,7 +7,7 @@
 | Brand | Honeywell |
 | Model | CALIPD-1AI 3MP IP Dome |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 / 4 (fixed)mm F1.8 |

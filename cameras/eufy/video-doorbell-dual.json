@@ -1,1 +1,59 @@
-{"id":"eufy-video-doorbell-dual","brand":"Eufy","model":"Video Doorbell Dual (E8213)","type":"covert","connectivity":["wifi","battery"],"resolution":{"megapixels":2,"max_width":1920,"max_height":1080,"label":"1080p"},"lens":{"count":2,"varifocal":false},"field_of_view_deg":"180 diagonal (dual)","night_vision":{"type":"color","range_m":5},"power":{"method":"Built-in rechargeable battery (6 months) / hardwired 16-24 VAC"},"storage":{"onboard":true,"nvr_compatible":false,"cloud":false},"protocols":["http"],"ip_rating":"IP65","audio":{"microphone":true,"speaker":true,"two_way":true},"features":["dual-lens (door + package view)","AI person detection","package detection","no subscription fee","8 GB built-in storage","Alexa / Google integration","HomeBase 2 compatible (optional)"],"release_year":2022,"msrp_usd":199.99,"sources":["https://www.eufy.com/video-doorbells"]}
+{
+  "id": "eufy-video-doorbell-dual",
+  "brand": "Eufy",
+  "model": "Video Doorbell Dual (E8213)",
+  "type": "covert",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 2,
+    "varifocal": false
+  },
+  "field_of_view_deg": "180 diagonal (dual)",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Built-in rechargeable battery (6 months) / hardwired 16-24 VAC"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-lens (door + package view)",
+    "AI person detection",
+    "package detection",
+    "no subscription fee",
+    "8 GB built-in storage",
+    "Alexa / Google integration",
+    "HomeBase 2 compatible (optional)"
+  ],
+  "release_year": 2022,
+  "msrp_usd": 199.99,
+  "sources": [
+    "https://www.eufy.com/video-doorbells"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
+  ]
+}

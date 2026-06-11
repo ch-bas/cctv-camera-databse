@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2018,
@@ -55,5 +54,8 @@
   "msrp_usd": 299,
   "sources": [
     "https://store.ui.com/us/en/products/uvc-g3-pro"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

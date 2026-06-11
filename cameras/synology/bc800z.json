@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2025,
@@ -65,5 +64,8 @@
   "msrp_usd": 299.99,
   "sources": [
     "https://www.synology.com/en-us/products/BC800Z"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

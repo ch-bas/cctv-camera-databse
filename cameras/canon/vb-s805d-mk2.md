@@ -7,7 +7,7 @@
 | Brand | Canon |
 | Model | VB-S805D Mk II |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Sensor | 1/2.9" CMOS |
 | Lens | 1× 2.1 (fixed)mm F1.8 |

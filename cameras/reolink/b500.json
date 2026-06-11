@@ -4,7 +4,6 @@
   "model": "B500",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -45,5 +44,8 @@
   "sources": [
     "https://reolink.com/product/b500/"
   ],
-  "msrp_usd": 25
+  "msrp_usd": 25,
+  "power_source": [
+    "poe"
+  ]
 }

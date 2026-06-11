@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -56,11 +55,15 @@
     "person/vehicle/animal AI detection",
     "no subscription",
     "RTSP/ONVIF Blue Iris/Frigate compatible",
-    "\u20b96,000\u20139,000 value 4K India",
+    "₹6,000–9,000 value 4K India",
     "Amazon India popular"
   ],
   "msrp_inr": 7499,
   "sources": [
     "https://reolink.com/in/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

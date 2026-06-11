@@ -5,7 +5,7 @@
 | Brand | IMOU |
 | Model | Turret PoE 8MP |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

@@ -3,7 +3,7 @@
   "brand": "Somfy",
   "model": "Indoor Camera",
   "aliases": [
-    "Somfy Cam\u00e9ra Int\u00e9rieure"
+    "Somfy Caméra Intérieure"
   ],
   "type": "dome",
   "connectivity": [
@@ -65,5 +65,8 @@
   "msrp_eur": 129.99,
   "sources": [
     "https://www.somfy.fr/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Cathexis |
 | Model | CAT-IPC-PTZ4025 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1440p QHD (4MP, 2560×1440) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.8-120 (motorized zoom)mm |

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW2249T-S-IL |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2MP (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

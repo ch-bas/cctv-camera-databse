@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -65,10 +64,14 @@
     "IP67",
     "DSGVO local-first",
     "new 2024 DE model",
-    "\u20ac200\u2013250"
+    "€200–250"
   ],
   "msrp_eur": 229,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

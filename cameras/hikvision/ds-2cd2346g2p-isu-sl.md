@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2346G2P-ISU/SL |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP Panoramic (4MP, 3040×1368) |
 | Sensor | Dual 1/2.5" Progressive Scan CMOS |
 | Lens | 2× 2.8 (fixed)mm |

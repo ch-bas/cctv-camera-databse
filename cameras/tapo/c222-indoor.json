@@ -59,5 +59,8 @@
   "msrp_usd": 29,
   "sources": [
     "https://www.tapo.com/en/product/indoor-camera/tapo-c222/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

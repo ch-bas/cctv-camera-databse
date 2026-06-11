@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW5449H-ASE-D2 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

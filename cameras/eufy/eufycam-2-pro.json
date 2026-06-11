@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2020,
   "resolution": {
@@ -57,5 +56,8 @@
   "msrp_usd": 219.99,
   "sources": [
     "https://www.eufy.com/products/eufycam-2-pro"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

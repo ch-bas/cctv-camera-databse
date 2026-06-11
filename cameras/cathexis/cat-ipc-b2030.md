@@ -5,7 +5,7 @@
 | Brand | Cathexis |
 | Model | CAT-IPC-B2030 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p FHD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Night vision | ir (40m) |

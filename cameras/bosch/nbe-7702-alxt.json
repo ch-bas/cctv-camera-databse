@@ -8,7 +8,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://www.anixter.com/en_us/products/NBE-7702-ALX/BOSCH-SECURITY-SYSTEMS/Surveillance-Cameras/p/10362187"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

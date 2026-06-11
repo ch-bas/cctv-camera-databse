@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://www.scribd.com/document/725140541/IPC-HFW7842H-Z-X-S0-datasheet-20230214"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

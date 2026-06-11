@@ -50,7 +50,7 @@
   "features": [
     "4MP ColorPro color night vision",
     "F1.8 aperture",
-    "130\u00b0 wide FOV outdoor dome",
+    "130° wide FOV outdoor dome",
     "AI person/vehicle detection",
     "H.265",
     "RTSP/ONVIF",
@@ -60,5 +60,8 @@
   "msrp_usd": 39,
   "sources": [
     "https://www.tapo.com/en/product/outdoor-camera/tapo-c440/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

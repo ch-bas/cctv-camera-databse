@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW3841E-ZAS |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 106-30h° |
 | Night vision | ir (60m) |

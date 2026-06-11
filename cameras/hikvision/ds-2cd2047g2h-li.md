@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2047G2H-LI |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 2.8 / 4 (fixed super-confocal)mm F1.0 |

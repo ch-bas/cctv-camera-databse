@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | QNV-8080R (Bullet) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP) |
 | Field of view | 102-42h° |
 | Night vision | ir (35m) |

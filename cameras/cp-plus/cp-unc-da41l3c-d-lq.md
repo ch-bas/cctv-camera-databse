@@ -7,7 +7,7 @@
 | Brand | CP Plus |
 | Model | CP-UNC-DA41L3C-D-LQ |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 3.6 (fixed)mm F1.6 |

@@ -4,8 +4,7 @@
   "model": "Tapo C402",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 2,
@@ -57,5 +56,9 @@
     "https://www.tapo.com/"
   ],
   "release_year": 2023,
-  "msrp_usd": 39.99
+  "msrp_usd": 39.99,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

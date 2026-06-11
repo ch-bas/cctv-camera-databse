@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME outdoor 7000i 5MP (NDE-7703-AL) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 3.2-10.5 (motorized varifocal)mm F1.6 |

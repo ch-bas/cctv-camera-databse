@@ -4,7 +4,7 @@
   "model": "iM3",
   "aliases": [
     "Intelbras iM3 WiFi Indoor Camera Brazil Argentina",
-    "C\u00e2mera Wi-Fi Inteligente iM3"
+    "Câmera Wi-Fi Inteligente iM3"
   ],
   "type": "dome",
   "connectivity": [
@@ -69,5 +69,8 @@
   ],
   "sources": [
     "https://www.intelbras.com/en/full-hd-wi-fi-smart-internal-camera-im3"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

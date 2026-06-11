@@ -3,9 +3,7 @@
   "brand": "IMOU",
   "model": "Go Basic 2MP",
   "type": "bullet",
-  "connectivity": [
-    "battery"
-  ],
+  "connectivity": [],
   "release_year": 2022,
   "resolution": {
     "megapixels": 2,
@@ -43,5 +41,9 @@
   ],
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

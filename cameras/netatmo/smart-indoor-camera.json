@@ -52,7 +52,7 @@
     "two_way": true
   },
   "features": [
-    "NO SUBSCRIPTION FEES \u2014 all features free",
+    "NO SUBSCRIPTION FEES — all features free",
     "facial recognition (offline on-device)",
     "local microSD + Dropbox storage",
     "person/animal detection",
@@ -65,5 +65,8 @@
   "msrp_gbp": 179.99,
   "sources": [
     "https://www.netatmo.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

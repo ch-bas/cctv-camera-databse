@@ -5,7 +5,6 @@
 | Brand | Reolink |
 | Model | Duo 2 LTE |
 | Type | bullet |
-| Connectivity | battery |
 | Resolution | 16MP 180° dual-lens (16MP) |
 | Field of view | 180 horizontal° |
 | Night vision | color (30m) |

@@ -3,17 +3,44 @@
   "brand": "Pelco",
   "model": "ExSite Enhanced ESF233-EW1",
   "type": "dome",
-  "connectivity": ["ethernet"],
-  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
   "sensor": "1/2.8\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "3-9", "varifocal": true },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3-9",
+    "varifocal": true
+  },
   "field_of_view_deg": "96-34 horizontal",
-  "night_vision": { "type": "ir", "range_m": 30 },
-  "power": { "method": "24VAC / DC 48V" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "24VAC / DC 48V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": false, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "explosion-proof housing",
     "ATEX/IECEx certified",
@@ -22,5 +49,10 @@
     "SureVision WDR"
   ],
   "release_year": 2021,
-  "sources": ["https://www.pelco.com/products/exsite-enhanced/"]
+  "sources": [
+    "https://www.pelco.com/products/exsite-enhanced/"
+  ],
+  "power_source": [
+    "dc"
+  ]
 }

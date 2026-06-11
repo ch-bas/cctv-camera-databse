@@ -35,7 +35,7 @@
     "two_way": true
   },
   "features": [
-    "5MP indoor WiFi with 3\u00d7 optical zoom",
+    "5MP indoor WiFi with 3× optical zoom",
     "motorized varifocal",
     "9m IR",
     "person detection",
@@ -47,5 +47,8 @@
   "sources": [
     "https://reolink.com/product/e1-zoom/"
   ],
-  "msrp_usd": 45
+  "msrp_usd": 45,
+  "power_source": [
+    "usb"
+  ]
 }

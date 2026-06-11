@@ -61,10 +61,13 @@
     "two-way audio",
     "IMOU app",
     "Alexa",
-    "\u20b93,500\u20135,000"
+    "₹3,500–5,000"
   ],
   "msrp_inr": 3999,
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -55,5 +55,8 @@
   "msrp_eur": 199,
   "sources": [
     "https://www.somfy.fr/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

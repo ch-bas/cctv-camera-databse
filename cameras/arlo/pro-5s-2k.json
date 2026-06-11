@@ -8,8 +8,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 8,
@@ -57,5 +56,9 @@
   "msrp_usd": 299.99,
   "sources": [
     "https://www.arlo.com/cameras/ultra/arlo-ultra-2.html"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

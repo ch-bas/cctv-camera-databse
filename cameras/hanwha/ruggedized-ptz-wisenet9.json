@@ -9,7 +9,6 @@
   "generation": "Wisenet 9",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,8 @@
   "release_notes": "Debuted at Intersec 2026 January; full specs TBC at launch.",
   "sources": [
     "https://www.hanwhavision.com/en/news-center/1652838/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

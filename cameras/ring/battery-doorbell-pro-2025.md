@@ -7,7 +7,7 @@
 | Brand | Ring |
 | Model | Battery Doorbell Pro |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | Head-to-Toe 1536p (4MP, 2560×1440) |
 | Lens | 1× |
 | Field of view | 150 horizontal / 84 vertical° |

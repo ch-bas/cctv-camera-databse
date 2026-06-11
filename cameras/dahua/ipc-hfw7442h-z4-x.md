@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW7442H-Z4-X |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 83-15h° |
 | Night vision | ir (80m) |

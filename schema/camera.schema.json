@@ -25,7 +25,13 @@
     },
     "connectivity": {
       "type": "array",
-      "items": { "type": "string", "enum": ["poe", "wifi", "ethernet", "4g", "battery", "analog"] }
+      "items": { "type": "string", "enum": ["wifi", "ethernet", "4g", "coax"] },
+      "description": "Network connectivity only — how the camera sends data."
+    },
+    "power_source": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["poe", "dc", "usb", "battery", "solar", "ac-mains"] },
+      "description": "How the camera is powered."
     },
     "resolution": {
       "type": "object",

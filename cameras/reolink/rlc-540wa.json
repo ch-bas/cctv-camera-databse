@@ -53,5 +53,8 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/product/rlc-540wa/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

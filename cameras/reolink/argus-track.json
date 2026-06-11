@@ -7,8 +7,7 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 8,
@@ -57,5 +56,9 @@
   "release_year": 2024,
   "sources": [
     "https://reolink.com/product/argus-track/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

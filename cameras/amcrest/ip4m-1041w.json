@@ -44,5 +44,8 @@
   ],
   "sources": [
     "https://amcrest.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

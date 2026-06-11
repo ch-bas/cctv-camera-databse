@@ -9,7 +9,6 @@
   "generation": "Wisenet 9",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -65,5 +64,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/product/pnv-a9081r/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

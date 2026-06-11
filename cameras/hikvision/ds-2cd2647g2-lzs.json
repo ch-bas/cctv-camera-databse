@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://www.sourcesecurity.com/hikvision-ds-2cd2047g2-l-4mm-c-ip-camera-technical-details.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

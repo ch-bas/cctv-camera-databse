@@ -59,5 +59,8 @@
   "msrp_usd": 199,
   "sources": [
     "https://www.eufy.com/products/floodlight-cam-e220"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

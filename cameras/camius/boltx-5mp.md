@@ -5,7 +5,7 @@
 | Brand | Camius |
 | Model | Boltx 5MP |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP Super HD (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Night vision | ir (35m) |

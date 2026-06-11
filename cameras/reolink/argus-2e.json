@@ -4,8 +4,7 @@
   "model": "Argus 2E",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2021,
   "resolution": {
@@ -47,5 +46,9 @@
   "sources": [
     "https://reolink.com/product/argus-2e/"
   ],
-  "msrp_usd": 49
+  "msrp_usd": 49,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

@@ -2,24 +2,62 @@
   "id": "hikvision-ds-2cd2t43g2-4i",
   "brand": "Hikvision",
   "model": "DS-2CD2T43G2-4I",
-  "aliases": ["AcuSense 4MP 80m IR Fixed Bullet"],
+  "aliases": [
+    "AcuSense 4MP 80m IR Fixed Bullet"
+  ],
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 4, "max_width": 2688, "max_height": 1520, "label": "4MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
   "sensor": "1/3\" Progressive Scan CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.8 / 4 / 6 (fixed options)", "aperture": "F1.6", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4 / 6 (fixed options)",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
   "field_of_view_deg": "103 horizontal (2.8mm)",
-  "night_vision": { "type": "ir", "range_m": 80 },
-  "power": { "method": "PoE (802.3af) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp", "http"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 80
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": false, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "AcuSense human/vehicle classification",
     "80m IR range",
     "120 dB WDR",
     "H.265+ compression"
   ],
-  "sources": ["https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/"]
+  "sources": [
+    "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

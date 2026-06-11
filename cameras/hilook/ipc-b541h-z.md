@@ -7,7 +7,7 @@
 | Brand | HiLook |
 | Model | IPC-B541H-Z |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8-12 (4x motorized varifocal)mm F1.6 |

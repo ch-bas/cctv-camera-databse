@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2SE4C430MWG-E |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP+4MP TandemVu 30x (8MP) |
 | Sensor | Dual CMOS |
 | Lens | 2× 2.8mm wide + 5.9-177mm 30x PTZmm |

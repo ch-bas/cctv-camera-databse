@@ -44,5 +44,8 @@
   ],
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

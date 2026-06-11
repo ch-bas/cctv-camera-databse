@@ -7,8 +7,7 @@
   ],
   "type": "covert",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -57,5 +56,9 @@
   "msrp_usd": 89.99,
   "sources": [
     "https://www.tapo.com/us/product/smart-camera/tapo-d230s1/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

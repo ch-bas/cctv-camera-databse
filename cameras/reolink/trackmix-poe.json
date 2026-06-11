@@ -4,7 +4,6 @@
   "model": "TrackMix PoE",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -56,5 +55,9 @@
   "msrp_usd": 161,
   "sources": [
     "https://reolink.com/product/reolink-trackmix-poe/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

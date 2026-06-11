@@ -5,7 +5,7 @@
 | Brand | Tapo |
 | Model | Tapo C340 Solar |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× 3.2mmmm |
 | Night vision | hybrid (30m) |

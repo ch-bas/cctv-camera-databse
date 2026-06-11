@@ -4,7 +4,6 @@
   "model": "IPC-HDW3849H-ZAS-PV",
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -37,7 +36,7 @@
     "two_way": true
   },
   "features": [
-    "TiOC 2.0 4K 5\u00d7 varifocal eyeball",
+    "TiOC 2.0 4K 5× varifocal eyeball",
     "full-color active deterrence",
     "WizSense AI",
     "two-way audio",
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

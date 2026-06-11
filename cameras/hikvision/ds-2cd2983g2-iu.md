@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2983G2-IU |
 | Type | fisheye |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/2.7" Progressive Scan CMOS |
 | Lens | 1× 1.68 (fixed fisheye)mm F2.0 |

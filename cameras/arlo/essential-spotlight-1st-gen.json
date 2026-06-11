@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2020,
   "resolution": {
@@ -56,5 +55,8 @@
   "msrp_usd": 129.99,
   "sources": [
     "https://us.arlo.com/products/arlo-essential-spotlight"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

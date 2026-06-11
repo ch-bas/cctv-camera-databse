@@ -3,9 +3,7 @@
   "brand": "Reolink",
   "model": "Go PT Plus",
   "type": "ptz",
-  "connectivity": [
-    "battery"
-  ],
+  "connectivity": [],
   "release_year": 2022,
   "resolution": {
     "megapixels": 4,
@@ -46,5 +44,9 @@
   "sources": [
     "https://reolink.com/product/reolink-go-pt-plus/"
   ],
-  "msrp_usd": 109
+  "msrp_usd": 109,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

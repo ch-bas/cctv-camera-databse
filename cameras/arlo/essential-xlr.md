@@ -7,7 +7,7 @@
 | Brand | Arlo |
 | Model | Essential XL Spotlight |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 130 diagonal° |

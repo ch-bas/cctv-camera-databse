@@ -2,9 +2,14 @@
   "id": "dahua-ipc-hdw3849h-as-pv",
   "brand": "Dahua",
   "model": "IPC-HDW3849H-AS-PV",
-  "aliases": ["DH-IPC-HDW3849HP-AS-PV", "WizSense Full-color Eyeball"],
+  "aliases": [
+    "DH-IPC-HDW3849HP-AS-PV",
+    "WizSense Full-color Eyeball"
+  ],
   "type": "turret",
-  "connectivity": ["poe", "ethernet"],
+  "connectivity": [
+    "ethernet"
+  ],
   "resolution": {
     "megapixels": 8,
     "max_width": 3840,
@@ -32,7 +37,10 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": ["onvif", "rtsp"],
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
   "audio": {
     "microphone": true,
@@ -53,5 +61,9 @@
   "weight_g": 754,
   "sources": [
     "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdw3849h-as-pv=s5"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

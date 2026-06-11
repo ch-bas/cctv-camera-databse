@@ -5,7 +5,7 @@
 | Brand | Tiandy |
 | Model | TC-C34GP W/E |
 | Type | bullet |
-| Connectivity | poe, wifi, ethernet |
+| Connectivity | ethernet, wifi |
 | Resolution | 4MP QHD (4MP, 2560×1440) |
 | Sensor | 1/2.7" Starlight CMOS |
 | Lens | 1× 4mm |

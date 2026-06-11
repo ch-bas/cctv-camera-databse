@@ -4,7 +4,6 @@
   "model": "RLC-520",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -46,5 +45,9 @@
   "sources": [
     "https://reolink.com/product/rlc-520/"
   ],
-  "msrp_usd": 35
+  "msrp_usd": 35,
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

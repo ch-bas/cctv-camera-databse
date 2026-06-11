@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "markets": [
@@ -63,5 +62,9 @@
   "msrp_gbp": 79.99,
   "sources": [
     "https://www.yale.co.uk/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

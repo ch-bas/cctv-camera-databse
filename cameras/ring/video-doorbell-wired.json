@@ -53,5 +53,8 @@
   "msrp_usd": 64.99,
   "sources": [
     "https://ring.com/products/video-doorbell-wired"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Pelco |
 | Model | Optera 4K IMM12036-1EIPQ |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 12MP Panoramic (12MP, 8192×1536) |
 | Sensor | 1/2.7" CMOS (x4) |
 | Lens | 4× 2.0mm |

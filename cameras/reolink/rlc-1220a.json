@@ -4,7 +4,6 @@
   "model": "RLC-1220A",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -48,5 +47,9 @@
   "sources": [
     "https://reolink.com/product/rlc-1220a/"
   ],
-  "msrp_usd": 79
+  "msrp_usd": 79,
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

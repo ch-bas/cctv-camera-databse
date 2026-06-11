@@ -4,7 +4,6 @@
   "model": "IPC2224SE-DF40K-WL-I0",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.uniview.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | GeoVision |
 | Model | GV-ABL2702 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 2.8mm |

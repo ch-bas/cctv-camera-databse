@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Duo 3V PoE |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 16MP (16MP) |
 | Sensor | Dual 1/2.7" CMOS (4K each) |
 | Lens | 2× 2.8 (fixed)mm F1.6 |

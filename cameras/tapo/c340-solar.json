@@ -4,8 +4,7 @@
   "model": "Tapo C340 Solar",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -54,5 +53,9 @@
   ],
   "sources": [
     "https://www.tapo.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

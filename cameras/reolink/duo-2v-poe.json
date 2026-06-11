@@ -4,7 +4,6 @@
   "model": "Duo 2V PoE",
   "type": "dual-lens",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -53,5 +52,9 @@
   "release_year": 2023,
   "sources": [
     "https://reolink.com/product/reolink-duo-2v-poe/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

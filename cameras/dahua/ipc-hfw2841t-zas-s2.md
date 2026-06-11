@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW2841T-ZAS-S2 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 110-30h° |
 | Night vision | ir (60m) |

@@ -56,5 +56,8 @@
   "msrp_usd": 32,
   "sources": [
     "https://www.wyze.com/products/wyze-cam-og"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

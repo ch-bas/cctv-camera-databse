@@ -8,7 +8,6 @@
   "release_year": 2024,
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -62,5 +61,8 @@
   ],
   "sources": [
     "https://www.avendor.com/products/p3265-lv-ntwk-cam-hdtv-1080p-60-fps-30fp"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

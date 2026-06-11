@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2123G2-I(U) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 103h° |
 | Night vision | ir (40m) |

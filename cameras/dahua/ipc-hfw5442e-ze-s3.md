@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW5442E-ZE-S3 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 110-30h° |
 | Night vision | ir (60m) |

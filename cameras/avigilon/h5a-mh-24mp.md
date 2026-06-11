@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H5A Multisensor 24MP (4x6MP) |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4x6MP (24MP) |
 | Sensor | 4x 1/2.8" CMOS |
 | Lens | 4× 3.3-5.7 (motorized per sensor)mm |

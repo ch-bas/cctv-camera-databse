@@ -8,7 +8,6 @@
   "release_year": 2024,
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,8 @@
   ],
   "sources": [
     "https://www.cdw.com/product/axis-p3265-v-camera/6842518"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

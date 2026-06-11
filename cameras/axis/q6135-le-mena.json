@@ -8,7 +8,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -67,5 +66,8 @@
   "sources": [
     "https://www.axis.com/products/axis-q6135-le",
     "https://www.axis.com/en-me/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

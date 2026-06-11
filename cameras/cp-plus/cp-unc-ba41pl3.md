@@ -5,7 +5,7 @@
 | Brand | CP Plus |
 | Model | CP-UNC-BA41PL3 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 103h° |
 | Night vision | color (30m) |

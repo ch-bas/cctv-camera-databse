@@ -4,7 +4,7 @@
   "model": "H8c (Vietnam)",
   "aliases": [
     "EZVIZ H8c 2K Outdoor Pan/Tilt Vietnam",
-    "Camera ngo\u00e0i tr\u1eddi WiFi EZVIZ"
+    "Camera ngoài trời WiFi EZVIZ"
   ],
   "type": "ptz",
   "connectivity": [
@@ -60,10 +60,13 @@
     "IP67",
     "RTSP/ONVIF",
     "popular outdoor WiFi Shopee/Lazada Vietnam",
-    "\u2248900,000\u20131,200,000 VND"
+    "≈900,000–1,200,000 VND"
   ],
   "msrp_vnd": 999000,
   "sources": [
     "https://www.ezviz.com/vn-vi/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

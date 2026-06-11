@@ -8,7 +8,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -56,5 +55,9 @@
   ],
   "sources": [
     "https://amcrest.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

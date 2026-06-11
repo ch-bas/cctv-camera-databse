@@ -63,5 +63,8 @@
   "msrp_gbp": 199.99,
   "sources": [
     "https://www.bosch-smarthome.com/uk/en/products/cameras/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

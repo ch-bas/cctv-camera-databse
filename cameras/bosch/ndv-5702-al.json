@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://www.amazon.com/Bosch-NDV-5702-AL-Flexidome-3-2-10-5mm-Varifocal/dp/B0C628FL3D"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

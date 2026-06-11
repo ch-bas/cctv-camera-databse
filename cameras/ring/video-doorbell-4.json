@@ -2,18 +2,45 @@
   "id": "ring-video-doorbell-4",
   "brand": "Ring",
   "model": "Video Doorbell 4",
-  "aliases": ["B08JNR77QY"],
+  "aliases": [
+    "B08JNR77QY"
+  ],
   "type": "covert",
-  "connectivity": ["wifi", "battery"],
-  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p" },
-  "lens": { "count": 1, "varifocal": false },
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
   "field_of_view_deg": "155 diagonal",
-  "night_vision": { "type": "color", "range_m": 5 },
-  "power": { "method": "Quick-Release rechargeable battery / hardwired 8–24 VAC" },
-  "storage": { "onboard": false, "nvr_compatible": false, "cloud": true },
-  "protocols": ["http"],
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "Quick-Release rechargeable battery / hardwired 8–24 VAC"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
   "ip_rating": "IPX5",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "color Pre-Roll (4 sec before event)",
     "advanced motion detection",
@@ -26,5 +53,11 @@
   "operating_temp_c": "-20 to 48",
   "release_year": 2021,
   "msrp_usd": 99.99,
-  "sources": ["https://ring.com/gb/en/support/articles/uc381/Learn-About-Video-Doorbell-4"]
+  "sources": [
+    "https://ring.com/gb/en/support/articles/uc381/Learn-About-Video-Doorbell-4"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
+  ]
 }

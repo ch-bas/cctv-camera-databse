@@ -8,7 +8,6 @@
   "release_year": 2024,
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-m4216-v"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

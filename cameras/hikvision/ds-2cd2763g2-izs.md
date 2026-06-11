@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2763G2-IZS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3200×1800) |
 | Sensor | 1/2.4" Progressive Scan CMOS |
 | Lens | 1× 2.8-12 (motorized varifocal)mm F1.6 |

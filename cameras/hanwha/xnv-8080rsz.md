@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | XNV-8080RSZ |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 3.9-9.4 (2.4x motorized)mm F1.3 |

@@ -4,7 +4,6 @@
   "model": "VIP-S4020-G2",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.intelbras.com/en/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

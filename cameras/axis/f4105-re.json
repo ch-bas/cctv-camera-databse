@@ -4,7 +4,6 @@
   "model": "F4105-RE",
   "type": "covert",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -45,5 +44,8 @@
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

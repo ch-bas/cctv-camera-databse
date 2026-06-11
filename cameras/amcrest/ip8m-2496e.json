@@ -1,1 +1,67 @@
-{"id":"amcrest-ip8m-2496e","brand":"Amcrest","model":"UltraHD 4K Bullet PoE (IP8M-2496E)","aliases":["IP8M-2496EW","IP8M-2496EB","IP8M-2496EW-28MM"],"type":"bullet","connectivity":["poe","ethernet"],"resolution":{"megapixels":8,"max_width":3840,"max_height":2160,"label":"4K UHD"},"sensor":"1/2.5\" Sony Starvis CMOS","lens":{"count":1,"focal_length_mm":"2.8 / 4.0 (fixed options)","varifocal":false},"field_of_view_deg":"105 horizontal (2.8mm) / 88 horizontal (4mm)","night_vision":{"type":"ir","range_m":40},"power":{"method":"PoE (802.3af) / DC 12V"},"storage":{"onboard":true,"max_microsd_gb":256,"nvr_compatible":true,"cloud":true},"protocols":["onvif","rtsp","rtmp"],"ip_rating":"IP67","audio":{"microphone":false,"speaker":false,"two_way":false},"features":["Sony Starvis sensor","H.265 / H.264 dual compression","Blue Iris compatible","Synology / QNAP NAS compatible","motion detection zones","Amcrest View app"],"release_year":2018,"sources":["https://amcrest.com/ultrahd-4k-8mp-bullet-poe-ip-camera-security-4-0mm-lens-microsd-recording-white-ip8m-2496ew-40mm.html"]}
+{
+  "id": "amcrest-ip8m-2496e",
+  "brand": "Amcrest",
+  "model": "UltraHD 4K Bullet PoE (IP8M-2496E)",
+  "aliases": [
+    "IP8M-2496EW",
+    "IP8M-2496EB",
+    "IP8M-2496EW-28MM"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.5\" Sony Starvis CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 / 4.0 (fixed options)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "105 horizontal (2.8mm) / 88 horizontal (4mm)",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "rtmp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Sony Starvis sensor",
+    "H.265 / H.264 dual compression",
+    "Blue Iris compatible",
+    "Synology / QNAP NAS compatible",
+    "motion detection zones",
+    "Amcrest View app"
+  ],
+  "release_year": 2018,
+  "sources": [
+    "https://amcrest.com/ultrahd-4k-8mp-bullet-poe-ip-camera-security-4-0mm-lens-microsd-recording-white-ip8m-2496ew-40mm.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
+}

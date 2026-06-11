@@ -35,13 +35,16 @@
   },
   "features": [
     "Google Nest Cam indoor pan/tilt wired",
-    "360\u00b0 pan / 130\u00b0 tilt",
+    "360° pan / 130° tilt",
     "person/pet/motion detection",
     "Google Home / Alexa",
     "privacy mode",
-    "no IP rating \u2014 indoor only"
+    "no IP rating — indoor only"
   ],
   "sources": [
     "https://store.google.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -8,8 +8,7 @@
   "release_year": 2024,
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 4,
@@ -55,5 +54,10 @@
   "msrp_usd": 179.99,
   "sources": [
     "https://www.arlo.com/cameras/pro/arlo-pro-5.html"
+  ],
+  "power_source": [
+    "battery",
+    "solar",
+    "usb"
   ]
 }

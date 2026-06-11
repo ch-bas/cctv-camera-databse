@@ -7,7 +7,7 @@
 | Brand | Wyze |
 | Model | Cam Outdoor v2 |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | CMOS |
 | Lens | 1× 2.9 (fixed)mm F2.0 |

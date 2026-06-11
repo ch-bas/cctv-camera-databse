@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -59,5 +58,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

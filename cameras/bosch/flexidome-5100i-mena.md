@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME 5100i (MENA) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.3-10 (motorized varifocal)mm F1.8 |

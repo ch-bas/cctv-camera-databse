@@ -8,7 +8,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -61,11 +60,14 @@
     "SOC 2 Type II certified",
     "zero-touch provisioning",
     "IP66",
-    "-40\u00b0C to +60\u00b0C",
+    "-40°C to +60°C",
     "popular US enterprise/government/K-12 schools"
   ],
   "msrp_usd": 999,
   "sources": [
     "https://www.verkada.com/security-cameras/outdoor-cameras/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

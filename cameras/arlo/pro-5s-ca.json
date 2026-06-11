@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "markets": [
@@ -54,11 +53,16 @@
     "direct WiFi (no hub required)",
     "Apple HomeKit / Google / Alexa",
     "Arlo Secure plan",
-    "rated -20\u00b0C",
+    "rated -20°C",
     "Best Buy Canada stocked"
   ],
   "msrp_cad": 219.99,
   "sources": [
     "https://www.arlo.com/en-ca/"
+  ],
+  "power_source": [
+    "battery",
+    "solar",
+    "usb"
   ]
 }

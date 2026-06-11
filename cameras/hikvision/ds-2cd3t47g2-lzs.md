@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD3T47G2-LZS |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 103-32h° |
 | Night vision | color (60m) |

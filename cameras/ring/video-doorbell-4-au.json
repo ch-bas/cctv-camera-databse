@@ -58,5 +58,9 @@
   "msrp_aud": 149.99,
   "sources": [
     "https://ring.com/en-au/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

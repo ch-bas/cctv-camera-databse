@@ -57,5 +57,8 @@
   ],
   "sources": [
     "https://www.tapo.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

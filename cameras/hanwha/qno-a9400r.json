@@ -8,7 +8,6 @@
   "generation": "Wisenet 9",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2025,
@@ -61,5 +60,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

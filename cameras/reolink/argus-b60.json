@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 8,
@@ -56,5 +55,10 @@
   "release_year": 2023,
   "sources": [
     "https://reolink.com/product/argus-b60/"
+  ],
+  "power_source": [
+    "battery",
+    "solar",
+    "usb"
   ]
 }

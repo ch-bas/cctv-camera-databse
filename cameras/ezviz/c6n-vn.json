@@ -4,7 +4,7 @@
   "model": "C6N (Vietnam)",
   "aliases": [
     "EZVIZ C6N 1080p WiFi Pan/Tilt Vietnam",
-    "Camera WiFi EZVIZ Vi\u1ec7t Nam"
+    "Camera WiFi EZVIZ Việt Nam"
   ],
   "type": "ptz",
   "connectivity": [
@@ -58,10 +58,13 @@
     "RTSP/ONVIF (Hikvision NVR compatible)",
     "EZVIZ app / Alexa / Google",
     "#1 budget indoor WiFi cam Lazada/Shopee/Tiki Vietnam",
-    "\u2248400,000\u2013600,000 VND price point"
+    "≈400,000–600,000 VND price point"
   ],
   "msrp_vnd": 499000,
   "sources": [
     "https://www.ezviz.com/vn-vi/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

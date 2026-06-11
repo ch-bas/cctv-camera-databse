@@ -4,7 +4,6 @@
   "model": "Q9307-LV",
   "type": "covert",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -37,13 +36,16 @@
     "two_way": false
   },
   "features": [
-    "Axis Q9307-LV 360\u00b0 panoramic flush-mount",
-    "360\u00b0 ceiling panoramic sensor",
+    "Axis Q9307-LV 360° panoramic flush-mount",
+    "360° ceiling panoramic sensor",
     "IP42",
     "discreet installation",
     "ARTPEC-7"
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

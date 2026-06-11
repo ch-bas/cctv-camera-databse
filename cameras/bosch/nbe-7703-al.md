@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME 7000i Outdoor (NBE-7703-AL) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS (starlight) |
 | Lens | 1× 10-23 (motorized varifocal)mm F1.4 |

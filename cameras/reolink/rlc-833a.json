@@ -4,7 +4,6 @@
   "model": "RLC-833A",
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,9 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/us/product/rlc-833a/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

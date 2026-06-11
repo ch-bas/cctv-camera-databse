@@ -4,7 +4,6 @@
   "model": "IPC-HFW3241E-S",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -44,5 +43,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

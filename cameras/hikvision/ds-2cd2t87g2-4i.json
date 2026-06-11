@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

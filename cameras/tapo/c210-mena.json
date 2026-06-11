@@ -59,12 +59,15 @@
     "H.265",
     "Tapo app / Alexa / Google / HomeKit",
     "RTSP/ONVIF",
-    "\u2248109 AED on Amazon.ae / Jarir KSA",
+    "≈109 AED on Amazon.ae / Jarir KSA",
     "#1 budget indoor UAE/KSA home camera"
   ],
   "msrp_aed": 109,
   "sources": [
     "https://www.tapo.com/me-en/",
     "https://www.jarir.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

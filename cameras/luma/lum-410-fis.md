@@ -5,7 +5,7 @@
 | Brand | Luma |
 | Model | LUM-410-FIS |
 | Type | fisheye |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1440p QHD (4MP, 2560×1440) |
 | Sensor | 1/2.8" CMOS |
 | Night vision | ir (10m) |

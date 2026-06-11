@@ -66,5 +66,8 @@
   "msrp_gbp": 69.99,
   "sources": [
     "https://www.ezviz.com/product/h8+pro+3k/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

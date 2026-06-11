@@ -56,5 +56,8 @@
   "msrp_usd": 249.99,
   "sources": [
     "https://www.arlo.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

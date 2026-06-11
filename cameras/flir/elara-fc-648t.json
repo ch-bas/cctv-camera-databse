@@ -3,17 +3,45 @@
   "brand": "FLIR",
   "model": "Elara FC-648T",
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 0.3, "max_width": 640, "max_height": 480, "label": "Thermal 640x480" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 0.3,
+    "max_width": 640,
+    "max_height": 480,
+    "label": "Thermal 640x480"
+  },
   "sensor": "Uncooled VOx Microbolometer",
-  "lens": { "count": 1, "focal_length_mm": "25", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "25",
+    "varifocal": false
+  },
   "field_of_view_deg": "25 horizontal",
-  "night_vision": { "type": "ir", "range_m": 500 },
-  "power": { "method": "PoE (IEEE 802.3at) / DC 24V" },
-  "storage": { "onboard": true, "max_microsd_gb": 128, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 500
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3at) / DC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": false, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "thermal imaging",
     "long-range perimeter security",
@@ -22,5 +50,10 @@
     "NEMA 4X rated"
   ],
   "release_year": 2021,
-  "sources": ["https://www.flir.com/security/"]
+  "sources": [
+    "https://www.flir.com/security/"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

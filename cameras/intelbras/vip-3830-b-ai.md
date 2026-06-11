@@ -5,7 +5,7 @@
 | Brand | Intelbras |
 | Model | VIP 3830 B AI |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | color (30m) |

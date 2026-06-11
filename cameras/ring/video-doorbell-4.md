@@ -7,7 +7,7 @@
 | Brand | Ring |
 | Model | Video Doorbell 4 |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 155 diagonal° |

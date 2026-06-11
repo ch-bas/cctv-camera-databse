@@ -59,5 +59,8 @@
     "HybridCam 360"
   ],
   "release_year": 2025,
-  "msrp_usd": 49.99
+  "msrp_usd": 49.99,
+  "power_source": [
+    "usb"
+  ]
 }

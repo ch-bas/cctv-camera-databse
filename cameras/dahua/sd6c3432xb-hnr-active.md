@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | SD6C3432XB-HNR-A-PV1-new |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 6.0-192 (32x optical)mm F1.6 |

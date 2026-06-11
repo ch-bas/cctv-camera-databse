@@ -1,1 +1,67 @@
-{"id":"hanwha-qnv-8080r","brand":"Hanwha","model":"QNV-8080R","aliases":["Wisenet Q 5MP Vandal Dome"],"type":"dome","connectivity":["poe","ethernet"],"resolution":{"megapixels":5,"max_width":2592,"max_height":1944,"label":"5MP"},"sensor":"1/2.8\" Progressive Scan CMOS","lens":{"count":1,"focal_length_mm":"3.2-10 (motorized varifocal)","aperture":"F1.4","varifocal":true},"field_of_view_deg":"100.3-31.2 horizontal","night_vision":{"type":"ir","range_m":30},"power":{"method":"PoE (802.3af) / DC 12V","consumption_w":6.6},"storage":{"onboard":true,"max_microsd_gb":128,"nvr_compatible":true,"cloud":false},"protocols":["onvif","rtsp","http"],"ip_rating":"IP66","audio":{"microphone":false,"speaker":false,"two_way":false},"features":["WiseStream II compression","Intelligent Video Analytics","Hallway view","120 dB WDR","H.265 / H.264 / MJPEG","IK10 vandal resistant","simple focus button"],"sources":["https://hanwhavisionamerica.com/product/qnv-8080r/"]}
+{
+  "id": "hanwha-qnv-8080r",
+  "brand": "Hanwha",
+  "model": "QNV-8080R",
+  "aliases": [
+    "Wisenet Q 5MP Vandal Dome"
+  ],
+  "type": "dome",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.2-10 (motorized varifocal)",
+    "aperture": "F1.4",
+    "varifocal": true
+  },
+  "field_of_view_deg": "100.3-31.2 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V",
+    "consumption_w": 6.6
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WiseStream II compression",
+    "Intelligent Video Analytics",
+    "Hallway view",
+    "120 dB WDR",
+    "H.265 / H.264 / MJPEG",
+    "IK10 vandal resistant",
+    "simple focus button"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/product/qnv-8080r/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
+}

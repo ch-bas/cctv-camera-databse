@@ -7,8 +7,7 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -51,7 +50,7 @@
     "4K wire-free battery pan/tilt",
     "dual-band WiFi",
     "spotlight color night vision",
-    "360\u00b0 auto-tracking",
+    "360° auto-tracking",
     "smart detection person/vehicle/animal",
     "no subscription",
     "solar optional",
@@ -60,5 +59,9 @@
   "msrp_usd": 139,
   "sources": [
     "https://reolink.com/product/argus-pt-ultra/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

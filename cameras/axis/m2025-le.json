@@ -4,7 +4,6 @@
   "model": "M2025-LE",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-m2025-le"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

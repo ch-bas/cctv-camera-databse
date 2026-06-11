@@ -47,5 +47,9 @@
   "sources": [
     "https://reolink.com/product/reolink-video-doorbell-wifi/"
   ],
-  "msrp_usd": 79
+  "msrp_usd": 79,
+  "power_source": [
+    "battery",
+    "ac-mains"
+  ]
 }

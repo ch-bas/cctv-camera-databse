@@ -3,11 +3,10 @@
   "brand": "KBvision",
   "model": "KX-A2012C3-B",
   "aliases": [
-    "KBvision 2MP IP Dome Vietnam gi\u00e1 r\u1ebb"
+    "KBvision 2MP IP Dome Vietnam giá rẻ"
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -59,10 +58,14 @@
     "IP67",
     "most affordable IP dome KBvision",
     "popular Vietnam small business / apartment buildings",
-    "\u2248450,000\u2013700,000 VND"
+    "≈450,000–700,000 VND"
   ],
   "msrp_vnd": 550000,
   "sources": [
     "https://kbvisionvietnam.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

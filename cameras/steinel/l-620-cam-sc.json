@@ -49,7 +49,7 @@
   },
   "features": [
     "2K QHD upgrade WiFi 6 SmartFriend app integration",
-    "180\u00b0 pivoting camera",
+    "180° pivoting camera",
     "LED outdoor light",
     "local storage only (GDPR-friendly)",
     "AI person/vehicle/animal detection",
@@ -58,5 +58,8 @@
   "msrp_eur": 359,
   "sources": [
     "https://www.steinel.de/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

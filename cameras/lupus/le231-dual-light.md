@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE231 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP QHD (4MP, 2560×1440) |
 | Sensor | CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

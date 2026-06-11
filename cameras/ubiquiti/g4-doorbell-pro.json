@@ -1,1 +1,63 @@
-{"id":"ubiquiti-g4-doorbell-pro","brand":"Ubiquiti","model":"UniFi Protect G4 Doorbell Pro","aliases":["UVC-G4-DOORBELL-PRO"],"type":"covert","connectivity":["wifi","poe"],"resolution":{"megapixels":5,"max_width":2688,"max_height":1512,"label":"2K"},"sensor":"1/2.7\" CMOS","lens":{"count":1,"varifocal":false},"field_of_view_deg":"148 diagonal","night_vision":{"type":"color","range_m":5},"power":{"method":"PoE (802.3af) / hardwired 16-24 VAC"},"storage":{"onboard":false,"nvr_compatible":true,"cloud":false},"protocols":["rtsp"],"ip_rating":"IP55","audio":{"microphone":true,"speaker":true,"two_way":true},"features":["package detection","AI event detection","full-color night vision","dual-band WiFi","UniFi Protect ecosystem","built-in LED ring","no subscription required"],"release_year":2022,"sources":["https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-doorbell-pro"]}
+{
+  "id": "ubiquiti-g4-doorbell-pro",
+  "brand": "Ubiquiti",
+  "model": "UniFi Protect G4 Doorbell Pro",
+  "aliases": [
+    "UVC-G4-DOORBELL-PRO"
+  ],
+  "type": "covert",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2688,
+    "max_height": 1512,
+    "label": "2K"
+  },
+  "sensor": "1/2.7\" CMOS",
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "148 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 5
+  },
+  "power": {
+    "method": "PoE (802.3af) / hardwired 16-24 VAC"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "package detection",
+    "AI event detection",
+    "full-color night vision",
+    "dual-band WiFi",
+    "UniFi Protect ecosystem",
+    "built-in LED ring",
+    "no subscription required"
+  ],
+  "release_year": 2022,
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-doorbell-pro"
+  ],
+  "power_source": [
+    "poe",
+    "ac-mains"
+  ]
+}

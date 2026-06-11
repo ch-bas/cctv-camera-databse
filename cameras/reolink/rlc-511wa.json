@@ -36,7 +36,7 @@
     "two_way": true
   },
   "features": [
-    "4K 5\u00d7 varifocal WiFi outdoor bullet",
+    "4K 5× varifocal WiFi outdoor bullet",
     "color spotlight",
     "active deterrence",
     "person/vehicle/animal/package AI",
@@ -48,5 +48,8 @@
   "sources": [
     "https://reolink.com/product/rlc-511wa/"
   ],
-  "msrp_usd": 69
+  "msrp_usd": 69,
+  "power_source": [
+    "dc"
+  ]
 }

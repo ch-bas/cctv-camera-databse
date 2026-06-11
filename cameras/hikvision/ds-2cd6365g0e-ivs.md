@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD6365G0E-IVS |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP 360° (6MP) |
 | Field of view | 360 fisheye° |
 | Night vision | ir (8m) |

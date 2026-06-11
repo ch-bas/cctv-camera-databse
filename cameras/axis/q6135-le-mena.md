@@ -7,7 +7,7 @@
 | Brand | Axis |
 | Model | Q6135-LE (MENA) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 4.3-137.6 (32x optical)mm F1.6 |

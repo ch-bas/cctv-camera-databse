@@ -7,7 +7,7 @@
 | Brand | Ring |
 | Model | Spotlight Cam Plus (Solar) |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 140 horizontal° |

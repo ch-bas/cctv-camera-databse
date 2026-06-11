@@ -5,7 +5,6 @@
 | Brand | Reolink |
 | Model | Go PT Plus |
 | Type | ptz |
-| Connectivity | battery |
 | Resolution | 2K QHD (4MP) |
 | Field of view | 355 pan/90 tilt° |
 | Night vision | color (10m) |

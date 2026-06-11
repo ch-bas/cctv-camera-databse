@@ -52,10 +52,13 @@
     "IP67",
     "EVE app",
     "no subscription",
-    "\u20b95,999"
+    "₹5,999"
   ],
   "msrp_inr": 5999,
   "sources": [
     "https://www.amazon.in/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

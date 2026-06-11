@@ -4,7 +4,6 @@
   "model": "RLC-1212A (dome)",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,9 @@
   "release_year": 2023,
   "sources": [
     "https://reolink.com/product/rlc-1212a/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

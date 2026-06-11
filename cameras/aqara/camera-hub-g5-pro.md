@@ -7,7 +7,7 @@
 | Brand | Aqara |
 | Model | Camera Hub G5 Pro |
 | Type | dome |
-| Connectivity | poe, wifi, ethernet |
+| Connectivity | ethernet, wifi |
 | Resolution | 2.6K / 4MP (4MP, 2560×1440) |
 | Sensor | 1/1.8" graphene-cooled CMOS |
 | Lens | 1× Fixedmm F1.0 |

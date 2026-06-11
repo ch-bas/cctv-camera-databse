@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -58,5 +57,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-p1465-le-3"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

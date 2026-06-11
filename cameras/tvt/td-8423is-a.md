@@ -5,7 +5,7 @@
 | Brand | TVT Digital |
 | Model | TD-8423IS-A |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p Full HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.7-94 (20x optical zoom)mm |

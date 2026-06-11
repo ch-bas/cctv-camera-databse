@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME multi 7000i 4x5MP (NDM-7703-AL) |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4x5MP multisensor (20MP) |
 | Sensor | 4x 1/2.7" CMOS |
 | Lens | 4× 3.2-10.5 (per sensor varifocal)mm |

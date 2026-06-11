@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -59,5 +58,9 @@
   ],
   "sources": [
     "https://www.cctv-mall.com/products/network-cameras_wizsense-series_3-series_tioc_ipc-hfw3849t1-as-pv-pro"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

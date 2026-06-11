@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2DE3A400BWG-E(T5) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Lens | 1× 2.8-12 (4x optical)mm |
 | Field of view | 56-3h° |

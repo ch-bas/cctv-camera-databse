@@ -5,7 +5,7 @@
 | Brand | Sunell |
 | Model | SN-IPV5720DCAN-B |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p Full HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8mm |

@@ -4,13 +4,12 @@
   "model": "DS-2CD6944G0-IHS",
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
   "resolution": {
     "megapixels": 8,
-    "label": "4MP \u00d7 4 multisensor panoramic"
+    "label": "4MP × 4 multisensor panoramic"
   },
   "field_of_view_deg": "180h",
   "night_vision": {
@@ -37,7 +36,7 @@
     "two_way": false
   },
   "features": [
-    "4\u00d74MP multi-sensor 180\u00b0 panoramic",
+    "4×4MP multi-sensor 180° panoramic",
     "IVS analytics",
     "people counting",
     "HEOP open platform",
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

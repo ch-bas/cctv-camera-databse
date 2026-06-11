@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | Solar Floodlight Cam |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4MP 2K (4MP, 2560×1440) |
 | Sensor | CMOS |
 | Lens | 1× Fixedmm |

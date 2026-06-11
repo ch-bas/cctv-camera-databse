@@ -5,7 +5,7 @@
 | Brand | Tiandy |
 | Model | TC-H356M |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" Starlight CMOS |
 | Lens | 1× 4.8-120mm |

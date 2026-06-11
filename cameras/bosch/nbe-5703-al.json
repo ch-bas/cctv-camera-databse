@@ -8,7 +8,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -59,5 +58,9 @@
   ],
   "sources": [
     "https://www.bhphotovideo.com/c/product/1832252-REG/bosch_nbe_5703_al_dinion_5100i_ir.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

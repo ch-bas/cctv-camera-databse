@@ -46,5 +46,8 @@
   "sources": [
     "https://reolink.com/product/rlc-511w/"
   ],
-  "msrp_usd": 39
+  "msrp_usd": 39,
+  "power_source": [
+    "dc"
+  ]
 }

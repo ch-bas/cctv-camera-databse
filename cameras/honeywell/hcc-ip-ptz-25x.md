@@ -7,7 +7,7 @@
 | Brand | Honeywell |
 | Model | HNMPTZ25X 4MP 25x PoE PTZ |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.8-120 (25x optical)mm F1.6 |

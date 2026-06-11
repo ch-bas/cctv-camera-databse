@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-p3245-v"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

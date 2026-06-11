@@ -42,5 +42,8 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

@@ -4,8 +4,7 @@
   "model": "AD410P",
   "type": "box",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -49,5 +48,8 @@
   ],
   "sources": [
     "https://amcrest.com/"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

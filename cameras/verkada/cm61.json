@@ -4,7 +4,6 @@
   "model": "CM61",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -58,5 +57,8 @@
   "msrp_usd": 999,
   "sources": [
     "https://www.verkada.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

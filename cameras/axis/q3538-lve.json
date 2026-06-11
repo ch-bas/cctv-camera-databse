@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -61,5 +60,8 @@
   ],
   "sources": [
     "https://www.surveillance-video.com/camera-02225-001.html"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

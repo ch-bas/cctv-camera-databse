@@ -7,7 +7,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -61,5 +60,8 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/product/xnp-9300rw/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

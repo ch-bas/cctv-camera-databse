@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -53,16 +52,20 @@
     "two_way": false
   },
   "features": [
-    "IDIS DirectIP (true plug-and-play with IDIS NVR \u2014 no IP config needed)",
+    "IDIS DirectIP (true plug-and-play with IDIS NVR — no IP config needed)",
     "5MP vandal dome IK10",
     "H.265",
     "WDR",
     "ONVIF Profile S/T",
-    "easy kitting \u2014 auto-discovers on IDIS NVR instantly",
+    "easy kitting — auto-discovers on IDIS NVR instantly",
     "Korean-made quality",
     "popular Korea retail/bank/education/healthcare"
   ],
   "sources": [
     "https://idisamericas.com/en/product/3588"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

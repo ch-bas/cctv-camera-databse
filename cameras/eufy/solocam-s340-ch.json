@@ -7,8 +7,7 @@
   ],
   "type": "dual-lens",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "markets": [
@@ -63,5 +62,9 @@
   "sources": [
     "https://www.eufy.com/ch-de/",
     "https://www.digitec.ch/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

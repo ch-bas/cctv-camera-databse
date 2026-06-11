@@ -57,5 +57,8 @@
   "release_year": 2023,
   "sources": [
     "https://reolink.com/product/rlc-833wa/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

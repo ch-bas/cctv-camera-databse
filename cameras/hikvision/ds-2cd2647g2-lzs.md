@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2647G2-LZS |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 3.6-9 (motorized varifocal)mm F1.0 |

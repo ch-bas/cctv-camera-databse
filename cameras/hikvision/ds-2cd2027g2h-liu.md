@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2027G2H-LI(U) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8 / 4 (fixed super-confocal)mm F1.0 |

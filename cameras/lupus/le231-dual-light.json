@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -63,10 +62,14 @@
     "built-in mic",
     "IP67",
     "DSGVO local-first",
-    "\u20ac150\u2013180"
+    "€150–180"
   ],
   "msrp_eur": 169,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

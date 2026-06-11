@@ -3,17 +3,44 @@
   "brand": "Reolink",
   "model": "Argus 3 Ultra",
   "type": "bullet",
-  "connectivity": ["wifi", "battery"],
-  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
   "sensor": "1/2.7\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.8 (fixed)", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
   "field_of_view_deg": "105 horizontal / 55 vertical",
-  "night_vision": { "type": "hybrid", "range_m": 10 },
-  "power": { "method": "Built-in rechargeable battery / USB-C / optional Reolink solar panel" },
-  "storage": { "onboard": true, "max_microsd_gb": 512, "nvr_compatible": false, "cloud": false },
-  "protocols": ["rtsp"],
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 10
+  },
+  "power": {
+    "method": "Built-in rechargeable battery / USB-C / optional Reolink solar panel"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
   "ip_rating": "IP65",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "person/vehicle/animal detection",
     "PIR motion sensor",
@@ -25,5 +52,12 @@
     "solar panel compatible"
   ],
   "release_year": 2023,
-  "sources": ["https://reolink.com/us/product/argus-3-ultra/"]
+  "sources": [
+    "https://reolink.com/us/product/argus-3-ultra/"
+  ],
+  "power_source": [
+    "battery",
+    "solar",
+    "usb"
+  ]
 }

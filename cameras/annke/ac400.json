@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -55,5 +54,9 @@
   ],
   "sources": [
     "https://www.annke.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

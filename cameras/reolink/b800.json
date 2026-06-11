@@ -4,7 +4,6 @@
   "model": "B800",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -45,5 +44,8 @@
   "sources": [
     "https://reolink.com/product/b800/"
   ],
-  "msrp_usd": 29
+  "msrp_usd": 29,
+  "power_source": [
+    "poe"
+  ]
 }

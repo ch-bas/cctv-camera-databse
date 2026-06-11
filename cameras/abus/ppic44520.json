@@ -66,5 +66,8 @@
   "msrp_eur": 189.99,
   "sources": [
     "https://www.abus.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

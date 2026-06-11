@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H7A 5MP Dome (5.0C-H7A-DO1-IR) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 3.3-9 (motorized varifocal)mm |

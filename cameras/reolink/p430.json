@@ -3,19 +3,60 @@
   "brand": "Reolink",
   "model": "P430",
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
+  "connectivity": [
+    "ethernet"
+  ],
   "release_year": 2023,
-  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
   "sensor": "1/2.8\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.7-13.5", "aperture": "F1.6-3.3" },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.7-13.5",
+    "aperture": "F1.6-3.3"
+  },
   "field_of_view_deg": "105-31 horizontal",
-  "night_vision": { "type": "color", "range_m": 30 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp", "onvif"],
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
-  "features": ["5x optical zoom", "person/vehicle/animal detection", "color night vision", "spotlight + siren", "time-lapse", "no subscription"],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "5x optical zoom",
+    "person/vehicle/animal detection",
+    "color night vision",
+    "spotlight + siren",
+    "time-lapse",
+    "no subscription"
+  ],
   "msrp_usd": 150,
-  "sources": ["https://reolink.com/product/p430/"]
+  "sources": [
+    "https://reolink.com/product/p430/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

@@ -3,17 +3,57 @@
   "brand": "ACTi",
   "model": "Q416",
   "type": "fisheye",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 12, "max_width": 4000, "max_height": 3000, "label": "12MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 4000,
+    "max_height": 3000,
+    "label": "12MP"
+  },
   "sensor": "1/1.7\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "1.65 (fisheye)" },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.65 (fisheye)"
+  },
   "field_of_view_deg": "180 horizontal",
-  "night_vision": { "type": "ir", "range_m": 10 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp", "onvif"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
-  "features": ["12MP hemispheric fisheye", "360° panoramic view", "dewarping", "H.265/H.264", "IP66/IK10", "ONVIF Profile S/T/G", "two-way audio"],
-  "sources": ["https://www.acti.com/product/Q416"]
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "12MP hemispheric fisheye",
+    "360° panoramic view",
+    "dewarping",
+    "H.265/H.264",
+    "IP66/IK10",
+    "ONVIF Profile S/T/G",
+    "two-way audio"
+  ],
+  "sources": [
+    "https://www.acti.com/product/Q416"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

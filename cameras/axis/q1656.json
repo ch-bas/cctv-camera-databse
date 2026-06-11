@@ -4,7 +4,6 @@
   "model": "Q1656",
   "type": "box",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -52,5 +51,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-q1656"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

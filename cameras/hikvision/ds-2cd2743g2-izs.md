@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2743G2-IZS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 2.8-12 (motorized varifocal)mm F1.6 |

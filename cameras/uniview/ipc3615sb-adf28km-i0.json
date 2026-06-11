@@ -8,7 +8,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,9 @@
   ],
   "sources": [
     "https://networkcamerastore.com/products/uniview-ipc3615sb-adf28km-i0-5mp-lighthunter-wdr-network-ir-fixed-dome-2-8mm-premier-protection"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

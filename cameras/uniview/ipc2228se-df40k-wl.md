@@ -5,7 +5,7 @@
 | Brand | Uniview |
 | Model | IPC2228SE-DF40K-WL-I0 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | color (30m) |

@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2021,
   "resolution": {
@@ -56,5 +55,9 @@
   "msrp_usd": 179.99,
   "sources": [
     "https://store.google.com/product/nest_cam_battery"
+  ],
+  "power_source": [
+    "battery",
+    "usb"
   ]
 }

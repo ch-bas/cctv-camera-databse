@@ -7,7 +7,7 @@
 | Brand | Uniview |
 | Model | IPC3835SB-ADZK-I0 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2880×1620) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.7-13.5 (motorized varifocal)mm F1.6 |

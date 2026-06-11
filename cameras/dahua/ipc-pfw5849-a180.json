@@ -3,11 +3,10 @@
   "brand": "Dahua",
   "model": "IPC-PFW5849-A180",
   "aliases": [
-    "WizMind 8MP Multi-sensor Panoramic Bullet 180\u00b0"
+    "WizMind 8MP Multi-sensor Panoramic Bullet 180°"
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -15,7 +14,7 @@
     "megapixels": 8,
     "max_width": 3840,
     "max_height": 2160,
-    "label": "4x2MP 180\u00b0"
+    "label": "4x2MP 180°"
   },
   "sensor": "4x 1/2.8\" CMOS",
   "lens": {
@@ -48,7 +47,7 @@
     "two_way": false
   },
   "features": [
-    "4-sensor 180\u00b0 panoramic bullet",
+    "4-sensor 180° panoramic bullet",
     "WizMind multi-object AI",
     "SMD 4.0",
     "people counting",
@@ -59,5 +58,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

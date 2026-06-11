@@ -3,17 +3,45 @@
   "brand": "Milesight",
   "model": "MS-C2971-X30RPC",
   "type": "ptz",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
   "sensor": "1/2.8\" Starlight CMOS",
-  "lens": { "count": 1, "focal_length_mm": "4.5-135", "varifocal": true },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.5-135",
+    "varifocal": true
+  },
   "field_of_view_deg": "57.6-2.4 horizontal",
-  "night_vision": { "type": "ir", "range_m": 200 },
-  "power": { "method": "PoE++ (IEEE 802.3bt) / AC 24V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 200
+  },
+  "power": {
+    "method": "PoE++ (IEEE 802.3bt) / AC 24V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "30x optical zoom",
     "360° continuous pan",
@@ -23,5 +51,10 @@
     "preset tours"
   ],
   "release_year": 2023,
-  "sources": ["https://www.milesight.com/product/ms-c2971-x30rpc"]
+  "sources": [
+    "https://www.milesight.com/product/ms-c2971-x30rpc"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

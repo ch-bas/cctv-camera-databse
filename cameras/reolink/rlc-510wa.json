@@ -45,5 +45,8 @@
   "sources": [
     "https://reolink.com/product/rlc-510wa/"
   ],
-  "msrp_usd": 39
+  "msrp_usd": 39,
+  "power_source": [
+    "dc"
+  ]
 }

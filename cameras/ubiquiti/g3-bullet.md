@@ -7,7 +7,7 @@
 | Brand | Ubiquiti |
 | Model | UniFi Protect G3 Bullet |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× 3.6mm |
 | Field of view | 85 horizontal° |

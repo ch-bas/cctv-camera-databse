@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/mena/products/All-Products/Network-Cameras/WizSense-2-Series/Smart-Dual-Light/IPC-HFW2849S-S-IL"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

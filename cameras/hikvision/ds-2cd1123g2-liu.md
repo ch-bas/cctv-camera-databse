@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD1123G2-LIU |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

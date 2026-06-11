@@ -65,5 +65,8 @@
   "msrp_gbp": 89.99,
   "sources": [
     "https://www.ezviz.com/product/h8c+pro+4k/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

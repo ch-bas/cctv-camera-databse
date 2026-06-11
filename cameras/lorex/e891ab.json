@@ -1,1 +1,57 @@
-{"id":"lorex-e891ab","brand":"Lorex","model":"E891AB 4K Smart Deterrence Bullet PoE","type":"bullet","connectivity":["poe","ethernet"],"resolution":{"megapixels":8,"max_width":3840,"max_height":2160,"label":"4K UHD"},"sensor":"1/1.8\" CMOS","lens":{"count":1,"focal_length_mm":"2.8 (fixed)","varifocal":false},"field_of_view_deg":"111 horizontal","night_vision":{"type":"ir","range_m":45},"power":{"method":"PoE (802.3af)"},"storage":{"onboard":false,"nvr_compatible":true,"cloud":false},"protocols":["onvif","rtsp"],"ip_rating":"IP67","audio":{"microphone":true,"speaker":true,"two_way":true},"features":["dual motion-activated LED warning lights","remote-triggered siren","smart motion detection","person and vehicle detection","H.265"],"sources":["https://www.bhphotovideo.com/c/product/1500623-REG/lorex_e891ab_e_4k_ultra_hd_smart.html"]}
+{
+  "id": "lorex-e891ab",
+  "brand": "Lorex",
+  "model": "E891AB 4K Smart Deterrence Bullet PoE",
+  "type": "bullet",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/1.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "field_of_view_deg": "111 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 45
+  },
+  "power": {
+    "method": "PoE (802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual motion-activated LED warning lights",
+    "remote-triggered siren",
+    "smart motion detection",
+    "person and vehicle detection",
+    "H.265"
+  ],
+  "sources": [
+    "https://www.bhphotovideo.com/c/product/1500623-REG/lorex_e891ab_e_4k_ultra_hd_smart.html"
+  ],
+  "power_source": [
+    "poe"
+  ]
+}

@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -65,5 +64,8 @@
   ],
   "sources": [
     "https://idisamericas.com/en/productslist/2"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | RLC-81MA |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | Dual CMOS (2.8mm wide + 8mm tele) |
 | Lens | 2× |

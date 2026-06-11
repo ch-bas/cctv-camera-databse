@@ -4,7 +4,6 @@
   "model": "Turret PoE 8MP",
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -47,5 +46,9 @@
   ],
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

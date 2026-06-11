@@ -7,7 +7,7 @@
 | Brand | Axis |
 | Model | M4317-PLVE |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3072×2048) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 1.05 (fixed fisheye)mm |

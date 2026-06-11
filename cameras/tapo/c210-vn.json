@@ -4,7 +4,7 @@
   "model": "C210 (Vietnam)",
   "aliases": [
     "TP-Link Tapo C210 3MP Vietnam",
-    "Camera WiFi Tapo Vi\u1ec7t Nam"
+    "Camera WiFi Tapo Việt Nam"
   ],
   "type": "ptz",
   "connectivity": [
@@ -59,10 +59,13 @@
     "RTSP/ONVIF",
     "Tapo app / Alexa / Google / HomeKit",
     "Shopee/Lazada Vietnam top-rated indoor cam",
-    "\u2248500,000\u2013800,000 VND"
+    "≈500,000–800,000 VND"
   ],
   "msrp_vnd": 649000,
   "sources": [
     "https://www.tp-link.com/vn/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -44,7 +44,7 @@
   },
   "features": [
     "2K QHD wired doorbell 2nd gen",
-    "180\u00b0 FOV head-to-toe",
+    "180° FOV head-to-toe",
     "color night vision",
     "two-way audio",
     "noise-canceling microphone",
@@ -56,5 +56,8 @@
   "msrp_usd": 129,
   "sources": [
     "https://us.arlo.com/products/arlo-doorbell-wired-2nd-gen"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

@@ -3,15 +3,38 @@
   "brand": "Camius",
   "model": "Boltx 5MP",
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP Super HD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP Super HD"
+  },
   "sensor": "1/2.7\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 35 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 35
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "no subscription required",
     "WDR",
@@ -19,5 +42,11 @@
     "weather-resistant housing"
   ],
   "release_year": 2022,
-  "sources": ["https://camius.com/"]
+  "sources": [
+    "https://camius.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

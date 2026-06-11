@@ -4,7 +4,6 @@
   "model": "Q3536-LVE",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -56,5 +55,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-q3536-lve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

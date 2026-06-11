@@ -5,7 +5,7 @@
 | Brand | CP Plus |
 | Model | CP-UNC-TA81PL3 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | color (30m) |

@@ -4,7 +4,6 @@
   "model": "DS-2CD3T87G2-LZS",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

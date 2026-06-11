@@ -5,7 +5,7 @@
 | Brand | Uniview |
 | Model | IPC3235SA-DF28K-WL |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP) |
 | Field of view | 106h° |
 | Night vision | color (30m) |

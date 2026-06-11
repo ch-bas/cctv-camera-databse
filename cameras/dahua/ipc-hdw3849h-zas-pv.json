@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,9 @@
   ],
   "sources": [
     "https://www.securitywholesalers.com.au/product/dahua-tioc-dh-ipc-hdw3849h-zas-pv-anz-8mp-ai-active-deterrence-motorised-turret-camera/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD3523G2-IS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 88-34h° |
 | Night vision | ir (40m) |

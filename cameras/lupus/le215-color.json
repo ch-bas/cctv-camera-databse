@@ -62,10 +62,13 @@
     "H.265+",
     "IP67",
     "DSGVO local",
-    "\u20ac130\u2013160"
+    "€130–160"
   ],
   "msrp_eur": 149,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

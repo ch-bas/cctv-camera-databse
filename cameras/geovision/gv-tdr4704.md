@@ -5,7 +5,7 @@
 | Brand | GeoVision |
 | Model | GV-TDR4704 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.7" Progressive Scan CMOS |
 | Lens | 1× 2.8mm |

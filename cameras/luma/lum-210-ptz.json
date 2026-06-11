@@ -3,15 +3,38 @@
   "brand": "Luma",
   "model": "LUM-210-PTZ",
   "type": "ptz",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p FHD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p FHD"
+  },
   "sensor": "1/2.8\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 100 },
-  "power": { "method": "PoE (IEEE 802.3at)" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3at)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "25x optical zoom",
     "pan/tilt/zoom",
@@ -20,5 +43,10 @@
     "preset patrol"
   ],
   "release_year": 2022,
-  "sources": ["https://www.snapone.com/brands/luma"]
+  "sources": [
+    "https://www.snapone.com/brands/luma"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

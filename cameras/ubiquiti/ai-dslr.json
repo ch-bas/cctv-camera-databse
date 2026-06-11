@@ -2,19 +2,59 @@
   "id": "ubiquiti-ai-dslr",
   "brand": "Ubiquiti",
   "model": "UniFi Protect AI DSLR",
-  "aliases": ["UVC-AI-DSLR"],
+  "aliases": [
+    "UVC-AI-DSLR"
+  ],
   "type": "box",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
   "sensor": "1\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "interchangeable (C/CS mount)" },
-  "night_vision": { "type": "ir", "range_m": 0 },
-  "power": { "method": "PoE (802.3bt)" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp"],
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
-  "features": ["4K UHD", "1\" large sensor", "interchangeable lens (C/CS mount)", "on-device AI analytics", "license plate recognition", "face detection", "UniFi Protect ecosystem"],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "interchangeable (C/CS mount)"
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 0
+  },
+  "power": {
+    "method": "PoE (802.3bt)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K UHD",
+    "1\" large sensor",
+    "interchangeable lens (C/CS mount)",
+    "on-device AI analytics",
+    "license plate recognition",
+    "face detection",
+    "UniFi Protect ecosystem"
+  ],
   "release_year": 2024,
   "msrp_usd": 999,
-  "sources": ["https://techspecs.ui.com/unifi/cameras-nvrs/uvc-ai-dslr"]
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-ai-dslr"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

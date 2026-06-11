@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2543G2-IS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 103h° |
 | Night vision | ir (40m) |

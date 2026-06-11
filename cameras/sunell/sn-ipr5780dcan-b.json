@@ -3,17 +3,45 @@
   "brand": "Sunell",
   "model": "SN-IPR5780DCAN-B",
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
   "sensor": "1/2.8\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.8", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8",
+    "varifocal": false
+  },
   "field_of_view_deg": "105 horizontal",
-  "night_vision": { "type": "ir", "range_m": 40 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 40
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "WDR 120dB",
     "H.265 compression",
@@ -22,5 +50,11 @@
     "active deterrence"
   ],
   "release_year": 2022,
-  "sources": ["https://www.sunellsecurity.com/"]
+  "sources": [
+    "https://www.sunellsecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

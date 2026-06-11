@@ -3,17 +3,45 @@
   "brand": "Milesight",
   "model": "MS-C5383-PB",
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
   "sensor": "1/2.7\" Starlight CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.8", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8",
+    "varifocal": false
+  },
   "field_of_view_deg": "101 horizontal",
-  "night_vision": { "type": "hybrid", "range_m": 30 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "AI-powered person/vehicle detection",
     "color night vision",
@@ -22,5 +50,11 @@
     "WDR 120dB"
   ],
   "release_year": 2023,
-  "sources": ["https://www.milesight.com/product/ms-c5383-pb"]
+  "sources": [
+    "https://www.milesight.com/product/ms-c5383-pb"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

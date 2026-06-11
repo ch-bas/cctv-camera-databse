@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2025FWD-I |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 103h° |
 | Night vision | none |

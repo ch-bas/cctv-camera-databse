@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | XNV-C7083R |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 106-32h° |
 | Night vision | color (30m) |

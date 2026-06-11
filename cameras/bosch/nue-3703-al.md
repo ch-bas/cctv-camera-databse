@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME outdoor 3000i (NUE-3703-AL) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8-10 (motorized varifocal)mm |

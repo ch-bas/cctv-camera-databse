@@ -50,5 +50,8 @@
     "DE",
     "EU"
   ],
-  "msrp_eur": 189
+  "msrp_eur": 189,
+  "power_source": [
+    "dc"
+  ]
 }

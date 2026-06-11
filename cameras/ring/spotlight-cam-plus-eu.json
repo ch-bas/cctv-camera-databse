@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "markets": [
@@ -61,5 +60,9 @@
   "msrp_eur": 179.99,
   "sources": [
     "https://ring.com/de-de/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

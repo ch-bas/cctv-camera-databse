@@ -3,7 +3,7 @@
   "brand": "Bosch Smart Home",
   "model": "Outdoor Camera II (Switzerland)",
   "aliases": [
-    "Bosch Smart Home Au\u00dfenkamera II CH/AT"
+    "Bosch Smart Home Außenkamera II CH/AT"
   ],
   "type": "dome",
   "connectivity": [
@@ -65,5 +65,8 @@
   "msrp_chf": 229.0,
   "sources": [
     "https://www.bosch-smarthome.com/ch/de/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

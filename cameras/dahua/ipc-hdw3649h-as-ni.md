@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW3649H-AS-NI |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3072×2048) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

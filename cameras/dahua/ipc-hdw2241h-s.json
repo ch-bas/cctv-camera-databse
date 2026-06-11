@@ -4,7 +4,6 @@
   "model": "IPC-HDW2241H-S",
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -45,5 +44,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

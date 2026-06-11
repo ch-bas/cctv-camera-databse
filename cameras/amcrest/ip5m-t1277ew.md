@@ -7,7 +7,7 @@
 | Brand | Amcrest |
 | Model | 5MP AI Turret PoE (IP5M-T1277E) |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

@@ -5,7 +5,7 @@
 | Brand | Hi-Focus |
 | Model | HC-IPC-B4215T |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p FHD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Night vision | ir (30m) |

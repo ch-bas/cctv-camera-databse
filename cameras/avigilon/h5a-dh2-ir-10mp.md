@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H5A 10MP Dual Head (10C-H5A-DH2-IR) |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2x5MP dual sensor (10MP) |
 | Sensor | 2x 1/2.8" CMOS |
 | Lens | 2× 3.3-5.7 (motorized per sensor)mm |

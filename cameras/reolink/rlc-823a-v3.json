@@ -4,7 +4,6 @@
   "model": "RLC-830A",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,9 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/product/rlc-830a/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

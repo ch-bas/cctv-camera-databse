@@ -7,7 +7,7 @@
 | Brand | Vivotek |
 | Model | IB9387-EHT-v2 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" Progressive Scan CMOS |
 | Lens | 1× 2.7-13.5 (motorized varifocal)mm |

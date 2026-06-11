@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2347G2H-LISU/SL |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8 / 4 (fixed)mm F1.0 |

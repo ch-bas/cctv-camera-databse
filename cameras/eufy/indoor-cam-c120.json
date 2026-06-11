@@ -58,5 +58,8 @@
   "msrp_usd": 29.99,
   "sources": [
     "https://www.eufy.com/products/indoor-cam-c120"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

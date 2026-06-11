@@ -54,5 +54,8 @@
   "msrp_usd": 129.99,
   "sources": [
     "https://us.arlo.com/products/arlo-baby-monitor"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

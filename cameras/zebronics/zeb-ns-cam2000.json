@@ -52,10 +52,13 @@
     "two-way audio",
     "Zebronics Smart app",
     "no subscription",
-    "\u20b92,499"
+    "₹2,499"
   ],
   "msrp_inr": 2499,
   "sources": [
     "https://www.zebronics.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

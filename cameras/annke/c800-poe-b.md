@@ -5,7 +5,7 @@
 | Brand | Annke |
 | Model | C800 PoE Bullet |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

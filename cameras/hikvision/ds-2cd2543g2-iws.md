@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2543G2-IWS |
 | Type | dome |
-| Connectivity | wifi, poe, ethernet |
+| Connectivity | wifi, ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/3" Progressive Scan CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | QND-C9083R |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 109-42h° |
 | Night vision | color (30m) |

@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2063G2-LI |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3072×1728) |
 | Sensor | 1/2.9" CMOS |
 | Lens | 1× 2.8 / 4 (fixed)mm F1.6 |

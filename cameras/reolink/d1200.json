@@ -4,7 +4,6 @@
   "model": "D1200",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -45,5 +44,8 @@
   "sources": [
     "https://reolink.com/product/d1200/"
   ],
-  "msrp_usd": 35
+  "msrp_usd": 35,
+  "power_source": [
+    "poe"
+  ]
 }

@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "resolution": {
@@ -58,5 +57,9 @@
   "msrp_usd": 199.99,
   "sources": [
     "https://www.arlo.com/cameras/go/arlo-go-2.html"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

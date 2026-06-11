@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | OMVI 3i PoE |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 18MP (10MP panoramic + 8MP PT) (18MP) |
 | Sensor | Triple CMOS (2x5MP panoramic + 4K PT) |
 | Lens | 3× 2.8 fixed (panoramic) + PT lensmm |

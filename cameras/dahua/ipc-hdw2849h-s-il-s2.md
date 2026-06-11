@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW2849H-S-IL-S2 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | hybrid (30m) |

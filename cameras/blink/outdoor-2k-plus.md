@@ -7,7 +7,7 @@
 | Brand | Blink |
 | Model | Outdoor 2K+ |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× Fixedmm F2.0 |
 | Field of view | 110 diagonal° |

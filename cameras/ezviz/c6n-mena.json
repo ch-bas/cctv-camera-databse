@@ -58,12 +58,15 @@
     "auto-tracking",
     "RTSP/ONVIF Hikvision NVR compatible",
     "Alexa/Google",
-    "\u224899 AED ultra-budget",
+    "≈99 AED ultra-budget",
     "#1 budget indoor cam Amazon.ae Noon"
   ],
   "msrp_aed": 99,
   "sources": [
     "https://www.ezviz.com/me-en/",
     "https://www.amazon.ae/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -61,10 +61,13 @@
     "DSGVO local microSD",
     "two-way audio",
     "baby / pet monitoring",
-    "\u20ac50\u201380"
+    "€50–80"
   ],
   "msrp_eur": 69,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

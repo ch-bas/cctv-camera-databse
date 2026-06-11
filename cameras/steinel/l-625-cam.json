@@ -67,5 +67,8 @@
   "msrp_eur": 399.99,
   "sources": [
     "https://www.steinel.de/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

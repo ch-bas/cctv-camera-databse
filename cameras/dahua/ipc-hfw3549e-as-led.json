@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -53,5 +52,9 @@
   ],
   "sources": [
     "https://www.sourcesecurity.com/dahua-technology-ipc-hfw3549e-as-led-ip-camera-technical-details.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

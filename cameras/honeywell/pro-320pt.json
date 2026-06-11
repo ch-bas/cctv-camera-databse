@@ -52,5 +52,8 @@
   "msrp_usd": 49,
   "sources": [
     "https://www.honeywellhome.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

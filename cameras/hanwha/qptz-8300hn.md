@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | QNP-8300RH |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Lens | 1× 4.44-137.6 (32x optical)mm F1.6 |
 | Field of view | 60-2.5h° |

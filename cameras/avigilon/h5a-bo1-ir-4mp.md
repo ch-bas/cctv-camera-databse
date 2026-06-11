@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H5A 4MP Bullet (4.0C-H5A-BO1-IR) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.3-9 (motorized varifocal)mm |

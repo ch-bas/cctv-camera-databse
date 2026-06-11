@@ -9,7 +9,6 @@
   "generation": "Wisenet 9",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -66,5 +65,9 @@
   "sources": [
     "https://hanwhavisionamerica.com/product/xnv-a9084r/",
     "https://hanwhavisionamerica.com/wisenet-9/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | SD49225XB-HNR |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.8-120 (25x optical zoom)mm |

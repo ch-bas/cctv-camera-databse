@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -61,5 +60,9 @@
   "msrp_usd": 69.99,
   "sources": [
     "https://www.annke.com/products/c800x"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

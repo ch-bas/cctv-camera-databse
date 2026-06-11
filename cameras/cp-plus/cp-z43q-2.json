@@ -4,7 +4,6 @@
   "model": "CP-Z43Q",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -51,5 +50,8 @@
     "count": 1,
     "focal_length_mm": "4.7-170 (36x optical)",
     "varifocal": true
-  }
+  },
+  "power_source": [
+    "poe"
+  ]
 }

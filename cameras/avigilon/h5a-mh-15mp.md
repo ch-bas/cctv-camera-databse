@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H5A Multisensor 15MP (15C-H5A-3MH-270) |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 3x5MP (15MP) |
 | Sensor | 3x 1/2.8" CMOS |
 | Lens | 3× 3.3-5.7 (motorized)mm |

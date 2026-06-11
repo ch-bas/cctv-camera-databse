@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | SD49225XA-HNR (MENA) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" STARVIS CMOS |
 | Lens | 1× 4.8-120 (25x optical)mm F1.6 |

@@ -60,5 +60,8 @@
   "msrp_eur": 39,
   "sources": [
     "https://www.ezviz.com/product/h3c/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

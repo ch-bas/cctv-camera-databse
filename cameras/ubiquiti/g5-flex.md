@@ -7,7 +7,7 @@
 | Brand | Ubiquiti |
 | Model | UniFi Protect G5 Flex |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 2.8mm |

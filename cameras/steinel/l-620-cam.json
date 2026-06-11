@@ -4,7 +4,7 @@
   "model": "L 620 CAM",
   "aliases": [
     "Steinel L620 CAM SC",
-    "Steinel LED Au\u00dfenleuchte mit Kamera"
+    "Steinel LED Außenleuchte mit Kamera"
   ],
   "type": "bullet",
   "connectivity": [
@@ -68,5 +68,8 @@
   "msrp_eur": 319.99,
   "sources": [
     "https://www.steinel.de/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

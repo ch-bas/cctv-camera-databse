@@ -63,5 +63,8 @@
   "msrp_gbp": 99.99,
   "sources": [
     "https://www.yale.co.uk/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

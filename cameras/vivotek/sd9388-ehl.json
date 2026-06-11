@@ -4,7 +4,6 @@
   "model": "SD9388-EHL",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -52,5 +51,8 @@
     "count": 1,
     "focal_length_mm": "4.3-137.6 (32x optical)",
     "varifocal": true
-  }
+  },
+  "power_source": [
+    "poe"
+  ]
 }

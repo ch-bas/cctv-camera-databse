@@ -3,17 +3,45 @@
   "brand": "Milesight",
   "model": "MS-C9674-PB",
   "type": "panoramic",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 12, "max_width": 8192, "max_height": 1536, "label": "12MP 180° Panoramic" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 12,
+    "max_width": 8192,
+    "max_height": 1536,
+    "label": "12MP 180° Panoramic"
+  },
   "sensor": "1/1.8\" CMOS (x2)",
-  "lens": { "count": 2, "focal_length_mm": "2.8", "varifocal": false },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8",
+    "varifocal": false
+  },
   "field_of_view_deg": "180 horizontal",
-  "night_vision": { "type": "ir", "range_m": 30 },
-  "power": { "method": "PoE+ (IEEE 802.3at)" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE+ (IEEE 802.3at)"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "180° panoramic view",
     "dual-sensor stitching",
@@ -22,5 +50,10 @@
     "WDR 120dB"
   ],
   "release_year": 2023,
-  "sources": ["https://www.milesight.com/product/ms-c9674-pb"]
+  "sources": [
+    "https://www.milesight.com/product/ms-c9674-pb"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

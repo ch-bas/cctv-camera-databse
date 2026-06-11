@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | RLC-410S |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1440p Super HD (4MP, 2560×1440) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 4.0mm F2.0 |

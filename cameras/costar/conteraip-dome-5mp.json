@@ -3,15 +3,39 @@
   "brand": "Costar",
   "model": "ConteraIP Dome 5MP",
   "type": "dome",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
   "sensor": "1/2.7\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 30 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "ConteraIP series",
     "smart IR",
@@ -21,5 +45,11 @@
     "H.265 compression",
     "analytics-ready"
   ],
-  "sources": ["https://www.costarvideo.com/"]
+  "sources": [
+    "https://www.costarvideo.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

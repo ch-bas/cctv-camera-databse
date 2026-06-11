@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE207 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Sensor | CMOS |
 | Lens | 1× 2.8 (fixed)mm F2.0 |

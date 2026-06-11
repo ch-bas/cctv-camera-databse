@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | MIC inteox 7100i PTZ (MIC-550IR55-P) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.7-94 (20x optical zoom)mm |

@@ -55,5 +55,8 @@
   "msrp_usd": 60,
   "sources": [
     "https://www.wyze.com/products/wyze-cam-floodlight"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

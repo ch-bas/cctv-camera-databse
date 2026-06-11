@@ -8,7 +8,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -66,5 +65,9 @@
   "msrp_aud": 219.99,
   "sources": [
     "https://www.hikvision.com/au-en/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

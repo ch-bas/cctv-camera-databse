@@ -8,8 +8,7 @@
   "release_year": 2024,
   "type": "covert",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 4,
@@ -57,5 +56,9 @@
   "msrp_usd": 149.99,
   "sources": [
     "https://ring.com/products/battery-video-doorbell-pro"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Google |
 | Model | Nest Cam (Battery, 1st Gen) |
 | Type | dome |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× |

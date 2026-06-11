@@ -62,10 +62,13 @@
     "H.265+",
     "LUPUS SmartVision VMS",
     "DSGVO local-first",
-    "\u20ac100\u2013130"
+    "€100–130"
   ],
   "msrp_eur": 119,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

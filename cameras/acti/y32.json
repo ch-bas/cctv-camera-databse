@@ -3,13 +3,42 @@
   "brand": "ACTi",
   "model": "Y32",
   "type": "bullet",
-  "connectivity": ["coax"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP" },
+  "connectivity": [
+    "coax"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
   "sensor": "1/2.7\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 30 },
-  "power": { "method": "DC 12V" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
   "ip_rating": "IP67",
-  "features": ["analog bullet", "IR LED 30m", "extreme WDR 130dB", "25fps@5MP", "NDAA compliant", "IP67", "outdoor"],
-  "sources": ["https://www.acti.com/product/Y32"]
+  "features": [
+    "analog bullet",
+    "IR LED 30m",
+    "extreme WDR 130dB",
+    "25fps@5MP",
+    "NDAA compliant",
+    "IP67",
+    "outdoor"
+  ],
+  "sources": [
+    "https://www.acti.com/product/Y32"
+  ],
+  "power_source": [
+    "dc"
+  ]
 }

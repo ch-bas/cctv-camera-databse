@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,9 @@
   ],
   "sources": [
     "https://www.sourcesecurity.com/dahua-technology-ipc-hfw2831t-zas-s2-ip-camera-technical-details.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

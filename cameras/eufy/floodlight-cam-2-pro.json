@@ -55,5 +55,9 @@
   "msrp_usd": 199.99,
   "sources": [
     "https://www.eufy.com/products/floodlight-cam-2-pro"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://m.indiamart.com/proddetail/dahua-ipc-hfw5842h-z4he-8mp-ir-vari-focal-bullet-wizmind-network-camera-2853740950030.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

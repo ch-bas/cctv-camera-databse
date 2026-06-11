@@ -5,7 +5,7 @@
 | Brand | Sunell |
 | Model | SN-IPV5740DCAN-Z |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP QHD (4MP, 2560×1440) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 2.7-13.5 (motorized varifocal)mm |

@@ -55,5 +55,8 @@
   ],
   "sources": [
     "https://www.tapo.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

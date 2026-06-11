@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,8 @@
   ],
   "sources": [
     "https://www.polvision.eu/en_US/p/IPC-PFW8802-A180-H-E4-AC24V/4871"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

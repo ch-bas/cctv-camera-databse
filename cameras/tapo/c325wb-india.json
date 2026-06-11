@@ -59,10 +59,13 @@
     "Tapo app / Alexa / Google HomeKit",
     "IP67",
     "RTSP/ONVIF",
-    "\u20b94,000\u20135,500 popular India outdoor WiFi cam"
+    "₹4,000–5,500 popular India outdoor WiFi cam"
   ],
   "msrp_inr": 4299,
   "sources": [
     "https://www.tapo.com/in/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

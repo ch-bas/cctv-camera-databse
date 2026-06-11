@@ -46,5 +46,8 @@
   "sources": [
     "https://reolink.com/product/e1-outdoor-cx/"
   ],
-  "msrp_usd": 69
+  "msrp_usd": 69,
+  "power_source": [
+    "dc"
+  ]
 }

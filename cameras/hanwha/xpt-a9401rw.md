@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | XPT-A9401RW |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 5.4-216 (40x optical zoom)mm F1.6 |

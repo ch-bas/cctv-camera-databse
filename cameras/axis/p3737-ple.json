@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -56,5 +55,8 @@
   ],
   "sources": [
     "https://www.amazon.com/Axis-Communications-AB-P3727-PLE-Panoramic/dp/B09KTLZGN4"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

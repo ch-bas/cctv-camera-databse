@@ -50,10 +50,14 @@
     "Qubo India cloud",
     "Alexa",
     "Made in India Hero Group",
-    "\u20b94,999"
+    "₹4,999"
   ],
   "msrp_inr": 4999,
   "sources": [
     "https://www.quboworld.com/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

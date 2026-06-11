@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -18,7 +17,7 @@
   "sensor": "1/2\" 4K UHD or 4MP ULL CMOS (selectable)",
   "lens": {
     "count": 1,
-    "focal_length_mm": "Multiple options (3.6mm\u201325mm)",
+    "focal_length_mm": "Multiple options (3.6mm–25mm)",
     "varifocal": false
   },
   "night_vision": {
@@ -55,5 +54,8 @@
   ],
   "sources": [
     "https://www.mobotix.com/en/products/cameras/single-lens/mobotix-d71"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

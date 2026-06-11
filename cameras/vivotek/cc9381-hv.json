@@ -7,7 +7,6 @@
   ],
   "type": "covert",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -56,5 +55,8 @@
   ],
   "sources": [
     "https://www.vivotek.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

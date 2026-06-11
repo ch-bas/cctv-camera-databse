@@ -7,9 +7,8 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2023,
   "markets": [
@@ -65,5 +64,9 @@
   "msrp_aud": 109.99,
   "sources": [
     "https://reolink.com/au/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

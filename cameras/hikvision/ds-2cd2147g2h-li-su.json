@@ -9,7 +9,6 @@
   "generation": "EasyIP 4.0",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -62,5 +61,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2147g2h-li-su-/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

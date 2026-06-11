@@ -7,7 +7,7 @@
 | Brand | Axis |
 | Model | P3245-V (MENA) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 3-10.5 (motorized varifocal 3x)mm F1.8 |

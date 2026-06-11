@@ -5,7 +5,7 @@
 | Brand | Wyze |
 | Model | Cam Outdoor Pro |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2.5K QHD (4MP, 2560×1440) |
 | Lens | 1× F1.8 |
 | Field of view | 122 diagonal° |

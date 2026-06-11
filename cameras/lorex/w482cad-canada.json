@@ -62,5 +62,8 @@
   "msrp_cad": 139.99,
   "sources": [
     "https://www.lorex.ca/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

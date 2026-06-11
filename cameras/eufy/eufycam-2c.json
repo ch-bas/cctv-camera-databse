@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2020,
   "resolution": {
@@ -55,5 +54,8 @@
   "msrp_usd": 139.99,
   "sources": [
     "https://www.eufy.com/products/eufycam-2c"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

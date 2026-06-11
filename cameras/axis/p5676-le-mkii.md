@@ -7,7 +7,7 @@
 | Brand | Axis |
 | Model | P5676-LE MKII |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/2.5" Progressive Scan CMOS |
 | Lens | 1× 5.2-62.4 (12x optical zoom)mm |

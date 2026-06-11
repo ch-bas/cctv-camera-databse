@@ -8,7 +8,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -52,5 +51,8 @@
   "release_year": 2024,
   "sources": [
     "https://store.ui.com/us/en/products/uvc-ai-theta-pro"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

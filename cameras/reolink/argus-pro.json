@@ -4,8 +4,7 @@
   "model": "Argus Pro",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2018,
   "resolution": {
@@ -45,5 +44,8 @@
   "sources": [
     "https://reolink.com/product/argus-pro/"
   ],
-  "msrp_usd": 79
+  "msrp_usd": 79,
+  "power_source": [
+    "battery"
+  ]
 }

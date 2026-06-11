@@ -5,7 +5,7 @@
 | Brand | Vivotek |
 | Model | FD816C-HF2 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 110h° |
 | Night vision | ir (15m) |

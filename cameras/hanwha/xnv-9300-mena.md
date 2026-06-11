@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | XNV-9300 (MENA) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.6-9.5 (motorized varifocal 3.6x)mm F1.5 |

@@ -8,7 +8,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -57,7 +56,7 @@
     "4x motorized optical zoom",
     "Color Night Vision (CNV) with ambient light",
     "smart motion detection (person/vehicle/animal)",
-    "aluminum exterior rated -40\u00b0C to +60\u00b0C",
+    "aluminum exterior rated -40°C to +60°C",
     "Canadian winters tested",
     "NVR required (sold separately)",
     "no subscription",
@@ -67,5 +66,9 @@
   "msrp_cad": 199.99,
   "sources": [
     "https://www.lorex.ca/products/4k-8mp-nocturnal-motorized-varifocal-smart-ip-bullet-security-camera"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

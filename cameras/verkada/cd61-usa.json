@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -65,5 +64,8 @@
   "msrp_usd": 849,
   "sources": [
     "https://www.verkada.com/security-cameras/indoor-dome-cameras/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

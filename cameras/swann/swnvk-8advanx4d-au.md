@@ -5,7 +5,7 @@
 | Brand | Swann |
 | Model | AdvancedX NVR 4K Dome Kit |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | hybrid (30m) |

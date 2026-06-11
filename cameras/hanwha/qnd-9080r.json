@@ -4,7 +4,6 @@
   "model": "QND-9080R",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -45,5 +44,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

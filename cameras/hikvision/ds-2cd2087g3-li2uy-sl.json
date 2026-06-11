@@ -9,7 +9,6 @@
   "generation": "EasyIP 4.0 Plus",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -61,5 +60,9 @@
   ],
   "sources": [
     "https://www.scribd.com/document/871805500/Hikvision-Pricelist-28th-April-2025"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

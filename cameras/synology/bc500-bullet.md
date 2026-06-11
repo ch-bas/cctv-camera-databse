@@ -7,7 +7,7 @@
 | Brand | Synology |
 | Model | BC500 (Bullet variant) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2880×1620) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 4 (fixed)mm F1.8 |

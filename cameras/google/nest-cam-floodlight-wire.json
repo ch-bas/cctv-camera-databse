@@ -44,5 +44,8 @@
   ],
   "sources": [
     "https://store.google.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

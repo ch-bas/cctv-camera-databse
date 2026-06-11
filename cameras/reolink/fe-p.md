@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | FE-P |
 | Type | fisheye |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 2560×2560) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 1.68 (fixed fisheye)mm |

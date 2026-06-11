@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2346g2-i-u-/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

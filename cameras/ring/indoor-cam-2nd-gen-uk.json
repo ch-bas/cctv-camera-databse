@@ -58,5 +58,8 @@
   "msrp_gbp": 44.99,
   "sources": [
     "https://ring.com/en-gb/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

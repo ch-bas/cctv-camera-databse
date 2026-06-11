@@ -4,8 +4,7 @@
   "model": "Tapo C425",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 4,
@@ -59,5 +58,9 @@
     "https://www.tapo.com/"
   ],
   "release_year": 2024,
-  "msrp_usd": 59.99
+  "msrp_usd": 59.99,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

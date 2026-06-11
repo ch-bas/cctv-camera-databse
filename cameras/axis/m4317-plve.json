@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -57,5 +56,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-m4317-plve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

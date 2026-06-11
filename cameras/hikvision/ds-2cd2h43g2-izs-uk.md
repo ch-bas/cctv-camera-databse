@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2H43G2-IZS (UK market) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8-12 (motorized varifocal)mm F1.6 |

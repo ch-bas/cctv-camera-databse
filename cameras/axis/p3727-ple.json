@@ -8,7 +8,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,8 @@
   ],
   "sources": [
     "https://www.a1securitycameras.com/axis-p3727-ple-4x-2mp-night-vision-outdoor-multi-sensor-ip-security-camera-with-360-degree-coverage-02218-001.html"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

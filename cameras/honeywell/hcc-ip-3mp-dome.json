@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2025,
@@ -59,10 +58,14 @@
     "IVA intelligent video analytics",
     "H.265+",
     "preferred enterprise/government India",
-    "\u20b98,000\u201315,000"
+    "₹8,000–15,000"
   ],
   "msrp_inr": 10999,
   "sources": [
     "https://www.honeywell.com/en-us/company/india"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

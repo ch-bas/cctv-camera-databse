@@ -45,5 +45,8 @@
   ],
   "markets": [
     "AU"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

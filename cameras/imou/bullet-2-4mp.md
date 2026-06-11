@@ -5,7 +5,7 @@
 | Brand | IMOU |
 | Model | Bullet 2 4MP |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

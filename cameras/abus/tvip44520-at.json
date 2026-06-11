@@ -4,11 +4,10 @@
   "model": "TVIP44520 (Austria)",
   "aliases": [
     "ABUS 4MP Mini Dome PoE AT/CH",
-    "ABUS \u00d6sterreich"
+    "ABUS Österreich"
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -71,5 +70,9 @@
   "msrp_eur": 249.99,
   "sources": [
     "https://www.abus.com/at/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

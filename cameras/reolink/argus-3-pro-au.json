@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "markets": [
@@ -55,15 +54,19 @@
     "color night vision spotlight",
     "5GHz + 2.4GHz dual-band WiFi",
     "person/vehicle/animal AI detection",
-    "no subscription \u2014 local microSD free",
+    "no subscription — local microSD free",
     "solar charging option",
     "#1 wireless camera recommendation Safewise AU",
     "outlasted Arlo Pro 5 in AU long-term battery tests",
-    "AU$99\u2013129"
+    "AU$99–129"
   ],
   "msrp_aud": 129.99,
   "sources": [
     "https://reolink.com/au/",
     "https://www.safewise.com/au/best-wireless-security-cameras/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

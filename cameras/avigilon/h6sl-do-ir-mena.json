@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -67,5 +66,8 @@
   "sources": [
     "https://www.avigilon.com/",
     "https://www.motorolasolutions.com/en_us/video/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

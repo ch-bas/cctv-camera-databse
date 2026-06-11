@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | PNO-A9081R (Gen 2 P Series) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 4.5-10 (2.2x motorized varifocal)mm F1.6 |

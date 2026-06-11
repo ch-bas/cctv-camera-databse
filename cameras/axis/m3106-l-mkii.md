@@ -7,7 +7,7 @@
 | Brand | Axis |
 | Model | M3106-L Mk II |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/3" Progressive Scan CMOS |
 | Lens | 1× 3 (fixed)mm F1.8 |

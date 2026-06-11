@@ -7,7 +7,7 @@
 | Brand | Eufy |
 | Model | EufyCam S330 Pro |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Lens | 1× Fixedmm F1.6 |
 | Field of view | 130 diagonal° |

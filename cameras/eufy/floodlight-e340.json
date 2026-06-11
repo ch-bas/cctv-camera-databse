@@ -65,5 +65,8 @@
   "msrp_eur": 249.99,
   "sources": [
     "https://www.eufy.com/de-de/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

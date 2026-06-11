@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE941 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.6-64.8 (18x optical)mm F1.6 |

@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -61,5 +60,8 @@
   "msrp_usd": 199,
   "sources": [
     "https://www.synology.com/en-us/store/TC500"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

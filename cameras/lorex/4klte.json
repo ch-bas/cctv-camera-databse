@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "4g",
-    "battery"
+    "4g"
   ],
   "release_year": 2024,
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://www.lorex.com/products/4k-lte-wire-free-camera"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

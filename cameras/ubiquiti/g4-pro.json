@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,8 @@
   "release_year": 2022,
   "sources": [
     "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-pro"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

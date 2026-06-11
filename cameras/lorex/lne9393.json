@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -57,5 +56,8 @@
   ],
   "sources": [
     "https://www.lorex.com/products/nocturnal-4-4k-ip-dome-camera"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

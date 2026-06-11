@@ -4,7 +4,6 @@
   "model": "KX-C4002N3",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -44,5 +43,9 @@
   ],
   "sources": [
     "https://kbvisionvietnam.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

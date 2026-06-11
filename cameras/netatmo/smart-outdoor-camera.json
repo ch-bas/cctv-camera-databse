@@ -53,7 +53,7 @@
     "two_way": false
   },
   "features": [
-    "NO SUBSCRIPTION FEES \u2014 all features permanently free",
+    "NO SUBSCRIPTION FEES — all features permanently free",
     "local microSD + Dropbox/FTP storage",
     "integrated 12W floodlight",
     "AI person/animal/vehicle detection",
@@ -68,5 +68,8 @@
   "msrp_gbp": 199.99,
   "sources": [
     "https://www.netatmo.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

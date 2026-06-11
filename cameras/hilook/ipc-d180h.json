@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -61,5 +60,9 @@
   "msrp_usd": 55,
   "sources": [
     "https://www.hikvision.com/en/products/HiLook-IP-Products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

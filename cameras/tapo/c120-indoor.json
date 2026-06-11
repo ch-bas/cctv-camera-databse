@@ -57,5 +57,8 @@
   "msrp_usd": 24,
   "sources": [
     "https://www.tapo.com/en/product/indoor-camera/tapo-c120/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

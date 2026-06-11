@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,8 @@
   ],
   "sources": [
     "https://www.mobotix.com/en/mobotix-7/hemispherical-module"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

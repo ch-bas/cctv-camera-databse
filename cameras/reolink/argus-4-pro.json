@@ -4,8 +4,7 @@
   "model": "Argus 4 Pro",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 8,
@@ -53,5 +52,10 @@
   "release_year": 2024,
   "sources": [
     "https://reolink.com/product/argus-4-pro/"
+  ],
+  "power_source": [
+    "battery",
+    "solar",
+    "usb"
   ]
 }

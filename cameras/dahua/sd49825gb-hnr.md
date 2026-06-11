@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | SD49825GB-HNR |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.8-120 (25x optical)mm F1.6 |

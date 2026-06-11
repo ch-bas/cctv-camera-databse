@@ -53,5 +53,8 @@
   "msrp_usd": 50,
   "sources": [
     "https://www.wyze.com/products/wyze-video-doorbell-v2"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

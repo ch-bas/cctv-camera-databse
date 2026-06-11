@@ -4,8 +4,7 @@
   "model": "DS-2XS6A26G0-I/CH20S40",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "resolution": {
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

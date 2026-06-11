@@ -45,5 +45,8 @@
   "sources": [
     "https://reolink.com/blog/reolink-new-products-at-ces/"
   ],
-  "msrp_usd": 79
+  "msrp_usd": 79,
+  "power_source": [
+    "battery"
+  ]
 }

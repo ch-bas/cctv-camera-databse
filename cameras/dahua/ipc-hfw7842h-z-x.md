@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW7842H-Z-X |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 106-30h° |
 | Night vision | ir (80m) |

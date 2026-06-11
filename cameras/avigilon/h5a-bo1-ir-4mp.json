@@ -1,1 +1,62 @@
-{"id":"avigilon-h5a-bo1-ir-4mp","brand":"Avigilon","model":"H5A 4MP Bullet (4.0C-H5A-BO1-IR)","aliases":["4.0C-H5A-BO1-IR"],"type":"bullet","connectivity":["poe","ethernet"],"resolution":{"megapixels":4,"max_width":2688,"max_height":1520,"label":"4MP"},"sensor":"1/2.8\" CMOS","lens":{"count":1,"focal_length_mm":"3.3-9 (motorized varifocal)","varifocal":true},"field_of_view_deg":"97-33 horizontal","night_vision":{"type":"ir","range_m":30},"power":{"method":"PoE (802.3af/at)"},"storage":{"onboard":true,"nvr_compatible":true,"cloud":true},"protocols":["onvif","rtsp"],"ip_rating":"IP66","audio":{"microphone":false,"speaker":false,"two_way":false},"features":["Next-Gen Video Analytics","Unusual Activity Detection (UAD)","Appearance Search support","LightCatcher technology","HDSM SmartCodec","H.265/HEVC","Adaptive IR"],"sources":["https://www.avigilon.com/security-cameras"]}
+{
+  "id": "avigilon-h5a-bo1-ir-4mp",
+  "brand": "Avigilon",
+  "model": "H5A 4MP Bullet (4.0C-H5A-BO1-IR)",
+  "aliases": [
+    "4.0C-H5A-BO1-IR"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2688,
+    "max_height": 1520,
+    "label": "4MP"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.3-9 (motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "97-33 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (802.3af/at)"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "Next-Gen Video Analytics",
+    "Unusual Activity Detection (UAD)",
+    "Appearance Search support",
+    "LightCatcher technology",
+    "HDSM SmartCodec",
+    "H.265/HEVC",
+    "Adaptive IR"
+  ],
+  "sources": [
+    "https://www.avigilon.com/security-cameras"
+  ],
+  "power_source": [
+    "poe"
+  ]
+}

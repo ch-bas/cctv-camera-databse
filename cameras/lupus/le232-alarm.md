@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE232 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

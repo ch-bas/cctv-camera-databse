@@ -66,5 +66,8 @@
   ],
   "sources": [
     "https://www.intelbras.com/en/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

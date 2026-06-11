@@ -56,5 +56,8 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

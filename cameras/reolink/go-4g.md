@@ -5,7 +5,6 @@
 | Brand | Reolink |
 | Model | Go |
 | Type | bullet |
-| Connectivity | battery |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 110 horizontal° |
 | Night vision | ir (10m) |

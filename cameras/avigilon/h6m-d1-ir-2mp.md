@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H6M 2MP Mini Dome (2.0C-H6M-D1-IR) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8-8 (motorized varifocal)mm |

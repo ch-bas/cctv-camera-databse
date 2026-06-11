@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -62,5 +61,9 @@
   "msrp_usd": 49.99,
   "sources": [
     "https://www.annke.com/products/ac500"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

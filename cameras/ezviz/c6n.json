@@ -63,5 +63,8 @@
   "msrp_gbp": 29.99,
   "sources": [
     "https://www.ezviz.com/product/c6n/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -36,7 +36,7 @@
     "two_way": true
   },
   "features": [
-    "4K 5\u00d7 varifocal WiFi bullet with spotlight + siren active deterrence",
+    "4K 5× varifocal WiFi bullet with spotlight + siren active deterrence",
     "color night vision",
     "person/vehicle/animal/package AI",
     "two-way audio",
@@ -47,5 +47,8 @@
   "sources": [
     "https://reolink.com/product/rlc-542wa/"
   ],
-  "msrp_usd": 79
+  "msrp_usd": 79,
+  "power_source": [
+    "dc"
+  ]
 }

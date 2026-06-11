@@ -4,7 +4,6 @@
   "model": "C800 PoE Bullet",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -47,5 +46,9 @@
   ],
   "sources": [
     "https://www.annke.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

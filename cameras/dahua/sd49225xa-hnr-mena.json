@@ -8,7 +8,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -69,5 +68,8 @@
   "sources": [
     "https://shop.acssllc.ae/product-category/dahua-camera/",
     "https://www.dahuasecurity.com/mena/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

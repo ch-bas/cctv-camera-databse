@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -65,10 +64,14 @@
     "LUPUSEC integration",
     "DSGVO local-first",
     "flagship LUPUS outdoor PoE",
-    "\u20ac300\u2013350"
+    "€300–350"
   ],
   "msrp_eur": 329,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

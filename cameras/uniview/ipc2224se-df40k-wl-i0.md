@@ -7,7 +7,7 @@
 | Brand | Uniview |
 | Model | IPC2224SE-DF40K-WL-I0 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 4 (fixed)mm F1.0 |

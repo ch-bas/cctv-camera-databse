@@ -52,11 +52,15 @@
     "two-way audio",
     "Ring Protect plan for cloud video",
     "Alexa",
-    "rated -20\u00b0C to +48\u00b0C Canadian certified",
+    "rated -20°C to +48°C Canadian certified",
     "#1 video doorbell Canada Amazon.ca"
   ],
   "msrp_cad": 129.99,
   "sources": [
     "https://ring.com/ca-en/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

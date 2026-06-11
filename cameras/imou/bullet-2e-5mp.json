@@ -62,10 +62,13 @@
     "WiFi + PoE + Ethernet",
     "H.265",
     "Alexa",
-    "\u20b95,000\u20137,000 popular India outdoor"
+    "₹5,000–7,000 popular India outdoor"
   ],
   "msrp_inr": 5999,
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

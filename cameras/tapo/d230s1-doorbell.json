@@ -7,8 +7,7 @@
   ],
   "type": "covert",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -59,5 +58,9 @@
   "msrp_usd": 79,
   "sources": [
     "https://www.tapo.com/en/product/smart-doorbell/tapo-d230s1/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

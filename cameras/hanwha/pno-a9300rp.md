@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | PNO-A9300RP |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 100-37h° |
 | Night vision | ir (40m) |

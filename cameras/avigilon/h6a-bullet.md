@@ -5,7 +5,7 @@
 | Brand | Avigilon |
 | Model | H6A Bullet |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.4-10.2 (motorized)mm F1.6 |

@@ -4,7 +4,6 @@
   "model": "M3106-MA Mk II",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -45,5 +44,8 @@
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

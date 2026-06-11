@@ -53,11 +53,14 @@
     "motion detection",
     "two-way audio",
     "Hive app / Alexa",
-    "designed by Yves B\u00e9har",
+    "designed by Yves Béhar",
     "UK market leader in smart home"
   ],
   "msrp_gbp": 99.99,
   "sources": [
     "https://www.hivehome.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

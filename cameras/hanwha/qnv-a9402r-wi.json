@@ -4,7 +4,6 @@
   "model": "QNV-A9402R-WI",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2025,
@@ -47,5 +46,8 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

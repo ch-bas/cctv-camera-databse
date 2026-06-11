@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -56,5 +55,8 @@
   ],
   "sources": [
     "https://www.lorex.com/products/4k-smart-deterrence-bullet-camera"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

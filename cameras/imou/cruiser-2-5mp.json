@@ -60,10 +60,13 @@
     "IP66",
     "H.265",
     "Alexa",
-    "\u20b97,000\u20139,000 best outdoor India PTZ"
+    "₹7,000–9,000 best outdoor India PTZ"
   ],
   "msrp_inr": 7499,
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

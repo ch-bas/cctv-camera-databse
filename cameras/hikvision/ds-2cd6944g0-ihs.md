@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD6944G0-IHS |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP × 4 multisensor panoramic (8MP) |
 | Field of view | 180h° |
 | Night vision | none |

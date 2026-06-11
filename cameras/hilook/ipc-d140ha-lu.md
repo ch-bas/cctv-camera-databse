@@ -7,7 +7,7 @@
 | Brand | HiLook |
 | Model | IPC-D140HA-LU |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

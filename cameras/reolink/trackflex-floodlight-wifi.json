@@ -58,5 +58,8 @@
   ],
   "sources": [
     "https://reolink.com/blog/reolink-new-products-at-ces/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Eufy |
 | Model | SoloCam S220 |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K (4MP, 2048×1080) |
 | Lens | 1× |
 | Field of view | 90 diagonal° |

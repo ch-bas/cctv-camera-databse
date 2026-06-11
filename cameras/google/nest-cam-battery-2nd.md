@@ -5,7 +5,7 @@
 | Brand | Google |
 | Model | Nest Cam (Battery) 2nd Gen |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 130h° |
 | Night vision | ir (6m) |

@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD1153G2-LIUF |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

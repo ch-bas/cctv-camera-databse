@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -57,7 +56,7 @@
     "4x motorized varifocal dome",
     "Color Night Vision (CNV)",
     "smart motion detection",
-    "aluminum build rated -40\u00b0C",
+    "aluminum build rated -40°C",
     "IK10 vandal-proof",
     "NVR system required",
     "no subscription",
@@ -66,5 +65,9 @@
   "msrp_cad": 189.99,
   "sources": [
     "https://www.lorex.ca/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

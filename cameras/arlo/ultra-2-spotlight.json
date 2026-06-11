@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2021,
   "resolution": {
@@ -44,7 +43,7 @@
     "two_way": true
   },
   "features": [
-    "4K UHD 180\u00b0 ultrawide FOV",
+    "4K UHD 180° ultrawide FOV",
     "integrated spotlight",
     "colour night vision",
     "person/vehicle/animal/package detection",
@@ -56,5 +55,9 @@
   "msrp_usd": 299,
   "sources": [
     "https://www.arlo.com/cameras/ultra/arlo-ultra-2-spotlight-camera.html"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

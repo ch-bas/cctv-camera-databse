@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Argus Pro |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 130 diagonal° |
 | Night vision | ir (10m) |

@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H6A 5MP Outdoor Dome (5.0C-H6A-DO1-IR) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.3-9 (motorized varifocal)mm |

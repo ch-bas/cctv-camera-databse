@@ -7,9 +7,8 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2023,
   "markets": [
@@ -68,5 +67,9 @@
   "sources": [
     "https://reolink.com/ch/",
     "https://www.digitec.ch/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

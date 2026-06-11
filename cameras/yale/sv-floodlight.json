@@ -43,5 +43,8 @@
   ],
   "sources": [
     "https://www.yalehome.co.uk/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

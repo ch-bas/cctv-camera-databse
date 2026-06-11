@@ -5,7 +5,7 @@
 | Brand | KBvision |
 | Model | KX-A4K21C |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

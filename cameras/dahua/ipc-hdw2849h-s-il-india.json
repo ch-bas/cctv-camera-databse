@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -59,10 +58,14 @@
     "IP67",
     "IK10",
     "very popular Indian system integrators",
-    "\u20b98,000\u201312,000"
+    "₹8,000–12,000"
   ],
   "msrp_inr": 9999,
   "sources": [
     "https://www.dahuasecurity.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

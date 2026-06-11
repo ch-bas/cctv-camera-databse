@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -62,5 +61,9 @@
   "msrp_usd": 49.99,
   "sources": [
     "https://www.annke.com/products/c800"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

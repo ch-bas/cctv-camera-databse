@@ -5,7 +5,7 @@
 | Brand | Cathexis |
 | Model | CAT-IPC-B4060 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1440p QHD (4MP, 2560×1440) |
 | Sensor | 1/3" CMOS |
 | Night vision | ir (50m) |

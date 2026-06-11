@@ -60,10 +60,13 @@
     "RTSP/ONVIF",
     "Tapo app / Alexa / Google / HomeKit",
     "IP67",
-    "\u2248169 AED popular outdoor UAE/KSA Amazon.ae"
+    "≈169 AED popular outdoor UAE/KSA Amazon.ae"
   ],
   "msrp_aed": 169,
   "sources": [
     "https://www.tapo.com/me-en/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

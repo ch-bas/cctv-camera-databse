@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 4,
@@ -55,5 +54,9 @@
   "msrp_usd": 99.99,
   "sources": [
     "https://www.eufy.com/products/solocam-s220"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

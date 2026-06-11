@@ -5,7 +5,7 @@
 | Brand | Luma |
 | Model | LUM-310-DRB |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 3MP (3MP, 2048×1536) |
 | Sensor | 1/2.8" CMOS |
 | Night vision | ir (5m) |

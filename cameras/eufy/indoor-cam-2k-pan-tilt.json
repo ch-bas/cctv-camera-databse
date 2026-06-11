@@ -47,7 +47,7 @@
     "two_way": true
   },
   "features": [
-    "2K QHD 360\u00b0 pan/tilt indoor",
+    "2K QHD 360° pan/tilt indoor",
     "AI human/pet detection",
     "motion tracking",
     "physical privacy shutter",
@@ -55,10 +55,13 @@
     "microSD local storage",
     "HomeKit / Alexa / Google",
     "RTSP support",
-    "\u20ac35\u201345 best-value Eufy indoor"
+    "€35–45 best-value Eufy indoor"
   ],
   "msrp_usd": 35,
   "sources": [
     "https://www.eufy.com/products/indoor-cam-2k-pan-tilt"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Lorex |
 | Model | W461ASC |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× Fixedmm F1.6 |
 | Field of view | 130 horizontal° |

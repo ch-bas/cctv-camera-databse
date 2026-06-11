@@ -5,7 +5,7 @@
 | Brand | Vivotek |
 | Model | SD9388-EHL |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Lens | 1× 4.3-137.6 (32x optical)mm |
 | Field of view | 56-2h° |

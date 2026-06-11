@@ -5,7 +5,7 @@
 | Brand | Uniview |
 | Model | IPC3235SB-ADF28KM-I0 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP) |
 | Field of view | 106h° |
 | Night vision | ir (30m) |

@@ -7,7 +7,7 @@
 | Brand | Eufy |
 | Model | EufyCam 2C |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 135 diagonal° |

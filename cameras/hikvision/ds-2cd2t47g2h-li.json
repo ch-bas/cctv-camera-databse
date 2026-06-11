@@ -9,7 +9,6 @@
   "generation": "EasyIP 4.0",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,9 @@
   ],
   "sources": [
     "https://download.discomp.cz/hikvision/datasheets/DS-2CD2T47G2H-LI.pdf"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

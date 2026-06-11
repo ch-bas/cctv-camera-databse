@@ -64,10 +64,13 @@
     "LUPUS SmartVision VMS",
     "LUPUSEC integration",
     "DSGVO local-first",
-    "\u20ac160\u2013200"
+    "€160–200"
   ],
   "msrp_eur": 179,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

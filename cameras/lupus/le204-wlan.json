@@ -62,10 +62,13 @@
     "IP66",
     "LUPUS SmartVision VMS",
     "German brand",
-    "\u20ac120\u2013150"
+    "€120–150"
   ],
   "msrp_eur": 139,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

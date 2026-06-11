@@ -52,5 +52,8 @@
   "msrp_usd": 79.0,
   "sources": [
     "https://simplisafe.com/cameras"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

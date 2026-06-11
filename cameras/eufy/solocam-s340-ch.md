@@ -7,7 +7,7 @@
 | Brand | Eufy |
 | Model | SoloCam S340 (Switzerland) |
 | Type | dual-lens |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K + 8x zoom dual-lens solar (8MP) |
 | Lens | 2× Wide 4K + 8x telemm |
 | Field of view | 135 wide + 8x zoom° |

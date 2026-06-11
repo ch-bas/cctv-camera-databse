@@ -3,15 +3,38 @@
   "brand": "Camius",
   "model": "Triton",
   "type": "turret",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP Super HD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP Super HD"
+  },
   "sensor": "1/2.7\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 30 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "no subscription required",
     "two-way audio",
@@ -19,5 +42,11 @@
     "WDR"
   ],
   "release_year": 2023,
-  "sources": ["https://camius.com/"]
+  "sources": [
+    "https://camius.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

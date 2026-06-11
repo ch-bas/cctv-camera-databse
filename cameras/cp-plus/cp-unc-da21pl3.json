@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -60,11 +59,15 @@
     "NVR compatible",
     "IP67",
     "most popular India installer dome",
-    "\u20b93,000\u20135,000 price range",
+    "₹3,000–5,000 price range",
     "STQC model available"
   ],
   "msrp_inr": 3999,
   "sources": [
     "https://www.cpplusworld.com/cp-unc-da21pl3"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

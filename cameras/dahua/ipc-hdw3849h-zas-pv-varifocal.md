@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW3849H-ZAS-PV |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 110-30h° |
 | Night vision | hybrid (40m) |

@@ -5,7 +5,7 @@
 | Brand | Uniview |
 | Model | IPC2224SE-DF40K-WL-I0 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 90h° |
 | Night vision | color (30m) |

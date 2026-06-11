@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -67,5 +66,9 @@
   ],
   "sources": [
     "https://www.intelbras.com/en/1000-series-intelligent-ip-camera-vip-1230-b-g4"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | EZVIZ |
 | Model | DB2 |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× Fixedmm F2.0 |
 | Field of view | 155 diagonal (head-to-toe)° |

@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H6 PTZ 30x Dome (H6PTZE-DP30) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.3-129 (30x optical zoom)mm |

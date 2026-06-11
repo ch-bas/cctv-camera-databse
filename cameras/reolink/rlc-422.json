@@ -4,7 +4,6 @@
   "model": "RLC-422",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -37,7 +36,7 @@
     "two_way": false
   },
   "features": [
-    "5MP 4\u00d7 motorized varifocal vandal dome",
+    "5MP 4× motorized varifocal vandal dome",
     "30m IR",
     "ONVIF/RTSP",
     "IP66",
@@ -47,5 +46,9 @@
   "sources": [
     "https://reolink.com/product/rlc-422/"
   ],
-  "msrp_usd": 49
+  "msrp_usd": 49,
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

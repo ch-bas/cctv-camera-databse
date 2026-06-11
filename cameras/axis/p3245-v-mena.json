@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -56,7 +55,7 @@
   "features": [
     "Axis ARTPEC-7 chip",
     "Lightfinder 2.0",
-    "WDR \u2013 Forensic Capture",
+    "WDR – Forensic Capture",
     "AXIS Object Analytics",
     "Zipstream H.265",
     "Axis Edge Vault cybersecurity",
@@ -66,5 +65,8 @@
   "sources": [
     "https://www.axis.com/products/axis-p3245-v",
     "https://www.axis.com/en-me/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

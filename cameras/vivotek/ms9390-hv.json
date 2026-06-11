@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://networkcamerastore.com/products/vivotek-ms9390-hv-8mp-4mp-x-2-multi-sensor-180-panoramic-ir-network-camera"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

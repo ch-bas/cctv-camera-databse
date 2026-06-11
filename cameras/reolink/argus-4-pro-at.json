@@ -7,8 +7,7 @@
   ],
   "type": "dual-lens",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "markets": [
@@ -65,5 +64,9 @@
   "sources": [
     "https://reolink.com/at/",
     "https://www.amazon.at/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

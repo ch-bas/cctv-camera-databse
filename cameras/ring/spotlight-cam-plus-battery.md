@@ -5,7 +5,7 @@
 | Brand | Ring |
 | Model | Spotlight Cam Plus (Battery) |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Lens | 1× |
 | Field of view | 140 horizontal° |

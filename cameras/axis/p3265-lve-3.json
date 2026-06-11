@@ -8,7 +8,6 @@
   "release_year": 2025,
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,8 @@
   ],
   "sources": [
     "https://help.axis.com/en-us/axis-os-release-notes"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

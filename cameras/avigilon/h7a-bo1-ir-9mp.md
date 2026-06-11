@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H7A 9MP Bullet (9.0C-H7A-BO1-IR) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 9MP (9MP, 3104×2328) |
 | Sensor | 1/2" CMOS |
 | Lens | 1× 3.4-8 (motorized varifocal)mm |

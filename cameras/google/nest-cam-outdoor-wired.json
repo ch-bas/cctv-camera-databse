@@ -41,5 +41,8 @@
   ],
   "sources": [
     "https://store.google.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2167G2H-LI(SU) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3072×1728) |
 | Sensor | 1/1.7" CMOS |
 | Lens | 1× 2.8 / 4 (fixed super-confocal)mm F1.0 |

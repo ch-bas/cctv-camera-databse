@@ -36,7 +36,7 @@
   },
   "features": [
     "Swann Buddy 1080p WiFi battery doorbell AU",
-    "140\u00b0 view",
+    "140° view",
     "two-way audio",
     "no subscription",
     "IP44"
@@ -48,5 +48,9 @@
     "AU",
     "US"
   ],
-  "msrp_aud": 79
+  "msrp_aud": 79,
+  "power_source": [
+    "battery",
+    "ac-mains"
+  ]
 }

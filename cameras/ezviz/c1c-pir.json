@@ -47,18 +47,21 @@
     "two_way": true
   },
   "features": [
-    "magnetic base (360\u00b0 positioning)",
+    "magnetic base (360° positioning)",
     "PIR passive infrared for accurate detection",
     "compact indoor camera",
-    "1080p 130\u00b0 FOV",
+    "1080p 130° FOV",
     "two-way audio",
     "EZVIZ app / Alexa / Google",
     "RTSP",
     "pet/baby monitoring",
-    "very compact \u20ac30 price"
+    "very compact €30 price"
   ],
   "msrp_eur": 29,
   "sources": [
     "https://www.ezviz.com/product/c1c/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

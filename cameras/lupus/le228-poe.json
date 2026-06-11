@@ -3,11 +3,10 @@
   "brand": "Lupus Electronics",
   "model": "LE228",
   "aliases": [
-    "LUPUS LE228 PoE 4MP Dome 360\u00b0 Fisheye Camera"
+    "LUPUS LE228 PoE 4MP Dome 360° Fisheye Camera"
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -55,7 +54,7 @@
     "two_way": false
   },
   "features": [
-    "360\u00b0 fisheye PoE dome 4MP",
+    "360° fisheye PoE dome 4MP",
     "4-way dewarped view",
     "IR 8m",
     "ONVIF/RTSP",
@@ -64,10 +63,14 @@
     "LUPUS SmartVision VMS",
     "LUPUSEC integration",
     "DSGVO local",
-    "\u20ac150\u2013200"
+    "€150–200"
   ],
   "msrp_eur": 179,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

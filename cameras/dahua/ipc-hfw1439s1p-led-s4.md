@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW1439S1P-LED-S4 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

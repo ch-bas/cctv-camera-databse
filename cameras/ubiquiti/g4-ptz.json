@@ -7,7 +7,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -57,5 +56,8 @@
   "msrp_usd": 1499,
   "sources": [
     "https://store.ui.com/us/en/products/uvc-g4-ptz"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

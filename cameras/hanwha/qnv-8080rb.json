@@ -4,7 +4,6 @@
   "model": "QNV-8080R (Bullet)",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -45,5 +44,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

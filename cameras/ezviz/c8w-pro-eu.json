@@ -69,5 +69,8 @@
   "msrp_eur": 69.99,
   "sources": [
     "https://www.ezviz.com/de-de/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

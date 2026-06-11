@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Duo 2V PoE |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 5120×1552) |
 | Sensor | Dual 1/2.65" CMOS |
 | Lens | 2× 2.8 (fixed)mm F1.6 |

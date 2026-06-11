@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -57,5 +56,9 @@
   "msrp_usd": 129.99,
   "sources": [
     "https://www.arlo.com/cameras/essential/arlo-essential-outdoor.html"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

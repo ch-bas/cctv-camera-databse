@@ -7,7 +7,7 @@
 | Brand | Avigilon |
 | Model | H5SL 3MP Outdoor Dome (3.0C-H5SL-DO1-IR) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 3MP (3MP, 2048×1536) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 3-9 (motorized varifocal)mm |

@@ -7,7 +7,7 @@
 | Brand | Arlo |
 | Model | Pro 4 Spotlight |
 | Type | dome |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× |
 | Field of view | 160 diagonal° |

@@ -7,7 +7,7 @@
 | Brand | HiLook |
 | Model | PTZ-N4MP20-IE |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.3-86 (20x optical)mm F1.6 |

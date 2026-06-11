@@ -4,7 +4,6 @@
   "model": "ZEB-NS-Cam4000",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -41,7 +40,7 @@
     "30m IR",
     "ONVIF/RTSP",
     "IP66",
-    "\u20b93,499"
+    "₹3,499"
   ],
   "sources": [
     "https://www.zebronics.com/"
@@ -49,5 +48,9 @@
   "markets": [
     "IN"
   ],
-  "msrp_inr": 3499
+  "msrp_inr": 3499,
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

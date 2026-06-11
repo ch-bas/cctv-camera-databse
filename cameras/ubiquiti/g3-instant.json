@@ -53,5 +53,8 @@
   "msrp_usd": 29,
   "sources": [
     "https://store.ui.com/us/en/products/uvc-g3-ins"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

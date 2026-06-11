@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | Argus MagiCam |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K (4MP, 2560×1440) |
 | Sensor | CMOS |
 | Lens | 1× Fixedmm |

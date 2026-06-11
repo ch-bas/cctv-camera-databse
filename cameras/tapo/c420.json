@@ -4,8 +4,7 @@
   "model": "C420",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -58,5 +57,9 @@
   "msrp_usd": 49.99,
   "sources": [
     "https://www.tapo.com/en/product/smart-camera/tapo-c420/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

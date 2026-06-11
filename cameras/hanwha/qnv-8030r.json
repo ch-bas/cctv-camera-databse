@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/product/qnv-8030r/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

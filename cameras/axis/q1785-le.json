@@ -4,7 +4,6 @@
   "model": "Q1785-LE",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -56,5 +55,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-q1785-le"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

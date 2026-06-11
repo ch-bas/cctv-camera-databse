@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Duo Floodlight PoE |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 4608×1728) |
 | Sensor | Dual 1/2.7" CMOS |
 | Lens | 2× 3.2 (fixed)mm F2.0 |

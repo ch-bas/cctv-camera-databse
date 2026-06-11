@@ -4,8 +4,7 @@
   "model": "Argus PT",
   "type": "ptz",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2021,
   "resolution": {
@@ -37,7 +36,7 @@
   },
   "features": [
     "2K battery pan/tilt",
-    "355\u00b0 pan / 140\u00b0 tilt",
+    "355° pan / 140° tilt",
     "dual-band WiFi",
     "person/vehicle detection",
     "solar optional",
@@ -46,5 +45,9 @@
   "sources": [
     "https://reolink.com/product/argus-pt/"
   ],
-  "msrp_usd": 59
+  "msrp_usd": 59,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

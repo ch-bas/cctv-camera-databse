@@ -35,7 +35,7 @@
   },
   "features": [
     "Yale 1080p colour night vision doorbell",
-    "150\u00b0 wide",
+    "150° wide",
     "person detection",
     "two-way audio",
     "Yale Secure / Alexa",
@@ -43,5 +43,8 @@
   ],
   "sources": [
     "https://www.yalehome.co.uk/"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

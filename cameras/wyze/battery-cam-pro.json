@@ -4,8 +4,7 @@
   "model": "Battery Cam Pro",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -55,5 +54,9 @@
   "msrp_usd": 100,
   "sources": [
     "https://www.wyze.com/products/wyze-battery-cam-pro"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

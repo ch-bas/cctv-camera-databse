@@ -3,17 +3,45 @@
   "brand": "TVT Digital",
   "model": "TD-8423IS-A",
   "type": "ptz",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p Full HD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p Full HD"
+  },
   "sensor": "1/2.8\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "4.7-94 (20x optical zoom)", "varifocal": true },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.7-94 (20x optical zoom)",
+    "varifocal": true
+  },
   "field_of_view_deg": "55-2.8 horizontal",
-  "night_vision": { "type": "ir", "range_m": 100 },
-  "power": { "method": "PoE+ (IEEE 802.3at) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 128, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 100
+  },
+  "power": {
+    "method": "PoE+ (IEEE 802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "360° pan / 90° tilt",
     "20x optical zoom",
@@ -22,5 +50,11 @@
     "H.265 compression"
   ],
   "release_year": 2020,
-  "sources": ["https://www.tvt.net.cn/"]
+  "sources": [
+    "https://www.tvt.net.cn/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

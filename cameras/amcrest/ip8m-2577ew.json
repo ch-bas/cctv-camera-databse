@@ -4,7 +4,6 @@
   "model": "IP8M-2577E 4K Dome PoE",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -47,5 +46,9 @@
   ],
   "sources": [
     "https://amcrest.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

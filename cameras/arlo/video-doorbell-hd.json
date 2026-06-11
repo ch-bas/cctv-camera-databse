@@ -43,7 +43,7 @@
     "two_way": true
   },
   "features": [
-    "2K QHD 180\u00b0 video doorbell",
+    "2K QHD 180° video doorbell",
     "colour night vision",
     "person/package/motion detection",
     "two-way audio",
@@ -55,5 +55,9 @@
   "msrp_usd": 149,
   "sources": [
     "https://www.arlo.com/cameras/doorbells/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

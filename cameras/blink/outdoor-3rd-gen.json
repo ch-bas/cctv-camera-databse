@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "resolution": {
@@ -57,5 +56,8 @@
   "msrp_usd": 99.99,
   "sources": [
     "https://blinkforhome.com/products"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

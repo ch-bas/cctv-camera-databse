@@ -7,7 +7,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -64,10 +63,13 @@
     "IP66",
     "ONVIF/RTSP",
     "DSGVO local",
-    "\u20ac350\u2013450"
+    "€350–450"
   ],
   "msrp_eur": 399,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

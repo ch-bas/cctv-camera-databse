@@ -9,7 +9,6 @@
   "generation": "Wisenet 9",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -64,5 +63,9 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

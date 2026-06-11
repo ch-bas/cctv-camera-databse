@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD63C5G1-IVS |
 | Type | fisheye |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 12MP (12MP, 4000×3000) |
 | Sensor | 1/1.7" Progressive Scan CMOS |
 | Lens | 1× 1.29 (fixed fisheye)mm F2.0 |

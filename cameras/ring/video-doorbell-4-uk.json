@@ -59,5 +59,9 @@
   "msrp_gbp": 74.99,
   "sources": [
     "https://ring.com/en-gb/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

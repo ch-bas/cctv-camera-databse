@@ -59,5 +59,8 @@
   ],
   "sources": [
     "https://nascompares.com/2023/11/29/new-synology-cc400w-camera-revealed/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

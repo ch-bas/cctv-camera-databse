@@ -7,7 +7,6 @@
   ],
   "type": "covert",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

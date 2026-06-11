@@ -1,1 +1,59 @@
-{"id":"ring-floodlight-cam-wired-pro","brand":"Ring","model":"Floodlight Cam Wired Pro","type":"bullet","connectivity":["wifi","ethernet"],"resolution":{"megapixels":2,"max_width":1920,"max_height":1080,"label":"1080p"},"lens":{"count":1,"varifocal":false},"field_of_view_deg":"140 horizontal","night_vision":{"type":"color","range_m":9},"power":{"method":"Hardwired (AC)"},"storage":{"onboard":false,"nvr_compatible":false,"cloud":true},"protocols":["http"],"ip_rating":"IP55","audio":{"microphone":true,"speaker":true,"two_way":true},"features":["3D motion detection with Bird's Eye View","dual 2000-lumen floodlights","dual-band WiFi","110 dB siren","color night vision","Ring subscription for cloud history","Alexa integration"],"release_year":2021,"msrp_usd":249.99,"sources":["https://ring.com/products/floodlight-cam-wired-pro"]}
+{
+  "id": "ring-floodlight-cam-wired-pro",
+  "brand": "Ring",
+  "model": "Floodlight Cam Wired Pro",
+  "type": "bullet",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "140 horizontal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 9
+  },
+  "power": {
+    "method": "Hardwired (AC)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP55",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "3D motion detection with Bird's Eye View",
+    "dual 2000-lumen floodlights",
+    "dual-band WiFi",
+    "110 dB siren",
+    "color night vision",
+    "Ring subscription for cloud history",
+    "Alexa integration"
+  ],
+  "release_year": 2021,
+  "msrp_usd": 249.99,
+  "sources": [
+    "https://ring.com/products/floodlight-cam-wired-pro"
+  ],
+  "power_source": [
+    "ac-mains"
+  ]
+}

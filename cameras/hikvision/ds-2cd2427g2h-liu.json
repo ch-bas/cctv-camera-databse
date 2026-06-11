@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -60,5 +59,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

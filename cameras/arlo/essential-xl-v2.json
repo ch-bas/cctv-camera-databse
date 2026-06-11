@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2025,
   "resolution": {
@@ -57,5 +56,8 @@
   "msrp_usd": 129,
   "sources": [
     "https://us.arlo.com/products/arlo-essential-xl-v2"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

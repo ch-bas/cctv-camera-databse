@@ -3,21 +3,52 @@
   "brand": "Secureye",
   "model": "S-5MPDM",
   "type": "dome",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP Super HD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP Super HD"
+  },
   "sensor": "1/2.7\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 30 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp", "p2p"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "p2p"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "motion detection",
     "5MP high resolution",
     "vandal-resistant dome housing"
   ],
-  "markets": ["IN"],
+  "markets": [
+    "IN"
+  ],
   "release_year": 2023,
-  "sources": ["https://www.secureye.com/"]
+  "sources": [
+    "https://www.secureye.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

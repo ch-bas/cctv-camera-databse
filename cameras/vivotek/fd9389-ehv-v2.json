@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,8 @@
   ],
   "sources": [
     "https://www.bhphotovideo.com/c/product/1653617-REG/vivotek_fd9389_ehv_v2_fd9389_ehv_v2_5mp_outdoor.html"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

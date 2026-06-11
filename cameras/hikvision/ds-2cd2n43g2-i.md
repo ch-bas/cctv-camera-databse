@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2N43G2-I |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/3" Progressive Scan CMOS |
 | Lens | 1× 2.8 / 4 (fixed options)mm F1.6 |

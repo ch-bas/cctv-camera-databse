@@ -7,7 +7,7 @@
 | Brand | Uniview |
 | Model | IPC3615SB-ADF28KM-I0 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2880×1620) |
 | Sensor | 1/2.7" Progressive Scan CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

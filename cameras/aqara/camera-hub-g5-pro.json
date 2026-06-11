@@ -7,9 +7,8 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2025,
   "markets": [
@@ -64,10 +63,14 @@
     "on-device AI: face/vehicle/pet/package + audio (alarm/baby cry)",
     "eMMC + iCloud + NAS/SMB backup",
     "first shown IFA 2024 Berlin",
-    "IP65 / -30\u00b0C"
+    "IP65 / -30°C"
   ],
   "msrp_eur": 139.99,
   "sources": [
     "https://eu.aqara.com/en-eu/products/aqara-camera-hub-g5-pro"
+  ],
+  "power_source": [
+    "poe",
+    "usb"
   ]
 }

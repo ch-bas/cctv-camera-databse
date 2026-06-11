@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | RLC-520A |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 4.0 (fixed)mm F2.0 |

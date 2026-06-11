@@ -7,7 +7,7 @@
 | Brand | Annke |
 | Model | I61DQ |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (dual-lens 180°) (6MP, 3072×2048) |
 | Lens | 2× 2.8mm per lensmm |
 | Field of view | 180 horizontal° |

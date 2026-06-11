@@ -4,13 +4,12 @@
   "model": "DS-2CD6365G0E-IVS",
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
   "resolution": {
     "megapixels": 6,
-    "label": "6MP 360\u00b0"
+    "label": "6MP 360°"
   },
   "field_of_view_deg": "360 fisheye",
   "night_vision": {
@@ -37,7 +36,7 @@
     "two_way": false
   },
   "features": [
-    "6MP 360\u00b0 fisheye dome indoor",
+    "6MP 360° fisheye dome indoor",
     "IVS smart analytics",
     "people counting",
     "heat map",
@@ -47,5 +46,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

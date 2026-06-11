@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,8 @@
   ],
   "sources": [
     "https://www.securityinformed.com/avigilon-2-0c-h5a-do1-ir-ip-dome-camera-technical-details.html"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

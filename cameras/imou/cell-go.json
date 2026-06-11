@@ -3,9 +3,7 @@
   "brand": "IMOU",
   "model": "Cell Go",
   "type": "bullet",
-  "connectivity": [
-    "battery"
-  ],
+  "connectivity": [],
   "release_year": 2023,
   "resolution": {
     "megapixels": 4,
@@ -45,5 +43,9 @@
   ],
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

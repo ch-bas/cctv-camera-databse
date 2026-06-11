@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW1239T1-LED-S6 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 107h° |
 | Night vision | color (30m) |

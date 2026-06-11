@@ -8,8 +8,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2019,
   "resolution": {
@@ -56,5 +55,8 @@
   "msrp_usd": 199.99,
   "sources": [
     "https://us.arlo.com/products/arlo-pro-3"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

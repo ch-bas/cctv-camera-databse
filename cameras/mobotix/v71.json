@@ -4,7 +4,6 @@
   "model": "V71",
   "type": "box",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -45,5 +44,8 @@
   ],
   "sources": [
     "https://www.mobotix.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

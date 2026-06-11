@@ -1,1 +1,65 @@
-{"id":"dahua-ipc-hfw3849t1-as-pv","brand":"Dahua","model":"IPC-HFW3849T1-AS-PV","aliases":["DH-IPC-HFW3849T1-AS-PV","WizSense TiOC 8MP Bullet"],"type":"bullet","connectivity":["poe","ethernet"],"resolution":{"megapixels":8,"max_width":3840,"max_height":2160,"label":"4K UHD"},"sensor":"1/2.8\" CMOS","lens":{"count":1,"focal_length_mm":"2.8 (fixed)","varifocal":false},"night_vision":{"type":"hybrid","range_m":30},"power":{"method":"PoE / DC 12V"},"storage":{"onboard":true,"max_microsd_gb":256,"nvr_compatible":true,"cloud":false},"protocols":["onvif","rtsp"],"ip_rating":"IP67","audio":{"microphone":true,"speaker":true,"two_way":true},"features":["TiOC 2.0 full-color active deterrence","WizSense AI","smart dual illumination","human / vehicle classification","red & blue warning lights","built-in mic & speaker","SMD 4.0","H.265 codec"],"sources":["https://www.dahuasecurity.com/asset/upload/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HFW3849T1-AS-PV-S3_datasheet_20220525.pdf"]}
+{
+  "id": "dahua-ipc-hfw3849t1-as-pv",
+  "brand": "Dahua",
+  "model": "IPC-HFW3849T1-AS-PV",
+  "aliases": [
+    "DH-IPC-HFW3849T1-AS-PV",
+    "WizSense TiOC 8MP Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "sensor": "1/2.8\" CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP67",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "TiOC 2.0 full-color active deterrence",
+    "WizSense AI",
+    "smart dual illumination",
+    "human / vehicle classification",
+    "red & blue warning lights",
+    "built-in mic & speaker",
+    "SMD 4.0",
+    "H.265 codec"
+  ],
+  "sources": [
+    "https://www.dahuasecurity.com/asset/upload/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HFW3849T1-AS-PV-S3_datasheet_20220525.pdf"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
+}

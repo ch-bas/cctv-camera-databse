@@ -7,7 +7,7 @@
 | Brand | Eufy |
 | Model | EufyCam E340 (Dual-lens) |
 | Type | dual-lens |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K+2K dual-lens (8MP) |
 | Lens | 2× Wide 4K + 2K zoommm |
 | Field of view | 360 combined pan/tilt° |

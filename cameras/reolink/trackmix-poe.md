@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | TrackMix PoE |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/3" CMOS (wide) + 1/2.8" CMOS (telephoto) |
 | Lens | 2× 2.8 (wide) + 8 (telephoto)mm F1.6 |

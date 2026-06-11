@@ -61,5 +61,9 @@
   "msrp_gbp": 79.99,
   "sources": [
     "https://www.yale.co.uk/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

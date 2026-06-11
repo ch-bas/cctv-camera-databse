@@ -55,5 +55,8 @@
   "msrp_usd": 249,
   "sources": [
     "https://www.eufy.com/products/floodlight-cam-e340"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

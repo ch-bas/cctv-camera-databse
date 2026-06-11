@@ -7,8 +7,7 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://www.lorex.com/products/2k-wifi-pan-tilt-camera"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Video Doorbell PoE |
 | Type | covert |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

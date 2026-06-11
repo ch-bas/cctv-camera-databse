@@ -7,8 +7,7 @@
   ],
   "type": "dual-lens",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "markets": [
@@ -63,5 +62,9 @@
   "msrp_eur": 199.99,
   "sources": [
     "https://www.eufy.com/de-de/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

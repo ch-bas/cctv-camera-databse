@@ -4,7 +4,6 @@
   "model": "M73 6MP",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -55,5 +54,8 @@
   ],
   "sources": [
     "https://www.mobotix.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

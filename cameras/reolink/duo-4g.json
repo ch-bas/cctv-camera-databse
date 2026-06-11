@@ -3,13 +3,11 @@
   "brand": "Reolink",
   "model": "Duo 4G",
   "type": "bullet",
-  "connectivity": [
-    "battery"
-  ],
+  "connectivity": [],
   "release_year": 2022,
   "resolution": {
     "megapixels": 8,
-    "label": "2\u00d74MP 180\u00b0 dual-lens"
+    "label": "2×4MP 180° dual-lens"
   },
   "field_of_view_deg": "180 horizontal",
   "night_vision": {
@@ -35,9 +33,9 @@
     "two_way": true
   },
   "features": [
-    "4G LTE dual-lens 180\u00b0 battery camera",
+    "4G LTE dual-lens 180° battery camera",
     "no WiFi required",
-    "2\u00d74MP lenses",
+    "2×4MP lenses",
     "solar optional",
     "no subscription",
     "IP65"
@@ -45,5 +43,9 @@
   "sources": [
     "https://reolink.com/product/reolink-duo-4g/"
   ],
-  "msrp_usd": 119
+  "msrp_usd": 119,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

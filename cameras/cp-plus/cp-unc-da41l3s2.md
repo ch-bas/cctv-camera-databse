@@ -5,7 +5,7 @@
 | Brand | CP Plus |
 | Model | CP-UNC-DA41L3S2-LQ |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 106h° |
 | Night vision | ir (30m) |

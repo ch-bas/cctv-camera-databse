@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD1043G2-LIU |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/3" Progressive Scan CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

@@ -4,7 +4,7 @@
   "model": "C310 (Japan)",
   "aliases": [
     "TP-Link Tapo C310 3MP Outdoor Japan",
-    "Tapo \u5c4b\u5916\u30ab\u30e1\u30e9 \u65e5\u672c"
+    "Tapo 屋外カメラ 日本"
   ],
   "type": "bullet",
   "connectivity": [
@@ -65,5 +65,8 @@
   ],
   "sources": [
     "https://www.tp-link.com/jp/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

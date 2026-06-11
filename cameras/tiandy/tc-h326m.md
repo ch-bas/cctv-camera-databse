@@ -5,7 +5,7 @@
 | Brand | Tiandy |
 | Model | TC-H326M |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" Starlight CMOS |
 | Lens | 1× 4.8-120mm |

@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2021,
   "resolution": {
@@ -55,5 +54,9 @@
   "msrp_usd": 129,
   "sources": [
     "https://www.arlo.com/cameras/pro/arlo-pro-4-spotlight-camera.html"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

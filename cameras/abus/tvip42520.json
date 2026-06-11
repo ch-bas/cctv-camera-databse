@@ -7,9 +7,8 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2021,
   "markets": [
@@ -69,5 +68,9 @@
   "msrp_eur": 299.99,
   "sources": [
     "https://www.abus.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

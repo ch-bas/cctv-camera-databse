@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -58,5 +57,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-m3088-v"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

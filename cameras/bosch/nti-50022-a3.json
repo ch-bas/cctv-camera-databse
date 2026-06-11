@@ -8,7 +8,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -59,5 +58,8 @@
   ],
   "sources": [
     "https://www.boschsecurity.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

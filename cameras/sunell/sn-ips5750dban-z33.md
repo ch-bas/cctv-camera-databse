@@ -5,7 +5,7 @@
 | Brand | Sunell |
 | Model | SN-IPS5750DBAN-Z33 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 4.6-152 (33x optical zoom)mm |

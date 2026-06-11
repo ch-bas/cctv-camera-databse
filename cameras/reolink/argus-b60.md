@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | Argus B60 |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

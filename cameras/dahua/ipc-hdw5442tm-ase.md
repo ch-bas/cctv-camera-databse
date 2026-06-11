@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW5442TM-ASE |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8 / 3.6 (fixed options)mm |

@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | PNV-9300RV |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 3-8.5 (3x motorized)mm F1.2 |

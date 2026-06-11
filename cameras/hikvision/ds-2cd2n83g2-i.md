@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2N83G2-I |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 103h° |
 | Night vision | ir (40m) |

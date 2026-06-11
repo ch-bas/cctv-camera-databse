@@ -4,8 +4,7 @@
   "model": "Cam Outdoor Pro",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "markets": [
@@ -57,5 +56,9 @@
   "msrp_usd": 59,
   "sources": [
     "https://www.wyze.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

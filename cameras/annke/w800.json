@@ -45,5 +45,8 @@
   ],
   "sources": [
     "https://www.annke.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Blink |
 | Model | Outdoor 4 Floodlight |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× Fixedmm F2.0 |
 | Field of view | 150 diagonal° |

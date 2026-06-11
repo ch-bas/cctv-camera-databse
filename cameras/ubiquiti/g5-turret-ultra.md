@@ -7,7 +7,7 @@
 | Brand | Ubiquiti |
 | Model | UniFi Protect G5 Turret Ultra |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2K (5MP, 2688×1512) |
 | Sensor | 1/2.7" CMOS (5MP) |
 | Lens | 1× 3.4 (fixed)mm F1.6 |

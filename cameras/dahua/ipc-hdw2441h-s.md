@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW2441H-S |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

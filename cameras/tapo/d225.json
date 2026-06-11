@@ -57,5 +57,9 @@
   "msrp_usd": 79.99,
   "sources": [
     "https://www.tapo.com/us/product/smart-camera/tapo-d225/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

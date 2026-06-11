@@ -57,5 +57,8 @@
   "msrp_usd": 99.99,
   "sources": [
     "https://store.google.com/product/nest_cam_specs"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

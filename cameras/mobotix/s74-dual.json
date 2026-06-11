@@ -4,7 +4,6 @@
   "model": "S74 Dual Sensor",
   "type": "dual-lens",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -44,7 +43,7 @@
   "features": [
     "MOBOTIX 7 dual-sensor",
     "2x interchangeable heads",
-    "180\u00b0 panoramic",
+    "180° panoramic",
     "on-camera AI Certified Apps",
     "microSD up to 2TB",
     "IP66",
@@ -52,5 +51,8 @@
   ],
   "sources": [
     "https://www.mobotix.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

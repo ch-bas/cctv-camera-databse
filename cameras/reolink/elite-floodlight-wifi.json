@@ -48,5 +48,8 @@
   "sources": [
     "https://reolink.com/product/elite-floodlight-wifi/"
   ],
-  "msrp_usd": 109
+  "msrp_usd": 109,
+  "power_source": [
+    "ac-mains"
+  ]
 }

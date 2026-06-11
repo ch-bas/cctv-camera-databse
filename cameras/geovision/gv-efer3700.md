@@ -5,7 +5,7 @@
 | Brand | GeoVision |
 | Model | GV-EFER3700 |
 | Type | fisheye |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 3MP Fisheye (3MP, 2048×2048) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 1.45mm |

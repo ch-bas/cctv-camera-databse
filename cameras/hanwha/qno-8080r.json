@@ -1,1 +1,62 @@
-{"id":"hanwha-qno-8080r","brand":"Hanwha","model":"QNO-8080R","aliases":["Wisenet Q 5MP Bullet"],"type":"bullet","connectivity":["poe","ethernet"],"resolution":{"megapixels":5,"max_width":2592,"max_height":1944,"label":"5MP"},"sensor":"1/2.8\" Progressive Scan CMOS","lens":{"count":1,"focal_length_mm":"3.9-9.4 (2.4x motorized varifocal)","varifocal":true},"field_of_view_deg":"97-39 horizontal","night_vision":{"type":"ir","range_m":50},"power":{"method":"PoE (802.3af) / DC 12V"},"storage":{"onboard":true,"max_microsd_gb":128,"nvr_compatible":true,"cloud":false},"protocols":["onvif","rtsp"],"ip_rating":"IP66","audio":{"microphone":false,"speaker":false,"two_way":false},"features":["WiseStream II","Intelligent Video Analytics","120 dB WDR","H.265 / H.264","IK10"],"sources":["https://hanwhavisionamerica.com/product/qno-8080r/"]}
+{
+  "id": "hanwha-qno-8080r",
+  "brand": "Hanwha",
+  "model": "QNO-8080R",
+  "aliases": [
+    "Wisenet Q 5MP Bullet"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
+  "sensor": "1/2.8\" Progressive Scan CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "3.9-9.4 (2.4x motorized varifocal)",
+    "varifocal": true
+  },
+  "field_of_view_deg": "97-39 horizontal",
+  "night_vision": {
+    "type": "ir",
+    "range_m": 50
+  },
+  "power": {
+    "method": "PoE (802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": false,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "WiseStream II",
+    "Intelligent Video Analytics",
+    "120 dB WDR",
+    "H.265 / H.264",
+    "IK10"
+  ],
+  "sources": [
+    "https://hanwhavisionamerica.com/product/qno-8080r/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
+}

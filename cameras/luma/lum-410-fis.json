@@ -3,15 +3,38 @@
   "brand": "Luma",
   "model": "LUM-410-FIS",
   "type": "fisheye",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 4, "max_width": 2560, "max_height": 1440, "label": "1440p QHD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2560,
+    "max_height": 1440,
+    "label": "1440p QHD"
+  },
   "sensor": "1/2.8\" CMOS",
-  "night_vision": { "type": "ir", "range_m": 10 },
-  "power": { "method": "PoE (IEEE 802.3af)" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 10
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "360° panoramic view",
     "dewarping",
@@ -19,5 +42,10 @@
     "vandal-resistant IK10 housing"
   ],
   "release_year": 2022,
-  "sources": ["https://www.snapone.com/brands/luma"]
+  "sources": [
+    "https://www.snapone.com/brands/luma"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

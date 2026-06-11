@@ -7,7 +7,6 @@
   ],
   "type": "dual-lens",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,9 @@
   "release_year": 2023,
   "sources": [
     "https://reolink.com/product/rlc-81ma/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

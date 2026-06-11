@@ -5,7 +5,7 @@
 | Brand | Costar |
 | Model | ConteraIP Panoramic 12MP |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 12MP (12MP, 4000×3000) |
 | Sensor | 1/1.7" CMOS |
 | Night vision | ir (20m) |

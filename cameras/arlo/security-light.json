@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -56,5 +55,8 @@
   "msrp_usd": 149.99,
   "sources": [
     "https://us.arlo.com/products/arlo-security-light"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW3849T1-AS-PV |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 110h° |
 | Night vision | hybrid (30m) |

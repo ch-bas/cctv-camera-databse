@@ -1,1 +1,60 @@
-{"id":"arlo-essential-xlr","brand":"Arlo","model":"Essential XL Spotlight","aliases":["VMC2032"],"type":"bullet","connectivity":["wifi","battery"],"resolution":{"megapixels":2,"max_width":1920,"max_height":1080,"label":"1080p"},"lens":{"count":1,"varifocal":false},"field_of_view_deg":"130 diagonal","night_vision":{"type":"color","range_m":7},"power":{"method":"Built-in extra-large rechargeable battery (up to 12 months)"},"storage":{"onboard":false,"nvr_compatible":false,"cloud":true},"protocols":["http"],"ip_rating":"IP65","audio":{"microphone":true,"speaker":true,"two_way":true},"features":["integrated spotlight","color night vision","person / vehicle / package detection","90 dB siren","direct WiFi","Alexa / Google / HomeKit"],"release_year":2021,"msrp_usd":129.99,"sources":["https://www.arlo.com/cameras/essential/arlo-essential-xl-spotlight.html"]}
+{
+  "id": "arlo-essential-xlr",
+  "brand": "Arlo",
+  "model": "Essential XL Spotlight",
+  "aliases": [
+    "VMC2032"
+  ],
+  "type": "bullet",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
+  "field_of_view_deg": "130 diagonal",
+  "night_vision": {
+    "type": "color",
+    "range_m": 7
+  },
+  "power": {
+    "method": "Built-in extra-large rechargeable battery (up to 12 months)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "http"
+  ],
+  "ip_rating": "IP65",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "integrated spotlight",
+    "color night vision",
+    "person / vehicle / package detection",
+    "90 dB siren",
+    "direct WiFi",
+    "Alexa / Google / HomeKit"
+  ],
+  "release_year": 2021,
+  "msrp_usd": 129.99,
+  "sources": [
+    "https://www.arlo.com/cameras/essential/arlo-essential-xl-spotlight.html"
+  ],
+  "power_source": [
+    "battery"
+  ]
+}

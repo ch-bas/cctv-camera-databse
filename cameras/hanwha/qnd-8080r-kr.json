@@ -8,7 +8,6 @@
   "generation": "Wisenet Q",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -66,5 +65,9 @@
   ],
   "sources": [
     "https://www.hanwhavision.com/en-kr/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

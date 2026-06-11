@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW2849S-S-IL-S2 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 106h° |
 | Night vision | hybrid (30m) |

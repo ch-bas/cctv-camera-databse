@@ -5,7 +5,7 @@
 | Brand | FLIR |
 | Model | Saros DH-390 |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP Visible + Thermal (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS + Uncooled VOx Microbolometer |
 | Lens | 2× 3.1 (visible) / 4.3 (thermal)mm |

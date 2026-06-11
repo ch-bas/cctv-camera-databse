@@ -55,5 +55,8 @@
   "msrp_usd": 39.99,
   "sources": [
     "https://blinkforhome.com/products"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | GeoVision |
 | Model | GV-SD4825-IR |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/2.5" Progressive Scan CMOS |
 | Lens | 1× 4.8-120mm |

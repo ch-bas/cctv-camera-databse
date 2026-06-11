@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2T23G2-4I |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 2.8 / 4 / 6 (fixed)mm F1.6 |

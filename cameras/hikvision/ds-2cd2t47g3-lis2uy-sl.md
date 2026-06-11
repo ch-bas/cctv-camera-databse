@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2T47G3-LIS2UY/SL |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8 / 4 (fixed)mm F1.0 |

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HF71242F-Z-X |
 | Type | box |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 12MP (12MP, 4000×3000) |
 | Sensor | 1/1.7" Progressive Scan CMOS |
 | Night vision | none |

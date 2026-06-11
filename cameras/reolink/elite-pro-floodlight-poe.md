@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Elite Pro Floodlight PoE |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 16MP dual-lens (16MP) |
 | Sensor | Dual 1/2.7" CMOS (8MP each) |
 | Lens | 2× 2.8 fixedmm F1.6 |

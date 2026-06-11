@@ -7,7 +7,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -64,10 +63,13 @@
     "ONVIF/RTSP",
     "DSGVO local storage",
     "flagship LUPUS PTZ",
-    "\u20ac500\u2013600"
+    "€500–600"
   ],
   "msrp_eur": 549,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

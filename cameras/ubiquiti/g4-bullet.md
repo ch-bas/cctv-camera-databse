@@ -7,7 +7,7 @@
 | Brand | Ubiquiti |
 | Model | UniFi Protect G4 Bullet |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2K (4MP, 2688×1512) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 3.6 (fixed)mm F2.0 |

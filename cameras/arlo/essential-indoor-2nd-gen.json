@@ -54,5 +54,8 @@
   "msrp_usd": 89.99,
   "sources": [
     "https://www.arlo.com/cameras/essential/arlo-essential-indoor.html"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

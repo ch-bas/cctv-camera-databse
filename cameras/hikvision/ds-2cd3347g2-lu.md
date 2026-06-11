@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD3347G2-LU |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 103h° |
 | Night vision | color (30m) |

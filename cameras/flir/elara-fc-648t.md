@@ -5,7 +5,7 @@
 | Brand | FLIR |
 | Model | Elara FC-648T |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | Thermal 640x480 (0.3MP, 640×480) |
 | Sensor | Uncooled VOx Microbolometer |
 | Lens | 1× 25mm |

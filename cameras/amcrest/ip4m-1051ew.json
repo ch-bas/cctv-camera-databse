@@ -45,5 +45,8 @@
   ],
   "sources": [
     "https://amcrest.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

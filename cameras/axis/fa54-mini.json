@@ -4,7 +4,6 @@
   "model": "FA54",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -40,10 +39,13 @@
     "Axis FA54 mini fixed dome sensor unit",
     "compact form factor",
     "Lightfinder 2.0",
-    "wide 110\u00b0 FOV",
+    "wide 110° FOV",
     "indoor discreet"
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

@@ -8,7 +8,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -60,10 +59,13 @@
     "H.265+",
     "auto-tracking",
     "very popular commercial India PTZ",
-    "\u20b925,000\u201335,000"
+    "₹25,000–35,000"
   ],
   "msrp_inr": 28999,
   "sources": [
     "https://www.hikvision.com/in-en/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

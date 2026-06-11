@@ -5,7 +5,7 @@
 | Brand | Hanwha |
 | Model | QNO-C9083R |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 109-42h° |
 | Night vision | color (30m) |

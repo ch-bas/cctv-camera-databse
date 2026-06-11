@@ -53,5 +53,8 @@
   "msrp_usd": 29.99,
   "sources": [
     "https://www.eufy.com/products/indoor-cam-mini"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

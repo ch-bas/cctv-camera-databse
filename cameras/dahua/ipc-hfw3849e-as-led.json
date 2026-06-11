@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -53,5 +52,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -4,8 +4,7 @@
   "model": "Altas PT Ultra",
   "type": "ptz",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -38,7 +37,7 @@
   "features": [
     "world-first 4K solar battery PTZ continuous recording",
     "dual solar panels",
-    "360\u00b0 pan/tilt auto-tracking",
+    "360° pan/tilt auto-tracking",
     "WiFi 6",
     "color night vision",
     "no subscription",
@@ -50,5 +49,9 @@
   "msrp_usd": 159,
   "aliases": [
     "B660"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

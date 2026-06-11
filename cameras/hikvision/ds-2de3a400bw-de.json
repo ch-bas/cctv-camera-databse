@@ -8,7 +8,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

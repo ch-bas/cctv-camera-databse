@@ -4,7 +4,6 @@
   "model": "CP-UNC-DA41PL3C-D-LQ",
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.cpplus.in/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | HiLook |
 | Model | IPC-T280HA-LU |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 / 4 (fixed)mm F1.6 |

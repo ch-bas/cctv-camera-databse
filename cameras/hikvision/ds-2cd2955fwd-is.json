@@ -7,7 +7,6 @@
   ],
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -15,7 +14,7 @@
     "megapixels": 5,
     "max_width": 2592,
     "max_height": 1944,
-    "label": "5MP 360\u00b0"
+    "label": "5MP 360°"
   },
   "sensor": "1/2.5\" CMOS",
   "lens": {
@@ -49,7 +48,7 @@
     "two_way": true
   },
   "features": [
-    "360\u00b0 fisheye outdoor panoramic",
+    "360° fisheye outdoor panoramic",
     "4-way split dewarped view",
     "5MP sensor",
     "IR 10m",
@@ -61,5 +60,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

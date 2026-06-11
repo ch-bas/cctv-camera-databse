@@ -3,9 +3,7 @@
   "brand": "Reolink",
   "model": "Go",
   "type": "bullet",
-  "connectivity": [
-    "battery"
-  ],
+  "connectivity": [],
   "release_year": 2019,
   "resolution": {
     "megapixels": 2,
@@ -45,5 +43,9 @@
   "sources": [
     "https://reolink.com/product/reolink-go/"
   ],
-  "msrp_usd": 79
+  "msrp_usd": 79,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

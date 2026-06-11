@@ -64,5 +64,8 @@
   ],
   "sources": [
     "https://www.tp-link.com/ar/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

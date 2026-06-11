@@ -8,7 +8,6 @@
   "release_year": 2024,
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/TiOC/IPC-HDW3449H-AS-PV-PRO"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

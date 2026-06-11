@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW5442T-ZE |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 110-30h° |
 | Night vision | ir (40m) |

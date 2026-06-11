@@ -63,10 +63,13 @@
     "IP66",
     "IP67 housing",
     "German brand",
-    "\u20ac80\u2013120"
+    "€80–120"
   ],
   "msrp_eur": 109,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

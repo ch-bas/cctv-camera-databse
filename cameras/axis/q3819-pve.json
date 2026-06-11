@@ -8,7 +8,6 @@
   "release_year": 2024,
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -58,5 +57,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-q3819-pve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

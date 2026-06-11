@@ -56,5 +56,8 @@
   "msrp_usd": 349,
   "sources": [
     "https://store.google.com/product/nest_cam_iq_outdoor"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

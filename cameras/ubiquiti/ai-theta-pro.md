@@ -7,7 +7,7 @@
 | Brand | Ubiquiti |
 | Model | UniFi Protect AI Theta Pro |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4x6MP multisensor (24MP) |
 | Sensor | 4x 1/2.8" CMOS |
 | Lens | 4× Fixed per sensormm |

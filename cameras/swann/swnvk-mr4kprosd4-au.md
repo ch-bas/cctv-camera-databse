@@ -7,7 +7,7 @@
 | Brand | Swann |
 | Model | MaxRanger4K Pro Solar (SWNVK-MR4KPROSD4) |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | Sony STARVIS CMOS |
 | Lens | 1× Fixedmm F2.0 |

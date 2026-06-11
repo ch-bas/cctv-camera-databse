@@ -8,8 +8,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2019,
   "resolution": {
@@ -57,5 +56,8 @@
   "msrp_usd": 299.99,
   "sources": [
     "https://us.arlo.com/products/arlo-ultra"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

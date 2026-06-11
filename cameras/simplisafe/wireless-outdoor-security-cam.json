@@ -57,5 +57,8 @@
   "msrp_usd": 99.0,
   "sources": [
     "https://simplisafe.com/cameras"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

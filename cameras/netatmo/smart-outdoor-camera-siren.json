@@ -55,7 +55,7 @@
     "two_way": false
   },
   "features": [
-    "NO SUBSCRIPTION EVER \u2014 all features permanently free",
+    "NO SUBSCRIPTION EVER — all features permanently free",
     "local microSD + Dropbox/FTP storage",
     "integrated floodlight",
     "105dB built-in outdoor alarm siren",
@@ -70,5 +70,8 @@
   "msrp_eur": 229.99,
   "sources": [
     "https://www.netatmo.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -67,5 +66,9 @@
   ],
   "sources": [
     "https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s8530n"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

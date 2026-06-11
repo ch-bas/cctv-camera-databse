@@ -4,7 +4,7 @@
   "model": "IP4M-1051B",
   "type": "dome",
   "connectivity": [
-    "poe"
+    "ethernet"
   ],
   "release_year": 2022,
   "resolution": {
@@ -44,5 +44,9 @@
   ],
   "sources": [
     "https://amcrest.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

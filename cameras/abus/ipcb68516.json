@@ -4,7 +4,6 @@
   "model": "IPCB68516",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -45,5 +44,8 @@
   ],
   "sources": [
     "https://www.abus.com/de/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

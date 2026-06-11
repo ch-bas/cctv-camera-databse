@@ -5,7 +5,7 @@
 | Brand | Milesight |
 | Model | MS-C9674-PB |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 12MP 180° Panoramic (12MP, 8192×1536) |
 | Sensor | 1/1.8" CMOS (x2) |
 | Lens | 2× 2.8mm |

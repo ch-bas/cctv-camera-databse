@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -67,5 +66,9 @@
   "sources": [
     "https://hikvision-uae.ae/product/ds-2cd2047g2-lu-sl/",
     "https://www.hikvision.com/mena-en/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

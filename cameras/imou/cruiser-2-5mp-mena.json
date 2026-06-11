@@ -62,12 +62,15 @@
     "H.265",
     "Alexa",
     "popular Amazon.ae bestseller",
-    "\u2248399 AED",
+    "≈399 AED",
     "value outdoor PTZ"
   ],
   "msrp_aed": 399,
   "sources": [
     "https://www.imoulife.com/me-en/",
     "https://www.amazon.ae/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

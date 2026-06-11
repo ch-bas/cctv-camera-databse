@@ -8,7 +8,6 @@
   "release_year": 2025,
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,9 @@
   ],
   "sources": [
     "https://www.dahuasecurity.com"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

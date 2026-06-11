@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Argus PT |
 | Type | ptz |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP) |
 | Field of view | 355 pan/140 tilt° |
 | Night vision | ir (10m) |

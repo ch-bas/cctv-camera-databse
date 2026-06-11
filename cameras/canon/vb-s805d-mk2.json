@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -65,5 +64,8 @@
   ],
   "sources": [
     "https://www.usa.canon.com/cameras/network-cameras"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

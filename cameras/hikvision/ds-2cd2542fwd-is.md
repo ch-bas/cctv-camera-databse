@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2542FWD-IS |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 103h° |
 | Night vision | ir (10m) |

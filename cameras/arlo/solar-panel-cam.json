@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -56,5 +55,9 @@
   "msrp_usd": 179.99,
   "sources": [
     "https://us.arlo.com/products/arlo-solar-panel-cam"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

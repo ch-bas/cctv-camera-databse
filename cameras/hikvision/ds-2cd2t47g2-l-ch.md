@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2T47G2-L (Switzerland) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 2.8 / 4 / 6 (fixed)mm F1.0 |

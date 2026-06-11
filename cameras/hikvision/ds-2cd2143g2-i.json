@@ -2,9 +2,15 @@
   "id": "hikvision-ds-2cd2143g2-i",
   "brand": "Hikvision",
   "model": "DS-2CD2143G2-I",
-  "aliases": ["DS-2CD2143G2-IS", "DS-2CD2143G2-IU", "AcuSense 4MP Dome"],
+  "aliases": [
+    "DS-2CD2143G2-IS",
+    "DS-2CD2143G2-IU",
+    "AcuSense 4MP Dome"
+  ],
   "type": "dome",
-  "connectivity": ["poe", "ethernet"],
+  "connectivity": [
+    "ethernet"
+  ],
   "resolution": {
     "megapixels": 4,
     "max_width": 2688,
@@ -33,7 +39,11 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": ["onvif", "rtsp", "http"],
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
   "ip_rating": "IP67",
   "audio": {
     "microphone": false,
@@ -51,5 +61,9 @@
   "operating_temp_c": "-30 to +60",
   "sources": [
     "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2143g2-i-s-/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

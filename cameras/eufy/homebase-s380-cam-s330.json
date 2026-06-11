@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 4,
@@ -54,5 +53,9 @@
   "msrp_usd": 149.99,
   "sources": [
     "https://www.eufy.com/products/eufycam-3c"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

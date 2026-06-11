@@ -45,5 +45,8 @@
   ],
   "markets": [
     "US"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

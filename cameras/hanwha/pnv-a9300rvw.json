@@ -4,7 +4,6 @@
   "model": "PNV-A9300RVW",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -46,5 +45,8 @@
   ],
   "sources": [
     "https://hanwhavisionamerica.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

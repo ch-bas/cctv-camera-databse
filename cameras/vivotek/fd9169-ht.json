@@ -4,7 +4,6 @@
   "model": "FD9169-HT",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -47,5 +46,8 @@
   ],
   "sources": [
     "https://www.vivotek.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

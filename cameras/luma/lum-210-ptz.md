@@ -5,7 +5,7 @@
 | Brand | Luma |
 | Model | LUM-210-PTZ |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p FHD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Night vision | ir (100m) |

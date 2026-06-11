@@ -61,5 +61,8 @@
   "msrp_inr": 4999,
   "sources": [
     "https://www.quboworld.com/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

@@ -3,7 +3,9 @@
   "brand": "Reolink",
   "model": "RLC-810A",
   "type": "bullet",
-  "connectivity": ["poe", "ethernet"],
+  "connectivity": [
+    "ethernet"
+  ],
   "resolution": {
     "megapixels": 8,
     "max_width": 3840,
@@ -32,7 +34,11 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": ["onvif", "rtsp", "rtmp"],
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "rtmp"
+  ],
   "ip_rating": "IP67",
   "audio": {
     "microphone": true,
@@ -50,5 +56,9 @@
   "release_year": 2020,
   "sources": [
     "https://reolink.com/product/rlc-810a/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2DE3A400BWG-E |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8-12 (4x optical zoom)mm F1.0 |

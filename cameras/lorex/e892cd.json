@@ -4,7 +4,6 @@
   "model": "E892CD 4K Color Night Dome PoE",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -51,5 +50,8 @@
   ],
   "sources": [
     "https://www.lorex.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

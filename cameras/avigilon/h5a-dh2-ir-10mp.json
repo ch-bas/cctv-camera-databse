@@ -8,7 +8,6 @@
   ],
   "type": "dual-lens",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,8 @@
   ],
   "sources": [
     "https://www.avigilon.com/security-cameras/h5a-dual-head"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

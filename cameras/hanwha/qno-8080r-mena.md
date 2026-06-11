@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | QNO-8080R (MENA) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 3.9-9.4 (2.4x motorized varifocal)mm F1.6 |

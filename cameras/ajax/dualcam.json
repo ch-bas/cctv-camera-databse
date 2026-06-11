@@ -55,5 +55,8 @@
   "msrp_eur": 199,
   "sources": [
     "https://ajax.systems/products/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

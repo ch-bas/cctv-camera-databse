@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -65,5 +64,9 @@
   "msrp_inr": 6999,
   "sources": [
     "https://www.cpplusworld.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | Argus 4 Pro (Austria) |
 | Type | dual-lens |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K dual-lens 180deg (8MP) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 2× 4mm x2 (fixed)mm F1.6 |

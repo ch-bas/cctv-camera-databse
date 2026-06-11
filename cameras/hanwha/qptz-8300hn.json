@@ -4,7 +4,6 @@
   "model": "QNP-8300RH",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -52,5 +51,8 @@
     "focal_length_mm": "4.44-137.6 (32x optical)",
     "aperture": "F1.6",
     "varifocal": true
-  }
+  },
+  "power_source": [
+    "poe"
+  ]
 }

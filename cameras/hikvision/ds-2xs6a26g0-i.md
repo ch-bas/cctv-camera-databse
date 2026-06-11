@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2XS6A26G0-I/CH20S40 |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 103h° |
 | Night vision | ir (60m) |

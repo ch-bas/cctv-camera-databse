@@ -5,7 +5,7 @@
 | Brand | Eufy |
 | Model | Video Doorbell Dual (E8213) |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Lens | 2× |
 | Field of view | 180 diagonal (dual)° |

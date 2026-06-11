@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2DE4425IWG-E (MENA) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.8-120 (25x optical)mm F1.6 |

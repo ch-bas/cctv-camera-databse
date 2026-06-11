@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -55,5 +54,8 @@
   "msrp_usd": 60,
   "sources": [
     "https://www.lorex.com/products/2k-ip-turret-camera"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

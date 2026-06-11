@@ -7,7 +7,6 @@
 | Brand | Reolink |
 | Model | Go Plus |
 | Type | bullet |
-| Connectivity | battery |
 | Resolution | 4MP QHD (4MP, 2560×1440) |
 | Sensor | CMOS |
 | Lens | 1× Fixedmm F1.8 |

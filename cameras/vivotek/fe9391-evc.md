@@ -5,7 +5,7 @@
 | Brand | Vivotek |
 | Model | FE9391-EVC |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP 360° (5MP, 2592×1944) |
 | Sensor | 1/2.5" CMOS |
 | Lens | 1× 1.47 fisheyemm F2.0 |

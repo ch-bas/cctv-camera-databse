@@ -2,20 +2,63 @@
   "id": "ubiquiti-g4-doorbell",
   "brand": "Ubiquiti",
   "model": "UniFi Protect G4 Doorbell",
-  "aliases": ["UVC-G4-Doorbell"],
+  "aliases": [
+    "UVC-G4-Doorbell"
+  ],
   "type": "covert",
-  "connectivity": ["wifi", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2560, "max_height": 1920, "label": "5MP" },
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2560,
+    "max_height": 1920,
+    "label": "5MP"
+  },
   "sensor": "1/2.7\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "1.65", "aperture": "F2.4", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "1.65",
+    "aperture": "F2.4",
+    "varifocal": false
+  },
   "field_of_view_deg": "155 diagonal",
-  "night_vision": { "type": "ir", "range_m": 8 },
-  "power": { "method": "Existing doorbell wiring (16-24VAC)" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp"],
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
-  "features": ["video doorbell", "built-in display", "WiFi 6", "person detection", "package detection", "two-way audio", "UniFi Protect ecosystem"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Existing doorbell wiring (16-24VAC)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "video doorbell",
+    "built-in display",
+    "WiFi 6",
+    "person detection",
+    "package detection",
+    "two-way audio",
+    "UniFi Protect ecosystem"
+  ],
   "release_year": 2022,
   "msrp_usd": 199,
-  "sources": ["https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-doorbell"]
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g4-doorbell"
+  ],
+  "power_source": [
+    "ac-mains"
+  ]
 }

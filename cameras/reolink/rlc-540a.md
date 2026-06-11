@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | RLC-540A |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8-8 (3x motorized varifocal)mm F2.0 |

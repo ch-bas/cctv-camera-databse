@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -56,5 +55,9 @@
   "msrp_usd": 119.99,
   "sources": [
     "https://blinkforhome.com/products"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

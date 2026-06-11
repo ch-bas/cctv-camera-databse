@@ -5,7 +5,7 @@
 | Brand | Reolink |
 | Model | Argus 2E |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 3MP 2K (3MP) |
 | Field of view | 120 diagonal° |
 | Night vision | ir (10m) |

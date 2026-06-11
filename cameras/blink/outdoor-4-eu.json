@@ -3,12 +3,11 @@
   "brand": "Blink",
   "model": "Outdoor 4 (EU)",
   "aliases": [
-    "Blink Outdoor 4th Gen Deutschland/France/Espa\u00f1a"
+    "Blink Outdoor 4th Gen Deutschland/France/España"
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "markets": [
@@ -62,5 +61,8 @@
   "msrp_eur": 54.99,
   "sources": [
     "https://blinkforhome.com/de-de/"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

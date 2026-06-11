@@ -5,7 +5,7 @@
 | Brand | Kedacom |
 | Model | IPC2555-HN-X |
 | Type | box |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× C/CS mount (lens not included)mm |

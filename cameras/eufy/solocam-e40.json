@@ -3,16 +3,41 @@
   "brand": "Eufy",
   "model": "SoloCam E40",
   "type": "bullet",
-  "connectivity": ["wifi", "battery"],
-  "resolution": { "megapixels": 4, "max_width": 2048, "max_height": 1536, "label": "2K" },
-  "lens": { "count": 1, "varifocal": false },
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 2048,
+    "max_height": 1536,
+    "label": "2K"
+  },
+  "lens": {
+    "count": 1,
+    "varifocal": false
+  },
   "field_of_view_deg": "90 diagonal",
-  "night_vision": { "type": "ir", "range_m": 8 },
-  "power": { "method": "Built-in 6700 mAh lithium-ion battery (non-removable), up to 120 days" },
-  "storage": { "onboard": true, "nvr_compatible": false, "cloud": false },
-  "protocols": ["http"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 8
+  },
+  "power": {
+    "method": "Built-in 6700 mAh lithium-ion battery (non-removable), up to 120 days"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "http"
+  ],
   "ip_rating": "IP65",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "AI person detection",
     "customizable smart detection zones",
@@ -29,5 +54,8 @@
   "sources": [
     "https://support.eufy.com/s/article/eufy-SoloCam-E40-FAQ",
     "https://service.eufy.com/article-description/Introducing-eufy-SoloCam-E40"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

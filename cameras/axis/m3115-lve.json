@@ -4,7 +4,6 @@
   "model": "M3115-LVE",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,8 @@
   ],
   "sources": [
     "https://www.axis.com/products/axis-m3115-lve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

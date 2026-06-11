@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | AND-L7082R |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/3" Progressive Scan CMOS |
 | Lens | 1× 3.6 (fixed)mm |

@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | PNM-9000VQ |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4x5MP (20MP total) (20MP, 2592×1944) |
 | Sensor | 4x 1/2.8" Progressive Scan CMOS |
 | Lens | 4× 3.69 (fixed per channel)mm |

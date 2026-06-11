@@ -3,16 +3,58 @@
   "brand": "ACTi",
   "model": "KCM-5611",
   "type": "box",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 2, "max_width": 1920, "max_height": 1080, "label": "1080p FHD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 2,
+    "max_width": 1920,
+    "max_height": 1080,
+    "label": "1080p FHD"
+  },
   "sensor": "1/2.8\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.8-12 (varifocal)", "aperture": "F1.4", "varifocal": true },
-  "night_vision": { "type": "ir", "range_m": 20 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp", "onvif"],
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8-12 (varifocal)",
+    "aperture": "F1.4",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "ir",
+    "range_m": 20
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
-  "features": ["2MP outdoor box camera", "varifocal lens", "H.264 compression", "IP66 weatherproof", "two-way audio", "ONVIF compliant", "discontinued"],
-  "sources": ["https://www.acti.com/product/KCM-5611"]
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "2MP outdoor box camera",
+    "varifocal lens",
+    "H.264 compression",
+    "IP66 weatherproof",
+    "two-way audio",
+    "ONVIF compliant",
+    "discontinued"
+  ],
+  "sources": [
+    "https://www.acti.com/product/KCM-5611"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

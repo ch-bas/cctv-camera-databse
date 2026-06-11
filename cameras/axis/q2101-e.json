@@ -4,7 +4,6 @@
   "model": "Q2101-E Thermal",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -12,7 +11,7 @@
     "megapixels": 0,
     "max_width": 384,
     "max_height": 288,
-    "label": "384\u00d7288 thermal"
+    "label": "384×288 thermal"
   },
   "sensor": "Uncooled microbolometer LWIR",
   "lens": {
@@ -50,10 +49,13 @@
     "Zipstream H.265",
     "IP66",
     "IK10",
-    "-20\u00b0C to +60\u00b0C",
+    "-20°C to +60°C",
     "perimeter protection / critical infrastructure"
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

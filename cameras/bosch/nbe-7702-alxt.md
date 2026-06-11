@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME 7000i Bullet (NBE-7702-ALXT) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 10.5-47 (motorized varifocal)mm F1.6 |

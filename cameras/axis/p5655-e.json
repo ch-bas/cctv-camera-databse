@@ -4,7 +4,6 @@
   "model": "P5655-E",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -52,5 +51,8 @@
     "count": 1,
     "focal_length_mm": "4.25-136 (32x optical)",
     "varifocal": true
-  }
+  },
+  "power_source": [
+    "poe"
+  ]
 }

@@ -4,7 +4,6 @@
   "model": "E1 Outdoor PoE",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -53,5 +52,9 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/product/e1-outdoor-poe/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -59,10 +58,14 @@
     "IP67",
     "IK10",
     "most popular India outdoor bullet",
-    "\u20b93,500\u20135,500 price range"
+    "₹3,500–5,500 price range"
   ],
   "msrp_inr": 4499,
   "sources": [
     "https://www.cpplusworld.com/cp-unc-ta21pl3"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

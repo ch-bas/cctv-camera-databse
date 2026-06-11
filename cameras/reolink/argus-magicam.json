@@ -8,8 +8,7 @@
   "release_year": 2026,
   "type": "covert",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 4,
@@ -58,5 +57,8 @@
   "msrp_usd": 49.99,
   "sources": [
     "https://securityjournaluk.com/reolink-launches-new-cameras/"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

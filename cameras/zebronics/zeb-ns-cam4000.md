@@ -5,7 +5,7 @@
 | Brand | Zebronics |
 | Model | ZEB-NS-Cam4000 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 103h° |
 | Night vision | ir (30m) |

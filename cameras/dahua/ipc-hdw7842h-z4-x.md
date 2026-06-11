@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW7842H-Z4-X |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 83-15h° |
 | Night vision | ir (80m) |

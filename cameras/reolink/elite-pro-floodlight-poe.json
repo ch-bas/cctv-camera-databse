@@ -4,7 +4,6 @@
   "model": "Elite Pro Floodlight PoE",
   "type": "dual-lens",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,9 @@
   "msrp_usd": 188.99,
   "sources": [
     "https://slickdeals.net/f/18802744"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

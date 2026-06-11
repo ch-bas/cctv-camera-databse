@@ -3,17 +3,43 @@
   "brand": "Reolink",
   "model": "Duo 3 PoE",
   "type": "dual-lens",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 16, "label": "16MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 16,
+    "label": "16MP"
+  },
   "sensor": "Dual 1/2.7\" CMOS (4K per lens)",
-  "lens": { "count": 2, "focal_length_mm": "2.8 (fixed)", "varifocal": false },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "2.8 (fixed)",
+    "varifocal": false
+  },
   "field_of_view_deg": "180 horizontal",
-  "night_vision": { "type": "hybrid", "range_m": 30 },
-  "power": { "method": "PoE (IEEE 802.3af) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 512, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 30
+  },
+  "power": {
+    "method": "PoE (IEEE 802.3af) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
   "features": [
     "seamless 180° panoramic stitching",
     "person/vehicle/animal detection",
@@ -22,5 +48,11 @@
     "no subscription required"
   ],
   "release_year": 2024,
-  "sources": ["https://reolink.com/product/reolink-duo-3-poe/"]
+  "sources": [
+    "https://reolink.com/product/reolink-duo-3-poe/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

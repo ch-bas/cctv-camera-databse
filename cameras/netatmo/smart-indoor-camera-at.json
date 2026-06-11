@@ -3,8 +3,8 @@
   "brand": "Netatmo",
   "model": "Smart Indoor Camera (AT/CH)",
   "aliases": [
-    "Netatmo Innen Kamera \u00d6sterreich",
-    "Netatmo Cam\u00e9ra Int\u00e9rieure AT"
+    "Netatmo Innen Kamera Österreich",
+    "Netatmo Caméra Intérieure AT"
   ],
   "type": "dome",
   "connectivity": [
@@ -64,5 +64,8 @@
   "msrp_eur": 179.99,
   "sources": [
     "https://www.netatmo.com/at-de/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

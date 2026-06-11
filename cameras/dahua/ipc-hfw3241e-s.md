@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW3241E-S |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 106h° |
 | Night vision | ir (80m) |

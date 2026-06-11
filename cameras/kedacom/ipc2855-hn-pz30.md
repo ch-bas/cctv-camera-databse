@@ -5,7 +5,7 @@
 | Brand | Kedacom |
 | Model | IPC2855-HN-PZ30 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 4.5-135 (30x optical zoom)mm |

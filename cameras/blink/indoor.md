@@ -7,7 +7,7 @@
 | Brand | Blink |
 | Model | Indoor |
 | Type | box |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 1080p HD (2MP, 1920×1080) |
 | Lens | 1× Fixedmm F2.0 |
 | Field of view | 110 diagonal° |

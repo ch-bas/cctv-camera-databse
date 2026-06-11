@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME IP outdoor 5000i (NDE-5503-AL) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 3072×1728) |
 | Sensor | 1/2.9" Progressive Scan CMOS |
 | Lens | 1× 3-10 (AVF motorized varifocal)mm |

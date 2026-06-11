@@ -7,7 +7,7 @@
 | Brand | Vivotek |
 | Model | FD9389-EHV-v2 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2560×1920) |
 | Sensor | 1/2.7" Progressive Scan CMOS |
 | Lens | 1× 2.8 (fixed)mm |

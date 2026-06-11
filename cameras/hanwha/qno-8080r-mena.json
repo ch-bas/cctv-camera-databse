@@ -8,7 +8,6 @@
   "generation": "Wisenet Q",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -67,5 +66,9 @@
   "sources": [
     "https://hanwhavisionamerica.com/product/qno-8080r/",
     "https://www.hanwhavision.com/en-me/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

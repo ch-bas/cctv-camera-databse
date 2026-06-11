@@ -56,5 +56,8 @@
     "https://www.tapo.com/"
   ],
   "release_year": 2022,
-  "msrp_usd": 39.99
+  "msrp_usd": 39.99,
+  "power_source": [
+    "dc"
+  ]
 }

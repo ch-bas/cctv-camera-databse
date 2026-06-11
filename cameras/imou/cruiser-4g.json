@@ -3,9 +3,7 @@
   "brand": "IMOU",
   "model": "Cruiser 4G",
   "type": "ptz",
-  "connectivity": [
-    "battery"
-  ],
+  "connectivity": [],
   "release_year": 2023,
   "resolution": {
     "megapixels": 4,
@@ -36,12 +34,16 @@
   },
   "features": [
     "IMOU Cruiser 4G solar battery PTZ no WiFi",
-    "355\u00b0 pan/tilt",
+    "355° pan/tilt",
     "color spotlight",
     "AI detection",
     "IP66"
   ],
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

@@ -9,7 +9,6 @@
   "generation": "Wisenet X",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -68,5 +67,9 @@
   ],
   "sources": [
     "https://www.hanwhavision.com/en-me/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -8,7 +8,6 @@
   "generation": "Wisenet Q",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -68,5 +67,9 @@
   "sources": [
     "https://www.hanwhavision.com/en/products/camera/network/dome/qnv-8080r/",
     "https://www.hanwhavision.com/en-me/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -4,7 +4,6 @@
   "model": "M3064-V",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2015,
@@ -47,5 +46,8 @@
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

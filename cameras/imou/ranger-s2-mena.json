@@ -60,10 +60,13 @@
     "H.265",
     "IMOU app",
     "Alexa",
-    "\u2248199 AED budget indoor cam Noon/Amazon.ae"
+    "≈199 AED budget indoor cam Noon/Amazon.ae"
   ],
   "msrp_aed": 199,
   "sources": [
     "https://www.imoulife.com/me-en/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

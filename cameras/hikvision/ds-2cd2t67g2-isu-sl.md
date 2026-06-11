@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2T67G2-ISU/SL |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3200×1800) |
 | Sensor | 1/2.7" Progressive Scan CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

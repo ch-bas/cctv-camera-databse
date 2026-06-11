@@ -55,5 +55,8 @@
   "msrp_gbp": 149,
   "sources": [
     "https://www.hivehome.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

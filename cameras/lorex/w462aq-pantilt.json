@@ -55,5 +55,8 @@
   "msrp_cad": 79,
   "sources": [
     "https://www.lorex.ca/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2DE7A432IW-AEB |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 4.8-153 (32x optical zoom)mm |

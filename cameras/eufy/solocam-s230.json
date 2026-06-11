@@ -8,8 +8,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -57,5 +56,9 @@
   "msrp_usd": 119.99,
   "sources": [
     "https://www.eufy.com/products/solocam-s230"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

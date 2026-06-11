@@ -8,7 +8,6 @@
   ],
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -63,10 +62,13 @@
     "IP66",
     "SIRA-approved",
     "standard PTZ for malls/hotels/airports UAE & Saudi",
-    "\u22482,200 AED"
+    "≈2,200 AED"
   ],
   "msrp_aed": 2200,
   "sources": [
     "https://www.hikvision.com/mena-en/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

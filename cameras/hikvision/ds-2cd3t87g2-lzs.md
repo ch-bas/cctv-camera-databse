@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD3T87G2-LZS |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 103-32h° |
 | Night vision | color (60m) |

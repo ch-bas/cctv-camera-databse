@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW2431T-AS-S2 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 2.8 / 3.6 (fixed)mm |

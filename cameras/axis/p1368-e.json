@@ -4,7 +4,6 @@
   "model": "P1368-E",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2017,
@@ -46,5 +45,8 @@
   ],
   "sources": [
     "https://www.axis.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

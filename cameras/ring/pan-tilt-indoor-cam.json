@@ -52,5 +52,8 @@
   "msrp_usd": 79.99,
   "sources": [
     "https://ring.com/products/pan-tilt-indoor-cam"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -40,7 +40,7 @@
   },
   "features": [
     "Reolink Home Hub NVR hub for WiFi/battery cameras",
-    "built-in 64GB + 2\u00d7 slots up to 2\u00d7512GB",
+    "built-in 64GB + 2× slots up to 2×512GB",
     "manages up to 8 Reolink cameras",
     "AI video search",
     "no subscription fee",
@@ -49,5 +49,8 @@
   "msrp_usd": 69,
   "sources": [
     "https://reolink.com/product/home-hub/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

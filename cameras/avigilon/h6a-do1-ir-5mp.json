@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,8 @@
   ],
   "sources": [
     "https://www.avigilon.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

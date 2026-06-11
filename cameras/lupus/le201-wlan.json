@@ -63,10 +63,13 @@
     "LUPUS SmartVision VMS",
     "IP66",
     "German support Conrad/Lupus-Electronics.de",
-    "\u20ac80\u2013120"
+    "€80–120"
   ],
   "msrp_eur": 99,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

@@ -4,7 +4,6 @@
   "model": "D400",
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -45,5 +44,8 @@
   "sources": [
     "https://reolink.com/product/d400/"
   ],
-  "msrp_usd": 19
+  "msrp_usd": 19,
+  "power_source": [
+    "poe"
+  ]
 }

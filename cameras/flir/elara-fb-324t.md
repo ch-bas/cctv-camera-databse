@@ -5,7 +5,7 @@
 | Brand | FLIR |
 | Model | Elara FB-324T |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | Thermal 320x240 (0.1MP, 320×240) |
 | Sensor | Uncooled VOx Microbolometer |
 | Lens | 1× 13mm |

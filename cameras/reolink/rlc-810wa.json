@@ -3,18 +3,56 @@
   "brand": "Reolink",
   "model": "RLC-810WA",
   "type": "bullet",
-  "connectivity": ["wifi"],
+  "connectivity": [
+    "wifi"
+  ],
   "release_year": 2023,
-  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
   "sensor": "1/2.7\" CMOS",
   "field_of_view_deg": "88.8 horizontal",
-  "night_vision": { "type": "color", "range_m": 30 },
-  "power": { "method": "DC 12V/1A" },
-  "storage": { "onboard": true, "max_microsd_gb": 512, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp", "onvif"],
+  "night_vision": {
+    "type": "color",
+    "range_m": 30
+  },
+  "power": {
+    "method": "DC 12V/1A"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 512,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp",
+    "onvif"
+  ],
   "ip_rating": "IP67",
-  "audio": { "microphone": true, "speaker": true, "two_way": true },
-  "features": ["4K WiFi 6", "person/vehicle/animal detection", "spotlight + siren", "color night vision", "WPA3", "aluminum housing", "time-lapse", "no subscription"],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "4K WiFi 6",
+    "person/vehicle/animal detection",
+    "spotlight + siren",
+    "color night vision",
+    "WPA3",
+    "aluminum housing",
+    "time-lapse",
+    "no subscription"
+  ],
   "msrp_usd": 120,
-  "sources": ["https://reolink.com/product/rlc-810wa/"]
+  "sources": [
+    "https://reolink.com/product/rlc-810wa/"
+  ],
+  "power_source": [
+    "dc"
+  ]
 }

@@ -63,5 +63,9 @@
   "msrp_gbp": 249.99,
   "sources": [
     "https://ajax.systems/products/outdoorcam/"
+  ],
+  "power_source": [
+    "battery",
+    "dc"
   ]
 }

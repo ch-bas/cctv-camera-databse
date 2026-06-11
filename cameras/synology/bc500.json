@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -63,5 +62,8 @@
   "msrp_usd": 199.99,
   "sources": [
     "https://www.synology.com/en-us/store/BC500"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

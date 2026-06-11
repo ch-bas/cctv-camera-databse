@@ -5,7 +5,7 @@
 | Brand | Intelbras |
 | Model | VIP 3230 B SL |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 103h° |
 | Night vision | color (30m) |

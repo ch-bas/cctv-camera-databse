@@ -8,7 +8,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -60,5 +59,9 @@
   ],
   "sources": [
     "https://networkcamerastore.com/products/uniview-ipc3614sb-adf28km-i0-4mp-network-ir-fixed-dome-camera-2-8mm-premier-protection"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -4,13 +4,12 @@
   "model": "HZ100W",
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
   "resolution": {
     "megapixels": 4,
-    "label": "4MP 180\u00b0"
+    "label": "4MP 180°"
   },
   "field_of_view_deg": "180h",
   "night_vision": {
@@ -37,7 +36,7 @@
     "two_way": false
   },
   "features": [
-    "Synology HZ100W 4MP 180\u00b0 panoramic fisheye",
+    "Synology HZ100W 4MP 180° panoramic fisheye",
     "Surveillance Station native",
     "AI people counting",
     "H.265",
@@ -46,5 +45,8 @@
   ],
   "sources": [
     "https://www.synology.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

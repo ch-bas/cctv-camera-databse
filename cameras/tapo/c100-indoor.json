@@ -58,5 +58,8 @@
   "msrp_usd": 17,
   "sources": [
     "https://www.tapo.com/en/product/indoor-camera/tapo-c100/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

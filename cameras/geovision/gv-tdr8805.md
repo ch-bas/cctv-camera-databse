@@ -5,7 +5,7 @@
 | Brand | GeoVision |
 | Model | GV-TDR8805 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" Progressive Scan CMOS |
 | Lens | 1× 2.8mm |

@@ -5,7 +5,7 @@
 | Brand | Tiandy |
 | Model | TC-C32MS |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" Super Starlight CMOS |
 | Lens | 1× 2.8mm |

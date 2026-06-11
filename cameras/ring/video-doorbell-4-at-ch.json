@@ -3,7 +3,7 @@
   "brand": "Ring",
   "model": "Video Doorbell 4 (AT/CH)",
   "aliases": [
-    "Ring Doorbell 4 \u00d6sterreich / Schweiz"
+    "Ring Doorbell 4 Österreich / Schweiz"
   ],
   "type": "covert",
   "connectivity": [
@@ -60,5 +60,9 @@
   "sources": [
     "https://ring.com/de-at/",
     "https://ring.com/de-ch/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

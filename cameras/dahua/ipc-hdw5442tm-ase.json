@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -56,5 +55,9 @@
   ],
   "sources": [
     "https://www.sourcesecurity.com/dahua-technology-ipc-hdw5442tm-ase-ip-camera-technical-details.html"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

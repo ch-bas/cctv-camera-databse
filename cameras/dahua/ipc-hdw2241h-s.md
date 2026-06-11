@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDW2241H-S |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 107h° |
 | Night vision | ir (30m) |

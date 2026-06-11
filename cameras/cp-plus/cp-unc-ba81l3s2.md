@@ -5,7 +5,7 @@
 | Brand | CP Plus |
 | Model | CP-UNC-BA81L3-S2 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | ir (40m) |

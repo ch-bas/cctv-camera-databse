@@ -44,5 +44,9 @@
   ],
   "sources": [
     "https://www.abus.com/de/"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

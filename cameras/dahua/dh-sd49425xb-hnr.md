@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | SD49425XB-HNR |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" STARVIS CMOS |
 | Lens | 1× 4.8-120 (25x optical)mm F1.6 |

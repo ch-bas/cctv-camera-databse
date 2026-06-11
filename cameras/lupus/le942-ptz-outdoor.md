@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE942 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 3.9-70.2 (18x optical)mm F1.6 |

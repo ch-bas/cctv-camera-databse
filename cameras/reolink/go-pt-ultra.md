@@ -5,7 +5,6 @@
 | Brand | Reolink |
 | Model | Go PT Ultra |
 | Type | ptz |
-| Connectivity | battery |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 355 pan/90 tilt° |
 | Night vision | color (15m) |

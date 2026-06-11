@@ -56,5 +56,8 @@
   "msrp_usd": 59.99,
   "sources": [
     "https://www.tapo.com/us/product/smart-camera/tapo-c840/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -5,7 +5,6 @@
 | Brand | Reolink |
 | Model | TrackMix LTE |
 | Type | dual-lens |
-| Connectivity | battery |
 | Resolution | 4K+4MP dual-lens (8MP) |
 | Field of view | 140 wide+35 tele° |
 | Night vision | color (15m) |

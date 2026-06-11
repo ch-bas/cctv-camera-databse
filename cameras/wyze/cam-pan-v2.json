@@ -58,5 +58,8 @@
   "msrp_usd": 34,
   "sources": [
     "https://www.wyze.com/products/wyze-cam-pan"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

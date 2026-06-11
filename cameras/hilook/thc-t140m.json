@@ -56,5 +56,8 @@
   "msrp_usd": 33,
   "sources": [
     "https://www.hikvision.com/en/products/HiLook-IP-Products/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

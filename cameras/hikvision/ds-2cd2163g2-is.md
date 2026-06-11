@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2163G2-I(S) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP) |
 | Field of view | 103h° |
 | Night vision | ir (40m) |

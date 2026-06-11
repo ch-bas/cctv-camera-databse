@@ -65,5 +65,8 @@
   "msrp_eur": 229,
   "sources": [
     "https://www.netatmo.com/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

@@ -4,7 +4,6 @@
   "model": "FE9391-EVC",
   "type": "panoramic",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -12,7 +11,7 @@
     "megapixels": 5,
     "max_width": 2592,
     "max_height": 1944,
-    "label": "5MP 360\u00b0"
+    "label": "5MP 360°"
   },
   "sensor": "1/2.5\" CMOS",
   "lens": {
@@ -45,7 +44,7 @@
     "two_way": false
   },
   "features": [
-    "5MP 360\u00b0 outdoor fisheye",
+    "5MP 360° outdoor fisheye",
     "4-way dewarped view",
     "Smart VCA people counting",
     "H.265",
@@ -54,5 +53,8 @@
   ],
   "sources": [
     "https://www.vivotek.com/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

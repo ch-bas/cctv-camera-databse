@@ -7,9 +7,8 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2023,
   "markets": [
@@ -60,12 +59,16 @@
     "person/vehicle/animal/package AI detection",
     "NO subscription fee",
     "RTSP/ONVIF Frigate/Blue Iris compatible",
-    "IP67 rated -10\u00b0C to +55\u00b0C",
+    "IP67 rated -10°C to +55°C",
     "available Home Depot Canada / Amazon.ca"
   ],
   "msrp_cad": 79.99,
   "sources": [
     "https://reolink.com/ca/",
     "https://www.amazon.ca/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Arlo |
 | Model | Pro 5S 4K Ultra |
 | Type | dome |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 4K UHD HDR (8MP, 3840×2160) |
 | Lens | 1× |
 | Field of view | 180 horizontal° |

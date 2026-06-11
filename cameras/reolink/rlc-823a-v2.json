@@ -4,9 +4,8 @@
   "model": "RLC-823A v2",
   "type": "bullet",
   "connectivity": [
-    "poe",
-    "wifi",
-    "ethernet"
+    "ethernet",
+    "wifi"
   ],
   "release_year": 2024,
   "resolution": {
@@ -58,5 +57,9 @@
   "msrp_usd": 79,
   "sources": [
     "https://reolink.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

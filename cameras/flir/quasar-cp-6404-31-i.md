@@ -5,7 +5,7 @@
 | Brand | FLIR |
 | Model | Quasar CP-6404-31-I |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP QHD (4MP, 2560×1440) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 3.3-12 (motorized varifocal)mm |

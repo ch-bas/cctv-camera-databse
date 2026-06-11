@@ -4,7 +4,6 @@
   "model": "CP-UNC-BA81L3-S2",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -46,5 +45,9 @@
   ],
   "sources": [
     "https://www.cpplus.in/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2185FWD-I(S) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 103h° |
 | Night vision | ir (30m) |

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | ITC237-PW1B-IRZ-LR |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2MP LPR (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 8-32 (motorized varifocal)mm |

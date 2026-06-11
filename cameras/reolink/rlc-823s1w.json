@@ -58,5 +58,8 @@
   "release_year": 2024,
   "sources": [
     "https://reolink.com/product/rlc-823s1w/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

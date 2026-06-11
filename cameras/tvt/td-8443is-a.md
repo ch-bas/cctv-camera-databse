@@ -5,7 +5,7 @@
 | Brand | TVT Digital |
 | Model | TD-8443IS-A |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP QHD (4MP, 2560×1440) |
 | Sensor | 1/3" CMOS |
 | Lens | 1× 4.8-120 (25x optical zoom)mm |

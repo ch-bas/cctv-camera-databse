@@ -8,8 +8,7 @@
   ],
   "type": "box",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2020,
   "resolution": {
@@ -56,5 +55,8 @@
   "msrp_usd": 79.99,
   "sources": [
     "https://blinkforhome.com/products"
+  ],
+  "power_source": [
+    "battery"
   ]
 }

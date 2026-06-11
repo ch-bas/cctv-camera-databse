@@ -5,7 +5,7 @@
 | Brand | Google |
 | Model | Nest Doorbell (Battery) |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 960×1280 HD (2MP) |
 | Field of view | 135h° |
 | Night vision | ir (6m) |

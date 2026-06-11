@@ -4,7 +4,6 @@
   "model": "DS-2DE5A425IWG-E(B)",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -54,5 +53,8 @@
     "aperture": "F1.6",
     "varifocal": true
   },
-  "sensor": "1/2.8\" CMOS"
+  "sensor": "1/2.8\" CMOS",
+  "power_source": [
+    "poe"
+  ]
 }

@@ -4,7 +4,6 @@
   "model": "DS-2CD2443G2-I(W)",
   "type": "covert",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -47,5 +46,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

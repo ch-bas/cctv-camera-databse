@@ -64,5 +64,8 @@
   ],
   "sources": [
     "https://www.ezviz.com/latam-es/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

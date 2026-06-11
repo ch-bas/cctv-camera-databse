@@ -58,5 +58,8 @@
   "msrp_usd": 190,
   "sources": [
     "https://reolink.com/product/reolink-trackmix-wifi/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

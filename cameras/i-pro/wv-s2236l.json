@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -56,7 +55,7 @@
   "features": [
     "i-PRO AI Engine on-device (person/vehicle/two-wheel detection)",
     "Intelligent Auto (AI image optimisation)",
-    "Color Night Vision 0.007\u20130.009 lux",
+    "Color Night Vision 0.007–0.009 lux",
     "Super Dynamic 144dB WDR",
     "Smart Coding (H.265+ AI compression 50% bandwidth saving)",
     "Easy Kitting Packaging (configure in-box)",
@@ -67,5 +66,9 @@
   ],
   "sources": [
     "https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2236l"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

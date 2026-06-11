@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "resolution": {
@@ -55,5 +54,9 @@
   "msrp_usd": 149,
   "sources": [
     "https://ring.com/products/spotlight-cam-battery"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

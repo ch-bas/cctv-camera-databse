@@ -4,8 +4,7 @@
   "model": "Argus 5 Pro",
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2025,
   "resolution": {
@@ -48,5 +47,9 @@
   "sources": [
     "https://reolink.com/product/argus-5-pro/"
   ],
-  "msrp_usd": 109
+  "msrp_usd": 109,
+  "power_source": [
+    "battery",
+    "solar"
+  ]
 }

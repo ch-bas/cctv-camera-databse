@@ -7,7 +7,7 @@
 | Brand | EZVIZ |
 | Model | BC1C eLife |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Sensor | CMOS |
 | Lens | 1× Fixedmm F2.0 |

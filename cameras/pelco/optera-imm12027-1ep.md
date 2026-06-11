@@ -5,7 +5,7 @@
 | Brand | Pelco |
 | Model | Optera IMM12027-1EP |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 12MP Panoramic (12MP, 4000×3000) |
 | Sensor | 1/2.7" CMOS (x3) |
 | Lens | 3× 1.6mm |

@@ -5,7 +5,7 @@
 | Brand | Tiandy |
 | Model | TC-H388M |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" Starlight CMOS |
 | Lens | 1× 6.5-202mm |

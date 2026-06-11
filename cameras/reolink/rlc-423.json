@@ -4,7 +4,6 @@
   "model": "RLC-423",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2019,
@@ -38,7 +37,7 @@
   },
   "features": [
     "5MP motorized varifocal outdoor bullet",
-    "4\u00d7 zoom",
+    "4× zoom",
     "30m IR",
     "ONVIF/RTSP",
     "IP66",
@@ -47,5 +46,9 @@
   "sources": [
     "https://reolink.com/product/rlc-423/"
   ],
-  "msrp_usd": 49
+  "msrp_usd": 49,
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

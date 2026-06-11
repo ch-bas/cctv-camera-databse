@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -66,5 +65,9 @@
   ],
   "sources": [
     "https://www.intelbras.com/en/1000-series-full-hd-ip-camera-vip-1230-d-g5"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

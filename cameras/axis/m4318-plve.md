@@ -7,7 +7,7 @@
 | Brand | Axis |
 | Model | M4318-PLVE |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD per channel (8MP, 3840×2160) |
 | Sensor | 1/2" Progressive Scan CMOS |
 | Lens | 2× Wide + tele (fixed per sensor)mm |

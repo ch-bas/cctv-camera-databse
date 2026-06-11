@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW3649T1-AS-PV-S2 |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 6MP (6MP, 3072×2048) |
 | Sensor | 1/2.7" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

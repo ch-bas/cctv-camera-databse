@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2PT3Q27IWX-DE |
 | Type | dual-lens |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP panoramic + 2MP PTZ (8MP) |
 | Sensor | 1/2.7" CMOS + 1/2.8" CMOS |
 | Lens | 2× 4mm panoramic + 2.8-12mm PTZ varifocalmm |

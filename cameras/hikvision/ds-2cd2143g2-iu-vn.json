@@ -8,7 +8,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -65,5 +64,9 @@
   "msrp_vnd": 1200000,
   "sources": [
     "https://www.hikvision.com/vn-vi/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

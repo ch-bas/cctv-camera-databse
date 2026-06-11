@@ -60,10 +60,13 @@
     "two-way audio",
     "IMOU app",
     "Alexa / Google",
-    "\u20b92,500\u20134,000 best-value India indoor camera"
+    "₹2,500–4,000 best-value India indoor camera"
   ],
   "msrp_inr": 2999,
   "sources": [
     "https://www.imoulife.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

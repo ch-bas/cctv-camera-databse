@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | SD5A432GB-HNR |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 5.4-172.8 (32x optical zoom)mm |

@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | QNV-8080R (MENA) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP (5MP, 2592×1944) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 3.2-10 (3.1x motorized varifocal)mm F1.6 |

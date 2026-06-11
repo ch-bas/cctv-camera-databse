@@ -7,7 +7,7 @@
 | Brand | Swann |
 | Model | AdvancedX 4K NVR System (SWNVK-8ADVANX4B) |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | Sony STARVIS CMOS |
 | Lens | 1× 3.6 (fixed)mm F2.0 |

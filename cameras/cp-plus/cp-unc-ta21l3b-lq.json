@@ -7,7 +7,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -59,10 +58,14 @@
     "IP67",
     "H.265+",
     "NVR compatible",
-    "\u20b94,000\u20135,000"
+    "₹4,000–5,000"
   ],
   "msrp_inr": 4999,
   "sources": [
     "https://www.cpplusworld.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

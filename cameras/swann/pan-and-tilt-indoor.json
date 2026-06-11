@@ -54,5 +54,8 @@
   ],
   "sources": [
     "https://www.swann.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW2249S-S-IL-NL |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2MP (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8 (fixed)mm |

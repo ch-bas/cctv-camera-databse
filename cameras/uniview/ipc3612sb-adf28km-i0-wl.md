@@ -7,7 +7,7 @@
 | Brand | Uniview |
 | Model | IPC2122LE-ADF40KMC-WL |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4 (fixed)mm F1.0 |

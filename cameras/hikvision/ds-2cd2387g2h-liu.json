@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -61,5 +60,9 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2387g2h-li-u-/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

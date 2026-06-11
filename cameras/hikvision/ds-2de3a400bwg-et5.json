@@ -4,7 +4,6 @@
   "model": "DS-2DE3A400BWG-E(T5)",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2022,
@@ -48,5 +47,8 @@
     "count": 1,
     "focal_length_mm": "2.8-12 (4x optical)",
     "varifocal": true
-  }
+  },
+  "power_source": [
+    "poe"
+  ]
 }

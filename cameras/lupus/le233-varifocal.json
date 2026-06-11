@@ -7,7 +7,6 @@
   ],
   "type": "dome",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2024,
@@ -65,10 +64,14 @@
     "LUPUS SmartVision VMS",
     "LUPUSEC integration",
     "DSGVO local-first",
-    "\u20ac250\u2013300"
+    "€250–300"
   ],
   "msrp_eur": 279,
   "sources": [
     "https://www.lupus-electronics.de/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

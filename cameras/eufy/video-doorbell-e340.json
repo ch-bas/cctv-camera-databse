@@ -43,7 +43,7 @@
   },
   "features": [
     "dual-camera doorbell (wide + telephoto simultaneous)",
-    "panoramic 180\u00b0 + close-up view",
+    "panoramic 180° + close-up view",
     "BionicMind AI face recognition",
     "color night vision",
     "no subscription fee",
@@ -55,5 +55,9 @@
   "msrp_usd": 159,
   "sources": [
     "https://www.eufy.com/products/video-doorbell-e340"
+  ],
+  "power_source": [
+    "battery",
+    "ac-mains"
   ]
 }

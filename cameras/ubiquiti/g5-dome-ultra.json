@@ -2,20 +2,61 @@
   "id": "ubiquiti-g5-dome-ultra",
   "brand": "Ubiquiti",
   "model": "UniFi Protect G5 Dome Ultra",
-  "aliases": ["UVC-G5-Dome-Ultra"],
+  "aliases": [
+    "UVC-G5-Dome-Ultra"
+  ],
   "type": "dome",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 8, "max_width": 3840, "max_height": 2160, "label": "4K UHD" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
   "sensor": "1/1.8\" CMOS",
-  "lens": { "count": 1, "focal_length_mm": "2.8", "aperture": "F1.6", "varifocal": false },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "2.8",
+    "aperture": "F1.6",
+    "varifocal": false
+  },
   "field_of_view_deg": "106 horizontal",
-  "night_vision": { "type": "ir", "range_m": 25 },
-  "power": { "method": "PoE (802.3at)" },
-  "storage": { "onboard": false, "nvr_compatible": true, "cloud": false },
-  "protocols": ["rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 25
+  },
+  "power": {
+    "method": "PoE (802.3at)"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
-  "features": ["4K UHD", "1/1.8\" large sensor", "AI event detection person/vehicle", "UniFi Protect ecosystem", "IK10 vandal-resistant", "built-in mic"],
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
+  "features": [
+    "4K UHD",
+    "1/1.8\" large sensor",
+    "AI event detection person/vehicle",
+    "UniFi Protect ecosystem",
+    "IK10 vandal-resistant",
+    "built-in mic"
+  ],
   "release_year": 2024,
-  "sources": ["https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra"]
+  "sources": [
+    "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra"
+  ],
+  "power_source": [
+    "poe"
+  ]
 }

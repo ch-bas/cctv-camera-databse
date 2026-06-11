@@ -67,5 +67,8 @@
   "sources": [
     "https://www.ezviz.com/me-en/",
     "https://www.amazon.ae/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

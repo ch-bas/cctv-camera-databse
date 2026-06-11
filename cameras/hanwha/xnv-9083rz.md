@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | XNV-9083RZ |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 4.4-9.3 (2.1x motorized varifocal)mm F1.3 |

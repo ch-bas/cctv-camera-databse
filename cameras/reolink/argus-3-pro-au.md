@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | Argus 3 Pro (Australia) |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 5MP 3K (5MP, 2880×1620) |
 | Sensor | CMOS |
 | Lens | 1× Fixedmm F1.6 |

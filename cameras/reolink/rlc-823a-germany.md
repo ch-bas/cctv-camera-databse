@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | RLC-823A (EU) |
 | Type | bullet |
-| Connectivity | poe, wifi, ethernet |
+| Connectivity | ethernet, wifi |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | CMOS |
 | Lens | 1× 2.8 (fixed)mm F1.6 |

@@ -1,7 +1,7 @@
 {
   "id": "qubo-smart-cam-360-pro-4mp",
   "brand": "Qubo",
-  "model": "Smart Camera 360\u00b0 Pro 4MP",
+  "model": "Smart Camera 360° Pro 4MP",
   "aliases": [
     "Qubo Smart 360 Pro"
   ],
@@ -64,5 +64,8 @@
   "msrp_inr": 5499,
   "sources": [
     "https://www.quboworld.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

@@ -4,7 +4,6 @@
   "model": "RLC-823A 16X",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -54,5 +53,9 @@
   "release_year": 2023,
   "sources": [
     "https://reolink.com/product/rlc-823a-16x/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

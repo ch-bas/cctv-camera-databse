@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | DH-SD6AL245XA-HNR |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/2.8" Starlight CMOS |
 | Lens | 1× 3.95-177.7 (45x optical zoom)mm |

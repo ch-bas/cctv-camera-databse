@@ -7,7 +7,7 @@
 | Brand | Reolink |
 | Model | OMVI X16 PoE |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 24MP (16MP panoramic + 8MP PTZ) (24MP) |
 | Sensor | Triple CMOS: dual 8MP panoramic + 4K PTZ |
 | Lens | 3× Fixed panoramic + 16x optical zoom PTZmm |

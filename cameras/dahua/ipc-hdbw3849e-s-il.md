@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HDBW3849E-S-IL |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | hybrid (30m) |

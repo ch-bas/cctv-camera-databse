@@ -4,11 +4,10 @@
   "model": "IPC-HFW2849S-S-IL (Vietnam)",
   "aliases": [
     "Dahua 8MP WizSense Dual Light Vietnam",
-    "Camera Dahua 4K Vi\u1ec7t Nam"
+    "Camera Dahua 4K Việt Nam"
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -65,5 +64,9 @@
   "msrp_vnd": 1500000,
   "sources": [
     "https://www.dahuasecurity.com/vn-vi/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

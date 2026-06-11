@@ -4,7 +4,6 @@
   "model": "CP-E45Q",
   "type": "ptz",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2021,
@@ -51,5 +50,8 @@
     "count": 1,
     "focal_length_mm": "4.8-120 (25x optical)",
     "varifocal": true
-  }
+  },
+  "power_source": [
+    "poe"
+  ]
 }

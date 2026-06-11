@@ -2,9 +2,13 @@
   "id": "axis-p3265-lve",
   "brand": "Axis",
   "model": "P3265-LVE",
-  "aliases": ["02328-001"],
+  "aliases": [
+    "02328-001"
+  ],
   "type": "dome",
-  "connectivity": ["poe", "ethernet"],
+  "connectivity": [
+    "ethernet"
+  ],
   "resolution": {
     "megapixels": 2,
     "max_width": 1920,
@@ -32,7 +36,11 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": ["onvif", "rtsp", "http"],
+  "protocols": [
+    "onvif",
+    "rtsp",
+    "http"
+  ],
   "ip_rating": "IP66",
   "audio": {
     "microphone": false,
@@ -53,5 +61,8 @@
   ],
   "sources": [
     "https://help.axis.com/en-us/axis-p3265-lve"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

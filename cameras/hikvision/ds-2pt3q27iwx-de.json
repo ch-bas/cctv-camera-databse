@@ -7,7 +7,6 @@
   ],
   "type": "dual-lens",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -47,7 +46,7 @@
   },
   "features": [
     "dual-lens panoramic + PTZ in one unit",
-    "180\u00b0 wide overview + 4x optical zoom PTZ",
+    "180° wide overview + 4x optical zoom PTZ",
     "AcuSense AI",
     "simultaneous panoramic+PTZ recording",
     "H.265+",
@@ -55,5 +54,8 @@
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

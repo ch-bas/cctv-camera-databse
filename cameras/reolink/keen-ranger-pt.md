@@ -5,7 +5,6 @@
 | Brand | Reolink |
 | Model | Keen Ranger PT |
 | Type | ptz |
-| Connectivity | battery |
 | Resolution | 2K QHD (4MP) |
 | Field of view | 355 pan/90 tilt° |
 | Night vision | ir (10m) |

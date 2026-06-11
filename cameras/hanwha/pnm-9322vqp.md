@@ -7,7 +7,7 @@
 | Brand | Hanwha |
 | Model | PNM-9322VQP |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2MP PTZ + 5MP fixed (7MP, 2592×1944) |
 | Sensor | 1/2.8" Progressive Scan CMOS (multiple) |
 | Lens | 2× 4.25-170 (PTZ 40x) + fixedmm |

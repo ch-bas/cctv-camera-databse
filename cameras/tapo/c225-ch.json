@@ -61,11 +61,14 @@
     "RTSP/ONVIF",
     "Tapo app / Alexa / Google / HomeKit",
     "budget Digitec CH bestseller indoor cam",
-    "CHF 49\u201359"
+    "CHF 49–59"
   ],
   "msrp_chf": 59.0,
   "sources": [
     "https://www.tapo.com/ch-de/",
     "https://www.digitec.ch/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

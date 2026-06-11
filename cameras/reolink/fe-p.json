@@ -7,7 +7,6 @@
   ],
   "type": "fisheye",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,9 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/product/fe-p/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

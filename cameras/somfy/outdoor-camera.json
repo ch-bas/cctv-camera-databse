@@ -3,7 +3,7 @@
   "brand": "Somfy",
   "model": "Outdoor Camera",
   "aliases": [
-    "Somfy Cam\u00e9ra Ext\u00e9rieure"
+    "Somfy Caméra Extérieure"
   ],
   "type": "bullet",
   "connectivity": [
@@ -66,5 +66,8 @@
   "msrp_eur": 229.99,
   "sources": [
     "https://www.somfy.fr/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

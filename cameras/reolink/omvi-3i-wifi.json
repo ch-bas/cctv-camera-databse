@@ -57,5 +57,8 @@
   "msrp_usd": 319.99,
   "sources": [
     "https://reolink.com/blog/reolink-new-products-at-ces/"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

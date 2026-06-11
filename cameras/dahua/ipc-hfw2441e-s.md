@@ -5,7 +5,7 @@
 | Brand | Dahua |
 | Model | IPC-HFW2441E-S |
 | Type | bullet |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 106h° |
 | Night vision | ir (30m) |

@@ -7,7 +7,7 @@
 | Brand | Dahua |
 | Model | IPC-PFW5849-A180-E2-ASTE |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 2x4MP 180° (8MP, 3840×2160) |
 | Sensor | 2x 1/2.8" CMOS |
 | Lens | 2× 2.8mm per sensormm |

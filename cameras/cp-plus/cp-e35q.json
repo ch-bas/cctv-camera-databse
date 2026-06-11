@@ -58,10 +58,13 @@
     "two-way audio",
     "Alexa / Google Home",
     "CP Plus app",
-    "\u20b93,500\u20134,500 price range"
+    "₹3,500–4,500 price range"
   ],
   "msrp_inr": 3999,
   "sources": [
     "https://www.cpplusworld.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

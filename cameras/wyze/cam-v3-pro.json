@@ -59,5 +59,8 @@
   "msrp_usd": 59.98,
   "sources": [
     "https://www.wyze.com/products/wyze-cam-pro"
+  ],
+  "power_source": [
+    "usb"
   ]
 }

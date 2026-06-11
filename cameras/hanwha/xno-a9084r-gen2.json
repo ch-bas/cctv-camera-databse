@@ -9,7 +9,6 @@
   "generation": "Wisenet 9",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -64,5 +63,9 @@
   "sources": [
     "https://hanwhavision.eu/product/xno-a9084r/",
     "https://hanwhavisionamerica.com/wisenet-9/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

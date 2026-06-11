@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "markets": [
@@ -67,5 +66,9 @@
   "msrp_eur": 199.99,
   "sources": [
     "https://www.abus.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

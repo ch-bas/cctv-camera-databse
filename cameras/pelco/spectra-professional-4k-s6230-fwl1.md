@@ -5,7 +5,7 @@
 | Brand | Pelco |
 | Model | Spectra Professional 4K S6230-FWL1 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 6.5-202mm |

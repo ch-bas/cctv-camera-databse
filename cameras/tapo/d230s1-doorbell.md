@@ -7,7 +7,7 @@
 | Brand | Tapo |
 | Model | D230S1 |
 | Type | covert |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Lens | 1× Fixedmm F1.8 |
 | Field of view | 160 diagonal (head-to-toe)° |

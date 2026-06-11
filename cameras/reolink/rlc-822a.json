@@ -4,7 +4,6 @@
   "model": "RLC-822A",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -52,5 +51,9 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/product/rlc-822a/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

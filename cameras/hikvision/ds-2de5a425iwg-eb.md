@@ -5,7 +5,7 @@
 | Brand | Hikvision |
 | Model | DS-2DE5A425IWG-E(B) |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.8-120 (25x optical)mm F1.6 |

@@ -4,7 +4,6 @@
   "model": "RLC-522",
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -37,7 +36,7 @@
     "two_way": false
   },
   "features": [
-    "5MP 3\u00d7 optical zoom PoE bullet",
+    "5MP 3× optical zoom PoE bullet",
     "motorized varifocal",
     "30m IR",
     "ONVIF/RTSP",
@@ -47,5 +46,9 @@
   "sources": [
     "https://reolink.com/product/rlc-522/"
   ],
-  "msrp_usd": 45
+  "msrp_usd": 45,
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

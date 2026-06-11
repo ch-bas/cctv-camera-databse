@@ -3,17 +3,45 @@
   "brand": "Tiandy",
   "model": "TC-H356M",
   "type": "ptz",
-  "connectivity": ["poe", "ethernet"],
-  "resolution": { "megapixels": 5, "max_width": 2592, "max_height": 1944, "label": "5MP" },
+  "connectivity": [
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "max_width": 2592,
+    "max_height": 1944,
+    "label": "5MP"
+  },
   "sensor": "1/2.7\" Starlight CMOS",
-  "lens": { "count": 1, "focal_length_mm": "4.8-120", "varifocal": true },
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "4.8-120",
+    "varifocal": true
+  },
   "field_of_view_deg": "57.6-2.5 horizontal",
-  "night_vision": { "type": "ir", "range_m": 150 },
-  "power": { "method": "PoE+ (IEEE 802.3at) / DC 12V" },
-  "storage": { "onboard": true, "max_microsd_gb": 256, "nvr_compatible": true, "cloud": false },
-  "protocols": ["onvif", "rtsp"],
+  "night_vision": {
+    "type": "ir",
+    "range_m": 150
+  },
+  "power": {
+    "method": "PoE+ (IEEE 802.3at) / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 256,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
-  "audio": { "microphone": true, "speaker": false, "two_way": false },
+  "audio": {
+    "microphone": true,
+    "speaker": false,
+    "two_way": false
+  },
   "features": [
     "25x optical zoom",
     "360° continuous pan",
@@ -22,5 +50,11 @@
     "H.265+ compression"
   ],
   "release_year": 2023,
-  "sources": ["https://www.tiandy.com/"]
+  "sources": [
+    "https://www.tiandy.com/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
+  ]
 }

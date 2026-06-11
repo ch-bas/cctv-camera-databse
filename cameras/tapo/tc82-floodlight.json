@@ -61,5 +61,8 @@
   "msrp_usd": 49,
   "sources": [
     "https://www.tapo.com/en/product/outdoor-camera/tapo-tc82/"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

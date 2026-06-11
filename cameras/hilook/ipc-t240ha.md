@@ -7,7 +7,7 @@
 | Brand | HiLook |
 | Model | IPC-T240HA |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2560×1440) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 2.8 / 4 (fixed)mm F2.0 |

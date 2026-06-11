@@ -7,7 +7,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -55,5 +54,8 @@
   "release_year": 2024,
   "sources": [
     "https://store.ui.com/us/en/products/uvc-g5-turret-ultra"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

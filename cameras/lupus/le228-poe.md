@@ -7,7 +7,7 @@
 | Brand | Lupus Electronics |
 | Model | LE228 |
 | Type | panoramic |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | CMOS |
 | Lens | 1× 1.68 (fisheye)mm F2.0 |

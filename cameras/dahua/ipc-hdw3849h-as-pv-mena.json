@@ -8,7 +8,6 @@
   ],
   "type": "turret",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2023,
@@ -67,5 +66,9 @@
   "msrp_aed": 650,
   "sources": [
     "https://www.dahuasecurity.com/mena/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

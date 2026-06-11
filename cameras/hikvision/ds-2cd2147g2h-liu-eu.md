@@ -7,7 +7,7 @@
 | Brand | Hikvision |
 | Model | DS-2CD2147G2H-LI(U) (EU) |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 2.8 (fixed super-confocal)mm F1.0 |

@@ -7,7 +7,7 @@
 | Brand | Eufy |
 | Model | EufyCam 3C (S330) |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K (4MP, 2048×1080) |
 | Lens | 1× |
 | Field of view | 135 diagonal° |

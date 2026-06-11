@@ -7,8 +7,7 @@
   ],
   "type": "dome",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2022,
   "resolution": {
@@ -57,5 +56,9 @@
   "msrp_usd": 179.99,
   "sources": [
     "https://ring.com/products/stick-up-security-camera"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

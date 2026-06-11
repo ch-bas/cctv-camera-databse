@@ -5,7 +5,7 @@
 | Brand | Wyze |
 | Model | Battery Cam Pro |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K QHD (4MP, 2560×1440) |
 | Sensor | 1/2.9" CMOS |
 | Lens | 1× 2.8 (fixed)mm F2.0 |

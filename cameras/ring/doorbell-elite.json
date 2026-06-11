@@ -7,7 +7,6 @@
   ],
   "type": "covert",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "release_year": 2020,
@@ -27,7 +26,7 @@
     "range_m": 5
   },
   "power": {
-    "method": "PoE (hardwired Ethernet \u2014 no WiFi required)"
+    "method": "PoE (hardwired Ethernet — no WiFi required)"
   },
   "storage": {
     "onboard": false,
@@ -56,5 +55,9 @@
   "msrp_usd": 349,
   "sources": [
     "https://ring.com/products/doorbell-elite"
+  ],
+  "power_source": [
+    "poe",
+    "ac-mains"
   ]
 }

@@ -5,7 +5,7 @@
 | Brand | Luma |
 | Model | LUM-510-TUR |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 5MP Super HD (5MP, 2592×1944) |
 | Sensor | 1/2.7" CMOS |
 | Night vision | ir (30m) |

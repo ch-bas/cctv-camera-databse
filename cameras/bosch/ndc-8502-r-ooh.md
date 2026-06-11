@@ -7,7 +7,7 @@
 | Brand | Bosch |
 | Model | FLEXIDOME 8000i 4K Outdoor Dome |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4K UHD (8MP, 3840×2160) |
 | Sensor | 1/1.8" CMOS (starlight) |
 | Lens | 1× 3-9 (motorized varifocal)mm F1.2 |

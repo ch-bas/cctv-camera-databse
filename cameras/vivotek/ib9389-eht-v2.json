@@ -8,7 +8,6 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "poe",
     "ethernet"
   ],
   "resolution": {
@@ -57,5 +56,8 @@
   ],
   "sources": [
     "https://www.vivotek.com/en-US/products/network-cameras/bullet/ib9389-eht-v2"
+  ],
+  "power_source": [
+    "poe"
   ]
 }

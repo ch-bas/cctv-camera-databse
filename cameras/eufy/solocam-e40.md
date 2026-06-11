@@ -5,7 +5,7 @@
 | Brand | Eufy |
 | Model | SoloCam E40 |
 | Type | bullet |
-| Connectivity | wifi, battery |
+| Connectivity | wifi |
 | Resolution | 2K (4MP, 2048×1536) |
 | Lens | 1× |
 | Field of view | 90 diagonal° |

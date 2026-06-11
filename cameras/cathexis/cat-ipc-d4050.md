@@ -5,7 +5,7 @@
 | Brand | Cathexis |
 | Model | CAT-IPC-D4050 |
 | Type | dome |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1440p QHD (4MP, 2560×1440) |
 | Sensor | 1/3" CMOS |
 | Night vision | ir (30m) |

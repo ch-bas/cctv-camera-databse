@@ -7,7 +7,7 @@
 | Brand | Uniview |
 | Model | IPC3634SB-ADZK-WL-I0 |
 | Type | turret |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 4MP (4MP, 2688×1520) |
 | Sensor | 1/1.8" CMOS |
 | Lens | 1× 2.7-13.5 (motorized varifocal)mm F1.6 |

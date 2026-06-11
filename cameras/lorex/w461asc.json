@@ -7,8 +7,7 @@
   ],
   "type": "bullet",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "release_year": 2023,
   "resolution": {
@@ -58,5 +57,9 @@
   ],
   "sources": [
     "https://www.lorex.com/products/2k-wifi-spotlight-camera"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

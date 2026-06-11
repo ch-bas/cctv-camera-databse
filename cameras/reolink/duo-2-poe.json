@@ -2,9 +2,14 @@
   "id": "reolink-duo-2-poe",
   "brand": "Reolink",
   "model": "Duo 2 PoE",
-  "aliases": ["DLP4K", "Duo 2 PoE 4K"],
+  "aliases": [
+    "DLP4K",
+    "Duo 2 PoE 4K"
+  ],
   "type": "dual-lens",
-  "connectivity": ["poe", "ethernet"],
+  "connectivity": [
+    "ethernet"
+  ],
   "resolution": {
     "megapixels": 8,
     "max_width": 4608,
@@ -34,7 +39,10 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": ["onvif", "rtsp"],
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
   "ip_rating": "IP66",
   "audio": {
     "microphone": true,
@@ -52,5 +60,9 @@
   "release_year": 2022,
   "sources": [
     "https://reolink.com/product/reolink-duo-poe/"
+  ],
+  "power_source": [
+    "poe",
+    "dc"
   ]
 }

@@ -38,7 +38,7 @@
     "Zebronics 1080p indoor WiFi India budget",
     "motion detection",
     "two-way audio",
-    "\u20b91,499",
+    "₹1,499",
     "no subscription"
   ],
   "sources": [
@@ -47,5 +47,8 @@
   "markets": [
     "IN"
   ],
-  "msrp_inr": 1499
+  "msrp_inr": 1499,
+  "power_source": [
+    "usb"
+  ]
 }

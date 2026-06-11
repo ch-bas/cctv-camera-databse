@@ -5,7 +5,7 @@
 | Brand | Kedacom |
 | Model | IPC2852-HN-PZ30 |
 | Type | ptz |
-| Connectivity | poe, ethernet |
+| Connectivity | ethernet |
 | Resolution | 1080p Full HD (2MP, 1920×1080) |
 | Sensor | 1/2.8" CMOS |
 | Lens | 1× 4.5-135 (30x optical zoom)mm |

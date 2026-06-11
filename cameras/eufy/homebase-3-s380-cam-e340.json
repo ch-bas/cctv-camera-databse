@@ -9,8 +9,7 @@
   "release_year": 2025,
   "type": "dual-lens",
   "connectivity": [
-    "wifi",
-    "battery"
+    "wifi"
   ],
   "resolution": {
     "megapixels": 8,
@@ -55,5 +54,9 @@
   "msrp_usd": 199.99,
   "sources": [
     "https://www.eufy.com/"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

@@ -56,10 +56,13 @@
     "motion detection",
     "two-way audio",
     "Zebronics Smart app",
-    "\u20b91,500\u20132,500 ultra-budget India"
+    "₹1,500–2,500 ultra-budget India"
   ],
   "msrp_inr": 1799,
   "sources": [
     "https://www.zebronics.com/"
+  ],
+  "power_source": [
+    "usb"
   ]
 }
