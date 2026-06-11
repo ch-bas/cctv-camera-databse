@@ -62,5 +62,19 @@
   ],
   "power_source": [
     "usb"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Sms/Streaming/Channels/101"
+    },
+    "home_assistant": {
+      "integration": "synology_dsm",
+      "notes": "Native Synology DSM integration for Surveillance Station cameras."
+    }
+  }
 }

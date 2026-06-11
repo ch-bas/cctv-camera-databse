@@ -55,5 +55,19 @@
   "power_source": [
     "poe",
     "dc"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 640,
+        "height": 480,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:8554/CH001.sdp"
+    },
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "Use ONVIF integration. RTSP port may vary (8554 or 554)."
+    }
+  }
 }

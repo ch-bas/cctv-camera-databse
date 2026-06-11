@@ -56,5 +56,20 @@
   "power_source": [
     "poe",
     "dc"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 640,
+        "height": 480,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/main",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/sub"
+    },
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "Use ONVIF integration. Default ONVIF port 80."
+    }
+  }
 }

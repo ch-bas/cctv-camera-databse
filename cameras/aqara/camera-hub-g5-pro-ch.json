@@ -74,5 +74,19 @@
   "power_source": [
     "poe",
     "usb"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
+    },
+    "home_assistant": {
+      "integration": "homekit",
+      "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
+    }
+  }
 }

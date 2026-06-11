@@ -49,5 +49,19 @@
   ],
   "power_source": [
     "poe"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 640,
+        "height": 480,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Sms/Streaming/Channels/101"
+    },
+    "home_assistant": {
+      "integration": "synology_dsm",
+      "notes": "Native Synology DSM integration for Surveillance Station cameras."
+    }
+  }
 }

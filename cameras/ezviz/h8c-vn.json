@@ -68,5 +68,20 @@
   ],
   "power_source": [
     "dc"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264/ch1/main/av_stream",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264/ch1/sub/av_stream"
+    },
+    "home_assistant": {
+      "integration": "ezviz",
+      "notes": "Native EZVIZ integration. RTSP must be enabled in EZVIZ app."
+    }
+  }
 }

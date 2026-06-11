@@ -60,5 +60,19 @@
   "power_source": [
     "battery",
     "solar"
-  ]
+  ],
+  "configs": {
+    "frigate": {
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
+    },
+    "home_assistant": {
+      "integration": "wyze",
+      "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
+    }
+  }
 }
