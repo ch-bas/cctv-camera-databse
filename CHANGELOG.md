@@ -6,6 +6,26 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.2.0] — 2026-06-11
+
+### Added
+
+- **Integration configs for 1,052 cameras** — Frigate RTSP URL templates and detect settings, Home Assistant integration info across 48 brands
+- **Camera configs framework** — new `configs` field in schema supporting Frigate, Home Assistant, and Blue Iris
+- **`configs/` directory** with templates and seed configs for community contributions
+- **GitHub issue template** for submitting camera configs via web form
+- **Power Source column** in frontend — new filterable column with badges (PoE, DC, USB, Battery, Solar, AC)
+- **CFG badge** next to model name in table for cameras with integration configs
+- **Integration Configs section** in camera detail drawer — shows Frigate YAML snippets and HA setup notes
+
+### Changed
+
+- **Connectivity/Power split** — `connectivity` now only covers network types (WiFi, Ethernet, 4G, Coax); power moved to new `power_source` field across all 1,330 cameras
+- **Power filter dropdown** added to frontend controls
+- Updated CONTRIBUTING.md with config contribution guide
+
+---
+
 ## [1.1.0] — 2026-06-11
 
 ### Added
