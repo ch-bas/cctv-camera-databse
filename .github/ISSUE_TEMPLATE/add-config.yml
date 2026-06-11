@@ -1,0 +1,85 @@
+name: "🔧 Add a camera config"
+description: "Submit a working Frigate, Home Assistant, or Blue Iris config for a camera already in the database."
+title: "Config: [Brand] [Model] — [Platform]"
+labels: ["config-submission", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your working camera configuration so others don't have to figure it out from scratch.
+        Configs are added to each camera's JSON file under the `configs` field.
+
+  - type: input
+    id: brand
+    attributes:
+      label: "Brand *"
+      placeholder: "e.g. Reolink, Hikvision, Dahua"
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: "Model *"
+      placeholder: "e.g. RLC-823A, DS-2CD2387G2-LU"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform *"
+      options:
+        - Frigate NVR
+        - Home Assistant
+        - Blue Iris
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: "Configuration *"
+      description: "Paste your working config (YAML, JSON, or plain text). Replace passwords/IPs with placeholders."
+      placeholder: |
+        # Example Frigate config
+        cameras:
+          front_door:
+            ffmpeg:
+              inputs:
+                - path: rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main
+                  roles: [record]
+                - path: rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub
+                  roles: [detect]
+            detect:
+              width: 1280
+              height: 720
+              fps: 5
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: stream_urls
+    attributes:
+      label: "Stream URLs"
+      description: "List the RTSP/RTMP stream URLs that work for this camera. Replace credentials with {user}:{pass} and IP with {ip}."
+      placeholder: |
+        Main stream: rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main
+        Sub stream:  rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub
+
+  - type: input
+    id: firmware
+    attributes:
+      label: "Firmware version tested"
+      placeholder: "e.g. v3.1.0.2347_23061218"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes"
+      placeholder: |
+        Any gotchas, tips, or things you had to change from default settings.
+        e.g. "Had to enable ONVIF in camera settings first"
+        e.g. "Sub-stream must be set to 640x480 for best Frigate performance"

@@ -176,6 +176,36 @@ cameras/hikvision/ds-2cd2387g2-lu.json   →   id: "hikvision-ds-2cd2387g2-lu"
 
 ---
 
+## Contributing camera configs (Frigate, Home Assistant, Blue Iris)
+
+Know how to set up a camera in Frigate, Home Assistant, or Blue Iris? Share your working config so others don't have to figure it out.
+
+### Option A — GitHub issue (easiest)
+
+[Open a "Add a config" issue](../../issues/new?template=add-config.yml) and paste your config. A maintainer will add it.
+
+### Option B — Pull request
+
+1. Create a YAML file in `configs/<platform>/<camera-id>.yml`  
+   e.g. `configs/frigate/reolink-rlc-823a.yml`
+2. Replace credentials with `{user}`, `{pass}`, `{ip}`
+3. Add key details to the camera's JSON under the `configs` field:
+
+```json
+"configs": {
+  "frigate": {
+    "detect": { "width": 640, "height": 480, "fps": 5 },
+    "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
+    "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub",
+    "notes": "Set sub-stream to 640x480 for best Frigate performance."
+  }
+}
+```
+
+See [`configs/README.md`](configs/README.md) for templates and full details.
+
+---
+
 ## Corrections
 
 Found a mistake? [Open a correction issue](../../issues/new?template=correction.yml) — no need to fork anything.

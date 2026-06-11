@@ -105,6 +105,47 @@
       "type": "array",
       "items": { "type": "string", "format": "uri" },
       "description": "Official spec page / datasheet URLs."
+    },
+    "configs": {
+      "type": "object",
+      "description": "Community-contributed integration configs.",
+      "additionalProperties": false,
+      "properties": {
+        "frigate": {
+          "type": "object",
+          "description": "Frigate NVR configuration snippet.",
+          "additionalProperties": false,
+          "properties": {
+            "detect": {
+              "type": "object",
+              "properties": {
+                "width": { "type": "integer" },
+                "height": { "type": "integer" },
+                "fps": { "type": "integer" }
+              }
+            },
+            "rtsp_url_template": { "type": "string", "description": "RTSP URL pattern, e.g. rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main" },
+            "best_substream": { "type": "string", "description": "Recommended sub-stream path." },
+            "notes": { "type": "string" }
+          }
+        },
+        "home_assistant": {
+          "type": "object",
+          "description": "Home Assistant integration notes.",
+          "properties": {
+            "integration": { "type": "string", "description": "e.g. 'onvif', 'reolink', 'frigate'" },
+            "notes": { "type": "string" }
+          }
+        },
+        "blue_iris": {
+          "type": "object",
+          "description": "Blue Iris configuration notes.",
+          "properties": {
+            "profile": { "type": "string", "description": "Camera type profile in Blue Iris." },
+            "notes": { "type": "string" }
+          }
+        }
+      }
     }
   }
 }
