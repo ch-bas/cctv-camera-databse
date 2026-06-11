@@ -431,6 +431,42 @@
       word-break: break-all;
     }
     .source-link:hover { text-decoration: underline; }
+    .config-block {
+      background: var(--bg);
+      border: 1px solid var(--border-soft);
+      border-radius: 6px;
+      padding: 12px 14px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      line-height: 1.7;
+      color: var(--text-muted);
+      overflow-x: auto;
+      white-space: pre;
+    }
+    .config-block .key-hl { color: var(--accent); }
+    .config-block .val-hl { color: var(--green); }
+    .config-block .comment-hl { color: var(--text-dim); }
+    .config-label {
+      display: inline-block;
+      padding: 2px 8px;
+      background: var(--green-soft);
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--green);
+      margin-bottom: 4px;
+    }
+    .config-note {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      padding: 6px 0;
+      line-height: 1.5;
+    }
 
     /* Footer */
     footer {
@@ -860,6 +896,54 @@ function populateFilters(cameras) {
 }
 
 // ── Detail drawer ─────────────────────────────────────────────────
+function renderConfigs(cam) {
+  const cfg = cam.configs;
+  if (!cfg) return '';
+
+  let html = '<div class="drawer-section"><div class="drawer-section-title">Integration Configs</div>';
+
+  if (cfg.frigate) {
+    const f = cfg.frigate;
+    html += '<span class="config-label">Frigate</span>';
+    if (f.rtsp_url_template || f.best_substream || f.detect) {
+      let yaml = '<span class="comment-hl"># Frigate NVR config</span>\n';
+      yaml += '<span class="key-hl">cameras</span>:\n';
+      yaml += '  <span class="key-hl">your_camera</span>:\n';
+      if (f.rtsp_url_template || f.best_substream) {
+        yaml += '    <span class="key-hl">ffmpeg</span>:\n';
+        yaml += '      <span class="key-hl">inputs</span>:\n';
+        if (f.rtsp_url_template) yaml += '        - <span class="key-hl">path</span>: <span class="val-hl">' + f.rtsp_url_template + '</span>\n          <span class="key-hl">roles</span>: [record]\n';
+        if (f.best_substream) yaml += '        - <span class="key-hl">path</span>: <span class="val-hl">' + f.best_substream + '</span>\n          <span class="key-hl">roles</span>: [detect]\n';
+      }
+      if (f.detect) {
+        yaml += '    <span class="key-hl">detect</span>:\n';
+        if (f.detect.width) yaml += '      <span class="key-hl">width</span>: <span class="val-hl">' + f.detect.width + '</span>\n';
+        if (f.detect.height) yaml += '      <span class="key-hl">height</span>: <span class="val-hl">' + f.detect.height + '</span>\n';
+        if (f.detect.fps) yaml += '      <span class="key-hl">fps</span>: <span class="val-hl">' + f.detect.fps + '</span>\n';
+      }
+      html += '<div class="config-block">' + yaml + '</div>';
+    }
+    if (f.notes) html += '<div class="config-note">' + f.notes + '</div>';
+  }
+
+  if (cfg.home_assistant) {
+    const ha = cfg.home_assistant;
+    html += '<span class="config-label">Home Assistant</span>';
+    if (ha.integration) html += '<div class="config-note">Integration: <strong>' + ha.integration + '</strong></div>';
+    if (ha.notes) html += '<div class="config-note">' + ha.notes + '</div>';
+  }
+
+  if (cfg.blue_iris) {
+    const bi = cfg.blue_iris;
+    html += '<span class="config-label">Blue Iris</span>';
+    if (bi.profile) html += '<div class="config-note">Profile: <strong>' + bi.profile + '</strong></div>';
+    if (bi.notes) html += '<div class="config-note">' + bi.notes + '</div>';
+  }
+
+  html += '</div>';
+  return html;
+}
+
 function openDrawer(cam) {
   const msrpStr = (() => {
     const p = [];
@@ -916,6 +1000,8 @@ function openDrawer(cam) {
         ${cam.features.map(f => `<span class="feature-tag">${f}</span>`).join('')}
       </div>
     </div>` : ''}
+
+    ${renderConfigs(cam)}
 
     ${cam.sources?.length ? `
     <div class="drawer-section">
