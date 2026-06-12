@@ -16,7 +16,6 @@
 | Power | PoE (802.3af) / DC 12V |
 | Storage | microSD ≤ 128GB, NVR |
 | Protocols | onvif, rtsp |
-| IP rating | IK10 |
 | Two-way audio | No |
 | Released | 2020 |
 
@@ -31,6 +30,7 @@
 - #1 Korea domestic surveillance brand
 - largest market share South Korea domestic
 - ADT Caps / KT Telecop system integrator preferred
+- IK10
 
 ## Sources
 

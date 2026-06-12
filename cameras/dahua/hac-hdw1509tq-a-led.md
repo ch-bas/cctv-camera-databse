@@ -5,13 +5,12 @@
 | Brand | Dahua |
 | Model | HAC-HDW1509TQ-A-LED |
 | Type | dome |
-| Connectivity | ethernet |
+| Connectivity | coax |
 | Resolution | 5MP HD (5MP) |
 | Field of view | 107h° |
 | Night vision | color (30m) |
 | Power | DC 12V (HDCVI coaxial) |
 | Storage | NVR |
-| Protocols | hdcvi |
 | IP rating | IP67 |
 | Two-way audio | No |
 | Released | 2022 |

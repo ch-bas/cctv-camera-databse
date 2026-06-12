@@ -20,6 +20,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - TandemVu: overview + 30x PTZ
 - 4MP wide + 4MP 30x IR PTZ
 - AcuSense AI

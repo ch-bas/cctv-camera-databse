@@ -39,8 +39,7 @@
   },
   "protocols": [
     "onvif",
-    "rtsp",
-    "http"
+    "rtsp"
   ],
   "ip_rating": "IP67",
   "audio": {

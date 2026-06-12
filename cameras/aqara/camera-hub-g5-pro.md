@@ -15,7 +15,6 @@
 | Night vision | color (15m) |
 | Power | PoE (802.3af) / DC 5V WiFi version |
 | Storage | NVR |
-| Protocols | rtsp, onvif |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2025 |
@@ -26,7 +25,6 @@
 - multi-protocol smart home hub (Zigbee 3.0 + Thread + Matter Controller + Aqara Zigbee hub)
 - HomeKit Secure Video (end-to-end encrypted)
 - Alexa / Google Home / SmartThings
-- RTSP local streaming (Home Assistant)
 - on-device AI: face/vehicle/pet/package + audio (alarm/baby cry)
 - eMMC + iCloud + NAS/SMB backup
 - first shown IFA 2024 Berlin

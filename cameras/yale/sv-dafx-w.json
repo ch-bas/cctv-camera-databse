@@ -40,9 +40,7 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": [
-    "rtsp"
-  ],
+  "protocols": [],
   "ip_rating": "IP65",
   "audio": {
     "microphone": true,
@@ -68,21 +66,9 @@
     "usb"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 640,
-        "height": 480,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch00_0"
-    },
     "home_assistant": {
       "integration": "onvif",
-      "notes": "Limited RTSP support. Some models require Yale app."
-    },
-    "blue_iris": {
-      "profile": "Generic/ONVIF",
-      "notes": "Use Generic/ONVIF profile. Limited RTSP support on some models."
+      "notes": "Yale cameras are primarily cloud-based (Yale Home app). RTSP support is unconfirmed. Check camera settings for ONVIF/RTSP options."
     }
   }
 }

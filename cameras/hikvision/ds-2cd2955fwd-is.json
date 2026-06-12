@@ -73,7 +73,8 @@
         "fps": 5
       },
       "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-      "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+      "notes": "Fisheye camera — main stream is the raw circular fisheye image. Frigate detection works on the fisheye view; dewarping requires camera-side view modes (each exposed as separate stream/channel)."
     },
     "home_assistant": {
       "integration": "onvif",

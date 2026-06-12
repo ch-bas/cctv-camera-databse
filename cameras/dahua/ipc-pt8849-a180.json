@@ -57,7 +57,8 @@
         "fps": 5
       },
       "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+      "notes": "Panoramic + PTZ combo — panoramic is channel=1, PTZ is channel=2 (rtsp .../realmonitor?channel=2&subtype=0). Configure as two Frigate cameras."
     },
     "home_assistant": {
       "integration": "onvif",

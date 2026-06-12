@@ -71,7 +71,8 @@
         "fps": 5
       },
       "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+      "notes": "Multi-sensor 180° stitched panoramic — main stream is one wide stitched image (not 16:9). Set Frigate detect resolution to match the actual stream aspect ratio (check stream first, e.g. via VLC). Standard Dahua realmonitor URLs."
     },
     "home_assistant": {
       "integration": "onvif",

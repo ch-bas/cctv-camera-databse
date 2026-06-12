@@ -22,6 +22,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - 4K 8MP 20x PTZ premium
 - 80m IR auto-tracking
 - LUPUS SmartVision VMS

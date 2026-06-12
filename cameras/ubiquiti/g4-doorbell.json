@@ -64,8 +64,8 @@
   "configs": {
     "frigate": {
       "detect": {
-        "width": 1280,
-        "height": 720,
+        "width": 720,
+        "height": 1280,
         "fps": 5
       },
       "rtsp_url_template": "rtsps://{ip}:7441/{camera_id}?enableSrtp"

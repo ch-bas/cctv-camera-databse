@@ -1,0 +1,28 @@
+{
+  "id": "sv3c-ptz-poe-15x",
+  "brand": "SV3C",
+  "model": "SV3C 5MP/8MP PoE PTZ 15X",
+  "type": "ptz",
+  "connectivity": ["ethernet"],
+  "resolution": { "megapixels": 5, "label": "5MP" },
+  "night_vision": { "type": "color" },
+  "power": { "method": "PoE / DC 12V" },
+  "storage": { "onboard": true, "nvr_compatible": true, "cloud": false },
+  "protocols": ["rtsp"],
+  "audio": { "microphone": true, "speaker": true, "two_way": true },
+  "features": ["15x optical zoom", "auto-tracking", "floodlight color night vision", "RTSP", "FTP", "Blue Iris compatible", "metal shell"],
+  "configs": {
+    "frigate": {
+      "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+      "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+      "detect": {"width": 1280, "height": 720, "fps": 5},
+      "notes": "Default user 'admin'. No ONVIF. Blue Iris compatible per manufacturer."
+    },
+    "blue_iris": {
+      "profile": "Generic/RTSP",
+      "notes": "Manufacturer explicitly lists Blue Iris compatibility. Use Generic/RTSP at /stream0."
+    }
+  },
+  "power_source": ["poe", "dc"],
+  "sources": ["https://www.sv3c.com/SV3C-5MP-8MP-POE-PTZ-Security-Camera-Outdoor-15X-Optical-Zoom-5MP-4k-Auto-Tracking-Floodlight-Color-Night-Vision-IP-Camera-2-Way-Audio-Metal-Shell-RTSP-FTP-SD-Card-Record-BlueIris-Wired-p2302126.html"]
+}

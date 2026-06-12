@@ -15,7 +15,7 @@
 | Night vision | ir (30m) |
 | Power | PoE (802.3af) / DC 12V |
 | Storage | microSD ≤ 2048GB, NVR |
-| Protocols | onvif, rtsp, http |
+| Protocols | onvif, rtsp |
 | IP rating | IP54 |
 | Two-way audio | Yes |
 

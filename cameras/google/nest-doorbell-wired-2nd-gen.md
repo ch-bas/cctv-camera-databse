@@ -8,7 +8,7 @@
 | Model | Nest Doorbell (Wired, 2nd Gen) |
 | Type | doorbell |
 | Connectivity | wifi |
-| Resolution | 960x1280 HD (2MP, 960×1280) |
+| Resolution | 960x1280 HD (2MP) |
 | Sensor | CMOS |
 | Lens | 1× Fixedmm |
 | Field of view | 145 diagonal° |

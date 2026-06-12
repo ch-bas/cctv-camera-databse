@@ -20,6 +20,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - 4MP 25x PTZ DeepinView
 - 100m IR
 - AcuSense AI

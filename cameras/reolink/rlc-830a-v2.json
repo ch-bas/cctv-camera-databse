@@ -78,5 +78,8 @@
       "profile": "Reolink",
       "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
     }
-  }
+  },
+  "aliases": [
+    "reolink-rlc-840a"
+  ]
 }

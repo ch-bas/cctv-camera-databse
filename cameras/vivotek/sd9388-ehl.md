@@ -19,6 +19,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - Vivotek 4MP 32x outdoor PTZ
 - 100m IR
 - Smart VCA AI

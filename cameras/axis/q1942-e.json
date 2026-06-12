@@ -10,7 +10,7 @@
     "ethernet"
   ],
   "resolution": {
-    "megapixels": 0,
+    "megapixels": 0.3,
     "max_width": 640,
     "max_height": 480,
     "label": "640x480 thermal"

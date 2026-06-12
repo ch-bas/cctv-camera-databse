@@ -1,6 +1,6 @@
 # Dahua IPC-HFW3849T1-AS-PV-PRO
 
-*Also known as: WizColor TiOC PRO 8MP Bullet*
+*Also known as: WizColor TiOC PRO 8MP Bullet, dahua-ipc-hfw3849t1-as-pv-pro*
 
 | Field | Spec |
 |-------|------|

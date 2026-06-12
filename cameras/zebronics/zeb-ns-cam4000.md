@@ -11,7 +11,6 @@
 | Night vision | ir (30m) |
 | Power | PoE/DC12V |
 | Storage | microSD ≤ 256GB, NVR |
-| Protocols | onvif, rtsp |
 | IP rating | IP66 |
 | Two-way audio | No |
 | Released | 2023 |
@@ -20,7 +19,6 @@
 
 - Zebronics 4MP PoE outdoor bullet India
 - 30m IR
-- ONVIF/RTSP
 - IP66
 - ₹3,499
 

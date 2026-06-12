@@ -40,7 +40,6 @@
     "onvif",
     "rtsp"
   ],
-  "ip_rating": "IK08",
   "audio": {
     "microphone": true,
     "speaker": false,

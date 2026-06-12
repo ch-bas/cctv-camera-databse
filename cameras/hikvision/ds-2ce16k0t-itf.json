@@ -4,7 +4,7 @@
   "model": "DS-2CE16K0T-ITF",
   "type": "bullet",
   "connectivity": [
-    "ethernet"
+    "coax"
   ],
   "release_year": 2021,
   "resolution": {
@@ -24,9 +24,7 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": [
-    "hdcvi"
-  ],
+  "protocols": [],
   "ip_rating": "IP66",
   "audio": {
     "microphone": false,
@@ -34,9 +32,9 @@
     "two_way": false
   },
   "features": [
+    "Turbo HD (HD-TVI) analog over coax",
     "5MP TurboHD Analog bullet",
     "40m IR",
-    "4-in-1 HDCVI/TVI/AHD/CVBS",
     "IP66",
     "budget analog surveillance"
   ],

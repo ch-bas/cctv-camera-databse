@@ -13,8 +13,7 @@
   },
   "field_of_view_deg": "55-1.7h",
   "night_vision": {
-    "type": "none",
-    "range_m": 0
+    "type": "ir"
   },
   "power": {
     "method": "PoE (802.3bt)"
@@ -36,6 +35,7 @@
     "two_way": false
   },
   "features": [
+    "pan/tilt/zoom",
     "Axis P5655-E 32x outdoor PTZ",
     "OptimizedIR",
     "Lightfinder 2.0",

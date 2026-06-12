@@ -5,6 +5,7 @@
 | Brand | IMOU |
 | Model | Cell Go |
 | Type | bullet |
+| Connectivity | 4g |
 | Resolution | 4MP (4MP) |
 | Field of view | 108h° |
 | Night vision | color (10m) |

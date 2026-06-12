@@ -3,7 +3,9 @@
   "brand": "IMOU",
   "model": "Go Basic 2MP",
   "type": "bullet",
-  "connectivity": [],
+  "connectivity": [
+    "4g"
+  ],
   "release_year": 2022,
   "resolution": {
     "megapixels": 2,

@@ -14,7 +14,6 @@
 | Night vision | ir (10m) |
 | Power | Mains powered (USB/AC) |
 | Storage | microSD ≤ 128GB, NVR |
-| Protocols | rtsp |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2020 |

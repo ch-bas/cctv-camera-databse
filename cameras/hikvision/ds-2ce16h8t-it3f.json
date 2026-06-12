@@ -4,7 +4,7 @@
   "model": "DS-2CE16H8T-IT3F",
   "type": "bullet",
   "connectivity": [
-    "ethernet"
+    "coax"
   ],
   "release_year": 2020,
   "resolution": {
@@ -24,9 +24,7 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": [
-    "hdcvi"
-  ],
+  "protocols": [],
   "ip_rating": "IP67",
   "audio": {
     "microphone": false,
@@ -34,6 +32,7 @@
     "two_way": false
   },
   "features": [
+    "Turbo HD (HD-TVI) analog over coax",
     "5MP Ultra-Low Light TurboHD analog bullet",
     "60m Smart IR",
     "4-in-1",

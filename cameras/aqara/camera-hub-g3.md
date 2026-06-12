@@ -13,7 +13,6 @@
 | Night vision | ir (10m) |
 | Power | DC 5V (USB-C) |
 | Storage | NVR |
-| Protocols | rtsp |
 | IP rating | IP20 |
 | Two-way audio | Yes |
 | Released | 2021 |
@@ -24,7 +23,6 @@
 - Zigbee 3.0 hub built-in
 - on-device AI face/person
 - IR remote emitter
-- RTSP Home Assistant
 - Alexa / Google
 - Matter compatible
 

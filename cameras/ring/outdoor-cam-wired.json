@@ -50,5 +50,8 @@
   "msrp_usd": 79.99,
   "sources": [
     "https://ring.com/products/outdoor-cam"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

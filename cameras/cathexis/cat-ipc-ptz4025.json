@@ -31,7 +31,8 @@
     "cloud": false
   },
   "protocols": [
-    "onvif"
+    "onvif",
+    "rtsp"
   ],
   "ip_rating": "IP66",
   "audio": {

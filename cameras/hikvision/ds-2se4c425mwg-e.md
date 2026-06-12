@@ -20,6 +20,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - TandemVu: bullet camera + PTZ in one unit
 - 4MP wide-angle overview + 4MP 25x PTZ
 - ColorVu + AcuSense AI

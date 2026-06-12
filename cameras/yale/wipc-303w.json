@@ -38,9 +38,7 @@
     "nvr_compatible": false,
     "cloud": true
   },
-  "protocols": [
-    "rtsp"
-  ],
+  "protocols": [],
   "ip_rating": "IP20",
   "audio": {
     "microphone": true,
@@ -64,21 +62,9 @@
     "usb"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 640,
-        "height": 480,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch00_0"
-    },
     "home_assistant": {
       "integration": "onvif",
-      "notes": "Limited RTSP support. Some models require Yale app."
-    },
-    "blue_iris": {
-      "profile": "Generic/ONVIF",
-      "notes": "Use Generic/ONVIF profile. Limited RTSP support on some models."
+      "notes": "Older Yale model. RTSP support is unconfirmed. May be cloud-only via Yale Home app."
     }
   }
 }

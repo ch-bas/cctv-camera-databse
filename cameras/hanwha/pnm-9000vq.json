@@ -12,7 +12,7 @@
   "release_year": 2023,
   "resolution": {
     "megapixels": 20,
-    "max_width": 2592,
+    "max_width": 8000,
     "max_height": 1944,
     "label": "4x5MP (20MP total)"
   },

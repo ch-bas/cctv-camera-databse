@@ -55,5 +55,9 @@
   "msrp_usd": 59.99,
   "sources": [
     "https://www.eufy.com/products/solocam-l40"
+  ],
+  "power_source": [
+    "battery",
+    "solar"
   ]
 }

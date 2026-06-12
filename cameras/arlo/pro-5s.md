@@ -1,6 +1,6 @@
 # Arlo Pro 5S 2K Spotlight
 
-*Also known as: VMC4460P*
+*Also known as: VMC4460P, arlo-pro-5s-spotlight*
 
 | Field | Spec |
 |-------|------|

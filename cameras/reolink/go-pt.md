@@ -5,6 +5,7 @@
 | Brand | Reolink |
 | Model | Go PT |
 | Type | ptz |
+| Connectivity | 4g |
 | Resolution | 2K QHD (4MP) |
 | Field of view | 355 pan/90 tilt° |
 | Night vision | ir (10m) |

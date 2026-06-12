@@ -22,6 +22,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - WizMind 4MP 25x Starlight PTZ
 - face detection
 - perimeter protection

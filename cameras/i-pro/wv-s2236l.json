@@ -46,7 +46,6 @@
     "onvif",
     "rtsp"
   ],
-  "ip_rating": "IK10",
   "audio": {
     "microphone": true,
     "speaker": false,
@@ -62,7 +61,8 @@
     "ONVIF Profile G/S/T",
     "pre-installed AI analytics (ready to install 3rd-party apps)",
     "IK10 vandal-resistant",
-    "#1 brand Japan enterprise surveillance market"
+    "#1 brand Japan enterprise surveillance market",
+    "IK10"
   ],
   "sources": [
     "https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2236l"

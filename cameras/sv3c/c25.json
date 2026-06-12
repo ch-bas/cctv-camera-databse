@@ -1,0 +1,100 @@
+{
+  "id": "sv3c-c25",
+  "brand": "SV3C",
+  "model": "C25",
+  "type": "ptz",
+  "connectivity": [
+    "wifi",
+    "ethernet"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "max_width": 3840,
+    "max_height": 2160,
+    "label": "4K UHD"
+  },
+  "night_vision": {
+    "type": "color"
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "max_microsd_gb": 128,
+    "nvr_compatible": false,
+    "cloud": true
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "36x hybrid zoom (18x optical + 18x digital)",
+    "350° pan / 93° tilt",
+    "auto-tracking",
+    "people/vehicle/pet detection",
+    "color night vision (9 IR LEDs)",
+    "two-way audio",
+    "ONVIF/RTSP/FTP",
+    "2.4/5GHz WiFi + Ethernet",
+    "cloud + microSD storage"
+  ],
+  "configs": {
+    "frigate": {
+      "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+      "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "notes": "Default user 'admin'. ONVIF supported on this model (unlike most SV3C). PTZ control via ONVIF possible."
+    },
+    "blue_iris": {
+      "profile": "Generic/ONVIF",
+      "notes": "Use Generic/ONVIF. PTZ control supported via ONVIF."
+    },
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "ONVIF integration works — one of the few SV3C models with ONVIF. PTZ controls exposed via ONVIF."
+    }
+  },
+  "power_source": [
+    "dc"
+  ],
+  "sources": [
+    "https://www.sv3c.com/SV3C-8MP-PTZ-Camera-Outdoor-Update-2-4-5-GHZ-WiFi-Security-IP-Cameras-Support-36X-Zoom-RTSP-PC-Web-Browser-Viewing-Humanoid-Detect-FTP-IP66-Waterproof-2-way-Audio-SD-Card-Record-p2300200.html",
+    "https://www.amazon.de/SV3C-%C3%BCberwachungskamera-Haustiererkennung-Auto-Tracking-Farbnachtsicht/dp/B0CXPSKK2R"
+  ],
+  "aliases": [
+    "SV3C 4K 36X Zoom PTZ",
+    "SV3C 8MP PTZ WiFi 36X"
+  ],
+  "sensor": "IMX415 CMOS",
+  "lens": {
+    "count": 1,
+    "focal_length_mm": "18x optical zoom (36x hybrid)",
+    "varifocal": true
+  },
+  "video": {
+    "codecs": [
+      "H.265"
+    ],
+    "max_fps": 15,
+    "streams": [
+      {
+        "name": "main",
+        "resolution": "3840x2160",
+        "fps": 15,
+        "codec": "H.265"
+      }
+    ]
+  }
+}

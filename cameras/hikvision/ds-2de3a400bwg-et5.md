@@ -19,6 +19,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - 4MP 4x AcuSense Mini PTZ outdoor IP66 50m IR
 - auto-tracking
 - H.265+

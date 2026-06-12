@@ -20,6 +20,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - WizMind 4K 8MP 25x PTZ SMD 4.0
 - face recognition
 - auto-tracking

@@ -13,8 +13,8 @@
   },
   "field_of_view_deg": "103h",
   "night_vision": {
-    "type": "none",
-    "range_m": 0
+    "type": "ir",
+    "range_m": 30
   },
   "power": {
     "method": "PoE (802.3af) / DC 12V"
@@ -38,10 +38,10 @@
   "features": [
     "2MP DarkFighter mini bullet",
     "0.002 lux ultra-low light",
-    "no IR",
     "H.265",
     "ONVIF/RTSP",
-    "IP67"
+    "IP67",
+    "EXIR 30m IR"
   ],
   "sources": [
     "https://www.hikvision.com/en/products/"

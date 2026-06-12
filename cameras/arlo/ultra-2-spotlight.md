@@ -1,6 +1,6 @@
 # Arlo Ultra 2 Spotlight
 
-*Also known as: Arlo Ultra 2 4K Spotlight Camera*
+*Also known as: Arlo Ultra 2 4K Spotlight Camera, arlo-ultra-2*
 
 | Field | Spec |
 |-------|------|

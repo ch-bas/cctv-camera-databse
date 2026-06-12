@@ -5,6 +5,7 @@
 | Brand | Reolink |
 | Model | Duo 4G |
 | Type | bullet |
+| Connectivity | 4g |
 | Resolution | 2×4MP 180° dual-lens (8MP) |
 | Field of view | 180 horizontal° |
 | Night vision | ir (30m) |

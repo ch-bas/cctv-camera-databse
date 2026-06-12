@@ -16,7 +16,6 @@
 | Power | PoE (802.3bt) |
 | Storage | microSD ≤ 256GB, NVR |
 | Protocols | onvif, rtsp |
-| IP rating | IK10 |
 | Two-way audio | No |
 | Released | 2024 |
 
@@ -30,6 +29,7 @@
 - NDAA compliant
 - IDIS Security Suite VMS integration
 - most advanced IDIS Korea flagship dome 2024
+- IK10
 
 ## Sources
 

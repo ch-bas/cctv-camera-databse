@@ -1,5 +1,7 @@
 # Reolink RLC-830A
 
+*Also known as: reolink-rlc-823a-ptz-4k*
+
 | Field | Spec |
 |-------|------|
 | Brand | Reolink |

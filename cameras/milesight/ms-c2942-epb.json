@@ -8,8 +8,6 @@
   ],
   "resolution": {
     "megapixels": 2,
-    "max_width": 1920,
-    "max_height": 1920,
     "label": "2MP Fisheye"
   },
   "sensor": "1/2.8\" Progressive Scan CMOS",

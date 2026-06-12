@@ -5,22 +5,21 @@
 | Brand | Hikvision |
 | Model | DS-2CE16D8T-IT3F |
 | Type | bullet |
-| Connectivity | ethernet |
+| Connectivity | coax |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 103h° |
 | Night vision | ir (60m) |
 | Power | DC 12V (coaxial HDCVI) |
 | Storage | NVR |
-| Protocols | hdcvi |
 | IP rating | IP67 |
 | Two-way audio | No |
 | Released | 2020 |
 
 ## Features
 
+- Turbo HD (HD-TVI) analog over coax
 - 2MP Ultra-Low Light TurboHD analog bullet
 - 60m Smart IR
-- 4-in-1 HDCVI/TVI/AHD/CVBS
 - H.265
 - IP67
 - legacy analog upgrade path

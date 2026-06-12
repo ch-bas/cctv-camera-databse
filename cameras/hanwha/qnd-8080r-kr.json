@@ -46,7 +46,6 @@
     "onvif",
     "rtsp"
   ],
-  "ip_rating": "IK10",
   "audio": {
     "microphone": false,
     "speaker": false,
@@ -61,7 +60,8 @@
     "Korean-made Hanwha",
     "#1 Korea domestic surveillance brand",
     "largest market share South Korea domestic",
-    "ADT Caps / KT Telecop system integrator preferred"
+    "ADT Caps / KT Telecop system integrator preferred",
+    "IK10"
   ],
   "sources": [
     "https://www.hanwhavision.com/en-kr/"

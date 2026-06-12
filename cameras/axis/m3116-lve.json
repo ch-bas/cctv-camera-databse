@@ -10,7 +10,7 @@
     "megapixels": 12,
     "max_width": 3584,
     "max_height": 2688,
-    "label": "12MP"
+    "label": "12MP UHD"
   },
   "sensor": "1/1.7\" Progressive Scan CMOS",
   "lens": {
@@ -34,8 +34,7 @@
   },
   "protocols": [
     "onvif",
-    "rtsp",
-    "http"
+    "rtsp"
   ],
   "ip_rating": "IP66",
   "audio": {

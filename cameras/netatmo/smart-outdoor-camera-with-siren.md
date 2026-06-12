@@ -8,7 +8,7 @@
 | Model | Smart Outdoor Camera (Presence, with Siren) |
 | Type | bullet |
 | Connectivity | wifi |
-| Resolution | 1080p HD (4MP, 1920×1080) |
+| Resolution | 1080p HD (4MP) |
 | Lens | 1× Fixedmm F2.0 |
 | Field of view | 100 horizontal° |
 | Night vision | ir (15m) |

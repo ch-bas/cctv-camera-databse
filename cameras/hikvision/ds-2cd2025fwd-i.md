@@ -8,7 +8,7 @@
 | Connectivity | ethernet |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 103h° |
-| Night vision | none |
+| Night vision | ir (30m) |
 | Power | PoE (802.3af) / DC 12V |
 | Storage | microSD ≤ 256GB, NVR |
 | Protocols | onvif, rtsp |
@@ -20,10 +20,10 @@
 
 - 2MP DarkFighter mini bullet
 - 0.002 lux ultra-low light
-- no IR
 - H.265
 - ONVIF/RTSP
 - IP67
+- EXIR 30m IR
 
 ## Sources
 

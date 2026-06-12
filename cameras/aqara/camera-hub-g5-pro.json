@@ -44,10 +44,7 @@
     "nvr_compatible": true,
     "cloud": true
   },
-  "protocols": [
-    "rtsp",
-    "onvif"
-  ],
+  "protocols": [],
   "ip_rating": "IP65",
   "audio": {
     "microphone": true,
@@ -59,7 +56,6 @@
     "multi-protocol smart home hub (Zigbee 3.0 + Thread + Matter Controller + Aqara Zigbee hub)",
     "HomeKit Secure Video (end-to-end encrypted)",
     "Alexa / Google Home / SmartThings",
-    "RTSP local streaming (Home Assistant)",
     "on-device AI: face/vehicle/pet/package + audio (alarm/baby cry)",
     "eMMC + iCloud + NAS/SMB backup",
     "first shown IFA 2024 Berlin",
@@ -70,25 +66,12 @@
     "https://eu.aqara.com/en-eu/products/aqara-camera-hub-g5-pro"
   ],
   "power_source": [
-    "poe",
     "usb"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 1280,
-        "height": 720,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
-    },
     "home_assistant": {
       "integration": "homekit",
-      "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
-    },
-    "blue_iris": {
-      "profile": "Generic/RTSP",
-      "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
+      "notes": "No RTSP or ONVIF. HomeKit/Matter only. Use HomeKit integration in HA. Not compatible with Frigate or Blue Iris."
     }
   }
 }

@@ -96,5 +96,8 @@
         "codec": "H.265"
       }
     ]
-  }
+  },
+  "aliases": [
+    "reolink-rlc-823a-ptz-4k"
+  ]
 }

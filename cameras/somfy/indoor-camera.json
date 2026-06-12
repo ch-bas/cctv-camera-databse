@@ -11,10 +11,10 @@
   ],
   "release_year": 2020,
   "markets": [
-    "FR",
     "DE",
     "ES",
-    "EU"
+    "EU",
+    "FR"
   ],
   "resolution": {
     "megapixels": 2,

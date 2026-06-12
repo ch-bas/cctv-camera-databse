@@ -25,10 +25,7 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": [
-    "onvif",
-    "rtsp"
-  ],
+  "protocols": [],
   "ip_rating": "IP66",
   "audio": {
     "microphone": false,
@@ -38,7 +35,6 @@
   "features": [
     "Zebronics 4MP PoE outdoor bullet India",
     "30m IR",
-    "ONVIF/RTSP",
     "IP66",
     "₹3,499"
   ],
@@ -50,7 +46,6 @@
   ],
   "msrp_inr": 3499,
   "power_source": [
-    "poe",
     "dc"
   ]
 }

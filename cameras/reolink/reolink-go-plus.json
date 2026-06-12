@@ -6,7 +6,9 @@
     "Reolink Go Plus 4G LTE Battery Camera"
   ],
   "type": "bullet",
-  "connectivity": [],
+  "connectivity": [
+    "4g"
+  ],
   "release_year": 2022,
   "resolution": {
     "megapixels": 4,

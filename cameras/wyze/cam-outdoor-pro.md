@@ -12,7 +12,7 @@
 | Night vision | color (12m) |
 | Power | Rechargeable battery / solar optional |
 | Storage | microSD ≤ 256GB |
-| Protocols | rtsp |
+| Protocols | http, p2p |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2024 |
@@ -25,7 +25,6 @@
 - no subscription
 - solar optional
 - Alexa / Google
-- RTSP
 
 ## Sources
 
