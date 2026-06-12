@@ -15,7 +15,7 @@
 | Night vision | ir (9m) |
 | Power | Micro-USB 5V |
 | Storage | microSD ≤ 32GB |
-| Protocols | rtsp |
+| Protocols | http, p2p |
 | Two-way audio | Yes |
 | Released | 2018 |
 
@@ -26,7 +26,6 @@
 - person detection
 - continuous recording (microSD)
 - Alexa / Google Home
-- RTSP firmware available
 
 ## Sources
 

@@ -2,7 +2,7 @@
   "id": "hikvision-ds-2cd2443g2-iw",
   "brand": "Hikvision",
   "model": "DS-2CD2443G2-I(W)",
-  "type": "covert",
+  "type": "box",
   "connectivity": [
     "ethernet"
   ],

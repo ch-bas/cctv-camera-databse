@@ -14,7 +14,6 @@
 | Night vision | ir (8m) |
 | Power | DC 5V (USB) |
 | Storage | microSD ≤ 32GB |
-| Protocols | rtsp |
 | IP rating | IP20 |
 | Two-way audio | Yes |
 | Released | 2019 |

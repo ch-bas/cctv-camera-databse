@@ -3,7 +3,8 @@
   "brand": "Arlo",
   "model": "Ultra 2 Spotlight",
   "aliases": [
-    "Arlo Ultra 2 4K Spotlight Camera"
+    "Arlo Ultra 2 4K Spotlight Camera",
+    "arlo-ultra-2"
   ],
   "type": "dome",
   "connectivity": [

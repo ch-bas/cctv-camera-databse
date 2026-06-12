@@ -14,7 +14,6 @@
 | Night vision | color (8m) |
 | Power | DC 5V (USB) |
 | Storage | microSD ≤ 128GB |
-| Protocols | rtsp |
 | IP rating | IP20 |
 | Two-way audio | Yes |
 | Released | 2022 |

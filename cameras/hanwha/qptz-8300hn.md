@@ -19,6 +19,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - Wisenet Q 4MP 32x PTZ
 - 100m IR
 - auto-tracking

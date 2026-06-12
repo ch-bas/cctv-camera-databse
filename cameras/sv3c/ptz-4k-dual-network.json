@@ -1,0 +1,68 @@
+{
+  "id": "sv3c-ptz-4k-dual-network",
+  "brand": "SV3C",
+  "model": "SV3C 4K PTZ PoE+WiFi Dual Network",
+  "type": "ptz",
+  "connectivity": [
+    "ethernet",
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 8,
+    "label": "4K UHD"
+  },
+  "night_vision": {
+    "type": "color"
+  },
+  "power": {
+    "method": "PoE / DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "ip_rating": "IP66",
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "pan/tilt/zoom",
+    "4K 8MP",
+    "dual network (PoE + WiFi)",
+    "auto-tracking",
+    "human/vehicle detection",
+    "color night vision",
+    "RTSP",
+    "24/7 recording",
+    "CamHiPro app"
+  ],
+  "configs": {
+    "frigate": {
+      "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+      "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "notes": "Default user 'admin'. Supports both PoE and WiFi simultaneously. No ONVIF."
+    },
+    "blue_iris": {
+      "profile": "Generic/RTSP",
+      "notes": "Use Generic/RTSP. Main: /stream0, Sub: /stream1."
+    }
+  },
+  "power_source": [
+    "poe",
+    "dc"
+  ],
+  "sources": [
+    "https://www.sv3c.com/SV3C-4K-PTZ-POE-Wired-WiFi-Security-Camera-Outdoor-Dual-Network-Support-Auto-Tracking-Security-Cam-Color-Night-Vision-Human-Vehicle-Detection-2-Way-Audio-Waterproof-24-7-Record-CamHiPro-p2707179.html"
+  ]
+}

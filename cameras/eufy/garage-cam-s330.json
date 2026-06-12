@@ -54,5 +54,8 @@
   "msrp_usd": 99.99,
   "sources": [
     "https://www.eufy.com/products/garage-cam-s330"
+  ],
+  "power_source": [
+    "dc"
   ]
 }

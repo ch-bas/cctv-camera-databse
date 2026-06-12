@@ -5,6 +5,7 @@
 | Brand | IMOU |
 | Model | Cruiser 4G |
 | Type | ptz |
+| Connectivity | 4g |
 | Resolution | 4MP (4MP) |
 | Field of view | 355 pan/90 tilt° |
 | Night vision | color (10m) |

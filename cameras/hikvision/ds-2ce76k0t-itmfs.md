@@ -5,19 +5,19 @@
 | Brand | Hikvision |
 | Model | DS-2CE76K0T-ITMFS |
 | Type | turret |
-| Connectivity | ethernet |
+| Connectivity | coax |
 | Resolution | 5MP HD (5MP) |
 | Field of view | 103h° |
 | Night vision | ir (40m) |
 | Power | DC 12V (coaxial HDCVI) |
 | Storage | NVR |
-| Protocols | hdcvi |
 | IP rating | IP67 |
 | Two-way audio | No |
 | Released | 2021 |
 
 ## Features
 
+- Turbo HD (HD-TVI) analog over coax
 - 5MP TurboHD analog turret with mic
 - 40m IR
 - 4-in-1

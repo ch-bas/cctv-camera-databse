@@ -8,7 +8,7 @@
     "ethernet"
   ],
   "resolution": {
-    "megapixels": 2,
+    "megapixels": 3.7,
     "max_width": 2560,
     "max_height": 1440,
     "label": "2K QHD"

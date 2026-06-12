@@ -6,7 +6,7 @@
 | Model | ConteraIP Panoramic 12MP |
 | Type | panoramic |
 | Connectivity | ethernet |
-| Resolution | 12MP (12MP, 4000×3000) |
+| Resolution | 12MP UHD (12MP, 4000×3000) |
 | Sensor | 1/1.7" CMOS |
 | Night vision | ir (20m) |
 | Power | PoE (IEEE 802.3at) / DC 12V |

@@ -14,7 +14,7 @@
     "megapixels": 12,
     "max_width": 4000,
     "max_height": 3000,
-    "label": "12MP"
+    "label": "12MP UHD"
   },
   "sensor": "1/1.7\" Progressive Scan CMOS",
   "lens": {
@@ -71,7 +71,8 @@
         "fps": 5
       },
       "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-      "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+      "notes": "12MP fisheye — raw fisheye main stream; hardware dewarp views exposed as separate channels."
     },
     "home_assistant": {
       "integration": "onvif",

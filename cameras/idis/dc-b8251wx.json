@@ -46,7 +46,6 @@
     "onvif",
     "rtsp"
   ],
-  "ip_rating": "IK10",
   "audio": {
     "microphone": true,
     "speaker": false,
@@ -60,7 +59,8 @@
     "IK10 vandal-resistant",
     "NDAA compliant",
     "IDIS Security Suite VMS integration",
-    "most advanced IDIS Korea flagship dome 2024"
+    "most advanced IDIS Korea flagship dome 2024",
+    "IK10"
   ],
   "sources": [
     "https://idisamericas.com/en/productslist/2"

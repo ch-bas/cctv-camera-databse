@@ -6,7 +6,7 @@
 | Model | MS-C2942-EPB |
 | Type | fisheye |
 | Connectivity | ethernet |
-| Resolution | 2MP Fisheye (2MP, 1920×1920) |
+| Resolution | 2MP Fisheye (2MP) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 1.68mm |
 | Field of view | 360 horizontal° |

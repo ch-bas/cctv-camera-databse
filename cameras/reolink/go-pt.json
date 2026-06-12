@@ -3,7 +3,9 @@
   "brand": "Reolink",
   "model": "Go PT",
   "type": "ptz",
-  "connectivity": [],
+  "connectivity": [
+    "4g"
+  ],
   "release_year": 2021,
   "resolution": {
     "megapixels": 4,

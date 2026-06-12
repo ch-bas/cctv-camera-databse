@@ -2,6 +2,7 @@ name: release
 
 on:
   push:
+    branches: [main]
     tags:
       - "v*"
 
@@ -18,25 +19,48 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Determine version
+        id: version
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/v* ]]; then
+            echo "version=${GITHUB_REF#refs/tags/v}" >> "$GITHUB_OUTPUT"
+          else
+            echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip if release already exists
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "v${{ steps.version.outputs.version }}" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Release v${{ steps.version.outputs.version }} already exists — skipping."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build dataset
+        if: steps.check.outputs.exists == 'false'
         run: node scripts/build.js
 
-      - name: Extract version from tag
-        id: version
-        run: echo "version=${GITHUB_REF#refs/tags/v}" >> "$GITHUB_OUTPUT"
-
       - name: Extract changelog for this version
+        if: steps.check.outputs.exists == 'false'
         id: changelog
         run: |
-          # Extract the section for this version from CHANGELOG.md
-          awk '/^## \['"${{ steps.version.outputs.version }}"'\]/{found=1; next} /^## /{if(found) exit} found' CHANGELOG.md > /tmp/release-notes.md
-          echo "body<<RELEASE_EOF" >> "$GITHUB_OUTPUT"
-          cat /tmp/release-notes.md >> "$GITHUB_OUTPUT"
-          echo "RELEASE_EOF" >> "$GITHUB_OUTPUT"
+          # Extract the section for this version from CHANGELOG.md (header may be "## [X.Y.Z]" or "## X.Y.Z")
+          awk '/^## \[?'"${{ steps.version.outputs.version }}"'\]?/{found=1; next} /^## /{if(found) exit} found' CHANGELOG.md > /tmp/release-notes.md
+          {
+            echo "body<<RELEASE_EOF"
+            cat /tmp/release-notes.md
+            echo "RELEASE_EOF"
+          } >> "$GITHUB_OUTPUT"
 
-      - name: Create GitHub Release
+      - name: Create GitHub Release (creates tag if missing)
+        if: steps.check.outputs.exists == 'false'
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: v${{ steps.version.outputs.version }}
           name: v${{ steps.version.outputs.version }}
           body: ${{ steps.changelog.outputs.body }}
           files: |

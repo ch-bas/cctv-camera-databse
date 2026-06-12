@@ -3,7 +3,8 @@
   "brand": "Tapo",
   "model": "TC82",
   "aliases": [
-    "TP-Link Tapo TC82 2K Floodlight Camera"
+    "TP-Link Tapo TC82 2K Floodlight Camera",
+    "tapo-tc82"
   ],
   "type": "bullet",
   "connectivity": [

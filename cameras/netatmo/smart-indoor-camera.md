@@ -8,7 +8,7 @@
 | Model | Smart Indoor Camera |
 | Type | dome |
 | Connectivity | wifi, ethernet |
-| Resolution | 1080p HD (4MP, 1920×1080) |
+| Resolution | 1080p HD (4MP) |
 | Lens | 1× Fixedmm |
 | Field of view | 130 diagonal° |
 | Night vision | ir (5m) |

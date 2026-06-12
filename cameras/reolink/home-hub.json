@@ -5,7 +5,7 @@
   "aliases": [
     "Reolink Home Hub NVR/HomeBase for WiFi cameras"
   ],
-  "type": "covert",
+  "type": "box",
   "connectivity": [
     "wifi",
     "ethernet"
@@ -44,7 +44,8 @@
     "manages up to 8 Reolink cameras",
     "AI video search",
     "no subscription fee",
-    "no cloud required"
+    "no cloud required",
+    "NVR hub — not a camera"
   ],
   "msrp_usd": 69,
   "sources": [

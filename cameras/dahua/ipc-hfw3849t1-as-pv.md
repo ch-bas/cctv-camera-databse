@@ -1,6 +1,6 @@
 # Dahua IPC-HFW3849T1-AS-PV
 
-*Also known as: DH-IPC-HFW3849T1-AS-PV, WizSense TiOC 8MP Bullet*
+*Also known as: DH-IPC-HFW3849T1-AS-PV, WizSense TiOC 8MP Bullet, dahua-ipc-hfw3849t1-as-pv-s3*
 
 | Field | Spec |
 |-------|------|

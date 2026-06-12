@@ -3,7 +3,9 @@
   "brand": "Reolink",
   "model": "Keen Ranger PT",
   "type": "ptz",
-  "connectivity": [],
+  "connectivity": [
+    "4g"
+  ],
   "release_year": 2023,
   "resolution": {
     "megapixels": 4,

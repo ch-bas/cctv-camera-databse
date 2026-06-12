@@ -22,6 +22,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - 4MP 18x PTZ outdoor
 - 60m IR
 - auto-tracking

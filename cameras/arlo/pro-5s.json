@@ -3,7 +3,8 @@
   "brand": "Arlo",
   "model": "Pro 5S 2K Spotlight",
   "aliases": [
-    "VMC4460P"
+    "VMC4460P",
+    "arlo-pro-5s-spotlight"
   ],
   "type": "bullet",
   "connectivity": [

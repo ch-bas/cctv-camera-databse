@@ -4,7 +4,7 @@
   "model": "DS-2CE76K0T-LMFS",
   "type": "turret",
   "connectivity": [
-    "ethernet"
+    "coax"
   ],
   "release_year": 2022,
   "resolution": {
@@ -24,9 +24,7 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": [
-    "hdcvi"
-  ],
+  "protocols": [],
   "ip_rating": "IP67",
   "audio": {
     "microphone": true,
@@ -34,6 +32,7 @@
     "two_way": false
   },
   "features": [
+    "Turbo HD (HD-TVI) analog over coax",
     "5MP Smart Hybrid Light TurboHD turret",
     "dual light (IR + warm LED)",
     "4-in-1",

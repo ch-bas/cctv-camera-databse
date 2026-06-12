@@ -16,7 +16,6 @@
 | Power | PoE (802.3af) |
 | Storage | NVR |
 | Protocols | onvif, rtsp |
-| IP rating | IK08 |
 | Two-way audio | No |
 | Released | 2019 |
 

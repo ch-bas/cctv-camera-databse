@@ -7,10 +7,10 @@
     "ethernet"
   ],
   "resolution": {
-    "megapixels": 3,
+    "megapixels": 4,
     "max_width": 2048,
     "max_height": 2048,
-    "label": "3MP Fisheye"
+    "label": "4MP Fisheye"
   },
   "sensor": "1/2.8\" Progressive Scan CMOS",
   "lens": {

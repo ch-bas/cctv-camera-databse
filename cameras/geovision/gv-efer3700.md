@@ -6,7 +6,7 @@
 | Model | GV-EFER3700 |
 | Type | fisheye |
 | Connectivity | ethernet |
-| Resolution | 3MP Fisheye (3MP, 2048×2048) |
+| Resolution | 4MP Fisheye (4MP, 2048×2048) |
 | Sensor | 1/2.8" Progressive Scan CMOS |
 | Lens | 1× 1.45mm |
 | Field of view | 360 horizontal° |

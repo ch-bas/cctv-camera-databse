@@ -22,6 +22,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - HiLook 4MP 20x PTZ entry-level
 - 80m IR
 - auto-tracking

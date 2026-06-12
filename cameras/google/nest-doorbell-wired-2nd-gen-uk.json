@@ -16,8 +16,6 @@
   ],
   "resolution": {
     "megapixels": 2,
-    "max_width": 960,
-    "max_height": 1280,
     "label": "960x1280 HD"
   },
   "lens": {

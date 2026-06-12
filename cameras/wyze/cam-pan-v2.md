@@ -15,7 +15,7 @@
 | Night vision | color (9m) |
 | Power | USB-A (hardwired) |
 | Storage | microSD ≤ 256GB |
-| Protocols | rtsp |
+| Protocols | http, p2p |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2022 |

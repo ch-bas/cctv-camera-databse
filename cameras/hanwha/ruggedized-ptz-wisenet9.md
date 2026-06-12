@@ -21,6 +21,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - Wisenet 9 SoC (dual NPU)
 - high-durability ruggedized housing
 - AI-based noise reduction

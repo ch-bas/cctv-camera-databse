@@ -5,6 +5,7 @@
 | Brand | IMOU |
 | Model | Go Basic 2MP |
 | Type | bullet |
+| Connectivity | 4g |
 | Resolution | 1080p HD (2MP) |
 | Field of view | 107h° |
 | Night vision | ir (10m) |

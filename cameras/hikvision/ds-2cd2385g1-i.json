@@ -5,7 +5,7 @@
   "aliases": [
     "WDR Fixed Cube 8MP IP Camera"
   ],
-  "type": "covert",
+  "type": "turret",
   "connectivity": [
     "ethernet"
   ],

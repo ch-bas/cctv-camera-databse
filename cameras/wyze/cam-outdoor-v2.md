@@ -15,7 +15,7 @@
 | Night vision | ir (7m) |
 | Power | Rechargeable battery / optional solar panel / USB-C |
 | Storage | microSD ≤ 32GB |
-| Protocols | rtsp |
+| Protocols | http, p2p |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2022 |

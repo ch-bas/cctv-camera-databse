@@ -8,7 +8,7 @@
 | Model | PNM-9000VQ |
 | Type | panoramic |
 | Connectivity | ethernet |
-| Resolution | 4x5MP (20MP total) (20MP, 2592×1944) |
+| Resolution | 4x5MP (20MP total) (20MP, 8000×1944) |
 | Sensor | 4x 1/2.8" Progressive Scan CMOS |
 | Lens | 4× 3.69 (fixed per channel)mm |
 | Field of view | 360 (4x 90°)° |

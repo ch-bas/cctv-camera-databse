@@ -19,6 +19,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - CP Plus 4MP 25x AI PTZ India
 - 100m IR
 - SMD Plus AI

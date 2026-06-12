@@ -1,5 +1,7 @@
 # Reolink RLC-840A
 
+*Also known as: reolink-rlc-840a*
+
 | Field | Spec |
 |-------|------|
 | Brand | Reolink |

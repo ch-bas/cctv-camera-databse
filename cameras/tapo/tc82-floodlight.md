@@ -1,6 +1,6 @@
 # Tapo TC82
 
-*Also known as: TP-Link Tapo TC82 2K Floodlight Camera*
+*Also known as: TP-Link Tapo TC82 2K Floodlight Camera, tapo-tc82*
 
 | Field | Spec |
 |-------|------|

@@ -3,7 +3,8 @@
   "brand": "Dahua",
   "model": "IPC-HDW3849H-ZAS-PV",
   "aliases": [
-    "WizSense TiOC 8MP Varifocal Turret"
+    "WizSense TiOC 8MP Varifocal Turret",
+    "dahua-ipc-hdw3849h-zas-pv-varifocal"
   ],
   "type": "turret",
   "connectivity": [

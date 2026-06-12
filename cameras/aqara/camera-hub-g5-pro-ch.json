@@ -43,10 +43,7 @@
     "nvr_compatible": true,
     "cloud": true
   },
-  "protocols": [
-    "rtsp",
-    "onvif"
-  ],
+  "protocols": [],
   "ip_rating": "IP65",
   "audio": {
     "microphone": true,
@@ -58,7 +55,6 @@
     "Zigbee 3.0 + Thread Border Router + Matter Controller (smart home hub)",
     "HomeKit Secure Video (E2E encrypted)",
     "Alexa / Google / SmartThings",
-    "RTSP local streaming (Home Assistant)",
     "on-device AI (face/vehicle/pet/audio)",
     "eMMC + iCloud + NAS/SMB backup",
     "PoE or WiFi versions",
@@ -72,25 +68,12 @@
     "https://www.digitec.ch/"
   ],
   "power_source": [
-    "poe",
     "usb"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 1280,
-        "height": 720,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
-    },
     "home_assistant": {
       "integration": "homekit",
-      "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
-    },
-    "blue_iris": {
-      "profile": "Generic/RTSP",
-      "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
+      "notes": "No RTSP or ONVIF. HomeKit/Matter only. Use HomeKit integration in HA. Not compatible with Frigate or Blue Iris."
     }
   }
 }

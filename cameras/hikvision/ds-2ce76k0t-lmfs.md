@@ -5,19 +5,19 @@
 | Brand | Hikvision |
 | Model | DS-2CE76K0T-LMFS |
 | Type | turret |
-| Connectivity | ethernet |
+| Connectivity | coax |
 | Resolution | 5MP HD (5MP) |
 | Field of view | 103h° |
 | Night vision | color (40m) |
 | Power | DC 12V (coaxial HDCVI) |
 | Storage | NVR |
-| Protocols | hdcvi |
 | IP rating | IP67 |
 | Two-way audio | No |
 | Released | 2022 |
 
 ## Features
 
+- Turbo HD (HD-TVI) analog over coax
 - 5MP Smart Hybrid Light TurboHD turret
 - dual light (IR + warm LED)
 - 4-in-1

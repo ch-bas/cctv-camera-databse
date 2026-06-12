@@ -45,7 +45,6 @@
     "onvif",
     "rtsp"
   ],
-  "ip_rating": "IK10",
   "audio": {
     "microphone": false,
     "speaker": false,
@@ -59,7 +58,8 @@
     "ONVIF Profile S/T",
     "easy kitting — auto-discovers on IDIS NVR instantly",
     "Korean-made quality",
-    "popular Korea retail/bank/education/healthcare"
+    "popular Korea retail/bank/education/healthcare",
+    "IK10"
   ],
   "sources": [
     "https://idisamericas.com/en/product/3588"

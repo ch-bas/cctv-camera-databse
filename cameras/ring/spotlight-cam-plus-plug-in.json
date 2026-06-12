@@ -55,5 +55,8 @@
   "msrp_usd": 179.99,
   "sources": [
     "https://ring.com/products/spotlight-cam-plus-plug-in"
+  ],
+  "power_source": [
+    "ac-mains"
   ]
 }

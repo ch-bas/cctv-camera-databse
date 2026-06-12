@@ -19,7 +19,7 @@ acti-a88,ACTi,A88,bullet,5MP,5,"1/2.7"" CMOS",95 horizontal,ir,IP67,false,
 acti-b416,ACTi,B416,bullet,4K UHD,8,"1/2.8"" CMOS",,ir,IP68,false,
 acti-i68,ACTi,I68,ptz,1080p FHD,2,"1/2.8"" CMOS",,ir,IP66,true,
 acti-kcm-5611,ACTi,KCM-5611,box,1080p FHD,2,"1/2.8"" CMOS",,ir,IP66,true,
-acti-q416,ACTi,Q416,fisheye,12MP,12,"1/1.7"" CMOS",180 horizontal,ir,IP66,true,
+acti-q416,ACTi,Q416,fisheye,12MP UHD,12,"1/1.7"" CMOS",180 horizontal,ir,IP66,true,
 acti-y31,ACTi,Y31,bullet,2MP,2,"1/3"" CMOS",,ir,IP67,,
 acti-y32,ACTi,Y32,bullet,5MP,5,"1/2.7"" CMOS",,ir,IP67,,
 acti-y35,ACTi,Y35,bullet,2MP,2,"1/3"" CMOS",,ir,IP67,,
@@ -31,7 +31,6 @@ acti-z84,ACTi,Z84,dome,1080p FHD,2,"1/2.8"" CMOS",110 horizontal,ir,,true,
 adt-command-indoor-cam,ADT,ADT+ Indoor Camera,dome,2K QHD,4,,124 diagonal,color,IP20,true,2023
 adt-command-outdoor-cam,ADT,ADT+ Outdoor Camera,bullet,2K QHD,4,,140 horizontal,color,IP65,true,2023
 adt-doorbell-cam-v2,ADT,ADT+ Video Doorbell,doorbell,1080p HD,2,,150h,ir,IP44,true,2023
-adt-indoor-cam-v2,ADT,ADT+ Indoor Camera,dome,1080p HD,2,,120h,ir,IP20,true,2023
 adt-plus-floodlight-cam,ADT,ADT+ Floodlight Camera,bullet,2K QHD,4,,150 horizontal,color,IP65,true,2024
 ajax-dualcam,Ajax,DualCam,dome,2K dual camera,4,,105 wide + 45 tele,ir,IP55,true,2024
 ajax-outdoor-cam-multisensor,Ajax,OutdoorCam,bullet,4K UHD,8,,107 horizontal,color,IP66,true,2024
@@ -63,7 +62,7 @@ annke-ac400,Annke,AC400,bullet,4MP,4,,,ir,IP67,false,2023
 annke-ac500,Annke,AC500,turret,5MP 3K,5,"1/2.7"" CMOS",105 horizontal,hybrid,IP67,true,2023
 annke-ac800,Annke,AC800,bullet,4K UHD,8,"1/1.8"" Progressive Scan CMOS",102 horizontal,hybrid,IP67,true,2022
 annke-ac800p,Annke,AC800P,ptz,4K UHD,8,,,ir,IP67,true,2023
-annke-c1200,Annke,C1200,turret,12MP,12,"1/1.7"" CMOS",,ir,IP67,false,2024
+annke-c1200,Annke,C1200,turret,12MP UHD,12,"1/1.7"" CMOS",,ir,IP67,false,2024
 annke-c500,Annke,C500,bullet,5MP 3K,5,"OmniVision 1/2.7"" CMOS",100 horizontal (2.8mm),ir,IP67,false,2021
 annke-c700,Annke,C700,bullet,5MP,5,,103h,ir,IP67,false,2021
 annke-c800-bullet,Annke,C800 (Bullet),bullet,4K UHD,8,"1/2.7"" CMOS",96 horizontal (4mm),ir,IP67,false,2020
@@ -106,12 +105,10 @@ arlo-pro-5s-4k-ultra,Arlo,Pro 5S 4K Ultra,dome,4K UHD HDR,8,,180 horizontal,colo
 arlo-pro-5s-au,Arlo,Pro 5S (Australia),dome,2K QHD,4,,160 diagonal,color,IP65,true,2024
 arlo-pro-5s-ca,Arlo,Pro 5S (Canada),dome,2K QHD,4,,160 diagonal,color,IP65,true,2024
 arlo-pro-5s-eu,Arlo,Pro 5S (EU),dome,2K QHD,4,,160 diagonal,color,IP65,true,2024
-arlo-pro-5s-spotlight,Arlo,Pro 5S 2K Spotlight,dome,2K QHD,4,,160 diagonal,color,IP65,true,2024
 arlo-pro-5s-uk,Arlo,Pro 5S (UK),dome,2K QHD,4,,160 diagonal,color,IP65,true,2024
 arlo-security-light,Arlo,Security Light,bullet,2K QHD,4,,130 diagonal,color,IP65,true,2024
 arlo-solar-panel-cam,Arlo,Solar Panel Cam,bullet,2K QHD,4,,130 diagonal,color,IP65,true,2024
 arlo-ultra,Arlo,Ultra,dome,4K UHD,8,,180 diagonal,color,IP65,true,2019
-arlo-ultra-2,Arlo,Ultra 2 Spotlight,dome,4K UHD,8,,180 diagonal,color,IP65,true,2021
 arlo-ultra-2-spotlight,Arlo,Ultra 2 Spotlight,dome,4K UHD,8,,180 diagonal,color,IP65,true,2021
 arlo-video-doorbell-hd,Arlo,Video Doorbell HD,doorbell,2K QHD,4,,180 diagonal,color,IP55,true,2023
 arlo-wired-doorbell-2nd-gen,Arlo,Video Doorbell Wired (2nd Gen),doorbell,2K QHD,4,,180 diagonal,color,IP55,true,2024
@@ -151,13 +148,11 @@ axis-m3077-plve,Axis,M3077-PLVE,panoramic,6MP,6,"1/1.8"" Progressive Scan CMOS",
 axis-m3085-v,Axis,M3085-V,dome,1080p,2,"1/2.8"" Progressive Scan CMOS",95-50 horizontal,ir,IP42,false,2022
 axis-m3086-v,Axis,M3086-V,dome,4MP,4,"1/2.8"" Progressive Scan CMOS",105 horizontal,none,IP42,false,2023
 axis-m3088-v,Axis,M3088-V,dome,4K UHD,8,"1/2.7"" Progressive Scan CMOS",101 horizontal,none,IP42,false,2024
-axis-m3106-l-mk-ii,Axis,M3106-L Mk II,dome,4MP,4,"1/3"" Progressive Scan CMOS",112 horizontal,none,IK08,false,2019
-axis-m3106-l-mkii,Axis,M3106-L Mk II,dome,4MP,4,"1/3"" Progressive Scan CMOS",108 horizontal,ir,IP42,false,
-axis-m3106-lve,Axis,M3106-LVE Mk II,dome,4MP,4,"1/3"" Progressive Scan CMOS",100-35 horizontal,ir,IP66,false,
+axis-m3106-l-mk-ii,Axis,M3106-L Mk II,dome,4MP,4,"1/3"" Progressive Scan CMOS",112 horizontal,none,,false,2019
 axis-m3106-lve-mk-ii,Axis,M3106-LVE Mk II,dome,4MP,4,"1/2.7"" Progressive Scan CMOS",107-36 horizontal,ir,IP66,false,
 axis-m3106-ma-mk2,Axis,M3106-MA Mk II,dome,4MP,4,,112h,ir,IP66,false,2020
 axis-m3115-lve,Axis,M3115-LVE,dome,1080p,2,"1/2.9"" Progressive Scan CMOS",90 horizontal,ir,IP66,false,
-axis-m3116-lve,Axis,M3116-LVE,dome,12MP,12,"1/1.7"" Progressive Scan CMOS",183 horizontal (fisheye-corrected),ir,IP66,false,
+axis-m3116-lve,Axis,M3116-LVE,dome,12MP UHD,12,"1/1.7"" Progressive Scan CMOS",183 horizontal (fisheye-corrected),ir,IP66,false,
 axis-m4216-lv,Axis,M4216-LV,dome,4MP,4,"1/2.7"" Progressive Scan CMOS",100-35 horizontal,ir,IP42,false,2024
 axis-m4216-v,Axis,M4216-V,dome,4MP,4,"1/2.7"" Progressive Scan CMOS",100-35 horizontal,none,IP42,false,2024
 axis-m4317-plve,Axis,M4317-PLVE,panoramic,6MP,6,"1/1.8"" Progressive Scan CMOS",360 horizontal,ir,IP66,false,2023
@@ -183,18 +178,18 @@ axis-p3267-lv,Axis,P3267-LV,dome,4K UHD,7,"1/1.8"" Progressive Scan CMOS",100-36
 axis-p3267-lve,Axis,P3267-LVE,dome,4K UHD,7,"1/1.8"" Progressive Scan CMOS",100-36 horizontal,ir,IP52,false,2023
 axis-p3268-lve,Axis,P3268-LVE,dome,4K UHD,8,,95-28h,ir,IP66,false,2023
 axis-p3344,Axis,P3344-V,dome,1080p HD,2,,100-33h,ir,IP66,false,2011
-axis-p3727-ple,Axis,P3727-PLE,panoramic,4x2MP multisensor,8,"4x 1/2.8"" Progressive Scan CMOS",360 (wall/ceiling mount),ir,IP66,false,
+axis-p3727-ple,Axis,P3727-PLE,panoramic,4x2MP multisensor,24,"4x 1/2.8"" Progressive Scan CMOS",360 (wall/ceiling mount),ir,IP66,false,
 axis-p3737-ple,Axis,P3737-PLE,panoramic,4x5MP multisensor,20,"4x 1/2.8"" Progressive Scan CMOS",360 (wall/ceiling),ir,IP66,false,
 axis-p3818-pve,Axis,P3818-PVE,panoramic,4x5MP multisensor,20,"4x 1/2.8"" CMOS",360,none,IP66,false,
-axis-p5655-e,Axis,P5655-E,ptz,1080p HD,2,,55-1.7h,none,IP66,false,2019
+axis-p5655-e,Axis,P5655-E,ptz,1080p HD,2,,55-1.7h,ir,IP66,false,2019
 axis-p5676-le,Axis,P5676-LE,ptz,4MP,4,"1/2.8"" Progressive Scan CMOS",57.9-2.4 horizontal,ir,IP66,false,
 axis-p5676-le-mkii,Axis,P5676-LE MKII,ptz,4K UHD,8,"1/2.5"" Progressive Scan CMOS",56.5-5.1 horizontal,ir,IP66,false,2024
 axis-q1656,Axis,Q1656,box,4K UHD,8,"1/1.7"" Progressive Scan CMOS",,none,IP42,false,
 axis-q1656-be,Axis,Q1656-BE,box,4K UHD,8,"1/1.7"" Progressive Scan CMOS",,none,IP66,false,
 axis-q1785-le,Axis,Q1785-LE,bullet,1080p,2,"1/2.9"" Progressive Scan CMOS",100-36 horizontal,ir,IP66,false,
-axis-q1942-e,Axis,Q1942-E,bullet,640x480 thermal,0,Thermal VOx LWIR uncooled microbolometer,,none,IP66,false,
+axis-q1942-e,Axis,Q1942-E,bullet,640x480 thermal,0.3,Thermal VOx LWIR uncooled microbolometer,,none,IP66,false,
 axis-q1952-e,Axis,Q1952-E,bullet,640x480 thermal,0.3,Uncooled microbolometer,61 horizontal,none,IP66,false,2022
-axis-q2101-e,Axis,Q2101-E Thermal,bullet,384×288 thermal,0,Uncooled microbolometer LWIR,45 horizontal (10mm),none,IP66,false,2021
+axis-q2101-e,Axis,Q2101-E Thermal,bullet,384×288 thermal,0.08,Uncooled microbolometer LWIR,45 horizontal (10mm),none,IP66,false,2021
 axis-q3527-lve,Axis,Q3527-LVE,dome,5MP,5,"1/2.7"" Progressive Scan CMOS",100-35 horizontal,ir,IP66,true,
 axis-q3536-lve,Axis,Q3536-LVE,dome,4K UHD,8,"1/1.8"" Progressive Scan CMOS",100-35 horizontal,ir,IP66,false,
 axis-q3538-lve,Axis,Q3538-LVE,dome,4K UHD,8,"1/1.2"" Progressive Scan RGB CMOS",60-31 horizontal,ir,IP66,false,
@@ -230,7 +225,7 @@ bosch-nbe-5702-al,Bosch,DINION 5100i 2MP Bullet (NBE-5702-AL),bullet,1080p,2,"1/
 bosch-nbe-5703-al,Bosch,DINION 5100i 5MP Bullet (NBE-5703-AL),bullet,5MP,5,"1/2.7"" CMOS",96-29 horizontal,ir,IP67,true,
 bosch-nbe-7702-alxt,Bosch,FLEXIDOME 7000i Bullet (NBE-7702-ALXT),bullet,1080p,2,"1/2.8"" CMOS",31-8 horizontal,ir,IP67,false,
 bosch-nbe-7703-al,Bosch,FLEXIDOME 7000i Outdoor (NBE-7703-AL),bullet,1080p HD,2,"1/2.8"" CMOS (starlight)",35-14 horizontal (tele),none,IP66,true,2021
-bosch-nbn-9122-p,Bosch,DINION IP 12MP (NBN-9122-P),box,12MP,12,"2/3"" Progressive Scan CMOS",,none,IP31,false,
+bosch-nbn-9122-p,Bosch,DINION IP 12MP (NBN-9122-P),box,12MP UHD,12,"2/3"" Progressive Scan CMOS",,none,IP31,false,
 bosch-ndc-8502-r-ooh,Bosch,FLEXIDOME 8000i 4K Outdoor Dome,dome,4K UHD,8,"1/1.8"" CMOS (starlight)",100-33 horizontal,ir,IP66,true,2023
 bosch-nde-5503-al,Bosch,FLEXIDOME IP outdoor 5000i (NDE-5503-AL),dome,5MP,5,"1/2.9"" Progressive Scan CMOS",98-29 horizontal,ir,IP66,false,
 bosch-nde-5702-al,Bosch,FLEXIDOME outdoor 5100i 2MP (NDE-5702-AL),dome,1080p,2,"1/2.8"" CMOS",105-31 horizontal,ir,IP66,true,
@@ -269,7 +264,7 @@ costar-cdi-5312irv,Costar,CDI-5312IRV,dome,5MP,5,"1/2.7"" CMOS",,ir,IP66,false,
 costar-conteraip-bullet-8mp,Costar,ConteraIP Bullet 8MP,bullet,4K UHD,8,"1/2.8"" CMOS",,ir,IP67,true,
 costar-conteraip-dome-5mp,Costar,ConteraIP Dome 5MP,dome,5MP,5,"1/2.7"" CMOS",,ir,IP66,true,
 costar-conteraip-dome-8mp,Costar,ConteraIP Dome 8MP,dome,4K UHD,8,"1/2.8"" CMOS",,ir,IP66,true,
-costar-conteraip-panoramic-12mp,Costar,ConteraIP Panoramic 12MP,panoramic,12MP,12,"1/1.7"" CMOS",,ir,IP66,true,
+costar-conteraip-panoramic-12mp,Costar,ConteraIP Panoramic 12MP,panoramic,12MP UHD,12,"1/1.7"" CMOS",,ir,IP66,true,
 cp-plus-cp-e35q,CP Plus,CP-E35Q,ptz,3MP 2K,3,"1/2.7"" CMOS",355 pan / 90 tilt,color,IP20,true,2023
 cp-plus-cp-e45q-india,CP Plus,CP-E45Q,ptz,4MP,4,,60-2.5h,ir,IP66,false,2021
 cp-plus-cp-unc-ba41pl3,CP Plus,CP-UNC-BA41PL3,bullet,4MP,4,,103h,color,IP67,false,2022
@@ -284,9 +279,9 @@ cp-plus-cp-unc-ta41l3c-d-lq,CP Plus,CP-UNC-TA41L3C-D-LQ,bullet,4MP,4,"1/2.7"" CM
 cp-plus-cp-unc-ta81pl3,CP Plus,CP-UNC-TA81PL3,turret,4K UHD,8,,107h,color,IP67,false,2022
 cp-plus-cp-unc-wi41pl3,CP Plus,CP-UNC-WI41PL3,bullet,4MP,4,,107h,color,IP66,false,2023
 cp-plus-cp-z43q,CP Plus,CP-Z43Q,ptz,4MP QHD,4,"1/2.7"" CMOS",360 pan / 90 tilt,color,IP66,true,2024
-cp-plus-cp-z43q-2,CP Plus,CP-Z43Q,ptz,4MP,4,,60-2.5h,ir,IP66,false,2022
 dahua-dh-sd49425xb-hnr,Dahua,SD49425XB-HNR,ptz,4MP,4,"1/2.8"" STARVIS CMOS",60-2.5 horizontal,ir,IP66,false,2023
 dahua-dh-sd6al245xa-hnr,Dahua,DH-SD6AL245XA-HNR,ptz,4MP,4,"1/2.8"" Starlight CMOS",,ir,IP67,true,2023
+dahua-dh-sdt7425-4p-ad3e-pv-i,Dahua,DH-SDT7425-4P-AD3E-PV-i,ptz,Dual: 4MP panoramic (3840x1080) + 4MP PTZ (2560x1440),4,"2x 1/2.8"" CMOS (panoramic + PTZ)",180 horizontal (panoramic) / 55.8-2.4 (PTZ),hybrid,IP66,true,2022
 dahua-hac-hdw1509tq-a-led,Dahua,HAC-HDW1509TQ-A-LED,dome,5MP HD,5,,107h,color,IP67,false,2022
 dahua-hac-hfw1509th-a-led,Dahua,HAC-HFW1509TH-A-LED,bullet,5MP HD,5,,107h,color,IP67,false,2022
 dahua-hac-hfw2802e-led,Dahua,HAC-HFW2802E-LED,bullet,4K UHD,8,,107h,color,IP67,false,2023
@@ -327,7 +322,6 @@ dahua-ipc-hdw3849h-as-pv-mena,Dahua,IPC-HDW3849H-AS-PV (MENA),turret,4K UHD,8,"1
 dahua-ipc-hdw3849h-as-pv-pro,Dahua,IPC-HDW3849H-AS-PV-PRO,turret,4K UHD,8,"1/1.8"" CMOS",,hybrid,IP67,true,
 dahua-ipc-hdw3849h-as-pv-uk,Dahua,IPC-HDW3849H-AS-PV (UK market),turret,4K UHD,8,"1/2.8"" CMOS",113 horizontal,hybrid,IP67,true,2023
 dahua-ipc-hdw3849h-zas-pv,Dahua,IPC-HDW3849H-ZAS-PV,turret,4K UHD,8,"1/2.8"" CMOS",,hybrid,IP67,true,
-dahua-ipc-hdw3849h-zas-pv-varifocal,Dahua,IPC-HDW3849H-ZAS-PV,turret,4K UHD,8,,110-30h,hybrid,IP67,true,2023
 dahua-ipc-hdw5442t-ze,Dahua,IPC-HDW5442T-ZE,turret,4MP,4,,110-30h,ir,IP67,false,2023
 dahua-ipc-hdw5442tm-ase,Dahua,IPC-HDW5442TM-ASE,turret,4MP,4,"1/1.8"" Progressive Scan CMOS",,ir,IP67,false,
 dahua-ipc-hdw5449h-ase-d2,Dahua,IPC-HDW5449H-ASE-D2,dome,4MP,4,"1/1.8"" CMOS",,hybrid,IP67,true,2024
@@ -335,7 +329,7 @@ dahua-ipc-hdw5842t-ze,Dahua,IPC-HDW5842T-ZE,turret,4K UHD,8,"1/2.8"" CMOS",,ir,I
 dahua-ipc-hdw5842t-ze-led,Dahua,IPC-HDW5842T-ZE-LED,turret,4K UHD,8,"1/1.8"" CMOS",,color,IP67,false,
 dahua-ipc-hdw5849t1-ze-led,Dahua,IPC-HDW5849T1-ZE-LED,turret,4K UHD,8,"1/1.2"" CMOS",110-30 horizontal,color,IP67,false,2024
 dahua-ipc-hdw7842h-z4-x,Dahua,IPC-HDW7842H-Z4-X,turret,4K UHD,8,,83-15h,ir,IP67,false,2022
-dahua-ipc-hf71242f-z-x,Dahua,IPC-HF71242F-Z-X,box,12MP,12,"1/1.7"" Progressive Scan CMOS",,none,IP42,false,2024
+dahua-ipc-hf71242f-z-x,Dahua,IPC-HF71242F-Z-X,box,12MP UHD,12,"1/1.7"" Progressive Scan CMOS",,none,IP42,false,2024
 dahua-ipc-hfw1239s1-led-s6,Dahua,IPC-HFW1239S1-LED-S6,bullet,1080p HD,2,,107h,color,IP67,false,2024
 dahua-ipc-hfw1439s-led-s4,Dahua,IPC-HFW1439S-LED-S4,bullet,4MP,4,,107h,color,IP67,false,2022
 dahua-ipc-hfw1439s1-led,Dahua,IPC-HFW1439S1-LED,bullet,4MP,4,,107h,color,IP67,false,2021
@@ -366,12 +360,10 @@ dahua-ipc-hfw3841e-zas,Dahua,IPC-HFW3841E-ZAS,bullet,4K UHD,8,,106-30h,ir,IP67,f
 dahua-ipc-hfw3849e-as-il,Dahua,IPC-HFW3849E-AS-IL,bullet,4K UHD,8,"1/2.7"" CMOS",,hybrid,IP67,false,
 dahua-ipc-hfw3849e-as-led-4k,Dahua,IPC-HFW3849E-AS-LED,bullet,4K UHD,8,"1/2.7"" CMOS",,color,IP67,false,
 dahua-ipc-hfw3849e-as-led-s2,Dahua,IPC-HFW3849E-AS-LED-S2,bullet,4K UHD,8,"1/2.7"" CMOS",,color,IP67,false,2024
-dahua-ipc-hfw3849e-as-led-s2-new,Dahua,IPC-HFW3849E-ZAS-LED-S2,bullet,4K UHD,8,"1/2.7"" CMOS",110-30 horizontal,color,IP67,false,2024
 dahua-ipc-hfw3849e-s-il,Dahua,IPC-HFW3849E-S-IL,bullet,4K UHD,8,"1/2.7"" CMOS",,hybrid,IP67,false,
+dahua-ipc-hfw3849e-zas-led-s2,Dahua,IPC-HFW3849E-ZAS-LED-S2,bullet,4K UHD,8,"1/2.7"" CMOS",110-30 horizontal,color,IP67,false,2024
 dahua-ipc-hfw3849t-as-pv-pro-legacy,Dahua,IPC-HFW3849T1-AS-PV-PRO,bullet,4K UHD,8,"1/1.8"" CMOS",,hybrid,IP67,true,
 dahua-ipc-hfw3849t1-as-pv,Dahua,IPC-HFW3849T1-AS-PV,bullet,4K UHD,8,"1/2.8"" CMOS",,hybrid,IP67,true,
-dahua-ipc-hfw3849t1-as-pv-pro,Dahua,IPC-HFW3849T1-AS-PV-PRO,bullet,4K UHD,8,,107h,hybrid,IP67,true,2024
-dahua-ipc-hfw3849t1-as-pv-s3,Dahua,IPC-HFW3849T1-AS-PV,bullet,4K UHD,8,,110h,hybrid,IP67,true,2023
 dahua-ipc-hfw3849t1-zas-pv,Dahua,IPC-HFW3849T1-ZAS-PV,bullet,4K UHD,8,"1/2.8"" CMOS",,hybrid,IP67,true,
 dahua-ipc-hfw5442e-ze,Dahua,IPC-HFW5442E-ZE,bullet,4MP,4,"1/1.8"" Progressive Scan CMOS",,ir,IP67,false,
 dahua-ipc-hfw5442e-ze-s3,Dahua,IPC-HFW5442E-ZE-S3,bullet,4MP,4,,110-30h,ir,IP67,false,2023
@@ -391,11 +383,9 @@ dahua-ipc-pt8849-a180,Dahua,IPC-PT8849-A180,panoramic,4K 180° multisensor,8,,18
 dahua-itc237-pw1b-irz-lr,Dahua,ITC237-PW1B-IRZ-LR,bullet,2MP LPR,2,"1/2.8"" CMOS",,ir,IP67,false,2023
 dahua-sd49225xa-hnr-mena,Dahua,SD49225XA-HNR (MENA),ptz,1080p HD,2,"1/2.8"" STARVIS CMOS",60-2.5 horizontal,ir,IP66,false,2022
 dahua-sd49225xb-hnr,Dahua,SD49225XB-HNR,ptz,1080p,2,"1/2.8"" CMOS",60-2.5 horizontal,ir,IP66,false,
-dahua-sd49425xb-hnr,Dahua,SD49425XB-HNR 4MP 25x PTZ,ptz,4MP,4,"1/2.8"" CMOS",60.3-2.6 horizontal,ir,IP66,false,
 dahua-sd49825gb-hnr,Dahua,SD49825GB-HNR,ptz,4K UHD,8,"1/2.8"" CMOS",60-2.5h,ir,IP66,false,2023
 dahua-sd5a432gb-hnr,Dahua,SD5A432GB-HNR,ptz,4MP,4,"1/2.8"" CMOS",,ir,IP66,false,
 dahua-sd6c3432xb-hnr-a-pv1,Dahua,SD6C3432XB-HNR-A-PV1,ptz,4MP,4,"1/2.8"" CMOS",,hybrid,IP66,true,
-dahua-sd6c3432xb-hnr-active,Dahua,SD6C3432XB-HNR-A-PV1-new,ptz,4MP,4,"1/2.8"" CMOS",60-2h,color,IP66,false,2024
 eufy-e340-eufycam-dual,Eufy,EufyCam E340 (Dual-lens),dual-lens,4K+2K dual-lens,8,,360 combined pan/tilt,color,IP67,true,2025
 eufy-eufycam-2-pro,Eufy,EufyCam 2 Pro,bullet,2K QHD,4,,140 diagonal,ir,IP67,true,2020
 eufy-eufycam-2c,Eufy,EufyCam 2C,bullet,1080p HD,2,,135 diagonal,ir,IP67,true,2020
@@ -473,7 +463,7 @@ geovision-gv-adr2702,GeoVision,GV-ADR2702,dome,1080p,2,"1/2.8"" Progressive Scan
 geovision-gv-adr4702,GeoVision,GV-ADR4702,dome,4MP,4,"1/2.7"" Progressive Scan CMOS",102 horizontal,ir,IP67,false,2022
 geovision-gv-adr8802,GeoVision,GV-ADR8802,dome,4K UHD,8,"1/1.8"" Progressive Scan CMOS",112 horizontal,ir,IP67,false,2023
 geovision-gv-bl2702,GeoVision,GV-BL2702,bullet,1080p,2,"1/2.8"" Progressive Scan CMOS",84 horizontal,ir,IP66,false,2020
-geovision-gv-efer3700,GeoVision,GV-EFER3700,fisheye,3MP Fisheye,3,"1/2.8"" Progressive Scan CMOS",360 horizontal,ir,IP66,false,2021
+geovision-gv-efer3700,GeoVision,GV-EFER3700,fisheye,4MP Fisheye,4,"1/2.8"" Progressive Scan CMOS",360 horizontal,ir,IP66,false,2021
 geovision-gv-sd2322-ir,GeoVision,GV-SD2322-IR,ptz,1080p,2,"1/2.8"" Progressive Scan CMOS",57.6-2.8 horizontal,ir,IP66,false,2021
 geovision-gv-sd4825-ir,GeoVision,GV-SD4825-IR,ptz,4MP,4,"1/2.5"" Progressive Scan CMOS",58-2.6 horizontal,ir,IP66,false,2022
 geovision-gv-sd8834-ir,GeoVision,GV-SD8834-IR,ptz,4K UHD,8,"1/1.8"" Progressive Scan CMOS",54-2.1 horizontal,ir,IP66,false,2023
@@ -487,9 +477,7 @@ godrej-eve-pro-outdoor,Godrej,Eve Pro Outdoor,bullet,3MP 2K,3,CMOS,107 horizonta
 google-nest-cam-battery-1st-gen,Google,"Nest Cam (Battery, 1st Gen)",dome,1080p,2,"1/2.8"" CMOS",130 diagonal,ir,IP54,true,2021
 google-nest-cam-battery-2,Google,Nest Cam (Battery) 2nd Gen,bullet,1080p HD,2,,130h,ir,IP54,true,2024
 google-nest-cam-battery-2021,Google,"Nest Cam (Battery, 2nd Gen)",dome,1080p,2,"1/2.8"" CMOS",130 diagonal,ir,IP54,true,2021
-google-nest-cam-battery-2nd,Google,Nest Cam (Battery) 2nd Gen,bullet,1080p HD,2,,130h,ir,IP54,true,2024
 google-nest-cam-floodlight-wire,Google,Nest Cam with Floodlight (Wired 2nd Gen),bullet,1080p HD,2,,130h,color,IP54,true,2024
-google-nest-cam-floodlight-wired,Google,Nest Cam with Floodlight (Wired 2nd Gen),bullet,1080p HD,2,,130h,color,IP54,true,2024
 google-nest-cam-indoor-1st-gen,Google,Nest Cam Indoor (1st Gen),dome,1080p,3,"1/3"" CMOS",130 diagonal,ir,,true,2015
 google-nest-cam-indoor-3rd-gen,Google,"Nest Cam Indoor (Wired, 3rd Gen)",dome,2K QHD,4,"CMOS (upgraded, wider aperture)",152 diagonal,ir,IP20,true,2025
 google-nest-cam-iq-indoor,Google,Nest Cam IQ Indoor,dome,4K sensor (1080p streaming),8,"1/2.5"" 4K CMOS",130 diagonal,ir,,true,2017
@@ -498,13 +486,11 @@ google-nest-cam-outdoor-1st-gen,Google,Nest Cam Outdoor (1st Gen),bullet,1080p,3
 google-nest-cam-outdoor-2nd-gen,Google,"Nest Cam Outdoor (Wired, 2nd Gen)",bullet,2K QHD,4,CMOS (new wider aperture sensor),152 diagonal,color,IP54,true,2025
 google-nest-cam-outdoor-2nd-gen-eu,Google,"Nest Cam Outdoor (Wired, 2nd Gen) EU",bullet,2K QHD,4,CMOS,152 diagonal,color,IP54,true,2025
 google-nest-cam-outdoor-wire,Google,Nest Cam Outdoor (Wired),bullet,1080p HD,2,,130h,ir,IP54,true,2021
-google-nest-cam-outdoor-wired,Google,Nest Cam Outdoor (Wired),bullet,1080p HD,2,,130h,ir,IP54,true,2021
 google-nest-cam-ptz-indoor,Google,"Nest Cam (Wired, Indoor Pan/Tilt)",ptz,1080p HD,2,,130h,ir,IP20,true,2022
 google-nest-cam-wired-2021,Google,"Nest Cam (Wired, 2nd Gen)",dome,1080p,2,"1/2.8"" CMOS",130 diagonal,ir,IP54,true,2021
 google-nest-cam-with-floodlight,Google,Nest Cam with Floodlight,bullet,1080p HD,2,CMOS,145 diagonal,color,IP54,true,2022
 google-nest-doorbell-3rd-gen,Google,"Nest Doorbell (Wired, 3rd Gen)",doorbell,2K HDR (2048x2048),4,CMOS,166 diagonal (wider + taller vs Gen 2),color,IP44,true,2025
 google-nest-doorbell-battery,Google,Nest Doorbell (Battery),doorbell,960×1280 HD,2,,135h,ir,IP54,true,2021
-google-nest-doorbell-wired-2021,Google,"Nest Doorbell (Wired, 2nd Gen)",doorbell,1080p,2,"1/2.8"" CMOS",145 diagonal,ir,IP54,true,2021
 google-nest-doorbell-wired-2nd-gen,Google,"Nest Doorbell (Wired, 2nd Gen)",doorbell,960x1280 HD,2,CMOS,145 diagonal,ir,IP44,true,2022
 google-nest-doorbell-wired-2nd-gen-uk,Google,"Nest Doorbell (Wired, 2nd Gen) UK",doorbell,960x1280 HD,2,,145 diagonal,ir,IP44,true,2022
 hanwha-and-l7082r,Hanwha,AND-L7082R,dome,4MP,4,"1/3"" Progressive Scan CMOS",98 horizontal,ir,IP66,false,2023
@@ -526,7 +512,7 @@ hanwha-pnv-a9300rvw,Hanwha,PNV-A9300RVW,dome,4MP,4,,107h,color,IP66,false,2024
 hanwha-qnd-6082r,Hanwha,QND-6082R,dome,1080p,2,"1/2.8"" Progressive Scan CMOS",105-32 horizontal,ir,IP66,false,
 hanwha-qnd-6082r1,Hanwha,QND-6082R1,dome,1080p,2,"1/2.8"" Progressive Scan CMOS",105-32 horizontal,ir,IP66,false,
 hanwha-qnd-8020r,Hanwha,QND-8020R,dome,5MP,5,,110h,ir,IP42,false,2021
-hanwha-qnd-8080r-kr,Hanwha,QND-8080R (Korea),dome,5MP,5,"1/2.8"" CMOS",110 horizontal,ir,IK10,false,2020
+hanwha-qnd-8080r-kr,Hanwha,QND-8080R (Korea),dome,5MP,5,"1/2.8"" CMOS",110 horizontal,ir,,false,2020
 hanwha-qnd-9080r,Hanwha,QND-9080R,dome,4MP,4,,108-37h,ir,IP66,false,2022
 hanwha-qnd-c9083r,Hanwha,QND-C9083R,dome,4MP,4,,109-42h,color,IP66,false,2023
 hanwha-qne-8021r,Hanwha,QNE-8021R,turret,5MP,5,"1/2.8"" Progressive Scan CMOS",104 horizontal,ir,IP67,false,2022
@@ -544,7 +530,7 @@ hanwha-qnv-8080r,Hanwha,QNV-8080R,dome,5MP,5,"1/2.8"" Progressive Scan CMOS",100
 hanwha-qnv-8080r-mena,Hanwha,QNV-8080R (MENA),dome,5MP,5,"1/2.8"" Progressive Scan CMOS",100-31 horizontal,ir,IP66,false,2019
 hanwha-qnv-8080rb,Hanwha,QNV-8080R (Bullet),bullet,5MP,5,,102-42h,ir,IP66,false,2020
 hanwha-qnv-9080r,Hanwha,QNV-9080R,dome,4K UHD,8,"1/2.8"" Progressive Scan CMOS",103-30 horizontal,ir,IP66,false,
-hanwha-qnv-a9402r,Hanwha,QNV-A9402R,dome,5MP,5,"1/2.8"" CMOS",110 horizontal,ir,IK10,false,2025
+hanwha-qnv-a9402r,Hanwha,QNV-A9402R,dome,5MP,5,"1/2.8"" CMOS",110 horizontal,ir,,false,2025
 hanwha-qnv-a9402r-wi,Hanwha,QNV-A9402R-WI,dome,5MP,5,,110h,ir,IP42,false,2025
 hanwha-qnv-c9083r,Hanwha,QNV-C9083R,dome,4MP,4,,109-42h,color,IP66,false,2023
 hanwha-qpt-7230,Hanwha,QPT-7230,ptz,1080p,2,"1/2.8"" Progressive Scan CMOS",,ir,IP66,false,
@@ -598,7 +584,7 @@ hikvision-ds-2cd1153g2-liuf,Hikvision,DS-2CD1153G2-LIUF,turret,5MP,5,,107h,ir,IP
 hikvision-ds-2cd1183g2-liuf,Hikvision,DS-2CD1183G2-LIUF,turret,4K UHD,8,,107h,ir,IP67,false,2023
 hikvision-ds-2cd2023g0-i,Hikvision,DS-2CD2023G0-I,bullet,1080p HD,2,,103h,ir,IP67,false,2019
 hikvision-ds-2cd2023g2-iu,Hikvision,DS-2CD2023G2-I(U),bullet,1080p HD,2,,103h,ir,IP67,false,2021
-hikvision-ds-2cd2025fwd-i,Hikvision,DS-2CD2025FWD-I,bullet,1080p HD,2,,103h,none,IP67,false,2019
+hikvision-ds-2cd2025fwd-i,Hikvision,DS-2CD2025FWD-I,bullet,1080p HD,2,,103h,ir,IP67,false,2019
 hikvision-ds-2cd2027g2-lu,Hikvision,DS-2CD2027G2-LU,bullet,1080p,2,"1/2.8"" Progressive Scan CMOS",103 horizontal (2.8mm),color,IP67,false,
 hikvision-ds-2cd2027g2h-liu,Hikvision,DS-2CD2027G2H-LI(U),bullet,1080p,2,"1/2.8"" CMOS",103 horizontal (2.8mm),hybrid,IP67,false,2024
 hikvision-ds-2cd2043g2-i,Hikvision,DS-2CD2043G2-I,bullet,4MP,4,"1/3"" Progressive Scan CMOS",103 horizontal (2.8mm) / 84 horizontal (4mm),ir,IP67,false,
@@ -646,7 +632,7 @@ hikvision-ds-2cd2347g2h-liu,Hikvision,DS-2CD2347G2H-LI(U),turret,4MP,4,"1/1.8"" 
 hikvision-ds-2cd2367g2-l,Hikvision,DS-2CD2367G2-L,dome,6MP,6,"1/1.7"" CMOS",103 horizontal (2.8mm),color,IP67,false,
 hikvision-ds-2cd2383g2-i,Hikvision,DS-2CD2383G2-I,turret,4K UHD,8,"1/2.8"" Progressive Scan CMOS",102 horizontal,ir,IP67,false,
 hikvision-ds-2cd2383g2-li,Hikvision,DS-2CD2383G2-LI,turret,4K UHD,8,"1/2.7"" CMOS",102 horizontal (2.8mm),hybrid,IP67,false,
-hikvision-ds-2cd2385g1-i,Hikvision,DS-2CD2385G1-I,covert,4K UHD,8,"1/2.7"" CMOS",107 horizontal,ir,IP66,false,2020
+hikvision-ds-2cd2385g1-i,Hikvision,DS-2CD2385G1-I,turret,4K UHD,8,"1/2.7"" CMOS",107 horizontal,ir,IP66,false,2020
 hikvision-ds-2cd2386g2-i,Hikvision,DS-2CD2386G2-I,dome,4K UHD,8,"1/2.8"" Progressive Scan CMOS",102 horizontal (2.8mm),ir,IP67,false,
 hikvision-ds-2cd2386g2-isu-sl2,Hikvision,DS-2CD2386G2-ISU/SL,dome,4K UHD,8,"1/2.8"" Progressive Scan CMOS",102 horizontal (2.8mm),ir,IP67,true,
 hikvision-ds-2cd2386g2-iu,Hikvision,DS-2CD2386G2-IU,dome,4K UHD,8,"1/2.8"" Progressive Scan CMOS",102 horizontal (2.8mm),ir,IP67,false,
@@ -655,7 +641,7 @@ hikvision-ds-2cd2387g2-lu-au,Hikvision,DS-2CD2387G2-L(U) (Australia),turret,4K U
 hikvision-ds-2cd2387g2-lu-mena,Hikvision,DS-2CD2387G2-L(U)K (MENA),turret,4K UHD,8,"1/1.2"" Progressive Scan CMOS",102 horizontal (2.8mm),color,IP67,false,2022
 hikvision-ds-2cd2387g2h-liu,Hikvision,DS-2CD2387G2H-LI(U),turret,4K UHD,8,"1/1.2"" CMOS",102 horizontal (2.8mm),hybrid,IP67,true,2024
 hikvision-ds-2cd2427g2h-liu,Hikvision,DS-2CD2427G2H-LI(U),dome,4MP,4,"1/1.8"" CMOS",111 horizontal (2.8mm),hybrid,IP67,false,2024
-hikvision-ds-2cd2443g2-iw,Hikvision,DS-2CD2443G2-I(W),covert,4MP,4,,110h,ir,IP67,false,2022
+hikvision-ds-2cd2443g2-iw,Hikvision,DS-2CD2443G2-I(W),box,4MP,4,,110h,ir,IP67,false,2022
 hikvision-ds-2cd2447g2-lu,Hikvision,DS-2CD2447G2-LU,turret,4MP,4,"1/1.8"" Progressive Scan CMOS",103 horizontal (2.8mm),color,IP67,false,
 hikvision-ds-2cd2526g2-is,Hikvision,DS-2CD2526G2-IS,bullet,1080p,2,"1/2.8"" Progressive Scan CMOS",103 horizontal (2.8mm),ir,IP67,true,
 hikvision-ds-2cd2542fwd-is,Hikvision,DS-2CD2542FWD-IS,dome,4MP,4,,103h,ir,IP67,false,2020
@@ -714,7 +700,7 @@ hikvision-ds-2cd3523g2-is,Hikvision,DS-2CD3523G2-IS,dome,1080p HD,2,,88-34h,ir,I
 hikvision-ds-2cd3t47g2-lzs,Hikvision,DS-2CD3T47G2-LZS,bullet,4MP,4,,103-32h,color,IP67,false,2023
 hikvision-ds-2cd3t87g2-lzs,Hikvision,DS-2CD3T87G2-LZS,bullet,4K UHD,8,,103-32h,color,IP67,false,2023
 hikvision-ds-2cd6365g0e-ivs,Hikvision,DS-2CD6365G0E-IVS,panoramic,6MP 360°,6,,360 fisheye,ir,IP66,false,2020
-hikvision-ds-2cd63c5g1-ivs,Hikvision,DS-2CD63C5G1-IVS,fisheye,12MP,12,"1/1.7"" Progressive Scan CMOS",360,ir,IP66,true,
+hikvision-ds-2cd63c5g1-ivs,Hikvision,DS-2CD63C5G1-IVS,fisheye,12MP UHD,12,"1/1.7"" Progressive Scan CMOS",360,ir,IP66,true,
 hikvision-ds-2cd6944g0-ihs,Hikvision,DS-2CD6944G0-IHS,panoramic,4MP × 4 multisensor panoramic,8,,180h,none,IP66,false,2021
 hikvision-ds-2cd7a87g0-xzs,Hikvision,DS-2CD7A87G0-XZS,bullet,4K UHD,8,,106-32h,color,IP67,false,2022
 hikvision-ds-2ce16d8t-it3f,Hikvision,DS-2CE16D8T-IT3F,bullet,1080p HD,2,,103h,ir,IP67,false,2020
@@ -738,7 +724,6 @@ hikvision-ds-2pt3q27iwx-de,Hikvision,DS-2PT3Q27IWX-DE,dual-lens,4MP panoramic + 
 hikvision-ds-2se4c425mwg-e,Hikvision,DS-2SE4C425MWG-E,ptz,4MP+4MP TandemVu,8,Dual CMOS,60-2.5h,color,IP66,false,2023
 hikvision-ds-2se4c430mwg-e,Hikvision,DS-2SE4C430MWG-E,ptz,4MP+4MP TandemVu 30x,8,Dual CMOS,60-2h,ir,IP66,false,2023
 hikvision-ds-2xs6a26g0-i,Hikvision,DS-2XS6A26G0-I/CH20S40,bullet,1080p HD,2,,103h,ir,IP67,false,2022
-hikvision-ds-2xs6a26g0-solar,Hikvision,DS-2XS6A26G0-I/CH20S40,bullet,1080p HD,2,,103h,ir,IP67,false,2022
 hilook-ipc-b140h,HiLook,IPC-B140H,bullet,4MP,4,"1/2.8"" CMOS",103 horizontal,ir,IP67,false,2021
 hilook-ipc-b180ha-lu,HiLook,IPC-B180HA-LU,bullet,4K UHD,8,"1/2.7"" CMOS",107 horizontal,hybrid,IP67,false,2023
 hilook-ipc-b240h,HiLook,IPC-B240H,bullet,4MP,4,"1/2.8"" CMOS",103 horizontal,ir,IP67,false,2023
@@ -768,11 +753,11 @@ honeywell-hcc-ip-3mp-dome,Honeywell,CALIPD-1AI 3MP IP Dome,dome,4MP,4,"1/2.7"" C
 honeywell-hcc-ip-4mp-bullet,Honeywell,CALIPB-1AI 4MP IP Bullet,bullet,4MP,4,"1/2.7"" CMOS",100 horizontal,ir,IP67,false,2025
 honeywell-hcc-ip-ptz-25x,Honeywell,HNMPTZ25X 4MP 25x PoE PTZ,ptz,4MP,4,"1/2.8"" CMOS",60-2.5 horizontal,ir,IP66,false,2023
 honeywell-pro-320pt,Honeywell,Home Pro 3200PT,ptz,1080p HD,2,CMOS,355 pan / 90 tilt,ir,IP20,true,2022
-i-pro-wv-s2236l,i-PRO,WV-S2236L,dome,1080p HD,2,"1/3"" CMOS",100-31 horizontal,color,IK10,false,2021
+i-pro-wv-s2236l,i-PRO,WV-S2236L,dome,1080p HD,2,"1/3"" CMOS",100-31 horizontal,color,,false,2021
 i-pro-wv-s8530n,i-PRO,WV-S8530N,dome,4K UHD,8,"1/1.7"" CMOS",92-31 horizontal,color,IP66,false,2022
 i-pro-wv-x2251l,i-PRO,WV-X2251L,bullet,4K UHD,8,"1/2.3"" CMOS",99-42 horizontal,ir,IP66,false,2023
-idis-dc-b8251wx,IDIS,DC-B8251WX,dome,4K UHD,8,"1/1.8"" CMOS",108-37 horizontal,ir,IK10,false,2024
-idis-dc-d4516wrx,IDIS,DC-D4516WRX,dome,5MP,5,"1/2.8"" CMOS",101 horizontal,ir,IK10,false,2022
+idis-dc-b8251wx,IDIS,DC-B8251WX,dome,4K UHD,8,"1/1.8"" CMOS",108-37 horizontal,ir,,false,2024
+idis-dc-d4516wrx,IDIS,DC-D4516WRX,dome,5MP,5,"1/2.8"" CMOS",101 horizontal,ir,,false,2022
 idis-dc-t4516hrx,IDIS,DC-T4516HRX,bullet,5MP,5,"1/2.8"" CMOS",100-42 horizontal,ir,IP66,false,2022
 imou-bullet-2-4mp,IMOU,Bullet 2 4MP,bullet,4MP,4,,107h,ir,IP67,false,2023
 imou-bullet-2e-5mp,IMOU,Bullet 2E 5MP,bullet,5MP 3K,5,"1/2.7"" CMOS",102 horizontal,color,IP67,false,2023
@@ -895,7 +880,7 @@ mobotix-d71,Mobotix,D71,dome,4K UHD or 4MP ULL,8,"1/2"" 4K UHD or 4MP ULL CMOS (
 mobotix-m73,Mobotix,M73,dome,Up to 12MP (sensor-dependent),12,Interchangeable: 4K UHD / 12MP / 4MP ULL / hemispheric sensor modules,,hybrid,IP66,true,
 mobotix-m73-6mp,Mobotix,M73 6MP,dome,6MP,6,"1/1.8"" CMOS",,color,IP66,true,2023
 mobotix-p71,Mobotix,P71,ptz,4K UHD,8,"1/2.5"" CMOS",60-2.3 horizontal,ir,IP66,false,
-mobotix-q71,Mobotix,Q71,fisheye,12MP,12,"1/1.7"" 12MP CMOS",360 (ceiling) / 180 (wall),hybrid,IP66,true,
+mobotix-q71,Mobotix,Q71,fisheye,12MP UHD,12,"1/1.7"" 12MP CMOS",360 (ceiling) / 180 (wall),hybrid,IP66,true,
 mobotix-s74,Mobotix,S74,dome,Up to 12MP (sensor-dependent),12,Interchangeable: 4K / 12MP / hemispheric modules,,hybrid,IP42,true,
 mobotix-s74-dual,Mobotix,S74 Dual Sensor,dual-lens,2x6MP dual sensor,12,"2x 1/1.8"" CMOS",,color,IP66,true,2022
 mobotix-v71,Mobotix,V71,box,4K UHD,4,,100h,none,IP30,false,2022
@@ -943,7 +928,7 @@ reolink-argus-pt,Reolink,Argus PT,ptz,2K QHD,4,,355 pan/140 tilt,ir,IP65,true,20
 reolink-argus-pt-2k,Reolink,Argus PT 2K,ptz,2K QHD,4,,355 pan/90 tilt,color,IP65,true,2023
 reolink-argus-pt-ultra,Reolink,Argus PT Ultra,ptz,4K UHD,8,"1/2.7"" CMOS",360 pan / 90 tilt,color,IP66,true,2024
 reolink-argus-track,Reolink,Argus Track,ptz,4K UHD,8,"1/2.7"" CMOS",87 horizontal,hybrid,IP65,true,2024
-reolink-b1200,Reolink,B1200,bullet,12MP,12,,80 horizontal,ir,IP67,false,2022
+reolink-b1200,Reolink,B1200,bullet,12MP UHD,12,,80 horizontal,ir,IP67,false,2022
 reolink-b400,Reolink,B400,bullet,4MP,4,,80 horizontal,ir,IP67,false,2020
 reolink-b500,Reolink,B500,bullet,5MP,5,,80 horizontal,ir,IP67,false,2021
 reolink-b800,Reolink,B800,bullet,4K UHD,8,,80 horizontal,ir,IP67,false,2021
@@ -951,7 +936,7 @@ reolink-cx410,Reolink,CX410,bullet,2K QHD,4,"1/1.8"" CMOS",89 horizontal,color,I
 reolink-cx810,Reolink,CX810,bullet,4K UHD,8,"1/1.8"" CMOS",93 horizontal,color,IP67,true,2024
 reolink-cx810-wifi,Reolink,CX810W,bullet,4K UHD,8,"1/1.8"" CMOS",93 horizontal,color,IP67,true,2024
 reolink-cx820,Reolink,CX820,dome,4K UHD,8,"1/1.8"" CMOS",87 horizontal,color,IP67,true,2024
-reolink-d1200,Reolink,D1200,dome,12MP,12,,80 horizontal,ir,IP67,false,2022
+reolink-d1200,Reolink,D1200,dome,12MP UHD,12,,80 horizontal,ir,IP67,false,2022
 reolink-d400,Reolink,D400,dome,4MP,4,,80 horizontal,ir,IP67,false,2020
 reolink-d500,Reolink,D500,dome,5MP,5,,80 horizontal,ir,IP67,false,2021
 reolink-d800,Reolink,D800,dome,4K UHD,8,,80 horizontal,ir,IP67,false,2021
@@ -966,7 +951,6 @@ reolink-duo-3v-poe,Reolink,Duo 3V PoE,dual-lens,16MP,16,"Dual 1/2.7"" CMOS (4K e
 reolink-duo-4g,Reolink,Duo 4G,bullet,2×4MP 180° dual-lens,8,,180 horizontal,ir,IP65,true,2022
 reolink-duo-floodlight-poe,Reolink,Duo Floodlight PoE,dual-lens,4K UHD,8,"Dual 1/2.7"" CMOS",180 horizontal,hybrid,IP66,true,2023
 reolink-e1-indoor,Reolink,E1,ptz,1080p HD,2,,355 pan/50 tilt,ir,IP20,true,2019
-reolink-e1-outdoor,Reolink,E1 Outdoor,ptz,5MP Super HD,5,"1/2.7"" CMOS",90-50 horizontal,color,IP65,true,2021
 reolink-e1-outdoor-cx,Reolink,E1 Outdoor CX,bullet,4K UHD,8,,110 horizontal,color,IP67,false,2024
 reolink-e1-outdoor-poe,Reolink,E1 Outdoor PoE,ptz,4K UHD,8,"1/2.7"" CMOS",85 horizontal,ir,IP65,true,2022
 reolink-e1-outdoor-pro,Reolink,E1 Outdoor Pro,ptz,4K UHD,8,"1/2.8"" CMOS",94-50 horizontal,color,IP65,true,2023
@@ -982,7 +966,7 @@ reolink-go-4g,Reolink,Go,bullet,1080p HD,2,,110 horizontal,ir,IP65,false,2019
 reolink-go-pt,Reolink,Go PT,ptz,2K QHD,4,,355 pan/90 tilt,ir,IP64,true,2021
 reolink-go-pt-plus,Reolink,Go PT Plus,ptz,2K QHD,4,,355 pan/90 tilt,color,IP65,true,2022
 reolink-go-pt-ultra,Reolink,Go PT Ultra,ptz,4K UHD,8,,355 pan/90 tilt,color,IP65,true,2023
-reolink-home-hub,Reolink,Home Hub,covert,N/A (hub device),0,,N/A,none,IP20,false,2024
+reolink-home-hub,Reolink,Home Hub,box,N/A (hub device),0,,N/A,none,IP20,false,2024
 reolink-keen-ranger-pt,Reolink,Keen Ranger PT,ptz,2K QHD,4,,355 pan/90 tilt,ir,IP65,false,2023
 reolink-lumus,Reolink,Lumus,bullet,2K QHD,4,,105 horizontal,color,IP67,true,2021
 reolink-omvi-3i-poe,Reolink,OMVI 3i PoE,panoramic,18MP (10MP panoramic + 8MP PT),18,Triple CMOS (2x5MP panoramic + 4K PT),360 panoramic + PT tracking,hybrid,IP67,true,2025
@@ -992,11 +976,11 @@ reolink-p340,Reolink,P340,panoramic,6MP 360°,6,,360 fisheye,ir,IP67,false,2023
 reolink-p430,Reolink,P430,bullet,4K UHD,8,"1/2.8"" CMOS",105-31 horizontal,color,IP67,true,2023
 reolink-p830,Reolink,P830,ptz,4K UHD,8,"1/2.7"" CMOS",88 horizontal,color,IP65,true,2023
 reolink-reolink-go-plus,Reolink,Go Plus,bullet,4MP QHD,4,CMOS,119 horizontal,color,IP65,true,2022
-reolink-rlc-1210a,Reolink,RLC-1210A,bullet,12MP,12,,80 horizontal,ir,IP67,false,2022
-reolink-rlc-1212a-dome,Reolink,RLC-1212A (dome),dome,12MP,12,"1/2.3"" CMOS",93 horizontal,color,IP67,true,2023
-reolink-rlc-1220a,Reolink,RLC-1220A,dome,12MP,12,,80 horizontal,ir,IP67,false,2022
-reolink-rlc-1224a,Reolink,RLC-1224A,dome,12MP,12,"1/2.3"" CMOS",97 horizontal,color,IP67,true,2024
-reolink-rlc-1240a,Reolink,RLC-1240A,turret,12MP,12,"1/2.3"" CMOS",145 horizontal,color,IP66,true,2024
+reolink-rlc-1210a,Reolink,RLC-1210A,bullet,12MP UHD,12,,80 horizontal,ir,IP67,false,2022
+reolink-rlc-1212a-dome,Reolink,RLC-1212A (dome),dome,12MP UHD,12,"1/2.3"" CMOS",93 horizontal,color,IP67,true,2023
+reolink-rlc-1220a,Reolink,RLC-1220A,dome,12MP UHD,12,,80 horizontal,ir,IP67,false,2022
+reolink-rlc-1224a,Reolink,RLC-1224A,dome,12MP UHD,12,"1/2.3"" CMOS",97 horizontal,color,IP67,true,2024
+reolink-rlc-1240a,Reolink,RLC-1240A,turret,12MP UHD,12,"1/2.3"" CMOS",145 horizontal,color,IP66,true,2024
 reolink-rlc-410,Reolink,RLC-410,bullet,5MP,5,,80 horizontal,ir,IP66,false,2018
 reolink-rlc-410s,Reolink,RLC-410S,bullet,1440p Super HD,4,"1/2.7"" CMOS",80 horizontal,ir,IP66,false,2018
 reolink-rlc-410w,Reolink,RLC-410W,bullet,4MP,4,"1/2.7"" CMOS",80 horizontal / 42 vertical,ir,IP66,false,2019
@@ -1032,7 +1016,6 @@ reolink-rlc-823a-canada,Reolink,RLC-823A (Canada),bullet,4K UHD,8,CMOS,110 horiz
 reolink-rlc-823a-ch,Reolink,RLC-823A (Switzerland),bullet,4K UHD,8,CMOS,110 horizontal,color,IP67,true,2023
 reolink-rlc-823a-eu,Reolink,RLC-823A (EU),bullet,4K UHD,8,CMOS,110 horizontal,color,IP67,true,2023
 reolink-rlc-823a-mena,Reolink,RLC-823A (MENA),bullet,4K UHD,8,CMOS,110 horizontal,color,IP67,true,2023
-reolink-rlc-823a-ptz-4k,Reolink,RLC-830A,ptz,4K UHD,8,"1/2.7"" CMOS",87 horizontal,hybrid,IP66,true,2022
 reolink-rlc-823a-v2,Reolink,RLC-823A v2,bullet,4K UHD,8,"1/2.7"" CMOS",110 horizontal,color,IP67,true,2024
 reolink-rlc-823s1,Reolink,RLC-823S1,ptz,4K UHD,8,"1/2.8"" CMOS",110-27 horizontal,hybrid,IP66,true,2024
 reolink-rlc-823s1w,Reolink,RLC-823S1W,ptz,4K UHD,8,"1/2.8"" CMOS",110-27 horizontal,hybrid,IP66,true,2024
@@ -1041,7 +1024,6 @@ reolink-rlc-824a,Reolink,RLC-824A,bullet,4K UHD,8,"1/2.8"" CMOS",94-42 horizonta
 reolink-rlc-830a,Reolink,RLC-830A,ptz,4K UHD,8,"1/2.7"" CMOS",87 horizontal,hybrid,IP66,true,2022
 reolink-rlc-833a,Reolink,RLC-833A,turret,4K UHD,8,"1/2.8"" CMOS",110-41 horizontal,hybrid,IP67,true,2022
 reolink-rlc-833wa,Reolink,RLC-833WA,turret,4K UHD,8,"1/2.8"" CMOS",110 horizontal,hybrid,IP67,true,2023
-reolink-rlc-840a,Reolink,RLC-840A,turret,4K UHD,8,"1/2.8"" CMOS",125 horizontal,hybrid,IP67,true,2023
 reolink-rlc-840a-v2,Reolink,RLC-840A,turret,4K UHD,8,"1/2.7"" CMOS",125 horizontal,hybrid,IP67,true,2022
 reolink-rlc-840wa,Reolink,RLC-840WA,turret,4K UHD,8,"1/2.8"" CMOS",125 horizontal,hybrid,IP67,true,2024
 reolink-rlc-842a,Reolink,RLC-842A,turret,4K UHD,8,"1/2.8"" CMOS",128 horizontal,ir,IP66,false,2021
@@ -1092,10 +1074,8 @@ simplisafe-indoor-cam-v2,SimpliSafe,Indoor Camera Gen 2,dome,1080p HD,2,,120h,ir
 simplisafe-outdoor-cam,SimpliSafe,Outdoor Camera,bullet,2K QHD,4,,140 horizontal,color,IP65,true,2022
 simplisafe-outdoor-cam-v2,SimpliSafe,Outdoor Security Camera Gen 2,bullet,2K QHD,4,,140 horizontal,color,IP65,true,2024
 simplisafe-smart-alarm-indoor-cam,SimpliSafe,Smart Alarm Wireless Indoor Camera,dome,2K QHD,4,,125 diagonal,ir,IP20,true,2022
-somfy-indoor-cam,Somfy,Indoor Camera,dome,1080p HD,2,,130h,ir,IP20,true,2020
 somfy-indoor-camera,Somfy,Indoor Camera,dome,1080p HD,2,CMOS,130 diagonal,ir,IP20,true,2020
 somfy-one-plus,Somfy,Somfy One+,covert,1080p HD,2,,130 diagonal,ir,IP20,true,2019
-somfy-outdoor-cam,Somfy,Outdoor Camera,bullet,1080p HD,2,,130h,ir,IP55,true,2021
 somfy-outdoor-camera,Somfy,Outdoor Camera,bullet,1080p HD,2,CMOS,120 diagonal,color,IP55,true,2021
 steinel-l-620-cam,Steinel,L 620 CAM,bullet,1080p HD,2,CMOS,180 horizontal (pivoting camera),ir,IP44,true,2021
 steinel-l-620-cam-sc,Steinel,L 620 CAM SC,bullet,2K QHD,4,CMOS,180 horizontal,color,IP44,true,2024
@@ -1112,6 +1092,19 @@ sunell-sn-ips5780dcan-z25,Sunell,SN-IPS5780DCAN-Z25,ptz,4K UHD,8,"1/2.8"" CMOS",
 sunell-sn-ipv5720dcan-b,Sunell,SN-IPV5720DCAN-B,turret,1080p Full HD,2,"1/2.8"" CMOS",108 horizontal,ir,IP66,false,2020
 sunell-sn-ipv5740dcan-z,Sunell,SN-IPV5740DCAN-Z,turret,4MP QHD,4,"1/3"" CMOS",100-30 horizontal,ir,IP66,true,2021
 sunell-sn-ipv5780dcan-b,Sunell,SN-IPV5780DCAN-B,turret,4K UHD,8,"1/2.8"" CMOS",105 horizontal,hybrid,IP66,true,2022
+sv3c-b04poe,SV3C,SV-B04POE,bullet,2K QHD,4,,,ir,IP66,false,
+sv3c-b05poe,SV3C,SV-B05POE,bullet,5MP,5,,,ir,IP66,true,
+sv3c-b05w,SV3C,SV-B05W / SV-B08W,bullet,5MP,5,,,ir,IP66,true,
+sv3c-b08poe,SV3C,SV-B08POE,bullet,4K UHD,8,,120 horizontal,hybrid,,true,
+sv3c-c12,SV3C,C12,ptz,5MP,5,,,color,IP66,true,
+sv3c-c25,SV3C,C25,ptz,4K UHD,8,IMX415 CMOS,,color,IP66,true,
+sv3c-d08poe,SV3C,SV-D08POE,dome,4K UHD,8,,120 horizontal,color,IP66,true,
+sv3c-ptz-1080p-wifi-4x,SV3C,SV3C 1080P WiFi PTZ 4X,ptz,1080p FHD,2,,,ir,,true,
+sv3c-ptz-4k-dual-network,SV3C,SV3C 4K PTZ PoE+WiFi Dual Network,ptz,4K UHD,8,,,color,IP66,true,
+sv3c-ptz-5mp-wifi-5x,SV3C,SV3C 5MP WiFi PTZ 5X Spotlight,ptz,5MP,5,,,color,IP66,true,
+sv3c-ptz-poe-15x,SV3C,SV3C 5MP/8MP PoE PTZ 15X,ptz,5MP,5,,,color,,true,
+sv3c-ptz-wifi-track,SV3C,SV3C 5MP/8MP WiFi PTZ Motion Track,ptz,5MP,5,,,color,,true,
+sv3c-solar-dual-lens-2k,SV3C,SV3C 2K Solar Dual-Lens Kit,dual-lens,2K QHD,4,,106 wide / 46 tele,color,,true,
 swann-4k-bullet,Swann,4K Bullet,bullet,4K UHD,8,"1/2.8"" CMOS",100 horizontal,ir,IP67,false,2023
 swann-4k-dome,Swann,4K Dome,dome,4K UHD,8,"1/2.8"" CMOS",100 horizontal,ir,IP66,false,2023
 swann-buddy-doorbell,Swann,Buddy Video Doorbell,doorbell,1080p HD,2,,140h,ir,IP44,true,2023
@@ -1143,7 +1136,7 @@ synology-tc800w,Synology,TC800W,dome,4K UHD,8,,107h,ir,IP67,false,2024
 tapo-c100,Tapo,Tapo C100,dome,1080p,2,,105 horizontal,color,IP20,true,2020
 tapo-c100-global,Tapo,C100,dome,1080p HD,2,CMOS,130 horizontal,ir,IP20,true,2020
 tapo-c110,Tapo,Tapo C110,dome,3MP 1296p,3,,127 horizontal,color,IP20,true,2022
-tapo-c120,Tapo,Tapo C120,bullet,2K QHD,2,,130 horizontal,color,IP44,true,2023
+tapo-c120,Tapo,Tapo C120,bullet,2K QHD,3.7,,130 horizontal,color,IP44,true,2023
 tapo-c120-indoor,Tapo,C120,dome,4MP QHD,4,CMOS,130 horizontal,color,IP20,true,2024
 tapo-c121,Tapo,Tapo C121,dome,2K QHD,4,,,ir,,true,2024
 tapo-c125,Tapo,Tapo C125,dome,5MP 2K+,5,,114 horizontal,color,IP20,true,2023
@@ -1200,7 +1193,6 @@ tapo-d230s1,Tapo,D230S1,doorbell,2K QHD,5,,160 diagonal,color,IP64,true,2024
 tapo-d235,Tapo,D235,doorbell,3K 5MP,5,,160 diagonal,color,IP44,true,2024
 tapo-tc40,Tapo,TC40,bullet,2K QHD,4,,105 horizontal,color,IP66,true,2021
 tapo-tc55,Tapo,Tapo TC55,ptz,2K QHD,4,,,hybrid,IP65,true,2024
-tapo-tc82,Tapo,TC82,bullet,2K QHD,4,,116 horizontal,color,IP66,true,2023
 tapo-tc82-global,Tapo,TC82,bullet,2K QHD,4,CMOS,118 horizontal,color,IP44,true,2023
 tapo-tc85,Tapo,TC85,ptz,2K QHD,4,,360 pan / 140 tilt,color,IP65,true,2023
 tiandy-tc-c32fn,Tiandy,TC-C32FN,dome,1080p,2,"1/2.8"" CMOS",108 horizontal,ir,IP66,false,2021
@@ -1262,9 +1254,7 @@ ubiquiti-g5-turret,Ubiquiti,UniFi Protect G5 Turret,turret,4MP QHD,4,"1/3"" CMOS
 ubiquiti-g5-turret-ultra,Ubiquiti,UniFi Protect G5 Turret Ultra,turret,2K,5,"1/2.7"" CMOS (5MP)",88 horizontal,ir,IP66,false,2024
 ubiquiti-g6-ptz,Ubiquiti,UniFi Protect G6 PTZ,ptz,4K UHD,8,"1/2"" CMOS",51-2.4 horizontal,ir,IP66,false,2024
 uniview-ipc2122le-adf40kmc-wl,Uniview,IPC2122LE-ADF40KMC-WL,bullet,1080p,2,"1/2.8"" CMOS",97 horizontal,color,IP67,false,
-uniview-ipc2224se-df40k-wl,Uniview,IPC2224SE-DF40K-WL-I0,dome,4MP,4,,90h,color,IP67,false,2022
 uniview-ipc2224se-df40k-wl-i0,Uniview,IPC2224SE-DF40K-WL-I0,bullet,4MP,4,"1/2.8"" Progressive Scan CMOS",83 horizontal,color,IP67,false,
-uniview-ipc2228se-df40k-wl,Uniview,IPC2228SE-DF40K-WL-I0,dome,4K UHD,8,,107h,color,IP67,false,2023
 uniview-ipc2228se-df40k-wl-i0,Uniview,IPC2228SE-DF40K-WL-I0,bullet,4K UHD,8,"1/1.8"" Progressive Scan CMOS",89 horizontal,color,IP67,false,
 uniview-ipc3234sa-df28k-wl,Uniview,IPC3234SA-DF28K-WL,turret,4MP,4,"1/1.8"" CMOS",101 horizontal,color,IP67,true,
 uniview-ipc3235sa-df28k-wl,Uniview,IPC3235SA-DF28K-WL,dome,5MP,5,,106h,color,IP67,true,2022

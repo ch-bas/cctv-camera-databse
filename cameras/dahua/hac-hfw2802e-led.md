@@ -5,13 +5,12 @@
 | Brand | Dahua |
 | Model | HAC-HFW2802E-LED |
 | Type | bullet |
-| Connectivity | ethernet |
+| Connectivity | coax |
 | Resolution | 4K UHD (8MP) |
 | Field of view | 107h° |
 | Night vision | color (30m) |
 | Power | DC 12V HDCVI coaxial |
 | Storage | NVR |
-| Protocols | hdcvi |
 | IP rating | IP67 |
 | Two-way audio | No |
 | Released | 2023 |

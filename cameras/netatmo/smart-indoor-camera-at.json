@@ -20,8 +20,6 @@
   ],
   "resolution": {
     "megapixels": 4,
-    "max_width": 1920,
-    "max_height": 1080,
     "label": "1080p HD"
   },
   "lens": {

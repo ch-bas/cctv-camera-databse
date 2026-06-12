@@ -22,6 +22,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - multi-directional + PTZ combo
 - 5MP fixed + 2MP 40x PTZ
 - AI deep-learning analytics

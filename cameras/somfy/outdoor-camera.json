@@ -12,10 +12,10 @@
   ],
   "release_year": 2021,
   "markets": [
-    "FR",
     "DE",
     "ES",
-    "EU"
+    "EU",
+    "FR"
   ],
   "resolution": {
     "megapixels": 2,

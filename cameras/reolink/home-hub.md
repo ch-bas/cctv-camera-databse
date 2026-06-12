@@ -6,7 +6,7 @@
 |-------|------|
 | Brand | Reolink |
 | Model | Home Hub |
-| Type | covert |
+| Type | box |
 | Connectivity | wifi, ethernet |
 | Resolution | N/A (hub device) (0MP) |
 | Field of view | N/A° |
@@ -26,6 +26,7 @@
 - AI video search
 - no subscription fee
 - no cloud required
+- NVR hub — not a camera
 
 ## Sources
 

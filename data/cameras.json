@@ -551,9 +551,7 @@
       "nvr_compatible": false,
       "cloud": false
     },
-    "protocols": [
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP65",
     "audio": {
       "microphone": true,
@@ -580,22 +578,9 @@
       "solar"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
-      },
       "home_assistant": {
         "integration": "onvif",
-        "notes": "Use ONVIF integration."
-      },
-      "blue_iris": {
-        "profile": "Hikvision",
-        "notes": "Select 'Hikvision' profile. Most ABUS IP cameras use Hikvision protocol."
+        "notes": "Battery/solar ABUS camera. RTSP/ONVIF support unconfirmed for this battery model. May be app-only."
       }
     }
   },
@@ -1199,6 +1184,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "ABUS 1080p 12x PTZ outdoor",
       "50m IR",
       "H.265",
@@ -1623,7 +1609,8 @@
         "profile": "ACTi",
         "notes": "Select 'ACTi' profile. Default RTSP port is 7070."
       }
-    }
+    },
+    "status": "discontinued"
   },
   {
     "id": "acti-q416",
@@ -1637,7 +1624,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" CMOS",
     "lens": {
@@ -2181,6 +2168,9 @@
     ],
     "power_source": [
       "usb"
+    ],
+    "markets": [
+      "US"
     ]
   },
   {
@@ -2296,58 +2286,6 @@
     "power_source": [
       "battery",
       "ac-mains"
-    ]
-  },
-  {
-    "id": "adt-indoor-cam-v2",
-    "brand": "ADT",
-    "model": "ADT+ Indoor Camera",
-    "type": "dome",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "120h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 5
-    },
-    "power": {
-      "method": "DC 5V USB-C"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP20",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "ADT+ 1080p indoor WiFi camera",
-      "person detection",
-      "two-way audio",
-      "ADT professional monitoring integration",
-      "Google Home"
-    ],
-    "sources": [
-      "https://www.adt.com/"
-    ],
-    "markets": [
-      "US"
-    ],
-    "power_source": [
-      "usb"
     ]
   },
   {
@@ -4249,6 +4187,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "Amcrest 4K 25x PTZ PoE outdoor",
       "100m IR",
       "AI auto-tracking",
@@ -4798,7 +4737,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" CMOS",
     "lens": {
@@ -6304,9 +6243,7 @@
       "nvr_compatible": true,
       "cloud": true
     },
-    "protocols": [
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP20",
     "audio": {
       "microphone": true,
@@ -6318,7 +6255,6 @@
       "Zigbee 3.0 hub built-in",
       "on-device AI face/person",
       "IR remote emitter",
-      "RTSP Home Assistant",
       "Alexa / Google",
       "Matter compatible"
     ],
@@ -6330,21 +6266,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
-      },
       "home_assistant": {
         "integration": "homekit",
-        "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
+        "notes": "No RTSP or ONVIF. HomeKit Secure Video only. Use HomeKit integration in HA. Not compatible with Frigate or Blue Iris."
       }
     }
   },
@@ -6394,10 +6318,7 @@
       "nvr_compatible": true,
       "cloud": true
     },
-    "protocols": [
-      "rtsp",
-      "onvif"
-    ],
+    "protocols": [],
     "ip_rating": "IP65",
     "audio": {
       "microphone": true,
@@ -6409,7 +6330,6 @@
       "multi-protocol smart home hub (Zigbee 3.0 + Thread + Matter Controller + Aqara Zigbee hub)",
       "HomeKit Secure Video (end-to-end encrypted)",
       "Alexa / Google Home / SmartThings",
-      "RTSP local streaming (Home Assistant)",
       "on-device AI: face/vehicle/pet/package + audio (alarm/baby cry)",
       "eMMC + iCloud + NAS/SMB backup",
       "first shown IFA 2024 Berlin",
@@ -6420,25 +6340,12 @@
       "https://eu.aqara.com/en-eu/products/aqara-camera-hub-g5-pro"
     ],
     "power_source": [
-      "poe",
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
-      },
       "home_assistant": {
         "integration": "homekit",
-        "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
+        "notes": "No RTSP or ONVIF. HomeKit/Matter only. Use HomeKit integration in HA. Not compatible with Frigate or Blue Iris."
       }
     }
   },
@@ -6487,10 +6394,7 @@
       "nvr_compatible": true,
       "cloud": true
     },
-    "protocols": [
-      "rtsp",
-      "onvif"
-    ],
+    "protocols": [],
     "ip_rating": "IP65",
     "audio": {
       "microphone": true,
@@ -6502,7 +6406,6 @@
       "Zigbee 3.0 + Thread Border Router + Matter Controller (smart home hub)",
       "HomeKit Secure Video (E2E encrypted)",
       "Alexa / Google / SmartThings",
-      "RTSP local streaming (Home Assistant)",
       "on-device AI (face/vehicle/pet/audio)",
       "eMMC + iCloud + NAS/SMB backup",
       "PoE or WiFi versions",
@@ -6516,25 +6419,12 @@
       "https://www.digitec.ch/"
     ],
     "power_source": [
-      "poe",
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
-      },
       "home_assistant": {
         "integration": "homekit",
-        "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
+        "notes": "No RTSP or ONVIF. HomeKit/Matter only. Use HomeKit integration in HA. Not compatible with Frigate or Blue Iris."
       }
     }
   },
@@ -6655,6 +6545,9 @@
     "msrp_usd": 99.99,
     "sources": [
       "https://us.arlo.com/products/arlo-essential-indoor-camera"
+    ],
+    "power_source": [
+      "dc"
     ]
   },
   {
@@ -7539,7 +7432,8 @@
     "brand": "Arlo",
     "model": "Pro 5S 2K Spotlight",
     "aliases": [
-      "VMC4460P"
+      "VMC4460P",
+      "arlo-pro-5s-spotlight"
     ],
     "type": "bullet",
     "connectivity": [
@@ -7869,69 +7763,6 @@
     ]
   },
   {
-    "id": "arlo-pro-5s-spotlight",
-    "brand": "Arlo",
-    "model": "Pro 5S 2K Spotlight",
-    "aliases": [
-      "VMC4060P"
-    ],
-    "release_year": 2024,
-    "type": "dome",
-    "connectivity": [
-      "wifi"
-    ],
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2560,
-      "max_height": 1440,
-      "label": "2K QHD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "160 diagonal",
-    "night_vision": {
-      "type": "color",
-      "range_m": 7
-    },
-    "power": {
-      "method": "Rechargeable removable battery / solar panel optional / USB-C"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP65",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "2K QHD + HDR",
-      "integrated spotlight",
-      "color night vision",
-      "person/vehicle/animal/package detection",
-      "dual-band WiFi direct (no hub required)",
-      "Apple HomeKit / Google / Alexa",
-      "Arlo Secure plan for cloud"
-    ],
-    "msrp_usd": 179.99,
-    "sources": [
-      "https://www.arlo.com/cameras/pro/arlo-pro-5.html"
-    ],
-    "power_source": [
-      "battery",
-      "solar",
-      "usb"
-    ]
-  },
-  {
     "id": "arlo-pro-5s-uk",
     "brand": "Arlo",
     "model": "Pro 5S (UK)",
@@ -8187,75 +8018,12 @@
     ]
   },
   {
-    "id": "arlo-ultra-2",
-    "brand": "Arlo",
-    "model": "Ultra 2 Spotlight",
-    "aliases": [
-      "VMC5040",
-      "XL VMC5040B"
-    ],
-    "type": "dome",
-    "connectivity": [
-      "wifi"
-    ],
-    "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
-    },
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "180 diagonal",
-    "night_vision": {
-      "type": "color",
-      "range_m": 10
-    },
-    "power": {
-      "method": "Rechargeable removable battery / solar panel optional"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP65",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "4K UHD",
-      "180deg HDR",
-      "integrated spotlight",
-      "color night vision",
-      "auto-zoom and tracking",
-      "noise-cancelling two-way audio",
-      "Apple HomeKit / Google / Alexa",
-      "Arlo Secure plan for cloud storage"
-    ],
-    "release_year": 2021,
-    "msrp_usd": 299.99,
-    "sources": [
-      "https://www.arlo.com/cameras/ultra/arlo-ultra-2.html"
-    ],
-    "power_source": [
-      "battery",
-      "solar"
-    ]
-  },
-  {
     "id": "arlo-ultra-2-spotlight",
     "brand": "Arlo",
     "model": "Ultra 2 Spotlight",
     "aliases": [
-      "Arlo Ultra 2 4K Spotlight Camera"
+      "Arlo Ultra 2 4K Spotlight Camera",
+      "arlo-ultra-2"
     ],
     "type": "dome",
     "connectivity": [
@@ -10700,8 +10468,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -10779,8 +10546,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -11338,7 +11104,6 @@
       "onvif",
       "rtsp"
     ],
-    "ip_rating": "IK08",
     "audio": {
       "microphone": true,
       "speaker": false,
@@ -11356,170 +11121,6 @@
     ],
     "sources": [
       "https://www.axis.com/products/axis-m3106-l-mk-ii"
-    ],
-    "power_source": [
-      "poe"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/axis-media/media.amp?resolution=1920x1080",
-        "best_substream": "rtsp://{user}:{pass}@{ip}/axis-media/media.amp?resolution=640x480"
-      },
-      "home_assistant": {
-        "integration": "axis",
-        "notes": "Native Axis integration with auto-discovery via Zeroconf."
-      },
-      "blue_iris": {
-        "profile": "Axis",
-        "notes": "Select 'Axis' profile. Auto-discovery via ONVIF usually works."
-      }
-    }
-  },
-  {
-    "id": "axis-m3106-l-mkii",
-    "brand": "Axis",
-    "model": "M3106-L Mk II",
-    "aliases": [
-      "0890-001"
-    ],
-    "type": "dome",
-    "connectivity": [
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2688,
-      "max_height": 1520,
-      "label": "4MP"
-    },
-    "sensor": "1/3\" Progressive Scan CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "3 (fixed)",
-      "aperture": "F1.8",
-      "varifocal": false
-    },
-    "field_of_view_deg": "108 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 10
-    },
-    "power": {
-      "method": "PoE (802.3af)"
-    },
-    "storage": {
-      "onboard": true,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp",
-      "http"
-    ],
-    "ip_rating": "IP42",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "Lightfinder",
-      "HDTV 1080p at 30fps",
-      "ARTPEC-6 SoC",
-      "corridor format",
-      "WDR",
-      "indoor use",
-      "compact dome"
-    ],
-    "sources": [
-      "https://www.axis.com/products/axis-m3106-l-mk-ii"
-    ],
-    "power_source": [
-      "poe"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/axis-media/media.amp?resolution=1920x1080",
-        "best_substream": "rtsp://{user}:{pass}@{ip}/axis-media/media.amp?resolution=640x480"
-      },
-      "home_assistant": {
-        "integration": "axis",
-        "notes": "Native Axis integration with auto-discovery via Zeroconf."
-      },
-      "blue_iris": {
-        "profile": "Axis",
-        "notes": "Select 'Axis' profile. Auto-discovery via ONVIF usually works."
-      }
-    }
-  },
-  {
-    "id": "axis-m3106-lve",
-    "brand": "Axis",
-    "model": "M3106-LVE Mk II",
-    "aliases": [
-      "0890-001"
-    ],
-    "type": "dome",
-    "connectivity": [
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2688,
-      "max_height": 1520,
-      "label": "4MP"
-    },
-    "sensor": "1/3\" Progressive Scan CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "3-9 (varifocal)",
-      "aperture": "F1.6",
-      "varifocal": true
-    },
-    "field_of_view_deg": "100-35 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 15
-    },
-    "power": {
-      "method": "PoE (802.3af)"
-    },
-    "storage": {
-      "onboard": true,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "Lightfinder",
-      "HDTV 4MP",
-      "corridor format",
-      "Zipstream",
-      "WDR",
-      "IK10"
-    ],
-    "sources": [
-      "https://www.axis.com/products/axis-m3106-lve-mk-ii"
     ],
     "power_source": [
       "poe"
@@ -11732,8 +11333,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -11787,7 +11387,7 @@
       "megapixels": 12,
       "max_width": 3584,
       "max_height": 2688,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" Progressive Scan CMOS",
     "lens": {
@@ -11811,8 +11411,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -12230,8 +11829,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP31",
     "audio": {
@@ -12542,8 +12140,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -12862,8 +12459,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -13030,8 +12626,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP42",
     "audio": {
@@ -13363,8 +12958,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -13900,7 +13494,7 @@
       "ethernet"
     ],
     "resolution": {
-      "megapixels": 8,
+      "megapixels": 24,
       "max_width": 8000,
       "max_height": 3000,
       "label": "4x2MP multisensor"
@@ -14145,8 +13739,7 @@
     },
     "field_of_view_deg": "55-1.7h",
     "night_vision": {
-      "type": "none",
-      "range_m": 0
+      "type": "ir"
     },
     "power": {
       "method": "PoE (802.3bt)"
@@ -14168,6 +13761,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "Axis P5655-E 32x outdoor PTZ",
       "OptimizedIR",
       "Lightfinder 2.0",
@@ -14408,8 +14002,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP42",
     "audio": {
@@ -14568,8 +14161,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -14625,7 +14217,7 @@
       "ethernet"
     ],
     "resolution": {
-      "megapixels": 0,
+      "megapixels": 0.3,
       "max_width": 640,
       "max_height": 480,
       "label": "640x480 thermal"
@@ -14785,7 +14377,7 @@
     ],
     "release_year": 2021,
     "resolution": {
-      "megapixels": 0,
+      "megapixels": 0.08,
       "max_width": 384,
       "max_height": 288,
       "label": "384×288 thermal"
@@ -14891,8 +14483,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -14971,8 +14562,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -15533,8 +15123,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -17128,8 +16717,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP67",
     "audio": {
@@ -17211,8 +16799,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP67",
     "audio": {
@@ -17437,7 +17024,7 @@
       "megapixels": 12,
       "max_width": 4096,
       "max_height": 3072,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "2/3\" Progressive Scan CMOS",
     "lens": {
@@ -17625,8 +17212,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -17709,8 +17295,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -17791,8 +17376,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -18278,8 +17862,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP54",
     "audio": {
@@ -18361,8 +17944,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP54",
     "audio": {
@@ -19501,7 +19083,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP67",
     "audio": {
@@ -19551,7 +19134,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP67",
     "audio": {
@@ -19602,7 +19186,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -19653,7 +19238,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -19705,7 +19291,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -19762,7 +19349,8 @@
       "cloud": false
     },
     "protocols": [
-      "onvif"
+      "onvif",
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -20312,7 +19900,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" CMOS",
     "night_vision": {
@@ -20501,6 +20089,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "CP Plus 4MP 25x AI PTZ India",
       "100m IR",
       "SMD Plus AI",
@@ -21516,82 +21105,6 @@
     }
   },
   {
-    "id": "cp-plus-cp-z43q-2",
-    "brand": "CP Plus",
-    "model": "CP-Z43Q",
-    "type": "ptz",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2022,
-    "resolution": {
-      "megapixels": 4,
-      "label": "4MP"
-    },
-    "field_of_view_deg": "60-2.5h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 60
-    },
-    "power": {
-      "method": "PoE (802.3at)"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "CP Plus 4MP 36x PTZ India",
-      "60m IR",
-      "auto-tracking",
-      "H.265",
-      "IP66",
-      "popular India large premises"
-    ],
-    "sources": [
-      "https://www.cpplus.in/"
-    ],
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "4.7-170 (36x optical)",
-      "varifocal": true
-    },
-    "power_source": [
-      "poe"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Uses Dahua protocol. ONVIF integration works."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. CP Plus uses Dahua protocol."
-      }
-    }
-  },
-  {
     "id": "dahua-dh-sd49425xb-hnr",
     "brand": "Dahua",
     "model": "SD49425XB-HNR",
@@ -21641,6 +21154,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "WizMind 4MP 25x Starlight PTZ",
       "face detection",
       "perimeter protection",
@@ -21663,7 +21177,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -21748,7 +21263,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -21761,12 +21277,139 @@
     }
   },
   {
+    "id": "dahua-dh-sdt7425-4p-ad3e-pv-i",
+    "brand": "Dahua",
+    "model": "DH-SDT7425-4P-AD3E-PV-i",
+    "type": "ptz",
+    "connectivity": [
+      "ethernet"
+    ],
+    "release_year": 2022,
+    "status": "discontinued",
+    "markets": [
+      "CN"
+    ],
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 3840,
+      "max_height": 1080,
+      "label": "Dual: 4MP panoramic (3840x1080) + 4MP PTZ (2560x1440)"
+    },
+    "lens": {
+      "count": 2,
+      "focal_length_mm": "panoramic: 2.8 fixed / PTZ: 4.8-120 (25x optical)",
+      "aperture": "F1.0 (panoramic) / F1.6-3.6 (PTZ)",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "hybrid",
+      "range_m": 150
+    },
+    "power": {
+      "method": "DC 36V/2.23A (±25%)",
+      "consumption_w": 35,
+      "voltage": "DC 36V"
+    },
+    "storage": {
+      "onboard": false,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "onvif",
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "dual-channel: 180° panoramic 4MP stitched + 4MP PTZ 25x zoom",
+      "starlight 0.001 lux color @F1.0",
+      "150m IR (PTZ) + 30m white light (panoramic)",
+      "auto-tracking (single-ball tracking)",
+      "face detection with attributes (6 attributes, 8 expressions)",
+      "9 IVS rules: tripwire, intrusion, loitering, parking, crowd",
+      "human/vehicle classification",
+      "active deterrence: white light strobe + 110dB speaker, 22 voice alerts",
+      "300 presets, 8 cruise paths",
+      "2 alarm in / 1 alarm out",
+      "8000V lightning protection",
+      "electronic defog",
+      "GB/T28181, GA/T 1400 (CN standards)",
+      "China market model"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "detect": {
+          "width": 1280,
+          "height": 360,
+          "fps": 5
+        },
+        "notes": "Dual-channel — configure as TWO Frigate cameras: panoramic = channel=1 (3840x1080, 32:9 — set detect to 1280x360 to match), PTZ = channel=2 (2560x1440, rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=2&subtype=0, detect 1280x720). For ONVIF autotracking on the PTZ channel add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. ONVIF PTZ confirmed working — Channel 2 profiles have both VideoEncoderConfiguration and PTZConfiguration (no split-profile issue, unlike SDT4E series). Verified in frigate#22135. Note: powered by DC 36V, not PoE."
+      },
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "ONVIF integration works including PTZ control. Default port 80. CN firmware."
+      },
+      "blue_iris": {
+        "profile": "Dahua",
+        "notes": "Select 'Dahua' profile. Dual-channel camera — add each channel as a separate camera."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://github.com/ch-bas/cctv-camera-database/issues/11",
+      "https://github.com/blakeblackshear/frigate/discussions/22135",
+      "https://www.jiankongqicai.com/news/64.html"
+    ],
+    "sensor": "2x 1/2.8\" CMOS (panoramic + PTZ)",
+    "field_of_view_deg": "180 horizontal (panoramic) / 55.8-2.4 (PTZ)",
+    "ip_rating": "IP66",
+    "operating_temp_c": "-40 to +65",
+    "video": {
+      "codecs": [
+        "Smart H.265",
+        "H.265",
+        "Smart H.264",
+        "H.264",
+        "MJPEG"
+      ],
+      "max_fps": 25,
+      "streams": [
+        {
+          "name": "panoramic main",
+          "resolution": "3840x1080",
+          "fps": 25,
+          "codec": "H.265"
+        },
+        {
+          "name": "panoramic sub",
+          "resolution": "960x268",
+          "fps": 25,
+          "codec": "H.264"
+        },
+        {
+          "name": "PTZ main",
+          "resolution": "2560x1440",
+          "fps": 25,
+          "codec": "H.265"
+        }
+      ]
+    }
+  },
+  {
     "id": "dahua-hac-hdw1509tq-a-led",
     "brand": "Dahua",
     "model": "HAC-HDW1509TQ-A-LED",
     "type": "dome",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2022,
     "resolution": {
@@ -21786,9 +21429,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": true,
@@ -21815,7 +21456,7 @@
     "model": "HAC-HFW1509TH-A-LED",
     "type": "bullet",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2022,
     "resolution": {
@@ -21835,9 +21476,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": true,
@@ -21864,7 +21503,7 @@
     "model": "HAC-HFW2802E-LED",
     "type": "bullet",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2023,
     "resolution": {
@@ -21884,9 +21523,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": false,
@@ -21911,7 +21548,7 @@
     "model": "HAC-HFW2849E-A-NI-LED",
     "type": "bullet",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2023,
     "resolution": {
@@ -21931,9 +21568,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": true,
@@ -24751,7 +24386,8 @@
     "brand": "Dahua",
     "model": "IPC-HDW3849H-ZAS-PV",
     "aliases": [
-      "WizSense TiOC 8MP Varifocal Turret"
+      "WizSense TiOC 8MP Varifocal Turret",
+      "dahua-ipc-hdw3849h-zas-pv-varifocal"
     ],
     "type": "turret",
     "connectivity": [
@@ -24802,78 +24438,6 @@
     ],
     "sources": [
       "https://www.securitywholesalers.com.au/product/dahua-tioc-dh-ipc-hdw3849h-zas-pv-anz-8mp-ai-active-deterrence-motorised-turret-camera/"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
-      }
-    }
-  },
-  {
-    "id": "dahua-ipc-hdw3849h-zas-pv-varifocal",
-    "brand": "Dahua",
-    "model": "IPC-HDW3849H-ZAS-PV",
-    "type": "turret",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 8,
-      "label": "4K UHD"
-    },
-    "field_of_view_deg": "110-30h",
-    "night_vision": {
-      "type": "hybrid",
-      "range_m": 40
-    },
-    "power": {
-      "method": "PoE (802.3af) / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "TiOC 2.0 4K 5× varifocal eyeball",
-      "full-color active deterrence",
-      "WizSense AI",
-      "two-way audio",
-      "H.265+",
-      "IP67"
-    ],
-    "sources": [
-      "https://www.dahuasecurity.com/"
     ],
     "power_source": [
       "poe",
@@ -25450,7 +25014,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Dual-lens WizMind camera — check whether second lens exposes a separate channel (channel=2)."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -25478,7 +25043,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" Progressive Scan CMOS",
     "lens": {
@@ -27870,87 +27435,6 @@
     }
   },
   {
-    "id": "dahua-ipc-hfw3849e-as-led-s2-new",
-    "brand": "Dahua",
-    "model": "IPC-HFW3849E-ZAS-LED-S2",
-    "type": "bullet",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2024,
-    "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
-    },
-    "sensor": "1/2.7\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.7-13.5 (5x motorized varifocal)",
-      "aperture": "F1.6",
-      "varifocal": true
-    },
-    "field_of_view_deg": "110-30 horizontal",
-    "night_vision": {
-      "type": "color",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": true,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "4K full-color warm LED varifocal bullet",
-      "5x motorized zoom",
-      "WizSense AI",
-      "SMD 4.0",
-      "H.265+",
-      "IP67"
-    ],
-    "sources": [
-      "https://www.dahuasecurity.com/"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
-      }
-    }
-  },
-  {
     "id": "dahua-ipc-hfw3849e-s-il",
     "brand": "Dahua",
     "model": "IPC-HFW3849E-S-IL",
@@ -28032,11 +27516,93 @@
     }
   },
   {
+    "id": "dahua-ipc-hfw3849e-zas-led-s2",
+    "brand": "Dahua",
+    "model": "IPC-HFW3849E-ZAS-LED-S2",
+    "type": "bullet",
+    "connectivity": [
+      "ethernet"
+    ],
+    "release_year": 2024,
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "sensor": "1/2.7\" CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "2.7-13.5 (5x motorized varifocal)",
+      "aperture": "F1.6",
+      "varifocal": true
+    },
+    "field_of_view_deg": "110-30 horizontal",
+    "night_vision": {
+      "type": "color",
+      "range_m": 30
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 256,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "onvif",
+      "rtsp"
+    ],
+    "ip_rating": "IP67",
+    "audio": {
+      "microphone": true,
+      "speaker": false,
+      "two_way": false
+    },
+    "features": [
+      "4K full-color warm LED varifocal bullet",
+      "5x motorized zoom",
+      "WizSense AI",
+      "SMD 4.0",
+      "H.265+",
+      "IP67"
+    ],
+    "sources": [
+      "https://www.dahuasecurity.com/"
+    ],
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "configs": {
+      "frigate": {
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+      },
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "Use ONVIF integration. Default ONVIF port 80."
+      },
+      "blue_iris": {
+        "profile": "Dahua",
+        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
+      }
+    }
+  },
+  {
     "id": "dahua-ipc-hfw3849t-as-pv-pro-legacy",
     "brand": "Dahua",
     "model": "IPC-HFW3849T1-AS-PV-PRO",
     "aliases": [
-      "WizColor TiOC PRO 8MP Bullet"
+      "WizColor TiOC PRO 8MP Bullet",
+      "dahua-ipc-hfw3849t1-as-pv-pro"
     ],
     "type": "bullet",
     "connectivity": [
@@ -28121,7 +27687,8 @@
     "model": "IPC-HFW3849T1-AS-PV",
     "aliases": [
       "DH-IPC-HFW3849T1-AS-PV",
-      "WizSense TiOC 8MP Bullet"
+      "WizSense TiOC 8MP Bullet",
+      "dahua-ipc-hfw3849t1-as-pv-s3"
     ],
     "type": "bullet",
     "connectivity": [
@@ -28174,148 +27741,6 @@
     ],
     "sources": [
       "https://www.dahuasecurity.com/asset/upload/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HFW3849T1-AS-PV-S3_datasheet_20220525.pdf"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
-      }
-    }
-  },
-  {
-    "id": "dahua-ipc-hfw3849t1-as-pv-pro",
-    "brand": "Dahua",
-    "model": "IPC-HFW3849T1-AS-PV-PRO",
-    "type": "bullet",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2024,
-    "resolution": {
-      "megapixels": 8,
-      "label": "4K UHD"
-    },
-    "field_of_view_deg": "107h",
-    "night_vision": {
-      "type": "hybrid",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE/DC12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "TiOC PRO 4K bullet active deterrence enhanced",
-      "AI SMD 4.0",
-      "two-way audio",
-      "H.265+",
-      "IP67"
-    ],
-    "sources": [
-      "https://www.dahuasecurity.com/"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
-      }
-    }
-  },
-  {
-    "id": "dahua-ipc-hfw3849t1-as-pv-s3",
-    "brand": "Dahua",
-    "model": "IPC-HFW3849T1-AS-PV",
-    "type": "bullet",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 8,
-      "label": "4K UHD"
-    },
-    "field_of_view_deg": "110h",
-    "night_vision": {
-      "type": "hybrid",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE (802.3af) / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "TiOC 2.0 4K fixed-focal bullet",
-      "full-color active deterrence (red/blue + siren)",
-      "WizSense AI",
-      "two-way audio",
-      "IP67"
-    ],
-    "sources": [
-      "https://www.dahuasecurity.com/"
     ],
     "power_source": [
       "poe",
@@ -29043,7 +28468,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Dual-lens WizMind camera — check whether second lens exposes a separate channel (channel=2)."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29205,7 +28631,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Multi-sensor 360° camera — streams may be per-sensor channels (channel=1..4) or stitched depending on firmware. Verify channel layout via ONVIF before configuring."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29284,7 +28711,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Multi-sensor 180° stitched panoramic — main stream is one wide stitched image. Set detect to match actual stream aspect ratio."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29369,7 +28797,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Multi-sensor 180° stitched panoramic — main stream is one wide stitched image (not 16:9). Set Frigate detect resolution to match the actual stream aspect ratio (check stream first, e.g. via VLC). Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29455,7 +28884,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Multi-sensor 180° stitched panoramic — main stream is one wide stitched image (not 16:9). Set detect to match actual stream aspect ratio."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29535,7 +28965,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Multi-sensor 180° stitched panoramic — main stream is one wide stitched image. Set detect to match actual stream aspect ratio."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29606,7 +29037,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "Panoramic + PTZ combo — panoramic is channel=1, PTZ is channel=2 (rtsp .../realmonitor?channel=2&subtype=0). Configure as two Frigate cameras."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29782,7 +29214,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29863,91 +29296,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
-      }
-    }
-  },
-  {
-    "id": "dahua-sd49425xb-hnr",
-    "brand": "Dahua",
-    "model": "SD49425XB-HNR 4MP 25x PTZ",
-    "aliases": [
-      "DH-SD49425XB-HNR",
-      "WizSense PTZ 4MP"
-    ],
-    "type": "ptz",
-    "connectivity": [
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2688,
-      "max_height": 1520,
-      "label": "4MP"
-    },
-    "sensor": "1/2.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "4.9-122.5 (25x optical zoom)",
-      "varifocal": true
-    },
-    "field_of_view_deg": "60.3-2.6 horizontal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 100
-    },
-    "power": {
-      "method": "PoE+ (802.3at) / DC 24V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "25x optical zoom",
-      "WizSense AI human / vehicle classification",
-      "SMD Plus",
-      "120 dB WDR",
-      "auto-tracking",
-      "patrol and preset tours",
-      "H.265 codec",
-      "IK10"
-    ],
-    "sources": [
-      "https://www.dahuasecurity.com"
-    ],
-    "power_source": [
-      "poe"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -29997,6 +29347,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "WizMind 4K 8MP 25x PTZ SMD 4.0",
       "face recognition",
       "auto-tracking",
@@ -30025,7 +29376,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -30108,7 +29460,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -30190,86 +29543,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Dahua",
-        "notes": "Select 'Dahua' profile. Supports both main and sub streams."
-      }
-    }
-  },
-  {
-    "id": "dahua-sd6c3432xb-hnr-active",
-    "brand": "Dahua",
-    "model": "SD6C3432XB-HNR-A-PV1-new",
-    "type": "ptz",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2024,
-    "resolution": {
-      "megapixels": 4,
-      "label": "4MP"
-    },
-    "field_of_view_deg": "60-2h",
-    "night_vision": {
-      "type": "color",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE (802.3bt)"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "WizMind 4MP 32x PTZ full-color active deterrence",
-      "ColorVu full-color night vision",
-      "red/blue strobe + siren",
-      "face recognition",
-      "auto-tracking",
-      "H.265",
-      "IP66"
-    ],
-    "sources": [
-      "https://www.dahuasecurity.com/"
-    ],
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "6.0-192 (32x optical)",
-      "aperture": "F1.6",
-      "varifocal": true
-    },
-    "sensor": "1/2.8\" CMOS",
-    "power_source": [
-      "poe"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+        "notes": "ONVIF PTZ control supported (port 80). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. Standard Dahua realmonitor URLs."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -31060,6 +30335,9 @@
     "msrp_usd": 99.99,
     "sources": [
       "https://www.eufy.com/products/garage-cam-s330"
+    ],
+    "power_source": [
+      "dc"
     ]
   },
   {
@@ -31509,6 +30787,10 @@
     "msrp_usd": 79.99,
     "sources": [
       "https://www.eufy.com/products/outdoor-cam-e210"
+    ],
+    "power_source": [
+      "battery",
+      "solar"
     ]
   },
   {
@@ -31525,8 +30807,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 2048,
-      "max_height": 1080,
       "label": "2K"
     },
     "lens": {
@@ -31586,8 +30866,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 2048,
-      "max_height": 1080,
       "label": "2K"
     },
     "lens": {
@@ -31815,6 +31093,10 @@
     "msrp_usd": 39.99,
     "sources": [
       "https://www.eufy.com/products/solocam-l20"
+    ],
+    "power_source": [
+      "battery",
+      "solar"
     ]
   },
   {
@@ -31874,6 +31156,10 @@
     "msrp_usd": 59.99,
     "sources": [
       "https://www.eufy.com/products/solocam-l40"
+    ],
+    "power_source": [
+      "battery",
+      "solar"
     ]
   },
   {
@@ -32358,8 +31644,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 2048,
-      "max_height": 1080,
       "label": "2K"
     },
     "lens": {
@@ -36087,10 +35371,10 @@
       "ethernet"
     ],
     "resolution": {
-      "megapixels": 3,
+      "megapixels": 4,
       "max_width": 2048,
       "max_height": 2048,
-      "label": "3MP Fisheye"
+      "label": "4MP Fisheye"
     },
     "sensor": "1/2.8\" Progressive Scan CMOS",
     "lens": {
@@ -37078,58 +36362,6 @@
     ]
   },
   {
-    "id": "google-nest-cam-battery-2nd",
-    "brand": "Google",
-    "model": "Nest Cam (Battery) 2nd Gen",
-    "type": "bullet",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2024,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "130h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 6
-    },
-    "power": {
-      "method": "Rechargeable battery / solar optional"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 0,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP54",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "Google Nest Cam Battery Gen 2 upgraded",
-      "1080p HDR",
-      "person/animal/vehicle detection",
-      "3hr event history free",
-      "Google Home / Alexa",
-      "IP54"
-    ],
-    "sources": [
-      "https://store.google.com/"
-    ],
-    "power_source": [
-      "battery",
-      "solar"
-    ]
-  },
-  {
     "id": "google-nest-cam-floodlight-wire",
     "brand": "Google",
     "model": "Nest Cam with Floodlight (Wired 2nd Gen)",
@@ -37167,56 +36399,6 @@
     "features": [
       "Google Nest Cam with Floodlight Gen 2",
       "2000-lumen floodlight",
-      "1080p HDR",
-      "colour night vision",
-      "person/animal/vehicle detection",
-      "Google Home / Alexa",
-      "IP54"
-    ],
-    "sources": [
-      "https://store.google.com/"
-    ],
-    "power_source": [
-      "ac-mains"
-    ]
-  },
-  {
-    "id": "google-nest-cam-floodlight-wired",
-    "brand": "Google",
-    "model": "Nest Cam with Floodlight (Wired 2nd Gen)",
-    "type": "bullet",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2024,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "130h",
-    "night_vision": {
-      "type": "color",
-      "range_m": 20
-    },
-    "power": {
-      "method": "Hardwired AC 120V"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP54",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "Google Nest Cam Floodlight Gen 2 2000-lumen",
       "1080p HDR",
       "colour night vision",
       "person/animal/vehicle detection",
@@ -37730,54 +36912,6 @@
     ]
   },
   {
-    "id": "google-nest-cam-outdoor-wired",
-    "brand": "Google",
-    "model": "Nest Cam Outdoor (Wired)",
-    "type": "bullet",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "130h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 6
-    },
-    "power": {
-      "method": "DC 5V USB-C weatherproof"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP54",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "Google Nest Cam Outdoor wired continuous 24/7 recording on Nest Aware Plus",
-      "person/animal/vehicle detection",
-      "Google Home / Alexa",
-      "IP54"
-    ],
-    "sources": [
-      "https://store.google.com/"
-    ],
-    "power_source": [
-      "usb"
-    ]
-  },
-  {
     "id": "google-nest-cam-ptz-indoor",
     "brand": "Google",
     "model": "Nest Cam (Wired, Indoor Pan/Tilt)",
@@ -38070,71 +37204,6 @@
     ]
   },
   {
-    "id": "google-nest-doorbell-wired-2021",
-    "brand": "Google",
-    "model": "Nest Doorbell (Wired, 2nd Gen)",
-    "aliases": [
-      "GA01318-US"
-    ],
-    "type": "doorbell",
-    "connectivity": [
-      "wifi",
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1080,
-      "label": "1080p"
-    },
-    "sensor": "1/2.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "varifocal": false
-    },
-    "field_of_view_deg": "145 diagonal",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 6
-    },
-    "power": {
-      "method": "Hardwired (8-24 VAC) – no battery"
-    },
-    "storage": {
-      "onboard": false,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP54",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "HDR video",
-      "6x digital zoom",
-      "continuous 24/7 recording (Nest Aware Plus)",
-      "person / package / animal / vehicle detection",
-      "familiar face alerts",
-      "noise cancelling two-way audio",
-      "Google Home app",
-      "Alexa"
-    ],
-    "release_year": 2021,
-    "msrp_usd": 179.99,
-    "sources": [
-      "https://store.google.com/product/nest_doorbell_wired_specs"
-    ],
-    "power_source": [
-      "battery",
-      "ac-mains"
-    ]
-  },
-  {
     "id": "google-nest-doorbell-wired-2nd-gen",
     "brand": "Google",
     "model": "Nest Doorbell (Wired, 2nd Gen)",
@@ -38149,8 +37218,6 @@
     "release_year": 2022,
     "resolution": {
       "megapixels": 2,
-      "max_width": 960,
-      "max_height": 1280,
       "label": "960x1280 HD"
     },
     "sensor": "CMOS",
@@ -38217,8 +37284,6 @@
     ],
     "resolution": {
       "megapixels": 2,
-      "max_width": 960,
-      "max_height": 1280,
       "label": "960x1280 HD"
     },
     "lens": {
@@ -38849,7 +37914,7 @@
     "release_year": 2023,
     "resolution": {
       "megapixels": 20,
-      "max_width": 2592,
+      "max_width": 8000,
       "max_height": 1944,
       "label": "4x5MP (20MP total)"
     },
@@ -38968,6 +38033,7 @@
       "two_way": true
     },
     "features": [
+      "pan/tilt/zoom",
       "multi-directional + PTZ combo",
       "5MP fixed + 2MP 40x PTZ",
       "AI deep-learning analytics",
@@ -39849,7 +38915,6 @@
       "onvif",
       "rtsp"
     ],
-    "ip_rating": "IK10",
     "audio": {
       "microphone": false,
       "speaker": false,
@@ -39864,7 +38929,8 @@
       "Korean-made Hanwha",
       "#1 Korea domestic surveillance brand",
       "largest market share South Korea domestic",
-      "ADT Caps / KT Telecop system integrator preferred"
+      "ADT Caps / KT Telecop system integrator preferred",
+      "IK10"
     ],
     "sources": [
       "https://www.hanwhavision.com/en-kr/"
@@ -40977,8 +40043,7 @@
     },
     "protocols": [
       "onvif",
-      "rtsp",
-      "http"
+      "rtsp"
     ],
     "ip_rating": "IP66",
     "audio": {
@@ -41314,7 +40379,6 @@
       "onvif",
       "rtsp"
     ],
-    "ip_rating": "IK10",
     "audio": {
       "microphone": false,
       "speaker": false,
@@ -41697,6 +40761,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "Wisenet Q 4MP 32x PTZ",
       "100m IR",
       "auto-tracking",
@@ -41784,6 +40849,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "Wisenet 9 SoC (dual NPU)",
       "high-durability ruggedized housing",
       "AI-based noise reduction",
@@ -45622,8 +44688,8 @@
     },
     "field_of_view_deg": "103h",
     "night_vision": {
-      "type": "none",
-      "range_m": 0
+      "type": "ir",
+      "range_m": 30
     },
     "power": {
       "method": "PoE (802.3af) / DC 12V"
@@ -45647,10 +44713,10 @@
     "features": [
       "2MP DarkFighter mini bullet",
       "0.002 lux ultra-low light",
-      "no IR",
       "H.265",
       "ONVIF/RTSP",
-      "IP67"
+      "IP67",
+      "EXIR 30m IR"
     ],
     "sources": [
       "https://www.hikvision.com/en/products/"
@@ -49004,7 +48070,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "Dual-lens panoramic ColorVu — single stitched 180° stream, wider than 16:9. Set Frigate detect to match actual stream aspect ratio."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -49621,7 +48688,7 @@
     "aliases": [
       "WDR Fixed Cube 8MP IP Camera"
     ],
-    "type": "covert",
+    "type": "turret",
     "connectivity": [
       "ethernet"
     ],
@@ -50395,7 +49462,7 @@
     "id": "hikvision-ds-2cd2443g2-iw",
     "brand": "Hikvision",
     "model": "DS-2CD2443G2-I(W)",
-    "type": "covert",
+    "type": "box",
     "connectivity": [
       "ethernet"
     ],
@@ -51680,7 +50747,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "Fisheye camera — main stream is the raw circular fisheye image. Frigate detection works on the fisheye view; dewarping requires camera-side view modes (each exposed as separate stream/channel)."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -51762,7 +50830,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "Fisheye camera — raw fisheye stream; dewarped views available as additional channels (Streaming/Channels/201 etc. depending on view mode)."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55218,7 +54287,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "Fisheye camera — raw fisheye main stream; hardware dewarp views exposed as separate channels."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55246,7 +54316,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" Progressive Scan CMOS",
     "lens": {
@@ -55303,7 +54373,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "12MP fisheye — raw fisheye main stream; hardware dewarp views exposed as separate channels."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55375,7 +54446,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "PanoVu 4-sensor panoramic — each sensor is a separate channel: Streaming/Channels/101, 201, 301, 401. Configure each as its own Frigate camera, or use the stitched stream if firmware provides it."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55465,7 +54537,7 @@
     "model": "DS-2CE16D8T-IT3F",
     "type": "bullet",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2020,
     "resolution": {
@@ -55485,9 +54557,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": false,
@@ -55495,9 +54565,9 @@
       "two_way": false
     },
     "features": [
+      "Turbo HD (HD-TVI) analog over coax",
       "2MP Ultra-Low Light TurboHD analog bullet",
       "60m Smart IR",
-      "4-in-1 HDCVI/TVI/AHD/CVBS",
       "H.265",
       "IP67",
       "legacy analog upgrade path"
@@ -55515,7 +54585,7 @@
     "model": "DS-2CE16H8T-IT3F",
     "type": "bullet",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2020,
     "resolution": {
@@ -55535,9 +54605,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": false,
@@ -55545,6 +54613,7 @@
       "two_way": false
     },
     "features": [
+      "Turbo HD (HD-TVI) analog over coax",
       "5MP Ultra-Low Light TurboHD analog bullet",
       "60m Smart IR",
       "4-in-1",
@@ -55563,7 +54632,7 @@
     "model": "DS-2CE16K0T-ITF",
     "type": "bullet",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2021,
     "resolution": {
@@ -55583,9 +54652,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP66",
     "audio": {
       "microphone": false,
@@ -55593,9 +54660,9 @@
       "two_way": false
     },
     "features": [
+      "Turbo HD (HD-TVI) analog over coax",
       "5MP TurboHD Analog bullet",
       "40m IR",
-      "4-in-1 HDCVI/TVI/AHD/CVBS",
       "IP66",
       "budget analog surveillance"
     ],
@@ -55612,7 +54679,7 @@
     "model": "DS-2CE76K0T-ITMFS",
     "type": "turret",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2021,
     "resolution": {
@@ -55632,9 +54699,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": true,
@@ -55642,6 +54707,7 @@
       "two_way": false
     },
     "features": [
+      "Turbo HD (HD-TVI) analog over coax",
       "5MP TurboHD analog turret with mic",
       "40m IR",
       "4-in-1",
@@ -55661,7 +54727,7 @@
     "model": "DS-2CE76K0T-LMFS",
     "type": "turret",
     "connectivity": [
-      "ethernet"
+      "coax"
     ],
     "release_year": 2022,
     "resolution": {
@@ -55681,9 +54747,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "hdcvi"
-    ],
+    "protocols": [],
     "ip_rating": "IP67",
     "audio": {
       "microphone": true,
@@ -55691,6 +54755,7 @@
       "two_way": false
     },
     "features": [
+      "Turbo HD (HD-TVI) analog over coax",
       "5MP Smart Hybrid Light TurboHD turret",
       "dual light (IR + warm LED)",
       "4-in-1",
@@ -55774,7 +54839,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55858,7 +54924,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55942,7 +55009,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -55992,6 +55060,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "4MP 4x AcuSense Mini PTZ outdoor IP66 50m IR",
       "auto-tracking",
       "H.265+"
@@ -56015,7 +55084,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56103,7 +55173,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56193,7 +55264,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56286,7 +55358,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56372,7 +55445,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56455,7 +55529,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56538,7 +55613,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56588,6 +55664,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "4MP 25x PTZ DeepinView",
       "100m IR",
       "AcuSense AI",
@@ -56617,7 +55694,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56701,7 +55779,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "ONVIF PTZ control supported (port 80, enable Integration Protocol/ONVIF in camera settings and create an ONVIF user). For Frigate autotracking add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56781,7 +55860,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "PT + fixed dual-unit camera — fixed lens is channel 1 (Streaming/Channels/101), PT unit is channel 2 (Streaming/Channels/201). Configure as two Frigate cameras."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56831,6 +55911,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "TandemVu: bullet camera + PTZ in one unit",
       "4MP wide-angle overview + 4MP 25x PTZ",
       "ColorVu + AcuSense AI",
@@ -56858,7 +55939,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "TandemVu PTZ+bullet combo — bullet is channel 1 (Streaming/Channels/101), PTZ is channel 2 (Streaming/Channels/201). Configure as two Frigate cameras; ONVIF PTZ control on channel 2."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -56908,6 +55990,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "TandemVu: overview + 30x PTZ",
       "4MP wide + 4MP 30x IR PTZ",
       "AcuSense AI",
@@ -56934,7 +56017,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "TandemVu PTZ+bullet combo — bullet is channel 1 (Streaming/Channels/101), PTZ is channel 2 (Streaming/Channels/201). Configure as two Frigate cameras; ONVIF PTZ control on channel 2."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -57007,79 +56091,8 @@
           "fps": 5
         },
         "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80. Enable in Configuration > Network > Integration Protocol."
-      },
-      "blue_iris": {
-        "profile": "Hikvision",
-        "notes": "Select 'Hikvision' profile. Use main stream for recording, sub stream for live view."
-      }
-    }
-  },
-  {
-    "id": "hikvision-ds-2xs6a26g0-solar",
-    "brand": "Hikvision",
-    "model": "DS-2XS6A26G0-I/CH20S40",
-    "type": "bullet",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2022,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "103h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 60
-    },
-    "power": {
-      "method": "Solar + 10400mAh battery"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "Hikvision solar-powered WiFi AcuSense bullet",
-      "solar always-on",
-      "AcuSense AI",
-      "60m IR",
-      "H.265+",
-      "IP67"
-    ],
-    "sources": [
-      "https://www.hikvision.com/en/"
-    ],
-    "power_source": [
-      "battery",
-      "solar"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102"
+        "best_substream": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/102",
+        "notes": "Solar/battery powered enterprise camera — RTSP/ONVIF fully supported, but continuous 24/7 streaming will drain the battery faster than solar recharge in low-light seasons. Use sub-stream detection at low fps and motion-triggered recording."
       },
       "home_assistant": {
         "integration": "onvif",
@@ -58625,6 +57638,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "HiLook 4MP 20x PTZ entry-level",
       "80m IR",
       "auto-tracking",
@@ -59319,6 +58333,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "4MP 25x PTZ",
       "100m IR",
       "IVA analytics",
@@ -59459,7 +58474,6 @@
       "onvif",
       "rtsp"
     ],
-    "ip_rating": "IK10",
     "audio": {
       "microphone": true,
       "speaker": false,
@@ -59475,7 +58489,8 @@
       "ONVIF Profile G/S/T",
       "pre-installed AI analytics (ready to install 3rd-party apps)",
       "IK10 vandal-resistant",
-      "#1 brand Japan enterprise surveillance market"
+      "#1 brand Japan enterprise surveillance market",
+      "IK10"
     ],
     "sources": [
       "https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s2236l"
@@ -59735,7 +58750,6 @@
       "onvif",
       "rtsp"
     ],
-    "ip_rating": "IK10",
     "audio": {
       "microphone": true,
       "speaker": false,
@@ -59749,7 +58763,8 @@
       "IK10 vandal-resistant",
       "NDAA compliant",
       "IDIS Security Suite VMS integration",
-      "most advanced IDIS Korea flagship dome 2024"
+      "most advanced IDIS Korea flagship dome 2024",
+      "IK10"
     ],
     "sources": [
       "https://idisamericas.com/en/productslist/2"
@@ -59823,7 +58838,6 @@
       "onvif",
       "rtsp"
     ],
-    "ip_rating": "IK10",
     "audio": {
       "microphone": false,
       "speaker": false,
@@ -59837,7 +58851,8 @@
       "ONVIF Profile S/T",
       "easy kitting — auto-discovers on IDIS NVR instantly",
       "Korean-made quality",
-      "popular Korea retail/bank/education/healthcare"
+      "popular Korea retail/bank/education/healthcare",
+      "IK10"
     ],
     "sources": [
       "https://idisamericas.com/en/product/3588"
@@ -60125,7 +59140,9 @@
     "brand": "IMOU",
     "model": "Cell Go",
     "type": "bullet",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 4,
@@ -60362,7 +59379,9 @@
     "brand": "IMOU",
     "model": "Cruiser 4G",
     "type": "ptz",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 4,
@@ -60538,7 +59557,9 @@
     "brand": "IMOU",
     "model": "Go Basic 2MP",
     "type": "bullet",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2022,
     "resolution": {
       "megapixels": 2,
@@ -67244,6 +66265,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "4K 8MP 20x PTZ premium",
       "80m IR auto-tracking",
       "LUPUS SmartVision VMS",
@@ -67338,6 +66360,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "4MP 18x PTZ outdoor",
       "60m IR",
       "auto-tracking",
@@ -67804,8 +66827,6 @@
     ],
     "resolution": {
       "megapixels": 2,
-      "max_width": 1920,
-      "max_height": 1920,
       "label": "2MP Fisheye"
     },
     "sensor": "1/2.8\" Progressive Scan CMOS",
@@ -69381,7 +68402,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/1.7\" 12MP CMOS",
     "lens": {
@@ -69694,8 +68715,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 1920,
-      "max_height": 1080,
       "label": "1080p HD"
     },
     "lens": {
@@ -69767,8 +68786,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 1920,
-      "max_height": 1080,
       "label": "1080p HD"
     },
     "lens": {
@@ -69837,8 +68854,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 1920,
-      "max_height": 1080,
       "label": "1080p HD"
     },
     "lens": {
@@ -69914,8 +68929,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 1920,
-      "max_height": 1080,
       "label": "1080p HD"
     },
     "lens": {
@@ -69989,8 +69002,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 1920,
-      "max_height": 1080,
       "label": "1080p HD"
     },
     "lens": {
@@ -70062,8 +69073,6 @@
     ],
     "resolution": {
       "megapixels": 4,
-      "max_width": 1920,
-      "max_height": 1440,
       "label": "1080p+ 4:3"
     },
     "lens": {
@@ -72871,7 +71880,7 @@
     "release_year": 2022,
     "resolution": {
       "megapixels": 12,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "field_of_view_deg": "80 horizontal",
     "night_vision": {
@@ -73507,7 +72516,7 @@
     "release_year": 2022,
     "resolution": {
       "megapixels": 12,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "field_of_view_deg": "80 horizontal",
     "night_vision": {
@@ -73842,7 +72851,9 @@
     "brand": "Reolink",
     "model": "Duo 2 LTE",
     "type": "bullet",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 16,
@@ -74370,7 +73381,9 @@
     "brand": "Reolink",
     "model": "Duo 4G",
     "type": "bullet",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2022,
     "resolution": {
       "megapixels": 8,
@@ -74545,88 +73558,6 @@
     "power_source": [
       "usb"
     ]
-  },
-  {
-    "id": "reolink-e1-outdoor",
-    "brand": "Reolink",
-    "model": "E1 Outdoor",
-    "type": "ptz",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "resolution": {
-      "megapixels": 5,
-      "max_width": 2560,
-      "max_height": 1920,
-      "label": "5MP Super HD"
-    },
-    "sensor": "1/2.7\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.8-8",
-      "aperture": "F1.6"
-    },
-    "field_of_view_deg": "90-50 horizontal",
-    "night_vision": {
-      "type": "color",
-      "range_m": 12
-    },
-    "power": {
-      "method": "DC 12V/1A"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 512,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "rtsp",
-      "onvif"
-    ],
-    "ip_rating": "IP65",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "3x optical zoom",
-      "355° pan / 50° tilt",
-      "auto-tracking",
-      "64 presets",
-      "person/vehicle/animal detection",
-      "spotlight color night vision",
-      "dual-band WiFi",
-      "no subscription"
-    ],
-    "msrp_usd": 110,
-    "sources": [
-      "https://reolink.com/product/e1-outdoor/"
-    ],
-    "power_source": [
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub"
-      },
-      "home_assistant": {
-        "integration": "reolink",
-        "notes": "Native Reolink integration auto-discovers via ONVIF on port 8000."
-      },
-      "blue_iris": {
-        "profile": "Reolink",
-        "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
-      }
-    }
   },
   {
     "id": "reolink-e1-outdoor-cx",
@@ -75495,7 +74426,9 @@
     "brand": "Reolink",
     "model": "Go",
     "type": "bullet",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2019,
     "resolution": {
       "megapixels": 2,
@@ -75546,7 +74479,9 @@
     "brand": "Reolink",
     "model": "Go PT",
     "type": "ptz",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2021,
     "resolution": {
       "megapixels": 4,
@@ -75597,7 +74532,9 @@
     "brand": "Reolink",
     "model": "Go PT Plus",
     "type": "ptz",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2022,
     "resolution": {
       "megapixels": 4,
@@ -75649,7 +74586,9 @@
     "brand": "Reolink",
     "model": "Go PT Ultra",
     "type": "ptz",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 8,
@@ -75702,7 +74641,7 @@
     "aliases": [
       "Reolink Home Hub NVR/HomeBase for WiFi cameras"
     ],
-    "type": "covert",
+    "type": "box",
     "connectivity": [
       "wifi",
       "ethernet"
@@ -75741,7 +74680,8 @@
       "manages up to 8 Reolink cameras",
       "AI video search",
       "no subscription fee",
-      "no cloud required"
+      "no cloud required",
+      "NVR hub — not a camera"
     ],
     "msrp_usd": 69,
     "sources": [
@@ -75756,7 +74696,9 @@
     "brand": "Reolink",
     "model": "Keen Ranger PT",
     "type": "ptz",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 4,
@@ -76395,7 +75337,9 @@
       "Reolink Go Plus 4G LTE Battery Camera"
     ],
     "type": "bullet",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2022,
     "resolution": {
       "megapixels": 4,
@@ -76463,7 +75407,7 @@
     "release_year": 2022,
     "resolution": {
       "megapixels": 12,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "field_of_view_deg": "80 horizontal",
     "night_vision": {
@@ -76559,7 +75503,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/2.3\" CMOS",
     "lens": {
@@ -76639,7 +75583,7 @@
     "release_year": 2022,
     "resolution": {
       "megapixels": 12,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "field_of_view_deg": "80 horizontal",
     "night_vision": {
@@ -76714,7 +75658,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/2.3\" CMOS",
     "lens": {
@@ -76795,7 +75739,7 @@
       "megapixels": 12,
       "max_width": 4000,
       "max_height": 3000,
-      "label": "12MP"
+      "label": "12MP UHD"
     },
     "sensor": "1/2.3\" CMOS",
     "lens": {
@@ -79794,86 +78738,6 @@
     }
   },
   {
-    "id": "reolink-rlc-823a-ptz-4k",
-    "brand": "Reolink",
-    "model": "RLC-830A",
-    "type": "ptz",
-    "connectivity": [
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
-    },
-    "sensor": "1/2.7\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.8 (fixed)",
-      "aperture": "F2.0",
-      "varifocal": false
-    },
-    "field_of_view_deg": "87 horizontal",
-    "night_vision": {
-      "type": "hybrid",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE (802.3af) / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "355deg pan / 90deg tilt",
-      "auto-tracking",
-      "spotlight deters intruders at night",
-      "person/vehicle detection",
-      "no subscription"
-    ],
-    "release_year": 2022,
-    "sources": [
-      "https://reolink.com/product/rlc-830a/"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub"
-      },
-      "home_assistant": {
-        "integration": "reolink",
-        "notes": "Native Reolink integration auto-discovers via ONVIF on port 8000."
-      },
-      "blue_iris": {
-        "profile": "Reolink",
-        "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
-      }
-    }
-  },
-  {
     "id": "reolink-rlc-823a-v2",
     "brand": "Reolink",
     "model": "RLC-823A v2",
@@ -80386,7 +79250,10 @@
           "codec": "H.265"
         }
       ]
-    }
+    },
+    "aliases": [
+      "reolink-rlc-823a-ptz-4k"
+    ]
   },
   {
     "id": "reolink-rlc-833a",
@@ -80574,86 +79441,6 @@
     }
   },
   {
-    "id": "reolink-rlc-840a",
-    "brand": "Reolink",
-    "model": "RLC-840A",
-    "type": "turret",
-    "connectivity": [
-      "ethernet"
-    ],
-    "resolution": {
-      "megapixels": 8,
-      "max_width": 3840,
-      "max_height": 2160,
-      "label": "4K UHD"
-    },
-    "sensor": "1/2.8\" CMOS",
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.8 (fixed)",
-      "aperture": "F2.0",
-      "varifocal": false
-    },
-    "field_of_view_deg": "125 horizontal",
-    "night_vision": {
-      "type": "hybrid",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE (802.3af) / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 512,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "spotlight color night vision",
-      "IK10 vandal resistant",
-      "person/vehicle/animal detection",
-      "two-way audio",
-      "no subscription"
-    ],
-    "release_year": 2023,
-    "sources": [
-      "https://reolink.com/product/rlc-840a/"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_main",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/h264Preview_01_sub"
-      },
-      "home_assistant": {
-        "integration": "reolink",
-        "notes": "Native Reolink integration auto-discovers via ONVIF on port 8000."
-      },
-      "blue_iris": {
-        "profile": "Reolink",
-        "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
-      }
-    }
-  },
-  {
     "id": "reolink-rlc-840a-v2",
     "brand": "Reolink",
     "model": "RLC-840A",
@@ -80733,7 +79520,10 @@
         "profile": "Reolink",
         "notes": "Select 'Reolink' profile. If not listed, use Generic/ONVIF with RTSP path /h264Preview_01_main."
       }
-    }
+    },
+    "aliases": [
+      "reolink-rlc-840a"
+    ]
   },
   {
     "id": "reolink-rlc-840wa",
@@ -81223,7 +80013,9 @@
     "brand": "Reolink",
     "model": "TrackMix LTE",
     "type": "dual-lens",
-    "connectivity": [],
+    "connectivity": [
+      "4g"
+    ],
     "release_year": 2023,
     "resolution": {
       "megapixels": 8,
@@ -82165,6 +80957,9 @@
     "msrp_usd": 59.99,
     "sources": [
       "https://ring.com/products/indoor-cam"
+    ],
+    "power_source": [
+      "dc"
     ]
   },
   {
@@ -82346,6 +81141,9 @@
     "msrp_usd": 79.99,
     "sources": [
       "https://ring.com/products/outdoor-cam"
+    ],
+    "power_source": [
+      "dc"
     ]
   },
   {
@@ -82715,6 +81513,9 @@
     "msrp_usd": 179.99,
     "sources": [
       "https://ring.com/products/spotlight-cam-plus-plug-in"
+    ],
+    "power_source": [
+      "ac-mains"
     ]
   },
   {
@@ -83027,6 +81828,9 @@
     "msrp_usd": 99.99,
     "sources": [
       "https://ring.com/products/stick-up-cam-plug-in"
+    ],
+    "power_source": [
+      "dc"
     ]
   },
   {
@@ -84028,62 +82832,6 @@
     ]
   },
   {
-    "id": "somfy-indoor-cam",
-    "brand": "Somfy",
-    "model": "Indoor Camera",
-    "type": "dome",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2020,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "130h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 5
-    },
-    "power": {
-      "method": "DC 5V USB"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 32,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP20",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "Somfy Indoor Camera 1080p WiFi",
-      "person/motion detection",
-      "Somfy TaHoma integration",
-      "Alexa / Google",
-      "GDPR EU cloud"
-    ],
-    "sources": [
-      "https://www.somfy.fr/"
-    ],
-    "markets": [
-      "FR",
-      "DE",
-      "EU"
-    ],
-    "msrp_eur": 149,
-    "power_source": [
-      "usb"
-    ]
-  },
-  {
     "id": "somfy-indoor-camera",
     "brand": "Somfy",
     "model": "Indoor Camera",
@@ -84096,10 +82844,10 @@
     ],
     "release_year": 2020,
     "markets": [
-      "FR",
       "DE",
       "ES",
-      "EU"
+      "EU",
+      "FR"
     ],
     "resolution": {
       "megapixels": 2,
@@ -84218,63 +82966,6 @@
     ]
   },
   {
-    "id": "somfy-outdoor-cam",
-    "brand": "Somfy",
-    "model": "Outdoor Camera",
-    "type": "bullet",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2021,
-    "resolution": {
-      "megapixels": 2,
-      "label": "1080p HD"
-    },
-    "field_of_view_deg": "130h",
-    "night_vision": {
-      "type": "ir",
-      "range_m": 15
-    },
-    "power": {
-      "method": "DC 12V hardwired"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 32,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "http"
-    ],
-    "ip_rating": "IP55",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "Somfy Outdoor Camera 1080p WiFi",
-      "person/vehicle/animal detection",
-      "Somfy TaHoma integration",
-      "Alexa / Google",
-      "GDPR EU cloud",
-      "IP55"
-    ],
-    "sources": [
-      "https://www.somfy.fr/"
-    ],
-    "markets": [
-      "FR",
-      "DE",
-      "EU"
-    ],
-    "msrp_eur": 189,
-    "power_source": [
-      "dc"
-    ]
-  },
-  {
     "id": "somfy-outdoor-camera",
     "brand": "Somfy",
     "model": "Outdoor Camera",
@@ -84288,10 +82979,10 @@
     ],
     "release_year": 2021,
     "markets": [
-      "FR",
       "DE",
       "ES",
-      "EU"
+      "EU",
+      "FR"
     ],
     "resolution": {
       "megapixels": 2,
@@ -85504,6 +84195,918 @@
         "notes": "Use Generic/ONVIF profile. RTSP paths: /snl/live/1/1/ (main), /snl/live/1/2/ (sub)."
       }
     }
+  },
+  {
+    "id": "sv3c-b04poe",
+    "brand": "SV3C",
+    "model": "SV-B04POE",
+    "aliases": [
+      "SV3C 4MP PoE Bullet H.265"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 4,
+      "max_width": 2560,
+      "max_height": 1440,
+      "label": "2K QHD"
+    },
+    "night_vision": {
+      "type": "ir"
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": false,
+      "speaker": false,
+      "two_way": false
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ]
+    },
+    "features": [
+      "4MP Super HD 2560x1440",
+      "H.265 compression",
+      "IR night vision",
+      "motion detection",
+      "IP66",
+      "RTSP"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. H.265 main stream. No ONVIF. No audio."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Use Generic/RTSP. Main: /stream0, Sub: /stream1."
+      }
+    },
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/Upgraded-SV3C-IP-POE-Camera-Security-Outdoor-4-Megapixels-Super-HD-2560x1440-H-265-Waterproof-Video-Camera-IR-Night-Vision-Motion-Detection-Wired-p1743568.html"
+    ]
+  },
+  {
+    "id": "sv3c-b05poe",
+    "brand": "SV3C",
+    "model": "SV-B05POE",
+    "aliases": [
+      "SV3C 5MP PoE Bullet"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "label": "5MP"
+    },
+    "night_vision": {
+      "type": "ir"
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 128,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "5MP",
+      "humanoid detection",
+      "IP66",
+      "RTSP",
+      "browser view"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. No ONVIF."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Use Generic/RTSP. Main: /stream0, Sub: /stream1."
+      }
+    },
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-5MP-POE-IP-Camera-5-Megapixels-Security-Camera-Outdoor-with-2-Way-Audio-Humanoid-Detection-IP66-Waterproof-Power-Over-Ethernet-Cameras-Support-Max-128G-SD-Card-Record-Browser-View-No-WiFi-p2437989.html"
+    ]
+  },
+  {
+    "id": "sv3c-b05w",
+    "brand": "SV3C",
+    "model": "SV-B05W / SV-B08W",
+    "aliases": [
+      "SV3C 5MP WiFi Bullet",
+      "SV3C 8MP WiFi Bullet"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "label": "5MP"
+    },
+    "night_vision": {
+      "type": "ir"
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 128,
+      "nvr_compatible": false,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp",
+      "onvif"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "5MP/8MP variants",
+      "ONVIF",
+      "RTSP",
+      "motion detection",
+      "IP66",
+      "two-way audio"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. This is the original SV3C model — one of the few that supports ONVIF. Known for inconsistent firmware; RTSP may break after updates."
+      },
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "Use ONVIF integration. One of the few SV3C models with ONVIF support. Firmware updates may break ONVIF — pin your firmware version."
+      },
+      "blue_iris": {
+        "profile": "Generic/ONVIF",
+        "notes": "Use Generic/ONVIF. Also works with Generic/RTSP at /stream0 and /stream1."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/5MP-8MP-Outdoor-Security-Camera-SV3C-WiFi-Wireless-5-8-Megapixels-HD-Night-Vision-Surveillance-Cameras-2-Way-Audio-IP-Camera-Motion-Detection-CCTV-Weatherproof-Outside-Camera-Support-Max-128GB-SD-Card-p395185.html"
+    ]
+  },
+  {
+    "id": "sv3c-b08poe",
+    "brand": "SV3C",
+    "model": "SV-B08POE",
+    "aliases": [
+      "SV3C 4K PoE Bullet"
+    ],
+    "type": "bullet",
+    "connectivity": [
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "field_of_view_deg": "120 horizontal",
+    "night_vision": {
+      "type": "hybrid"
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 256,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "4K@20fps",
+      "human/vehicle detection",
+      "color night vision",
+      "RTSP",
+      "metal shell"
+    ],
+    "video": {
+      "codecs": [
+        "H.264"
+      ],
+      "max_fps": 20,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 20,
+          "codec": "H.264"
+        },
+        {
+          "name": "sub",
+          "resolution": "unknown",
+          "fps": 20,
+          "codec": "H.264"
+        }
+      ]
+    },
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user is 'admin'. RTSP paths are /stream0 (main) and /stream1 (sub). No ONVIF."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Use Generic/RTSP. Main: /stream0, Sub: /stream1. Default user 'admin'."
+      }
+    },
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-4K-POE-IP-Camera-Outdoor-8MP-POE-Security-Camera-with-Smart-Motion-Detection-IR-Color-Night-Vision-120-Wide-Angle-2-Way-Audio-Metal-Shell-RTSP-SD-Card-Record-Wired-p2471515.html"
+    ]
+  },
+  {
+    "id": "sv3c-c12",
+    "brand": "SV3C",
+    "model": "C12",
+    "aliases": [
+      "SV3C PTZ WiFi 15X Optical Zoom",
+      "SV3C 5MP WiFi PTZ Floodlight"
+    ],
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "label": "5MP"
+    },
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "15x optical zoom",
+      "varifocal": true
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "DC 12V",
+      "consumption_w": 12
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "15x optical zoom",
+      "auto-tracking",
+      "floodlight color night vision (12 IR LEDs)",
+      "two-way audio",
+      "metal dome shell",
+      "RTSP/FTP",
+      "Blue Iris compatible",
+      "dual stream (2 channels)"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. RTSP /stream0 (main) /stream1 (sub). No ONVIF — PTZ control via app/web UI only."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Manufacturer lists Blue Iris compatibility. Use Generic/RTSP at /stream0. No ONVIF PTZ control."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://www.amazon.de/SV3C-%C3%9Cberwachungskamera-Optischer-Flutlicht-Nachtsicht/dp/B0BDFF5VMC",
+      "https://www.sv3c.com/SV3C-PTZ-WiFi-Security-Camera-Outdoor-15X-Optical-Zoom-Auto-Tracking-5MP-8MP-Floodlight-Color-Night-Vision-Wireless-IP-Cam-2-Way-Audio-Metal-Shell-RTSP-FTP-SD-Card-Record-BlueIris-p2032033.html"
+    ]
+  },
+  {
+    "id": "sv3c-c25",
+    "brand": "SV3C",
+    "model": "C25",
+    "type": "ptz",
+    "connectivity": [
+      "wifi",
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 128,
+      "nvr_compatible": false,
+      "cloud": true
+    },
+    "protocols": [
+      "onvif",
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "36x hybrid zoom (18x optical + 18x digital)",
+      "350° pan / 93° tilt",
+      "auto-tracking",
+      "people/vehicle/pet detection",
+      "color night vision (9 IR LEDs)",
+      "two-way audio",
+      "ONVIF/RTSP/FTP",
+      "2.4/5GHz WiFi + Ethernet",
+      "cloud + microSD storage"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. ONVIF supported on this model (unlike most SV3C). PTZ control via ONVIF possible."
+      },
+      "blue_iris": {
+        "profile": "Generic/ONVIF",
+        "notes": "Use Generic/ONVIF. PTZ control supported via ONVIF."
+      },
+      "home_assistant": {
+        "integration": "onvif",
+        "notes": "ONVIF integration works — one of the few SV3C models with ONVIF. PTZ controls exposed via ONVIF."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-8MP-PTZ-Camera-Outdoor-Update-2-4-5-GHZ-WiFi-Security-IP-Cameras-Support-36X-Zoom-RTSP-PC-Web-Browser-Viewing-Humanoid-Detect-FTP-IP66-Waterproof-2-way-Audio-SD-Card-Record-p2300200.html",
+      "https://www.amazon.de/SV3C-%C3%BCberwachungskamera-Haustiererkennung-Auto-Tracking-Farbnachtsicht/dp/B0CXPSKK2R"
+    ],
+    "aliases": [
+      "SV3C 4K 36X Zoom PTZ",
+      "SV3C 8MP PTZ WiFi 36X"
+    ],
+    "sensor": "IMX415 CMOS",
+    "lens": {
+      "count": 1,
+      "focal_length_mm": "18x optical zoom (36x hybrid)",
+      "varifocal": true
+    },
+    "video": {
+      "codecs": [
+        "H.265"
+      ],
+      "max_fps": 15,
+      "streams": [
+        {
+          "name": "main",
+          "resolution": "3840x2160",
+          "fps": 15,
+          "codec": "H.265"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sv3c-d08poe",
+    "brand": "SV3C",
+    "model": "SV-D08POE",
+    "aliases": [
+      "SV3C 4K PoE Dome"
+    ],
+    "type": "dome",
+    "connectivity": [
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "max_width": 3840,
+      "max_height": 2160,
+      "label": "4K UHD"
+    },
+    "field_of_view_deg": "120 horizontal",
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 512,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "4K 8MP",
+      "human/vehicle detection",
+      "color night vision",
+      "RTSP",
+      "24/7 recording"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. RTSP /stream0 (main) /stream1 (sub). No ONVIF."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Use Generic/RTSP. Main: /stream0, Sub: /stream1."
+      }
+    },
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-4K-POE-Camera-Outdoor-IP-Dome-Wired-Security-Indoor-Camera-with-Human-Vehicle-Detection-8MP-HD-Color-Night-Vision-Two-Way-Audio-Waterproof-24-7-Recording-RTSP-Up-to-512GB-SD-Card-p2471510.html"
+    ]
+  },
+  {
+    "id": "sv3c-ptz-1080p-wifi-4x",
+    "brand": "SV3C",
+    "model": "SV3C 1080P WiFi PTZ 4X",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 2,
+      "max_width": 1920,
+      "max_height": 1080,
+      "label": "1080p FHD"
+    },
+    "night_vision": {
+      "type": "ir"
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "1080P WiFi PTZ",
+      "4x digital zoom",
+      "AI human detection",
+      "RTSP",
+      "CamHi app"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 640,
+          "height": 480,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. Budget 1080P PTZ. No ONVIF."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/1080P-Wifi-Surveillance-Camera-SV3C-Wireless-Home-Security-PTZ-Camera-IP-CCTV-4X-Digital-ZOOM-AI-Human-Detect-CamHi-p2058778.html"
+    ]
+  },
+  {
+    "id": "sv3c-ptz-4k-dual-network",
+    "brand": "SV3C",
+    "model": "SV3C 4K PTZ PoE+WiFi Dual Network",
+    "type": "ptz",
+    "connectivity": [
+      "ethernet",
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 8,
+      "label": "4K UHD"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "pan/tilt/zoom",
+      "4K 8MP",
+      "dual network (PoE + WiFi)",
+      "auto-tracking",
+      "human/vehicle detection",
+      "color night vision",
+      "RTSP",
+      "24/7 recording",
+      "CamHiPro app"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. Supports both PoE and WiFi simultaneously. No ONVIF."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Use Generic/RTSP. Main: /stream0, Sub: /stream1."
+      }
+    },
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-4K-PTZ-POE-Wired-WiFi-Security-Camera-Outdoor-Dual-Network-Support-Auto-Tracking-Security-Cam-Color-Night-Vision-Human-Vehicle-Detection-2-Way-Audio-Waterproof-24-7-Record-CamHiPro-p2707179.html"
+    ]
+  },
+  {
+    "id": "sv3c-ptz-5mp-wifi-5x",
+    "brand": "SV3C",
+    "model": "SV3C 5MP WiFi PTZ 5X Spotlight",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "label": "5MP"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 128,
+      "nvr_compatible": false,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "ip_rating": "IP66",
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "5MP WiFi PTZ",
+      "5x optical zoom",
+      "auto-tracking",
+      "spotlight color night vision",
+      "IP66",
+      "RTSP"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. No ONVIF."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/New-Auto-Track-PTZ-WiFi-Camera-Outdoor-Wireless-5MP-5X-Zoom-Spotlight-Color-Night-Vision-Camera-IP66-Waterproof-Playback-p1737238.html"
+    ]
+  },
+  {
+    "id": "sv3c-ptz-poe-15x",
+    "brand": "SV3C",
+    "model": "SV3C 5MP/8MP PoE PTZ 15X",
+    "type": "ptz",
+    "connectivity": [
+      "ethernet"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "label": "5MP"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "PoE / DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": true,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "15x optical zoom",
+      "auto-tracking",
+      "floodlight color night vision",
+      "RTSP",
+      "FTP",
+      "Blue Iris compatible",
+      "metal shell"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. No ONVIF. Blue Iris compatible per manufacturer."
+      },
+      "blue_iris": {
+        "profile": "Generic/RTSP",
+        "notes": "Manufacturer explicitly lists Blue Iris compatibility. Use Generic/RTSP at /stream0."
+      }
+    },
+    "power_source": [
+      "poe",
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-5MP-8MP-POE-PTZ-Security-Camera-Outdoor-15X-Optical-Zoom-5MP-4k-Auto-Tracking-Floodlight-Color-Night-Vision-IP-Camera-2-Way-Audio-Metal-Shell-RTSP-FTP-SD-Card-Record-BlueIris-Wired-p2302126.html"
+    ]
+  },
+  {
+    "id": "sv3c-ptz-wifi-track",
+    "brand": "SV3C",
+    "model": "SV3C 5MP/8MP WiFi PTZ Motion Track",
+    "type": "ptz",
+    "connectivity": [
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 5,
+      "label": "5MP"
+    },
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "DC 12V"
+    },
+    "storage": {
+      "onboard": true,
+      "nvr_compatible": false,
+      "cloud": false
+    },
+    "protocols": [
+      "rtsp"
+    ],
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "video": {
+      "codecs": [
+        "H.265",
+        "H.264"
+      ]
+    },
+    "features": [
+      "pan/tilt/zoom",
+      "5MP/8MP variants",
+      "H.265+H.264",
+      "motion tracking",
+      "spotlight full-color night vision",
+      "metal shell",
+      "RTSP"
+    ],
+    "configs": {
+      "frigate": {
+        "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+        "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+        "detect": {
+          "width": 1280,
+          "height": 720,
+          "fps": 5
+        },
+        "notes": "Default user 'admin'. H.265 main stream available. No ONVIF."
+      }
+    },
+    "power_source": [
+      "dc"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-5MP-8MP-WiFi-IP-Camera-Outdoor-Metal-Motion-Track-PTZ-Security-Surveillance-Camera-Spotlight-Full-Color-Night-Vision-IP-Camera-p2010092.html"
+    ]
+  },
+  {
+    "id": "sv3c-solar-dual-lens-2k",
+    "brand": "SV3C",
+    "model": "SV3C 2K Solar Dual-Lens Kit",
+    "type": "dual-lens",
+    "connectivity": [
+      "wifi"
+    ],
+    "resolution": {
+      "megapixels": 4,
+      "label": "2K QHD"
+    },
+    "field_of_view_deg": "106 wide / 46 tele",
+    "night_vision": {
+      "type": "color"
+    },
+    "power": {
+      "method": "Solar panel / rechargeable battery"
+    },
+    "storage": {
+      "onboard": true,
+      "max_microsd_gb": 64,
+      "nvr_compatible": false,
+      "cloud": false
+    },
+    "audio": {
+      "microphone": true,
+      "speaker": true,
+      "two_way": true
+    },
+    "features": [
+      "2K dual-lens",
+      "solar powered",
+      "360° pan/tilt",
+      "auto-tracking",
+      "color night vision",
+      "no subscription",
+      "4-camera kit"
+    ],
+    "power_source": [
+      "battery",
+      "solar"
+    ],
+    "sources": [
+      "https://www.sv3c.com/SV3C-Security-Cameras-Wireless-Outdoor-2K-Dual-Lens-Camera-for-Home-Security-with-Solar-Powered-No-Subscription-Fees-360-Pan-Tilt-Auto-Tracking-Color-Night-Vision-2-Way-Audio-4-Camera-Kit-p2708922.html"
+    ]
   },
   {
     "id": "swann-4k-bullet",
@@ -87818,7 +87421,7 @@
       "ethernet"
     ],
     "resolution": {
-      "megapixels": 2,
+      "megapixels": 3.7,
       "max_width": 2560,
       "max_height": 1440,
       "label": "2K QHD"
@@ -92603,94 +92206,12 @@
     }
   },
   {
-    "id": "tapo-tc82",
-    "brand": "Tapo",
-    "model": "TC82",
-    "aliases": [
-      "Smart Outdoor Camera with Floodlight"
-    ],
-    "type": "bullet",
-    "connectivity": [
-      "wifi"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 4,
-      "max_width": 2560,
-      "max_height": 1440,
-      "label": "2K QHD"
-    },
-    "lens": {
-      "count": 1,
-      "focal_length_mm": "2.8mm",
-      "aperture": "F1.6",
-      "varifocal": false
-    },
-    "field_of_view_deg": "116 horizontal",
-    "night_vision": {
-      "type": "color",
-      "range_m": 15
-    },
-    "power": {
-      "method": "Hardwired (AC)"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": false,
-      "cloud": true
-    },
-    "protocols": [
-      "rtsp"
-    ],
-    "ip_rating": "IP66",
-    "audio": {
-      "microphone": true,
-      "speaker": true,
-      "two_way": true
-    },
-    "features": [
-      "2K floodlight security camera",
-      "3000-lumen floodlight",
-      "AI person/pet/vehicle detection",
-      "color night vision",
-      "IP66",
-      "built-in siren",
-      "activity zones",
-      "no subscription"
-    ],
-    "sources": [
-      "https://www.tapo.com/"
-    ],
-    "power_source": [
-      "ac-mains"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/stream2"
-      },
-      "home_assistant": {
-        "integration": "tapo",
-        "notes": "Native TP-Link Tapo integration. Requires Tapo cloud account credentials."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. RTSP streams: /stream1 (main), /stream2 (sub). Must enable ONVIF in Tapo app."
-      }
-    }
-  },
-  {
     "id": "tapo-tc82-global",
     "brand": "Tapo",
     "model": "TC82",
     "aliases": [
-      "TP-Link Tapo TC82 2K Floodlight Camera"
+      "TP-Link Tapo TC82 2K Floodlight Camera",
+      "tapo-tc82"
     ],
     "type": "bullet",
     "connectivity": [
@@ -96478,8 +95999,8 @@
     "configs": {
       "frigate": {
         "detect": {
-          "width": 1280,
-          "height": 720,
+          "width": 720,
+          "height": 1280,
           "fps": 5
         },
         "rtsp_url_template": "rtsps://{ip}:7441/{camera_id}?enableSrtp"
@@ -96559,8 +96080,8 @@
     "configs": {
       "frigate": {
         "detect": {
-          "width": 1280,
-          "height": 720,
+          "width": 720,
+          "height": 1280,
           "fps": 5
         },
         "rtsp_url_template": "rtsps://{ip}:7441/{camera_id}?enableSrtp"
@@ -97530,78 +97051,6 @@
     }
   },
   {
-    "id": "uniview-ipc2224se-df40k-wl",
-    "brand": "Uniview",
-    "model": "IPC2224SE-DF40K-WL-I0",
-    "type": "dome",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2022,
-    "resolution": {
-      "megapixels": 4,
-      "label": "4MP"
-    },
-    "field_of_view_deg": "90h",
-    "night_vision": {
-      "type": "color",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "Uniview 4MP LightHunter full-color dome",
-      "warm LED color night vision",
-      "NDAA",
-      "H.265+",
-      "IP67",
-      "IK10"
-    ],
-    "sources": [
-      "https://www.uniview.com/"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/unicast/c1/s0/live",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/unicast/c1/s1/live"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. RTSP paths: /unicast/c1/s0/live (main), /unicast/c1/s1/live (sub)."
-      }
-    }
-  },
-  {
     "id": "uniview-ipc2224se-df40k-wl-i0",
     "brand": "Uniview",
     "model": "IPC2224SE-DF40K-WL-I0",
@@ -97659,78 +97108,6 @@
     ],
     "sources": [
       "https://www.123securityproducts.com/ipc2224sedf40kwli0.html"
-    ],
-    "power_source": [
-      "poe",
-      "dc"
-    ],
-    "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/unicast/c1/s0/live",
-        "best_substream": "rtsp://{user}:{pass}@{ip}:554/unicast/c1/s1/live"
-      },
-      "home_assistant": {
-        "integration": "onvif",
-        "notes": "Use ONVIF integration. Default ONVIF port 80."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. RTSP paths: /unicast/c1/s0/live (main), /unicast/c1/s1/live (sub)."
-      }
-    }
-  },
-  {
-    "id": "uniview-ipc2228se-df40k-wl",
-    "brand": "Uniview",
-    "model": "IPC2228SE-DF40K-WL-I0",
-    "type": "dome",
-    "connectivity": [
-      "ethernet"
-    ],
-    "release_year": 2023,
-    "resolution": {
-      "megapixels": 8,
-      "label": "4K UHD"
-    },
-    "field_of_view_deg": "107h",
-    "night_vision": {
-      "type": "color",
-      "range_m": 30
-    },
-    "power": {
-      "method": "PoE / DC 12V"
-    },
-    "storage": {
-      "onboard": true,
-      "max_microsd_gb": 256,
-      "nvr_compatible": true,
-      "cloud": false
-    },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
-    "ip_rating": "IP67",
-    "audio": {
-      "microphone": false,
-      "speaker": false,
-      "two_way": false
-    },
-    "features": [
-      "Uniview 4K LightHunter full-color dome",
-      "warm LED color night vision",
-      "AI human/vehicle",
-      "NDAA",
-      "H.265+",
-      "IP67"
-    ],
-    "sources": [
-      "https://www.uniview.com/"
     ],
     "power_source": [
       "poe",
@@ -100174,6 +99551,7 @@
       "two_way": false
     },
     "features": [
+      "pan/tilt/zoom",
       "Vivotek 4MP 32x outdoor PTZ",
       "100m IR",
       "Smart VCA AI",
@@ -100250,7 +99628,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -100275,21 +99654,9 @@
       "solar"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No official RTSP. Use docker-wyze-bridge (https://github.com/mrlt8/docker-wyze-bridge) for local RTSP proxy. Not compatible with Frigate or Blue Iris without the bridge."
       }
     }
   },
@@ -100572,7 +99939,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -100586,8 +99954,7 @@
       "AI person/vehicle/animal/package",
       "no subscription",
       "solar optional",
-      "Alexa / Google",
-      "RTSP"
+      "Alexa / Google"
     ],
     "msrp_usd": 59,
     "sources": [
@@ -100598,21 +99965,9 @@
       "solar"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No official RTSP. Use docker-wyze-bridge for local RTSP proxy. Not compatible with Frigate or Blue Iris without the bridge."
       }
     }
   },
@@ -100656,7 +100011,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -100682,21 +100038,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No official RTSP. Use docker-wyze-bridge for local RTSP proxy. Not compatible with Frigate or Blue Iris without the bridge."
       }
     }
   },
@@ -100740,7 +100084,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -100765,21 +100110,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No native RTSP. Use docker-wyze-bridge for local RTSP proxy. Pan/tilt control available via bridge."
       }
     }
   },
@@ -100906,7 +100239,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "audio": {
       "microphone": true,
@@ -100918,8 +100252,7 @@
       "14-day free cloud storage",
       "person detection",
       "continuous recording (microSD)",
-      "Alexa / Google Home",
-      "RTSP firmware available"
+      "Alexa / Google Home"
     ],
     "msrp_usd": 26,
     "sources": [
@@ -100929,21 +100262,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "Legacy RTSP firmware was available but is discontinued. Use docker-wyze-bridge for local RTSP proxy."
       }
     }
   },
@@ -101237,7 +100558,8 @@
       "cloud": true
     },
     "protocols": [
-      "rtsp"
+      "http",
+      "p2p"
     ],
     "ip_rating": "IP65",
     "audio": {
@@ -101262,21 +100584,9 @@
       "ac-mains"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 1280,
-          "height": 720,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-      },
       "home_assistant": {
         "integration": "wyze",
-        "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-      },
-      "blue_iris": {
-        "profile": "Generic/RTSP",
-        "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+        "notes": "No official RTSP. Use docker-wyze-bridge for local RTSP proxy."
       }
     }
   },
@@ -101530,9 +100840,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP65",
     "audio": {
       "microphone": true,
@@ -101558,21 +100866,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch00_0"
-      },
       "home_assistant": {
         "integration": "onvif",
-        "notes": "Limited RTSP support. Some models require Yale app."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. Limited RTSP support on some models."
+        "notes": "Yale cameras are primarily cloud-based (Yale Home app). RTSP support is unconfirmed. Check camera settings for ONVIF/RTSP options."
       }
     }
   },
@@ -101737,9 +101033,7 @@
       "nvr_compatible": false,
       "cloud": true
     },
-    "protocols": [
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP20",
     "audio": {
       "microphone": true,
@@ -101764,21 +101058,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch00_0"
-      },
       "home_assistant": {
         "integration": "onvif",
-        "notes": "Limited RTSP support. Some models require Yale app."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. Limited RTSP support on some models."
+        "notes": "Yale cameras are primarily cloud-based (Yale Home app). RTSP support is unconfirmed."
       }
     }
   },
@@ -101921,9 +101203,7 @@
       "nvr_compatible": false,
       "cloud": true
     },
-    "protocols": [
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP20",
     "audio": {
       "microphone": true,
@@ -101947,21 +101227,9 @@
       "usb"
     ],
     "configs": {
-      "frigate": {
-        "detect": {
-          "width": 640,
-          "height": 480,
-          "fps": 5
-        },
-        "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch00_0"
-      },
       "home_assistant": {
         "integration": "onvif",
-        "notes": "Limited RTSP support. Some models require Yale app."
-      },
-      "blue_iris": {
-        "profile": "Generic/ONVIF",
-        "notes": "Use Generic/ONVIF profile. Limited RTSP support on some models."
+        "notes": "Older Yale model. RTSP support is unconfirmed. May be cloud-only via Yale Home app."
       }
     }
   },
@@ -102124,10 +101392,7 @@
       "nvr_compatible": true,
       "cloud": false
     },
-    "protocols": [
-      "onvif",
-      "rtsp"
-    ],
+    "protocols": [],
     "ip_rating": "IP66",
     "audio": {
       "microphone": false,
@@ -102137,7 +101402,6 @@
     "features": [
       "Zebronics 4MP PoE outdoor bullet India",
       "30m IR",
-      "ONVIF/RTSP",
       "IP66",
       "₹3,499"
     ],
@@ -102149,7 +101413,6 @@
     ],
     "msrp_inr": 3499,
     "power_source": [
-      "poe",
       "dc"
     ]
   },

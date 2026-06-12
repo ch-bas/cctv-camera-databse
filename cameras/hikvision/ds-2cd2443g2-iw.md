@@ -4,7 +4,7 @@
 |-------|------|
 | Brand | Hikvision |
 | Model | DS-2CD2443G2-I(W) |
-| Type | covert |
+| Type | box |
 | Connectivity | ethernet |
 | Resolution | 4MP (4MP) |
 | Field of view | 110h° |

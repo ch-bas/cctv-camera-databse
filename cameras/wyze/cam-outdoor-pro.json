@@ -36,7 +36,8 @@
     "cloud": true
   },
   "protocols": [
-    "rtsp"
+    "http",
+    "p2p"
   ],
   "ip_rating": "IP65",
   "audio": {
@@ -50,8 +51,7 @@
     "AI person/vehicle/animal/package",
     "no subscription",
     "solar optional",
-    "Alexa / Google",
-    "RTSP"
+    "Alexa / Google"
   ],
   "msrp_usd": 59,
   "sources": [
@@ -62,21 +62,9 @@
     "solar"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 1280,
-        "height": 720,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}/live"
-    },
     "home_assistant": {
       "integration": "wyze",
-      "notes": "Use wyze_bridge HACS integration for RTSP. Official Wyze firmware does not support RTSP; flash wz_mini_hacks or use Docker bridge."
-    },
-    "blue_iris": {
-      "profile": "Generic/RTSP",
-      "notes": "Use Generic/RTSP profile. Requires wz_mini_hacks firmware or wyze-bridge Docker container for RTSP."
+      "notes": "No official RTSP. Use docker-wyze-bridge for local RTSP proxy. Not compatible with Frigate or Blue Iris without the bridge."
     }
   }
 }

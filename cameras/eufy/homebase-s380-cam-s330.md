@@ -8,7 +8,7 @@
 | Model | EufyCam 3C (S330) |
 | Type | bullet |
 | Connectivity | wifi |
-| Resolution | 2K (4MP, 2048×1080) |
+| Resolution | 2K (4MP) |
 | Lens | 1× |
 | Field of view | 135 diagonal° |
 | Night vision | color (10m) |

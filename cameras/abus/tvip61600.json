@@ -36,6 +36,7 @@
     "two_way": false
   },
   "features": [
+    "pan/tilt/zoom",
     "ABUS 1080p 12x PTZ outdoor",
     "50m IR",
     "H.265",

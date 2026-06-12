@@ -15,7 +15,6 @@
 | Night vision | color (15m) |
 | Power | PoE (802.3af) / DC 5V WiFi version |
 | Storage | NVR |
-| Protocols | rtsp, onvif |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2025 |
@@ -26,7 +25,6 @@
 - Zigbee 3.0 + Thread Border Router + Matter Controller (smart home hub)
 - HomeKit Secure Video (E2E encrypted)
 - Alexa / Google / SmartThings
-- RTSP local streaming (Home Assistant)
 - on-device AI (face/vehicle/pet/audio)
 - eMMC + iCloud + NAS/SMB backup
 - PoE or WiFi versions

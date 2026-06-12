@@ -40,9 +40,7 @@
     "nvr_compatible": true,
     "cloud": true
   },
-  "protocols": [
-    "rtsp"
-  ],
+  "protocols": [],
   "ip_rating": "IP20",
   "audio": {
     "microphone": true,
@@ -54,7 +52,6 @@
     "Zigbee 3.0 hub built-in",
     "on-device AI face/person",
     "IR remote emitter",
-    "RTSP Home Assistant",
     "Alexa / Google",
     "Matter compatible"
   ],
@@ -66,21 +63,9 @@
     "usb"
   ],
   "configs": {
-    "frigate": {
-      "detect": {
-        "width": 1280,
-        "height": 720,
-        "fps": 5
-      },
-      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/live"
-    },
     "home_assistant": {
       "integration": "homekit",
-      "notes": "Best via HomeKit integration. RTSP available on G2H/G3 models via HomeKit Secure Video."
-    },
-    "blue_iris": {
-      "profile": "Generic/RTSP",
-      "notes": "Use Generic/RTSP profile. RTSP only available on select models (G2H, G3)."
+      "notes": "No RTSP or ONVIF. HomeKit Secure Video only. Use HomeKit integration in HA. Not compatible with Frigate or Blue Iris."
     }
   }
 }

@@ -1,6 +1,6 @@
 # Dahua IPC-HDW3849H-ZAS-PV
 
-*Also known as: WizSense TiOC 8MP Varifocal Turret*
+*Also known as: WizSense TiOC 8MP Varifocal Turret, dahua-ipc-hdw3849h-zas-pv-varifocal*
 
 | Field | Spec |
 |-------|------|

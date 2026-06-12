@@ -13,7 +13,7 @@
 | Night vision | color (12m) |
 | Power | Hardwired (AC mains) |
 | Storage | microSD ≤ 256GB |
-| Protocols | rtsp |
+| Protocols | http, p2p |
 | IP rating | IP65 |
 | Two-way audio | Yes |
 | Released | 2023 |

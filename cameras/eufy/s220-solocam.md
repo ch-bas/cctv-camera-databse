@@ -8,7 +8,7 @@
 | Model | SoloCam S220 |
 | Type | bullet |
 | Connectivity | wifi |
-| Resolution | 2K (4MP, 2048×1080) |
+| Resolution | 2K (4MP) |
 | Lens | 1× |
 | Field of view | 90 diagonal° |
 | Night vision | color (7m) |

@@ -1,9 +1,9 @@
 # CCTV Camera Database
 
-An open, structured database of 1,324 CCTV / IP camera models and their technical specifications, covering 66 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
+An open, structured database of 1,314 CCTV / IP camera models and their technical specifications, covering 67 brands across every market segment — from budget consumer WiFi cameras to enterprise PTZ domes and thermal imaging systems. Each camera is a validated JSON file, aggregated into a single queryable dataset (JSON + CSV).
 
-[![cameras](https://img.shields.io/badge/cameras-1%2C324-blue)](data/cameras.json)
-[![brands](https://img.shields.io/badge/brands-66-green)](cameras/)
+[![cameras](https://img.shields.io/badge/cameras-1%2C314-blue)](data/cameras.json)
+[![brands](https://img.shields.io/badge/brands-67-green)](cameras/)
 [![license](https://img.shields.io/badge/license-CC0-lightgrey)](LICENSE)
 
 ---
@@ -27,7 +27,7 @@ Camera spec sheets are scattered across vendor PDFs, retailer pages, and paywall
 - **Filter** — narrow by brand, camera type, night vision, resolution, or market
 - **Sort** — click any column header to sort ascending/descending
 - **Detail drawer** — click a row to slide open the full spec sheet (resolution, connectivity, protocols, storage, audio, pricing, source links)
-- **Pagination** — page through all 1,324 cameras, 25 per page
+- **Pagination** — page through all 1,314 cameras, 25 per page
 - **Stats bar** — live counts for total cameras, brands, 4K+, WiFi, and no-subscription models
 
 ---
@@ -51,15 +51,15 @@ a Claude Code skill for AI-powered video production built on [Remotion](https://
 ```
 cctv-camera-database/
 ├── cameras/              # source of truth — one JSON file per camera, grouped by brand
-│   ├── hikvision/        # 139 cameras
-│   ├── reolink/          # 133 cameras
-│   ├── dahua/            # 101 cameras
-│   ├── hanwha/           #  62 cameras
-│   ├── axis/             #  58 cameras
-│   ├── tapo/             #  56 cameras
+│   ├── hikvision/        # 150 cameras
+│   ├── reolink/          # 130 cameras
+│   ├── dahua/            # 107 cameras
+│   ├── hanwha/           #  71 cameras
+│   ├── axis/             #  66 cameras
+│   ├── tapo/             #  62 cameras
 │   └── …60 more brands
 ├── data/                 # GENERATED — do not edit by hand
-│   ├── cameras.json      # all 1,324 cameras as one array
+│   ├── cameras.json      # all 1,314 cameras as one array
 │   └── cameras.csv       # flattened, spreadsheet-friendly
 ├── schema/
 │   └── camera.schema.json
@@ -117,45 +117,45 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 
 | Metric | Count |
 |--------|-------|
-| Total cameras | **1,324** |
-| Brands | **66** |
+| Total cameras | **1,314** |
+| Brands | **67** |
 | Form factors | 10 (bullet, dome, turret, PTZ, dual-lens, panoramic, covert, box, fisheye, doorbell) |
-| PoE wired | 863 |
-| WiFi | 427 |
-| Battery / wire-free | 130 |
-| 4K / 8MP+ | 411 |
-| 4–5MP | 588 |
-| 1080p–2MP | 296 |
+| PoE wired | 856 |
+| WiFi | 430 |
+| Battery / wire-free | 155 |
+| 4K / 8MP+ | 417 |
+| 4–5MP | 594 |
+| 1080p–2MP | 292 |
 
-### All 66 brands
+### All 67 brands
 
 | Brand | Cameras | Segment |
 |-------|---------|---------|
-| Hikvision | 151 | Enterprise + consumer, global |
-| Reolink | 133 | Prosumer, no-subscription, global |
-| Dahua | 111 | Enterprise + consumer, global |
+| Hikvision | 150 | Enterprise + consumer, global |
+| Reolink | 130 | Prosumer, no-subscription, global |
+| Dahua | 107 | Enterprise + consumer, global |
 | Hanwha | 71 | Enterprise AI, Korea/global |
-| Axis | 68 | Enterprise premium, global |
-| Tapo (TP-Link) | 64 | Consumer budget, global |
+| Axis | 66 | Enterprise premium, global |
+| Tapo (TP-Link) | 62 | Consumer budget, global |
 | Eufy (Anker) | 36 | Consumer no-subscription, global |
-| Arlo | 31 | Consumer premium wire-free, global |
-| Ring (Amazon) | 30 | Consumer ecosystem, US/EU/AU |
+| Arlo | 29 | Consumer premium wire-free, global |
+| Ring (Amazon) | 25 | Consumer ecosystem, US/EU/AU |
 | Avigilon | 24 | Enterprise NDAA, US/CA |
 | Amcrest | 24 | Prosumer, US |
 | Ubiquiti UniFi | 26 | Prosumer/SMB, US/global |
 | Annke | 23 | Prosumer, global |
-| Google Nest | 23 | Consumer smart home, global |
+| Google Nest | 19 | Consumer smart home, global |
 | Bosch | 22 | Enterprise, EU/global |
 | EZVIZ (Hikvision) | 21 | Consumer, global |
 | Lorex | 21 | Consumer NVR systems, CA/US |
 | HiLook (Hikvision) | 20 | Budget installer, EU/UK/AU |
 | Lupus Electronics | 20 | Privacy-first, DE/AT/CH |
 | Tiandy | 20 | Enterprise + prosumer, CN/ME/Africa |
-| Uniview | 17 | Enterprise NDAA, global |
+| Uniview | 15 | Enterprise NDAA, global |
 | Blink (Amazon) | 16 | Budget battery, US/UK/EU |
 | Swann | 16 | Consumer, AU/US/UK |
 | ABUS | 15 | Consumer/SMB GDPR-first, DE/AT/CH |
-| CP Plus | 15 | India #2 brand, IN |
+| CP Plus | 14 | India #2 brand, IN |
 | GeoVision | 15 | Enterprise, TW/Asia/global |
 | IMOU (Dahua) | 15 | Consumer, global |
 | Milesight | 15 | Prosumer/Enterprise IoT, global |
@@ -166,6 +166,7 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 | FLIR (Teledyne) | 12 | Thermal imaging, NA/EU |
 | Kedacom | 12 | Enterprise, CN/global |
 | Sunell | 12 | Prosumer/Enterprise, CN/global |
+| SV3C | 13 | Budget consumer, CN/US |
 | Synology | 12 | NAS-native cameras, global |
 | TVT Digital | 12 | Prosumer budget, CN/IN/SE Asia |
 | Hi-Focus | 10 | Made-in-India, BIS certified, IN |
@@ -180,10 +181,10 @@ Or open `data/cameras.csv` in any spreadsheet for a quick browse.
 | March Networks | 6 | Enterprise retail/banking, NA |
 | Netatmo | 6 | Privacy-first no-subscription, EU |
 | Secureye | 6 | Budget consumer, IN |
-| ADT | 5 | Monitored security, US |
+| ADT | 4 | Monitored security, US |
 | Hive (British Gas) | 5 | Consumer smart home, UK |
 | KBvision | 5 | Budget installer, VN |
-| Somfy | 5 | Smart home, FR/EU |
+| Somfy | 3 | Smart home, FR/EU |
 | Godrej | 4 | Consumer, IN |
 | Honeywell | 4 | Enterprise, US/IN |
 | Qubo (Hero) | 4 | Consumer IoT, IN |

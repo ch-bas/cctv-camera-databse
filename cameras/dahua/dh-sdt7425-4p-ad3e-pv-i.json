@@ -1,0 +1,127 @@
+{
+  "id": "dahua-dh-sdt7425-4p-ad3e-pv-i",
+  "brand": "Dahua",
+  "model": "DH-SDT7425-4P-AD3E-PV-i",
+  "type": "ptz",
+  "connectivity": [
+    "ethernet"
+  ],
+  "release_year": 2022,
+  "status": "discontinued",
+  "markets": [
+    "CN"
+  ],
+  "resolution": {
+    "megapixels": 4,
+    "max_width": 3840,
+    "max_height": 1080,
+    "label": "Dual: 4MP panoramic (3840x1080) + 4MP PTZ (2560x1440)"
+  },
+  "lens": {
+    "count": 2,
+    "focal_length_mm": "panoramic: 2.8 fixed / PTZ: 4.8-120 (25x optical)",
+    "aperture": "F1.0 (panoramic) / F1.6-3.6 (PTZ)",
+    "varifocal": true
+  },
+  "night_vision": {
+    "type": "hybrid",
+    "range_m": 150
+  },
+  "power": {
+    "method": "DC 36V/2.23A (±25%)",
+    "consumption_w": 35,
+    "voltage": "DC 36V"
+  },
+  "storage": {
+    "onboard": false,
+    "nvr_compatible": true,
+    "cloud": false
+  },
+  "protocols": [
+    "onvif",
+    "rtsp"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "features": [
+    "dual-channel: 180° panoramic 4MP stitched + 4MP PTZ 25x zoom",
+    "starlight 0.001 lux color @F1.0",
+    "150m IR (PTZ) + 30m white light (panoramic)",
+    "auto-tracking (single-ball tracking)",
+    "face detection with attributes (6 attributes, 8 expressions)",
+    "9 IVS rules: tripwire, intrusion, loitering, parking, crowd",
+    "human/vehicle classification",
+    "active deterrence: white light strobe + 110dB speaker, 22 voice alerts",
+    "300 presets, 8 cruise paths",
+    "2 alarm in / 1 alarm out",
+    "8000V lightning protection",
+    "electronic defog",
+    "GB/T28181, GA/T 1400 (CN standards)",
+    "China market model"
+  ],
+  "configs": {
+    "frigate": {
+      "rtsp_url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+      "best_substream": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=1&subtype=1",
+      "detect": {
+        "width": 1280,
+        "height": 360,
+        "fps": 5
+      },
+      "notes": "Dual-channel — configure as TWO Frigate cameras: panoramic = channel=1 (3840x1080, 32:9 — set detect to 1280x360 to match), PTZ = channel=2 (2560x1440, rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel=2&subtype=0, detect 1280x720). For ONVIF autotracking on the PTZ channel add 'onvif: {host, port: 80, user, password, autotracking: {enabled: true}}'. ONVIF PTZ confirmed working — Channel 2 profiles have both VideoEncoderConfiguration and PTZConfiguration (no split-profile issue, unlike SDT4E series). Verified in frigate#22135. Note: powered by DC 36V, not PoE."
+    },
+    "home_assistant": {
+      "integration": "onvif",
+      "notes": "ONVIF integration works including PTZ control. Default port 80. CN firmware."
+    },
+    "blue_iris": {
+      "profile": "Dahua",
+      "notes": "Select 'Dahua' profile. Dual-channel camera — add each channel as a separate camera."
+    }
+  },
+  "power_source": [
+    "dc"
+  ],
+  "sources": [
+    "https://github.com/ch-bas/cctv-camera-database/issues/11",
+    "https://github.com/blakeblackshear/frigate/discussions/22135",
+    "https://www.jiankongqicai.com/news/64.html"
+  ],
+  "sensor": "2x 1/2.8\" CMOS (panoramic + PTZ)",
+  "field_of_view_deg": "180 horizontal (panoramic) / 55.8-2.4 (PTZ)",
+  "ip_rating": "IP66",
+  "operating_temp_c": "-40 to +65",
+  "video": {
+    "codecs": [
+      "Smart H.265",
+      "H.265",
+      "Smart H.264",
+      "H.264",
+      "MJPEG"
+    ],
+    "max_fps": 25,
+    "streams": [
+      {
+        "name": "panoramic main",
+        "resolution": "3840x1080",
+        "fps": 25,
+        "codec": "H.265"
+      },
+      {
+        "name": "panoramic sub",
+        "resolution": "960x268",
+        "fps": 25,
+        "codec": "H.264"
+      },
+      {
+        "name": "PTZ main",
+        "resolution": "2560x1440",
+        "fps": 25,
+        "codec": "H.265"
+      }
+    ]
+  }
+}

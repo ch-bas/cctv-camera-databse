@@ -16,7 +16,6 @@
 | Power | PoE (802.3af) / DC 12V |
 | Storage | microSD ≤ 256GB, NVR |
 | Protocols | onvif, rtsp |
-| IP rating | IK10 |
 | Two-way audio | No |
 | Released | 2022 |
 
@@ -30,6 +29,7 @@
 - easy kitting — auto-discovers on IDIS NVR instantly
 - Korean-made quality
 - popular Korea retail/bank/education/healthcare
+- IK10
 
 ## Sources
 

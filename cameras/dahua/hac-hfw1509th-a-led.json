@@ -4,7 +4,7 @@
   "model": "HAC-HFW1509TH-A-LED",
   "type": "bullet",
   "connectivity": [
-    "ethernet"
+    "coax"
   ],
   "release_year": 2022,
   "resolution": {
@@ -24,9 +24,7 @@
     "nvr_compatible": true,
     "cloud": false
   },
-  "protocols": [
-    "hdcvi"
-  ],
+  "protocols": [],
   "ip_rating": "IP67",
   "audio": {
     "microphone": true,

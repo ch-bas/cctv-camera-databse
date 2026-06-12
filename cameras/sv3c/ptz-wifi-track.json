@@ -1,0 +1,65 @@
+{
+  "id": "sv3c-ptz-wifi-track",
+  "brand": "SV3C",
+  "model": "SV3C 5MP/8MP WiFi PTZ Motion Track",
+  "type": "ptz",
+  "connectivity": [
+    "wifi"
+  ],
+  "resolution": {
+    "megapixels": 5,
+    "label": "5MP"
+  },
+  "night_vision": {
+    "type": "color"
+  },
+  "power": {
+    "method": "DC 12V"
+  },
+  "storage": {
+    "onboard": true,
+    "nvr_compatible": false,
+    "cloud": false
+  },
+  "protocols": [
+    "rtsp"
+  ],
+  "audio": {
+    "microphone": true,
+    "speaker": true,
+    "two_way": true
+  },
+  "video": {
+    "codecs": [
+      "H.265",
+      "H.264"
+    ]
+  },
+  "features": [
+    "pan/tilt/zoom",
+    "5MP/8MP variants",
+    "H.265+H.264",
+    "motion tracking",
+    "spotlight full-color night vision",
+    "metal shell",
+    "RTSP"
+  ],
+  "configs": {
+    "frigate": {
+      "rtsp_url_template": "rtsp://admin:{pass}@{ip}/stream0",
+      "best_substream": "rtsp://admin:{pass}@{ip}/stream1",
+      "detect": {
+        "width": 1280,
+        "height": 720,
+        "fps": 5
+      },
+      "notes": "Default user 'admin'. H.265 main stream available. No ONVIF."
+    }
+  },
+  "power_source": [
+    "dc"
+  ],
+  "sources": [
+    "https://www.sv3c.com/SV3C-5MP-8MP-WiFi-IP-Camera-Outdoor-Metal-Motion-Track-PTZ-Security-Surveillance-Camera-Spotlight-Full-Color-Night-Vision-IP-Camera-p2010092.html"
+  ]
+}

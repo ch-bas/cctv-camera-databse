@@ -3,7 +3,8 @@
   "brand": "Dahua",
   "model": "IPC-HFW3849T1-AS-PV-PRO",
   "aliases": [
-    "WizColor TiOC PRO 8MP Bullet"
+    "WizColor TiOC PRO 8MP Bullet",
+    "dahua-ipc-hfw3849t1-as-pv-pro"
   ],
   "type": "bullet",
   "connectivity": [

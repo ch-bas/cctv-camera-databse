@@ -22,6 +22,7 @@
 
 ## Features
 
+- pan/tilt/zoom
 - 4MP 25x PTZ
 - 100m IR
 - IVA analytics
